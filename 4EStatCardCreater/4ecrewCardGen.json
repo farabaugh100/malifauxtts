@@ -1,7 +1,7 @@
 {
   "SaveName": "4e Card Builder",
-  "EpochTime": 1745040644,
-  "Date": "4/19/2025 1:30:44 AM",
+  "EpochTime": 1745201651,
+  "Date": "4/20/2025 10:14:11 PM",
   "VersionNumber": "v13.3",
   "GameMode": "BlackJack",
   "GameType": "",
@@ -1315,7 +1315,7 @@
         "posX": -26.08756,
         "posY": 1.21048343,
         "posZ": 16.6477566,
-        "rotX": 2.374106E-07,
+        "rotX": 2.22357514E-07,
         "rotY": 179.985962,
         "rotZ": 180.0,
         "scaleX": 1.0,
@@ -1349,20 +1349,19 @@
       "GridProjection": false,
       "HideWhenFaceDown": false,
       "Hands": false,
-      "LuaScript": "local modelLibrary={\r\n    Aionus={\r\n        name=\"Aionus\";\r\n        characteristics=\"Henchman,Unique,Living\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcasts\";\r\n        soulStones=8;\r\n        health=11;\r\n        df=5;\r\n        wp=7;\r\n        sp=6;\r\n        sz=2;\r\n        imageScale=2;\r\n        baseScale=1.6;\r\n        cardFrontImage=\"https://i.imgur.com/PsXEHG2.png\";\r\n        cardBackImage=\"https://i.imgur.com/l5mktUW.png\";\r\n        modelImage=\"https://steamusercontent-a.akamaihd.net/ugc/1651098362943013806/73B2EA451D891D9E215882621274B65BB8C54C98/\";\r\n    },\r\n    HardStopHerbert={\r\n        name=\"Hard Stop Herbert\";\r\n        characteristics=\"Unique,Living\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcasts\";\r\n        soulStones=6;\r\n        health=8;\r\n        df=5;\r\n        wp=5;\r\n        sp=7;\r\n        sz=2;\r\n        imageScale=1.2;\r\n        baseScale=1.6;\r\n        cardFrontImage=\"https://i.imgur.com/ACYnPpm.png\";\r\n        cardBackImage=\"https://i.imgur.com/8SjFKBG.png\";\r\n        modelImage=\"https://steamusercontent-a.akamaihd.net/ugc/2460725171463047813/5DD9B78C9C077F10654EBC1477B778C5B6B64FBE/\";\r\n    },\r\n    Karina={\r\n        name=\"Karina\";\r\n        characteristics=\"Totem, Unique, Living\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcasts\";\r\n        soulStones=0;\r\n        health=9;\r\n        df=4;\r\n        wp=5;\r\n        sp=6;\r\n        sz=2;\r\n        imageScale=1.7;\r\n        baseScale=1.2;\r\n        cardFrontImage=\"https://i.imgur.com/9jwBzLw.png\";\r\n        cardBackImage=\"https://i.imgur.com/xO8ANNQ.png\";\r\n        modelImage=\"https://steamusercontent-a.akamaihd.net/ugc/1651098362943009879/E17041FC99B3FD5254DF59D97EC8D868F6C4B8DA/\";\r\n    },\r\n    Karina2={\r\n        name=\"Karina 2\";\r\n        characteristics=\"Totem, Unique, Living\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcasts\";\r\n        soulStones=0;\r\n        health=9;\r\n        df=4;\r\n        wp=5;\r\n        sp=6;\r\n        sz=2;\r\n        imageScale=1.7;\r\n        baseScale=1.2;\r\n        cardFrontImage=\"https://i.imgur.com/9jwBzLw.png\";\r\n        cardBackImage=\"https://i.imgur.com/xO8ANNQ.png\";\r\n        modelImage=\"https://steamusercontent-a.akamaihd.net/ugc/1651098362943009879/E17041FC99B3FD5254DF59D97EC8D868F6C4B8DA/\";\r\n    },\r\n    ScionoftheVoid={\r\n        name=\"Scion of the Void\";\r\n        characteristics=\"Totem,Unique\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcasts\";\r\n        soulStones=0;\r\n        health=9;\r\n        df=5;\r\n        wp=5;\r\n        sp=6;\r\n        sz=2;\r\n        imageScale=1.5;\r\n        baseScale=1.2;\r\n        cardFrontImage=\"https://i.imgur.com/9AVWT5u.png\";\r\n        cardBackImage=\"https://i.imgur.com/J8ANVuF.png\";\r\n        modelImage=\"https://steamusercontent-a.akamaihd.net/ugc/1651098362943041293/8F58A1DAE35E87F6316411E71CA1EDF26E871B0B/\";\r\n    },\r\n    Talos={\r\n        name=\"Talos\";\r\n        characteristics=\"Unique,Construct\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcasts\";\r\n        soulStones=8;\r\n        health=11;\r\n        df=5;\r\n        wp=6;\r\n        sp=6;\r\n        sz=3;\r\n        imageScale=2;\r\n        baseScale=2;\r\n        cardFrontImage=\"https://i.imgur.com/06VB7hX.png\";\r\n        cardBackImage=\"https://i.imgur.com/TG66qaf.png\";\r\n        modelImage=\"https://steamusercontent-a.akamaihd.net/ugc/1651098362943036816/E15A1F78A850DC684281699859E992CECEBE6411/\";\r\n    },\r\n    TaraTimeless={\r\n        name=\"Tara, Timeless\";\r\n        characteristics=\"Master,Unique,Undead\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcasts\";\r\n        soulStones=0;\r\n        health=14;\r\n        df=6;\r\n        wp=6;\r\n        sp=7;\r\n        sz=2;\r\n        crewCard=\"FleetingMoments\";\r\n        imageScale=1.2;\r\n        baseScale=1.2;\r\n        cardFrontImage=\"https://i.imgur.com/f9WLLqg.png\";\r\n        cardBackImage=\"https://i.imgur.com/ctIEylV.png\";\r\n        modelImage=\"https://steamusercontent-a.akamaihd.net/ugc/1817761489820365375/641E4F4AB46579E9888132DFD1FB8AA3A49990BD/\";\r\n    },\r\n    TaraVoidcaller={\r\n        name=\"Tara, Voidcaller\";\r\n        characteristics=\"Master,Unique,Undead\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcasts\";\r\n        soulStones=0;\r\n        health=14;\r\n        df=6;\r\n        wp=6;\r\n        sp=6;\r\n        sz=2;\r\n        crewCard=\"BeyondTime\";\r\n        imageScale=1.2;\r\n        baseScale=1.2;\r\n        cardFrontImage=\"https://i.imgur.com/9umXdhV.png\";\r\n        cardBackImage=\"https://i.imgur.com/BQQamK3.png\";\r\n        modelImage=\"https://steamusercontent-a.akamaihd.net/ugc/1651098362943005054/5D22FF16989D0E1DFAF0AA0A6CA46F0E5879EF12/\";\r\n    },\r\n    TaraVoidcaller2={\r\n        name=\"Tara, Voidcaller 2\";\r\n        characteristics=\"Master,Unique,Undead\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcasts\";\r\n        soulStones=0;\r\n        health=14;\r\n        df=6;\r\n        wp=6;\r\n        sp=6;\r\n        sz=2;\r\n        crewCard=\"BeyondTime\";\r\n        imageScale=1.2;\r\n        baseScale=1.2;\r\n        cardFrontImage=\"https://i.imgur.com/9umXdhV.png\";\r\n        cardBackImage=\"https://i.imgur.com/BQQamK3.png\";\r\n        modelImage=\"https://steamusercontent-a.akamaihd.net/ugc/1651098362943005054/5D22FF16989D0E1DFAF0AA0A6CA46F0E5879EF12/\";\r\n    },\r\n    TheNothingBeast={\r\n        name=\"The Nothing Beast\";\r\n        characteristics=\"Henchman,Unique\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcasts\";\r\n        soulStones=9;\r\n        health=11;\r\n        df=6;\r\n        wp=6;\r\n        sp=7;\r\n        sz=3;\r\n        imageScale=2;\r\n        baseScale=2;\r\n        cardFrontImage=\"https://i.imgur.com/j2POPjb.png\";\r\n        cardBackImage=\"https://i.imgur.com/Jd3GY4P.png\";\r\n        modelImage=\"https://steamusercontent-a.akamaihd.net/ugc/1651098362943018254/46F428C3E6D47A94513507EE5D9DB91EF03F0D96/\";\r\n    },\r\n    TheNothingBeast2={\r\n        name=\"The Nothing Beast 2\";\r\n        characteristics=\"Henchman,Unique\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcasts\";\r\n        soulStones=9;\r\n        health=11;\r\n        df=6;\r\n        wp=6;\r\n        sp=7;\r\n        sz=3;\r\n        imageScale=2;\r\n        baseScale=2;\r\n        cardFrontImage=\"https://i.imgur.com/j2POPjb.png\";\r\n        cardBackImage=\"https://i.imgur.com/Jd3GY4P.png\";\r\n        modelImage=\"https://steamusercontent-a.akamaihd.net/ugc/1651098362943018254/46F428C3E6D47A94513507EE5D9DB91EF03F0D96/\";\r\n    },\r\n    ThirtyThree={\r\n        name=\"Thirty-Three\";\r\n        characteristics=\"Unique\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcasts\";\r\n        soulStones=7;\r\n        health=8;\r\n        df=5;\r\n        wp=5;\r\n        sp=7;\r\n        sz=2;\r\n        imageScale=1;\r\n        baseScale=1.6;\r\n        cardFrontImage=\"https://i.imgur.com/Les8ape.png\";\r\n        cardBackImage=\"https://i.imgur.com/OMltUIp.png\";\r\n        modelImage=\"https://steamusercontent-a.akamaihd.net/ugc/1825647230362879811/87D81A952B83A1759AEF8C0B836BBF635E1D9700/\";\r\n    },\r\n    Vee={\r\n        name=\"Vee\";\r\n        characteristics=\"Unique,Living\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcasts\";\r\n        soulStones=7;\r\n        health=9;\r\n        df=5;\r\n        wp=5;\r\n        sp=6;\r\n        sz=2;\r\n        imageScale=1.2;\r\n        baseScale=1.2;\r\n        cardFrontImage=\"https://i.imgur.com/U5ZFNr4.png\";\r\n        cardBackImage=\"https://i.imgur.com/U934N3C.png\";\r\n        modelImage=\"https://steamusercontent-a.akamaihd.net/ugc/2460725171463051288/C1B0A86CDE285DE0FB53C85EE5ED3DFA497E2E11/\";\r\n    },\r\n    VoidHunter={\r\n        name=\"Void Hunter\";\r\n        characteristics=\"Minion3\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcasts\";\r\n        soulStones=6;\r\n        health=7;\r\n        df=5;\r\n        wp=5;\r\n        sp=7;\r\n        sz=2;\r\n        stn=9;\r\n        imageScale=2;\r\n        baseScale=1.6;\r\n        cardFrontImage=\"https://i.imgur.com/ytryrPg.png\";\r\n        cardBackImage=\"https://i.imgur.com/WaFjEaz.png\";\r\n        modelImage=\"https://steamusercontent-a.akamaihd.net/ugc/1651098362943049277/621A9A56D380A6C4017B1A5CAC87404A7BC94C76/\";\r\n    },\r\n    VoidHunter2={\r\n        name=\"Void Hunter 2\";\r\n        characteristics=\"Minion3\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcasts\";\r\n        soulStones=6;\r\n        health=7;\r\n        df=5;\r\n        wp=5;\r\n        sp=7;\r\n        sz=2;\r\n        stn=9;\r\n        imageScale=2;\r\n        baseScale=1.6;\r\n        cardFrontImage=\"https://i.imgur.com/ytryrPg.png\";\r\n        cardBackImage=\"https://i.imgur.com/WaFjEaz.png\";\r\n        modelImage=\"https://steamusercontent-a.akamaihd.net/ugc/1651098362943049277/621A9A56D380A6C4017B1A5CAC87404A7BC94C76/\";\r\n    },\r\n    VoidHunter3={\r\n        name=\"Void Hunter 3\";\r\n        characteristics=\"Minion3\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcasts\";\r\n        soulStones=6;\r\n        health=7;\r\n        df=5;\r\n        wp=5;\r\n        sp=7;\r\n        sz=2;\r\n        stn=9;\r\n        imageScale=2;\r\n        baseScale=1.6;\r\n        cardFrontImage=\"https://i.imgur.com/ytryrPg.png\";\r\n        cardBackImage=\"https://i.imgur.com/WaFjEaz.png\";\r\n        modelImage=\"https://steamusercontent-a.akamaihd.net/ugc/1651098362943049277/621A9A56D380A6C4017B1A5CAC87404A7BC94C76/\";\r\n    },\r\n    VoidWretch={\r\n        name=\"Void Wretch\";\r\n        characteristics=\"Minion3\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcasts\";\r\n        soulStones=5;\r\n        health=6;\r\n        df=4;\r\n        wp=4;\r\n        sp=6;\r\n        sz=1;\r\n        stn=7;\r\n        imageScale=2;\r\n        baseScale=1.2;\r\n        cardFrontImage=\"https://i.imgur.com/7EOay9o.png\";\r\n        cardBackImage=\"https://i.imgur.com/naEhSbY.png\";\r\n        modelImage=\"https://steamusercontent-a.akamaihd.net/ugc/1651098362943045885/C187F41A1711632F85B285AAB839BEEAB319FED1/\";\r\n    },\r\n    VoidWretch2={\r\n        name=\"Void Wretch 2\";\r\n        characteristics=\"Minion3\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcasts\";\r\n        soulStones=5;\r\n        health=6;\r\n        df=4;\r\n        wp=4;\r\n        sp=6;\r\n        sz=1;\r\n        stn=7;\r\n        imageScale=2;\r\n        baseScale=1.2;\r\n        cardFrontImage=\"https://i.imgur.com/7EOay9o.png\";\r\n        cardBackImage=\"https://i.imgur.com/naEhSbY.png\";\r\n        modelImage=\"https://steamusercontent-a.akamaihd.net/ugc/1651098362943045885/C187F41A1711632F85B285AAB839BEEAB319FED1/\";\r\n    },\r\n    VoidWretch3={\r\n        name=\"Void Wretch 3\";\r\n        characteristics=\"Minion3\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcasts\";\r\n        soulStones=5;\r\n        health=6;\r\n        df=4;\r\n        wp=4;\r\n        sp=6;\r\n        sz=1;\r\n        stn=7;\r\n        imageScale=2;\r\n        baseScale=1.2;\r\n        cardFrontImage=\"https://i.imgur.com/7EOay9o.png\";\r\n        cardBackImage=\"https://i.imgur.com/naEhSbY.png\";\r\n        modelImage=\"https://steamusercontent-a.akamaihd.net/ugc/1651098362943045885/C187F41A1711632F85B285AAB839BEEAB319FED1/\";\r\n    },\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nlocal crewCardLibrary={\r\n    BeyondTime={\r\n        name=\"Beyond Time\";\r\n        master=\"Tara, Voidcaller\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcast\";\r\n        cardFrontImage=\"https://i.imgur.com/0tlxL5y.png\";\r\n        cardBackImage=\"https://i.imgur.com/PXMFEPF.png\";\r\n    },\r\n    FleetingMoments={\r\n        name=\"Fleeting Moments\";\r\n        master=\"Tara, Timeless\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcast\";\r\n        cardFrontImage=\"https://i.imgur.com/xsgsnnE.png\";\r\n        cardBackImage=\"https://i.imgur.com/3RKcbBt.png\";\r\n    },\r\n}\r\n\r\n\r\nfunction getModelLibrary()\r\n    return modelLibrary\r\nend\r\nfunction getCrewCardLibrary()\r\n    return crewCardLibrary\r\nend\r\nfunction retriveModel(ref)\r\n    if modelLibrary[ref]~= nil then\r\n        return modelLibrary[ref]\r\n    else\r\n        return \"na\"\r\n    end\r\nend\r\nfunction retriveCrewCard(ref)\r\n    if crewCardLibrary[ref]~= nil then\r\n        return crewCardLibrary[ref]\r\n    else\r\n        return \"na\"\r\n    end\r\nend\r\nfunction hello_world()\r\n    return \"Hello World\"\r\nend",
-      "LuaScriptState": "",
-      "XmlUI": ""
+      "LuaScript": "local modelLibrary={\r\n    Aionus={\r\n        name=\"Aionus\";\r\n        characteristics=\"Henchman,Unique,Living\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcasts\";\r\n        soulStones=8;\r\n        health=11;\r\n        df=5;\r\n        wp=7;\r\n        sp=6;\r\n        sz=2;\r\n        imageScale=2;\r\n        baseScale=1.6;\r\n        cardFrontImage=\"https://i.imgur.com/PsXEHG2.png\";\r\n        cardBackImage=\"https://i.imgur.com/l5mktUW.png\";\r\n        modelImage=\"https://steamusercontent-a.akamaihd.net/ugc/1651098362943013806/73B2EA451D891D9E215882621274B65BB8C54C98/\";\r\n    },\r\n    HardStopHerbert={\r\n        name=\"Hard Stop Herbert\";\r\n        characteristics=\"Unique,Living\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcasts\";\r\n        soulStones=6;\r\n        health=8;\r\n        df=5;\r\n        wp=5;\r\n        sp=7;\r\n        sz=2;\r\n        imageScale=1.2;\r\n        baseScale=1.6;\r\n        cardFrontImage=\"https://i.imgur.com/ACYnPpm.png\";\r\n        cardBackImage=\"https://i.imgur.com/8SjFKBG.png\";\r\n        modelImage=\"https://steamusercontent-a.akamaihd.net/ugc/2460725171463047813/5DD9B78C9C077F10654EBC1477B778C5B6B64FBE/\";\r\n    },\r\n    Karina={\r\n        name=\"Karina\";\r\n        characteristics=\"Totem, Unique, Living\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcasts\";\r\n        soulStones=0;\r\n        health=9;\r\n        df=4;\r\n        wp=5;\r\n        sp=6;\r\n        sz=2;\r\n        imageScale=1.7;\r\n        baseScale=1.2;\r\n        cardFrontImage=\"https://i.imgur.com/9jwBzLw.png\";\r\n        cardBackImage=\"https://i.imgur.com/xO8ANNQ.png\";\r\n        modelImage=\"https://steamusercontent-a.akamaihd.net/ugc/1651098362943009879/E17041FC99B3FD5254DF59D97EC8D868F6C4B8DA/\";\r\n    },\r\n    Karina2={\r\n        name=\"Karina 2\";\r\n        characteristics=\"Totem, Unique, Living\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcasts\";\r\n        soulStones=0;\r\n        health=9;\r\n        df=4;\r\n        wp=5;\r\n        sp=6;\r\n        sz=2;\r\n        imageScale=1.7;\r\n        baseScale=1.2;\r\n        cardFrontImage=\"https://i.imgur.com/9jwBzLw.png\";\r\n        cardBackImage=\"https://i.imgur.com/xO8ANNQ.png\";\r\n        modelImage=\"https://steamusercontent-a.akamaihd.net/ugc/1651098362943009879/E17041FC99B3FD5254DF59D97EC8D868F6C4B8DA/\";\r\n    },\r\n    ScionoftheVoid={\r\n        name=\"Scion of the Void\";\r\n        characteristics=\"Totem,Unique\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcasts\";\r\n        soulStones=0;\r\n        health=9;\r\n        df=5;\r\n        wp=5;\r\n        sp=6;\r\n        sz=2;\r\n        imageScale=1.5;\r\n        baseScale=1.2;\r\n        cardFrontImage=\"https://i.imgur.com/9AVWT5u.png\";\r\n        cardBackImage=\"https://i.imgur.com/J8ANVuF.png\";\r\n        modelImage=\"https://steamusercontent-a.akamaihd.net/ugc/1651098362943041293/8F58A1DAE35E87F6316411E71CA1EDF26E871B0B/\";\r\n    },\r\n    Talos={\r\n        name=\"Talos\";\r\n        characteristics=\"Unique,Construct\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcasts\";\r\n        soulStones=8;\r\n        health=11;\r\n        df=5;\r\n        wp=6;\r\n        sp=6;\r\n        sz=3;\r\n        imageScale=2;\r\n        baseScale=2;\r\n        cardFrontImage=\"https://i.imgur.com/06VB7hX.png\";\r\n        cardBackImage=\"https://i.imgur.com/TG66qaf.png\";\r\n        modelImage=\"https://steamusercontent-a.akamaihd.net/ugc/1651098362943036816/E15A1F78A850DC684281699859E992CECEBE6411/\";\r\n    },\r\n    TaraTimeless={\r\n        name=\"Tara, Timeless\";\r\n        characteristics=\"Master,Unique,Undead\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcasts\";\r\n        soulStones=0;\r\n        health=14;\r\n        df=6;\r\n        wp=6;\r\n        sp=7;\r\n        sz=2;\r\n        crewCard=\"FleetingMoments\";\r\n        totem=\"Scion of the Void\";\r\n        imageScale=1.2;\r\n        baseScale=1.2;\r\n        cardFrontImage=\"https://i.imgur.com/f9WLLqg.png\";\r\n        cardBackImage=\"https://i.imgur.com/ctIEylV.png\";\r\n        modelImage=\"https://steamusercontent-a.akamaihd.net/ugc/1817761489820365375/641E4F4AB46579E9888132DFD1FB8AA3A49990BD/\";\r\n    },\r\n    TaraVoidcaller={\r\n        name=\"Tara, Voidcaller\";\r\n        characteristics=\"Master,Unique,Undead\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcasts\";\r\n        soulStones=0;\r\n        health=14;\r\n        df=6;\r\n        wp=6;\r\n        sp=6;\r\n        sz=2;\r\n        crewCard=\"BeyondTime\";\r\n        totem=\"Karina\";\r\n        summons=\"Void Hunter,Void Wretch\";\r\n        imageScale=1.2;\r\n        baseScale=1.2;\r\n        cardFrontImage=\"https://i.imgur.com/9umXdhV.png\";\r\n        cardBackImage=\"https://i.imgur.com/BQQamK3.png\";\r\n        modelImage=\"https://steamusercontent-a.akamaihd.net/ugc/1651098362943005054/5D22FF16989D0E1DFAF0AA0A6CA46F0E5879EF12/\";\r\n    },\r\n    TaraVoidcaller2={\r\n        name=\"Tara, Voidcaller 2\";\r\n        characteristics=\"Master,Unique,Undead\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcasts\";\r\n        soulStones=0;\r\n        health=14;\r\n        df=6;\r\n        wp=6;\r\n        sp=6;\r\n        sz=2;\r\n        crewCard=\"BeyondTime\";\r\n        totem=\"Karina 2\";\r\n        summons=\"Void Hunter,Void Wretch\";\r\n        imageScale=1.2;\r\n        baseScale=1.2;\r\n        cardFrontImage=\"https://i.imgur.com/9umXdhV.png\";\r\n        cardBackImage=\"https://i.imgur.com/BQQamK3.png\";\r\n        modelImage=\"https://steamusercontent-a.akamaihd.net/ugc/1651098362943005054/5D22FF16989D0E1DFAF0AA0A6CA46F0E5879EF12/\";\r\n    },\r\n    TheNothingBeast={\r\n        name=\"The Nothing Beast\";\r\n        characteristics=\"Henchman,Unique\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcasts\";\r\n        soulStones=9;\r\n        health=11;\r\n        df=6;\r\n        wp=6;\r\n        sp=7;\r\n        sz=3;\r\n        imageScale=2;\r\n        baseScale=2;\r\n        cardFrontImage=\"https://i.imgur.com/j2POPjb.png\";\r\n        cardBackImage=\"https://i.imgur.com/Jd3GY4P.png\";\r\n        modelImage=\"https://steamusercontent-a.akamaihd.net/ugc/1651098362943018254/46F428C3E6D47A94513507EE5D9DB91EF03F0D96/\";\r\n    },\r\n    TheNothingBeast2={\r\n        name=\"The Nothing Beast 2\";\r\n        characteristics=\"Henchman,Unique\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcasts\";\r\n        soulStones=9;\r\n        health=11;\r\n        df=6;\r\n        wp=6;\r\n        sp=7;\r\n        sz=3;\r\n        imageScale=2;\r\n        baseScale=2;\r\n        cardFrontImage=\"https://i.imgur.com/j2POPjb.png\";\r\n        cardBackImage=\"https://i.imgur.com/Jd3GY4P.png\";\r\n        modelImage=\"https://steamusercontent-a.akamaihd.net/ugc/1651098362943018254/46F428C3E6D47A94513507EE5D9DB91EF03F0D96/\";\r\n    },\r\n    ThirtyThree={\r\n        name=\"Thirty-Three\";\r\n        characteristics=\"Unique\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcasts\";\r\n        soulStones=7;\r\n        health=8;\r\n        df=5;\r\n        wp=5;\r\n        sp=7;\r\n        sz=2;\r\n        imageScale=1;\r\n        baseScale=1.6;\r\n        cardFrontImage=\"https://i.imgur.com/Les8ape.png\";\r\n        cardBackImage=\"https://i.imgur.com/OMltUIp.png\";\r\n        modelImage=\"https://steamusercontent-a.akamaihd.net/ugc/1825647230362879811/87D81A952B83A1759AEF8C0B836BBF635E1D9700/\";\r\n    },\r\n    Vee={\r\n        name=\"Vee\";\r\n        characteristics=\"Unique,Living\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcasts\";\r\n        soulStones=7;\r\n        health=9;\r\n        df=5;\r\n        wp=5;\r\n        sp=6;\r\n        sz=2;\r\n        imageScale=1.2;\r\n        baseScale=1.2;\r\n        cardFrontImage=\"https://i.imgur.com/U5ZFNr4.png\";\r\n        cardBackImage=\"https://i.imgur.com/U934N3C.png\";\r\n        modelImage=\"https://steamusercontent-a.akamaihd.net/ugc/2460725171463051288/C1B0A86CDE285DE0FB53C85EE5ED3DFA497E2E11/\";\r\n    },\r\n    VoidHunter={\r\n        name=\"Void Hunter\";\r\n        characteristics=\"Minion3\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcasts\";\r\n        soulStones=6;\r\n        health=7;\r\n        df=5;\r\n        wp=5;\r\n        sp=7;\r\n        sz=2;\r\n        stn=9;\r\n        imageScale=2;\r\n        baseScale=1.6;\r\n        cardFrontImage=\"https://i.imgur.com/ytryrPg.png\";\r\n        cardBackImage=\"https://i.imgur.com/WaFjEaz.png\";\r\n        modelImage=\"https://steamusercontent-a.akamaihd.net/ugc/1651098362943049277/621A9A56D380A6C4017B1A5CAC87404A7BC94C76/\";\r\n    },\r\n    VoidHunter2={\r\n        name=\"Void Hunter 2\";\r\n        characteristics=\"Minion3\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcasts\";\r\n        soulStones=6;\r\n        health=7;\r\n        df=5;\r\n        wp=5;\r\n        sp=7;\r\n        sz=2;\r\n        stn=9;\r\n        imageScale=2;\r\n        baseScale=1.6;\r\n        cardFrontImage=\"https://i.imgur.com/ytryrPg.png\";\r\n        cardBackImage=\"https://i.imgur.com/WaFjEaz.png\";\r\n        modelImage=\"https://steamusercontent-a.akamaihd.net/ugc/1651098362943049277/621A9A56D380A6C4017B1A5CAC87404A7BC94C76/\";\r\n    },\r\n    VoidHunter3={\r\n        name=\"Void Hunter 3\";\r\n        characteristics=\"Minion3\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcasts\";\r\n        soulStones=6;\r\n        health=7;\r\n        df=5;\r\n        wp=5;\r\n        sp=7;\r\n        sz=2;\r\n        stn=9;\r\n        imageScale=2;\r\n        baseScale=1.6;\r\n        cardFrontImage=\"https://i.imgur.com/ytryrPg.png\";\r\n        cardBackImage=\"https://i.imgur.com/WaFjEaz.png\";\r\n        modelImage=\"https://steamusercontent-a.akamaihd.net/ugc/1651098362943049277/621A9A56D380A6C4017B1A5CAC87404A7BC94C76/\";\r\n    },\r\n    VoidWretch={\r\n        name=\"Void Wretch\";\r\n        characteristics=\"Minion3\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcasts\";\r\n        soulStones=5;\r\n        health=6;\r\n        df=4;\r\n        wp=4;\r\n        sp=6;\r\n        sz=1;\r\n        stn=7;\r\n        imageScale=2;\r\n        baseScale=1.2;\r\n        cardFrontImage=\"https://i.imgur.com/7EOay9o.png\";\r\n        cardBackImage=\"https://i.imgur.com/naEhSbY.png\";\r\n        modelImage=\"https://steamusercontent-a.akamaihd.net/ugc/1651098362943045885/C187F41A1711632F85B285AAB839BEEAB319FED1/\";\r\n    },\r\n    VoidWretch2={\r\n        name=\"Void Wretch 2\";\r\n        characteristics=\"Minion3\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcasts\";\r\n        soulStones=5;\r\n        health=6;\r\n        df=4;\r\n        wp=4;\r\n        sp=6;\r\n        sz=1;\r\n        stn=7;\r\n        imageScale=2;\r\n        baseScale=1.2;\r\n        cardFrontImage=\"https://i.imgur.com/7EOay9o.png\";\r\n        cardBackImage=\"https://i.imgur.com/naEhSbY.png\";\r\n        modelImage=\"https://steamusercontent-a.akamaihd.net/ugc/1651098362943045885/C187F41A1711632F85B285AAB839BEEAB319FED1/\";\r\n    },\r\n    VoidWretch3={\r\n        name=\"Void Wretch 3\";\r\n        characteristics=\"Minion3\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcasts\";\r\n        soulStones=5;\r\n        health=6;\r\n        df=4;\r\n        wp=4;\r\n        sp=6;\r\n        sz=1;\r\n        stn=7;\r\n        imageScale=2;\r\n        baseScale=1.2;\r\n        cardFrontImage=\"https://i.imgur.com/7EOay9o.png\";\r\n        cardBackImage=\"https://i.imgur.com/naEhSbY.png\";\r\n        modelImage=\"https://steamusercontent-a.akamaihd.net/ugc/1651098362943045885/C187F41A1711632F85B285AAB839BEEAB319FED1/\";\r\n    },\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nlocal crewCardLibrary={\r\n    BeyondTime={\r\n        name=\"Beyond Time\";\r\n        master=\"Tara, Voidcaller\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcast\";\r\n        markers=\"echo\";\r\n        tokens=\"backtrack,flicker,slow,auraconcealment\";\r\n        cardFrontImage=\"https://i.imgur.com/0tlxL5y.png\";\r\n        cardBackImage=\"https://i.imgur.com/PXMFEPF.png\";\r\n    },\r\n    FleetingMoments={\r\n        name=\"Fleeting Moments\";\r\n        master=\"Tara, Timeless\";\r\n        keywords=\"Obliteration\";\r\n        faction=\"Outcast\";\r\n        markers=\"echo\";\r\n        tokens=\"backtrack,flicker,slow,auraconcealment\";\r\n        cardFrontImage=\"https://i.imgur.com/xsgsnnE.png\";\r\n        cardBackImage=\"https://i.imgur.com/3RKcbBt.png\";\r\n    },\r\n}\r\n\r\n\r\nfunction getModelLibrary()\r\n    return modelLibrary\r\nend\r\nfunction getCrewCardLibrary()\r\n    return crewCardLibrary\r\nend\r\nfunction retriveModel(ref)\r\n    if modelLibrary[ref]~= nil then\r\n        return modelLibrary[ref]\r\n    else\r\n        return \"na\"\r\n    end\r\nend\r\nfunction retriveCrewCard(ref)\r\n    if crewCardLibrary[ref]~= nil then\r\n        return crewCardLibrary[ref]\r\n    else\r\n        return \"na\"\r\n    end\r\nend\r\nfunction hello_world()\r\n    return \"Hello World\"\r\nend",
+      "LuaScriptState": ""
     },
     {
       "GUID": "000888",
       "Name": "Custom_Model_Bag",
       "Transform": {
         "posX": -1.43876958,
-        "posY": 1.0793339,
+        "posY": 1.07933378,
         "posZ": 13.8209953,
-        "rotX": -1.97474648E-07,
-        "rotY": 180.045853,
-        "rotZ": 8.242382E-07,
+        "rotX": 7.725559E-07,
+        "rotY": 180.045868,
+        "rotZ": 2.84624775E-07,
         "scaleX": 4.005152,
         "scaleY": 0.238667816,
         "scaleZ": 4.08891773
@@ -1397,7 +1396,6 @@
       "Hands": false,
       "MaterialIndex": -1,
       "MeshIndex": -1,
-      "Number": 0,
       "CustomMesh": {
         "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1666858152071991282/5C391C2599AE5F6972D6EFA7BFC04B41D6E821E3/",
         "DiffuseURL": "",
@@ -1414,6 +1412,72 @@
       "LuaScript": "",
       "LuaScriptState": "",
       "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "GUID": "49fc85",
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -1.43877423,
+            "posY": 1.20593548,
+            "posZ": 13.8209991,
+            "rotX": 1.41689234E-05,
+            "rotY": 180.012741,
+            "rotZ": -0.00181356049,
+            "scaleX": 2.5,
+            "scaleY": 1.0,
+            "scaleZ": 2.5
+          },
+          "Nickname": "Aionus",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/PsXEHG2.png",
+            "ImageSecondaryURL": "https://i.imgur.com/l5mktUW.png",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 3,
+              "Thickness": 0.1,
+              "Stackable": true,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "\r\n\r\nlocal mini = nil\r\nlocal faction;\r\nlocal baseScale;\r\nlocal cardFrontImage;\r\nlocal cardBackImage;\r\nlocal health;\r\nlocal imageScale;\r\nlocal modelImage;\r\nlocal name;\r\nlocal playerColor='green';\r\nlocal factionColor= Color(.70,0.19,.17);\r\nlocal cloneTo ={ 11.388285, 0.96, -12.243199 }\r\n\r\nlocal prototypes = {\r\n    base = '000000',\r\n}\r\nfunction destruct()\r\n    if mini ~= nil then\r\nmini.destruct()    \r\n    end\r\nend\r\n\r\nfunction rt_createModel(params)\r\n    log(\"rt_createModel\")\r\n    log(params)\r\n    local faction = params.faction;\r\n    local color = Color(params.r,params.g,params.b);\r\n    local isReference = params.isReference;\r\n    factionColor = color;\r\n    if isReference ~= true then\r\n        createModel(self.getPosition(),color);\r\n    end\r\nend\r\n\r\nfunction ui_createModel()\r\n    createModel(self.getPosition())\r\nend\r\n\r\nfunction hello_world()\r\n    log(\"Hello World\")\r\nend\r\nfunction createStatCard(params)\r\n    health = params[\"health\"]\r\n    imageScale = params[\"imageScale\"]\r\n    modelImage = params[\"modelImage\"]\r\n    name = params[\"name\"]\r\n    playerColor =params[\"playerColor\"]\r\n    faction = params[\"faction\"]\r\n    cardFrontImage = params[\"cardFrontImage\"]\r\n    cardBackImage = params[\"cardBackImage\"]\r\n    baseScale = params[\"baseScale\"]\r\n    factionColor=factionColorLookup(faction)\r\n    --createModel(self.getPosition());\r\n    rebuildUI()\r\n    self.setName(name)\r\n    self.save()\r\n    self.reload()\r\nend\r\nfunction createCrewCard(params)\r\n    name = params[\"name\"]\r\n    playerColor =params[\"playerColor\"]\r\n    faction = params[\"faction\"]\r\n    cardFrontImage = params[\"cardFrontImage\"]\r\n    cardBackImage = params[\"cardBackImage\"]\r\n    factionColor=factionColorLookup(faction)\r\n    rebuildUI()\r\n    self.setName(name)\r\n    self.onSave()\r\n    self.reload()\r\nend\r\nfunction factionColorLookup(faction)\r\n    if faction==\"Guild\" then\r\n        return Color(.70,0.19,.17)\r\n    elseif faction==\"Outcast\" then\r\n        return Color(.70,0.55,.04)\r\n    else\r\n        return Color(.70,0.19,.17)\r\n    end\r\nend \r\nfunction createModel(position)\r\n    local pos = position:add(Vector(0,2,0))\r\n\r\n    objectData =  self.getData()\r\n\r\n    modelPrototype = getObjectFromGUID(prototypes.base)\r\n    local rot = self.getRotation()\r\n    model = modelPrototype.clone({position=pos,rotation=rot})\r\n\r\n    model.setScale({x=baseScale, y=1, z=baseScale})\r\n    attachments = model.getAttachments()\r\n    for key,value in pairs(attachments) do\r\n        modelElement = model.removeAttachment(0)\r\n        modelElement.setCustomObject({\r\n            image = modelImage,\r\n            image_secondary = modelImage,\r\n            image_scalar = imageScale\r\n        })\r\n        modelElement.setScale(Vector(0.40 * baseScale, 0.40 * baseScale, 0.2 ));\r\n        model.addAttachment(modelElement)\r\n    end\r\n    model.setDescription(objectData.Description)\r\n    model.setName(name)\r\n    model.script_state = \"{\\\"originalData\\\":{\\\"base\\\":{\\\"color\\\":{\\\"a\\\":1,\\\"b\\\":\".. factionColor.b ..\",\\\"g\\\":\".. factionColor.g ..\",\\\"r\\\":\".. factionColor.r ..\"},\\\"size\\\":\".. baseScale * 25 ..\"},\\\"health\\\":{\\\"current\\\":\" ..health ..\",\\\"max\\\":\" ..health ..\"},\\\"imageScale\\\":\" .. imageScale  ..\"}}\";\r\n\r\n\r\n\r\n    mini = model\r\n    -- end\r\nend\r\n\r\nfunction ui_pingmini(player)\r\n    if (mini ~= nil) then\r\n        if (player.pingTable ~= nil) then\r\n            player.pingTable(mini.getPosition())\r\n        end\r\n    end\r\nend\r\n\r\nfunction rebuildAssets()\r\n    local root = 'https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/';\r\n    local assets = {\r\n        {name='ui_power', url=root..'power.png'},\r\n        {name='ui_gear', url=root..'gear.png'},\r\n        {name='ui_close', url=root..'close.png'},\r\n        {name='ui_plus', url=root..'plus.png'},\r\n        {name='ui_minus', url=root..'minus.png'},\r\n        {name='ui_reload', url=root..'reload.png'},\r\n        {name='ui_location', url=root..'location.png'},\r\n        {name='ui_bars_new', url=root..'bars_new.png'},\r\n        {name='ui_arrow_u', url=root..'arrow_u.png'},\r\n        {name='ui_arrow_d', url=root..'arrow_d.png'},\r\n        {name='ui_arrow_l', url=root..'arrow_l.png'},\r\n        {name='ui_arrow_r', url=root..'arrow_r.png'},\r\n    }\r\n\r\n    assetBuffer = {}\r\n    local bufLen = 0\r\n    for idx,guid in pairs(mapI2G) do\r\n        local mini = getObjectFromGUID(guid)\r\n        if (mini ~= nil) then\r\n            for i,marker in pairs(mini.call('getMarkers', {})) do\r\n                if (assetBuffer[marker.url] == nil) then\r\n                    bufLen = bufLen + 1\r\n                    assetBuffer[marker.url] = self.guid..'_mk_'..bufLen\r\n                    table.insert(assets, {name=self.guid..'_mk_'..bufLen, url=marker.url})\r\n                end\r\n            end\r\n        end\r\n    end\r\n    self.UI.setCustomAssets(assets)\r\nend\r\n\r\nfunction rebuildUI()\r\n    self.setCustomObject({\r\n        image = cardFrontImage,\r\n        image_secondary = cardBackImage,\r\n    });\r\n\r\n    local ui = {\r\n        {tag='Defaults', children={\r\n            {tag='Text', attributes={color='#cccccc', fontSize='18', alignment='MiddleLeft'}},\r\n            {tag='InputField', attributes={fontSize='24', preferredHeight='40'}},\r\n            {tag='ToggleButton', attributes={fontSize='18', preferredHeight='40', colors='#ffcc33|#ffffff|#808080|#606060', selectedBackgroundColor='#dddddd', deselectedBackgroundColor='#999999'}},\r\n            {tag='Button', attributes={fontSize='12',textColor='#111111', preferredHeight='40', colors='#dddddd|#ffffff|#808080|#f6f6f6'}},\r\n            {tag='Toggle', attributes={textColor='#cccccc'}},\r\n        }},\r\n        \r\n        {tag='button', attributes={onClick='ui_pingmini', image='ui_location',  colors='#ccccccff|#ffffffff|#404040ff|#808080ff', width='20', height='20', position='-40 -110 -5', rotation='0 0 180' }},\r\n        {tag='button', attributes={onClick='ui_createModel',text='Spawn Model',  colors='#ccccccff|#ffffffff|#404040ff|#808080ff', width='120', height='20', position='0 110 -5', rotation='0 0 180' }} \r\n    }\r\n    \r\n    self.UI.setXmlTable(ui)\r\n    \r\nend\r\n\r\nfunction onSave()\r\n    miniguid = ''\r\n    if mini ~= nil then\r\n        miniguid = mini.getGUID()\r\n    end\r\n    local save = {\r\n        mini = miniguid,\r\n        baseScale = baseScale,\r\n        health = health,\r\n        imageScale = imageScale,\r\n        modelImage = modelImage,\r\n        name = name,\r\n        playerColor = playerColor, \r\n        faction = faction,\r\n        cardFrontImage = cardFrontImage,\r\n        cardBackImage = cardBackImage,\r\n    }\r\n    return JSON.encode(save)\r\nend\r\n\r\n\r\nfunction onLoad(save)\r\n    local data = JSON.decode(save)\r\n    mini = getObjectFromGUID(data.mini)\r\n    baseScale = data.baseScale;\r\n    health = data.health;\r\n    imageScale = data.imageScale;\r\n    modelImage = data.modelImage;\r\n    --cardFrontImage = data.cardFrontImage;\r\n    --cardBackImage =data.cardBackImage;\r\n    name = data.name;\r\n    faction = data.faction or 'Arcanist';\r\n    playerColor = data.playerColor or 'Blue';\r\n\r\n    rebuildUI()\r\nend\r\n",
+          "LuaScriptState": "{\"baseScale\":\"1.2\",\"faction\":\"Arcanist\",\"health\":\"12\",\"imageScale\":\"2.3\",\"mini\":\"\",\"modelImage\":\"https://steamusercontent-a.akamaihd.net/ugc/1651098116529271567/0FB525A7BC2C0286C88C894C3EE7CFEDB822F6F7/\",\"name\":\"Lady Justice\",\"playerColor\":\"Blue\"}",
+          "XmlUI": "",
+          "CustomUIAssets": [
+            {
+              "Type": 0,
+              "Name": "ui_location",
+              "URL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/location.png"
+            }
+          ]
+        }
+      ],
       "ChildObjects": [
         {
           "GUID": "e55a04",
@@ -1481,9 +1545,9 @@
         "posX": -1.69780111,
         "posY": 1.0793339,
         "posZ": 3.27671123,
-        "rotX": 2.334994E-07,
+        "rotX": 2.28238108E-07,
         "rotY": 179.994659,
-        "rotZ": -1.90989041E-07,
+        "rotZ": 1.51405587E-07,
         "scaleX": 4.005152,
         "scaleY": 0.238667816,
         "scaleZ": 4.08891773
@@ -1518,7 +1582,6 @@
       "Hands": false,
       "MaterialIndex": -1,
       "MeshIndex": -1,
-      "Number": 0,
       "CustomMesh": {
         "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1666858152071991282/5C391C2599AE5F6972D6EFA7BFC04B41D6E821E3/",
         "DiffuseURL": "",
@@ -1535,6 +1598,122 @@
       "LuaScript": "",
       "LuaScriptState": "",
       "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "GUID": "10925d",
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -1.69780564,
+            "posY": 1.20593548,
+            "posZ": 3.27671075,
+            "rotX": 1.569715E-05,
+            "rotY": 180.0127,
+            "rotZ": -0.00181064173,
+            "scaleX": 2.5,
+            "scaleY": 1.0,
+            "scaleZ": 2.5
+          },
+          "Nickname": "Beyond Time",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/0tlxL5y.png",
+            "ImageSecondaryURL": "https://i.imgur.com/PXMFEPF.png",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 3,
+              "Thickness": 0.1,
+              "Stackable": true,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "\r\n\r\nlocal mini = nil\r\nlocal faction;\r\nlocal cardFrontImage;\r\nlocal cardBackImage;\r\nlocal name;\r\nlocal playerColor='green';\r\nlocal factionColor= Color(.70,0.19,.17);\r\nlocal config={}\r\nlocal cloneTo ={ 11.388285, 0.96, -12.243199 }\r\nfunction onLoad()\r\nend\r\n\r\n\r\nfunction hello_world()\r\n    log(\"Hello World\")\r\nend\r\n\r\nfunction createRefrenceCard(params)\r\n    log(params)\r\n    config=params\r\n    name = params[\"name\"]\r\n    playerColor =params[\"playerColor\"]\r\n    faction = params[\"faction\"]\r\n    cardFrontImage = params[\"cardFrontImage\"]\r\n    cardBackImage = params[\"cardBackImage\"]\r\n    factionColor=factionColorLookup(faction)\r\n    rebuildUI()\r\n    self.setName(name)\r\n    self.reload()\r\nend\r\nfunction factionColorLookup(faction)\r\n    if faction==\"Guild\" then\r\n        return Color(.70,0.19,.17)\r\n    elseif faction==\"Outcast\" then\r\n        return Color(.70,0.55,.04)\r\n    else\r\n        return Color(.70,0.19,.17)\r\n    end\r\nend \r\n\r\nfunction rebuildUI()\r\n    self.setCustomObject({\r\n        image = cardFrontImage,\r\n        image_secondary = cardBackImage,\r\n    });\r\nend",
+          "LuaScriptState": "{\"baseScale\":\"1.2\",\"faction\":\"Arcanist\",\"health\":\"12\",\"imageScale\":\"2.3\",\"mini\":\"\",\"modelImage\":\"https://steamusercontent-a.akamaihd.net/ugc/1651098116529271567/0FB525A7BC2C0286C88C894C3EE7CFEDB822F6F7/\",\"name\":\"Lady Justice\",\"playerColor\":\"Blue\"}",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "35d00a",
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -1.69780076,
+            "posY": 1.21616089,
+            "posZ": 3.27671123,
+            "rotX": 7.29582325E-06,
+            "rotY": 180.012711,
+            "rotZ": -0.000465360121,
+            "scaleX": 2.5,
+            "scaleY": 1.0,
+            "scaleZ": 2.5
+          },
+          "Nickname": "Fleeting Moments",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/xsgsnnE.png",
+            "ImageSecondaryURL": "https://i.imgur.com/3RKcbBt.png",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 3,
+              "Thickness": 0.1,
+              "Stackable": true,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "\r\n\r\nlocal mini = nil\r\nlocal faction;\r\nlocal cardFrontImage;\r\nlocal cardBackImage;\r\nlocal name;\r\nlocal playerColor='green';\r\nlocal factionColor= Color(.70,0.19,.17);\r\nlocal config={}\r\nlocal cloneTo ={ 11.388285, 0.96, -12.243199 }\r\nfunction onLoad()\r\nend\r\n\r\n\r\nfunction hello_world()\r\n    log(\"Hello World\")\r\nend\r\n\r\nfunction createRefrenceCard(params)\r\n    log(params)\r\n    config=params\r\n    name = params[\"name\"]\r\n    playerColor =params[\"playerColor\"]\r\n    faction = params[\"faction\"]\r\n    cardFrontImage = params[\"cardFrontImage\"]\r\n    cardBackImage = params[\"cardBackImage\"]\r\n    factionColor=factionColorLookup(faction)\r\n    rebuildUI()\r\n    self.setName(name)\r\n    self.reload()\r\nend\r\nfunction factionColorLookup(faction)\r\n    if faction==\"Guild\" then\r\n        return Color(.70,0.19,.17)\r\n    elseif faction==\"Outcast\" then\r\n        return Color(.70,0.55,.04)\r\n    else\r\n        return Color(.70,0.19,.17)\r\n    end\r\nend \r\n\r\nfunction rebuildUI()\r\n    self.setCustomObject({\r\n        image = cardFrontImage,\r\n        image_secondary = cardBackImage,\r\n    });\r\nend",
+          "LuaScriptState": "{\"baseScale\":\"1.2\",\"faction\":\"Arcanist\",\"health\":\"12\",\"imageScale\":\"2.3\",\"mini\":\"\",\"modelImage\":\"https://steamusercontent-a.akamaihd.net/ugc/1651098116529271567/0FB525A7BC2C0286C88C894C3EE7CFEDB822F6F7/\",\"name\":\"Lady Justice\",\"playerColor\":\"Blue\"}",
+          "XmlUI": ""
+        }
+      ],
       "ChildObjects": [
         {
           "GUID": "e55a04",
@@ -1600,11 +1779,11 @@
       "Name": "Custom_Model_Bag",
       "Transform": {
         "posX": -4.20231533,
-        "posY": 1.07933378,
+        "posY": 1.0793339,
         "posZ": -1.727509,
-        "rotX": -6.244876E-08,
+        "rotX": -4.977017E-09,
         "rotY": 179.9866,
-        "rotZ": -6.32905355E-08,
+        "rotZ": -6.53772858E-08,
         "scaleX": 4.005152,
         "scaleY": 0.238667816,
         "scaleZ": 4.08891773
@@ -1723,9 +1902,9 @@
         "posX": -9.697787,
         "posY": 1.08358884,
         "posZ": -1.72329366,
-        "rotX": 3.51892133E-08,
+        "rotX": 3.18327871E-08,
         "rotY": 179.994659,
-        "rotZ": 1.57777045E-08,
+        "rotZ": 2.641034E-08,
         "scaleX": 4.163286,
         "scaleY": 0.247177854,
         "scaleZ": 4.23470974
@@ -1844,9 +2023,9 @@
         "posX": 0.799678743,
         "posY": 1.148067,
         "posZ": -1.70687079,
-        "rotX": 1.51151336E-09,
+        "rotX": -4.147529E-09,
         "rotY": 179.994659,
-        "rotZ": 2.91802689E-08,
+        "rotZ": -4.116912E-08,
         "scaleX": 4.15433025,
         "scaleY": 0.3761342,
         "scaleZ": 4.194234
@@ -1965,9 +2144,9 @@
         "posX": 6.3022356,
         "posY": 1.08365953,
         "posZ": -1.7232852,
-        "rotX": 1.22403039E-08,
+        "rotX": -4.38376055E-08,
         "rotY": 179.9866,
-        "rotZ": -1.13725683E-07,
+        "rotZ": -5.875007E-09,
         "scaleX": 4.165667,
         "scaleY": 0.247319117,
         "scaleZ": 4.21092653
@@ -2086,9 +2265,9 @@
         "posX": 6.30223942,
         "posY": 1.07934642,
         "posZ": -6.7232914,
-        "rotX": 8.504999E-08,
+        "rotX": 4.611986E-08,
         "rotY": 179.986588,
-        "rotZ": -6.000661E-08,
+        "rotZ": -4.164546E-08,
         "scaleX": 4.02530766,
         "scaleY": 0.238693029,
         "scaleZ": 4.06405
@@ -2207,9 +2386,9 @@
         "posX": 0.8022065,
         "posY": 1.07929909,
         "posZ": -6.72328854,
-        "rotX": 1.42308387E-08,
+        "rotX": 4.140198E-08,
         "rotY": 179.994659,
-        "rotZ": -2.42225E-08,
+        "rotZ": 3.63712682E-09,
         "scaleX": 4.01877928,
         "scaleY": 0.238598421,
         "scaleZ": 4.08772945
@@ -2326,11 +2505,11 @@
       "Name": "Custom_Model_Bag",
       "Transform": {
         "posX": -9.858286,
-        "posY": 1.07929909,
+        "posY": 1.079299,
         "posZ": -6.57104731,
-        "rotX": -1.1445502E-07,
+        "rotX": 1.123389E-06,
         "rotY": 179.986588,
-        "rotZ": 3.51278153E-08,
+        "rotZ": -4.93442549E-08,
         "scaleX": 4.01877928,
         "scaleY": 0.238598421,
         "scaleZ": 4.08772945
@@ -2365,7 +2544,6 @@
       "Hands": false,
       "MaterialIndex": -1,
       "MeshIndex": -1,
-      "Number": 0,
       "CustomMesh": {
         "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1666858152071991282/5C391C2599AE5F6972D6EFA7BFC04B41D6E821E3/",
         "DiffuseURL": "",
@@ -2382,6 +2560,72 @@
       "LuaScript": "",
       "LuaScriptState": "",
       "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "GUID": "9d9ce0",
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -9.85829,
+            "posY": 1.20587325,
+            "posZ": -6.571048,
+            "rotX": 1.88662489E-05,
+            "rotY": 180.012741,
+            "rotZ": -0.00179926772,
+            "scaleX": 2.5,
+            "scaleY": 1.0,
+            "scaleZ": 2.5
+          },
+          "Nickname": "Aionus",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/PsXEHG2.png",
+            "ImageSecondaryURL": "https://i.imgur.com/l5mktUW.png",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 3,
+              "Thickness": 0.1,
+              "Stackable": true,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "\r\n\r\nlocal mini = nil\r\nlocal faction;\r\nlocal baseScale;\r\nlocal cardFrontImage;\r\nlocal cardBackImage;\r\nlocal health;\r\nlocal imageScale;\r\nlocal modelImage;\r\nlocal name;\r\nlocal playerColor='green';\r\nlocal factionColor= Color(.70,0.19,.17);\r\nlocal cloneTo ={ 11.388285, 0.96, -12.243199 }\r\n\r\nlocal prototypes = {\r\n    base = '000000',\r\n}\r\nfunction destruct()\r\n    if mini ~= nil then\r\nmini.destruct()    \r\n    end\r\nend\r\n\r\nfunction rt_createModel(params)\r\n    log(\"rt_createModel\")\r\n    log(params)\r\n    local faction = params.faction;\r\n    local color = Color(params.r,params.g,params.b);\r\n    local isReference = params.isReference;\r\n    factionColor = color;\r\n    if isReference ~= true then\r\n        createModel(self.getPosition(),color);\r\n    end\r\nend\r\n\r\nfunction ui_createModel()\r\n    createModel(self.getPosition())\r\nend\r\n\r\nfunction hello_world()\r\n    log(\"Hello World\")\r\nend\r\nfunction createStatCard(params)\r\n    health = params[\"health\"]\r\n    imageScale = params[\"imageScale\"]\r\n    modelImage = params[\"modelImage\"]\r\n    name = params[\"name\"]\r\n    playerColor =params[\"playerColor\"]\r\n    faction = params[\"faction\"]\r\n    cardFrontImage = params[\"cardFrontImage\"]\r\n    cardBackImage = params[\"cardBackImage\"]\r\n    baseScale = params[\"baseScale\"]\r\n    factionColor=factionColorLookup(faction)\r\n    --createModel(self.getPosition());\r\n    rebuildUI()\r\n    self.setName(name)\r\n    self.save()\r\n    self.reload()\r\nend\r\nfunction createCrewCard(params)\r\n    name = params[\"name\"]\r\n    playerColor =params[\"playerColor\"]\r\n    faction = params[\"faction\"]\r\n    cardFrontImage = params[\"cardFrontImage\"]\r\n    cardBackImage = params[\"cardBackImage\"]\r\n    factionColor=factionColorLookup(faction)\r\n    rebuildUI()\r\n    self.setName(name)\r\n    self.onSave()\r\n    self.reload()\r\nend\r\nfunction factionColorLookup(faction)\r\n    if faction==\"Guild\" then\r\n        return Color(.70,0.19,.17)\r\n    elseif faction==\"Outcast\" then\r\n        return Color(.70,0.55,.04)\r\n    else\r\n        return Color(.70,0.19,.17)\r\n    end\r\nend \r\nfunction createModel(position)\r\n    local pos = position:add(Vector(0,2,0))\r\n\r\n    objectData =  self.getData()\r\n\r\n    modelPrototype = getObjectFromGUID(prototypes.base)\r\n    local rot = self.getRotation()\r\n    model = modelPrototype.clone({position=pos,rotation=rot})\r\n\r\n    model.setScale({x=baseScale, y=1, z=baseScale})\r\n    attachments = model.getAttachments()\r\n    for key,value in pairs(attachments) do\r\n        modelElement = model.removeAttachment(0)\r\n        modelElement.setCustomObject({\r\n            image = modelImage,\r\n            image_secondary = modelImage,\r\n            image_scalar = imageScale\r\n        })\r\n        modelElement.setScale(Vector(0.40 * baseScale, 0.40 * baseScale, 0.2 ));\r\n        model.addAttachment(modelElement)\r\n    end\r\n    model.setDescription(objectData.Description)\r\n    model.setName(name)\r\n    model.script_state = \"{\\\"originalData\\\":{\\\"base\\\":{\\\"color\\\":{\\\"a\\\":1,\\\"b\\\":\".. factionColor.b ..\",\\\"g\\\":\".. factionColor.g ..\",\\\"r\\\":\".. factionColor.r ..\"},\\\"size\\\":\".. baseScale * 25 ..\"},\\\"health\\\":{\\\"current\\\":\" ..health ..\",\\\"max\\\":\" ..health ..\"},\\\"imageScale\\\":\" .. imageScale  ..\"}}\";\r\n\r\n\r\n\r\n    mini = model\r\n    -- end\r\nend\r\n\r\nfunction ui_pingmini(player)\r\n    if (mini ~= nil) then\r\n        if (player.pingTable ~= nil) then\r\n            player.pingTable(mini.getPosition())\r\n        end\r\n    end\r\nend\r\n\r\nfunction rebuildAssets()\r\n    local root = 'https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/';\r\n    local assets = {\r\n        {name='ui_power', url=root..'power.png'},\r\n        {name='ui_gear', url=root..'gear.png'},\r\n        {name='ui_close', url=root..'close.png'},\r\n        {name='ui_plus', url=root..'plus.png'},\r\n        {name='ui_minus', url=root..'minus.png'},\r\n        {name='ui_reload', url=root..'reload.png'},\r\n        {name='ui_location', url=root..'location.png'},\r\n        {name='ui_bars_new', url=root..'bars_new.png'},\r\n        {name='ui_arrow_u', url=root..'arrow_u.png'},\r\n        {name='ui_arrow_d', url=root..'arrow_d.png'},\r\n        {name='ui_arrow_l', url=root..'arrow_l.png'},\r\n        {name='ui_arrow_r', url=root..'arrow_r.png'},\r\n    }\r\n\r\n    assetBuffer = {}\r\n    local bufLen = 0\r\n    for idx,guid in pairs(mapI2G) do\r\n        local mini = getObjectFromGUID(guid)\r\n        if (mini ~= nil) then\r\n            for i,marker in pairs(mini.call('getMarkers', {})) do\r\n                if (assetBuffer[marker.url] == nil) then\r\n                    bufLen = bufLen + 1\r\n                    assetBuffer[marker.url] = self.guid..'_mk_'..bufLen\r\n                    table.insert(assets, {name=self.guid..'_mk_'..bufLen, url=marker.url})\r\n                end\r\n            end\r\n        end\r\n    end\r\n    self.UI.setCustomAssets(assets)\r\nend\r\n\r\nfunction rebuildUI()\r\n    self.setCustomObject({\r\n        image = cardFrontImage,\r\n        image_secondary = cardBackImage,\r\n    });\r\n\r\n    local ui = {\r\n        {tag='Defaults', children={\r\n            {tag='Text', attributes={color='#cccccc', fontSize='18', alignment='MiddleLeft'}},\r\n            {tag='InputField', attributes={fontSize='24', preferredHeight='40'}},\r\n            {tag='ToggleButton', attributes={fontSize='18', preferredHeight='40', colors='#ffcc33|#ffffff|#808080|#606060', selectedBackgroundColor='#dddddd', deselectedBackgroundColor='#999999'}},\r\n            {tag='Button', attributes={fontSize='12',textColor='#111111', preferredHeight='40', colors='#dddddd|#ffffff|#808080|#f6f6f6'}},\r\n            {tag='Toggle', attributes={textColor='#cccccc'}},\r\n        }},\r\n        \r\n        {tag='button', attributes={onClick='ui_pingmini', image='ui_location',  colors='#ccccccff|#ffffffff|#404040ff|#808080ff', width='20', height='20', position='-40 -110 -5', rotation='0 0 180' }},\r\n        {tag='button', attributes={onClick='ui_createModel',text='Spawn Model',  colors='#ccccccff|#ffffffff|#404040ff|#808080ff', width='120', height='20', position='0 110 -5', rotation='0 0 180' }} \r\n    }\r\n    \r\n    self.UI.setXmlTable(ui)\r\n    \r\nend\r\n\r\nfunction onSave()\r\n    miniguid = ''\r\n    if mini ~= nil then\r\n        miniguid = mini.getGUID()\r\n    end\r\n    local save = {\r\n        mini = miniguid,\r\n        baseScale = baseScale,\r\n        health = health,\r\n        imageScale = imageScale,\r\n        modelImage = modelImage,\r\n        name = name,\r\n        playerColor = playerColor, \r\n        faction = faction,\r\n        cardFrontImage = cardFrontImage,\r\n        cardBackImage = cardBackImage,\r\n    }\r\n    return JSON.encode(save)\r\nend\r\n\r\n\r\nfunction onLoad(save)\r\n    local data = JSON.decode(save)\r\n    mini = getObjectFromGUID(data.mini)\r\n    baseScale = data.baseScale;\r\n    health = data.health;\r\n    imageScale = data.imageScale;\r\n    modelImage = data.modelImage;\r\n    --cardFrontImage = data.cardFrontImage;\r\n    --cardBackImage =data.cardBackImage;\r\n    name = data.name;\r\n    faction = data.faction or 'Arcanist';\r\n    playerColor = data.playerColor or 'Blue';\r\n\r\n    rebuildUI()\r\nend\r\n",
+          "LuaScriptState": "{\"baseScale\":\"1.2\",\"faction\":\"Arcanist\",\"health\":\"12\",\"imageScale\":\"2.3\",\"mini\":\"\",\"modelImage\":\"https://steamusercontent-a.akamaihd.net/ugc/1651098116529271567/0FB525A7BC2C0286C88C894C3EE7CFEDB822F6F7/\",\"name\":\"Lady Justice\",\"playerColor\":\"Blue\"}",
+          "XmlUI": "",
+          "CustomUIAssets": [
+            {
+              "Type": 0,
+              "Name": "ui_location",
+              "URL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/location.png"
+            }
+          ]
+        }
+      ],
       "ChildObjects": [
         {
           "GUID": "7a3c55",
@@ -2449,9 +2693,9 @@
         "posX": -4.197794,
         "posY": 1.07934666,
         "posZ": -6.723294,
-        "rotX": -8.54906546E-08,
+        "rotX": 6.942232E-08,
         "rotY": 179.986572,
-        "rotZ": 3.91459025E-08,
+        "rotZ": -1.71931291E-07,
         "scaleX": 4.0302453,
         "scaleY": 0.238693416,
         "scaleZ": 4.05899858
@@ -2568,11 +2812,11 @@
       "Name": "Custom_Tile",
       "Transform": {
         "posX": -25.7239838,
-        "posY": 0.9600001,
+        "posY": 0.960000157,
         "posZ": 11.215291,
-        "rotX": -1.04035536E-07,
+        "rotX": -4.18814E-09,
         "rotY": 180.012741,
-        "rotZ": 3.902689E-08,
+        "rotZ": -6.83149963E-08,
         "scaleX": 2.5,
         "scaleY": 1.0,
         "scaleZ": 2.5
@@ -2616,9 +2860,8 @@
           "Stretch": true
         }
       },
-      "LuaScript": "\r\n\r\nlocal mini = nil\r\nlocal faction;\r\nlocal baseScale;\r\nlocal cardFrontImage;\r\nlocal cardBackImage;\r\nlocal health;\r\nlocal imageScale;\r\nlocal modelImage;\r\nlocal name;\r\nlocal playerColor='green';\r\nlocal factionColor= Color(.70,0.19,.17);\r\nlocal cloneTo ={ 11.388285, 0.96, -12.243199 }\r\n\r\nlocal prototypes = {\r\n    base = '000000',\r\n}\r\nfunction destruct()\r\n    if mini ~= nil then\r\nmini.destruct()    \r\n    end\r\nend\r\n\r\nfunction rt_createModel(params)\r\n    log(\"rt_createModel\")\r\n    log(params)\r\n    local faction = params.faction;\r\n    local color = Color(params.r,params.g,params.b);\r\n    local isReference = params.isReference;\r\n    factionColor = color;\r\n    if isReference ~= true then\r\n        createModel(self.getPosition(),color);\r\n    end\r\nend\r\n\r\nfunction ui_createModel()\r\n    createModel(self.getPosition())\r\nend\r\n\r\nfunction hello_world()\r\n    log(\"Hello World\")\r\nend\r\nfunction createStatCard(params)\r\n    health = params[\"health\"]\r\n    imageScale = params[\"imageScale\"]\r\n    modelImage = params[\"modelImage\"]\r\n    name = params[\"name\"]\r\n    playerColor =params[\"playerColor\"]\r\n    faction = params[\"faction\"]\r\n    cardFrontImage = params[\"cardFrontImage\"]\r\n    cardBackImage = params[\"cardBackImage\"]\r\n    baseScale = params[\"baseScale\"]\r\n    factionColor=factionColorLookup(faction)\r\n    --createModel(self.getPosition());\r\n    rebuildUI()\r\n    self.setName(name)\r\n    self.reload()\r\nend\r\nfunction createCrewCard(params)\r\n    name = params[\"name\"]\r\n    playerColor =params[\"playerColor\"]\r\n    faction = params[\"faction\"]\r\n    cardFrontImage = params[\"cardFrontImage\"]\r\n    cardBackImage = params[\"cardBackImage\"]\r\n    factionColor=factionColorLookup(faction)\r\n    rebuildUI()\r\n    self.setName(name)\r\n    self.reload()\r\nend\r\nfunction factionColorLookup(faction)\r\n    if faction==\"Guild\" then\r\n        return Color(.70,0.19,.17)\r\n    elseif faction==\"Outcast\" then\r\n        return Color(.70,0.55,.04)\r\n    else\r\n        return Color(.70,0.19,.17)\r\n    end\r\nend \r\nfunction createModel(position)\r\n    local pos = position:add(Vector(0,2,0))\r\n\r\n    objectData =  self.getData()\r\n\r\n    modelPrototype = getObjectFromGUID(prototypes.base)\r\n    local rot = self.getRotation()\r\n    model = modelPrototype.clone({position=pos,rotation=rot})\r\n\r\n    model.setScale({x=baseScale, y=1, z=baseScale})\r\n    attachments = model.getAttachments()\r\n    for key,value in pairs(attachments) do\r\n        modelElement = model.removeAttachment(0)\r\n        modelElement.setCustomObject({\r\n            image = modelImage,\r\n            image_secondary = modelImage,\r\n            image_scalar = imageScale\r\n        })\r\n        modelElement.setScale(Vector(0.40 * baseScale, 0.40 * baseScale, 0.2 ));\r\n        model.addAttachment(modelElement)\r\n    end\r\n    model.setDescription(objectData.Description)\r\n    model.setName(name)\r\n    model.script_state = \"{\\\"originalData\\\":{\\\"base\\\":{\\\"color\\\":{\\\"a\\\":1,\\\"b\\\":\".. factionColor.b ..\",\\\"g\\\":\".. factionColor.g ..\",\\\"r\\\":\".. factionColor.r ..\"},\\\"size\\\":\".. baseScale * 25 ..\"},\\\"health\\\":{\\\"current\\\":\" ..health ..\",\\\"max\\\":\" ..health ..\"},\\\"imageScale\\\":\" .. imageScale  ..\"}}\";\r\n\r\n\r\n\r\n    mini = model\r\n    -- end\r\nend\r\n\r\nfunction ui_pingmini(player)\r\n    if (mini ~= nil) then\r\n        if (player.pingTable ~= nil) then\r\n            player.pingTable(mini.getPosition())\r\n        end\r\n    end\r\nend\r\n\r\nfunction rebuildAssets()\r\n    local root = 'https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/';\r\n    local assets = {\r\n        {name='ui_power', url=root..'power.png'},\r\n        {name='ui_gear', url=root..'gear.png'},\r\n        {name='ui_close', url=root..'close.png'},\r\n        {name='ui_plus', url=root..'plus.png'},\r\n        {name='ui_minus', url=root..'minus.png'},\r\n        {name='ui_reload', url=root..'reload.png'},\r\n        {name='ui_location', url=root..'location.png'},\r\n        {name='ui_bars_new', url=root..'bars_new.png'},\r\n        {name='ui_arrow_u', url=root..'arrow_u.png'},\r\n        {name='ui_arrow_d', url=root..'arrow_d.png'},\r\n        {name='ui_arrow_l', url=root..'arrow_l.png'},\r\n        {name='ui_arrow_r', url=root..'arrow_r.png'},\r\n    }\r\n\r\n    assetBuffer = {}\r\n    local bufLen = 0\r\n    for idx,guid in pairs(mapI2G) do\r\n        local mini = getObjectFromGUID(guid)\r\n        if (mini ~= nil) then\r\n            for i,marker in pairs(mini.call('getMarkers', {})) do\r\n                if (assetBuffer[marker.url] == nil) then\r\n                    bufLen = bufLen + 1\r\n                    assetBuffer[marker.url] = self.guid..'_mk_'..bufLen\r\n                    table.insert(assets, {name=self.guid..'_mk_'..bufLen, url=marker.url})\r\n                end\r\n            end\r\n        end\r\n    end\r\n    self.UI.setCustomAssets(assets)\r\nend\r\n\r\nfunction rebuildUI()\r\n    self.setCustomObject({\r\n        image = cardFrontImage,\r\n        image_secondary = cardBackImage,\r\n    });\r\n\r\n    local ui = {\r\n        {tag='Defaults', children={\r\n            {tag='Text', attributes={color='#cccccc', fontSize='18', alignment='MiddleLeft'}},\r\n            {tag='InputField', attributes={fontSize='24', preferredHeight='40'}},\r\n            {tag='ToggleButton', attributes={fontSize='18', preferredHeight='40', colors='#ffcc33|#ffffff|#808080|#606060', selectedBackgroundColor='#dddddd', deselectedBackgroundColor='#999999'}},\r\n            {tag='Button', attributes={fontSize='12',textColor='#111111', preferredHeight='40', colors='#dddddd|#ffffff|#808080|#f6f6f6'}},\r\n            {tag='Toggle', attributes={textColor='#cccccc'}},\r\n        }},\r\n        \r\n        {tag='button', attributes={onClick='ui_pingmini', image='ui_location',  colors='#ccccccff|#ffffffff|#404040ff|#808080ff', width='20', height='20', position='-40 -110 -5', rotation='0 0 180' }},\r\n        {tag='button', attributes={onClick='ui_createModel',text='Spawn Model',  colors='#ccccccff|#ffffffff|#404040ff|#808080ff', width='120', height='20', position='0 110 -5', rotation='0 0 180' }} \r\n    }\r\n    \r\n    self.UI.setXmlTable(ui)\r\n    \r\nend\r\n\r\nfunction onSave()\r\n    miniguid = ''\r\n    if mini ~= nil then\r\n        miniguid = mini.getGUID()\r\n    end\r\n    local save = {\r\n        mini = miniguid,\r\n        baseScale = baseScale,\r\n        health = health,\r\n        imageScale = imageScale,\r\n        modelImage = modelImage,\r\n        name = name,\r\n        playerColor = playerColor, \r\n        faction = faction,\r\n        cardFrontImage = cardFrontImage,\r\n        cardBackImage = cardBackImage,\r\n    }\r\n    return JSON.encode(save)\r\nend\r\n\r\n\r\nfunction onLoad(save)\r\n    local data = JSON.decode(save)\r\n    mini = getObjectFromGUID(data.mini)\r\n    baseScale = data.baseScale;\r\n    health = data.health;\r\n    imageScale = data.imageScale;\r\n    modelImage = data.modelImage;\r\n    --cardFrontImage = data.cardFrontImage;\r\n    --cardBackImage =data.cardBackImage;\r\n    name = data.name;\r\n    faction = data.faction or 'Arcanist';\r\n    playerColor = data.playerColor or 'Blue';\r\n\r\n    rebuildUI()\r\nend",
+      "LuaScript": "\r\n\r\nlocal mini = nil\r\nlocal faction;\r\nlocal baseScale;\r\nlocal cardFrontImage;\r\nlocal cardBackImage;\r\nlocal health;\r\nlocal imageScale;\r\nlocal modelImage;\r\nlocal name;\r\nlocal playerColor='green';\r\nlocal factionColor= Color(.70,0.19,.17);\r\nlocal cloneTo ={ 11.388285, 0.96, -12.243199 }\r\n\r\nlocal prototypes = {\r\n    base = '000000',\r\n}\r\nfunction destruct()\r\n    if mini ~= nil then\r\nmini.destruct()    \r\n    end\r\nend\r\n\r\nfunction rt_createModel(params)\r\n    log(\"rt_createModel\")\r\n    log(params)\r\n    local faction = params.faction;\r\n    local color = Color(params.r,params.g,params.b);\r\n    local isReference = params.isReference;\r\n    factionColor = color;\r\n    if isReference ~= true then\r\n        createModel(self.getPosition(),color);\r\n    end\r\nend\r\n\r\nfunction ui_createModel()\r\n    createModel(self.getPosition())\r\nend\r\n\r\nfunction hello_world()\r\n    log(\"Hello World\")\r\nend\r\nfunction createStatCard(params)\r\n    health = params[\"health\"]\r\n    imageScale = params[\"imageScale\"]\r\n    modelImage = params[\"modelImage\"]\r\n    name = params[\"name\"]\r\n    playerColor =params[\"playerColor\"]\r\n    faction = params[\"faction\"]\r\n    cardFrontImage = params[\"cardFrontImage\"]\r\n    cardBackImage = params[\"cardBackImage\"]\r\n    baseScale = params[\"baseScale\"]\r\n    factionColor=factionColorLookup(faction)\r\n    --createModel(self.getPosition());\r\n    rebuildUI()\r\n    self.setName(name)\r\n    self.script_state=onSave()\r\n    self.reload()\r\nend\r\nfunction createCrewCard(params)\r\n    name = params[\"name\"]\r\n    playerColor =params[\"playerColor\"]\r\n    faction = params[\"faction\"]\r\n    cardFrontImage = params[\"cardFrontImage\"]\r\n    cardBackImage = params[\"cardBackImage\"]\r\n    factionColor=factionColorLookup(faction)\r\n    rebuildUI()\r\n    self.setName(name)\r\n    self.onSave()\r\n    self.reload()\r\nend\r\nfunction factionColorLookup(faction)\r\n    if faction==\"Guild\" then\r\n        return Color(.70,0.19,.17)\r\n    elseif faction==\"Outcast\" then\r\n        return Color(.70,0.55,.04)\r\n    else\r\n        return Color(.70,0.19,.17)\r\n    end\r\nend \r\nfunction createModel(position)\r\n    local pos = position:add(Vector(0,2,0))\r\n\r\n    objectData =  self.getData()\r\n\r\n    modelPrototype = getObjectFromGUID(prototypes.base)\r\n    local rot = self.getRotation()\r\n    model = modelPrototype.clone({position=pos,rotation=rot})\r\n\r\n    model.setScale({x=baseScale, y=1, z=baseScale})\r\n    attachments = model.getAttachments()\r\n    for key,value in pairs(attachments) do\r\n        modelElement = model.removeAttachment(0)\r\n        modelElement.setCustomObject({\r\n            image = modelImage,\r\n            image_secondary = modelImage,\r\n            image_scalar = imageScale\r\n        })\r\n        modelElement.setScale(Vector(0.40 * baseScale, 0.40 * baseScale, 0.2 ));\r\n        model.addAttachment(modelElement)\r\n    end\r\n    model.setDescription(objectData.Description)\r\n    model.setName(name)\r\n    model.script_state = \"{\\\"originalData\\\":{\\\"base\\\":{\\\"color\\\":{\\\"a\\\":1,\\\"b\\\":\".. factionColor.b ..\",\\\"g\\\":\".. factionColor.g ..\",\\\"r\\\":\".. factionColor.r ..\"},\\\"size\\\":\".. baseScale * 25 ..\"},\\\"health\\\":{\\\"current\\\":\" ..health ..\",\\\"max\\\":\" ..health ..\"},\\\"imageScale\\\":\" .. imageScale  ..\"}}\";\r\n\r\n\r\n\r\n    mini = model\r\n    -- end\r\nend\r\n\r\nfunction ui_pingmini(player)\r\n    if (mini ~= nil) then\r\n        if (player.pingTable ~= nil) then\r\n            player.pingTable(mini.getPosition())\r\n        end\r\n    end\r\nend\r\n\r\nfunction rebuildAssets()\r\n    local root = 'https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/';\r\n    local assets = {\r\n        {name='ui_power', url=root..'power.png'},\r\n        {name='ui_gear', url=root..'gear.png'},\r\n        {name='ui_close', url=root..'close.png'},\r\n        {name='ui_plus', url=root..'plus.png'},\r\n        {name='ui_minus', url=root..'minus.png'},\r\n        {name='ui_reload', url=root..'reload.png'},\r\n        {name='ui_location', url=root..'location.png'},\r\n        {name='ui_bars_new', url=root..'bars_new.png'},\r\n        {name='ui_arrow_u', url=root..'arrow_u.png'},\r\n        {name='ui_arrow_d', url=root..'arrow_d.png'},\r\n        {name='ui_arrow_l', url=root..'arrow_l.png'},\r\n        {name='ui_arrow_r', url=root..'arrow_r.png'},\r\n    }\r\n\r\n    assetBuffer = {}\r\n    local bufLen = 0\r\n    for idx,guid in pairs(mapI2G) do\r\n        local mini = getObjectFromGUID(guid)\r\n        if (mini ~= nil) then\r\n            for i,marker in pairs(mini.call('getMarkers', {})) do\r\n                if (assetBuffer[marker.url] == nil) then\r\n                    bufLen = bufLen + 1\r\n                    assetBuffer[marker.url] = self.guid..'_mk_'..bufLen\r\n                    table.insert(assets, {name=self.guid..'_mk_'..bufLen, url=marker.url})\r\n                end\r\n            end\r\n        end\r\n    end\r\n    self.UI.setCustomAssets(assets)\r\nend\r\n\r\nfunction rebuildUI()\r\n    self.setCustomObject({\r\n        image = cardFrontImage,\r\n        image_secondary = cardBackImage,\r\n    });\r\n\r\n    local ui = {\r\n        {tag='Defaults', children={\r\n            {tag='Text', attributes={color='#cccccc', fontSize='18', alignment='MiddleLeft'}},\r\n            {tag='InputField', attributes={fontSize='24', preferredHeight='40'}},\r\n            {tag='ToggleButton', attributes={fontSize='18', preferredHeight='40', colors='#ffcc33|#ffffff|#808080|#606060', selectedBackgroundColor='#dddddd', deselectedBackgroundColor='#999999'}},\r\n            {tag='Button', attributes={fontSize='12',textColor='#111111', preferredHeight='40', colors='#dddddd|#ffffff|#808080|#f6f6f6'}},\r\n            {tag='Toggle', attributes={textColor='#cccccc'}},\r\n        }},\r\n        \r\n        {tag='button', attributes={onClick='ui_pingmini', image='ui_location',  colors='#ccccccff|#ffffffff|#404040ff|#808080ff', width='20', height='20', position='-40 -110 -5', rotation='0 0 180' }},\r\n        {tag='button', attributes={onClick='ui_createModel',text='Spawn Model',  colors='#ccccccff|#ffffffff|#404040ff|#808080ff', width='120', height='20', position='0 110 -5', rotation='0 0 180' }} \r\n    }\r\n    \r\n    self.UI.setXmlTable(ui)\r\n    \r\nend\r\n\r\nfunction onSave()\r\n    miniguid = ''\r\n    if mini ~= nil then\r\n        miniguid = mini.getGUID()\r\n    end\r\n    local save = {\r\n        mini = miniguid,\r\n        baseScale = baseScale,\r\n        health = health,\r\n        imageScale = imageScale,\r\n        modelImage = modelImage,\r\n        name = name,\r\n        playerColor = playerColor, \r\n        faction = faction,\r\n        cardFrontImage = cardFrontImage,\r\n        cardBackImage = cardBackImage,\r\n    }\r\n    return JSON.encode(save)\r\nend\r\n\r\n\r\nfunction onLoad(save)\r\n    local data = JSON.decode(save)\r\n    mini = getObjectFromGUID(data.mini)\r\n    baseScale = data.baseScale;\r\n    health = data.health;\r\n    imageScale = data.imageScale;\r\n    modelImage = data.modelImage;\r\n    --cardFrontImage = data.cardFrontImage;\r\n    --cardBackImage =data.cardBackImage;\r\n    name = data.name;\r\n    faction = data.faction or 'Arcanist';\r\n    playerColor = data.playerColor or 'Blue';\r\n\r\n    rebuildUI()\r\nend\r\n",
       "LuaScriptState": "{\"baseScale\":\"1.2\",\"faction\":\"Arcanist\",\"health\":\"12\",\"imageScale\":\"2.3\",\"mini\":\"\",\"modelImage\":\"https://steamusercontent-a.akamaihd.net/ugc/1651098116529271567/0FB525A7BC2C0286C88C894C3EE7CFEDB822F6F7/\",\"name\":\"Lady Justice\",\"playerColor\":\"Blue\"}",
-      "XmlUI": "",
       "CustomUIAssets": [
         {
           "Type": 0,
@@ -2651,8 +2894,8 @@
       },
       "ColorDiffuse": {
         "r": 0.454703748,
-        "g": 0.438066632,
-        "b": 0.438066632
+        "g": 0.438066572,
+        "b": 0.438066572
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -2681,19 +2924,18 @@
         }
       },
       "LuaScript": "f_color = {0,0,0,95}\r\nlocal cloneTo ={ 11.388285, 0.96, -12.243199 }\r\n\r\nlocal allBagpos={-1.43877,1.079334,13.821}\r\nlocal objectLibary = {\r\n    modelCard = '3ce58e',\r\n    refrenceCard=\"903d61\";\r\n    allBag=\"000888\";\r\n    guildBag=\"c98d47\";\r\n    arcanistBag=\"fb3900\";\r\n    resurrectionistsBag=\"000839\";\r\n    neverbornBag=\"88b910\";\r\n    outcastsBag=\"d95ea4\";\r\n    tenThundersBag=\"64e45c\";\r\n    bayouBag=\"11cdcb\";\r\n    explorerSocietyBag=\"313d9c\";\r\n    upgradesBag=\"f5da9d\";\r\n\r\n}\r\nfunction onLoad(save_state)\r\n    self.createButton({\r\n        label=\"\",\r\n        click_function=\"genCards\",\r\n        tooltip=\"Gen Cards\",\r\n        function_owner=self,\r\n        position={0,0.11,0},\r\n        height=600,\r\n        width=1000,\r\n        alignment = 3,\r\n        scale={x=1.5, y=1.5, z=1.5},\r\n        font_size=300,\r\n        font_color=f_color,\r\n        color={0,0,0,0}\r\n        })\r\nend\r\n\r\nfunction genCards(_obj, _color, alt_click)\r\n    local library = getObjectFromGUID(\"c78aef\")\r\n    local modelLibeary=library.call(\"getModelLibrary\")\r\n    local statCardPrototype = getObjectFromGUID(objectLibary.modelCard)\r\n    \r\n    local allBag = getObjectFromGUID(objectLibary.allBag)\r\n    local waitbase=5\r\n    local wait=waitbase\r\n    for key,model in pairs(modelLibeary) do\r\n\r\n        Wait.frames(function() addModel(statCardPrototype,model,allBagpos) end,wait)\r\n        wait=wait+waitbase\r\n        local factionPosition={0,0,0}\r\n        if model[\"faction\"]==\"Guild\" then\r\n            factionPosition=getObjectFromGUID(objectLibary.guildBag).getPosition()\r\n        end\r\n        if model[\"faction\"]==\"Arcanist\" then\r\n            factionPosition=getObjectFromGUID(objectLibary.arcanistBag).getPosition()\r\n        end\r\n        if model[\"faction\"]==\"Resurrectionists\" then\r\n            factionPosition=getObjectFromGUID(objectLibary.resurrectionistsBag).getPosition()\r\n        end\r\n        if model[\"faction\"]==\"Neverborn\" then\r\n            factionPosition=getObjectFromGUID(objectLibary.neverbornBag).getPosition()\r\n        end\r\n        if model[\"faction\"]==\"Outcasts\" then\r\n            factionPosition=getObjectFromGUID(objectLibary.outcastsBag).getPosition()\r\n        end\r\n        if model[\"faction\"]==\"Ten Thunders\" then\r\n            factionPosition=getObjectFromGUID(objectLibary.tenThundersBag).getPosition()\r\n        end\r\n        if model[\"faction\"]==\"Bayou\" then\r\n            factionPosition=getObjectFromGUID(objectLibary.bayouBag).getPosition()\r\n        end\r\n        if model[\"faction\"]==\"Explorer Society\" then\r\n            factionPosition=getObjectFromGUID(objectLibary.explorerSocietyBag).getPosition()\r\n        end\r\n        Wait.frames(function() addModel(statCardPrototype,model,factionPosition) end,wait)\r\n    end\r\n    local refrenceCardLibeary=library.call(\"getCrewCardLibrary\")\r\n    local refCardPrototype= getObjectFromGUID(objectLibary.refrenceCard)\r\n    for key,refCard in pairs(refrenceCardLibeary) do\r\n        local statCard = refCardPrototype.clone({position=getObjectFromGUID(objectLibary.upgradesBag).getPosition()})\r\n        Wait.frames(function() statCard.call(\"createRefrenceCard\",refCard) end,1)        \r\n    end\r\nend\r\n\r\nfunction addModel(prototype,model,pos)\r\n    local statCard = prototype.clone({position=pos})\r\n    Wait.frames(function() statCard.call(\"createStatCard\",model) end,1)\r\nend",
-      "LuaScriptState": "",
-      "XmlUI": ""
+      "LuaScriptState": ""
     },
     {
       "GUID": "903d61",
       "Name": "Custom_Tile",
       "Transform": {
         "posX": -22.0569134,
-        "posY": 0.9600001,
+        "posY": 0.960000157,
         "posZ": 14.3853626,
-        "rotX": -4.40550636E-08,
+        "rotX": 4.30388E-08,
         "rotY": 180.012711,
-        "rotZ": 1.47571015E-07,
+        "rotZ": -3.807017E-08,
         "scaleX": 2.5,
         "scaleY": 1.0,
         "scaleZ": 2.5
@@ -2737,9 +2979,278 @@
           "Stretch": true
         }
       },
-      "LuaScript": "\r\n\r\nlocal mini = nil\r\nlocal faction;\r\nlocal cardFrontImage;\r\nlocal cardBackImage;\r\nlocal name;\r\nlocal playerColor='green';\r\nlocal factionColor= Color(.70,0.19,.17);\r\nlocal cloneTo ={ 11.388285, 0.96, -12.243199 }\r\nfunction onLoad()\r\nend\r\n\r\n\r\nfunction hello_world()\r\n    log(\"Hello World\")\r\nend\r\n\r\nfunction createRefrenceCard(params)\r\n    log(params)\r\n    name = params[\"name\"]\r\n    playerColor =params[\"playerColor\"]\r\n    faction = params[\"faction\"]\r\n    cardFrontImage = params[\"cardFrontImage\"]\r\n    cardBackImage = params[\"cardBackImage\"]\r\n    factionColor=factionColorLookup(faction)\r\n    rebuildUI()\r\n    self.setName(name)\r\n    self.reload()\r\nend\r\nfunction factionColorLookup(faction)\r\n    if faction==\"Guild\" then\r\n        return Color(.70,0.19,.17)\r\n    elseif faction==\"Outcast\" then\r\n        return Color(.70,0.55,.04)\r\n    else\r\n        return Color(.70,0.19,.17)\r\n    end\r\nend \r\n\r\nfunction rebuildUI()\r\n    self.setCustomObject({\r\n        image = cardFrontImage,\r\n        image_secondary = cardBackImage,\r\n    });\r\nend",
-      "LuaScriptState": "{\"baseScale\":\"1.2\",\"faction\":\"Arcanist\",\"health\":\"12\",\"imageScale\":\"2.3\",\"mini\":\"\",\"modelImage\":\"https://steamusercontent-a.akamaihd.net/ugc/1651098116529271567/0FB525A7BC2C0286C88C894C3EE7CFEDB822F6F7/\",\"name\":\"Lady Justice\",\"playerColor\":\"Blue\"}",
-      "XmlUI": ""
+      "LuaScript": "\r\n\r\nlocal mini = nil\r\nlocal faction;\r\nlocal cardFrontImage;\r\nlocal cardBackImage;\r\nlocal name;\r\nlocal playerColor='green';\r\nlocal factionColor= Color(.70,0.19,.17);\r\nlocal config={}\r\nlocal cloneTo ={ 11.388285, 0.96, -12.243199 }\r\nfunction onLoad()\r\nend\r\n\r\n\r\nfunction hello_world()\r\n    log(\"Hello World\")\r\nend\r\n\r\nfunction createRefrenceCard(params)\r\n    log(params)\r\n    config=params\r\n    name = params[\"name\"]\r\n    playerColor =params[\"playerColor\"]\r\n    faction = params[\"faction\"]\r\n    cardFrontImage = params[\"cardFrontImage\"]\r\n    cardBackImage = params[\"cardBackImage\"]\r\n    factionColor=factionColorLookup(faction)\r\n    rebuildUI()\r\n    self.setName(name)\r\n    self.reload()\r\nend\r\nfunction factionColorLookup(faction)\r\n    if faction==\"Guild\" then\r\n        return Color(.70,0.19,.17)\r\n    elseif faction==\"Outcast\" then\r\n        return Color(.70,0.55,.04)\r\n    else\r\n        return Color(.70,0.19,.17)\r\n    end\r\nend \r\n\r\nfunction rebuildUI()\r\n    self.setCustomObject({\r\n        image = cardFrontImage,\r\n        image_secondary = cardBackImage,\r\n    });\r\nend",
+      "LuaScriptState": "{\"baseScale\":\"1.2\",\"faction\":\"Arcanist\",\"health\":\"12\",\"imageScale\":\"2.3\",\"mini\":\"\",\"modelImage\":\"https://steamusercontent-a.akamaihd.net/ugc/1651098116529271567/0FB525A7BC2C0286C88C894C3EE7CFEDB822F6F7/\",\"name\":\"Lady Justice\",\"playerColor\":\"Blue\"}"
+    },
+    {
+      "GUID": "000000",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -21.98389,
+        "posY": 0.960000157,
+        "posZ": 9.937528,
+        "rotX": 5.622173E-06,
+        "rotY": 209.990417,
+        "rotZ": -2.30007463E-05,
+        "scaleX": 1.2,
+        "scaleY": 1.0,
+        "scaleZ": 1.2
+      },
+      "Nickname": "Model Prototype",
+      "Description": "RSS_Model",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 0.5,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": true,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomMesh": {
+        "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/922542758751649800/E140136A8F24712A0CE7E63CF05809EE5140A8B7/",
+        "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/1616187808495853030/D324EFA2B5648EACA4A376C87A01808EB63CC18F/",
+        "NormalURL": "",
+        "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/922542758751649800/E140136A8F24712A0CE7E63CF05809EE5140A8B7/",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "RSS_Class = 'Model';\r\nTRH_Class =\"mini\"\r\n------ CLASS VARIABLES ----------------------\r\n\r\n\tlocal ChildObjs = {\r\n\t\taura_obj = nil\r\n\t};\r\n\tlocal Conditions = {}\r\n\tlocal originalData = nil;\r\n\tlocal state = {\r\n\t\tconditions={Adversary = 0,Fast = 0,Poison = 0,Burning = 0,Focus = 0,Distracted = 0,Injured = 0,Staggered = 0,Stunned = 0,Shielded = 0, Aura=0,Activated =0,Mode= 0\t},\r\n\t\ttokens={},\r\n\t\thealth={current=-1,max= 9},\r\n\t\tbase={size=30,color=Color(1,0.5,1)},\r\n\t\timageScale=1.5,\r\n\t\t\r\n\t\tmoveHistory={},\r\n\t\t\r\n\r\n\t\treferenceCard = { GUID = '', obj = nil},\r\n\t\r\n\t};\r\n\r\n\tlocal UIStatus = {\r\n\t\tBlue = {rotation = -2},\r\n\t\tRed = {rotation = -2},\r\n\t\tBlack = {rotation = -2},\r\n\t\tGrey = {rotation = -2},\r\n\t};\r\n\r\n\t\r\n\r\n------ LIFE CICLE EVENTS --------------------\r\n\r\n\tfunction onDestroy()\r\n\t\tif (ChildObjs.aura_obj ~= nil) then ChildObjs.aura_obj.destruct() end\r\n\tend\r\n\r\n\tfunction onLoad(save)\r\n\t\tsave = JSON.decode(save) or {}\r\n\t\tself.setDescription(\"RSS_Model\");\r\n\t\trecoverState(save)\r\n\r\n\t\trebuildAssets()\r\n\t\tself.UI.setXml(ui())\r\n\t\tRefreshModelShape()\r\n\t\tshowAura()\r\n\tend\r\n\t\r\n\tfunction onSave()\r\n\t\tlocal data={}\r\n\t\tdata.state = state;\r\n\t\tdata.originalData = originalData ~= nil and originalData or state;\r\n\t\t\r\n\t\treturn JSON.encode(data)\r\n\tend\r\n\r\n\r\n\tfunction onUpdate()\r\n\t\tfor _, player in ipairs(Player.getPlayers()) do\r\n\t\t\tif IsPlayerSuscribed(player.color) then\r\n\t\t\t\tHUDLookAtPlayer(player);\r\n\t\t\tend\r\n\t\tend\r\n\tend\r\n\r\n\tfunction recoverState(save)\r\n\t\tif save.state ~= nil then\r\n\t\t\tstate = save.state;\r\n\t\t\tstate.conditions.Mode = state.conditions.Mode ~= nil and state.conditions.Mode or 0;\r\n\t\telse \r\n\t\t\toriginalData = save.originalData;\r\n\t\t\tstate.health = originalData.health;\r\n\t\t\tstate.base = originalData.base;\r\n\t\t\tstate.imageScale = originalData.imageScale;\r\n\t\t\tstate.base.color = Color(state.base.color); \r\n\t\tend\r\n\t\t\r\n\r\n\t\t-- TODO Modify State With original Data\r\n\tend\r\n\r\n------ STATE ACTIONS ------------------------\r\n\r\n\tfunction SetInitialState(newState) --Tobe called from the reference card\r\n\t\tstate.state = newState.state;\r\n\t\tstate.health = newState.health;\r\n\t\tstate.base = newState.base;\r\n\t\tstate.imageScale = newState.imageScale;\r\n\t\tstate.referenceCard = newState.referenceCard;\r\n\t\t--state.name = state.name;\r\n\tend\r\n\r\n\tfunction ModifyHealth(params)\r\n\t\tstate.health.current =math.max(0, math.min(state.health.max, state.health.current + params.amount));\t\r\n\t\tSyncHealth()\r\n\tend\r\n\r\n\tfunction ModifyAura(params)\r\n\t\tstate.conditions.Aura = math.max(0,state.conditions.Aura + params.amount);\r\n\t\tlocal newScale = 0;\r\n\t\tif state.conditions.Aura > 0 then\r\n\t\t\tnewScale = state.conditions.Aura+(state.base.size/50);\r\n\t\tend\r\n\r\n\t\tChildObjs.aura_obj.setScale(Vector(newScale,1,newScale));\r\n\t\tSyncCondition(\"Aura\")\r\n\tend\r\n\r\n\tfunction ModifyCondition(params)\r\n\t\t--log(\"in model modifyConditions\")\r\n\t\t--log(\" \")\r\n\t\t--log(\" \")\r\n\t\t--log(\" \")\r\n\t\t--log(\" \")\r\n\t\t--log(params)\r\n\t\t--log(\" \")\r\n\t\t--log(\" \")\r\n\t\t--log(\" \")\r\n\t\tlocal previousValue = state.conditions[params.name];\r\n\t\tif  params.amount == 0 then -- toggle\r\n\t\t\tstate.conditions[params.name] = math.max(0,1 - state.conditions[params.name]);\t\r\n\t\telse\r\n\t\t\tif Conditions[params.name].loop ~= nil  then\r\n\t\t\t\tstate.conditions[params.name] = math.max(0,(state.conditions[params.name] + params.amount + Conditions[params.name].loop)% Conditions[params.name].loop) ;\t\r\n\t\t\telse\r\n\t\t\t\tstate.conditions[params.name] = math.max(0,state.conditions[params.name] + params.amount);\t\r\n\t\t\tend\r\n\t\tend\r\n\t\tlocal states  = self.getData();\r\n\t\r\n\t\tif params.name == 'Mode' then\r\n\t\t\tSync()\r\n\t\telse\r\n\t\t\tprint (self.getData().Nickname .. [[: ']] .. params.name .. [[' ]] .. previousValue .. [[->]] .. state.conditions[params.name])\r\n\t\t\tSyncCondition(params.name)\r\n\t\tend\r\n\r\n\tend\r\n\r\n\tfunction ModifyMoveRange(params)\r\n\t\tstate.move.moveRange = math.max(0, state.move.moveRange + params.amount);\r\n\tend\r\n\r\n------ MODEL MANIPULATION -------------------\r\n\t\r\n\tfunction AuraFollowObject(params)\r\n\t\tif ChildObjs.aura_obj ~= nil then\r\n\t\t\tChildObjs.aura_obj.setVar('parent',params.obj);\r\n\t\tend\r\n\tend\r\n\r\n\tfunction AuraResetFollow()\r\n\t\tif ChildObjs.aura_obj ~= nil then\r\n\t\t\tChildObjs.aura_obj.setVar('parent',self);\r\n\t\tend\r\n\tend\r\n\r\n\tfunction RefreshModelShape()\r\n\t\tlocal attachments = self.getAttachments()\r\n\t\tfor key,value in pairs(attachments) do\r\n\t\t\tmodelElement = self.removeAttachment(0)\r\n\t\t\tmodelElement.setCustomObject({\r\n\t\t\t\timage_scalar = tonumber(state.imageScale * 1.2)\r\n\t\t\t});\r\n\t\t\t-- modelElement.getComponent('MeshCollider').set('enabled',false)\r\n\t\t\tself.addAttachment(modelElement)\r\n\t\tend \r\n\t\tlocal baseScale = state.base.size / 25;\r\n\t\tself.setScale(Vector(baseScale,1,baseScale))\r\n\t\tRefreshBaseColor()\r\n\tend\r\n\t\r\n\tfunction RefreshBaseColor()\r\n\t\tif state.conditions.Activated == 0 then\r\n\t\t\tself.setColorTint(state.base.color)\r\n\t\telse\r\n\t\t\tself.setColorTint( Color(state.base.color):lerp(Color.white, 0.45) )\r\n\t\tend\r\n\tend\r\n------ UI GENERATION ------------------------\r\n\tfunction calculatePlayerRotation()\r\n\t\tfor _, player in ipairs(Player.getPlayers()) do\r\n\t\t\tUIStatus[player.color].rotation = player.getPointerRotation() - self.getRotation().y + 180;\r\n\t\tend\r\n\tend\r\n\tfunction Sync()\r\n\t\tself.UI.setXml(ui())\r\n\t\t--propagateToReferenceCard()\r\n\tend\r\n\t\r\n\tfunction SyncCondition(name)\r\n\t\tlocal secondary = Conditions[name].secondary;\r\n\t\tlocal imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\n\t\r\n\t\tfor k,color in pairs({'Red', 'Blue','Grey','Black'}) do\r\n\t\t\tself.UI.setAttributes(color..\"_ConditionImage_\".. name, {\r\n\t\t\t\tcolor= Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or '22'),\r\n\t\t\t\timage= imageName,\r\n\t\t\t});\r\n\t\t\tself.UI.setAttributes(color..\"_ConditionText_\".. name, {\r\n\t\t\t\tactive= (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false'),\r\n\t\t\t\ttext= state.conditions[name] \r\n\t\t\t});\r\n\t\tend\r\n\r\n\t\tif name == \"Activated\" then\r\n\t\t\tRefreshBaseColor()\r\n\t\tend\r\n\tend\t\r\n\t\r\n\tfunction SyncHealth()\r\n\t\tfor k,color in pairs({'Red', 'Blue','Grey','Black'}) do\r\n\t\t\tself.UI.setAttributes( color .. \"_HealthBar_Text\", {\r\n\t\t\t\ttext = state.health.current.. [[/]] .. state.health.max\r\n\t\t\t});\r\n\t\t\tself.UI.setAttributes(color .. \"_HealthBar\", {\r\n\t\t\t\tpercentage= (state.health.current / state.health.max * 100)\r\n\t\t\t});\r\n\t\tend\r\n\tend\t\r\n\r\n\tfunction IsPlayerSuscribed(color)\r\n\t\t-- print(color .. \" -> \" ..  ((UIStatus[color] ~= nil) and 'true' or 'false') )\r\n\t\treturn UIStatus[color] ~= nil;\r\n\tend\r\n\r\n\tfunction HUDLookAtPlayer(player)\r\n\t\tlocal playerRotation  = player.getPointerRotation();\r\n\t\tif playerRotation == nil then playerRotation = 0 end;\r\n\t\tlocal pointerRotation = playerRotation - self.getRotation().y +180;\r\n\t\tpointerRotation = math.floor((pointerRotation+15) / 30)\r\n\t\tif pointerRotation ~= UIStatus[player.color].rotation then\r\n\t\t\tself.UI.setAttribute(player.color .. '_PlayerHUDPivot','rotation','0 0 '.. -30 * pointerRotation  )\r\n\t\t\tUIStatus[player.color].rotation = pointerRotation;\r\n\t\tend\r\n\tend\r\n\r\n\tfunction ui() \r\n\t\treturn [[\r\n\t\t\t<Panel color=\"#FFFFFFff\" height=\"0\" width=\"0\" rectAlignment=\"MiddleCenter\" childForceExpandWidth=\"true\" >]]..\r\n\t\t\tPlayerHUDPivot('Blue')..\r\n\t\t\tPlayerHUDPivot('Red')..\r\n\t\t\tPlayerHUDPivot('Grey')..\r\n\t\t\tPlayerHUDPivot('Black')..\r\n\t\t\t[[</Panel>\r\n\t\t]];\r\n\tend\r\n\r\n\tfunction rebuildAssets()\r\n\t\tlocal assets = {};\r\n\t\tfor conditionName, value in pairs(Conditions) do\r\n\t\t\tassets[#assets+1]={name=conditionName , url = value.url};\r\n\t\tend\r\n\r\n\t\tself.UI.setCustomAssets(assets)\r\n\tend\r\n\r\n\tfunction PlayerHUDPivot(color)\r\n\t\treturn [[\r\n\t\t\t<Panel id=']]..color..[[_PlayerHUDPivot' visibility=']]..color..[[' height=\"160\" width=\"100\" position='0 0 -240' rotation='0 0 ]] .. - UIStatus[color].rotation .. [[' rectAlignment=\"MiddleCenter\" childForceExpandWidth=\"false\">\r\n\t\t\r\n\t\t\t]]..(state.conditions.Mode == 0 and PlayerHUDContainer(color) or Compact_PlayerHUD(color))..[[\r\n\t\t</Panel>\r\n\t\t]]\r\n\tend\r\n\r\n\t\r\n\tfunction Compact_PlayerHUD(color)\r\n\t\treturn [[\r\n\t\t\t<Panel id='PlayerHUD_Container' active='true' height=\"80\" width=\"60\" rectAlignment=\"MiddleCenter\"  rotation='-35 0 0' position='0 0 0' childForceExpandWidth=\"false\">]]..\r\n\t\t\tCompact_HUDConditions(color) ..\r\n\t\t\t\t[[<ProgressBar width=\"100%\" height=\"20\" id=\"]] .. color .. [[_HealthBar\" color='#00000080' fillImageColor=\"#44AA22FF\" percentage=\"]] ..(state.health.current / state.health.max * 100) .. [[\" textColor=\"#00000000\"/>  ]] ..\r\n\t\t\t\t[[<Text id=']] .. color .. [[_HealthBar_Text' fontSize='18' height=\"20\" onClick='UI_ModifyHealth' text=']] .. state.health.current.. [[/]] .. state.health.max.. [[' color='#ffffff' fontStyle='Bold' outline='#000000' outlineSize='1 1' />]] ..\r\n\t\t\t[[</Panel>\r\n\t\t]]\r\n\tend\r\n\r\n\r\n\tfunction PlayerHUDContainer(color)\r\n\t\treturn [[\r\n\t\t\t<Panel id='PlayerHUD_Container' active='true' height=\"80\" width=\"128\" rectAlignment=\"MiddleCenter\"  rotation='-35 0 0' position='0 50 0' childForceExpandWidth=\"false\">]]..\r\n\t\t\t\tHUDConditions(color) ..\r\n\t\t\t\t[[<ProgressBar width=\"100%\" height=\"30\" id=\"]] .. color .. [[_HealthBar\" color='#00000080' fillImageColor=\"#44AA22FF\" percentage=\"]] ..(state.health.current / state.health.max * 100) .. [[\" textColor=\"#00000000\"/>  ]] ..\r\n\t\t\t\t[[<Text id=']] .. color .. [[_HealthBar_Text' fontSize='25' height=\"30\" onClick='UI_ModifyHealth' text=']] .. state.health.current.. [[/]] .. state.health.max.. [[' color='#ffffff' fontStyle='Bold' outline='#000000' outlineSize='1 1' />]] ..\r\n\t\t\t[[</Panel>\r\n\t\t]]\r\n\tend\r\n\r\n\tfunction Compact_HUDConditions(color)\r\n\t\tlocal size = 18;\r\n\t\tlocal size2 = 10;\r\n\t\t\r\n\t\treturn [[<Panel width=\"100%\" rectAlignment=\"MiddleLeft\" position='0 0 0' > ]]..\r\n\t\tHUDSingleCondition(color,\"Burning\", 0.5 , 2.5,size2) ..\r\n\t\tHUDSingleCondition(color,\"Poison\", 1.5 , 2.5,size2) ..\r\n\t\tHUDSingleCondition(color,\"Injured\", 2.5 , 2.5,size2) ..\r\n\t\tHUDSingleCondition(color,\"Distracted\", 3.5 , 2.5,size2) ..\r\n\r\n\t\t--HUDSingleCondition(color,\"Slow\", 0.5 , -1.5,size2) ..\r\n\t\tHUDSingleCondition(color,\"Fast\", 0.5 , 1.5,size2) ..\r\n\t\tHUDSingleCondition(color,\"Stunned\", 1.5 , 1.5,size2) ..\r\n\t\tHUDSingleCondition(color,\"Staggered\", 2.5 , 1.5,size2) ..\r\n\t\tHUDSingleCondition(color,\"Adversary\", 3.5 , 1.5,size2) ..\r\n\t\t\r\n\t\tHUDSingleCondition(color,\"Focus\", -0.5 ,2.5,size2) ..\r\n\t\tHUDSingleCondition(color,\"Shielded\", -0.5 ,1.5,size2) ..\r\n\r\n\t\tHUDSingleCondition(color,\"Aura\", 1.5 ,-1,size) ..\r\n\t\tHUDSingleCondition(color,\"Activated\", 0.5 ,-1,size) ..\r\n\t\tHUDSingleCondition(color,\"Mode\", 2.5 ,-1,size) ..\r\n\t\t\r\n\t\t[[</Panel>]]\r\n\tend\r\n\r\n\tfunction HUDConditions(color)\r\n\t\tlocal size = 30;\r\n\t\treturn [[<Panel width=\"100%\" rectAlignment=\"MiddleLeft\" position='0 0 0' > ]]..\r\n\t\tHUDSingleCondition(color,\"Burning\", 0 , 1,size) ..\r\n\t\tHUDSingleCondition(color,\"Poison\", 1 , 1,size) ..\r\n\t\tHUDSingleCondition(color,\"Injured\", 2 , 1,size) ..\r\n\t\tHUDSingleCondition(color,\"Distracted\", 3 , 1,size) ..\r\n\r\n\t\t--HUDSingleCondition(color,\"Slow\", 0 , -1,size) ..\r\n\t\tHUDSingleCondition(color,\"Fast\", 0 , -1,size) ..\r\n\t\tHUDSingleCondition(color,\"Stunned\", 1 , -1,size) ..\r\n\t\tHUDSingleCondition(color,\"Staggered\", 2 , -1,size) ..\r\n\t\tHUDSingleCondition(color,\"Adversary\", 3 , -1,size) ..\r\n\t\t\r\n\t\tHUDSingleCondition(color,\"Focus\", -1 ,0.5,size) ..\r\n\t\tHUDSingleCondition(color,\"Shielded\", -1 ,-0.5,size) ..\r\n\r\n\t\tHUDSingleCondition(color,\"Aura\", 4 ,1,size) ..\r\n\t\tHUDSingleCondition(color,\"Activated\", 4 ,0,size) ..\r\n\t\tHUDSingleCondition(color,\"Mode\", 4 ,-1,size) ..\r\n\t\t\r\n\t\t[[</Panel>]]\r\n\tend\r\n\r\n\r\n\tfunction UI_ModifyCondition(alt,name) if alt ~= '-3' then ModifyCondition({name=name,amount= (alt == '-1' and 1 or (alt == '-2' and -1) or 0 ) }) end end\r\n\tfunction UI_ModifyAura(p,alt) if alt ~= '-3' then ModifyAura({amount= (alt == '-1' and 1 or (alt == '-2' and -1) or 0 ) }) end end\r\n\tfunction UI_ModifyHealth(p,alt) if alt ~= '-3' then ModifyHealth({amount= (alt == '-1' and 1 or (alt == '-2' and -1) or 0 ) }) end end\r\n\t\r\n\tfunction UI_ModifyBurning(p,alt) UI_ModifyCondition(alt,\"Burning\") end\r\n\tfunction UI_ModifyPoison(p,alt) UI_ModifyCondition(alt,\"Poison\") end\r\n\tfunction UI_ModifyInjured(p,alt) UI_ModifyCondition(alt,\"Injured\") end\r\n\tfunction UI_ModifyDistracted(p,alt) UI_ModifyCondition(alt,\"Distracted\") end\r\n\t\r\n\t\r\n\tfunction UI_ModifyFast(p,alt) UI_ModifyCondition(alt,\"Fast\") end\r\n\tfunction UI_ModifyStunned(p,alt) UI_ModifyCondition(\"0\",\"Stunned\") end\r\n\tfunction UI_ModifyStaggered(p,alt) UI_ModifyCondition(\"0\",\"Staggered\") end\r\n\tfunction UI_ModifyAdversary(p,alt) UI_ModifyCondition(\"0\",\"Adversary\") end\r\n\tfunction UI_ModifyActivated(p,alt) UI_ModifyCondition(\"0\",\"Activated\") end\r\n\tfunction UI_ModifyMode(p,alt)  UI_ModifyCondition(alt,\"Mode\") end\r\n\r\n\tfunction UI_ModifyFocus(p,alt) UI_ModifyCondition(alt,\"Focus\") end\r\n\tfunction UI_ModifyShielded(p,alt) UI_ModifyCondition(alt,\"Shielded\") end\r\n\r\n\r\n\tfunction HUDSingleCondition(color,name,x,y,size)\r\n\t\r\n\t\tlocal id = \"ConditionFrame_\" .. name ;\r\n\t\treturn [[<Panel id=\"]] .. id ..[[\" width=\"]] ..size..[[\" height=\"]] ..size..[[\" alignment='LowerLeft' position=']] ..((x* (size +2)) - (1.5*size + 2)).. [[ ]] .. y*( (size +2)) .. [[ 0' ]] .. \r\n\t\t[[onClick='UI_Modify]] .. name ..[[()'>]] ..\r\n\t\t\tHUDSingleConditionBody(color,name,size)..\r\n\t\t[[</Panel>]];\r\n\tend\r\n\r\n\tfunction HUDSingleConditionBody(color,name,size)\r\n\t\tlocal secondary = Conditions[name].secondary;\r\n\t\tlocal imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\n\t\tlocal colorBlock = Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or '22'); --.. [[|]] .. Conditions[imageName].color .. [[ff|#00000000|#00000000]];\r\n\t\r\n\t\treturn [[\r\n\t\t\t<Image id=\"]]..color ..[[_ConditionImage_]]..name ..[[\" image=\"]] .. imageName .. [[\" color=\"]] .. colorBlock .. [[\" rectAlignment='LowerLeft' width=']] ..size..[[' height=']] ..size..[['/>\r\n\t\t\t<Text  id=\"]]..color ..[[_ConditionText_]]..name ..[[\" active=']] .. (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false')  ..[['  fontSize=']] ..math.floor(size*0.85)..[[' text=']] .. state.conditions[name] .. [[' color='#ffffff' fontStyle='Bold'  rectAlignment='LowerLeft' outline='#000000' outlineSize='1 1' />\r\n\t\t]]\r\n\tend\r\n\r\n\r\n\tConditions = {\r\n\t\tFast = { url=\"https://steamusercontent-a.akamaihd.net/ugc/1019447087554385209/698B13597E185E6ACA0AB19C13A118A3C1BEEB4D/\", color=\"#E2D064\", stacks=false, loop = 3 , secondary = \"Slow\"},\r\n\t\tSlow = { url=\"https://steamusercontent-a.akamaihd.net/ugc/1019447087554366701/F479B20690BB037348F53B802F99B9B68ACFCCEA/\", color=\"#B8B8B8\", stacks=false, loop = 3 },\r\n\t\tAdversary = { url=\"https://steamusercontent-a.akamaihd.net/ugc/1019447087554346517/81BCB3804E00F22B1E40D6A84C85C26F04F3C5CC/\", color=\"#DF2020\", stacks=false },\r\n\t\tPoison = { url=\"https://steamusercontent-a.akamaihd.net/ugc/1019447087554095214/37B3943D3C71EE6BFD13027145BDE00D0D56ED3B/\", color=\"#83CD4D\", stacks=true },\r\n\t\tBurning = { url=\"https://steamusercontent-a.akamaihd.net/ugc/1019447087554318009/A00031DC30FDC7D6EB7AEA3DFCF8AAD0754CD4CB/\", color=\"#DB8E47\", stacks=true },\r\n\t\tFocus = { url=\"https://steamusercontent-a.akamaihd.net/ugc/1019447087554725833/7B52C3AD5915BFC06B7E68025F5448C2862E0789/\", color=\"#9A37D3\", stacks=true },\r\n\t\tDistracted = { url=\"https://steamusercontent-a.akamaihd.net/ugc/1019447087554407310/DA85F94D429B073CEB18B2AB4F24FC0041F1CF30/\", color=\"#FF42CF\", stacks=true },\r\n\t\tInjured = { url=\"https://steamusercontent-a.akamaihd.net/ugc/1019447087554292969/5474B842DEC8F08CB249F3B24683FE95D58332FC/\", color=\"#920606\", stacks=true },\r\n\t\tStaggered = { url=\"https://steamusercontent-a.akamaihd.net/ugc/1019447087554150868/60F4FB8B23A6586775CB50311E1F7DD6BC0C1620/\", color=\"#138C01\", stacks=false },\r\n\t\tStunned = { url=\"https://steamusercontent-a.akamaihd.net/ugc/1019447087554191671/98EB8191C3884783E74F6FF8066097D2D7296CBF/\", color=\"#FFFFFF\", stacks=false },\r\n\t\tShielded = { url=\"https://steamusercontent-a.akamaihd.net/ugc/1019447087554495459/45E41E4CF603049EEF4B3EAB39DC0B3DC93DFE78/\", color=\"#6AC3FF\", stacks=true },\r\n\t\tAura = { url=\"https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png\", color=\"#99aa22\", stacks=true },\r\n\t\tActivated  = { url=\"https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/flag.png\", color=\"#bbbb22\", stacks=false },\r\n\t\tMode  = { url=\"https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/gear.png\", color=\"#bbffbb\", stacks=false, loop = 2 }\r\n\t\t\r\n\t}\r\n\r\n------ Object SPAWMERS ----------------------\r\n\r\n\tfunction showAura()\r\n\r\n\t\tlocal a=(state.conditions.Aura > 0) and (state.conditions.Aura+(state.base.size/50)) or 0; --based on model base size\r\n\t\r\n\t\tlocal me = self\r\n\t\tlocal clr = self.getColorTint()\r\n\t\t\tChildObjs.aura_obj=spawnObject({\r\n\t\t\ttype='custom_model',\r\n\t\t\tposition=self.getPosition(),\r\n\t\t\trotation=self.getRotation(),\r\n\t\t\tscale={a,1,a},\r\n\t\t\tmass=0,\r\n\t\t\tuse_gravity=false,\r\n\t\t\tsound=false,\r\n\t\t\tsnap_to_grid=false,\r\n\t\t\tcallback_function=function(b)\r\n\t\t\t\tb.setColorTint(clr)\r\n\t\t\t\tb.setVar('parent',self)\r\n\t\t\t\tb.setLuaScript([[\r\n\t\t\t\t\tlocal lastParent = nil\r\n\t\t\t\t\tlocal clock = 2\r\n\t\t\t\t\tfunction onLoad() \r\n\t\t\t\t\t\t(self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false)\r\n\t\t\t\t\t\tWait.condition(\r\n\t\t\t\t\t\t\tfunction() \r\n\t\t\t\t\t\t\t\t(self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false) \r\n\t\t\t\t\t\t\tend, \r\n\t\t\t\t\t\t\tfunction() \r\n\t\t\t\t\t\t\t\treturn not(self.loading_custom) \r\n\t\t\t\t\t\t\tend\r\n\t\t\t\t\t\t) \r\n\t\t\t\t\tend \r\n\t\t\t\t\tfunction onUpdate() \r\n\t\t\t\t\t\tif (parent ~= nil) then \r\n\t\t\t\t\t\t\tif clock < 0 then\r\n\t\t\t\t\t\t\t\tclock = 2;\r\n\t\t\t\t\t\t\t\tif self.getPosition():distance(parent.getPosition()) > 0.01 then\r\n\t\t\t\t\t\t\t\t\tself.setPosition(parent.getPosition())\r\n\t\t\t\t\t\t\t\t\tself.setRotation(parent.getRotation()) \r\n\t\t\t\t\t\t\t\tend\r\n\t\t\t\t\t\t\telse\r\n\t\t\t\t\t\t\t\tclock = clock - 1\r\n\t\t\t\t\t\t\tend\r\n\t\t\t\t\t\telse \r\n\t\t\t\t\t\t\tself.destruct() \r\n\t\t\t\t\t\tend \r\n\t\t\t\t\tend\r\n\t\t\t\t]])\r\n\t\t\t\tb.getComponent('MeshRenderer').set('receiveShadows',false)\r\n\t\t\t\tb.mass=0\r\n\t\t\t\tb.bounciness=0\r\n\t\t\t\tb.drag=0\r\n\t\t\t\tb.use_snap_points=false\r\n\t\t\t\tb.use_grid=false\r\n\t\t\t\tb.use_gravity=false\r\n\t\t\t\tb.auto_raise=false\r\n\t\t\t\tb.auto_raise=false\r\n\t\t\t\tb.sticky=false\r\n\t\t\t\tb.interactable=false\r\n\t\t\tend\r\n\t\t})\r\n\t\tChildObjs.aura_obj.setCustomObject({\r\n\t\t\tmesh='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/components/arcs/round0.obj',\r\n\t\t\tcollider='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/utility/null_COL.obj',\r\n\t\t\tmaterial=3,\r\n\t\t\tspecularIntensity=0,\r\n\t\t\tcast_shadows=false\r\n\t\t})\r\n\tend\r\n------ Wip ----------------------------------\r\n\tfunction addMarker(config)\r\n\t\tlog(config)\r\n\t\tif Conditions[config.name] then\r\n\t\t\tif config.name==\"Fast\" then\r\n\t\t\t\tlog(\"fast\")\r\n\r\n\t\t\t\tif state.conditions[\"Fast\"]==1 then\r\n\t\t\t\t\tModifyCondition({name=\"Fast\",amount= 2 })\r\n\t\t\t\telse\r\n\t\t\t\t\tstate.conditions[\"Fast\"]=0\r\n\t\t\t\t\tModifyCondition({name=\"Fast\",amount= 2 })\t\r\n\t\t\t\tend\r\n\t\t\telseif config.name==\"Slow\" then\r\n\t\t\t\tif state.conditions[\"Fast\"]==2 then\r\n\t\t\t\t\tModifyCondition({name=\"Fast\",amount= 1 })\r\n\t\t\t\telse\r\n\t\t\t\t\tstate.conditions[\"Fast\"]=0\r\n\t\t\t\t\tModifyCondition({name=\"Fast\",amount= 1 })\t\r\n\t\t\t\tend\r\n\t\t\telseif config.name==\"Stunned\" then\r\n\t\t\t\tif state.conditions[\"Stunned\"]==0 then\r\n\t\t\t\t\tModifyCondition({name=\"Stunned\",amount= 1 })\r\n\t\t\t\telse\r\n\t\t\t\t\tModifyCondition({name=\"Stunned\",amount= -1 })\r\n\t\t\t\tend\r\n\t\t\telseif config.name==\"Staggered\" then\r\n\t\t\t\tif state.conditions[\"Staggered\"]==0 then\r\n\t\t\t\t\tModifyCondition({name=\"Staggered\",amount= 1 })\r\n\t\t\t\telse\r\n\t\t\t\t\tModifyCondition({name=\"Staggered\",amount= -1 })\r\n\t\t\t\tend\r\n\t\t\telseif config.name==\"Adversary\" then\r\n\t\t\t\tif state.conditions[\"Adversary\"]==0 then\r\n\t\t\t\t\tModifyCondition({name=\"Adversary\",amount= 1 })\r\n\t\t\t\telse\r\n\t\t\t\t\tModifyCondition({name=\"Adversary\",amount= -1 })\r\n\t\t\t\tend\t\t\t\t\r\n\r\n\t\t\telse\r\n\t\t\t\tModifyCondition({name=config.name,amount= config.count })\r\n\t\t\tend\r\n\t\t\t\r\n\t\t\treturn true\r\n\t\r\n\t\telse\r\n\t\t\tlog(\"in false\")\r\n\t\t\treturn false\r\n\t\tend\r\n\tend\r\n\r\n\tfunction end_round() \r\n\t\tlog(\"weeee\")\r\n\t\tModifyCondition({name=\"Activated\",amount= -1 })\r\n\t\tif state.conditions[\"Poison\"]>0 then\r\n\t\t\tModifyCondition({name=\"Poison\",amount= -1 })\r\n\t\t\tModifyHealth({amount=-1})\r\n\t\t\textra_damage = math.floor(state.conditions[\"Poison\"]/3)\r\n\t\t\tModifyHealth({amount=extra_damage*-1})\r\n\t\tend\r\n\t\tif state.conditions[\"Burning\"]>0 then\r\n\t\t\tModifyHealth({amount=-1})\r\n\t\t\textra_damage = math.floor(state.conditions[\"Burning\"]/3)\r\n\t\t\tModifyHealth({amount=extra_damage*-1})\r\n\t\tend\r\n\t\tModifyCondition({name=\"Injured\",amount= -1 })\r\n\t\tModifyCondition({name=\"Adversary\",amount= -1 })\r\n\tend\r\n------ END ----------------------------------",
+      "LuaScriptState": "{\"originalData\":{\"base\":{\"color\":{\"a\":1,\"b\":1,\"g\":0.5,\"r\":1},\"size\":30},\"conditions\":{\"Activated\":0,\"Adversary\":0,\"Aura\":0,\"Burning\":0,\"Distracted\":0,\"Fast\":0,\"Focus\":0,\"Injured\":0,\"Mode\":0,\"Poison\":0,\"Shielded\":0,\"Staggered\":0,\"Stunned\":0},\"health\":{\"current\":9,\"max\":9},\"imageScale\":1.5,\"move\":{\"currentMoveCenter\":{\"x\":0,\"y\":0,\"z\":0},\"currentMoveCenterX\":0,\"currentMoveCenterY\":0,\"currentMoveCenterZ\":0,\"destination\":{\"x\":0,\"y\":0,\"z\":0},\"distanceLeft\":0,\"free_moving\":false,\"moveRange\":5,\"moveSteps\":[],\"moving\":false,\"movingPlayer\":\"\"},\"moveHistory\":[],\"referenceCard\":{\"GUID\":\"\"},\"tokens\":[]},\"state\":{\"base\":{\"color\":{\"a\":1,\"b\":1,\"g\":0.5,\"r\":1},\"size\":30},\"conditions\":{\"Activated\":0,\"Adversary\":0,\"Aura\":0,\"Burning\":0,\"Distracted\":0,\"Fast\":0,\"Focus\":0,\"Injured\":0,\"Mode\":0,\"Poison\":0,\"Shielded\":0,\"Staggered\":0,\"Stunned\":0},\"health\":{\"current\":9,\"max\":9},\"imageScale\":1.5,\"move\":{\"currentMoveCenter\":{\"x\":0,\"y\":0,\"z\":0},\"currentMoveCenterX\":0,\"currentMoveCenterY\":0,\"currentMoveCenterZ\":0,\"destination\":{\"x\":0,\"y\":0,\"z\":0},\"distanceLeft\":0,\"free_moving\":false,\"moveRange\":5,\"moveSteps\":[],\"moving\":false,\"movingPlayer\":\"\"},\"moveHistory\":[],\"referenceCard\":{\"GUID\":\"\"},\"tokens\":[]}}",
+      "CustomUIAssets": [
+        {
+          "Type": 0,
+          "Name": "Fast",
+          "URL": "https://steamusercontent-a.akamaihd.net/ugc/1019447087554385209/698B13597E185E6ACA0AB19C13A118A3C1BEEB4D/"
+        },
+        {
+          "Type": 0,
+          "Name": "Slow",
+          "URL": "https://steamusercontent-a.akamaihd.net/ugc/1019447087554366701/F479B20690BB037348F53B802F99B9B68ACFCCEA/"
+        },
+        {
+          "Type": 0,
+          "Name": "Adversary",
+          "URL": "https://steamusercontent-a.akamaihd.net/ugc/1019447087554346517/81BCB3804E00F22B1E40D6A84C85C26F04F3C5CC/"
+        },
+        {
+          "Type": 0,
+          "Name": "Poison",
+          "URL": "https://steamusercontent-a.akamaihd.net/ugc/1019447087554095214/37B3943D3C71EE6BFD13027145BDE00D0D56ED3B/"
+        },
+        {
+          "Type": 0,
+          "Name": "Burning",
+          "URL": "https://steamusercontent-a.akamaihd.net/ugc/1019447087554318009/A00031DC30FDC7D6EB7AEA3DFCF8AAD0754CD4CB/"
+        },
+        {
+          "Type": 0,
+          "Name": "Focus",
+          "URL": "https://steamusercontent-a.akamaihd.net/ugc/1019447087554725833/7B52C3AD5915BFC06B7E68025F5448C2862E0789/"
+        },
+        {
+          "Type": 0,
+          "Name": "Distracted",
+          "URL": "https://steamusercontent-a.akamaihd.net/ugc/1019447087554407310/DA85F94D429B073CEB18B2AB4F24FC0041F1CF30/"
+        },
+        {
+          "Type": 0,
+          "Name": "Injured",
+          "URL": "https://steamusercontent-a.akamaihd.net/ugc/1019447087554292969/5474B842DEC8F08CB249F3B24683FE95D58332FC/"
+        },
+        {
+          "Type": 0,
+          "Name": "Staggered",
+          "URL": "https://steamusercontent-a.akamaihd.net/ugc/1019447087554150868/60F4FB8B23A6586775CB50311E1F7DD6BC0C1620/"
+        },
+        {
+          "Type": 0,
+          "Name": "Stunned",
+          "URL": "https://steamusercontent-a.akamaihd.net/ugc/1019447087554191671/98EB8191C3884783E74F6FF8066097D2D7296CBF/"
+        },
+        {
+          "Type": 0,
+          "Name": "Shielded",
+          "URL": "https://steamusercontent-a.akamaihd.net/ugc/1019447087554495459/45E41E4CF603049EEF4B3EAB39DC0B3DC93DFE78/"
+        },
+        {
+          "Type": 0,
+          "Name": "Aura",
+          "URL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png"
+        },
+        {
+          "Type": 0,
+          "Name": "Activated",
+          "URL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/flag.png"
+        },
+        {
+          "Type": 0,
+          "Name": "Mode",
+          "URL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/gear.png"
+        }
+      ],
+      "ChildObjects": [
+        {
+          "GUID": "cc101e",
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": -5.14479325E-06,
+            "posY": 0.119999453,
+            "posZ": 5.575803E-06,
+            "rotX": -0.000218820845,
+            "rotY": -0.0008213297,
+            "rotZ": -0.0003005301,
+            "scaleX": 0.29725346,
+            "scaleY": 0.5944952,
+            "scaleZ": 0.297254682
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": true,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": false,
+          "Autoraise": false,
+          "Sticky": false,
+          "Tooltip": false,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1651098259767337334/6B65D573344345A835361FABFC06A5A851DFE203/",
+            "ImageSecondaryURL": "https://steamusercontent-a.akamaihd.net/ugc/1651098259767337334/6B65D573344345A835361FABFC06A5A851DFE203/",
+            "ImageScalar": 1.8,
+            "WidthScale": 0.0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "PhysicsMaterial": {
+            "StaticFriction": 1.0,
+            "DynamicFriction": 0.7,
+            "Bounciness": 0.0,
+            "FrictionCombine": 0,
+            "BounceCombine": 0
+          },
+          "Rigidbody": {
+            "Mass": 10.0,
+            "Drag": 0.0,
+            "AngularDrag": 0.0,
+            "UseGravity": true
+          }
+        }
+      ]
+    },
+    {
+      "GUID": "fe9a44",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -21.9838848,
+        "posY": 0.9604602,
+        "posZ": 9.937522,
+        "rotX": -0.000114238581,
+        "rotY": 209.99028,
+        "rotZ": -0.00020729925,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 0.5,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": false,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/components/arcs/round0.obj",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/utility/null_COL.obj",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": false
+      },
+      "LuaScript": "\t\t\t\t\tlocal lastParent = nil\n\t\t\t\t\tlocal clock = 2\n\t\t\t\t\tfunction onLoad() \n\t\t\t\t\t\t(self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false)\n\t\t\t\t\t\tWait.condition(\n\t\t\t\t\t\t\tfunction() \n\t\t\t\t\t\t\t\t(self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false) \n\t\t\t\t\t\t\tend, \n\t\t\t\t\t\t\tfunction() \n\t\t\t\t\t\t\t\treturn not(self.loading_custom) \n\t\t\t\t\t\t\tend\n\t\t\t\t\t\t) \n\t\t\t\t\tend \n\t\t\t\t\tfunction onUpdate() \n\t\t\t\t\t\tif (parent ~= nil) then \n\t\t\t\t\t\t\tif clock < 0 then\n\t\t\t\t\t\t\t\tclock = 2;\n\t\t\t\t\t\t\t\tif self.getPosition():distance(parent.getPosition()) > 0.01 then\n\t\t\t\t\t\t\t\t\tself.setPosition(parent.getPosition())\n\t\t\t\t\t\t\t\t\tself.setRotation(parent.getRotation()) \n\t\t\t\t\t\t\t\tend\n\t\t\t\t\t\t\telse\n\t\t\t\t\t\t\t\tclock = clock - 1\n\t\t\t\t\t\t\tend\n\t\t\t\t\t\telse \n\t\t\t\t\t\t\tself.destruct() \n\t\t\t\t\t\tend \n\t\t\t\t\tend\n\t\t\t\t",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 0.0,
+        "Drag": 0.0,
+        "AngularDrag": 0.1,
+        "UseGravity": false
+      }
     }
   ]
 }
