@@ -1,11 +1,11 @@
 --- Configuration table.
 CONSTANTS = {
   zones = {}, -- 
-  bgColor = "#000000", -- string: Panel background color.
+  bgColor = "#00000000", -- string: Panel background color.
   buttonColor = "#ffffff", -- string: Button background color.
   textFontColor = "#ffffff", -- string: Text color.
   buttonFontColor = "#000000", -- string: Button text color.
-  fontSize = 55, -- number: Font size.
+  fontSize = 75, -- number: Font size.
   spreadDistance = 3,
   playerColor = "Blue"
 }
@@ -35,6 +35,8 @@ VARIABLES = {
   finishedRemoved = false,
   stopLogging = false,
   log = "",
+  visitingEmpowermentZone = nil,
+  visitingDuelZone = nil,
 }
 
 --- Zones object table.
@@ -95,6 +97,7 @@ function createUI()
     else
       modifier = VARIABLES.modifier
     end
+    local buttonHeight = 200
 
     flipSection = {
       tag = "VerticalLayout",
@@ -124,7 +127,7 @@ function createUI()
                 color = CONSTANTS.buttonColor,
                 fontStyle = "bold",
                 
-                minHeight = 120,
+                minHeight = buttonHeight,
                 --minWidth = 260,
               },
             },
@@ -139,7 +142,7 @@ function createUI()
                 color = CONSTANTS.buttonColor,
                 fontStyle = "bold",
                 
-                minHeight = 120,
+                minHeight = buttonHeight,
                 --minWidth = 260,
               },
             },
@@ -154,7 +157,7 @@ function createUI()
                 color = CONSTANTS.buttonColor,
                 fontStyle = "bold",
                 
-                minHeight = 120,
+                minHeight = buttonHeight,
                 --minWidth = 260,
               },
             },
@@ -169,7 +172,7 @@ function createUI()
                 color = CONSTANTS.buttonColor,
                 fontStyle = "bold",
                 
-                minHeight = 120,
+                minHeight = buttonHeight,
                 --minWidth = 520,
               },
             },
@@ -184,7 +187,7 @@ function createUI()
                 color = CONSTANTS.buttonColor,
                 fontStyle = "bold",
                 
-                minHeight = 120,
+                minHeight = buttonHeight,
                 --minWidth = 260,
               },
             },
@@ -199,7 +202,7 @@ function createUI()
                 color = CONSTANTS.buttonColor,
                 fontStyle = "bold",
                 
-                minHeight = 120,
+                minHeight = buttonHeight,
                 --minWidth = 260,
               },
             },
@@ -214,7 +217,7 @@ function createUI()
                 color = CONSTANTS.buttonColor,
                 fontStyle = "bold",
                 
-                minHeight = 120,
+                minHeight = buttonHeight,
                 --minWidth = 260,
               },
             },          
@@ -239,7 +242,7 @@ function createUI()
                 fontColor = CONSTANTS.buttonFontColor,
                 color = CONSTANTS.buttonColor,
                 fontStyle = "bold",
-                minHeight = 120,
+                minHeight = buttonHeight,
                 minWidth = 650,
               },
             }, 
@@ -253,7 +256,7 @@ function createUI()
                 fontColor = CONSTANTS.buttonFontColor,
                 color = CONSTANTS.buttonColor,
                 fontStyle = "bold",
-                minHeight = 120,
+                minHeight = buttonHeight,
                 minWidth = 650,
               },
             },
@@ -267,7 +270,7 @@ function createUI()
                 fontColor = CONSTANTS.buttonFontColor,
                 color = CONSTANTS.buttonColor,
                 fontStyle = "bold",
-                minHeight = 120,
+                minHeight = buttonHeight,
                 minWidth = 650,
               },
             },           
@@ -280,10 +283,10 @@ function createUI()
     validation = "Scripting Zones Error!"
   end
 
-  local panelWidth = 2100
+  local panelWidth = 2406
   local scale = Vector(0,0,0)
-  scale.x = 0.5 / 1.7
-  scale.z = 0.5 / 1.7
+  scale.x = 0.5/1.94
+  scale.z = 0.5/1.94
   -- Set table for xml UI panel
   local ui = {
     {
@@ -295,7 +298,7 @@ function createUI()
         scale = scale.x .." ".. scale.z .." 1",
         color = "#00000000",
         width = panelWidth,
-        height = 700,
+        height = 744,
         allowDragging = "false",
       }, 
       children = {
@@ -1162,29 +1165,101 @@ end
 
 function onObjectEnterScriptingZone(zone, object)
   if object.type == "Card" then
+    local objectGUID = object.getGUID()
+    local objectCopy = object
     if zone == VARIABLES.zones.empowermentZone then
-      local value = tonumber(object.getName())
-      if value ~= 0 and value <= 5 then
-        addCardToLog(object)
-        logAction(nil,"empowered a duel with a", " |") 
-      else
-        logAction(nil,"empowered a duel with an illegal card!")
-      end
-    end
+      if VARIABLES.visitingEmpowermentZone == nil then
+        VARIABLES.visitingEmpowermentZone = object
 
-    if zone == VARIABLES.zones.conflictZone then
-      local deckOccupants = zone.getObjects()
-      for i=1, #deckOccupants, 1 do
-        -- Checks if we found a deck or a card
-        if deckOccupants[i].type == "Deck" or deckOccupants[i].type == "Card" and deckOccupants[i] ~= object then
-          addCardToLog(object)
-          logAction(nil,"cheated fate with a", " |")
-          return true          
-        end
-      end
-      addCardToLog(object)
-      logAction(nil,"chose a", " | for a duel")     
+        Wait.condition(
+          function()
+            local cardStayed = false
+            local card
+            local zoneOccupants = zone.getObjects()
+            for i=1, #zoneOccupants, 1 do
+              -- Checks if we found a deck or a card
+              if zoneOccupants[i].type == "Deck" then
+                local deckOccupants = zoneOccupants[i].getObjects()
+                for i=1, #deckOccupants, 1 do
+                  if deckOccupants[i].guid == objectGUID then
+                    cardStayed = true
+                    break
+                  end
+                end
+              elseif zoneOccupants[i].type == "Card" then
+                if zoneOccupants[i] == object then              
+                  cardStayed = true
+                  break
+                end
+              end
+            end
+            if cardStayed then
+              local value = tonumber(object.getName())
+              if value ~= 0 and value <= 5 then
+                addCardToLog(objectCopy)
+                logAction(nil,"empowered a duel with a", " |") 
+              else
+                logAction(nil,"empowered a duel with an illegal card!")
+              end
+            end
+            VARIABLES.visitingEmpowermentZone = nil
+          end,
+          function()
+            return object.isDestroyed() or object.resting
+          end,
+          5
+        )
+      end        
     end
+    
+    if zone == VARIABLES.zones.conflictZone then
+      if VARIABLES.visitingDuelZone == nil then
+        VARIABLES.visitingDuelZone = object      
+        Wait.condition(
+          function()
+            local cardStayed = false
+            local zoneOccupants = zone.getObjects()
+            for i=1, #zoneOccupants, 1 do
+              -- Checks if we found a deck or a card
+              if zoneOccupants[i].type == "Deck" then
+                local deckOccupants = zoneOccupants[i].getObjects()
+                for i=1, #deckOccupants, 1 do
+                  if deckOccupants[i].guid == objectGUID then
+                    cardStayed = true
+                    break
+                  end
+                end
+              elseif zoneOccupants[i].type == "Card" then
+                if zoneOccupants[i] == object then              
+                  cardStayed = true
+                  break
+                end
+              end
+            end
+
+            if cardStayed then
+              local deckOccupants = zone.getObjects()
+              for i=1, #deckOccupants, 1 do
+                -- Checks if we found a deck or a card
+                if deckOccupants[i].type == "Deck" or deckOccupants[i].type == "Card" and deckOccupants[i] ~= object then
+                  addCardToLog(objectCopy)
+                  logAction(nil,"cheated fate with a", " |")
+                  return true          
+                end
+              end
+              addCardToLog(objectCopy)
+              logAction(nil,"chose a", " | for a duel")              
+            end
+            VARIABLES.visitingDuelZone = nil 
+          end,
+          function()
+            return object.isDestroyed() or object.resting
+          end,
+          5
+        ) 
+      end              
+    end
+      
   end
 end
 
