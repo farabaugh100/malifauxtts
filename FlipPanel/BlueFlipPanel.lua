@@ -77,8 +77,7 @@ function validateZones()
   local position = Vector(0,0,0)
   
   position = flippingZonePosition
-  position.x = position.x + VARIABLES.zones.flippingZone.getScale().x/2 - 2
-  position.z = position.z + VARIABLES.zones.flippingZone.getScale().z/2 - 1.75
+  position.z = position.z + VARIABLES.zones.flippingZone.getScale().z/2 - 1.8
 
   VARIABLES.positionInFlippingZone = position
   return validation
