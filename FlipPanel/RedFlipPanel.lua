@@ -11,12 +11,12 @@ CONSTANTS = {
 }
 --- Zones configuration table.
 CONSTANTS.zones = {
-  deckZone = "9682f2", -- string: GUID of a deck scripting zone.
-  discardZone = "cd3ac1", -- string: GUID of a discard scripting zone.
-  flippingZone = "d2ca8f", -- string: GUID of a flipping scripting zone.
-  conflictZone = "619e44", -- string: GUID of a conflict scripting zone.
-  removedZone = "6b3129", -- string: GUID of a conflict scripting zone.
-  empowermentZone = "8724bf", -- string: GUID of a empowerment scripting zone.
+  deckZone = "8138b3", -- string: GUID of a deck scripting zone.
+  discardZone = "572b26", -- string: GUID of a discard scripting zone.
+  flippingZone = "4101c7", -- string: GUID of a flipping scripting zone.
+  conflictZone = "febe4d", -- string: GUID of a conflict scripting zone.
+  removedZone = "566809", -- string: GUID of a conflict scripting zone.
+  empowermentZone = "df38a2", -- string: GUID of a empowerment scripting zone.
 }
 
 --- Variables table.
