@@ -11,12 +11,12 @@ CONSTANTS = {
 }
 --- Zones configuration table.
 CONSTANTS.zones = {
-  deckZone = "d27d3c", -- string: GUID of a deck scripting zone.
-  discardZone = "06c9e4", -- string: GUID of a discard scripting zone.
-  flippingZone = "2c9942", -- string: GUID of a flipping scripting zone.
-  conflictZone = "2899ec", -- string: GUID of a conflict scripting zone.
-  removedZone = "5c7a15", -- string: GUID of a conflict scripting zone.
-  empowermentZone = "ad7f68", -- string: GUID of a empowerment scripting zone.
+  deckZone = "502932", -- string: GUID of a deck scripting zone.
+  discardZone = "1e8c61", -- string: GUID of a discard scripting zone.
+  flippingZone = "83a171", -- string: GUID of a flipping scripting zone.
+  conflictZone = "31e7ff", -- string: GUID of a conflict scripting zone.
+  removedZone = "a1b94b", -- string: GUID of a conflict scripting zone.
+  empowermentZone = "5bc572", -- string: GUID of a empowerment scripting zone.
 }
 
 --- Variables table.
@@ -369,8 +369,9 @@ function createUI()
       },
     },
   }
-
-  table.insert(ui[1].children[1].children[1].children,flipSection)
+  if VARIABLES.validation then
+    table.insert(ui[1].children[1].children[1].children,flipSection)
+  end
   self.UI.setXmlTable(ui)
 end
 
