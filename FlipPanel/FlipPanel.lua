@@ -661,7 +661,6 @@ function onDiscard(player, _, _)
       local position = discardPosition
 
       cardsCount = cardsCount + #cards
-
       cardUsedInDuelGUID = cards[#cards].guid
 
       for j=1, #cards, 1 do
@@ -682,11 +681,16 @@ function onDiscard(player, _, _)
       end
       break
     elseif conflictOccupants[i].type == "Card" then
+      cardUsedInDuelGUID = conflictOccupants[i].getGUID() 
       cardsCount = cardsCount + 1
-      cardUsedInDuelGUID = conflictOccupants[i].getGUID()
+      local rotation = conflictOccupants[i].getRotation()
+      rotation.z = 0
+      conflictOccupants[i].setLock(true)
+      conflictOccupants[i].setRotation(rotation) 
+      conflictOccupants[i].setPosition(discardPosition) 
+      discardPosition.y = discardPosition.y + 0.1   
     end
   end
-
   discardPosition.y = discardPosition.y + 0.5
   for i=1, #flippingOccupants, 1 do
     -- Checks if we found a deck or a card
@@ -718,7 +722,6 @@ function onDiscard(player, _, _)
     cardUsedInDuel.setRotation(rotation)
     cardUsedInDuel.setPosition(discardPosition)
   end
-
   if cardsCount ~= 0 then
     Wait.condition(
       function()
