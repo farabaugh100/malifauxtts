@@ -37,6 +37,7 @@ VARIABLES = {
   log = "",
   visitingEmpowermentZone = nil,
   visitingDuelZone = nil,
+  player = nil
 }
 
 --- Zones object table.
@@ -376,7 +377,7 @@ end
 
 --- Manage flipping.
 function onFlip(player, _, id)
-
+  VARIABLES.player = player
   VARIABLES.modifier = tonumber(id:match("flipButton([+-]?%d+)"..self.getGUID()))
   if VARIABLES.modifier == nil then
     VARIABLES.modifier = 0
@@ -1135,14 +1136,11 @@ function logAction(player, prefix, suffix)
       VARIABLES.log = VARIABLES.log .. suffix
     end 
 
-    local color = nil
-    local name = ""
+    local color = Color.white
+    local name = "Unknown"
     if player then
       name = player.steam_name 
       color = player.color 
-    else
-      color = CONSTANTS.playerColor
-      name = getPlayer(color).steam_name
     end
 
     VARIABLES.log = name .. " " .. VARIABLES.log
@@ -1168,6 +1166,10 @@ function onObjectEnterScriptingZone(zone, object)
     local objectGUID = object.getGUID()
     local objectCopy = object
     if zone == VARIABLES.zones.empowermentZone then
+      local player = getPlayer(object.held_by_color)      
+      if player == nil then
+        player = VARIABLES.player
+      end
       if VARIABLES.visitingEmpowermentZone == nil then
         VARIABLES.visitingEmpowermentZone = object
 
@@ -1197,9 +1199,9 @@ function onObjectEnterScriptingZone(zone, object)
               local value = tonumber(object.getName())
               if value ~= 0 and value <= 5 then
                 addCardToLog(objectCopy)
-                logAction(nil,"empowered a duel with a", " |") 
+                logAction(player,"empowered a duel with a", " |") 
               else
-                logAction(nil,"empowered a duel with an illegal card!")
+                logAction(player,"empowered a duel with an illegal card!")
               end
             end
             VARIABLES.visitingEmpowermentZone = nil
@@ -1213,6 +1215,10 @@ function onObjectEnterScriptingZone(zone, object)
     end
     
     if zone == VARIABLES.zones.conflictZone then
+      local player = getPlayer(object.held_by_color)      
+      if player == nil then
+        player = VARIABLES.player
+      end
       if VARIABLES.visitingDuelZone == nil then
         VARIABLES.visitingDuelZone = object      
         Wait.condition(
@@ -1243,12 +1249,12 @@ function onObjectEnterScriptingZone(zone, object)
                 -- Checks if we found a deck or a card
                 if deckOccupants[i].type == "Deck" or deckOccupants[i].type == "Card" and deckOccupants[i] ~= object then
                   addCardToLog(objectCopy)
-                  logAction(nil,"cheated fate with a", " |")
+                  logAction(player,"cheated fate with a", " |")
                   return true          
                 end
               end
               addCardToLog(objectCopy)
-              logAction(nil,"chose a", " | for a duel")              
+              logAction(player,"chose a", " | for a duel")              
             end
             VARIABLES.visitingDuelZone = nil 
           end,
