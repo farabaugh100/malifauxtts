@@ -1177,36 +1177,41 @@ function onObjectEnterScriptingZone(zone, object)
 
         Wait.condition(
           function()
-            local cardStayed = false
-            local card
-            local zoneOccupants = zone.getObjects()
-            for i=1, #zoneOccupants, 1 do
-              -- Checks if we found a deck or a card
-              if zoneOccupants[i].type == "Deck" then
-                local deckOccupants = zoneOccupants[i].getObjects()
-                for j=1, #deckOccupants, 1 do
-                  if deckOccupants[j].guid == objectGUID then
-                    cardStayed = true
-                    break
+            Wait.time(
+              function()
+                local cardStayed = false
+                local card
+                local zoneOccupants = zone.getObjects()
+                for i=1, #zoneOccupants, 1 do
+                  -- Checks if we found a deck or a card
+                  if zoneOccupants[i].type == "Deck" then
+                    local deckOccupants = zoneOccupants[i].getObjects()
+                    for j=1, #deckOccupants, 1 do
+                      if deckOccupants[j].guid == objectGUID then
+                        cardStayed = true
+                        break
+                      end
+                    end
+                  elseif zoneOccupants[i].type == "Card" then
+                    if zoneOccupants[i] == object then              
+                      cardStayed = true
+                      break
+                    end
                   end
                 end
-              elseif zoneOccupants[i].type == "Card" then
-                if zoneOccupants[i] == object then              
-                  cardStayed = true
-                  break
+                if cardStayed then
+                  local value = tonumber(object.getName())
+                  if value ~= 0 and value <= 5 then
+                    addCardToLog(objectCopy)
+                    logAction(player,"empowered a duel with a", " |") 
+                  else
+                    logAction(player,"empowered a duel with an illegal card!")
+                  end
                 end
-              end
-            end
-            if cardStayed then
-              local value = tonumber(object.getName())
-              if value ~= 0 and value <= 5 then
-                addCardToLog(objectCopy)
-                logAction(player,"empowered a duel with a", " |") 
-              else
-                logAction(player,"empowered a duel with an illegal card!")
-              end
-            end
-            VARIABLES.visitingEmpowermentZone = nil
+                VARIABLES.visitingEmpowermentZone = nil
+              end,
+              0.1
+            ) 
           end,
           function()
             return object.isDestroyed() or object.resting
@@ -1229,7 +1234,6 @@ function onObjectEnterScriptingZone(zone, object)
               function()
                 local cardStayed = false
                 local zoneOccupants = zone.getObjects()
-                printTable(zoneOccupants)
                 for i=1, #zoneOccupants, 1 do
                   -- Checks if we found a deck or a card
                   if zoneOccupants[i].type == "Deck" then
@@ -1247,7 +1251,7 @@ function onObjectEnterScriptingZone(zone, object)
                     end
                   end
                 end
-                print(cardStayed)
+
                 if cardStayed then
                   local zoneOccupants = zone.getObjects()
                   for i=1, #zoneOccupants, 1 do
