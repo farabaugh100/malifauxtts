@@ -1184,8 +1184,8 @@ function onObjectEnterScriptingZone(zone, object)
               -- Checks if we found a deck or a card
               if zoneOccupants[i].type == "Deck" then
                 local deckOccupants = zoneOccupants[i].getObjects()
-                for i=1, #deckOccupants, 1 do
-                  if deckOccupants[i].guid == objectGUID then
+                for j=1, #deckOccupants, 1 do
+                  if deckOccupants[j].guid == objectGUID then
                     cardStayed = true
                     break
                   end
@@ -1225,40 +1225,46 @@ function onObjectEnterScriptingZone(zone, object)
         VARIABLES.visitingDuelZone = object      
         Wait.condition(
           function()
-            local cardStayed = false
-            local zoneOccupants = zone.getObjects()
-            for i=1, #zoneOccupants, 1 do
-              -- Checks if we found a deck or a card
-              if zoneOccupants[i].type == "Deck" then
-                local deckOccupants = zoneOccupants[i].getObjects()
-                for i=1, #deckOccupants, 1 do
-                  if deckOccupants[i].guid == objectGUID then
-                    cardStayed = true
-                    break
+            Wait.time(
+              function()
+                local cardStayed = false
+                local zoneOccupants = zone.getObjects()
+                printTable(zoneOccupants)
+                for i=1, #zoneOccupants, 1 do
+                  -- Checks if we found a deck or a card
+                  if zoneOccupants[i].type == "Deck" then
+                    local deckOccupants = zoneOccupants[i].getObjects()
+                    for j=1, #deckOccupants, 1 do
+                      if deckOccupants[j].guid == objectGUID then
+                        cardStayed = true
+                        break
+                      end
+                    end
+                  elseif zoneOccupants[i].type == "Card" then
+                    if zoneOccupants[i] == object then              
+                      cardStayed = true
+                      break
+                    end
                   end
                 end
-              elseif zoneOccupants[i].type == "Card" then
-                if zoneOccupants[i] == object then              
-                  cardStayed = true
-                  break
-                end
-              end
-            end
-
-            if cardStayed then
-              local deckOccupants = zone.getObjects()
-              for i=1, #deckOccupants, 1 do
-                -- Checks if we found a deck or a card
-                if deckOccupants[i].type == "Deck" or deckOccupants[i].type == "Card" and deckOccupants[i] ~= object then
+                print(cardStayed)
+                if cardStayed then
+                  local zoneOccupants = zone.getObjects()
+                  for i=1, #zoneOccupants, 1 do
+                    -- Checks if we found a deck or a card
+                    if zoneOccupants[i].type == "Deck" or (zoneOccupants[i].type == "Card" and zoneOccupants[i] ~= object) then
+                      addCardToLog(objectCopy)
+                      logAction(player,"cheated fate with a", " |")
+                      return true          
+                    end
+                  end
                   addCardToLog(objectCopy)
-                  logAction(player,"cheated fate with a", " |")
-                  return true          
+                  logAction(player,"chose a", " | for a duel")              
                 end
-              end
-              addCardToLog(objectCopy)
-              logAction(player,"chose a", " | for a duel")              
-            end
-            VARIABLES.visitingDuelZone = nil 
+                VARIABLES.visitingDuelZone = nil 
+              end,
+              0.1
+            ) 
           end,
           function()
             return object.isDestroyed() or object.resting
