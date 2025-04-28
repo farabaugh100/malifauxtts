@@ -530,7 +530,6 @@ function onFlip(player, _, id)
                           end, 5
                         )   
                       else
-                        logAction(player)
                         stopAction()
                       end                     
                     end,
