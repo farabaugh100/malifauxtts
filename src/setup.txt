@@ -1,0 +1,2 @@
+To setup your vs code to work with the require structure please see:
+https://tts-vscode.rolandostar.com/extension/moduleResolution
