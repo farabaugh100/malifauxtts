@@ -1,0 +1,2 @@
+Longterm I want to merge all of these into one file and use the name of the strategy to determin how to set up the markers
+But this works for now
