@@ -71,7 +71,7 @@ function validateZones()
   local rotation = self.getRotation()
 
   if rotation.y > 45 and rotation.y < 135 then
-    VARIABLES.playerColor = "blue"
+    VARIABLES.playerColor = "Blue"
     for k, v in pairs(CONSTANTS.blueZones) do
       local obj = getObjectFromGUID(v)
       if (obj ~= nil) then
@@ -95,7 +95,7 @@ function validateZones()
 
     VARIABLES.positionInFlippingZone = position
   else
-    VARIABLES.playerColor = "red"
+    VARIABLES.playerColor = "Red"
     for k, v in pairs(CONSTANTS.redZones) do
       local obj = getObjectFromGUID(v)
       if (obj ~= nil) then
