@@ -992,15 +992,18 @@ function onRemoved(player, _, _)
   local deckPosition = VARIABLES.zones.deckZone.getPosition()
   local cardsCount = 0
 
-  local handOccupants = getPlayer(VARIABLES.playerColor).getHandObjects()
+  local player = getPlayer(VARIABLES.playerColor)
+  if player then 
+    local handOccupants = player.getHandObjects()
 
-  for i=1, #handOccupants, 1 do
-      cardsCount = cardsCount + 1
-      local rotation = handOccupants[i].getRotation()
-      rotation.z = 180
-      handOccupants[i].setPosition(deckPosition)
-      handOccupants[i].setRotation(rotation)      
-  end  
+    for i=1, #handOccupants, 1 do
+        cardsCount = cardsCount + 1
+        local rotation = handOccupants[i].getRotation()
+        rotation.z = 180
+        handOccupants[i].setPosition(deckPosition)
+        handOccupants[i].setRotation(rotation)      
+    end  
+  end
 
   for i=1, #removedOccupants, 1 do
     -- Checks if we found a deck or a card
