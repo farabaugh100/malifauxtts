@@ -37,8 +37,14 @@ end
 function setConfig(newConfig)
     config=newConfig
     self.setName(newConfig.name)
+    local thickness=0.01
+    --
+
+    --    thickness=newConfig.ht
+    --end
     self.setCustomObject({
-        image = newConfig.image
+        image = newConfig.image;
+        thickness=thickness
     });
     --Converst bbcode to tts frendly floats
     local r=tonumber(string.sub(newConfig.color,2,3),16)/255
@@ -46,23 +52,25 @@ function setConfig(newConfig)
     local b=tonumber(string.sub(newConfig.color,6,7),16)/255
     self.setDescription(newConfig.rules)
     self.setColorTint({r,g,b})
-    local x=0.3045071
+    local x=0.365
     local y=0.2
-    local z=0.3045071
+    local z=0.365
     if newConfig.size=="40" then
-        x=0.4060096
-        z=0.4060096
+        x=0.48666
+        z=0.48666
     elseif newConfig.size=="50" then
-        x=0.507512
-        z=0.507512
+        x=0.608
+        z=0.608
     end
-    if newConfig.ht~="0" then
-        y=newConfig.ht
-    end
-    log("y"..y)
-    self.setScale({x,7,z})
+
+    self.setScale({x,1,z})
     log(self.getScale())
     self.reload()
+end
+function setThickness(thickness)
+    self.setCustomObject({
+        thickness=thickness
+    });
 end
 ------ MODEL MANIPULATION -------------------
 function AuraFollowObject(params)
