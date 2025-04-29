@@ -1,7 +1,7 @@
 {
   "SaveName": "Markers",
-  "EpochTime": 1745959702,
-  "Date": "4/29/2025 4:48:22 PM",
+  "EpochTime": 1745965316,
+  "Date": "4/29/2025 6:21:56 PM",
   "VersionNumber": "v13.3",
   "GameMode": "Cards",
   "GameType": "Game",
@@ -638,9 +638,9 @@
         "posX": -26.1864033,
         "posY": 1.03220642,
         "posZ": -11.4048147,
-        "rotX": 4.20995264E-07,
+        "rotX": 4.66062957E-08,
         "rotY": 180.019287,
-        "rotZ": -7.68484938E-07,
+        "rotZ": -7.35908429E-07,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -773,8 +773,8 @@
       },
       "ColorDiffuse": {
         "r": 0.454703748,
-        "g": 0.438066036,
-        "b": 0.438066036
+        "g": 0.438066,
+        "b": 0.438066
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -802,7 +802,7 @@
           "Stackable": false
         }
       },
-      "LuaScript": "f_color = {0,0,0,95}\r\nlocal firstTokenPosition={ x=-16.905245,y= 1.01,z=5.013737}\r\nlocal firstBagPosition= { x=4.954772, y=1.01, z=-16.97987 }\r\nlocal objectLib={\r\n    libeary=\"d41eb9\";\r\n    baseToken=\"030e0e\";\r\n    baseBag=\"d84712\";\r\n    specialTokenBag=\"3ea749\";\r\n}\r\nlocal tokenLib={}\r\nlocal bagLib={}\r\nlocal waitBase=1\r\nfunction onLoad(save_state)\r\n    self.createButton({\r\n        label=\"\",\r\n        click_function=\"genTokens\",\r\n        tooltip=\"Gen Tokens\",\r\n        function_owner=self,\r\n        position={0,0.11,0},\r\n        height=600,\r\n        width=1000,\r\n        alignment = 3,\r\n        scale={x=1.5, y=1.5, z=1.5},\r\n        font_size=300,\r\n        font_color=f_color,\r\n        color={0,0,0,0}\r\n        })\r\nend\r\n\r\nfunction genTokens(_obj, _color, alt_click)\r\n    --print(getObjectFromGUID(objectLib.baseToken).getPosition())\r\n    --return true\r\n    \r\n    local libeary=getObjectFromGUID(objectLib.libeary)\r\n    local generalTokens=libeary.call(\"getGenearyLibeary\")\r\n    local wait=waitBase\r\n    local slot=1\r\n    local specialTokesn=libeary.call(\"getSpecialLibeary\")\r\n    for key,token in pairs(specialTokesn) do\r\n\r\n       \r\n        Wait.frames(function() createToken(token,slot) end,wait)\r\n        wait=wait+waitBase\r\n        Wait.frames(function() createBag(token,slot) slot=slot+1 end,wait)\r\n        wait=wait+waitBase\r\n        Wait.frames(function() joinBag(token) end,wait)\r\n        wait=wait+waitBase\r\n        Wait.frames(function() moveSpecialTokensToBag(token) end,wait+500)\r\n        wait=wait+waitBase\r\n        --return false\r\n\r\n    end\r\nend\r\n\r\nfunction createToken(token,slot)\r\n    local pos=getTokenSlotPosition(slot)\r\n    local newToken=getObjectFromGUID(objectLib.baseToken).clone({position=pos})\r\n    Wait.frames(function() newToken.call(\"setConfig\",token) end,1)\r\n    tokenLib[token.name]=newToken.getGUID()\r\nend\r\n\r\nfunction createBag(token,slot)\r\n    local pos=getTokenSlotPosition(slot)\r\n    local newBag=getObjectFromGUID(objectLib.baseBag).clone({position=pos})\r\n    newBag.setName(token.name)\r\n    --Wait.frames(function() newBag.call(\"setConfig\",token) end,1)\r\n    bagLib[token.name]=newBag.getGUID()\r\nend\r\n\r\nfunction getTokenSlotPosition(slot)\r\n    local row = 0\r\n    local targetPos = slot\r\n    while targetPos >= 7.5 do\r\n        row = row + 1\r\n        targetPos = targetPos - 7\r\n    end\r\n    \r\n    return Vector( firstTokenPosition.x+ row * 3,firstTokenPosition.y  ,firstTokenPosition.z - ((targetPos) * ( 2.5)))\r\nend\r\n\r\n\r\nfunction getBagSlotPosition(slot)\r\n    local row = 0\r\n    local targetPos = slot\r\n    while targetPos >= 7.5 do\r\n        row = row + 1\r\n        targetPos = targetPos - 7\r\n    end\r\n    \r\n    return Vector( firstBagPosition.x+ row * 3,firstBagPosition.y  ,firstBagPosition.z - ((targetPos) * ( 8)))\r\nend\r\n\r\nfunction moveTokenToBag(token,bag)\r\n    token.setPosition(bag.getPosition())\r\nend\r\n\r\nfunction joinBag(token)\r\n    local bag=getObjectFromGUID(bagLib[token.name])\r\n    local newToken=getObjectFromGUID(tokenLib[token.name])\r\n    bag.setPosition(newToken.getPosition())\r\n    bag.destroyAttachments()\r\n    bag.addAttachment(newToken)\r\n    local nextToken=newToken.clone({position=bag.getPosition()})\r\n    if token.ht~=\"0\" then\r\n        Wait.frames(function() nextToken.call(\"setThickness\",token.ht)end, 1)\r\n    end\r\n    --bag.setPosition(getObjectFromGUID(objectLib.specialTokenBag).getPosition():add(Vector(0,10,0)))\r\nend\r\n\r\nfunction moveSpecialTokensToBag(token)\r\n    local bag=getObjectFromGUID(bagLib[token.name])\r\n    getObjectFromGUID(objectLib.specialTokenBag).putObject(bag)\r\nend",
+      "LuaScript": "f_color = {0,0,0,95}\r\nlocal firstTokenPosition={ x=-16.905245,y= 1.01,z=5.013737}\r\nlocal firstBagPosition= { x=4.954772, y=1.01, z=-16.97987 }\r\nlocal objectLib={\r\n    libeary=\"d41eb9\";\r\n    baseToken=\"030e0e\";\r\n    baseBag=\"d84712\";\r\n    specialTokenBag=\"3ea749\";\r\n}\r\nlocal scoringTokenBag={\r\n    Strategy=\"b469ee\";\r\n    Guild=\"7c0835\";\r\n    Arcanists=\"edf269\";\r\n    Resurrectionist=\"68a770\";\r\n    Neverborn=\"31f5d9\";\r\n    Outcasts=\"44e232\";\r\n    Bayou=\"fe97e9\";\r\n    ExplorersSociety=\"898648\";\r\n    TenThunders=\"10de55\";\r\n}\r\nlocal tokenLib={}\r\nlocal bagLib={}\r\nlocal waitBase=1\r\nfunction onLoad(save_state)\r\n    self.createButton({\r\n        label=\"\",\r\n        click_function=\"genTokens\",\r\n        tooltip=\"Gen Tokens\",\r\n        function_owner=self,\r\n        position={0,0.11,0},\r\n        height=600,\r\n        width=1000,\r\n        alignment = 3,\r\n        scale={x=1.5, y=1.5, z=1.5},\r\n        font_size=300,\r\n        font_color=f_color,\r\n        color={0,0,0,0}\r\n        })\r\nend\r\n\r\nfunction genTokens(_obj, _color, alt_click)\r\n    --print(getObjectFromGUID(objectLib.baseToken).getPosition())\r\n    --return true\r\n    \r\n    local libeary=getObjectFromGUID(objectLib.libeary)\r\n    local generalTokens=libeary.call(\"getGenearyLibeary\")\r\n    local wait=waitBase\r\n    local slot=1\r\n    local specialTokesn=libeary.call(\"getSpecialLibeary\")\r\n    for key,token in pairs(specialTokesn) do\r\n\r\n       \r\n        Wait.frames(function() createToken(token,slot) end,wait)\r\n        wait=wait+waitBase\r\n        Wait.frames(function() createBag(token,slot) slot=slot+1 end,wait)\r\n        wait=wait+waitBase\r\n        Wait.frames(function() joinBag(token) end,wait)\r\n        wait=wait+waitBase\r\n        Wait.frames(function() moveSpecialTokensToBag(token) end,wait+500)\r\n        wait=wait+waitBase\r\n        --return false\r\n\r\n    end\r\n    slot=slot+8\r\n    local scoringTokesn=libeary.call(\"getScoringLibeary\")\r\n    for key,token in pairs(scoringTokesn) do\r\n\r\n        log(token.name)\r\n        Wait.frames(function() createToken(token,slot) slot=slot+1 end,wait)\r\n        wait=wait+waitBase\r\n        --Wait.frames(function() createBag(token,slot) slot=slot+1 end,wait)\r\n        --wait=wait+waitBasew\r\n        --Wait.frames(function() joinBag(token) end,wait)\r\n        --wait=wait+waitBase\r\n        Wait.frames(function() moveToScoringBag(token) end,wait+500)\r\n        wait=wait+waitBase\r\n        --return false\r\n\r\n    end\r\nend\r\n\r\nfunction createToken(token,slot)\r\n    local pos=getTokenSlotPosition(slot)\r\n    local newToken=getObjectFromGUID(objectLib.baseToken).clone({position=pos})\r\n    Wait.frames(function() newToken.call(\"setConfig\",token) end,1)\r\n    tokenLib[token.name]=newToken.getGUID()\r\nend\r\n\r\nfunction createBag(token,slot)\r\n    local pos=getTokenSlotPosition(slot)\r\n    local newBag=getObjectFromGUID(objectLib.baseBag).clone({position=pos})\r\n    newBag.setName(token.name)\r\n    --Wait.frames(function() newBag.call(\"setConfig\",token) end,1)\r\n    bagLib[token.name]=newBag.getGUID()\r\nend\r\n\r\nfunction getTokenSlotPosition(slot)\r\n    local row = 0\r\n    local targetPos = slot\r\n    while targetPos >= 7.5 do\r\n        row = row + 1\r\n        targetPos = targetPos - 7\r\n    end\r\n    \r\n    return Vector( firstTokenPosition.x+ row * 3,firstTokenPosition.y  ,firstTokenPosition.z - ((targetPos) * ( 2.5)))\r\nend\r\n\r\n\r\nfunction getBagSlotPosition(slot)\r\n    local row = 0\r\n    local targetPos = slot\r\n    while targetPos >= 7.5 do\r\n        row = row + 1\r\n        targetPos = targetPos - 7\r\n    end\r\n    \r\n    return Vector( firstBagPosition.x+ row * 3,firstBagPosition.y  ,firstBagPosition.z - ((targetPos) * ( 8)))\r\nend\r\n\r\nfunction moveTokenToBag(token,bag)\r\n    token.setPosition(bag.getPosition())\r\nend\r\n\r\nfunction joinBag(token)\r\n    local bag=getObjectFromGUID(bagLib[token.name])\r\n    local newToken=getObjectFromGUID(tokenLib[token.name])\r\n    bag.setPosition(newToken.getPosition())\r\n    bag.destroyAttachments()\r\n    bag.addAttachment(newToken)\r\n    local nextToken=newToken.clone({position=bag.getPosition()})\r\n    local thickness=0.01\r\n    if token.ht~=\"0\" then\r\n        thickness=token.ht\r\n    end\r\n    Wait.frames(function() nextToken.call(\"setThickness\",thickness)end, 1)\r\n    --bag.setPosition(getObjectFromGUID(objectLib.specialTokenBag).getPosition():add(Vector(0,10,0)))\r\nend\r\n\r\nfunction moveSpecialTokensToBag(token)\r\n    local bag=getObjectFromGUID(bagLib[token.name])\r\n    getObjectFromGUID(objectLib.specialTokenBag).putObject(bag)\r\nend\r\n\r\nfunction moveToScoringBag(token)\r\n    local newToken=getObjectFromGUID(tokenLib[token.name])\r\n    getObjectFromGUID(scoringTokenBag[token.name]).putObject(newToken)\r\nend",
       "LuaScriptState": "",
       "XmlUI": ""
     },
@@ -810,12 +810,12 @@
       "GUID": "3ea749",
       "Name": "Custom_Model_Bag",
       "Transform": {
-        "posX": -0.9662361,
-        "posY": 1.00753117,
+        "posX": -0.966235936,
+        "posY": 1.00753164,
         "posZ": 10.9325285,
-        "rotX": 4.7906417E-07,
-        "rotY": 0.149942979,
-        "rotZ": 6.37920834E-07,
+        "rotX": 2.44677744E-06,
+        "rotY": 0.149936616,
+        "rotZ": 1.40622763E-06,
         "scaleX": 7.897566,
         "scaleY": 7.21041,
         "scaleZ": 7.72229671
@@ -884,9 +884,9 @@
         "posX": -26.133976,
         "posY": 0.965,
         "posZ": -14.3878651,
-        "rotX": 9.874107E-07,
+        "rotX": -2.91092056E-06,
         "rotY": 179.999329,
-        "rotZ": -1.67758412E-06,
+        "rotZ": 1.3590676E-06,
         "scaleX": 0.3045071,
         "scaleY": 0.1,
         "scaleZ": 0.3045071
@@ -930,7 +930,7 @@
           "Stackable": false
         }
       },
-      "LuaScript": "-- Bundled by luabundle {\"rootModuleName\":\"Base Marker.030e0e.lua\",\"version\":\"1.6.0\"}\nlocal __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)\n\tlocal loadingPlaceholder = {[{}] = true}\n\n\tlocal register\n\tlocal modules = {}\n\n\tlocal require\n\tlocal loaded = {}\n\n\tregister = function(name, body)\n\t\tif not modules[name] then\n\t\t\tmodules[name] = body\n\t\tend\n\tend\n\n\trequire = function(name)\n\t\tlocal loadedModule = loaded[name]\n\n\t\tif loadedModule then\n\t\t\tif loadedModule == loadingPlaceholder then\n\t\t\t\treturn nil\n\t\t\tend\n\t\telse\n\t\t\tif not modules[name] then\n\t\t\t\tif not superRequire then\n\t\t\t\t\tlocal identifier = type(name) == 'string' and '\\\"' .. name .. '\\\"' or tostring(name)\n\t\t\t\t\terror('Tried to require ' .. identifier .. ', but no such module has been registered')\n\t\t\t\telse\n\t\t\t\t\treturn superRequire(name)\n\t\t\t\tend\n\t\t\tend\n\n\t\t\tloaded[name] = loadingPlaceholder\n\t\t\tloadedModule = modules[name](require, loaded, register, modules)\n\t\t\tloaded[name] = loadedModule\n\t\tend\n\n\t\treturn loadedModule\n\tend\n\n\treturn require, loaded, register, modules\nend)(nil)\n__bundle_register(\"Base Marker.030e0e.lua\", function(require, _LOADED, __bundle_register, __bundle_modules)\nrequire(\"components/BaseMarker\")\nend)\n__bundle_register(\"components/BaseMarker\", function(require, _LOADED, __bundle_register, __bundle_modules)\nRSS_Class = 'Marker';\r\n------ CLASS VARIABLES ----------------------\r\nlocal ChildObjs = {\r\n    aura_obj = nil\r\n};\r\nlocal Conditions = {}\r\nlocal state = {conditions={ Aura=0,Activated =0}};\r\nlocal config={}\r\n------ LIFE CICLE EVENTS --------------------\r\nfunction onDestroy()\r\n    if (ChildObjs.aura_obj ~= nil) then \r\n        ChildObjs.aura_obj.destruct() \r\n    end\r\nend\r\nfunction onLoad(save)\r\n    rebuildAssets()\r\n    self.UI.setXml(ui())\r\n    showAura()\r\nend\r\nfunction onSave()\r\nend\r\nfunction onUpdate()\r\nend\r\n------ STATE ACTIONS ------------------------\r\nfunction SetInitialState(newState) --Tobe called from the reference card\r\nend\r\nfunction ModifyAura(params)\r\n    local bound = self.getBoundsNormalized();\r\n    state.conditions.Aura = math.max(0,state.conditions.Aura + params.amount);\r\n    local newScale = 0;\r\n    if state.conditions.Aura > 0 then\r\n        newScale = state.conditions.Aura+(bound.size.x/2+0.02);\r\n    end\r\n    ChildObjs.aura_obj.setScale(Vector(newScale,1,newScale));\r\n    SyncCondition(\"Aura\")\r\nend\r\nfunction setConfig(newConfig)\r\n    config=newConfig\r\n    self.setName(newConfig.name)\r\n    local thickness=0.01\r\n    --\r\n\r\n    --    thickness=newConfig.ht\r\n    --end\r\n    self.setCustomObject({\r\n        image = newConfig.image;\r\n        thickness=thickness\r\n    });\r\n    --Converst bbcode to tts frendly floats\r\n    local r=tonumber(string.sub(newConfig.color,2,3),16)/255\r\n    local g=tonumber(string.sub(newConfig.color,4,5),16)/255\r\n    local b=tonumber(string.sub(newConfig.color,6,7),16)/255\r\n    self.setDescription(newConfig.rules)\r\n    self.setColorTint({r,g,b})\r\n    local x=0.365\r\n    local y=0.2\r\n    local z=0.365\r\n    if newConfig.size==\"40\" then\r\n        x=0.48666\r\n        z=0.48666\r\n    elseif newConfig.size==\"50\" then\r\n        x=0.608\r\n        z=0.608\r\n    end\r\n\r\n    self.setScale({x,1,z})\r\n    log(self.getScale())\r\n    self.reload()\r\nend\r\nfunction setThickness(thickness)\r\n    self.setCustomObject({\r\n        thickness=thickness\r\n    });\r\nend\r\n------ MODEL MANIPULATION -------------------\r\nfunction AuraFollowObject(params)\r\n    if ChildObjs.aura_obj ~= nil then\r\n        ChildObjs.aura_obj.setVar('parent',params.obj);\r\n    end\r\nend\r\nfunction AuraResetFollow()\r\n    if ChildObjs.aura_obj ~= nil then\r\n        ChildObjs.aura_obj.setVar('parent',self);\r\n    end\r\nend\r\n------ UI GENERATION ------------------------\r\nfunction Sync()\r\n    self.UI.setXml(ui())\r\n    --propagateToReferenceCard()\r\nend\r\nfunction SyncCondition(name)\r\n    local secondary = Conditions[name].secondary;\r\n    local imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\n    local color = 'All';\r\n    self.UI.setAttributes(color..\"_ConditionImage_\".. name, {\r\n        color= Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or 'ff'),\r\n        image= imageName,\r\n    });\r\n        self.UI.setAttributes(color..\"_ConditionText_\".. name, {\r\n        active= (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false'),\r\n        text= state.conditions[name] \r\n    });\r\n    if name == \"Activated\" then\r\n        RefreshBaseColor()\r\n    end\r\nend\r\nfunction ui() \r\n    return [[\r\n        <Panel color=\"#FFFFFFff\" height=\"0\" width=\"0\" rectAlignment=\"MiddleCenter\" childForceExpandWidth=\"true\" >]]..\r\n        PlayerHUDPivot('All')..\r\n        [[</Panel>\r\n    ]];\r\nend\r\nfunction rebuildAssets()\r\n    local assets = {};\r\n    for conditionName, value in pairs(Conditions) do\r\n        assets[#assets+1]={name=conditionName , url = value.url};\r\n    end\r\n    self.UI.setCustomAssets(assets)\r\n    end\r\nfunction PlayerHUDPivot(color)\r\n    return [[\r\n        <Panel id=']]..color..[[_PlayerHUDPivot'  height=\"160\" width=\"128\" position='0 0 -10' rotation='0 0 0' rectAlignment=\"MiddleCenter\"  childForceExpandWidth=\"false\">\r\n        ]]..HUDConditions(color) ..[[\r\n        </Panel>\r\n    ]]\r\nend\r\n-- function PlayerHUDContainer(color)\r\n-- return [[\r\n-- <Panel id='PlayerHUD_Container' active='true' height=\"80\" width=\"100%\" rectAlignment=\"MiddleCenter\"  rotation='0 0 0' position='0 50 0' childForceExpandWidth=\"false\">]]..\r\n-- HUDConditions(color) ..\r\n-- [[</Panel>\r\n-- ]]\r\n-- end\r\nfunction HUDConditions(color)\r\n    return [[<Panel width=\"100%\" rectAlignment=\"MiddleLeft\" position='0 0 0' rotation='0 0 180' scale='4 4 4' > ]]..\r\n        HUDSingleCondition(color,\"Aura\", 0 ,0) ..\r\n    [[</Panel>]]\r\nend\r\nfunction UI_ModifyAura(p,alt) \r\n    if alt ~= '-3' then \r\n        ModifyAura({amount= (alt == '-1' and 1 or (alt == '-2' and -1) or 0 ) }) \r\n    end \r\nend\r\nfunction HUDSingleCondition(color,name,x,y)\r\n    local id = \"ConditionFrame_\" .. name ;\r\n    return [[<Panel id=\"]] .. id ..[[\" width=\"30\" height=\"30\" alignment='LowerLeft' position=']] ..(x* 32 ).. [[ ]] .. y*(32) .. [[ 0' ]] .. \r\n        [[onClick='UI_Modify]] .. name ..[[()'>]] ..\r\n        HUDSingleConditionBody(color,name)..\r\n    [[</Panel>]];\r\nend\r\nfunction HUDSingleConditionBody(color,name)\r\n    local secondary = Conditions[name].secondary;\r\n    local imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\n    return [[\r\n        <Image id=\"]]..color ..[[_ConditionImage_]]..name ..[[\" image=\"]] .. imageName .. [[\" color=\"]] .. Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or 'ff') .. [[\" rectAlignment='LowerLeft' width='30' height='30'/>\r\n        <Text  id=\"]]..color ..[[_ConditionText_]]..name ..[[\" active=']] .. (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false')  ..[['  fontSize='22' text=']] .. state.conditions[name] .. [[' color='#ffffff' fontStyle='Bold'  rectAlignment='LowerLeft' outline='#000000' outlineSize='1 1' />\r\n    ]]\r\nend\r\nConditions = {\r\n    Aura = { url=\"https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png\", color=\"#99aa22\", stacks=true }\r\n}\r\nfunction showAura()\r\n    local bound = self.getBoundsNormalized();\r\n    local a=(state.conditions.Aura > 0) and (state.conditions.Aura+(bound.size.x/2)+0.02) or 0; --based on model base size\r\n    local me = self\r\n    local clr = self.getColorTint()\r\n    ChildObjs.aura_obj=spawnObject({\r\n        type='custom_model',\r\n        position=self.getPosition(),\r\n        rotation=self.getRotation(),\r\n        scale={a,1,a},\r\n        mass=0,\r\n        use_gravity=false,\r\n        sound=false,\r\n        snap_to_grid=false,\r\n        callback_function=function(b)\r\n            b.setColorTint(clr)\r\n            b.setVar('parent',self)\r\n            b.setLuaScript([[\r\n            local lastParent = nil\r\n            function onLoad() \r\n            (self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false)\r\n            Wait.condition(\r\n            function() \r\n            (self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false) \r\n            end, \r\n            function() \r\n            return not(self.loading_custom) \r\n            end\r\n            ) \r\n            end \r\n            function onUpdate() \r\n            if (parent ~= nil) then \r\n            if (not parent.resting or lastParent ~= parent) then \r\n            lastParent = parent\r\n            self.setPosition(parent.getPosition())\r\n            self.setRotation(parent.getRotation()) \r\n            end \r\n            else \r\n            self.destruct() \r\n            end \r\n            end\r\n            ]])\r\n            b.getComponent('MeshRenderer').set('receiveShadows',false)\r\n            b.mass=0\r\n            b.bounciness=0\r\n            b.drag=0\r\n            b.use_snap_points=false\r\n            b.use_grid=false\r\n            b.use_gravity=false\r\n            b.auto_raise=false\r\n            b.auto_raise=false\r\n            b.sticky=false\r\n            b.interactable=false\r\n        end\r\n        })\r\n        ChildObjs.aura_obj.setCustomObject({\r\n        mesh='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/components/arcs/round0.obj',\r\n        collider='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/utility/null_COL.obj',\r\n        material=3,\r\n        specularIntensity=0,\r\n        cast_shadows=false\r\n    })\r\nend\nend)\nreturn __bundle_require(\"Base Marker.030e0e.lua\")",
+      "LuaScript": "-- Bundled by luabundle {\"rootModuleName\":\"Base Marker.030e0e.lua\",\"version\":\"1.6.0\"}\nlocal __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)\n\tlocal loadingPlaceholder = {[{}] = true}\n\n\tlocal register\n\tlocal modules = {}\n\n\tlocal require\n\tlocal loaded = {}\n\n\tregister = function(name, body)\n\t\tif not modules[name] then\n\t\t\tmodules[name] = body\n\t\tend\n\tend\n\n\trequire = function(name)\n\t\tlocal loadedModule = loaded[name]\n\n\t\tif loadedModule then\n\t\t\tif loadedModule == loadingPlaceholder then\n\t\t\t\treturn nil\n\t\t\tend\n\t\telse\n\t\t\tif not modules[name] then\n\t\t\t\tif not superRequire then\n\t\t\t\t\tlocal identifier = type(name) == 'string' and '\\\"' .. name .. '\\\"' or tostring(name)\n\t\t\t\t\terror('Tried to require ' .. identifier .. ', but no such module has been registered')\n\t\t\t\telse\n\t\t\t\t\treturn superRequire(name)\n\t\t\t\tend\n\t\t\tend\n\n\t\t\tloaded[name] = loadingPlaceholder\n\t\t\tloadedModule = modules[name](require, loaded, register, modules)\n\t\t\tloaded[name] = loadedModule\n\t\tend\n\n\t\treturn loadedModule\n\tend\n\n\treturn require, loaded, register, modules\nend)(nil)\n__bundle_register(\"Base Marker.030e0e.lua\", function(require, _LOADED, __bundle_register, __bundle_modules)\nrequire(\"components/BaseMarker\")\nend)\n__bundle_register(\"components/BaseMarker\", function(require, _LOADED, __bundle_register, __bundle_modules)\nRSS_Class = 'Marker';\r\n------ CLASS VARIABLES ----------------------\r\nlocal ChildObjs = {\r\n    aura_obj = nil\r\n};\r\nlocal Conditions = {}\r\nlocal state = {conditions={ Aura=0,Activated =0}};\r\nlocal config={}\r\n------ LIFE CICLE EVENTS --------------------\r\nfunction onDestroy()\r\n    if (ChildObjs.aura_obj ~= nil) then \r\n        ChildObjs.aura_obj.destruct() \r\n    end\r\nend\r\nfunction onLoad(save)\r\n    rebuildAssets()\r\n    self.UI.setXml(ui())\r\n    showAura()\r\nend\r\nfunction onSave()\r\nend\r\nfunction onUpdate()\r\nend\r\n------ STATE ACTIONS ------------------------\r\nfunction SetInitialState(newState) --Tobe called from the reference card\r\nend\r\nfunction ModifyAura(params)\r\n    local bound = self.getBoundsNormalized();\r\n    state.conditions.Aura = math.max(0,state.conditions.Aura + params.amount);\r\n    local newScale = 0;\r\n    if state.conditions.Aura > 0 then\r\n        newScale = state.conditions.Aura+(bound.size.x/2+0.02);\r\n    end\r\n    ChildObjs.aura_obj.setScale(Vector(newScale,1,newScale));\r\n    SyncCondition(\"Aura\")\r\nend\r\nfunction setConfig(newConfig)\r\n    config=newConfig\r\n    self.setName(newConfig.name)\r\n    local thickness=0.01\r\n    --\r\n\r\n    --    thickness=newConfig.ht\r\n    --end\r\n    self.setCustomObject({\r\n        image = newConfig.image;\r\n        --thickness=thickness\r\n    });\r\n    --Converst bbcode to tts frendly floats\r\n    local r=tonumber(string.sub(newConfig.color,2,3),16)/255\r\n    local g=tonumber(string.sub(newConfig.color,4,5),16)/255\r\n    local b=tonumber(string.sub(newConfig.color,6,7),16)/255\r\n    self.setDescription(newConfig.rules)\r\n    self.setColorTint({r,g,b})\r\n    local x=0.365\r\n    local y=0.2\r\n    local z=0.365\r\n    if newConfig.size==\"40\" then\r\n        x=0.48666\r\n        z=0.48666\r\n    elseif newConfig.size==\"50\" then\r\n        x=0.608\r\n        z=0.608\r\n    end\r\n\r\n    self.setScale({x,1,z})\r\n    self.reload()\r\nend\r\nfunction setThickness(thickness)\r\n    self.setCustomObject({\r\n        thickness=thickness\r\n    });\r\nend\r\n------ MODEL MANIPULATION -------------------\r\nfunction AuraFollowObject(params)\r\n    if ChildObjs.aura_obj ~= nil then\r\n        ChildObjs.aura_obj.setVar('parent',params.obj);\r\n    end\r\nend\r\nfunction AuraResetFollow()\r\n    if ChildObjs.aura_obj ~= nil then\r\n        ChildObjs.aura_obj.setVar('parent',self);\r\n    end\r\nend\r\n------ UI GENERATION ------------------------\r\nfunction Sync()\r\n    self.UI.setXml(ui())\r\n    --propagateToReferenceCard()\r\nend\r\nfunction SyncCondition(name)\r\n    local secondary = Conditions[name].secondary;\r\n    local imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\n    local color = 'All';\r\n    self.UI.setAttributes(color..\"_ConditionImage_\".. name, {\r\n        color= Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or 'ff'),\r\n        image= imageName,\r\n    });\r\n        self.UI.setAttributes(color..\"_ConditionText_\".. name, {\r\n        active= (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false'),\r\n        text= state.conditions[name] \r\n    });\r\n    if name == \"Activated\" then\r\n        RefreshBaseColor()\r\n    end\r\nend\r\nfunction ui() \r\n    return [[\r\n        <Panel color=\"#FFFFFFff\" height=\"0\" width=\"0\" rectAlignment=\"MiddleCenter\" childForceExpandWidth=\"true\" >]]..\r\n        PlayerHUDPivot('All')..\r\n        [[</Panel>\r\n    ]];\r\nend\r\nfunction rebuildAssets()\r\n    local assets = {};\r\n    for conditionName, value in pairs(Conditions) do\r\n        assets[#assets+1]={name=conditionName , url = value.url};\r\n    end\r\n    self.UI.setCustomAssets(assets)\r\n    end\r\nfunction PlayerHUDPivot(color)\r\n    return [[\r\n        <Panel id=']]..color..[[_PlayerHUDPivot'  height=\"160\" width=\"128\" position='0 0 -10' rotation='0 0 0' rectAlignment=\"MiddleCenter\"  childForceExpandWidth=\"false\">\r\n        ]]..HUDConditions(color) ..[[\r\n        </Panel>\r\n    ]]\r\nend\r\n-- function PlayerHUDContainer(color)\r\n-- return [[\r\n-- <Panel id='PlayerHUD_Container' active='true' height=\"80\" width=\"100%\" rectAlignment=\"MiddleCenter\"  rotation='0 0 0' position='0 50 0' childForceExpandWidth=\"false\">]]..\r\n-- HUDConditions(color) ..\r\n-- [[</Panel>\r\n-- ]]\r\n-- end\r\nfunction HUDConditions(color)\r\n    return [[<Panel width=\"100%\" rectAlignment=\"MiddleLeft\" position='0 0 0' rotation='0 0 180' scale='4 4 4' > ]]..\r\n        HUDSingleCondition(color,\"Aura\", 0 ,0) ..\r\n    [[</Panel>]]\r\nend\r\nfunction UI_ModifyAura(p,alt) \r\n    if alt ~= '-3' then \r\n        ModifyAura({amount= (alt == '-1' and 1 or (alt == '-2' and -1) or 0 ) }) \r\n    end \r\nend\r\nfunction HUDSingleCondition(color,name,x,y)\r\n    local id = \"ConditionFrame_\" .. name ;\r\n    return [[<Panel id=\"]] .. id ..[[\" width=\"30\" height=\"30\" alignment='LowerLeft' position=']] ..(x* 32 ).. [[ ]] .. y*(32) .. [[ 0' ]] .. \r\n        [[onClick='UI_Modify]] .. name ..[[()'>]] ..\r\n        HUDSingleConditionBody(color,name)..\r\n    [[</Panel>]];\r\nend\r\nfunction HUDSingleConditionBody(color,name)\r\n    local secondary = Conditions[name].secondary;\r\n    local imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\n    return [[\r\n        <Image id=\"]]..color ..[[_ConditionImage_]]..name ..[[\" image=\"]] .. imageName .. [[\" color=\"]] .. Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or 'ff') .. [[\" rectAlignment='LowerLeft' width='30' height='30'/>\r\n        <Text  id=\"]]..color ..[[_ConditionText_]]..name ..[[\" active=']] .. (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false')  ..[['  fontSize='22' text=']] .. state.conditions[name] .. [[' color='#ffffff' fontStyle='Bold'  rectAlignment='LowerLeft' outline='#000000' outlineSize='1 1' />\r\n    ]]\r\nend\r\nConditions = {\r\n    Aura = { url=\"https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png\", color=\"#99aa22\", stacks=true }\r\n}\r\nfunction showAura()\r\n    local bound = self.getBoundsNormalized();\r\n    local a=(state.conditions.Aura > 0) and (state.conditions.Aura+(bound.size.x/2)+0.02) or 0; --based on model base size\r\n    local me = self\r\n    local clr = self.getColorTint()\r\n    ChildObjs.aura_obj=spawnObject({\r\n        type='custom_model',\r\n        position=self.getPosition(),\r\n        rotation=self.getRotation(),\r\n        scale={a,1,a},\r\n        mass=0,\r\n        use_gravity=false,\r\n        sound=false,\r\n        snap_to_grid=false,\r\n        callback_function=function(b)\r\n            b.setColorTint(clr)\r\n            b.setVar('parent',self)\r\n            b.setLuaScript([[\r\n            local lastParent = nil\r\n            function onLoad() \r\n            (self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false)\r\n            Wait.condition(\r\n            function() \r\n            (self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false) \r\n            end, \r\n            function() \r\n            return not(self.loading_custom) \r\n            end\r\n            ) \r\n            end \r\n            function onUpdate() \r\n            if (parent ~= nil) then \r\n            if (not parent.resting or lastParent ~= parent) then \r\n            lastParent = parent\r\n            self.setPosition(parent.getPosition())\r\n            self.setRotation(parent.getRotation()) \r\n            end \r\n            else \r\n            self.destruct() \r\n            end \r\n            end\r\n            ]])\r\n            b.getComponent('MeshRenderer').set('receiveShadows',false)\r\n            b.mass=0\r\n            b.bounciness=0\r\n            b.drag=0\r\n            b.use_snap_points=false\r\n            b.use_grid=false\r\n            b.use_gravity=false\r\n            b.auto_raise=false\r\n            b.auto_raise=false\r\n            b.sticky=false\r\n            b.interactable=false\r\n        end\r\n        })\r\n        ChildObjs.aura_obj.setCustomObject({\r\n        mesh='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/components/arcs/round0.obj',\r\n        collider='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/utility/null_COL.obj',\r\n        material=3,\r\n        specularIntensity=0,\r\n        cast_shadows=false\r\n    })\r\nend\nend)\nreturn __bundle_require(\"Base Marker.030e0e.lua\")",
       "LuaScriptState": "[]",
       "XmlUI": "",
       "CustomUIAssets": [
@@ -948,8 +948,8 @@
         "posX": 5.35839939,
         "posY": 1.21048343,
         "posZ": 12.8566027,
-        "rotX": -1.24208668E-06,
-        "rotY": 5.666798E-05,
+        "rotX": -1.41467453E-07,
+        "rotY": 5.66700546E-05,
         "rotZ": 180.0,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -982,7 +982,7 @@
       "GridProjection": false,
       "HideWhenFaceDown": false,
       "Hands": false,
-      "LuaScript": "local generalLibeary={}\r\n\r\n\r\n\r\n\r\nlocal specialLibeary={\r\n    Echo={\r\n        name=\"Echo\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='When a friendly Obliteration model is killed within 1\\\" of this marker, it may drain a soulstone. If it does, it does not infuse a soulstone for being killed and, after the model is removed, this crew may summon a model of the same name within 1\\\" of this marker with a Flicker token and 2 health. Then remove this marker.';\r\n        image=\"https://github.com/farabaugh100/malifauxtts/blob/main/assets/img/Markers/Echo.png?raw=true\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Decoy={\r\n        name=\"Decoy\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='During the end phase, choose a Decoy marker. Make a Scheme marker in base contact with the chosen marker, then remove the chosen marker.';\r\n        image=\"https://github.com/farabaugh100/malifauxtts/blob/main/assets/img/Markers/Decoy.png?raw=true\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Gloom={\r\n        name=\"Gloom\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='Allies that start a move within 2\\\" of this marker may ignore models and terrain while moving. Allies may treat this marker as blocking terrain for actions and abilities.';\r\n        image=\"https://github.com/farabaugh100/malifauxtts/blob/main/assets/img/Markers/Gloom.png?raw=true\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Scrap={\r\n        name=\"Scrap\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='Hazardous (Perforated).';\r\n        image=\"https://github.com/farabaugh100/malifauxtts/blob/main/assets/img/Markers/Scrap.png?raw=true\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Shadow={\r\n        name=\"Shadow\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='Concealing.';\r\n        image=\"https://github.com/farabaugh100/malifauxtts/blob/main/assets/img/Markers/Shadow.png?raw=true\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Rift={\r\n        name=\"Rift\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='A friendly Oni within 1\\\" of this marker may remove this marker after succeeding on an attack to make that attack deal +1 damage.';\r\n        image=\"https://github.com/farabaugh100/malifauxtts/blob/main/assets/img/Markers/Rift.png?raw=true\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Pyrotechnic={\r\n        name=\"Pyrotechnic\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='At the end of the turn apply the following to all friendly Pyrotechnic markers depending on the suit of the top card of your discard pile: BOOM!: All models 2\\\" of one or more Pyrotchnic marker must pass a TN 14Sp duel or be dealt 2 damage. Surprise!: All models within 2\\\" gain a Glowy token. Whoa...: All models within 2\\\" gain an Insight token. Toxic Smoke: All models within 2\\\" gain a Poison token.';\r\n        image=\"https://github.com/farabaugh100/malifauxtts/blob/main/assets/img/Markers/Pyrotechnic.png?raw=true\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    TideMarker={\r\n        name=\"Tide Marker\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='Once per activation.  Friendly Angler models within 1\\\" of this marker may reveive a + to Df Duels.';\r\n        image=\"https://github.com/farabaugh100/malifauxtts/blob/main/assets/img/Markers/Tide.png?raw=true\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Piano={\r\n        name=\"Piano\";\r\n        size=\"40\";\r\n        ht=\"3\";\r\n        rules='Ht 3, blocking, impassable. During the end phase, choose a Piano marker. An enemy model within 1\\\" of the chosen marker gains an Entranced token. Then remove the chosen marker.';\r\n        image=\"https://github.com/farabaugh100/malifauxtts/blob/main/assets/img/Markers/Piano.png?raw=true\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Inferno={\r\n        name=\"Inferno\";\r\n        size=\"50\";\r\n        ht=\"0\";\r\n        rules='Hazardous(Burning)';\r\n        image=\"https://github.com/farabaugh100/malifauxtts/blob/main/assets/img/Markers/Inferno.png?raw=true\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Underbrush={\r\n        name=\"Underbrush\";\r\n        size=\"50\";\r\n        ht=\"0\";\r\n        rules='concealing, dense, severe.';\r\n        image=\"https://github.com/farabaugh100/malifauxtts/blob/main/assets/img/Markers/Underbrush.png?raw=true\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    ShadowLair={\r\n        name=\"Shadow Lair\";\r\n        size=\"50\";\r\n        ht=\"0\";\r\n        rules='Enemy models that end their activation in base contact with this marker gain a Fright token.';\r\n        image=\"https://github.com/farabaugh100/malifauxtts/blob/main/assets/img/Markers/Shadow%20Lair.png?raw=true\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Web={\r\n        name=\"Web\";\r\n        size=\"50\";\r\n        ht=\"0\";\r\n        rules='Severe. Models in base contact with a Web marker may not be placed by models friendly to them.';\r\n        image=\"https://github.com/farabaugh100/malifauxtts/blob/main/assets/img/Markers/Web.png?raw=true\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n}\r\n\r\n\r\n\r\n\r\n\r\nfunction getGenearyLibeary()\r\n    return generalMarkers\r\nend\r\n\r\nfunction getSpecialLibeary()\r\n    return specialLibeary\r\nend",
+      "LuaScript": "local generalLibeary={}\r\n\r\n\r\n\r\n\r\nlocal specialLibeary={\r\n    Echo={\r\n        name=\"Echo\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='When a friendly Obliteration model is killed within 1\\\" of this marker, it may drain a soulstone. If it does, it does not infuse a soulstone for being killed and, after the model is removed, this crew may summon a model of the same name within 1\\\" of this marker with a Flicker token and 2 health. Then remove this marker.';\r\n        image=\"https://github.com/farabaugh100/malifauxtts/blob/main/assets/img/Markers/Echo.png?raw=true\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Decoy={\r\n        name=\"Decoy\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='During the end phase, choose a Decoy marker. Make a Scheme marker in base contact with the chosen marker, then remove the chosen marker.';\r\n        image=\"https://github.com/farabaugh100/malifauxtts/blob/main/assets/img/Markers/Decoy.png?raw=true\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Gloom={\r\n        name=\"Gloom\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='Allies that start a move within 2\\\" of this marker may ignore models and terrain while moving. Allies may treat this marker as blocking terrain for actions and abilities.';\r\n        image=\"https://github.com/farabaugh100/malifauxtts/blob/main/assets/img/Markers/Gloom.png?raw=true\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Scrap={\r\n        name=\"Scrap\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='Hazardous (Perforated).';\r\n        image=\"https://github.com/farabaugh100/malifauxtts/blob/main/assets/img/Markers/Scrap.png?raw=true\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Shadow={\r\n        name=\"Shadow\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='Concealing.';\r\n        image=\"https://github.com/farabaugh100/malifauxtts/blob/main/assets/img/Markers/Shadow.png?raw=true\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Rift={\r\n        name=\"Rift\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='A friendly Oni within 1\\\" of this marker may remove this marker after succeeding on an attack to make that attack deal +1 damage.';\r\n        image=\"https://github.com/farabaugh100/malifauxtts/blob/main/assets/img/Markers/Rift.png?raw=true\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Pyrotechnic={\r\n        name=\"Pyrotechnic\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='At the end of the turn apply the following to all friendly Pyrotechnic markers depending on the suit of the top card of your discard pile: BOOM!: All models 2\\\" of one or more Pyrotchnic marker must pass a TN 14Sp duel or be dealt 2 damage. Surprise!: All models within 2\\\" gain a Glowy token. Whoa...: All models within 2\\\" gain an Insight token. Toxic Smoke: All models within 2\\\" gain a Poison token.';\r\n        image=\"https://github.com/farabaugh100/malifauxtts/blob/main/assets/img/Markers/Pyrotechnic.png?raw=true\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    TideMarker={\r\n        name=\"Tide Marker\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='Once per activation.  Friendly Angler models within 1\\\" of this marker may reveive a + to Df Duels.';\r\n        image=\"https://github.com/farabaugh100/malifauxtts/blob/main/assets/img/Markers/Tide.png?raw=true\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Piano={\r\n        name=\"Piano\";\r\n        size=\"40\";\r\n        ht=\"3\";\r\n        rules='Ht 3, blocking, impassable. During the end phase, choose a Piano marker. An enemy model within 1\\\" of the chosen marker gains an Entranced token. Then remove the chosen marker.';\r\n        image=\"https://github.com/farabaugh100/malifauxtts/blob/main/assets/img/Markers/Piano.png?raw=true\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Inferno={\r\n        name=\"Inferno\";\r\n        size=\"50\";\r\n        ht=\"0\";\r\n        rules='Hazardous(Burning)';\r\n        image=\"https://github.com/farabaugh100/malifauxtts/blob/main/assets/img/Markers/Inferno.png?raw=true\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Underbrush={\r\n        name=\"Underbrush\";\r\n        size=\"50\";\r\n        ht=\"0\";\r\n        rules='concealing, dense, severe.';\r\n        image=\"https://github.com/farabaugh100/malifauxtts/blob/main/assets/img/Markers/Underbrush.png?raw=true\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    ShadowLair={\r\n        name=\"Shadow Lair\";\r\n        size=\"50\";\r\n        ht=\"0\";\r\n        rules='Enemy models that end their activation in base contact with this marker gain a Fright token.';\r\n        image=\"https://github.com/farabaugh100/malifauxtts/blob/main/assets/img/Markers/Shadow%20Lair.png?raw=true\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Web={\r\n        name=\"Web\";\r\n        size=\"50\";\r\n        ht=\"0\";\r\n        rules='Severe. Models in base contact with a Web marker may not be placed by models friendly to them.';\r\n        image=\"https://github.com/farabaugh100/malifauxtts/blob/main/assets/img/Markers/Web.png?raw=true\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n}\r\n\r\n\r\nlocal scoringLibeary={\r\n    Strategy={\r\n        name=\"Strategy\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://github.com/farabaugh100/malifauxtts/blob/marker_size_fix/assets/img/ScoringMarkers/Strategy.png?raw=true\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Guild={\r\n        name=\"Guild\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://github.com/farabaugh100/malifauxtts/blob/marker_size_fix/assets/img/ScoringMarkers/Guild.png?raw=true\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Arcanists={\r\n        name=\"Arcanists\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://github.com/farabaugh100/malifauxtts/blob/marker_size_fix/assets/img/ScoringMarkers/Arcanists.png?raw=true\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Resurrectionist={\r\n        name=\"Resurrectionist\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://github.com/farabaugh100/malifauxtts/blob/marker_size_fix/assets/img/ScoringMarkers/Resurrectionists.png?raw=true\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Neverborn={\r\n        name=\"Neverborn\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://github.com/farabaugh100/malifauxtts/blob/marker_size_fix/assets/img/ScoringMarkers/Neverborn.png?raw=true\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Outcasts={\r\n        name=\"Outcasts\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://github.com/farabaugh100/malifauxtts/blob/marker_size_fix/assets/img/ScoringMarkers/Outcasts.png?raw=true\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    TenThunders={\r\n        name=\"TenThunders\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://github.com/farabaugh100/malifauxtts/blob/marker_size_fix/assets/img/ScoringMarkers/TenThunders.png?raw=true\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Bayou={\r\n        name=\"Bayou\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://github.com/farabaugh100/malifauxtts/blob/marker_size_fix/assets/img/ScoringMarkers/Bayou.png?raw=true\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    ExplorersSociety={\r\n        name=\"ExplorersSociety\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://github.com/farabaugh100/malifauxtts/blob/marker_size_fix/assets/img/ScoringMarkers/ExplorersSociety.png?raw=true\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\nfunction getGenearyLibeary()\r\n    return generalMarkers\r\nend\r\n\r\nfunction getSpecialLibeary()\r\n    return specialLibeary\r\nend\r\n\r\nfunction getScoringLibeary()\r\n    return scoringLibeary\r\nend",
       "LuaScriptState": "",
       "XmlUI": ""
     },
@@ -993,9 +993,9 @@
         "posX": -25.8625755,
         "posY": 1.03220642,
         "posZ": 16.8502541,
-        "rotX": -3.53108959E-07,
+        "rotX": 5.417549E-08,
         "rotY": 180.019272,
-        "rotZ": -7.105564E-08,
+        "rotZ": -7.057422E-07,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -1181,11 +1181,11 @@
       "Name": "Custom_Model_Infinite_Bag",
       "Transform": {
         "posX": -25.8625546,
-        "posY": 1.0322063,
+        "posY": 1.03220642,
         "posZ": 14.3502579,
-        "rotX": -5.101364E-07,
+        "rotX": -5.733742E-08,
         "rotY": 180.019287,
-        "rotZ": -2.05620481E-07,
+        "rotZ": -3.63057957E-08,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -1373,9 +1373,9 @@
         "posX": -25.8625927,
         "posY": 1.03220642,
         "posZ": 11.8502512,
-        "rotX": 2.42719381E-07,
+        "rotX": -1.37996821E-07,
         "rotY": 180.019272,
-        "rotZ": 9.995841E-09,
+        "rotZ": 8.45319548E-08,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -1561,11 +1561,11 @@
       "Name": "Custom_Model_Infinite_Bag",
       "Transform": {
         "posX": -25.8625927,
-        "posY": 1.03220642,
+        "posY": 1.0322063,
         "posZ": 9.350252,
-        "rotX": 3.77626037E-07,
+        "rotX": 3.88495138E-08,
         "rotY": 180.019287,
-        "rotZ": -3.30937269E-07,
+        "rotZ": 8.129717E-08,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -1753,9 +1753,9 @@
         "posX": -25.8625927,
         "posY": 1.03220642,
         "posZ": 6.85025072,
-        "rotX": -1.12324308E-07,
+        "rotX": -2.57346016E-07,
         "rotY": 180.019272,
-        "rotZ": -5.8248753E-07,
+        "rotZ": -7.372264E-08,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -1943,9 +1943,9 @@
         "posX": -25.8625927,
         "posY": 1.03220642,
         "posZ": 4.35025024,
-        "rotX": 3.669145E-08,
+        "rotX": 8.663397E-08,
         "rotY": 180.019287,
-        "rotZ": -4.96130156E-07,
+        "rotZ": -1.01016361E-07,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -2133,9 +2133,9 @@
         "posX": -25.8625546,
         "posY": 1.03220642,
         "posZ": 1.850257,
-        "rotX": -2.85246358E-07,
+        "rotX": -9.73803864E-08,
         "rotY": 180.019287,
-        "rotZ": 3.52300233E-08,
+        "rotZ": 5.171441E-09,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -2323,9 +2323,9 @@
         "posX": -22.8625546,
         "posY": 1.03220642,
         "posZ": 16.8502579,
-        "rotX": -7.83097747E-08,
+        "rotX": 3.87114483E-07,
         "rotY": 180.019287,
-        "rotZ": -3.866615E-07,
+        "rotZ": -2.9429043E-07,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -2513,9 +2513,9 @@
         "posX": -22.8625813,
         "posY": 1.03220642,
         "posZ": 14.3502541,
-        "rotX": -3.160046E-07,
+        "rotX": -3.14696877E-07,
         "rotY": 180.019272,
-        "rotZ": 3.17449263E-07,
+        "rotZ": 1.302109E-07,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -2703,9 +2703,9 @@
         "posX": -22.8625946,
         "posY": 1.03220642,
         "posZ": 11.8501911,
-        "rotX": -4.84195766E-07,
+        "rotX": -6.765707E-08,
         "rotY": 180.019089,
-        "rotZ": 5.0239646E-07,
+        "rotZ": 1.77770346E-07,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -2891,11 +2891,11 @@
       "Name": "Custom_Model_Infinite_Bag",
       "Transform": {
         "posX": -22.8625946,
-        "posY": 1.03220618,
+        "posY": 1.03220642,
         "posZ": 9.35020351,
-        "rotX": -1.98808E-06,
+        "rotX": -2.863675E-07,
         "rotY": 180.019211,
-        "rotZ": -2.34187951E-06,
+        "rotZ": -4.24956937E-07,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -3083,9 +3083,9 @@
         "posX": -22.8625488,
         "posY": 1.03220642,
         "posZ": 6.85026026,
-        "rotX": -1.88905E-06,
+        "rotX": -4.57912762E-07,
         "rotY": 180.019089,
-        "rotZ": -1.60417756E-07,
+        "rotZ": -1.37836423E-07,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -3271,11 +3271,11 @@
       "Name": "Custom_Model_Infinite_Bag",
       "Transform": {
         "posX": -22.8625946,
-        "posY": 1.03220618,
+        "posY": 1.03220642,
         "posZ": 4.35021448,
-        "rotX": -2.35934817E-06,
+        "rotX": -8.490209E-07,
         "rotY": 180.019165,
-        "rotZ": 2.14645411E-07,
+        "rotZ": 1.85030814E-07,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -3457,83 +3457,15 @@
       ]
     },
     {
-      "GUID": "dfdb26",
-      "Name": "Custom_Model",
-      "Transform": {
-        "posX": -26.133976,
-        "posY": 0.9649999,
-        "posZ": -14.3878651,
-        "rotX": -1.34922029E-05,
-        "rotY": 179.999329,
-        "rotZ": 5.73045554E-07,
-        "scaleX": 0.0,
-        "scaleY": 1.0,
-        "scaleZ": 0.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "AltLookAngle": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "LayoutGroupSortIndex": 0,
-      "Value": 0,
-      "Locked": false,
-      "Grid": false,
-      "Snap": false,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": false,
-      "Sticky": false,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomMesh": {
-        "MeshURL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/components/arcs/round0.obj",
-        "DiffuseURL": "",
-        "NormalURL": "",
-        "ColliderURL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/utility/null_COL.obj",
-        "Convex": true,
-        "MaterialIndex": 3,
-        "TypeIndex": 0,
-        "CastShadows": false
-      },
-      "LuaScript": "            local lastParent = nil\n            function onLoad() \n            (self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false)\n            Wait.condition(\n            function() \n            (self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false) \n            end, \n            function() \n            return not(self.loading_custom) \n            end\n            ) \n            end \n            function onUpdate() \n            if (parent ~= nil) then \n            if (not parent.resting or lastParent ~= parent) then \n            lastParent = parent\n            self.setPosition(parent.getPosition())\n            self.setRotation(parent.getRotation()) \n            end \n            else \n            self.destruct() \n            end \n            end\n            ",
-      "LuaScriptState": "",
-      "XmlUI": "",
-      "PhysicsMaterial": {
-        "StaticFriction": 1.0,
-        "DynamicFriction": 0.7,
-        "Bounciness": 0.0,
-        "FrictionCombine": 0,
-        "BounceCombine": 0
-      },
-      "Rigidbody": {
-        "Mass": 0.0,
-        "Drag": 0.0,
-        "AngularDrag": 0.1,
-        "UseGravity": false
-      }
-    },
-    {
       "GUID": "10de55",
       "Name": "Custom_Model_Infinite_Bag",
       "Transform": {
         "posX": 23.7683029,
         "posY": 1.05142236,
         "posZ": 15.9252014,
-        "rotX": 3.791987E-08,
+        "rotX": 4.69024064E-09,
         "rotY": 255.002213,
-        "rotZ": -2.06010967E-07,
+        "rotZ": -2.74360445E-08,
         "scaleX": 3.07970858,
         "scaleY": 0.182844967,
         "scaleZ": 3.13255978
@@ -3568,6 +3500,7 @@
       "Hands": false,
       "MaterialIndex": -1,
       "MeshIndex": -1,
+      "Number": 2,
       "CustomMesh": {
         "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1666858152071991282/5C391C2599AE5F6972D6EFA7BFC04B41D6E821E3/",
         "DiffuseURL": "",
@@ -3581,72 +3514,6 @@
       "LuaScript": "",
       "LuaScriptState": "",
       "XmlUI": "",
-      "ContainedObjects": [
-        {
-          "GUID": "cbbc0c",
-          "Name": "Custom_Token",
-          "Transform": {
-            "posX": 19.6219978,
-            "posY": 1.0069536,
-            "posZ": 33.89646,
-            "rotX": 1.3545523E-05,
-            "rotY": 14.998167,
-            "rotZ": -2.32503021E-06,
-            "scaleX": 0.32087487,
-            "scaleY": 1.0,
-            "scaleZ": 0.32087487
-          },
-          "Nickname": "Ten Thunders Scheme Marker",
-          "Description": "",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": false,
-          "Hands": true,
-          "CustomImage": {
-            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1009312139319052263/50004B10AFB8B31CEEDD3563F2B1FCA231B1F635/",
-            "ImageSecondaryURL": "",
-            "ImageScalar": 1.0,
-            "WidthScale": 0.0,
-            "CustomToken": {
-              "Thickness": 0.1,
-              "MergeDistancePixels": 15.0,
-              "StandUp": false,
-              "Stackable": false
-            }
-          },
-          "LuaScript": "RSS_Class = 'Marker';\r\n------ CLASS VARIABLES ----------------------\r\nlocal ChildObjs = {\r\naura_obj = nil\r\n};\r\nlocal Conditions = {}\r\nlocal state = {conditions={ Aura=0,Activated =0}};\r\n------ LIFE CICLE EVENTS --------------------\r\nfunction onDestroy()\r\nif (ChildObjs.aura_obj ~= nil) then ChildObjs.aura_obj.destruct() end\r\nend\r\nfunction onLoad(save)\r\nrebuildAssets()\r\nself.UI.setXml(ui())\r\nshowAura()\r\nend\r\nfunction onSave()\r\nend\r\nfunction onUpdate()\r\nend\r\n------ STATE ACTIONS ------------------------\r\nfunction SetInitialState(newState) --Tobe called from the reference card\r\nend\r\nfunction ModifyAura(params)\r\nlocal bound = self.getBoundsNormalized();\r\nstate.conditions.Aura = math.max(0,state.conditions.Aura + params.amount);\r\nlocal newScale = 0;\r\nif state.conditions.Aura > 0 then\r\nnewScale = state.conditions.Aura+(bound.size.x/2+0.02);\r\nend\r\nChildObjs.aura_obj.setScale(Vector(newScale,1,newScale));\r\nSyncCondition(\"Aura\")\r\nend\r\n------ MODEL MANIPULATION -------------------\r\nfunction AuraFollowObject(params)\r\nif ChildObjs.aura_obj ~= nil then\r\nChildObjs.aura_obj.setVar('parent',params.obj);\r\nend\r\nend\r\nfunction AuraResetFollow()\r\nif ChildObjs.aura_obj ~= nil then\r\nChildObjs.aura_obj.setVar('parent',self);\r\nend\r\nend\r\n------ UI GENERATION ------------------------\r\nfunction Sync()\r\nself.UI.setXml(ui())\r\n--propagateToReferenceCard()\r\nend\r\nfunction SyncCondition(name)\r\nlocal secondary = Conditions[name].secondary;\r\nlocal imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\nlocal color = 'All';\r\nself.UI.setAttributes(color..\"_ConditionImage_\".. name, {\r\ncolor= Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or 'ff'),\r\nimage= imageName,\r\n});\r\nself.UI.setAttributes(color..\"_ConditionText_\".. name, {\r\nactive= (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false'),\r\ntext= state.conditions[name] \r\n});\r\nif name == \"Activated\" then\r\nRefreshBaseColor()\r\nend\r\nend\r\nfunction ui() \r\nreturn [[\r\n<Panel color=\"#FFFFFFff\" height=\"0\" width=\"0\" rectAlignment=\"MiddleCenter\" childForceExpandWidth=\"true\" >]]..\r\nPlayerHUDPivot('All')..\r\n[[</Panel>\r\n]];\r\nend\r\nfunction rebuildAssets()\r\nlocal assets = {};\r\nfor conditionName, value in pairs(Conditions) do\r\nassets[#assets+1]={name=conditionName , url = value.url};\r\nend\r\nself.UI.setCustomAssets(assets)\r\nend\r\nfunction PlayerHUDPivot(color)\r\nreturn [[\r\n<Panel id=']]..color..[[_PlayerHUDPivot'  height=\"160\" width=\"128\" position='0 0 -10' rotation='0 0 0' rectAlignment=\"MiddleCenter\"  childForceExpandWidth=\"false\">\r\n]]..HUDConditions(color) ..[[\r\n</Panel>\r\n]]\r\nend\r\n-- function PlayerHUDContainer(color)\r\n-- return [[\r\n-- <Panel id='PlayerHUD_Container' active='true' height=\"80\" width=\"100%\" rectAlignment=\"MiddleCenter\"  rotation='0 0 0' position='0 50 0' childForceExpandWidth=\"false\">]]..\r\n-- HUDConditions(color) ..\r\n-- [[</Panel>\r\n-- ]]\r\n-- end\r\nfunction HUDConditions(color)\r\nreturn [[<Panel width=\"100%\" rectAlignment=\"MiddleLeft\" position='0 0 0' rotation='0 0 180' scale='4 4 4' > ]]..\r\nHUDSingleCondition(color,\"Aura\", 0 ,0) ..\r\n[[</Panel>]]\r\nend\r\nfunction UI_ModifyAura(p,alt) if alt ~= '-3' then ModifyAura({amount= (alt == '-1' and 1 or (alt == '-2' and -1) or 0 ) }) end end\r\nfunction HUDSingleCondition(color,name,x,y)\r\nlocal id = \"ConditionFrame_\" .. name ;\r\nreturn [[<Panel id=\"]] .. id ..[[\" width=\"30\" height=\"30\" alignment='LowerLeft' position=']] ..(x* 32 ).. [[ ]] .. y*(32) .. [[ 0' ]] .. \r\n[[onClick='UI_Modify]] .. name ..[[()'>]] ..\r\nHUDSingleConditionBody(color,name)..\r\n[[</Panel>]];\r\nend\r\nfunction HUDSingleConditionBody(color,name)\r\nlocal secondary = Conditions[name].secondary;\r\nlocal imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\nreturn [[\r\n<Image id=\"]]..color ..[[_ConditionImage_]]..name ..[[\" image=\"]] .. imageName .. [[\" color=\"]] .. Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or 'ff') .. [[\" rectAlignment='LowerLeft' width='30' height='30'/>\r\n<Text  id=\"]]..color ..[[_ConditionText_]]..name ..[[\" active=']] .. (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false')  ..[['  fontSize='22' text=']] .. state.conditions[name] .. [[' color='#ffffff' fontStyle='Bold'  rectAlignment='LowerLeft' outline='#000000' outlineSize='1 1' />\r\n]]\r\nend\r\nConditions = {\r\nAura = { url=\"https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png\", color=\"#99aa22\", stacks=true }\r\n}\r\nfunction showAura()\r\nlocal bound = self.getBoundsNormalized();\r\nlocal a=(state.conditions.Aura > 0) and (state.conditions.Aura+(bound.size.x/2)+0.02) or 0; --based on model base size\r\nlocal me = self\r\nlocal clr = self.getColorTint()\r\nChildObjs.aura_obj=spawnObject({\r\ntype='custom_model',\r\nposition=self.getPosition(),\r\nrotation=self.getRotation(),\r\nscale={a,1,a},\r\nmass=0,\r\nuse_gravity=false,\r\nsound=false,\r\nsnap_to_grid=false,\r\ncallback_function=function(b)\r\nb.setColorTint(clr)\r\nb.setVar('parent',self)\r\nb.setLuaScript([[\r\nlocal lastParent = nil\r\nfunction onLoad() \r\n(self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false)\r\nWait.condition(\r\nfunction() \r\n(self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false) \r\nend, \r\nfunction() \r\nreturn not(self.loading_custom) \r\nend\r\n) \r\nend \r\nfunction onUpdate() \r\nif (parent ~= nil) then \r\nif (not parent.resting or lastParent ~= parent) then \r\nlastParent = parent\r\nself.setPosition(parent.getPosition())\r\nself.setRotation(parent.getRotation()) \r\nend \r\nelse \r\nself.destruct() \r\nend \r\nend\r\n]])\r\nb.getComponent('MeshRenderer').set('receiveShadows',false)\r\nb.mass=0\r\nb.bounciness=0\r\nb.drag=0\r\nb.use_snap_points=false\r\nb.use_grid=false\r\nb.use_gravity=false\r\nb.auto_raise=false\r\nb.auto_raise=false\r\nb.sticky=false\r\nb.interactable=false\r\nend\r\n})\r\nChildObjs.aura_obj.setCustomObject({\r\nmesh='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/components/arcs/round0.obj',\r\ncollider='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/utility/null_COL.obj',\r\nmaterial=3,\r\nspecularIntensity=0,\r\ncast_shadows=false\r\n})\r\nend",
-          "LuaScriptState": "[]",
-          "XmlUI": "",
-          "CustomUIAssets": [
-            {
-              "Type": 0,
-              "Name": "Aura",
-              "URL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png"
-            }
-          ]
-        }
-      ],
       "ChildObjects": [
         {
           "GUID": "f583fe",
@@ -3714,9 +3581,9 @@
         "posX": 18.6983089,
         "posY": 1.0510788,
         "posZ": 15.9252167,
-        "rotX": 8.959896E-08,
+        "rotX": -4.48194157E-08,
         "rotY": 254.997925,
-        "rotZ": -9.746383E-09,
+        "rotZ": -1.99910687E-07,
         "scaleX": 2.94086933,
         "scaleY": 0.182157531,
         "scaleZ": 3.00238347
@@ -3751,6 +3618,7 @@
       "Hands": false,
       "MaterialIndex": -1,
       "MeshIndex": -1,
+      "Number": 2,
       "CustomMesh": {
         "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1666858152071991282/5C391C2599AE5F6972D6EFA7BFC04B41D6E821E3/",
         "DiffuseURL": "",
@@ -3764,72 +3632,6 @@
       "LuaScript": "",
       "LuaScriptState": "",
       "XmlUI": "",
-      "ContainedObjects": [
-        {
-          "GUID": "73553d",
-          "Name": "Custom_Token",
-          "Transform": {
-            "posX": 14.30089,
-            "posY": 1.00695336,
-            "posZ": 33.857502,
-            "rotX": -1.44207688E-05,
-            "rotY": 15.0307331,
-            "rotZ": 6.41026372E-06,
-            "scaleX": 0.32087487,
-            "scaleY": 1.0,
-            "scaleZ": 0.32087487
-          },
-          "Nickname": "Resurrectionist Scheme Marker",
-          "Description": "",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": false,
-          "Hands": true,
-          "CustomImage": {
-            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1009312139319066086/FDA12DF587BBFEF2D467F14D7E1C1D2C3D6C6B29/",
-            "ImageSecondaryURL": "",
-            "ImageScalar": 1.0,
-            "WidthScale": 0.0,
-            "CustomToken": {
-              "Thickness": 0.1,
-              "MergeDistancePixels": 15.0,
-              "StandUp": false,
-              "Stackable": false
-            }
-          },
-          "LuaScript": "RSS_Class = 'Marker';\r\n------ CLASS VARIABLES ----------------------\r\nlocal ChildObjs = {\r\naura_obj = nil\r\n};\r\nlocal Conditions = {}\r\nlocal state = {conditions={ Aura=0,Activated =0}};\r\n------ LIFE CICLE EVENTS --------------------\r\nfunction onDestroy()\r\nif (ChildObjs.aura_obj ~= nil) then ChildObjs.aura_obj.destruct() end\r\nend\r\nfunction onLoad(save)\r\nrebuildAssets()\r\nself.UI.setXml(ui())\r\nshowAura()\r\nend\r\nfunction onSave()\r\nend\r\nfunction onUpdate()\r\nend\r\n------ STATE ACTIONS ------------------------\r\nfunction SetInitialState(newState) --Tobe called from the reference card\r\nend\r\nfunction ModifyAura(params)\r\nlocal bound = self.getBoundsNormalized();\r\nstate.conditions.Aura = math.max(0,state.conditions.Aura + params.amount);\r\nlocal newScale = 0;\r\nif state.conditions.Aura > 0 then\r\nnewScale = state.conditions.Aura+(bound.size.x/2+0.02);\r\nend\r\nChildObjs.aura_obj.setScale(Vector(newScale,1,newScale));\r\nSyncCondition(\"Aura\")\r\nend\r\n------ MODEL MANIPULATION -------------------\r\nfunction AuraFollowObject(params)\r\nif ChildObjs.aura_obj ~= nil then\r\nChildObjs.aura_obj.setVar('parent',params.obj);\r\nend\r\nend\r\nfunction AuraResetFollow()\r\nif ChildObjs.aura_obj ~= nil then\r\nChildObjs.aura_obj.setVar('parent',self);\r\nend\r\nend\r\n------ UI GENERATION ------------------------\r\nfunction Sync()\r\nself.UI.setXml(ui())\r\n--propagateToReferenceCard()\r\nend\r\nfunction SyncCondition(name)\r\nlocal secondary = Conditions[name].secondary;\r\nlocal imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\nlocal color = 'All';\r\nself.UI.setAttributes(color..\"_ConditionImage_\".. name, {\r\ncolor= Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or 'ff'),\r\nimage= imageName,\r\n});\r\nself.UI.setAttributes(color..\"_ConditionText_\".. name, {\r\nactive= (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false'),\r\ntext= state.conditions[name] \r\n});\r\nif name == \"Activated\" then\r\nRefreshBaseColor()\r\nend\r\nend\r\nfunction ui() \r\nreturn [[\r\n<Panel color=\"#FFFFFFff\" height=\"0\" width=\"0\" rectAlignment=\"MiddleCenter\" childForceExpandWidth=\"true\" >]]..\r\nPlayerHUDPivot('All')..\r\n[[</Panel>\r\n]];\r\nend\r\nfunction rebuildAssets()\r\nlocal assets = {};\r\nfor conditionName, value in pairs(Conditions) do\r\nassets[#assets+1]={name=conditionName , url = value.url};\r\nend\r\nself.UI.setCustomAssets(assets)\r\nend\r\nfunction PlayerHUDPivot(color)\r\nreturn [[\r\n<Panel id=']]..color..[[_PlayerHUDPivot'  height=\"160\" width=\"128\" position='0 0 -10' rotation='0 0 0' rectAlignment=\"MiddleCenter\"  childForceExpandWidth=\"false\">\r\n]]..HUDConditions(color) ..[[\r\n</Panel>\r\n]]\r\nend\r\n-- function PlayerHUDContainer(color)\r\n-- return [[\r\n-- <Panel id='PlayerHUD_Container' active='true' height=\"80\" width=\"100%\" rectAlignment=\"MiddleCenter\"  rotation='0 0 0' position='0 50 0' childForceExpandWidth=\"false\">]]..\r\n-- HUDConditions(color) ..\r\n-- [[</Panel>\r\n-- ]]\r\n-- end\r\nfunction HUDConditions(color)\r\nreturn [[<Panel width=\"100%\" rectAlignment=\"MiddleLeft\" position='0 0 0' rotation='0 0 180' scale='4 4 4' > ]]..\r\nHUDSingleCondition(color,\"Aura\", 0 ,0) ..\r\n[[</Panel>]]\r\nend\r\nfunction UI_ModifyAura(p,alt) if alt ~= '-3' then ModifyAura({amount= (alt == '-1' and 1 or (alt == '-2' and -1) or 0 ) }) end end\r\nfunction HUDSingleCondition(color,name,x,y)\r\nlocal id = \"ConditionFrame_\" .. name ;\r\nreturn [[<Panel id=\"]] .. id ..[[\" width=\"30\" height=\"30\" alignment='LowerLeft' position=']] ..(x* 32 ).. [[ ]] .. y*(32) .. [[ 0' ]] .. \r\n[[onClick='UI_Modify]] .. name ..[[()'>]] ..\r\nHUDSingleConditionBody(color,name)..\r\n[[</Panel>]];\r\nend\r\nfunction HUDSingleConditionBody(color,name)\r\nlocal secondary = Conditions[name].secondary;\r\nlocal imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\nreturn [[\r\n<Image id=\"]]..color ..[[_ConditionImage_]]..name ..[[\" image=\"]] .. imageName .. [[\" color=\"]] .. Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or 'ff') .. [[\" rectAlignment='LowerLeft' width='30' height='30'/>\r\n<Text  id=\"]]..color ..[[_ConditionText_]]..name ..[[\" active=']] .. (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false')  ..[['  fontSize='22' text=']] .. state.conditions[name] .. [[' color='#ffffff' fontStyle='Bold'  rectAlignment='LowerLeft' outline='#000000' outlineSize='1 1' />\r\n]]\r\nend\r\nConditions = {\r\nAura = { url=\"https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png\", color=\"#99aa22\", stacks=true }\r\n}\r\nfunction showAura()\r\nlocal bound = self.getBoundsNormalized();\r\nlocal a=(state.conditions.Aura > 0) and (state.conditions.Aura+(bound.size.x/2)+0.02) or 0; --based on model base size\r\nlocal me = self\r\nlocal clr = self.getColorTint()\r\nChildObjs.aura_obj=spawnObject({\r\ntype='custom_model',\r\nposition=self.getPosition(),\r\nrotation=self.getRotation(),\r\nscale={a,1,a},\r\nmass=0,\r\nuse_gravity=false,\r\nsound=false,\r\nsnap_to_grid=false,\r\ncallback_function=function(b)\r\nb.setColorTint(clr)\r\nb.setVar('parent',self)\r\nb.setLuaScript([[\r\nlocal lastParent = nil\r\nfunction onLoad() \r\n(self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false)\r\nWait.condition(\r\nfunction() \r\n(self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false) \r\nend, \r\nfunction() \r\nreturn not(self.loading_custom) \r\nend\r\n) \r\nend \r\nfunction onUpdate() \r\nif (parent ~= nil) then \r\nif (not parent.resting or lastParent ~= parent) then \r\nlastParent = parent\r\nself.setPosition(parent.getPosition())\r\nself.setRotation(parent.getRotation()) \r\nend \r\nelse \r\nself.destruct() \r\nend \r\nend\r\n]])\r\nb.getComponent('MeshRenderer').set('receiveShadows',false)\r\nb.mass=0\r\nb.bounciness=0\r\nb.drag=0\r\nb.use_snap_points=false\r\nb.use_grid=false\r\nb.use_gravity=false\r\nb.auto_raise=false\r\nb.auto_raise=false\r\nb.sticky=false\r\nb.interactable=false\r\nend\r\n})\r\nChildObjs.aura_obj.setCustomObject({\r\nmesh='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/components/arcs/round0.obj',\r\ncollider='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/utility/null_COL.obj',\r\nmaterial=3,\r\nspecularIntensity=0,\r\ncast_shadows=false\r\n})\r\nend",
-          "LuaScriptState": "[]",
-          "XmlUI": "",
-          "CustomUIAssets": [
-            {
-              "Type": 0,
-              "Name": "Aura",
-              "URL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png"
-            }
-          ]
-        }
-      ],
       "ChildObjects": [
         {
           "GUID": "73553d",
@@ -3897,9 +3699,9 @@
         "posX": 13.6283007,
         "posY": 1.05109262,
         "posZ": 15.925209,
-        "rotX": 3.976191E-08,
+        "rotX": -3.01750021E-08,
         "rotY": 255.000412,
-        "rotZ": -6.111422E-08,
+        "rotZ": 5.691682E-10,
         "scaleX": 2.95153427,
         "scaleY": 0.1821853,
         "scaleZ": 3.00217867
@@ -3934,6 +3736,7 @@
       "Hands": false,
       "MaterialIndex": -1,
       "MeshIndex": -1,
+      "Number": 2,
       "CustomMesh": {
         "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1666858152071991282/5C391C2599AE5F6972D6EFA7BFC04B41D6E821E3/",
         "DiffuseURL": "",
@@ -3947,72 +3750,6 @@
       "LuaScript": "",
       "LuaScriptState": "",
       "XmlUI": "",
-      "ContainedObjects": [
-        {
-          "GUID": "6bbee9",
-          "Name": "Custom_Token",
-          "Transform": {
-            "posX": 9.616034,
-            "posY": 1.00695324,
-            "posZ": 34.05396,
-            "rotX": -1.222817E-06,
-            "rotY": 15.017561,
-            "rotZ": 1.576478E-05,
-            "scaleX": 0.32087487,
-            "scaleY": 1.0,
-            "scaleZ": 0.32087487
-          },
-          "Nickname": "Outcast Scheme Marker",
-          "Description": "",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": false,
-          "Hands": true,
-          "CustomImage": {
-            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1009312139319051359/203E7808F75A19657756D97D14CE64896E873F87/",
-            "ImageSecondaryURL": "",
-            "ImageScalar": 1.0,
-            "WidthScale": 0.0,
-            "CustomToken": {
-              "Thickness": 0.1,
-              "MergeDistancePixels": 15.0,
-              "StandUp": false,
-              "Stackable": false
-            }
-          },
-          "LuaScript": "RSS_Class = 'Marker';\r\n------ CLASS VARIABLES ----------------------\r\nlocal ChildObjs = {\r\naura_obj = nil\r\n};\r\nlocal Conditions = {}\r\nlocal state = {conditions={ Aura=0,Activated =0}};\r\n------ LIFE CICLE EVENTS --------------------\r\nfunction onDestroy()\r\nif (ChildObjs.aura_obj ~= nil) then ChildObjs.aura_obj.destruct() end\r\nend\r\nfunction onLoad(save)\r\nrebuildAssets()\r\nself.UI.setXml(ui())\r\nshowAura()\r\nend\r\nfunction onSave()\r\nend\r\nfunction onUpdate()\r\nend\r\n------ STATE ACTIONS ------------------------\r\nfunction SetInitialState(newState) --Tobe called from the reference card\r\nend\r\nfunction ModifyAura(params)\r\nlocal bound = self.getBoundsNormalized();\r\nstate.conditions.Aura = math.max(0,state.conditions.Aura + params.amount);\r\nlocal newScale = 0;\r\nif state.conditions.Aura > 0 then\r\nnewScale = state.conditions.Aura+(bound.size.x/2+0.02);\r\nend\r\nChildObjs.aura_obj.setScale(Vector(newScale,1,newScale));\r\nSyncCondition(\"Aura\")\r\nend\r\n------ MODEL MANIPULATION -------------------\r\nfunction AuraFollowObject(params)\r\nif ChildObjs.aura_obj ~= nil then\r\nChildObjs.aura_obj.setVar('parent',params.obj);\r\nend\r\nend\r\nfunction AuraResetFollow()\r\nif ChildObjs.aura_obj ~= nil then\r\nChildObjs.aura_obj.setVar('parent',self);\r\nend\r\nend\r\n------ UI GENERATION ------------------------\r\nfunction Sync()\r\nself.UI.setXml(ui())\r\n--propagateToReferenceCard()\r\nend\r\nfunction SyncCondition(name)\r\nlocal secondary = Conditions[name].secondary;\r\nlocal imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\nlocal color = 'All';\r\nself.UI.setAttributes(color..\"_ConditionImage_\".. name, {\r\ncolor= Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or 'ff'),\r\nimage= imageName,\r\n});\r\nself.UI.setAttributes(color..\"_ConditionText_\".. name, {\r\nactive= (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false'),\r\ntext= state.conditions[name] \r\n});\r\nif name == \"Activated\" then\r\nRefreshBaseColor()\r\nend\r\nend\r\nfunction ui() \r\nreturn [[\r\n<Panel color=\"#FFFFFFff\" height=\"0\" width=\"0\" rectAlignment=\"MiddleCenter\" childForceExpandWidth=\"true\" >]]..\r\nPlayerHUDPivot('All')..\r\n[[</Panel>\r\n]];\r\nend\r\nfunction rebuildAssets()\r\nlocal assets = {};\r\nfor conditionName, value in pairs(Conditions) do\r\nassets[#assets+1]={name=conditionName , url = value.url};\r\nend\r\nself.UI.setCustomAssets(assets)\r\nend\r\nfunction PlayerHUDPivot(color)\r\nreturn [[\r\n<Panel id=']]..color..[[_PlayerHUDPivot'  height=\"160\" width=\"128\" position='0 0 -10' rotation='0 0 0' rectAlignment=\"MiddleCenter\"  childForceExpandWidth=\"false\">\r\n]]..HUDConditions(color) ..[[\r\n</Panel>\r\n]]\r\nend\r\n-- function PlayerHUDContainer(color)\r\n-- return [[\r\n-- <Panel id='PlayerHUD_Container' active='true' height=\"80\" width=\"100%\" rectAlignment=\"MiddleCenter\"  rotation='0 0 0' position='0 50 0' childForceExpandWidth=\"false\">]]..\r\n-- HUDConditions(color) ..\r\n-- [[</Panel>\r\n-- ]]\r\n-- end\r\nfunction HUDConditions(color)\r\nreturn [[<Panel width=\"100%\" rectAlignment=\"MiddleLeft\" position='0 0 0' rotation='0 0 180' scale='4 4 4' > ]]..\r\nHUDSingleCondition(color,\"Aura\", 0 ,0) ..\r\n[[</Panel>]]\r\nend\r\nfunction UI_ModifyAura(p,alt) if alt ~= '-3' then ModifyAura({amount= (alt == '-1' and 1 or (alt == '-2' and -1) or 0 ) }) end end\r\nfunction HUDSingleCondition(color,name,x,y)\r\nlocal id = \"ConditionFrame_\" .. name ;\r\nreturn [[<Panel id=\"]] .. id ..[[\" width=\"30\" height=\"30\" alignment='LowerLeft' position=']] ..(x* 32 ).. [[ ]] .. y*(32) .. [[ 0' ]] .. \r\n[[onClick='UI_Modify]] .. name ..[[()'>]] ..\r\nHUDSingleConditionBody(color,name)..\r\n[[</Panel>]];\r\nend\r\nfunction HUDSingleConditionBody(color,name)\r\nlocal secondary = Conditions[name].secondary;\r\nlocal imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\nreturn [[\r\n<Image id=\"]]..color ..[[_ConditionImage_]]..name ..[[\" image=\"]] .. imageName .. [[\" color=\"]] .. Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or 'ff') .. [[\" rectAlignment='LowerLeft' width='30' height='30'/>\r\n<Text  id=\"]]..color ..[[_ConditionText_]]..name ..[[\" active=']] .. (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false')  ..[['  fontSize='22' text=']] .. state.conditions[name] .. [[' color='#ffffff' fontStyle='Bold'  rectAlignment='LowerLeft' outline='#000000' outlineSize='1 1' />\r\n]]\r\nend\r\nConditions = {\r\nAura = { url=\"https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png\", color=\"#99aa22\", stacks=true }\r\n}\r\nfunction showAura()\r\nlocal bound = self.getBoundsNormalized();\r\nlocal a=(state.conditions.Aura > 0) and (state.conditions.Aura+(bound.size.x/2)+0.02) or 0; --based on model base size\r\nlocal me = self\r\nlocal clr = self.getColorTint()\r\nChildObjs.aura_obj=spawnObject({\r\ntype='custom_model',\r\nposition=self.getPosition(),\r\nrotation=self.getRotation(),\r\nscale={a,1,a},\r\nmass=0,\r\nuse_gravity=false,\r\nsound=false,\r\nsnap_to_grid=false,\r\ncallback_function=function(b)\r\nb.setColorTint(clr)\r\nb.setVar('parent',self)\r\nb.setLuaScript([[\r\nlocal lastParent = nil\r\nfunction onLoad() \r\n(self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false)\r\nWait.condition(\r\nfunction() \r\n(self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false) \r\nend, \r\nfunction() \r\nreturn not(self.loading_custom) \r\nend\r\n) \r\nend \r\nfunction onUpdate() \r\nif (parent ~= nil) then \r\nif (not parent.resting or lastParent ~= parent) then \r\nlastParent = parent\r\nself.setPosition(parent.getPosition())\r\nself.setRotation(parent.getRotation()) \r\nend \r\nelse \r\nself.destruct() \r\nend \r\nend\r\n]])\r\nb.getComponent('MeshRenderer').set('receiveShadows',false)\r\nb.mass=0\r\nb.bounciness=0\r\nb.drag=0\r\nb.use_snap_points=false\r\nb.use_grid=false\r\nb.use_gravity=false\r\nb.auto_raise=false\r\nb.auto_raise=false\r\nb.sticky=false\r\nb.interactable=false\r\nend\r\n})\r\nChildObjs.aura_obj.setCustomObject({\r\nmesh='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/components/arcs/round0.obj',\r\ncollider='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/utility/null_COL.obj',\r\nmaterial=3,\r\nspecularIntensity=0,\r\ncast_shadows=false\r\n})\r\nend",
-          "LuaScriptState": "[]",
-          "XmlUI": "",
-          "CustomUIAssets": [
-            {
-              "Type": 0,
-              "Name": "Aura",
-              "URL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png"
-            }
-          ]
-        }
-      ],
       "ChildObjects": [
         {
           "GUID": "81fd79",
@@ -4080,9 +3817,9 @@
         "posX": 8.558252,
         "posY": 1.05142272,
         "posZ": 15.9251518,
-        "rotX": 1.90979765E-08,
+        "rotX": 6.521336E-08,
         "rotY": 255.0059,
-        "rotZ": 5.18495824E-08,
+        "rotZ": 4.06511766E-08,
         "scaleX": 3.079713,
         "scaleY": 0.182845473,
         "scaleZ": 3.132563
@@ -4117,6 +3854,7 @@
       "Hands": false,
       "MaterialIndex": -1,
       "MeshIndex": -1,
+      "Number": 2,
       "CustomMesh": {
         "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1666858152071991282/5C391C2599AE5F6972D6EFA7BFC04B41D6E821E3/",
         "DiffuseURL": "",
@@ -4130,72 +3868,6 @@
       "LuaScript": "",
       "LuaScriptState": "",
       "XmlUI": "",
-      "ContainedObjects": [
-        {
-          "GUID": "aa10ca",
-          "Name": "Custom_Token",
-          "Transform": {
-            "posX": 4.69893742,
-            "posY": 1.00695288,
-            "posZ": 33.3734245,
-            "rotX": 7.95063144E-08,
-            "rotY": 14.9948626,
-            "rotZ": 3.03386082E-06,
-            "scaleX": 0.32087487,
-            "scaleY": 1.0,
-            "scaleZ": 0.32087487
-          },
-          "Nickname": "Neverborn Scheme Marker",
-          "Description": "",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": false,
-          "Hands": true,
-          "CustomImage": {
-            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1009312139319050497/E06BC43807CD7F9DB214C0F2B6220351E3DE04B2/",
-            "ImageSecondaryURL": "",
-            "ImageScalar": 1.0,
-            "WidthScale": 0.0,
-            "CustomToken": {
-              "Thickness": 0.1,
-              "MergeDistancePixels": 15.0,
-              "StandUp": false,
-              "Stackable": false
-            }
-          },
-          "LuaScript": "RSS_Class = 'Marker';\r\n------ CLASS VARIABLES ----------------------\r\nlocal ChildObjs = {\r\naura_obj = nil\r\n};\r\nlocal Conditions = {}\r\nlocal state = {conditions={ Aura=0,Activated =0}};\r\n------ LIFE CICLE EVENTS --------------------\r\nfunction onDestroy()\r\nif (ChildObjs.aura_obj ~= nil) then ChildObjs.aura_obj.destruct() end\r\nend\r\nfunction onLoad(save)\r\nrebuildAssets()\r\nself.UI.setXml(ui())\r\nshowAura()\r\nend\r\nfunction onSave()\r\nend\r\nfunction onUpdate()\r\nend\r\n------ STATE ACTIONS ------------------------\r\nfunction SetInitialState(newState) --Tobe called from the reference card\r\nend\r\nfunction ModifyAura(params)\r\nlocal bound = self.getBoundsNormalized();\r\nstate.conditions.Aura = math.max(0,state.conditions.Aura + params.amount);\r\nlocal newScale = 0;\r\nif state.conditions.Aura > 0 then\r\nnewScale = state.conditions.Aura+(bound.size.x/2+0.02);\r\nend\r\nChildObjs.aura_obj.setScale(Vector(newScale,1,newScale));\r\nSyncCondition(\"Aura\")\r\nend\r\n------ MODEL MANIPULATION -------------------\r\nfunction AuraFollowObject(params)\r\nif ChildObjs.aura_obj ~= nil then\r\nChildObjs.aura_obj.setVar('parent',params.obj);\r\nend\r\nend\r\nfunction AuraResetFollow()\r\nif ChildObjs.aura_obj ~= nil then\r\nChildObjs.aura_obj.setVar('parent',self);\r\nend\r\nend\r\n------ UI GENERATION ------------------------\r\nfunction Sync()\r\nself.UI.setXml(ui())\r\n--propagateToReferenceCard()\r\nend\r\nfunction SyncCondition(name)\r\nlocal secondary = Conditions[name].secondary;\r\nlocal imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\nlocal color = 'All';\r\nself.UI.setAttributes(color..\"_ConditionImage_\".. name, {\r\ncolor= Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or 'ff'),\r\nimage= imageName,\r\n});\r\nself.UI.setAttributes(color..\"_ConditionText_\".. name, {\r\nactive= (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false'),\r\ntext= state.conditions[name] \r\n});\r\nif name == \"Activated\" then\r\nRefreshBaseColor()\r\nend\r\nend\r\nfunction ui() \r\nreturn [[\r\n<Panel color=\"#FFFFFFff\" height=\"0\" width=\"0\" rectAlignment=\"MiddleCenter\" childForceExpandWidth=\"true\" >]]..\r\nPlayerHUDPivot('All')..\r\n[[</Panel>\r\n]];\r\nend\r\nfunction rebuildAssets()\r\nlocal assets = {};\r\nfor conditionName, value in pairs(Conditions) do\r\nassets[#assets+1]={name=conditionName , url = value.url};\r\nend\r\nself.UI.setCustomAssets(assets)\r\nend\r\nfunction PlayerHUDPivot(color)\r\nreturn [[\r\n<Panel id=']]..color..[[_PlayerHUDPivot'  height=\"160\" width=\"128\" position='0 0 -10' rotation='0 0 0' rectAlignment=\"MiddleCenter\"  childForceExpandWidth=\"false\">\r\n]]..HUDConditions(color) ..[[\r\n</Panel>\r\n]]\r\nend\r\n-- function PlayerHUDContainer(color)\r\n-- return [[\r\n-- <Panel id='PlayerHUD_Container' active='true' height=\"80\" width=\"100%\" rectAlignment=\"MiddleCenter\"  rotation='0 0 0' position='0 50 0' childForceExpandWidth=\"false\">]]..\r\n-- HUDConditions(color) ..\r\n-- [[</Panel>\r\n-- ]]\r\n-- end\r\nfunction HUDConditions(color)\r\nreturn [[<Panel width=\"100%\" rectAlignment=\"MiddleLeft\" position='0 0 0' rotation='0 0 180' scale='4 4 4' > ]]..\r\nHUDSingleCondition(color,\"Aura\", 0 ,0) ..\r\n[[</Panel>]]\r\nend\r\nfunction UI_ModifyAura(p,alt) if alt ~= '-3' then ModifyAura({amount= (alt == '-1' and 1 or (alt == '-2' and -1) or 0 ) }) end end\r\nfunction HUDSingleCondition(color,name,x,y)\r\nlocal id = \"ConditionFrame_\" .. name ;\r\nreturn [[<Panel id=\"]] .. id ..[[\" width=\"30\" height=\"30\" alignment='LowerLeft' position=']] ..(x* 32 ).. [[ ]] .. y*(32) .. [[ 0' ]] .. \r\n[[onClick='UI_Modify]] .. name ..[[()'>]] ..\r\nHUDSingleConditionBody(color,name)..\r\n[[</Panel>]];\r\nend\r\nfunction HUDSingleConditionBody(color,name)\r\nlocal secondary = Conditions[name].secondary;\r\nlocal imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\nreturn [[\r\n<Image id=\"]]..color ..[[_ConditionImage_]]..name ..[[\" image=\"]] .. imageName .. [[\" color=\"]] .. Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or 'ff') .. [[\" rectAlignment='LowerLeft' width='30' height='30'/>\r\n<Text  id=\"]]..color ..[[_ConditionText_]]..name ..[[\" active=']] .. (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false')  ..[['  fontSize='22' text=']] .. state.conditions[name] .. [[' color='#ffffff' fontStyle='Bold'  rectAlignment='LowerLeft' outline='#000000' outlineSize='1 1' />\r\n]]\r\nend\r\nConditions = {\r\nAura = { url=\"https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png\", color=\"#99aa22\", stacks=true }\r\n}\r\nfunction showAura()\r\nlocal bound = self.getBoundsNormalized();\r\nlocal a=(state.conditions.Aura > 0) and (state.conditions.Aura+(bound.size.x/2)+0.02) or 0; --based on model base size\r\nlocal me = self\r\nlocal clr = self.getColorTint()\r\nChildObjs.aura_obj=spawnObject({\r\ntype='custom_model',\r\nposition=self.getPosition(),\r\nrotation=self.getRotation(),\r\nscale={a,1,a},\r\nmass=0,\r\nuse_gravity=false,\r\nsound=false,\r\nsnap_to_grid=false,\r\ncallback_function=function(b)\r\nb.setColorTint(clr)\r\nb.setVar('parent',self)\r\nb.setLuaScript([[\r\nlocal lastParent = nil\r\nfunction onLoad() \r\n(self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false)\r\nWait.condition(\r\nfunction() \r\n(self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false) \r\nend, \r\nfunction() \r\nreturn not(self.loading_custom) \r\nend\r\n) \r\nend \r\nfunction onUpdate() \r\nif (parent ~= nil) then \r\nif (not parent.resting or lastParent ~= parent) then \r\nlastParent = parent\r\nself.setPosition(parent.getPosition())\r\nself.setRotation(parent.getRotation()) \r\nend \r\nelse \r\nself.destruct() \r\nend \r\nend\r\n]])\r\nb.getComponent('MeshRenderer').set('receiveShadows',false)\r\nb.mass=0\r\nb.bounciness=0\r\nb.drag=0\r\nb.use_snap_points=false\r\nb.use_grid=false\r\nb.use_gravity=false\r\nb.auto_raise=false\r\nb.auto_raise=false\r\nb.sticky=false\r\nb.interactable=false\r\nend\r\n})\r\nChildObjs.aura_obj.setCustomObject({\r\nmesh='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/components/arcs/round0.obj',\r\ncollider='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/utility/null_COL.obj',\r\nmaterial=3,\r\nspecularIntensity=0,\r\ncast_shadows=false\r\n})\r\nend",
-          "LuaScriptState": "[]",
-          "XmlUI": "",
-          "CustomUIAssets": [
-            {
-              "Type": 0,
-              "Name": "Aura",
-              "URL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png"
-            }
-          ]
-        }
-      ],
       "ChildObjects": [
         {
           "GUID": "02194e",
@@ -4261,11 +3933,11 @@
       "Name": "Custom_Model_Infinite_Bag",
       "Transform": {
         "posX": 3.49530983,
-        "posY": 1.05117047,
+        "posY": 1.05117059,
         "posZ": 15.925602,
-        "rotX": -4.67133617E-07,
+        "rotX": -1.22572118E-07,
         "rotY": 255.050323,
-        "rotZ": -1.01439838E-07,
+        "rotZ": 9.704468E-07,
         "scaleX": 2.98400569,
         "scaleY": 0.182341352,
         "scaleZ": 3.0292182
@@ -4300,6 +3972,7 @@
       "Hands": false,
       "MaterialIndex": -1,
       "MeshIndex": -1,
+      "Number": 2,
       "CustomMesh": {
         "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1666858152071991282/5C391C2599AE5F6972D6EFA7BFC04B41D6E821E3/",
         "DiffuseURL": "",
@@ -4313,202 +3986,6 @@
       "LuaScript": "",
       "LuaScriptState": "",
       "XmlUI": "",
-      "ContainedObjects": [
-        {
-          "GUID": "c16d85",
-          "Name": "Custom_Token",
-          "Transform": {
-            "posX": -0.3140864,
-            "posY": 1.01178288,
-            "posZ": 35.0786819,
-            "rotX": -1.43544526E-06,
-            "rotY": 284.949463,
-            "rotZ": -7.768718E-07,
-            "scaleX": 0.32087487,
-            "scaleY": 1.0,
-            "scaleZ": 0.32
-          },
-          "Nickname": "Strategy Marker",
-          "Description": "",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": false,
-          "Hands": true,
-          "CustomImage": {
-            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1651098116524221684/D3AD8074E96A52074DA1F7E6903A960A10EAF860/",
-            "ImageSecondaryURL": "",
-            "ImageScalar": 1.0,
-            "WidthScale": 0.0,
-            "CustomToken": {
-              "Thickness": 0.1,
-              "MergeDistancePixels": 15.0,
-              "StandUp": false,
-              "Stackable": false
-            }
-          },
-          "LuaScript": "RSS_Class = 'Marker';\r\n------ CLASS VARIABLES ----------------------\r\nlocal ChildObjs = {\r\naura_obj = nil\r\n};\r\nlocal Conditions = {}\r\nlocal state = {conditions={ Aura=0,Activated =0}};\r\n------ LIFE CICLE EVENTS --------------------\r\nfunction onDestroy()\r\nif (ChildObjs.aura_obj ~= nil) then ChildObjs.aura_obj.destruct() end\r\nend\r\nfunction onLoad(save)\r\nrebuildAssets()\r\nself.UI.setXml(ui())\r\nshowAura()\r\nend\r\nfunction onSave()\r\nend\r\nfunction onUpdate()\r\nend\r\n------ STATE ACTIONS ------------------------\r\nfunction SetInitialState(newState) --Tobe called from the reference card\r\nend\r\nfunction ModifyAura(params)\r\nlocal bound = self.getBoundsNormalized();\r\nstate.conditions.Aura = math.max(0,state.conditions.Aura + params.amount);\r\nlocal newScale = 0;\r\nif state.conditions.Aura > 0 then\r\nnewScale = state.conditions.Aura+(bound.size.x/2+0.02);\r\nend\r\nChildObjs.aura_obj.setScale(Vector(newScale,1,newScale));\r\nSyncCondition(\"Aura\")\r\nend\r\n------ MODEL MANIPULATION -------------------\r\nfunction AuraFollowObject(params)\r\nif ChildObjs.aura_obj ~= nil then\r\nChildObjs.aura_obj.setVar('parent',params.obj);\r\nend\r\nend\r\nfunction AuraResetFollow()\r\nif ChildObjs.aura_obj ~= nil then\r\nChildObjs.aura_obj.setVar('parent',self);\r\nend\r\nend\r\n------ UI GENERATION ------------------------\r\nfunction Sync()\r\nself.UI.setXml(ui())\r\n--propagateToReferenceCard()\r\nend\r\nfunction SyncCondition(name)\r\nlocal secondary = Conditions[name].secondary;\r\nlocal imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\nlocal color = 'All';\r\nself.UI.setAttributes(color..\"_ConditionImage_\".. name, {\r\ncolor= Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or 'ff'),\r\nimage= imageName,\r\n});\r\nself.UI.setAttributes(color..\"_ConditionText_\".. name, {\r\nactive= (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false'),\r\ntext= state.conditions[name] \r\n});\r\nif name == \"Activated\" then\r\nRefreshBaseColor()\r\nend\r\nend\r\nfunction ui() \r\nreturn [[\r\n<Panel color=\"#FFFFFFff\" height=\"0\" width=\"0\" rectAlignment=\"MiddleCenter\" childForceExpandWidth=\"true\" >]]..\r\nPlayerHUDPivot('All')..\r\n[[</Panel>\r\n]];\r\nend\r\nfunction rebuildAssets()\r\nlocal assets = {};\r\nfor conditionName, value in pairs(Conditions) do\r\nassets[#assets+1]={name=conditionName , url = value.url};\r\nend\r\nself.UI.setCustomAssets(assets)\r\nend\r\nfunction PlayerHUDPivot(color)\r\nreturn [[\r\n<Panel id=']]..color..[[_PlayerHUDPivot'  height=\"160\" width=\"128\" position='0 0 -10' rotation='0 0 0' rectAlignment=\"MiddleCenter\"  childForceExpandWidth=\"false\">\r\n]]..HUDConditions(color) ..[[\r\n</Panel>\r\n]]\r\nend\r\n-- function PlayerHUDContainer(color)\r\n-- return [[\r\n-- <Panel id='PlayerHUD_Container' active='true' height=\"80\" width=\"100%\" rectAlignment=\"MiddleCenter\"  rotation='0 0 0' position='0 50 0' childForceExpandWidth=\"false\">]]..\r\n-- HUDConditions(color) ..\r\n-- [[</Panel>\r\n-- ]]\r\n-- end\r\nfunction HUDConditions(color)\r\nreturn [[<Panel width=\"100%\" rectAlignment=\"MiddleLeft\" position='0 0 0' rotation='0 0 180' scale='4 4 4' > ]]..\r\nHUDSingleCondition(color,\"Aura\", 0 ,0) ..\r\n[[</Panel>]]\r\nend\r\nfunction UI_ModifyAura(p,alt) if alt ~= '-3' then ModifyAura({amount= (alt == '-1' and 1 or (alt == '-2' and -1) or 0 ) }) end end\r\nfunction HUDSingleCondition(color,name,x,y)\r\nlocal id = \"ConditionFrame_\" .. name ;\r\nreturn [[<Panel id=\"]] .. id ..[[\" width=\"30\" height=\"30\" alignment='LowerLeft' position=']] ..(x* 32 ).. [[ ]] .. y*(32) .. [[ 0' ]] .. \r\n[[onClick='UI_Modify]] .. name ..[[()'>]] ..\r\nHUDSingleConditionBody(color,name)..\r\n[[</Panel>]];\r\nend\r\nfunction HUDSingleConditionBody(color,name)\r\nlocal secondary = Conditions[name].secondary;\r\nlocal imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\nreturn [[\r\n<Image id=\"]]..color ..[[_ConditionImage_]]..name ..[[\" image=\"]] .. imageName .. [[\" color=\"]] .. Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or 'ff') .. [[\" rectAlignment='LowerLeft' width='30' height='30'/>\r\n<Text  id=\"]]..color ..[[_ConditionText_]]..name ..[[\" active=']] .. (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false')  ..[['  fontSize='22' text=']] .. state.conditions[name] .. [[' color='#ffffff' fontStyle='Bold'  rectAlignment='LowerLeft' outline='#000000' outlineSize='1 1' />\r\n]]\r\nend\r\nConditions = {\r\nAura = { url=\"https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png\", color=\"#99aa22\", stacks=true }\r\n}\r\nfunction showAura()\r\nlocal bound = self.getBoundsNormalized();\r\nlocal a=(state.conditions.Aura > 0) and (state.conditions.Aura+(bound.size.x/2)+0.02) or 0; --based on model base size\r\nlocal me = self\r\nlocal clr = self.getColorTint()\r\nChildObjs.aura_obj=spawnObject({\r\ntype='custom_model',\r\nposition=self.getPosition(),\r\nrotation=self.getRotation(),\r\nscale={a,1,a},\r\nmass=0,\r\nuse_gravity=false,\r\nsound=false,\r\nsnap_to_grid=false,\r\ncallback_function=function(b)\r\nb.setColorTint(clr)\r\nb.setVar('parent',self)\r\nb.setLuaScript([[\r\nlocal lastParent = nil\r\nfunction onLoad() \r\n(self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false)\r\nWait.condition(\r\nfunction() \r\n(self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false) \r\nend, \r\nfunction() \r\nreturn not(self.loading_custom) \r\nend\r\n) \r\nend \r\nfunction onUpdate() \r\nif (parent ~= nil) then \r\nif (not parent.resting or lastParent ~= parent) then \r\nlastParent = parent\r\nself.setPosition(parent.getPosition())\r\nself.setRotation(parent.getRotation()) \r\nend \r\nelse \r\nself.destruct() \r\nend \r\nend\r\n]])\r\nb.getComponent('MeshRenderer').set('receiveShadows',false)\r\nb.mass=0\r\nb.bounciness=0\r\nb.drag=0\r\nb.use_snap_points=false\r\nb.use_grid=false\r\nb.use_gravity=false\r\nb.auto_raise=false\r\nb.auto_raise=false\r\nb.sticky=false\r\nb.interactable=false\r\nend\r\n})\r\nChildObjs.aura_obj.setCustomObject({\r\nmesh='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/components/arcs/round0.obj',\r\ncollider='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/utility/null_COL.obj',\r\nmaterial=3,\r\nspecularIntensity=0,\r\ncast_shadows=false\r\n})\r\nend",
-          "LuaScriptState": "[]",
-          "XmlUI": "",
-          "CustomUIAssets": [
-            {
-              "Type": 0,
-              "Name": "Aura",
-              "URL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png"
-            }
-          ],
-          "States": {
-            "2": {
-              "GUID": "b87d91",
-              "Name": "Custom_Token",
-              "Transform": {
-                "posX": -0.455235034,
-                "posY": 0.637772262,
-                "posZ": 39.070797,
-                "rotX": 1.501946E-06,
-                "rotY": 179.999817,
-                "rotZ": -1.34751815E-06,
-                "scaleX": 0.32087487,
-                "scaleY": 1.0,
-                "scaleZ": 0.32
-              },
-              "Nickname": "Strategy Marker(Red)",
-              "Description": "",
-              "GMNotes": "",
-              "AltLookAngle": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
-              "ColorDiffuse": {
-                "r": 1.0,
-                "g": 0.0,
-                "b": 0.0
-              },
-              "LayoutGroupSortIndex": 0,
-              "Value": 0,
-              "Locked": false,
-              "Grid": true,
-              "Snap": true,
-              "IgnoreFoW": false,
-              "MeasureMovement": false,
-              "DragSelectable": true,
-              "Autoraise": true,
-              "Sticky": true,
-              "Tooltip": true,
-              "GridProjection": false,
-              "HideWhenFaceDown": false,
-              "Hands": true,
-              "CustomImage": {
-                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1651098116524221684/D3AD8074E96A52074DA1F7E6903A960A10EAF860/",
-                "ImageSecondaryURL": "",
-                "ImageScalar": 1.0,
-                "WidthScale": 0.0,
-                "CustomToken": {
-                  "Thickness": 0.1,
-                  "MergeDistancePixels": 15.0,
-                  "StandUp": false,
-                  "Stackable": false
-                }
-              },
-              "LuaScript": "RSS_Class = 'Marker';\r\n------ CLASS VARIABLES ----------------------\r\nlocal ChildObjs = {\r\naura_obj = nil\r\n};\r\nlocal Conditions = {}\r\nlocal state = {conditions={ Aura=0,Activated =0}};\r\n------ LIFE CICLE EVENTS --------------------\r\nfunction onDestroy()\r\nif (ChildObjs.aura_obj ~= nil) then ChildObjs.aura_obj.destruct() end\r\nend\r\nfunction onLoad(save)\r\nrebuildAssets()\r\nself.UI.setXml(ui())\r\nshowAura()\r\nend\r\nfunction onSave()\r\nend\r\nfunction onUpdate()\r\nend\r\n------ STATE ACTIONS ------------------------\r\nfunction SetInitialState(newState) --Tobe called from the reference card\r\nend\r\nfunction ModifyAura(params)\r\nlocal bound = self.getBoundsNormalized();\r\nstate.conditions.Aura = math.max(0,state.conditions.Aura + params.amount);\r\nlocal newScale = 0;\r\nif state.conditions.Aura > 0 then\r\nnewScale = state.conditions.Aura+(bound.size.x/2+0.02);\r\nend\r\nChildObjs.aura_obj.setScale(Vector(newScale,1,newScale));\r\nSyncCondition(\"Aura\")\r\nend\r\n------ MODEL MANIPULATION -------------------\r\nfunction AuraFollowObject(params)\r\nif ChildObjs.aura_obj ~= nil then\r\nChildObjs.aura_obj.setVar('parent',params.obj);\r\nend\r\nend\r\nfunction AuraResetFollow()\r\nif ChildObjs.aura_obj ~= nil then\r\nChildObjs.aura_obj.setVar('parent',self);\r\nend\r\nend\r\n------ UI GENERATION ------------------------\r\nfunction Sync()\r\nself.UI.setXml(ui())\r\n--propagateToReferenceCard()\r\nend\r\nfunction SyncCondition(name)\r\nlocal secondary = Conditions[name].secondary;\r\nlocal imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\nlocal color = 'All';\r\nself.UI.setAttributes(color..\"_ConditionImage_\".. name, {\r\ncolor= Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or 'ff'),\r\nimage= imageName,\r\n});\r\nself.UI.setAttributes(color..\"_ConditionText_\".. name, {\r\nactive= (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false'),\r\ntext= state.conditions[name] \r\n});\r\nif name == \"Activated\" then\r\nRefreshBaseColor()\r\nend\r\nend\r\nfunction ui() \r\nreturn [[\r\n<Panel color=\"#FFFFFFff\" height=\"0\" width=\"0\" rectAlignment=\"MiddleCenter\" childForceExpandWidth=\"true\" >]]..\r\nPlayerHUDPivot('All')..\r\n[[</Panel>\r\n]];\r\nend\r\nfunction rebuildAssets()\r\nlocal assets = {};\r\nfor conditionName, value in pairs(Conditions) do\r\nassets[#assets+1]={name=conditionName , url = value.url};\r\nend\r\nself.UI.setCustomAssets(assets)\r\nend\r\nfunction PlayerHUDPivot(color)\r\nreturn [[\r\n<Panel id=']]..color..[[_PlayerHUDPivot'  height=\"160\" width=\"128\" position='0 0 -10' rotation='0 0 0' rectAlignment=\"MiddleCenter\"  childForceExpandWidth=\"false\">\r\n]]..HUDConditions(color) ..[[\r\n</Panel>\r\n]]\r\nend\r\n-- function PlayerHUDContainer(color)\r\n-- return [[\r\n-- <Panel id='PlayerHUD_Container' active='true' height=\"80\" width=\"100%\" rectAlignment=\"MiddleCenter\"  rotation='0 0 0' position='0 50 0' childForceExpandWidth=\"false\">]]..\r\n-- HUDConditions(color) ..\r\n-- [[</Panel>\r\n-- ]]\r\n-- end\r\nfunction HUDConditions(color)\r\nreturn [[<Panel width=\"100%\" rectAlignment=\"MiddleLeft\" position='0 0 0' rotation='0 0 180' scale='4 4 4' > ]]..\r\nHUDSingleCondition(color,\"Aura\", 0 ,0) ..\r\n[[</Panel>]]\r\nend\r\nfunction UI_ModifyAura(p,alt) if alt ~= '-3' then ModifyAura({amount= (alt == '-1' and 1 or (alt == '-2' and -1) or 0 ) }) end end\r\nfunction HUDSingleCondition(color,name,x,y)\r\nlocal id = \"ConditionFrame_\" .. name ;\r\nreturn [[<Panel id=\"]] .. id ..[[\" width=\"30\" height=\"30\" alignment='LowerLeft' position=']] ..(x* 32 ).. [[ ]] .. y*(32) .. [[ 0' ]] .. \r\n[[onClick='UI_Modify]] .. name ..[[()'>]] ..\r\nHUDSingleConditionBody(color,name)..\r\n[[</Panel>]];\r\nend\r\nfunction HUDSingleConditionBody(color,name)\r\nlocal secondary = Conditions[name].secondary;\r\nlocal imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\nreturn [[\r\n<Image id=\"]]..color ..[[_ConditionImage_]]..name ..[[\" image=\"]] .. imageName .. [[\" color=\"]] .. Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or 'ff') .. [[\" rectAlignment='LowerLeft' width='30' height='30'/>\r\n<Text  id=\"]]..color ..[[_ConditionText_]]..name ..[[\" active=']] .. (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false')  ..[['  fontSize='22' text=']] .. state.conditions[name] .. [[' color='#ffffff' fontStyle='Bold'  rectAlignment='LowerLeft' outline='#000000' outlineSize='1 1' />\r\n]]\r\nend\r\nConditions = {\r\nAura = { url=\"https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png\", color=\"#99aa22\", stacks=true }\r\n}\r\nfunction showAura()\r\nlocal bound = self.getBoundsNormalized();\r\nlocal a=(state.conditions.Aura > 0) and (state.conditions.Aura+(bound.size.x/2)+0.02) or 0; --based on model base size\r\nlocal me = self\r\nlocal clr = self.getColorTint()\r\nChildObjs.aura_obj=spawnObject({\r\ntype='custom_model',\r\nposition=self.getPosition(),\r\nrotation=self.getRotation(),\r\nscale={a,1,a},\r\nmass=0,\r\nuse_gravity=false,\r\nsound=false,\r\nsnap_to_grid=false,\r\ncallback_function=function(b)\r\nb.setColorTint(clr)\r\nb.setVar('parent',self)\r\nb.setLuaScript([[\r\nlocal lastParent = nil\r\nfunction onLoad() \r\n(self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false)\r\nWait.condition(\r\nfunction() \r\n(self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false) \r\nend, \r\nfunction() \r\nreturn not(self.loading_custom) \r\nend\r\n) \r\nend \r\nfunction onUpdate() \r\nif (parent ~= nil) then \r\nif (not parent.resting or lastParent ~= parent) then \r\nlastParent = parent\r\nself.setPosition(parent.getPosition())\r\nself.setRotation(parent.getRotation()) \r\nend \r\nelse \r\nself.destruct() \r\nend \r\nend\r\n]])\r\nb.getComponent('MeshRenderer').set('receiveShadows',false)\r\nb.mass=0\r\nb.bounciness=0\r\nb.drag=0\r\nb.use_snap_points=false\r\nb.use_grid=false\r\nb.use_gravity=false\r\nb.auto_raise=false\r\nb.auto_raise=false\r\nb.sticky=false\r\nb.interactable=false\r\nend\r\n})\r\nChildObjs.aura_obj.setCustomObject({\r\nmesh='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/components/arcs/round0.obj',\r\ncollider='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/utility/null_COL.obj',\r\nmaterial=3,\r\nspecularIntensity=0,\r\ncast_shadows=false\r\n})\r\nend",
-              "LuaScriptState": "[]",
-              "XmlUI": "",
-              "CustomUIAssets": [
-                {
-                  "Type": 0,
-                  "Name": "Aura",
-                  "URL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png"
-                }
-              ]
-            },
-            "3": {
-              "GUID": "6b45ea",
-              "Name": "Custom_Token",
-              "Transform": {
-                "posX": -0.35968858,
-                "posY": 0.6377723,
-                "posZ": 38.74624,
-                "rotX": 0.0,
-                "rotY": 179.999817,
-                "rotZ": 0.0,
-                "scaleX": 0.32087487,
-                "scaleY": 1.0,
-                "scaleZ": 0.32
-              },
-              "Nickname": "Strategy Marker(Blue)",
-              "Description": "",
-              "GMNotes": "",
-              "AltLookAngle": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
-              "ColorDiffuse": {
-                "r": 0.121568523,
-                "g": 0.5294118,
-                "b": 1.0
-              },
-              "LayoutGroupSortIndex": 0,
-              "Value": 0,
-              "Locked": true,
-              "Grid": true,
-              "Snap": true,
-              "IgnoreFoW": false,
-              "MeasureMovement": false,
-              "DragSelectable": true,
-              "Autoraise": true,
-              "Sticky": true,
-              "Tooltip": true,
-              "GridProjection": false,
-              "HideWhenFaceDown": false,
-              "Hands": true,
-              "CustomImage": {
-                "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1651098116524221684/D3AD8074E96A52074DA1F7E6903A960A10EAF860/",
-                "ImageSecondaryURL": "",
-                "ImageScalar": 1.0,
-                "WidthScale": 0.0,
-                "CustomToken": {
-                  "Thickness": 0.1,
-                  "MergeDistancePixels": 15.0,
-                  "StandUp": false,
-                  "Stackable": false
-                }
-              },
-              "LuaScript": "RSS_Class = 'Marker';\r\n------ CLASS VARIABLES ----------------------\r\nlocal ChildObjs = {\r\naura_obj = nil\r\n};\r\nlocal Conditions = {}\r\nlocal state = {conditions={ Aura=0,Activated =0}};\r\n------ LIFE CICLE EVENTS --------------------\r\nfunction onDestroy()\r\nif (ChildObjs.aura_obj ~= nil) then ChildObjs.aura_obj.destruct() end\r\nend\r\nfunction onLoad(save)\r\nrebuildAssets()\r\nself.UI.setXml(ui())\r\nshowAura()\r\nend\r\nfunction onSave()\r\nend\r\nfunction onUpdate()\r\nend\r\n------ STATE ACTIONS ------------------------\r\nfunction SetInitialState(newState) --Tobe called from the reference card\r\nend\r\nfunction ModifyAura(params)\r\nlocal bound = self.getBoundsNormalized();\r\nstate.conditions.Aura = math.max(0,state.conditions.Aura + params.amount);\r\nlocal newScale = 0;\r\nif state.conditions.Aura > 0 then\r\nnewScale = state.conditions.Aura+(bound.size.x/2+0.02);\r\nend\r\nChildObjs.aura_obj.setScale(Vector(newScale,1,newScale));\r\nSyncCondition(\"Aura\")\r\nend\r\n------ MODEL MANIPULATION -------------------\r\nfunction AuraFollowObject(params)\r\nif ChildObjs.aura_obj ~= nil then\r\nChildObjs.aura_obj.setVar('parent',params.obj);\r\nend\r\nend\r\nfunction AuraResetFollow()\r\nif ChildObjs.aura_obj ~= nil then\r\nChildObjs.aura_obj.setVar('parent',self);\r\nend\r\nend\r\n------ UI GENERATION ------------------------\r\nfunction Sync()\r\nself.UI.setXml(ui())\r\n--propagateToReferenceCard()\r\nend\r\nfunction SyncCondition(name)\r\nlocal secondary = Conditions[name].secondary;\r\nlocal imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\nlocal color = 'All';\r\nself.UI.setAttributes(color..\"_ConditionImage_\".. name, {\r\ncolor= Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or 'ff'),\r\nimage= imageName,\r\n});\r\nself.UI.setAttributes(color..\"_ConditionText_\".. name, {\r\nactive= (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false'),\r\ntext= state.conditions[name] \r\n});\r\nif name == \"Activated\" then\r\nRefreshBaseColor()\r\nend\r\nend\r\nfunction ui() \r\nreturn [[\r\n<Panel color=\"#FFFFFFff\" height=\"0\" width=\"0\" rectAlignment=\"MiddleCenter\" childForceExpandWidth=\"true\" >]]..\r\nPlayerHUDPivot('All')..\r\n[[</Panel>\r\n]];\r\nend\r\nfunction rebuildAssets()\r\nlocal assets = {};\r\nfor conditionName, value in pairs(Conditions) do\r\nassets[#assets+1]={name=conditionName , url = value.url};\r\nend\r\nself.UI.setCustomAssets(assets)\r\nend\r\nfunction PlayerHUDPivot(color)\r\nreturn [[\r\n<Panel id=']]..color..[[_PlayerHUDPivot'  height=\"160\" width=\"128\" position='0 0 -10' rotation='0 0 0' rectAlignment=\"MiddleCenter\"  childForceExpandWidth=\"false\">\r\n]]..HUDConditions(color) ..[[\r\n</Panel>\r\n]]\r\nend\r\n-- function PlayerHUDContainer(color)\r\n-- return [[\r\n-- <Panel id='PlayerHUD_Container' active='true' height=\"80\" width=\"100%\" rectAlignment=\"MiddleCenter\"  rotation='0 0 0' position='0 50 0' childForceExpandWidth=\"false\">]]..\r\n-- HUDConditions(color) ..\r\n-- [[</Panel>\r\n-- ]]\r\n-- end\r\nfunction HUDConditions(color)\r\nreturn [[<Panel width=\"100%\" rectAlignment=\"MiddleLeft\" position='0 0 0' rotation='0 0 180' scale='4 4 4' > ]]..\r\nHUDSingleCondition(color,\"Aura\", 0 ,0) ..\r\n[[</Panel>]]\r\nend\r\nfunction UI_ModifyAura(p,alt) if alt ~= '-3' then ModifyAura({amount= (alt == '-1' and 1 or (alt == '-2' and -1) or 0 ) }) end end\r\nfunction HUDSingleCondition(color,name,x,y)\r\nlocal id = \"ConditionFrame_\" .. name ;\r\nreturn [[<Panel id=\"]] .. id ..[[\" width=\"30\" height=\"30\" alignment='LowerLeft' position=']] ..(x* 32 ).. [[ ]] .. y*(32) .. [[ 0' ]] .. \r\n[[onClick='UI_Modify]] .. name ..[[()'>]] ..\r\nHUDSingleConditionBody(color,name)..\r\n[[</Panel>]];\r\nend\r\nfunction HUDSingleConditionBody(color,name)\r\nlocal secondary = Conditions[name].secondary;\r\nlocal imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\nreturn [[\r\n<Image id=\"]]..color ..[[_ConditionImage_]]..name ..[[\" image=\"]] .. imageName .. [[\" color=\"]] .. Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or 'ff') .. [[\" rectAlignment='LowerLeft' width='30' height='30'/>\r\n<Text  id=\"]]..color ..[[_ConditionText_]]..name ..[[\" active=']] .. (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false')  ..[['  fontSize='22' text=']] .. state.conditions[name] .. [[' color='#ffffff' fontStyle='Bold'  rectAlignment='LowerLeft' outline='#000000' outlineSize='1 1' />\r\n]]\r\nend\r\nConditions = {\r\nAura = { url=\"https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png\", color=\"#99aa22\", stacks=true }\r\n}\r\nfunction showAura()\r\nlocal bound = self.getBoundsNormalized();\r\nlocal a=(state.conditions.Aura > 0) and (state.conditions.Aura+(bound.size.x/2)+0.02) or 0; --based on model base size\r\nlocal me = self\r\nlocal clr = self.getColorTint()\r\nChildObjs.aura_obj=spawnObject({\r\ntype='custom_model',\r\nposition=self.getPosition(),\r\nrotation=self.getRotation(),\r\nscale={a,1,a},\r\nmass=0,\r\nuse_gravity=false,\r\nsound=false,\r\nsnap_to_grid=false,\r\ncallback_function=function(b)\r\nb.setColorTint(clr)\r\nb.setVar('parent',self)\r\nb.setLuaScript([[\r\nlocal lastParent = nil\r\nfunction onLoad() \r\n(self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false)\r\nWait.condition(\r\nfunction() \r\n(self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false) \r\nend, \r\nfunction() \r\nreturn not(self.loading_custom) \r\nend\r\n) \r\nend \r\nfunction onUpdate() \r\nif (parent ~= nil) then \r\nif (not parent.resting or lastParent ~= parent) then \r\nlastParent = parent\r\nself.setPosition(parent.getPosition())\r\nself.setRotation(parent.getRotation()) \r\nend \r\nelse \r\nself.destruct() \r\nend \r\nend\r\n]])\r\nb.getComponent('MeshRenderer').set('receiveShadows',false)\r\nb.mass=0\r\nb.bounciness=0\r\nb.drag=0\r\nb.use_snap_points=false\r\nb.use_grid=false\r\nb.use_gravity=false\r\nb.auto_raise=false\r\nb.auto_raise=false\r\nb.sticky=false\r\nb.interactable=false\r\nend\r\n})\r\nChildObjs.aura_obj.setCustomObject({\r\nmesh='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/components/arcs/round0.obj',\r\ncollider='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/utility/null_COL.obj',\r\nmaterial=3,\r\nspecularIntensity=0,\r\ncast_shadows=false\r\n})\r\nend",
-              "LuaScriptState": "[]",
-              "XmlUI": "",
-              "CustomUIAssets": [
-                {
-                  "Type": 0,
-                  "Name": "Aura",
-                  "URL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png"
-                }
-              ]
-            }
-          }
-        }
-      ],
       "ChildObjects": [
         {
           "GUID": "81713b",
@@ -4576,9 +4053,9 @@
         "posX": -1.58176231,
         "posY": 1.05140138,
         "posZ": 15.9251671,
-        "rotX": 4.27387363E-07,
+        "rotX": 2.00715633E-07,
         "rotY": 255.004684,
-        "rotZ": 3.02921052E-07,
+        "rotZ": 7.22380662E-08,
         "scaleX": 3.08655739,
         "scaleY": 0.182802975,
         "scaleZ": 3.10857916
@@ -4613,6 +4090,7 @@
       "Hands": false,
       "MaterialIndex": -1,
       "MeshIndex": -1,
+      "Number": 2,
       "CustomMesh": {
         "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1666858152071991282/5C391C2599AE5F6972D6EFA7BFC04B41D6E821E3/",
         "DiffuseURL": "",
@@ -4626,72 +4104,6 @@
       "LuaScript": "",
       "LuaScriptState": "",
       "XmlUI": "",
-      "ContainedObjects": [
-        {
-          "GUID": "ff3c7f",
-          "Name": "Custom_Token",
-          "Transform": {
-            "posX": -5.40481663,
-            "posY": 1.00695348,
-            "posZ": 34.0373154,
-            "rotX": -6.28974E-06,
-            "rotY": 14.9940739,
-            "rotZ": -8.127246E-06,
-            "scaleX": 0.32087487,
-            "scaleY": 1.0,
-            "scaleZ": 0.32087487
-          },
-          "Nickname": "Guild Scheme Marker",
-          "Description": "",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": false,
-          "Hands": true,
-          "CustomImage": {
-            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1009312139319049654/347864E6E396813D85BE39285C7DD9759399416A/",
-            "ImageSecondaryURL": "",
-            "ImageScalar": 1.0,
-            "WidthScale": 0.0,
-            "CustomToken": {
-              "Thickness": 0.1,
-              "MergeDistancePixels": 15.0,
-              "StandUp": false,
-              "Stackable": false
-            }
-          },
-          "LuaScript": "RSS_Class = 'Marker';\r\n------ CLASS VARIABLES ----------------------\r\nlocal ChildObjs = {\r\naura_obj = nil\r\n};\r\nlocal Conditions = {}\r\nlocal state = {conditions={ Aura=0,Activated =0}};\r\n------ LIFE CICLE EVENTS --------------------\r\nfunction onDestroy()\r\nif (ChildObjs.aura_obj ~= nil) then ChildObjs.aura_obj.destruct() end\r\nend\r\nfunction onLoad(save)\r\nrebuildAssets()\r\nself.UI.setXml(ui())\r\nshowAura()\r\nend\r\nfunction onSave()\r\nend\r\nfunction onUpdate()\r\nend\r\n------ STATE ACTIONS ------------------------\r\nfunction SetInitialState(newState) --Tobe called from the reference card\r\nend\r\nfunction ModifyAura(params)\r\nlocal bound = self.getBoundsNormalized();\r\nstate.conditions.Aura = math.max(0,state.conditions.Aura + params.amount);\r\nlocal newScale = 0;\r\nif state.conditions.Aura > 0 then\r\nnewScale = state.conditions.Aura+(bound.size.x/2+0.02);\r\nend\r\nChildObjs.aura_obj.setScale(Vector(newScale,1,newScale));\r\nSyncCondition(\"Aura\")\r\nend\r\n------ MODEL MANIPULATION -------------------\r\nfunction AuraFollowObject(params)\r\nif ChildObjs.aura_obj ~= nil then\r\nChildObjs.aura_obj.setVar('parent',params.obj);\r\nend\r\nend\r\nfunction AuraResetFollow()\r\nif ChildObjs.aura_obj ~= nil then\r\nChildObjs.aura_obj.setVar('parent',self);\r\nend\r\nend\r\n------ UI GENERATION ------------------------\r\nfunction Sync()\r\nself.UI.setXml(ui())\r\n--propagateToReferenceCard()\r\nend\r\nfunction SyncCondition(name)\r\nlocal secondary = Conditions[name].secondary;\r\nlocal imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\nlocal color = 'All';\r\nself.UI.setAttributes(color..\"_ConditionImage_\".. name, {\r\ncolor= Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or 'ff'),\r\nimage= imageName,\r\n});\r\nself.UI.setAttributes(color..\"_ConditionText_\".. name, {\r\nactive= (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false'),\r\ntext= state.conditions[name] \r\n});\r\nif name == \"Activated\" then\r\nRefreshBaseColor()\r\nend\r\nend\r\nfunction ui() \r\nreturn [[\r\n<Panel color=\"#FFFFFFff\" height=\"0\" width=\"0\" rectAlignment=\"MiddleCenter\" childForceExpandWidth=\"true\" >]]..\r\nPlayerHUDPivot('All')..\r\n[[</Panel>\r\n]];\r\nend\r\nfunction rebuildAssets()\r\nlocal assets = {};\r\nfor conditionName, value in pairs(Conditions) do\r\nassets[#assets+1]={name=conditionName , url = value.url};\r\nend\r\nself.UI.setCustomAssets(assets)\r\nend\r\nfunction PlayerHUDPivot(color)\r\nreturn [[\r\n<Panel id=']]..color..[[_PlayerHUDPivot'  height=\"160\" width=\"128\" position='0 0 -10' rotation='0 0 0' rectAlignment=\"MiddleCenter\"  childForceExpandWidth=\"false\">\r\n]]..HUDConditions(color) ..[[\r\n</Panel>\r\n]]\r\nend\r\n-- function PlayerHUDContainer(color)\r\n-- return [[\r\n-- <Panel id='PlayerHUD_Container' active='true' height=\"80\" width=\"100%\" rectAlignment=\"MiddleCenter\"  rotation='0 0 0' position='0 50 0' childForceExpandWidth=\"false\">]]..\r\n-- HUDConditions(color) ..\r\n-- [[</Panel>\r\n-- ]]\r\n-- end\r\nfunction HUDConditions(color)\r\nreturn [[<Panel width=\"100%\" rectAlignment=\"MiddleLeft\" position='0 0 0' rotation='0 0 180' scale='4 4 4' > ]]..\r\nHUDSingleCondition(color,\"Aura\", 0 ,0) ..\r\n[[</Panel>]]\r\nend\r\nfunction UI_ModifyAura(p,alt) if alt ~= '-3' then ModifyAura({amount= (alt == '-1' and 1 or (alt == '-2' and -1) or 0 ) }) end end\r\nfunction HUDSingleCondition(color,name,x,y)\r\nlocal id = \"ConditionFrame_\" .. name ;\r\nreturn [[<Panel id=\"]] .. id ..[[\" width=\"30\" height=\"30\" alignment='LowerLeft' position=']] ..(x* 32 ).. [[ ]] .. y*(32) .. [[ 0' ]] .. \r\n[[onClick='UI_Modify]] .. name ..[[()'>]] ..\r\nHUDSingleConditionBody(color,name)..\r\n[[</Panel>]];\r\nend\r\nfunction HUDSingleConditionBody(color,name)\r\nlocal secondary = Conditions[name].secondary;\r\nlocal imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\nreturn [[\r\n<Image id=\"]]..color ..[[_ConditionImage_]]..name ..[[\" image=\"]] .. imageName .. [[\" color=\"]] .. Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or 'ff') .. [[\" rectAlignment='LowerLeft' width='30' height='30'/>\r\n<Text  id=\"]]..color ..[[_ConditionText_]]..name ..[[\" active=']] .. (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false')  ..[['  fontSize='22' text=']] .. state.conditions[name] .. [[' color='#ffffff' fontStyle='Bold'  rectAlignment='LowerLeft' outline='#000000' outlineSize='1 1' />\r\n]]\r\nend\r\nConditions = {\r\nAura = { url=\"https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png\", color=\"#99aa22\", stacks=true }\r\n}\r\nfunction showAura()\r\nlocal bound = self.getBoundsNormalized();\r\nlocal a=(state.conditions.Aura > 0) and (state.conditions.Aura+(bound.size.x/2)+0.02) or 0; --based on model base size\r\nlocal me = self\r\nlocal clr = self.getColorTint()\r\nChildObjs.aura_obj=spawnObject({\r\ntype='custom_model',\r\nposition=self.getPosition(),\r\nrotation=self.getRotation(),\r\nscale={a,1,a},\r\nmass=0,\r\nuse_gravity=false,\r\nsound=false,\r\nsnap_to_grid=false,\r\ncallback_function=function(b)\r\nb.setColorTint(clr)\r\nb.setVar('parent',self)\r\nb.setLuaScript([[\r\nlocal lastParent = nil\r\nfunction onLoad() \r\n(self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false)\r\nWait.condition(\r\nfunction() \r\n(self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false) \r\nend, \r\nfunction() \r\nreturn not(self.loading_custom) \r\nend\r\n) \r\nend \r\nfunction onUpdate() \r\nif (parent ~= nil) then \r\nif (not parent.resting or lastParent ~= parent) then \r\nlastParent = parent\r\nself.setPosition(parent.getPosition())\r\nself.setRotation(parent.getRotation()) \r\nend \r\nelse \r\nself.destruct() \r\nend \r\nend\r\n]])\r\nb.getComponent('MeshRenderer').set('receiveShadows',false)\r\nb.mass=0\r\nb.bounciness=0\r\nb.drag=0\r\nb.use_snap_points=false\r\nb.use_grid=false\r\nb.use_gravity=false\r\nb.auto_raise=false\r\nb.auto_raise=false\r\nb.sticky=false\r\nb.interactable=false\r\nend\r\n})\r\nChildObjs.aura_obj.setCustomObject({\r\nmesh='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/components/arcs/round0.obj',\r\ncollider='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/utility/null_COL.obj',\r\nmaterial=3,\r\nspecularIntensity=0,\r\ncast_shadows=false\r\n})\r\nend",
-          "LuaScriptState": "[]",
-          "XmlUI": "",
-          "CustomUIAssets": [
-            {
-              "Type": 0,
-              "Name": "Aura",
-              "URL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png"
-            }
-          ]
-        }
-      ],
       "ChildObjects": [
         {
           "GUID": "7f1939",
@@ -4757,11 +4169,11 @@
       "Name": "Custom_Model_Infinite_Bag",
       "Transform": {
         "posX": -6.65169525,
-        "posY": 1.0514015,
+        "posY": 1.05140162,
         "posZ": 15.9252129,
-        "rotX": 5.30761E-07,
+        "rotX": 1.728333E-07,
         "rotY": 255.000031,
-        "rotZ": -1.222863E-07,
+        "rotZ": -2.35657645E-08,
         "scaleX": 3.08278584,
         "scaleY": 0.182803273,
         "scaleZ": 3.112461
@@ -4796,6 +4208,7 @@
       "Hands": false,
       "MaterialIndex": -1,
       "MeshIndex": -1,
+      "Number": 2,
       "CustomMesh": {
         "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1666858152071991282/5C391C2599AE5F6972D6EFA7BFC04B41D6E821E3/",
         "DiffuseURL": "",
@@ -4809,72 +4222,6 @@
       "LuaScript": "",
       "LuaScriptState": "",
       "XmlUI": "",
-      "ContainedObjects": [
-        {
-          "GUID": "3ba9b0",
-          "Name": "Custom_Token",
-          "Transform": {
-            "posX": -10.2342834,
-            "posY": 1.00695193,
-            "posZ": 33.8368263,
-            "rotX": 1.88885588E-06,
-            "rotY": 14.998064,
-            "rotZ": 2.47607713E-05,
-            "scaleX": 0.32087487,
-            "scaleY": 1.0,
-            "scaleZ": 0.32087487
-          },
-          "Nickname": "Explorers Society Scheme Marker",
-          "Description": "",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": false,
-          "Hands": true,
-          "CustomImage": {
-            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1009312139319048867/A940CA7B300FA83112C5849BAEB52E7838DEDE76/",
-            "ImageSecondaryURL": "",
-            "ImageScalar": 1.0,
-            "WidthScale": 0.0,
-            "CustomToken": {
-              "Thickness": 0.1,
-              "MergeDistancePixels": 15.0,
-              "StandUp": false,
-              "Stackable": false
-            }
-          },
-          "LuaScript": "RSS_Class = 'Marker';\r\n------ CLASS VARIABLES ----------------------\r\nlocal ChildObjs = {\r\naura_obj = nil\r\n};\r\nlocal Conditions = {}\r\nlocal state = {conditions={ Aura=0,Activated =0}};\r\n------ LIFE CICLE EVENTS --------------------\r\nfunction onDestroy()\r\nif (ChildObjs.aura_obj ~= nil) then ChildObjs.aura_obj.destruct() end\r\nend\r\nfunction onLoad(save)\r\nrebuildAssets()\r\nself.UI.setXml(ui())\r\nshowAura()\r\nend\r\nfunction onSave()\r\nend\r\nfunction onUpdate()\r\nend\r\n------ STATE ACTIONS ------------------------\r\nfunction SetInitialState(newState) --Tobe called from the reference card\r\nend\r\nfunction ModifyAura(params)\r\nlocal bound = self.getBoundsNormalized();\r\nstate.conditions.Aura = math.max(0,state.conditions.Aura + params.amount);\r\nlocal newScale = 0;\r\nif state.conditions.Aura > 0 then\r\nnewScale = state.conditions.Aura+(bound.size.x/2+0.02);\r\nend\r\nChildObjs.aura_obj.setScale(Vector(newScale,1,newScale));\r\nSyncCondition(\"Aura\")\r\nend\r\n------ MODEL MANIPULATION -------------------\r\nfunction AuraFollowObject(params)\r\nif ChildObjs.aura_obj ~= nil then\r\nChildObjs.aura_obj.setVar('parent',params.obj);\r\nend\r\nend\r\nfunction AuraResetFollow()\r\nif ChildObjs.aura_obj ~= nil then\r\nChildObjs.aura_obj.setVar('parent',self);\r\nend\r\nend\r\n------ UI GENERATION ------------------------\r\nfunction Sync()\r\nself.UI.setXml(ui())\r\n--propagateToReferenceCard()\r\nend\r\nfunction SyncCondition(name)\r\nlocal secondary = Conditions[name].secondary;\r\nlocal imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\nlocal color = 'All';\r\nself.UI.setAttributes(color..\"_ConditionImage_\".. name, {\r\ncolor= Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or 'ff'),\r\nimage= imageName,\r\n});\r\nself.UI.setAttributes(color..\"_ConditionText_\".. name, {\r\nactive= (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false'),\r\ntext= state.conditions[name] \r\n});\r\nif name == \"Activated\" then\r\nRefreshBaseColor()\r\nend\r\nend\r\nfunction ui() \r\nreturn [[\r\n<Panel color=\"#FFFFFFff\" height=\"0\" width=\"0\" rectAlignment=\"MiddleCenter\" childForceExpandWidth=\"true\" >]]..\r\nPlayerHUDPivot('All')..\r\n[[</Panel>\r\n]];\r\nend\r\nfunction rebuildAssets()\r\nlocal assets = {};\r\nfor conditionName, value in pairs(Conditions) do\r\nassets[#assets+1]={name=conditionName , url = value.url};\r\nend\r\nself.UI.setCustomAssets(assets)\r\nend\r\nfunction PlayerHUDPivot(color)\r\nreturn [[\r\n<Panel id=']]..color..[[_PlayerHUDPivot'  height=\"160\" width=\"128\" position='0 0 -10' rotation='0 0 0' rectAlignment=\"MiddleCenter\"  childForceExpandWidth=\"false\">\r\n]]..HUDConditions(color) ..[[\r\n</Panel>\r\n]]\r\nend\r\n-- function PlayerHUDContainer(color)\r\n-- return [[\r\n-- <Panel id='PlayerHUD_Container' active='true' height=\"80\" width=\"100%\" rectAlignment=\"MiddleCenter\"  rotation='0 0 0' position='0 50 0' childForceExpandWidth=\"false\">]]..\r\n-- HUDConditions(color) ..\r\n-- [[</Panel>\r\n-- ]]\r\n-- end\r\nfunction HUDConditions(color)\r\nreturn [[<Panel width=\"100%\" rectAlignment=\"MiddleLeft\" position='0 0 0' rotation='0 0 180' scale='4 4 4' > ]]..\r\nHUDSingleCondition(color,\"Aura\", 0 ,0) ..\r\n[[</Panel>]]\r\nend\r\nfunction UI_ModifyAura(p,alt) if alt ~= '-3' then ModifyAura({amount= (alt == '-1' and 1 or (alt == '-2' and -1) or 0 ) }) end end\r\nfunction HUDSingleCondition(color,name,x,y)\r\nlocal id = \"ConditionFrame_\" .. name ;\r\nreturn [[<Panel id=\"]] .. id ..[[\" width=\"30\" height=\"30\" alignment='LowerLeft' position=']] ..(x* 32 ).. [[ ]] .. y*(32) .. [[ 0' ]] .. \r\n[[onClick='UI_Modify]] .. name ..[[()'>]] ..\r\nHUDSingleConditionBody(color,name)..\r\n[[</Panel>]];\r\nend\r\nfunction HUDSingleConditionBody(color,name)\r\nlocal secondary = Conditions[name].secondary;\r\nlocal imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\nreturn [[\r\n<Image id=\"]]..color ..[[_ConditionImage_]]..name ..[[\" image=\"]] .. imageName .. [[\" color=\"]] .. Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or 'ff') .. [[\" rectAlignment='LowerLeft' width='30' height='30'/>\r\n<Text  id=\"]]..color ..[[_ConditionText_]]..name ..[[\" active=']] .. (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false')  ..[['  fontSize='22' text=']] .. state.conditions[name] .. [[' color='#ffffff' fontStyle='Bold'  rectAlignment='LowerLeft' outline='#000000' outlineSize='1 1' />\r\n]]\r\nend\r\nConditions = {\r\nAura = { url=\"https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png\", color=\"#99aa22\", stacks=true }\r\n}\r\nfunction showAura()\r\nlocal bound = self.getBoundsNormalized();\r\nlocal a=(state.conditions.Aura > 0) and (state.conditions.Aura+(bound.size.x/2)+0.02) or 0; --based on model base size\r\nlocal me = self\r\nlocal clr = self.getColorTint()\r\nChildObjs.aura_obj=spawnObject({\r\ntype='custom_model',\r\nposition=self.getPosition(),\r\nrotation=self.getRotation(),\r\nscale={a,1,a},\r\nmass=0,\r\nuse_gravity=false,\r\nsound=false,\r\nsnap_to_grid=false,\r\ncallback_function=function(b)\r\nb.setColorTint(clr)\r\nb.setVar('parent',self)\r\nb.setLuaScript([[\r\nlocal lastParent = nil\r\nfunction onLoad() \r\n(self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false)\r\nWait.condition(\r\nfunction() \r\n(self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false) \r\nend, \r\nfunction() \r\nreturn not(self.loading_custom) \r\nend\r\n) \r\nend \r\nfunction onUpdate() \r\nif (parent ~= nil) then \r\nif (not parent.resting or lastParent ~= parent) then \r\nlastParent = parent\r\nself.setPosition(parent.getPosition())\r\nself.setRotation(parent.getRotation()) \r\nend \r\nelse \r\nself.destruct() \r\nend \r\nend\r\n]])\r\nb.getComponent('MeshRenderer').set('receiveShadows',false)\r\nb.mass=0\r\nb.bounciness=0\r\nb.drag=0\r\nb.use_snap_points=false\r\nb.use_grid=false\r\nb.use_gravity=false\r\nb.auto_raise=false\r\nb.auto_raise=false\r\nb.sticky=false\r\nb.interactable=false\r\nend\r\n})\r\nChildObjs.aura_obj.setCustomObject({\r\nmesh='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/components/arcs/round0.obj',\r\ncollider='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/utility/null_COL.obj',\r\nmaterial=3,\r\nspecularIntensity=0,\r\ncast_shadows=false\r\n})\r\nend",
-          "LuaScriptState": "[]",
-          "XmlUI": "",
-          "CustomUIAssets": [
-            {
-              "Type": 0,
-              "Name": "Aura",
-              "URL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png"
-            }
-          ]
-        }
-      ],
       "ChildObjects": [
         {
           "GUID": "894b64",
@@ -4942,9 +4289,9 @@
         "posX": -11.7217445,
         "posY": 1.05139661,
         "posZ": 15.9252129,
-        "rotX": 1.03024371E-08,
+        "rotX": 1.3104345E-07,
         "rotY": 255.000366,
-        "rotZ": 8.547688E-08,
+        "rotZ": -1.4155745E-07,
         "scaleX": 3.07883453,
         "scaleY": 0.182793334,
         "scaleZ": 3.11228752
@@ -4979,6 +4326,7 @@
       "Hands": false,
       "MaterialIndex": -1,
       "MeshIndex": -1,
+      "Number": 2,
       "CustomMesh": {
         "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1666858152071991282/5C391C2599AE5F6972D6EFA7BFC04B41D6E821E3/",
         "DiffuseURL": "",
@@ -4992,72 +4340,6 @@
       "LuaScript": "",
       "LuaScriptState": "",
       "XmlUI": "",
-      "ContainedObjects": [
-        {
-          "GUID": "bb8ef1",
-          "Name": "Custom_Token",
-          "Transform": {
-            "posX": -15.43679,
-            "posY": 1.00695348,
-            "posZ": 34.1487541,
-            "rotX": 1.61360424E-06,
-            "rotY": 14.988493,
-            "rotZ": -1.70714411E-05,
-            "scaleX": 0.32087487,
-            "scaleY": 1.0,
-            "scaleZ": 0.32087487
-          },
-          "Nickname": "Bayou Scheme Marker",
-          "Description": "",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": false,
-          "Hands": true,
-          "CustomImage": {
-            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1009312139319047447/2B8FEF1423802F4FDF9C8DA6129084A653288B37/",
-            "ImageSecondaryURL": "",
-            "ImageScalar": 1.0,
-            "WidthScale": 0.0,
-            "CustomToken": {
-              "Thickness": 0.1,
-              "MergeDistancePixels": 15.0,
-              "StandUp": false,
-              "Stackable": false
-            }
-          },
-          "LuaScript": "RSS_Class = 'Marker';\r\n------ CLASS VARIABLES ----------------------\r\nlocal ChildObjs = {\r\naura_obj = nil\r\n};\r\nlocal Conditions = {}\r\nlocal state = {conditions={ Aura=0,Activated =0}};\r\n------ LIFE CICLE EVENTS --------------------\r\nfunction onDestroy()\r\nif (ChildObjs.aura_obj ~= nil) then ChildObjs.aura_obj.destruct() end\r\nend\r\nfunction onLoad(save)\r\nrebuildAssets()\r\nself.UI.setXml(ui())\r\nshowAura()\r\nend\r\nfunction onSave()\r\nend\r\nfunction onUpdate()\r\nend\r\n------ STATE ACTIONS ------------------------\r\nfunction SetInitialState(newState) --Tobe called from the reference card\r\nend\r\nfunction ModifyAura(params)\r\nlocal bound = self.getBoundsNormalized();\r\nstate.conditions.Aura = math.max(0,state.conditions.Aura + params.amount);\r\nlocal newScale = 0;\r\nif state.conditions.Aura > 0 then\r\nnewScale = state.conditions.Aura+(bound.size.x/2+0.02);\r\nend\r\nChildObjs.aura_obj.setScale(Vector(newScale,1,newScale));\r\nSyncCondition(\"Aura\")\r\nend\r\n------ MODEL MANIPULATION -------------------\r\nfunction AuraFollowObject(params)\r\nif ChildObjs.aura_obj ~= nil then\r\nChildObjs.aura_obj.setVar('parent',params.obj);\r\nend\r\nend\r\nfunction AuraResetFollow()\r\nif ChildObjs.aura_obj ~= nil then\r\nChildObjs.aura_obj.setVar('parent',self);\r\nend\r\nend\r\n------ UI GENERATION ------------------------\r\nfunction Sync()\r\nself.UI.setXml(ui())\r\n--propagateToReferenceCard()\r\nend\r\nfunction SyncCondition(name)\r\nlocal secondary = Conditions[name].secondary;\r\nlocal imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\nlocal color = 'All';\r\nself.UI.setAttributes(color..\"_ConditionImage_\".. name, {\r\ncolor= Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or 'ff'),\r\nimage= imageName,\r\n});\r\nself.UI.setAttributes(color..\"_ConditionText_\".. name, {\r\nactive= (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false'),\r\ntext= state.conditions[name] \r\n});\r\nif name == \"Activated\" then\r\nRefreshBaseColor()\r\nend\r\nend\r\nfunction ui() \r\nreturn [[\r\n<Panel color=\"#FFFFFFff\" height=\"0\" width=\"0\" rectAlignment=\"MiddleCenter\" childForceExpandWidth=\"true\" >]]..\r\nPlayerHUDPivot('All')..\r\n[[</Panel>\r\n]];\r\nend\r\nfunction rebuildAssets()\r\nlocal assets = {};\r\nfor conditionName, value in pairs(Conditions) do\r\nassets[#assets+1]={name=conditionName , url = value.url};\r\nend\r\nself.UI.setCustomAssets(assets)\r\nend\r\nfunction PlayerHUDPivot(color)\r\nreturn [[\r\n<Panel id=']]..color..[[_PlayerHUDPivot'  height=\"160\" width=\"128\" position='0 0 -10' rotation='0 0 0' rectAlignment=\"MiddleCenter\"  childForceExpandWidth=\"false\">\r\n]]..HUDConditions(color) ..[[\r\n</Panel>\r\n]]\r\nend\r\n-- function PlayerHUDContainer(color)\r\n-- return [[\r\n-- <Panel id='PlayerHUD_Container' active='true' height=\"80\" width=\"100%\" rectAlignment=\"MiddleCenter\"  rotation='0 0 0' position='0 50 0' childForceExpandWidth=\"false\">]]..\r\n-- HUDConditions(color) ..\r\n-- [[</Panel>\r\n-- ]]\r\n-- end\r\nfunction HUDConditions(color)\r\nreturn [[<Panel width=\"100%\" rectAlignment=\"MiddleLeft\" position='0 0 0' rotation='0 0 180' scale='4 4 4' > ]]..\r\nHUDSingleCondition(color,\"Aura\", 0 ,0) ..\r\n[[</Panel>]]\r\nend\r\nfunction UI_ModifyAura(p,alt) if alt ~= '-3' then ModifyAura({amount= (alt == '-1' and 1 or (alt == '-2' and -1) or 0 ) }) end end\r\nfunction HUDSingleCondition(color,name,x,y)\r\nlocal id = \"ConditionFrame_\" .. name ;\r\nreturn [[<Panel id=\"]] .. id ..[[\" width=\"30\" height=\"30\" alignment='LowerLeft' position=']] ..(x* 32 ).. [[ ]] .. y*(32) .. [[ 0' ]] .. \r\n[[onClick='UI_Modify]] .. name ..[[()'>]] ..\r\nHUDSingleConditionBody(color,name)..\r\n[[</Panel>]];\r\nend\r\nfunction HUDSingleConditionBody(color,name)\r\nlocal secondary = Conditions[name].secondary;\r\nlocal imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\nreturn [[\r\n<Image id=\"]]..color ..[[_ConditionImage_]]..name ..[[\" image=\"]] .. imageName .. [[\" color=\"]] .. Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or 'ff') .. [[\" rectAlignment='LowerLeft' width='30' height='30'/>\r\n<Text  id=\"]]..color ..[[_ConditionText_]]..name ..[[\" active=']] .. (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false')  ..[['  fontSize='22' text=']] .. state.conditions[name] .. [[' color='#ffffff' fontStyle='Bold'  rectAlignment='LowerLeft' outline='#000000' outlineSize='1 1' />\r\n]]\r\nend\r\nConditions = {\r\nAura = { url=\"https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png\", color=\"#99aa22\", stacks=true }\r\n}\r\nfunction showAura()\r\nlocal bound = self.getBoundsNormalized();\r\nlocal a=(state.conditions.Aura > 0) and (state.conditions.Aura+(bound.size.x/2)+0.02) or 0; --based on model base size\r\nlocal me = self\r\nlocal clr = self.getColorTint()\r\nChildObjs.aura_obj=spawnObject({\r\ntype='custom_model',\r\nposition=self.getPosition(),\r\nrotation=self.getRotation(),\r\nscale={a,1,a},\r\nmass=0,\r\nuse_gravity=false,\r\nsound=false,\r\nsnap_to_grid=false,\r\ncallback_function=function(b)\r\nb.setColorTint(clr)\r\nb.setVar('parent',self)\r\nb.setLuaScript([[\r\nlocal lastParent = nil\r\nfunction onLoad() \r\n(self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false)\r\nWait.condition(\r\nfunction() \r\n(self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false) \r\nend, \r\nfunction() \r\nreturn not(self.loading_custom) \r\nend\r\n) \r\nend \r\nfunction onUpdate() \r\nif (parent ~= nil) then \r\nif (not parent.resting or lastParent ~= parent) then \r\nlastParent = parent\r\nself.setPosition(parent.getPosition())\r\nself.setRotation(parent.getRotation()) \r\nend \r\nelse \r\nself.destruct() \r\nend \r\nend\r\n]])\r\nb.getComponent('MeshRenderer').set('receiveShadows',false)\r\nb.mass=0\r\nb.bounciness=0\r\nb.drag=0\r\nb.use_snap_points=false\r\nb.use_grid=false\r\nb.use_gravity=false\r\nb.auto_raise=false\r\nb.auto_raise=false\r\nb.sticky=false\r\nb.interactable=false\r\nend\r\n})\r\nChildObjs.aura_obj.setCustomObject({\r\nmesh='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/components/arcs/round0.obj',\r\ncollider='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/utility/null_COL.obj',\r\nmaterial=3,\r\nspecularIntensity=0,\r\ncast_shadows=false\r\n})\r\nend",
-          "LuaScriptState": "[]",
-          "XmlUI": "",
-          "CustomUIAssets": [
-            {
-              "Type": 0,
-              "Name": "Aura",
-              "URL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png"
-            }
-          ]
-        }
-      ],
       "ChildObjects": [
         {
           "GUID": "4b8e79",
@@ -5125,9 +4407,9 @@
         "posX": -16.791687,
         "posY": 1.05139136,
         "posZ": 15.9252129,
-        "rotX": 1.50928543E-07,
+        "rotX": 7.825836E-08,
         "rotY": 255.000031,
-        "rotZ": -3.31974945E-08,
+        "rotZ": -2.66266E-08,
         "scaleX": 3.07866025,
         "scaleY": 0.182782829,
         "scaleZ": 3.10823274
@@ -5162,6 +4444,7 @@
       "Hands": false,
       "MaterialIndex": -1,
       "MeshIndex": -1,
+      "Number": 2,
       "CustomMesh": {
         "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1666858152071991282/5C391C2599AE5F6972D6EFA7BFC04B41D6E821E3/",
         "DiffuseURL": "",
@@ -5175,72 +4458,6 @@
       "LuaScript": "",
       "LuaScriptState": "",
       "XmlUI": "",
-      "ContainedObjects": [
-        {
-          "GUID": "023e44",
-          "Name": "Custom_Token",
-          "Transform": {
-            "posX": -19.7675362,
-            "posY": 1.00695348,
-            "posZ": 34.61083,
-            "rotX": 7.30314741E-06,
-            "rotY": 15.0013151,
-            "rotZ": -1.42000563E-05,
-            "scaleX": 0.32087487,
-            "scaleY": 1.0,
-            "scaleZ": 0.32087487
-          },
-          "Nickname": "Arcanist Scheme Marker",
-          "Description": "",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": false,
-          "Hands": true,
-          "CustomImage": {
-            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1009312139319045690/7395073DA4CD2DF1E58090204480851D68848244/",
-            "ImageSecondaryURL": "",
-            "ImageScalar": 1.0,
-            "WidthScale": 0.0,
-            "CustomToken": {
-              "Thickness": 0.1,
-              "MergeDistancePixels": 15.0,
-              "StandUp": false,
-              "Stackable": false
-            }
-          },
-          "LuaScript": "RSS_Class = 'Marker';\r\n------ CLASS VARIABLES ----------------------\r\nlocal ChildObjs = {\r\naura_obj = nil\r\n};\r\nlocal Conditions = {}\r\nlocal state = {conditions={ Aura=0,Activated =0}};\r\n------ LIFE CICLE EVENTS --------------------\r\nfunction onDestroy()\r\nif (ChildObjs.aura_obj ~= nil) then ChildObjs.aura_obj.destruct() end\r\nend\r\nfunction onLoad(save)\r\nrebuildAssets()\r\nself.UI.setXml(ui())\r\nshowAura()\r\nend\r\nfunction onSave()\r\nend\r\nfunction onUpdate()\r\nend\r\n------ STATE ACTIONS ------------------------\r\nfunction SetInitialState(newState) --Tobe called from the reference card\r\nend\r\nfunction ModifyAura(params)\r\nlocal bound = self.getBoundsNormalized();\r\nstate.conditions.Aura = math.max(0,state.conditions.Aura + params.amount);\r\nlocal newScale = 0;\r\nif state.conditions.Aura > 0 then\r\nnewScale = state.conditions.Aura+(bound.size.x/2+0.02);\r\nend\r\nChildObjs.aura_obj.setScale(Vector(newScale,1,newScale));\r\nSyncCondition(\"Aura\")\r\nend\r\n------ MODEL MANIPULATION -------------------\r\nfunction AuraFollowObject(params)\r\nif ChildObjs.aura_obj ~= nil then\r\nChildObjs.aura_obj.setVar('parent',params.obj);\r\nend\r\nend\r\nfunction AuraResetFollow()\r\nif ChildObjs.aura_obj ~= nil then\r\nChildObjs.aura_obj.setVar('parent',self);\r\nend\r\nend\r\n------ UI GENERATION ------------------------\r\nfunction Sync()\r\nself.UI.setXml(ui())\r\n--propagateToReferenceCard()\r\nend\r\nfunction SyncCondition(name)\r\nlocal secondary = Conditions[name].secondary;\r\nlocal imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\nlocal color = 'All';\r\nself.UI.setAttributes(color..\"_ConditionImage_\".. name, {\r\ncolor= Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or 'ff'),\r\nimage= imageName,\r\n});\r\nself.UI.setAttributes(color..\"_ConditionText_\".. name, {\r\nactive= (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false'),\r\ntext= state.conditions[name] \r\n});\r\nif name == \"Activated\" then\r\nRefreshBaseColor()\r\nend\r\nend\r\nfunction ui() \r\nreturn [[\r\n<Panel color=\"#FFFFFFff\" height=\"0\" width=\"0\" rectAlignment=\"MiddleCenter\" childForceExpandWidth=\"true\" >]]..\r\nPlayerHUDPivot('All')..\r\n[[</Panel>\r\n]];\r\nend\r\nfunction rebuildAssets()\r\nlocal assets = {};\r\nfor conditionName, value in pairs(Conditions) do\r\nassets[#assets+1]={name=conditionName , url = value.url};\r\nend\r\nself.UI.setCustomAssets(assets)\r\nend\r\nfunction PlayerHUDPivot(color)\r\nreturn [[\r\n<Panel id=']]..color..[[_PlayerHUDPivot'  height=\"160\" width=\"128\" position='0 0 -10' rotation='0 0 0' rectAlignment=\"MiddleCenter\"  childForceExpandWidth=\"false\">\r\n]]..HUDConditions(color) ..[[\r\n</Panel>\r\n]]\r\nend\r\n-- function PlayerHUDContainer(color)\r\n-- return [[\r\n-- <Panel id='PlayerHUD_Container' active='true' height=\"80\" width=\"100%\" rectAlignment=\"MiddleCenter\"  rotation='0 0 0' position='0 50 0' childForceExpandWidth=\"false\">]]..\r\n-- HUDConditions(color) ..\r\n-- [[</Panel>\r\n-- ]]\r\n-- end\r\nfunction HUDConditions(color)\r\nreturn [[<Panel width=\"100%\" rectAlignment=\"MiddleLeft\" position='0 0 0' rotation='0 0 180' scale='4 4 4' > ]]..\r\nHUDSingleCondition(color,\"Aura\", 0 ,0) ..\r\n[[</Panel>]]\r\nend\r\nfunction UI_ModifyAura(p,alt) if alt ~= '-3' then ModifyAura({amount= (alt == '-1' and 1 or (alt == '-2' and -1) or 0 ) }) end end\r\nfunction HUDSingleCondition(color,name,x,y)\r\nlocal id = \"ConditionFrame_\" .. name ;\r\nreturn [[<Panel id=\"]] .. id ..[[\" width=\"30\" height=\"30\" alignment='LowerLeft' position=']] ..(x* 32 ).. [[ ]] .. y*(32) .. [[ 0' ]] .. \r\n[[onClick='UI_Modify]] .. name ..[[()'>]] ..\r\nHUDSingleConditionBody(color,name)..\r\n[[</Panel>]];\r\nend\r\nfunction HUDSingleConditionBody(color,name)\r\nlocal secondary = Conditions[name].secondary;\r\nlocal imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\nreturn [[\r\n<Image id=\"]]..color ..[[_ConditionImage_]]..name ..[[\" image=\"]] .. imageName .. [[\" color=\"]] .. Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or 'ff') .. [[\" rectAlignment='LowerLeft' width='30' height='30'/>\r\n<Text  id=\"]]..color ..[[_ConditionText_]]..name ..[[\" active=']] .. (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false')  ..[['  fontSize='22' text=']] .. state.conditions[name] .. [[' color='#ffffff' fontStyle='Bold'  rectAlignment='LowerLeft' outline='#000000' outlineSize='1 1' />\r\n]]\r\nend\r\nConditions = {\r\nAura = { url=\"https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png\", color=\"#99aa22\", stacks=true }\r\n}\r\nfunction showAura()\r\nlocal bound = self.getBoundsNormalized();\r\nlocal a=(state.conditions.Aura > 0) and (state.conditions.Aura+(bound.size.x/2)+0.02) or 0; --based on model base size\r\nlocal me = self\r\nlocal clr = self.getColorTint()\r\nChildObjs.aura_obj=spawnObject({\r\ntype='custom_model',\r\nposition=self.getPosition(),\r\nrotation=self.getRotation(),\r\nscale={a,1,a},\r\nmass=0,\r\nuse_gravity=false,\r\nsound=false,\r\nsnap_to_grid=false,\r\ncallback_function=function(b)\r\nb.setColorTint(clr)\r\nb.setVar('parent',self)\r\nb.setLuaScript([[\r\nlocal lastParent = nil\r\nfunction onLoad() \r\n(self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false)\r\nWait.condition(\r\nfunction() \r\n(self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false) \r\nend, \r\nfunction() \r\nreturn not(self.loading_custom) \r\nend\r\n) \r\nend \r\nfunction onUpdate() \r\nif (parent ~= nil) then \r\nif (not parent.resting or lastParent ~= parent) then \r\nlastParent = parent\r\nself.setPosition(parent.getPosition())\r\nself.setRotation(parent.getRotation()) \r\nend \r\nelse \r\nself.destruct() \r\nend \r\nend\r\n]])\r\nb.getComponent('MeshRenderer').set('receiveShadows',false)\r\nb.mass=0\r\nb.bounciness=0\r\nb.drag=0\r\nb.use_snap_points=false\r\nb.use_grid=false\r\nb.use_gravity=false\r\nb.auto_raise=false\r\nb.auto_raise=false\r\nb.sticky=false\r\nb.interactable=false\r\nend\r\n})\r\nChildObjs.aura_obj.setCustomObject({\r\nmesh='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/components/arcs/round0.obj',\r\ncollider='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/utility/null_COL.obj',\r\nmaterial=3,\r\nspecularIntensity=0,\r\ncast_shadows=false\r\n})\r\nend",
-          "LuaScriptState": "[]",
-          "XmlUI": "",
-          "CustomUIAssets": [
-            {
-              "Type": 0,
-              "Name": "Aura",
-              "URL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png"
-            }
-          ]
-        }
-      ],
       "ChildObjects": [
         {
           "GUID": "95eddd",
@@ -5306,11 +4523,11 @@
       "Name": "Custom_Model",
       "Transform": {
         "posX": 26.1458511,
-        "posY": 0.96,
+        "posY": 0.959999859,
         "posZ": 11.6787624,
-        "rotX": 1.0381212E-07,
-        "rotY": -4.673584E-06,
-        "rotZ": -5.20734545E-07,
+        "rotX": -1.70233662E-07,
+        "rotY": -4.67358041E-06,
+        "rotZ": -9.43547036E-08,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -5355,6 +4572,74 @@
       "LuaScript": "",
       "LuaScriptState": "",
       "XmlUI": ""
+    },
+    {
+      "GUID": "d5c829",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -26.133976,
+        "posY": 0.965,
+        "posZ": -14.3878651,
+        "rotX": -2.91092056E-06,
+        "rotY": 179.999329,
+        "rotZ": 1.3590676E-06,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": false,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/components/arcs/round0.obj",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/utility/null_COL.obj",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": false
+      },
+      "LuaScript": "            local lastParent = nil\n            function onLoad() \n            (self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false)\n            Wait.condition(\n            function() \n            (self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false) \n            end, \n            function() \n            return not(self.loading_custom) \n            end\n            ) \n            end \n            function onUpdate() \n            if (parent ~= nil) then \n            if (not parent.resting or lastParent ~= parent) then \n            lastParent = parent\n            self.setPosition(parent.getPosition())\n            self.setRotation(parent.getRotation()) \n            end \n            else \n            self.destruct() \n            end \n            end\n            ",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 1.0,
+        "DynamicFriction": 0.7,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 0.0,
+        "Drag": 0.0,
+        "AngularDrag": 0.1,
+        "UseGravity": false
+      }
     }
   ]
 }

@@ -44,7 +44,7 @@ function setConfig(newConfig)
     --end
     self.setCustomObject({
         image = newConfig.image;
-        thickness=thickness
+        --thickness=thickness
     });
     --Converst bbcode to tts frendly floats
     local r=tonumber(string.sub(newConfig.color,2,3),16)/255
@@ -64,7 +64,6 @@ function setConfig(newConfig)
     end
 
     self.setScale({x,1,z})
-    log(self.getScale())
     self.reload()
 end
 function setThickness(thickness)
