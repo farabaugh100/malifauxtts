@@ -67,6 +67,11 @@ local defaultstate = {
             value     = "",
             color     = {1,1,1,0},
             font_color = {0,0,0,255}
+        },
+    reveal={
+            pos = {1,0.1,0.1},
+            size = 1500,
+            label = "Reveal"
         }
     
 }
@@ -97,6 +102,7 @@ function onload(saved_data)
     createButtons()
     createCheckbox()
     createTextbox()
+    createReveal()
 end
 
 function createButtons()
@@ -161,6 +167,38 @@ function createTextbox()
     })
 end
 
+function createReveal()
+    local data = state.reveal
+    --Sets up reference function
+    local funcName = "reveal"..1
+    local func = function() click_reveal() end
+    self.setVar(funcName, func)
+    
+    --Creates button and counts it
+    self.createButton({
+        label=data.label, click_function=funcName, function_owner=self,
+        position=data.pos, height=data.size, width=data.size*3,
+        font_size=data.size, scale=buttonScale,
+        color=buttonColor, font_color=buttonFontColor
+    })
+end
+
+function click_reveal()
+    local score = 0
+
+    if state.checkbox[1].state == true then score = score+1 end
+    if state.checkbox[2].state == true then score = score+1 end
+
+    cloneCardFromDeck(state.currentscheme, "r_reveal")
+
+    if(state.textbox.value != "") then 
+        broadcastToAll("Hidden Info: "..state.textbox.value, {31,136,255,255})
+    end
+
+    updateScore(score)
+    updateSave()
+end
+
 function click_textbox(value, selected)
     if selected == false then
         state.textbox.value = value
@@ -190,11 +228,6 @@ function set_startingschemes(schemes)
 end
 
 function click_scheme(buttonIndex)
-
-    local score = 0
-
-    if state.checkbox[1].state == true then score = score+1 end
-    if state.checkbox[2].state == true then score = score+1 end
     
     log("Button: "..buttonIndex)
     log(state.currentoptions)
@@ -210,18 +243,8 @@ function click_scheme(buttonIndex)
         cloneCardFromDeck(scheme, "r_option"..i)
     end
 
-    if state.currentscheme == "" then
-        state.currentscheme = new_scheme
-    else
-        cloneCardFromDeck(state.currentscheme, "r_reveal")
-        state.currentscheme = new_scheme
-    end
+    state.currentscheme = new_scheme
 
-    if(state.textbox.value != "") then 
-        broadcastToAll("Hidden Info: "..state.textbox.value, {31,136,255,255})
-    end
-
-    updateScore(score)
     updateSave()
 end
 
