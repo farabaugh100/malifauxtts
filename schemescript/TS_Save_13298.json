@@ -1,7 +1,7 @@
 {
   "SaveName": "schemes",
-  "EpochTime": 1746297303,
-  "Date": "5/3/2025 2:35:03 PM",
+  "EpochTime": 1746299177,
+  "Date": "5/3/2025 3:06:17 PM",
   "VersionNumber": "v13.3",
   "GameMode": "Malifaux Breachside Gamma - dev branch",
   "GameType": "Game",
@@ -3320,9 +3320,9 @@
         "posX": -37.8354721,
         "posY": 0.9864669,
         "posZ": -31.95159,
-        "rotX": 0.000431889668,
+        "rotX": 0.000431890134,
         "rotY": 270.0,
-        "rotZ": -8.778595E-05,
+        "rotZ": -8.778594E-05,
         "scaleX": 0.5368931,
         "scaleY": 0.5515663,
         "scaleZ": 0.5515663
@@ -3336,9 +3336,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.409395069,
-        "g": 0.409395069,
-        "b": 0.409395069
+        "r": 0.40939495,
+        "g": 0.40939495,
+        "b": 0.40939495
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -3387,9 +3387,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.409395069,
-        "g": 0.409395069,
-        "b": 0.409395069
+        "r": 0.40939495,
+        "g": 0.40939495,
+        "b": 0.40939495
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -3438,9 +3438,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.409394979,
-        "g": 0.409394979,
-        "b": 0.409394979
+        "r": 0.40939483,
+        "g": 0.40939483,
+        "b": 0.40939483
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -3457,7 +3457,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1651098259769232172/54839356C23A78945E73FBF3A39DC0B00AD8A509/",
+        "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/baseMod/scheme_manager/revealed_schemes.jpg",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 1.77777779
@@ -3501,9 +3501,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.40939495,
-        "g": 0.40939495,
-        "b": 0.40939495
+        "r": 0.4093948,
+        "g": 0.4093948,
+        "b": 0.4093948
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -3520,7 +3520,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1651098259769232172/54839356C23A78945E73FBF3A39DC0B00AD8A509/",
+        "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/baseMod/scheme_manager/revealed_schemes.jpg",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 1.77777779
@@ -3564,9 +3564,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.409395069,
-        "g": 0.409395069,
-        "b": 0.409395069
+        "r": 0.40939495,
+        "g": 0.40939495,
+        "b": 0.40939495
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -5392,9 +5392,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.1271666,
-        "g": 0.1271666,
-        "b": 0.1271666
+        "r": 0.12716648,
+        "g": 0.12716648,
+        "b": 0.12716648
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -5661,9 +5661,9 @@
         "posX": -9.830339,
         "posY": 1.02595091,
         "posZ": -35.1697731,
-        "rotX": -9.715868E-08,
+        "rotX": -1.782273E-06,
         "rotY": 359.9877,
-        "rotZ": 1.30708111E-06,
+        "rotZ": 4.1977637E-07,
         "scaleX": 2.22426844,
         "scaleY": 0.5289924,
         "scaleZ": 2.21988
@@ -5830,12 +5830,12 @@
       "GUID": "83ac1c",
       "Name": "Custom_Model_Infinite_Bag",
       "Transform": {
-        "posX": 9.858405,
-        "posY": 1.02595723,
+        "posX": 9.858403,
+        "posY": 1.02595091,
         "posZ": -35.2214241,
-        "rotX": -1.10606588E-05,
-        "rotY": -0.00339867524,
-        "rotZ": -0.000335010875,
+        "rotX": 6.80775156E-06,
+        "rotY": -0.00336907152,
+        "rotZ": 2.57675674E-06,
         "scaleX": 2.22426844,
         "scaleY": 0.5289924,
         "scaleZ": 2.21988
@@ -6003,8 +6003,8 @@
       "Name": "3DText",
       "Transform": {
         "posX": -9.843138,
-        "posY": 0.960471332,
-        "posZ": -33.6658134,
+        "posY": 0.960452259,
+        "posZ": -33.6660271,
         "rotX": 90.0,
         "rotY": 179.64035,
         "rotZ": 0.0,
@@ -6056,9 +6056,9 @@
       "GUID": "2a1296",
       "Name": "3DText",
       "Transform": {
-        "posX": 9.894059,
-        "posY": 0.9608788,
-        "posZ": -33.6577873,
+        "posX": 9.894057,
+        "posY": 0.960869,
+        "posZ": -33.65799,
         "rotX": 90.0,
         "rotY": 179.64035,
         "rotZ": 0.0,
@@ -6129,9 +6129,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.3815219,
-        "g": 0.3815219,
-        "b": 0.3815219
+        "r": 0.3815218,
+        "g": 0.3815218,
+        "b": 0.3815218
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -6280,9 +6280,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.242149174,
-        "g": 0.234977186,
-        "b": 0.234977186
+        "r": 0.242149025,
+        "g": 0.234977067,
+        "b": 0.234977067
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -6634,9 +6634,9 @@
         "posX": -1.52714753,
         "posY": 0.6277724,
         "posZ": -98.6046753,
-        "rotX": -9.71486952E-06,
+        "rotX": -9.459623E-06,
         "rotY": 14.972434,
-        "rotZ": -4.49477E-08,
+        "rotZ": -7.9087863E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -6650,7 +6650,7 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.04592859,
+        "r": 0.0459284261,
         "g": 0.475558221,
         "b": 0.8000001
       },
@@ -7748,8 +7748,8 @@
       "Name": "3DText",
       "Transform": {
         "posX": -17.6002026,
-        "posY": 0.9591859,
-        "posZ": -47.48246,
+        "posY": 0.9591667,
+        "posZ": -47.48262,
         "rotX": 90.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -7801,12 +7801,12 @@
       "GUID": "17aadb",
       "Name": "Checker_red",
       "Transform": {
-        "posX": 6.11694336,
+        "posX": 6.11681747,
         "posY": 0.587768435,
-        "posZ": -98.79312,
-        "rotX": 0.000152370922,
+        "posZ": -98.79324,
+        "rotX": 0.00015451957,
         "rotY": 270.001831,
-        "rotZ": -0.000456974434,
+        "rotZ": -0.0004573539,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -7846,9 +7846,9 @@
       "GUID": "15caf9",
       "Name": "3DText",
       "Transform": {
-        "posX": -0.235277221,
-        "posY": 0.9607472,
-        "posZ": -41.7330246,
+        "posX": -0.235277191,
+        "posY": 0.9607374,
+        "posZ": -41.733242,
         "rotX": 90.0,
         "rotY": 179.540451,
         "rotZ": 0.0,
@@ -7900,9 +7900,9 @@
       "GUID": "7b5599",
       "Name": "3DText",
       "Transform": {
-        "posX": -27.0536118,
-        "posY": 0.9603187,
-        "posZ": -47.5070877,
+        "posX": -27.0536079,
+        "posY": 0.9602997,
+        "posZ": -47.5072327,
         "rotX": 90.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -7954,9 +7954,9 @@
       "GUID": "474b53",
       "Name": "3DText",
       "Transform": {
-        "posX": -0.000297546474,
-        "posY": 0.9596093,
-        "posZ": -33.86463,
+        "posX": -0.000297546416,
+        "posY": 0.9595997,
+        "posZ": -33.86485,
         "rotX": 90.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -8009,11 +8009,11 @@
       "Name": "Notecard",
       "Transform": {
         "posX": -34.0,
-        "posY": 0.831455469,
+        "posY": 0.8314555,
         "posZ": -21.99982,
-        "rotX": -2.822303E-06,
+        "rotX": -5.537235E-06,
         "rotY": 90.0088654,
-        "rotZ": -8.205636E-06,
+        "rotZ": -5.86425E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -8053,12 +8053,12 @@
       "GUID": "15fc7f",
       "Name": "Checker_white",
       "Transform": {
-        "posX": 6.1009,
+        "posX": 6.100986,
         "posY": 0.8382237,
-        "posZ": -98.74686,
-        "rotX": -0.00246736966,
-        "rotY": 89.98813,
-        "rotZ": 0.0023951726,
+        "posZ": -98.74692,
+        "rotX": -0.00247156876,
+        "rotY": 89.9882355,
+        "rotZ": 0.00239280658,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -8118,9 +8118,9 @@
         "posX": -36.2247849,
         "posY": 0.587772667,
         "posZ": 44.60769,
-        "rotX": -6.85763055E-08,
+        "rotX": 2.46171687E-08,
         "rotY": 269.967468,
-        "rotZ": 4.593907E-09,
+        "rotZ": -3.766333E-11,
         "scaleX": 3.2506578,
         "scaleY": 1.0,
         "scaleZ": 3.2506578
@@ -8169,9 +8169,9 @@
         "posX": 29.7922745,
         "posY": 0.5877726,
         "posZ": 44.95587,
-        "rotX": -3.263465E-08,
+        "rotX": -2.66133231E-08,
         "rotY": 89.99941,
-        "rotZ": -2.409811E-10,
+        "rotZ": -1.79847479E-08,
         "scaleX": 3.2506578,
         "scaleY": 1.0,
         "scaleZ": 3.2506578
@@ -9168,8 +9168,8 @@
       "Name": "3DText",
       "Transform": {
         "posX": 15.9028521,
-        "posY": 0.9608957,
-        "posZ": -30.1223679,
+        "posY": 0.9608919,
+        "posZ": -30.1224384,
         "rotX": 90.0,
         "rotY": 180.562454,
         "rotZ": 0.0,
@@ -9221,9 +9221,9 @@
       "GUID": "ecd006",
       "Name": "3DText",
       "Transform": {
-        "posX": -15.6856432,
-        "posY": 0.960175633,
-        "posZ": -30.4302769,
+        "posX": -15.6856728,
+        "posY": 0.960160434,
+        "posZ": -30.4303513,
         "rotX": 90.0,
         "rotY": 180.562454,
         "rotZ": 0.0,
@@ -9275,11 +9275,11 @@
       "GUID": "d3c7cc",
       "Name": "3DText",
       "Transform": {
-        "posX": -0.217987075,
-        "posY": 0.960654438,
-        "posZ": 31.9146156,
+        "posX": -0.218002334,
+        "posY": 0.9606468,
+        "posZ": 31.9145985,
         "rotX": 90.0,
-        "rotY": 0.301294565,
+        "rotY": 0.301294625,
         "rotZ": 0.0,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -9329,9 +9329,9 @@
       "GUID": "407221",
       "Name": "3DText",
       "Transform": {
-        "posX": -17.28046,
-        "posY": 0.9601776,
-        "posZ": 26.1345215,
+        "posX": -17.2805061,
+        "posY": 0.960162342,
+        "posZ": 26.1345081,
         "rotX": 90.0,
         "rotY": 359.468323,
         "rotZ": 0.0,
@@ -9384,8 +9384,8 @@
       "Name": "3DText",
       "Transform": {
         "posX": 16.7951336,
-        "posY": 0.9608976,
-        "posZ": 26.2562962,
+        "posY": 0.96089375,
+        "posZ": 26.2562752,
         "rotX": 90.0,
         "rotY": 359.468323,
         "rotZ": 0.0,
@@ -9789,12 +9789,12 @@
       "GUID": "1b16b0",
       "Name": "BlockSquare",
       "Transform": {
-        "posX": 0.0127181113,
+        "posX": 0.0127180927,
         "posY": 1.08777225,
         "posZ": -98.24594,
-        "rotX": -1.23049324E-06,
-        "rotY": 0.00428144028,
-        "rotZ": 1.03681168E-06,
+        "rotX": -9.854867E-07,
+        "rotY": 0.004280645,
+        "rotZ": 1.23241568E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -9835,8 +9835,8 @@
       "Name": "3DText",
       "Transform": {
         "posX": 10.7942724,
-        "posY": 0.9608995,
-        "posZ": -98.31516,
+        "posY": 0.9608956,
+        "posZ": -98.3152847,
         "rotX": 90.0,
         "rotY": 269.693481,
         "rotZ": 0.0,
@@ -9888,9 +9888,9 @@
       "GUID": "8a3c17",
       "Name": "3DText",
       "Transform": {
-        "posX": -9.556966,
-        "posY": 0.960195661,
-        "posZ": -98.01743,
+        "posX": -9.557027,
+        "posY": 0.960180342,
+        "posZ": -98.01768,
         "rotX": 90.0,
         "rotY": 89.09897,
         "rotZ": 0.0,
@@ -10232,8 +10232,8 @@
       "GUID": "510f93",
       "Name": "3DText",
       "Transform": {
-        "posX": -19.97055,
-        "posY": 0.9602729,
+        "posX": -19.9705925,
+        "posY": 0.9602577,
         "posZ": 47.32619,
         "rotX": 89.98022,
         "rotY": 359.135254,
@@ -10289,9 +10289,9 @@
         "posX": 12.6577768,
         "posY": 0.6210051,
         "posZ": -95.95677,
-        "rotX": -4.862088E-07,
+        "rotX": -5.251517E-07,
         "rotY": 179.997,
-        "rotZ": 1.12234829E-06,
+        "rotZ": 1.17337015E-06,
         "scaleX": 0.713773131,
         "scaleY": 0.0664657652,
         "scaleZ": 0.706220865
@@ -10465,9 +10465,9 @@
         "posX": 14.9626064,
         "posY": 0.6210051,
         "posZ": -96.5976639,
-        "rotX": 5.74100056E-07,
+        "rotX": 8.31551631E-07,
         "rotY": 179.985977,
-        "rotZ": -3.06201684E-07,
+        "rotZ": -3.94913E-07,
         "scaleX": 0.7137734,
         "scaleY": 0.0664657652,
         "scaleZ": 0.7062205
@@ -10641,9 +10641,9 @@
         "posX": 13.4374294,
         "posY": 0.6214455,
         "posZ": -96.9794846,
-        "rotX": 8.53121946E-08,
+        "rotX": 1.04957252E-07,
         "rotY": 269.808167,
-        "rotZ": -4.08414451E-07,
+        "rotZ": -3.83095738E-07,
         "scaleX": 0.73517406,
         "scaleY": 0.06734645,
         "scaleZ": 0.744278133
@@ -11151,9 +11151,9 @@
         "posX": -6.072866,
         "posY": 0.587772369,
         "posZ": -99.8726044,
-        "rotX": 3.3931704E-07,
+        "rotX": -3.316428E-07,
         "rotY": 270.0086,
-        "rotZ": -4.14184553E-09,
+        "rotZ": 3.81205147E-08,
         "scaleX": 2.5,
         "scaleY": 1.0,
         "scaleZ": 2.5
@@ -11231,9 +11231,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.409394264,
-        "g": 0.409394264,
-        "b": 0.409394264
+        "r": 0.409394145,
+        "g": 0.409394145,
+        "b": 0.409394145
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -11816,9 +11816,9 @@
         "posX": -23.5884933,
         "posY": 0.657772243,
         "posZ": -51.4371948,
-        "rotX": -2.73264833E-09,
+        "rotX": -2.2626411E-08,
         "rotY": 180.0052,
-        "rotZ": 2.40405584E-09,
+        "rotZ": 3.59816443E-09,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -11858,11 +11858,11 @@
       "GUID": "4ddd87",
       "Name": "Checker_black",
       "Transform": {
-        "posX": 7.84764147,
+        "posX": 7.84766054,
         "posY": 0.838255763,
-        "posZ": -98.33279,
-        "rotX": -1.90221067E-06,
-        "rotY": 179.957733,
+        "posZ": -98.3329849,
+        "rotX": -5.205117E-07,
+        "rotY": 179.956268,
         "rotZ": 180.0,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -11906,9 +11906,9 @@
         "posX": 13.49361,
         "posY": 0.570772231,
         "posZ": -91.04163,
-        "rotX": -4.035084E-07,
-        "rotY": 0.343849719,
-        "rotZ": 7.631262E-07,
+        "rotX": -3.998332E-08,
+        "rotY": 0.343849778,
+        "rotZ": 7.670691E-08,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -12185,9 +12185,9 @@
       "Name": "Deck",
       "Transform": {
         "posX": -16.2833843,
-        "posY": 1.28337121,
+        "posY": 1.28337133,
         "posZ": -21.2816448,
-        "rotX": 2.20655766E-05,
+        "rotX": 3.25424444E-05,
         "rotY": 269.998444,
         "rotZ": 180.0,
         "scaleX": 1.5,
@@ -16032,9 +16032,9 @@
       "Name": "Deck",
       "Transform": {
         "posX": 16.26102,
-        "posY": 1.28336954,
+        "posY": 1.28336942,
         "posZ": -25.1492863,
-        "rotX": -2.924579E-06,
+        "rotX": -8.17517E-06,
         "rotY": 269.998383,
         "rotZ": 180.0,
         "scaleX": 1.5,
@@ -19878,10 +19878,10 @@
       "GUID": "02c7e5",
       "Name": "Deck",
       "Transform": {
-        "posX": 0.626265,
-        "posY": 0.8686609,
+        "posX": 0.626265049,
+        "posY": 0.868661,
         "posZ": -90.17453,
-        "rotX": 7.44244062E-08,
+        "rotX": -1.65029093E-07,
         "rotY": 269.998352,
         "rotZ": 180.0,
         "scaleX": 1.5,
@@ -23962,7 +23962,7 @@
         "posZ": 44.64034,
         "rotX": 1.24191456E-06,
         "rotY": 180.00853,
-        "rotZ": 7.874037E-07,
+        "rotZ": 7.87404133E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -24340,9 +24340,9 @@
         "posX": 13.4839077,
         "posY": 0.621445358,
         "posZ": -95.38546,
-        "rotX": -2.46339738E-07,
+        "rotX": 2.30738308E-07,
         "rotY": 90.0098,
-        "rotZ": 5.825035E-07,
+        "rotZ": -2.90788967E-06,
         "scaleX": 0.7351749,
         "scaleY": 0.06734628,
         "scaleZ": 0.7442768
@@ -24530,9 +24530,9 @@
         "posX": -36.2247849,
         "posY": 0.5877726,
         "posZ": 55.60769,
-        "rotX": -8.946671E-09,
+        "rotX": -1.33498883E-08,
         "rotY": 269.984344,
-        "rotZ": -2.29216446E-09,
+        "rotZ": 2.11513251E-09,
         "scaleX": 3.24971676,
         "scaleY": 1.0,
         "scaleZ": 3.24971676
@@ -24581,9 +24581,9 @@
         "posX": 29.7922764,
         "posY": 0.587772548,
         "posZ": 55.9559059,
-        "rotX": -2.47160581E-09,
+        "rotX": -7.836022E-09,
         "rotY": 90.01519,
-        "rotZ": -1.68612768E-08,
+        "rotZ": -1.67860872E-08,
         "scaleX": 3.24971676,
         "scaleY": 1.0,
         "scaleZ": 3.24971676
@@ -29723,11 +29723,11 @@
       "Name": "Notecard",
       "Transform": {
         "posX": 34.0,
-        "posY": 0.8314555,
+        "posY": 0.831455469,
         "posZ": -22.0,
-        "rotX": -6.15349245E-06,
+        "rotX": -3.54334838E-06,
         "rotY": 270.0114,
-        "rotZ": 6.975945E-06,
+        "rotZ": 4.58441E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -36096,9 +36096,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.409393579,
-        "g": 0.409393579,
-        "b": 0.409393579
+        "r": 0.40939346,
+        "g": 0.40939346,
+        "b": 0.40939346
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -36704,7 +36704,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/28819418403932072/E2D18869A40B80D9BC2C096C0398340449F7A1F6/",
+        "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/baseMod/scheme_manager/scheme-manager.jpg",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -36761,7 +36761,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/28819418404144148/9ABC6B1B6ACAF628D1A322BB2D082A57CB84B6E6/",
+        "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/baseMod/scheme_manager/scheme_panel.png",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -36860,7 +36860,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/28819418404144148/9ABC6B1B6ACAF628D1A322BB2D082A57CB84B6E6/",
+        "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/baseMod/scheme_manager/scheme_panel.png",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -36959,7 +36959,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/28819418403932072/E2D18869A40B80D9BC2C096C0398340449F7A1F6/",
+        "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/baseMod/scheme_manager/scheme-manager.jpg",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -36978,17 +36978,17 @@
       "GUID": "697be6",
       "Name": "Deck",
       "Transform": {
-        "posX": -6.391689,
+        "posX": -6.39168739,
         "posY": 0.627959,
         "posZ": 49.25645,
-        "rotX": -2.18487859E-08,
-        "rotY": 180.000443,
+        "rotX": 5.54620669E-08,
+        "rotY": 180.000458,
         "rotZ": 180.0,
         "scaleX": 1.99688435,
         "scaleY": 1.0,
         "scaleZ": 1.99688435
       },
-      "Nickname": "Strategy Deck",
+      "Nickname": "",
       "Description": "",
       "GMNotes": "",
       "AltLookAngle": {
@@ -37017,15 +37017,15 @@
       "Hands": false,
       "SidewaysCard": false,
       "DeckIDs": [
-        56800,
-        56801,
-        56802,
-        56803
+        56702,
+        56703,
+        56700,
+        56701
       ],
       "CustomDeck": {
-        "568": {
+        "567": {
           "FaceURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/decks/stragegy.png",
-          "BackURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/decks/stragegy.png",
+          "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/55840381432136322/162BC58F2FE8ACF6F8D4BA9F3EA303F5CE197682/",
           "NumWidth": 2,
           "NumHeight": 2,
           "BackIsHidden": false,
@@ -37038,14 +37038,14 @@
       "XmlUI": "",
       "ContainedObjects": [
         {
-          "GUID": "5a94cc",
+          "GUID": "d971b6",
           "Name": "Card",
           "Transform": {
-            "posX": -6.391689,
+            "posX": -6.39168739,
             "posY": 0.627959,
             "posZ": 49.25645,
-            "rotX": 7.416729E-08,
-            "rotY": 180.000443,
+            "rotX": -3.65342245E-08,
+            "rotY": 180.000458,
             "rotZ": 180.0,
             "scaleX": 1.99688435,
             "scaleY": 1.0,
@@ -37077,20 +37077,22 @@
           "Tooltip": true,
           "GridProjection": false,
           "Hands": true,
-          "CardID": 56800,
+          "CardID": 56702,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
         {
-          "GUID": "482737",
+          "GUID": "9976f9",
           "Name": "Card",
           "Transform": {
-            "posX": -6.391689,
+            "posX": -6.39168739,
             "posY": 0.627959,
             "posZ": 49.25645,
-            "rotX": 7.416729E-08,
-            "rotY": 180.000443,
+            "rotX": -3.65342245E-08,
+            "rotY": 180.000458,
             "rotZ": 180.0,
             "scaleX": 1.99688435,
             "scaleY": 1.0,
@@ -37122,20 +37124,22 @@
           "Tooltip": true,
           "GridProjection": false,
           "Hands": true,
-          "CardID": 56801,
+          "CardID": 56703,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
         {
-          "GUID": "df659f",
+          "GUID": "376122",
           "Name": "Card",
           "Transform": {
-            "posX": -6.391689,
+            "posX": -6.39168739,
             "posY": 0.627959,
             "posZ": 49.25645,
-            "rotX": 7.416729E-08,
-            "rotY": 180.000443,
+            "rotX": -3.65342245E-08,
+            "rotY": 180.000458,
             "rotZ": 180.0,
             "scaleX": 1.99688435,
             "scaleY": 1.0,
@@ -37167,20 +37171,22 @@
           "Tooltip": true,
           "GridProjection": false,
           "Hands": true,
-          "CardID": 56802,
+          "CardID": 56700,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
         },
         {
-          "GUID": "9d036c",
+          "GUID": "5dec4c",
           "Name": "Card",
           "Transform": {
-            "posX": -6.391689,
+            "posX": -6.39168739,
             "posY": 0.627959,
             "posZ": 49.25645,
-            "rotX": 7.416729E-08,
-            "rotY": 180.000443,
+            "rotX": -3.65342245E-08,
+            "rotY": 180.000458,
             "rotZ": 180.0,
             "scaleX": 1.99688435,
             "scaleY": 1.0,
@@ -37212,79 +37218,12 @@
           "Tooltip": true,
           "GridProjection": false,
           "Hands": true,
-          "CardID": 56803,
+          "CardID": 56701,
           "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
           "XmlUI": "",
           "ContainedObjects": []
-        }
-      ]
-    },
-    {
-      "GUID": "d5e9df",
-      "Name": "Custom_Token",
-      "Transform": {
-        "posX": -0.117464714,
-        "posY": 0.861457765,
-        "posZ": 19.60759,
-        "rotX": 1.371939E-05,
-        "rotY": 179.979065,
-        "rotZ": -1.66466418E-06,
-        "scaleX": 1.70230925,
-        "scaleY": 1.0,
-        "scaleZ": 1.70230925
-      },
-      "Nickname": "Game Setup",
-      "Description": "",
-      "GMNotes": "",
-      "AltLookAngle": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "LayoutGroupSortIndex": 0,
-      "Value": 0,
-      "Locked": true,
-      "Grid": true,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomImage": {
-        "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/17535993639036368595/103B88FE617BC630A0626A2AD7EFB38B856AD356/",
-        "ImageSecondaryURL": "",
-        "ImageScalar": 1.0,
-        "WidthScale": 0.0,
-        "CustomToken": {
-          "Thickness": 0.2,
-          "MergeDistancePixels": 15.0,
-          "StandUp": false,
-          "Stackable": false
-        }
-      },
-      "LuaScript": "-- Bundled by luabundle {\"rootModuleName\":\"Game Setup.d5e9df.lua\",\"version\":\"1.6.0\"}\nlocal __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)\n\tlocal loadingPlaceholder = {[{}] = true}\n\n\tlocal register\n\tlocal modules = {}\n\n\tlocal require\n\tlocal loaded = {}\n\n\tregister = function(name, body)\n\t\tif not modules[name] then\n\t\t\tmodules[name] = body\n\t\tend\n\tend\n\n\trequire = function(name)\n\t\tlocal loadedModule = loaded[name]\n\n\t\tif loadedModule then\n\t\t\tif loadedModule == loadingPlaceholder then\n\t\t\t\treturn nil\n\t\t\tend\n\t\telse\n\t\t\tif not modules[name] then\n\t\t\t\tif not superRequire then\n\t\t\t\t\tlocal identifier = type(name) == 'string' and '\\\"' .. name .. '\\\"' or tostring(name)\n\t\t\t\t\terror('Tried to require ' .. identifier .. ', but no such module has been registered')\n\t\t\t\telse\n\t\t\t\t\treturn superRequire(name)\n\t\t\t\tend\n\t\t\tend\n\n\t\t\tloaded[name] = loadingPlaceholder\n\t\t\tloadedModule = modules[name](require, loaded, register, modules)\n\t\t\tloaded[name] = loadedModule\n\t\tend\n\n\t\treturn loadedModule\n\tend\n\n\treturn require, loaded, register, modules\nend)(nil)\n__bundle_register(\"Game Setup.d5e9df.lua\", function(require, _LOADED, __bundle_register, __bundle_modules)\nrequire(\"baseMod/SchemeManager/GameSetup\")\nend)\n__bundle_register(\"baseMod/SchemeManager/GameSetup\", function(require, _LOADED, __bundle_register, __bundle_modules)\n--Color information for button text (r,g,b, values of 0-1)\nbuttonFontColor = {0,0,0}\n--Color information for button background\nbuttonColor = {1,1,1}\n--Change scale of button (Avoid changing if possible)\nbuttonScale = {0.1,0.1,0.1}\n\ndisableSave = true\n\nlocal defaultstate = {\n\n    schemes = {\"Assassinate\",\"Breakthrough\",\"ScouttheRooftops\",\"Ensnare\",\"DetonateCharges\",\n    \"FrameJob\",\"TaketheHighground\",\"SearchtheArea\",\"LighttheBeacons\",\"HarnesstheLeyLine\",\n    \"RunicBinding\",\"MakeitLookLikeAnAccident\",\"PublicDemonstration\",\"LeaveYourMark\",\"ReshapeTheLand\"},\n    strategies = {\"Boundary Dispute\",\"Informants\",\"Collapsing Mines\",\"Recover Evidence\"},\n    deployment = {\"Corner\",\"Standard\",\"Wedge\",\"Flank\"},\n    players = {\"Blue\",\"Red\"},\n    game_setup= true,\n    button={\n            pos = {0,0.1,-1.0},\n            size = 1500,\n            label = \"Start\"\n            },\n    checkbox={\n        {\n            pos = {1.0,0.1,0},\n            size = 1000,\n            state = false\n        },\n        {\n            pos = {1.0,0.1,0.45},\n            size = 1000,\n            state = false\n        },\n        {\n            pos = {1.0,0.1,0.9},\n            size = 1000,\n            state = false\n        }\n    }\n    \n}\n\n--Save function\n    function updateSave()\n        saved_data = JSON.encode(state)\n        if disableSave==true then saved_data=\"\" end\n        self.script_state = saved_data\n    end\n    \n--Startup procedure\n    function onload(saved_data)\n        if disableSave==true then saved_data=\"\" end\n        if saved_data ~= \"\" then\n            local loaded_data = JSON.decode(saved_data)\n            state = loaded_data\n        else\n            state = defaultstate\n        end\n\n\n        spawnedButtonCount = 0\n        myDeck = getObjectFromGUID(\"697be6\")\n        bmanager = getObjectFromGUID(\"b1938a\")\n        rmanager = getObjectFromGUID(\"47995f\")\n        createCheckbox()\n        createButton()\n    end\n\n    function createButton()\n        data = state.button\n        --Sets up reference function\n        local buttonNumber = spawnedButtonCount\n        local funcName = \"setup\"\n        local func = function() setup_game() end\n        self.setVar(funcName, func)\n        \n        --Creates button and counts it\n        self.createButton({\n            label=data.label, click_function=funcName, function_owner=self,\n            position=data.pos, height=data.size, width=data.size*3,\n            font_size=data.size, scale=buttonScale,\n            color=buttonColor, font_color=buttonFontColor\n        })\n    end\n\n    function createCheckbox()\n        for i, data in ipairs(state.checkbox) do\n            --Sets up reference function\n            local buttonNumber = spawnedButtonCount\n            local funcName = \"checkbox\"..i\n            local func = function() click_checkbox(i, buttonNumber) end\n            self.setVar(funcName, func)\n            --Sets up label\n            local label = \"\"\n            if data.state==true then label=string.char(10008) end\n            --Creates button and counts it\n            self.createButton({\n                label=label, click_function=funcName, function_owner=self,\n                position=data.pos, height=data.size, width=data.size,\n                font_size=data.size, scale=buttonScale,\n                color=buttonColor, font_color=buttonFontColor\n            })\n            spawnedButtonCount = spawnedButtonCount + 1\n        end\n    end\n\n    function click_checkbox(tableIndex, buttonIndex)\n        if state.checkbox[tableIndex].state == true then\n            state.checkbox[tableIndex].state = false\n            self.editButton({index=buttonIndex, label=\"\"})\n        else\n            state.checkbox[tableIndex].state = true\n            self.editButton({index=buttonIndex, label=string.char(10008)})\n        end\n        updateSave()\n    end\n\n    function setup_game()\n        math.randomseed(os.time())\n\n        local copy = state.schemes\n\n        for i = #copy, 2, -1 do\n            local j = math.random(i)\n            copy[i], copy[j] = copy[j], copy[i]\n        end\n\n        -- Pick the first 3\n        local selected = {copy[1], copy[2], copy[3]}\n\n        local deployment = state.deployment[math.random(4)]\n        if state.checkbox[1].state == true then broadcastToAll(\"Deployment is: \"..deployment) end\n        \n        local strategy = state.strategies[math.random(4)]\n        if state.checkbox[2].state == true then broadcastToAll(\"Strategy is: \"..strategy) end\n\n        local attacker = state.players[math.random(2)]\n        if state.checkbox[3].state == true then broadcastToAll(\"Attacker is: \"..attacker) end\n\n        bmanager.call(\"set_startingschemes\", {selected})\n        rmanager.call(\"set_startingschemes\", {selected})\n\n        deleteSelf()\n        \n    end\n\n    function deleteSelf()\n        Wait.frames(function() destroyObject(self) end, 1)\n    end\nend)\nreturn __bundle_require(\"Game Setup.d5e9df.lua\")",
-      "LuaScriptState": "",
-      "XmlUI": "",
-      "AttachedSnapPoints": [
-        {
-          "Position": {
-            "x": 0.006485003,
-            "y": 0.1000003,
-            "z": 0.313949436
-          },
-          "Tags": [
-            "strategy"
-          ]
         }
       ]
     },
@@ -37295,9 +37234,9 @@
         "posX": -11.2164078,
         "posY": 0.6809135,
         "posZ": 49.3802719,
-        "rotX": -2.7445834E-08,
+        "rotX": -8.09422E-08,
         "rotY": 180.059067,
-        "rotZ": -6.445649E-08,
+        "rotZ": 6.23448742E-08,
         "scaleX": 1.93762064,
         "scaleY": 1.0,
         "scaleZ": 1.93762064
@@ -38239,11 +38178,11 @@
       "Name": "Deck",
       "Transform": {
         "posX": -26.9969654,
-        "posY": 0.8545995,
+        "posY": 0.854599357,
         "posZ": 24.0009956,
-        "rotX": 1.92671519E-06,
+        "rotX": 1.60066861E-06,
         "rotY": 270.0119,
-        "rotZ": 3.531913E-06,
+        "rotZ": 2.97322254E-06,
         "scaleX": 1.93762064,
         "scaleY": 1.0,
         "scaleZ": 1.93762064
@@ -39187,9 +39126,9 @@
         "posX": 27.0013485,
         "posY": 0.854599535,
         "posZ": 23.9710255,
-        "rotX": 9.986516E-06,
+        "rotX": 1.0087294E-05,
         "rotY": 89.9884,
-        "rotZ": -5.214794E-06,
+        "rotZ": -5.84252348E-06,
         "scaleX": 1.93762064,
         "scaleY": 1.0,
         "scaleZ": 1.93762064
@@ -40123,6 +40062,75 @@
           "LuaScript": "",
           "LuaScriptState": "",
           "XmlUI": ""
+        }
+      ]
+    },
+    {
+      "GUID": "d5e9df",
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -0.117464714,
+        "posY": 0.861457765,
+        "posZ": 19.60759,
+        "rotX": 1.37194093E-05,
+        "rotY": 179.979065,
+        "rotZ": -1.66466555E-06,
+        "scaleX": 1.70230925,
+        "scaleY": 1.0,
+        "scaleZ": 1.70230925
+      },
+      "Nickname": "Game Setup",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/baseMod/scheme_manager/startup_panel.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "StandUp": false,
+          "Stackable": false
+        }
+      },
+      "LuaScript": "-- Bundled by luabundle {\"rootModuleName\":\"Game Setup.d5e9df.lua\",\"version\":\"1.6.0\"}\nlocal __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)\n\tlocal loadingPlaceholder = {[{}] = true}\n\n\tlocal register\n\tlocal modules = {}\n\n\tlocal require\n\tlocal loaded = {}\n\n\tregister = function(name, body)\n\t\tif not modules[name] then\n\t\t\tmodules[name] = body\n\t\tend\n\tend\n\n\trequire = function(name)\n\t\tlocal loadedModule = loaded[name]\n\n\t\tif loadedModule then\n\t\t\tif loadedModule == loadingPlaceholder then\n\t\t\t\treturn nil\n\t\t\tend\n\t\telse\n\t\t\tif not modules[name] then\n\t\t\t\tif not superRequire then\n\t\t\t\t\tlocal identifier = type(name) == 'string' and '\\\"' .. name .. '\\\"' or tostring(name)\n\t\t\t\t\terror('Tried to require ' .. identifier .. ', but no such module has been registered')\n\t\t\t\telse\n\t\t\t\t\treturn superRequire(name)\n\t\t\t\tend\n\t\t\tend\n\n\t\t\tloaded[name] = loadingPlaceholder\n\t\t\tloadedModule = modules[name](require, loaded, register, modules)\n\t\t\tloaded[name] = loadedModule\n\t\tend\n\n\t\treturn loadedModule\n\tend\n\n\treturn require, loaded, register, modules\nend)(nil)\n__bundle_register(\"Game Setup.d5e9df.lua\", function(require, _LOADED, __bundle_register, __bundle_modules)\nrequire(\"baseMod/SchemeManager/GameSetup\")\nend)\n__bundle_register(\"baseMod/SchemeManager/GameSetup\", function(require, _LOADED, __bundle_register, __bundle_modules)\n--Color information for button text (r,g,b, values of 0-1)\nbuttonFontColor = {0,0,0}\n--Color information for button background\nbuttonColor = {1,1,1}\n--Change scale of button (Avoid changing if possible)\nbuttonScale = {0.1,0.1,0.1}\n\ndisableSave = true\n\nlocal defaultstate = {\n\n    schemes = {\"Assassinate\",\"Breakthrough\",\"ScouttheRooftops\",\"Ensnare\",\"DetonateCharges\",\n    \"FrameJob\",\"TaketheHighground\",\"SearchtheArea\",\"LighttheBeacons\",\"HarnesstheLeyLine\",\n    \"RunicBinding\",\"MakeitLookLikeAnAccident\",\"PublicDemonstration\",\"LeaveYourMark\",\"ReshapeTheLand\"},\n    strategies = {\"Boundary Dispute\",\"Informants\",\"Collapsing Mines\",\"Recover Evidence\"},\n    deployment = {\"Corner\",\"Standard\",\"Wedge\",\"Flank\"},\n    players = {\"Blue\",\"Red\"},\n    game_setup= true,\n    button={\n            pos = {0,0.1,-1.0},\n            size = 1500,\n            label = \"Start\"\n            },\n    checkbox={\n        {\n            pos = {1.0,0.1,0},\n            size = 1000,\n            state = false\n        },\n        {\n            pos = {1.0,0.1,0.45},\n            size = 1000,\n            state = false\n        },\n        {\n            pos = {1.0,0.1,0.9},\n            size = 1000,\n            state = false\n        }\n    }\n    \n}\n\n--Save function\n    function updateSave()\n        saved_data = JSON.encode(state)\n        if disableSave==true then saved_data=\"\" end\n        self.script_state = saved_data\n    end\n    \n--Startup procedure\n    function onload(saved_data)\n        if disableSave==true then saved_data=\"\" end\n        if saved_data ~= \"\" then\n            local loaded_data = JSON.decode(saved_data)\n            state = loaded_data\n        else\n            state = defaultstate\n        end\n\n\n        spawnedButtonCount = 0\n        myDeck = getObjectFromGUID(\"697be6\")\n        bmanager = getObjectFromGUID(\"b1938a\")\n        rmanager = getObjectFromGUID(\"47995f\")\n        createCheckbox()\n        createButton()\n    end\n\n    function createButton()\n        data = state.button\n        --Sets up reference function\n        local buttonNumber = spawnedButtonCount\n        local funcName = \"setup\"\n        local func = function() setup_game() end\n        self.setVar(funcName, func)\n        \n        --Creates button and counts it\n        self.createButton({\n            label=data.label, click_function=funcName, function_owner=self,\n            position=data.pos, height=data.size, width=data.size*3,\n            font_size=data.size, scale=buttonScale,\n            color=buttonColor, font_color=buttonFontColor\n        })\n    end\n\n    function createCheckbox()\n        for i, data in ipairs(state.checkbox) do\n            --Sets up reference function\n            local buttonNumber = spawnedButtonCount\n            local funcName = \"checkbox\"..i\n            local func = function() click_checkbox(i, buttonNumber) end\n            self.setVar(funcName, func)\n            --Sets up label\n            local label = \"\"\n            if data.state==true then label=string.char(10008) end\n            --Creates button and counts it\n            self.createButton({\n                label=label, click_function=funcName, function_owner=self,\n                position=data.pos, height=data.size, width=data.size,\n                font_size=data.size, scale=buttonScale,\n                color=buttonColor, font_color=buttonFontColor\n            })\n            spawnedButtonCount = spawnedButtonCount + 1\n        end\n    end\n\n    function click_checkbox(tableIndex, buttonIndex)\n        if state.checkbox[tableIndex].state == true then\n            state.checkbox[tableIndex].state = false\n            self.editButton({index=buttonIndex, label=\"\"})\n        else\n            state.checkbox[tableIndex].state = true\n            self.editButton({index=buttonIndex, label=string.char(10008)})\n        end\n        updateSave()\n    end\n\n    function setup_game()\n        math.randomseed(os.time())\n\n        local copy = state.schemes\n\n        for i = #copy, 2, -1 do\n            local j = math.random(i)\n            copy[i], copy[j] = copy[j], copy[i]\n        end\n\n        -- Pick the first 3\n        local selected = {copy[1], copy[2], copy[3]}\n\n        local deployment = state.deployment[math.random(4)]\n        if state.checkbox[1].state == true then broadcastToAll(\"Deployment is: \"..deployment) end\n        \n        local strategy = state.strategies[math.random(4)]\n        if state.checkbox[2].state == true then broadcastToAll(\"Strategy is: \"..strategy) end\n\n        local attacker = state.players[math.random(2)]\n        if state.checkbox[3].state == true then broadcastToAll(\"Attacker is: \"..attacker) end\n\n        bmanager.call(\"set_startingschemes\", {selected})\n        rmanager.call(\"set_startingschemes\", {selected})\n\n        deleteSelf()\n        \n    end\n\n    function deleteSelf()\n        Wait.frames(function() destroyObject(self) end, 1)\n    end\nend)\nreturn __bundle_require(\"Game Setup.d5e9df.lua\")",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.006485003,
+            "y": 0.1000003,
+            "z": 0.313949436
+          },
+          "Tags": [
+            "strategy"
+          ]
         }
       ]
     }

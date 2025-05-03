@@ -40,7 +40,18 @@ importObjects(destinationData,flipPanelFile,flipPanelIds)
 schemePanelFile='../schemescript/TS_Save_13298.json'
 schemePanelIds=["b1938a","420546","61fe0d","2287ed","d5e9df","deb131","697be6","a9e5e3","e2578a","725c42","47995f","914a0a","7e13e8"]
 importObjects(destinationData,schemePanelFile,schemePanelIds)
-
+#Models
+modelsFile='../4EStatCardCreater/TS_Save_13302.json'
+modelsIds=["000000","000888","f5da9d","88b910","000839","fb3900","11cdcb","d95ea4","c98d47","64e45c","313d9c"]
+importObjects(destinationData,modelsFile,modelsIds)
+#Tokens
+tokensFile='../4EBaseModComponents/TS_Save_13305.json'
+tokensIds=["3ea749","ba0d43","804197","9ea377","5ec6cb","b5603d","e9680e"]#Last 6 you will need to check the currect file
+importObjects(destinationData,tokensFile,tokensIds)
+#Markers
+markersFile='../4EBaseModComponents/TS_Save_13306.json'
+markersIds=["7abb2f","83ac1c","edf269","fe97e9","898648","7c0835","b469ee","31f5d9","44e232","68a770","10de55"]
+importObjects(destinationData,markersFile,markersIds)
 
 
 
