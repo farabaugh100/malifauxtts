@@ -10,8 +10,8 @@ disableSave = true
 local defaultstate = {
 
     schemes = {"Assassinate","Breakthrough","ScouttheRooftops","Ensnare","DetonateCharges",
-                "FrameJob","TaketheHighground","SearchtheArea","LighttheBeacons","HarnesstheLeyLine",
-                "RunicBinding","MakeItLookLikeAnAccident"},
+    "FrameJob","TaketheHighground","SearchtheArea","LighttheBeacons","HarnesstheLeyLine",
+    "RunicBinding","MakeitLookLikeAnAccident","PublicDemonstration","LeaveYourMark","ReshapeTheLand"},
     strategies = {"Boundary Dispute","Informants","Collapsing Mines","Recover Evidence"},
     deployment = {"Corner","Standard","Wedge","Flank"},
     players = {"Blue","Red"},

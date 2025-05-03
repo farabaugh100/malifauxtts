@@ -1,6 +1,6 @@
 schemes = {"Assassinate","Breakthrough","ScouttheRooftops","Ensnare","DetonateCharges",
 "FrameJob","TaketheHighground","SearchtheArea","LighttheBeacons","HarnesstheLeyLine",
-"RunicBinding","MakeItLookLikeAnAccident"}
+"RunicBinding","MakeitLookLikeAnAccident","PublicDemonstration","LeaveYourMark","ReshapeTheLand"}
 
 --Color information for button text (r,g,b, values of 0-1)
 buttonFontColor = {0,0,0}
@@ -10,20 +10,34 @@ buttonColor = {1,1,1}
 buttonScale = {0.1,0.1,0.1}
 
 disableSave = true
-
+local objLib={
+    blueSchemeDeck="2287eds",
+    blueSchemeManager="Blue Scheme Manager",
+    blueSchemePanel="420546",
+    blueSchemeReveal="61fe0d",
+    blueSchemeTracker="a1873a",
+    redSchemeDeck="a9e5e3",
+    redSchemeManager="47995f",
+    redSchemePanel="725c42",
+    redSchemeReveal="e2578as",
+    redSchemeTracker="a687eb",
+}
 local defaultstate = {
-    schemes={Assassinate={"HarnesstheLeyLine","RunicBinding","FrameJob"},
-            Breakthrough={"Ensnare","LighttheBeacons","TaketheHighground"},
-            ScouttheRooftops={"LighttheBeacons","Assassinate","Breakthrough"},
-            Ensnare={"MakeItLookLikeAnAccident","ScouttheRooftops","FrameJob"},
-            DetonateCharges={"Breakthrough","Ensnare","MakeItLookLikeAnAccident"},
-            FrameJob={"SearchtheArea","DetonateCharges","HarnesstheLeyLine"},
-            TaketheHighground={"SearchtheArea","Assassinate","FrameJob"},
-            SearchtheArea={"DetonateCharges","Breakthrough","RunicBinding"},
-            LighttheBeacons={"Assassinate","HarnesstheLeyLine","Ensnare"},
-            HarnesstheLeyLine={"RunicBinding","MakeItLookLikeAnAccident","TaketheHighground"},
-            RunicBinding={"ScouttheRooftops","LighttheBeacons","DetonateCharges"},
-            MakeItLookLikeAnAccident={"TaketheHighground","ScouttheRooftops","SearchtheArea"}
+    schemes={Assassinate={"ScouttheRooftops","DetonateCharges","RunicBinding"},
+            Breakthrough={"Assassinate","PublicDemonstration","FrameJob"},
+            ScouttheRooftops={"DetonateCharges","LighttheBeacons","LeaveYourMark"},
+            Ensnare={"ReshapeTheLand","SearchtheArea","FrameJob"},
+            DetonateCharges={"LighttheBeacons","RunicBinding","TaketheHighground"},        
+            FrameJob={"PublicDemonstration","HarnesstheLeyLine","ScouttheRooftops"},            
+            TaketheHighground={"MakeitLookLikeAnAccident","Ensnare","SearchtheArea"},            
+            SearchtheArea={"Breakthrough","FrameJob","HarnesstheLeyLine"},            
+            LighttheBeacons={"RunicBinding","LeaveYourMark","MakeitLookLikeAnAccident"},
+            HarnesstheLeyLine={"Assassinate","ScouttheRooftops","LighttheBeacons"},
+            RunicBinding={"LeaveYourMark","TaketheHighground","Ensnare"},
+            MakeitLookLikeAnAccident={"Ensnare","ReshapeTheLand","Breakthrough"},
+            PublicDemonstration={"HarnesstheLeyLine","Assassinate","DetonateCharges"},
+            LeaveYourMark={"TaketheHighground","MakeitLookLikeAnAccident","ReshapeTheLand"},
+            ReshapeTheLand={"SearchtheArea","Breakthrough","PublicDemonstration"},
         },
     currentscheme= "",
     currentoptions= {},
@@ -86,6 +100,7 @@ end
 
 --Startup procedure
 function onload(saved_data)
+    local selfName=self.getName()
     if disableSave==true then saved_data="" end
     if saved_data ~= "" then
         local loaded_data = JSON.decode(saved_data)
@@ -95,10 +110,12 @@ function onload(saved_data)
     end
 
     spawnedButtonCount = 0
-    myDeck = getObjectFromGUID("a1a893")
-    tracker = getObjectFromGUID("a687eb")
-    tablet = getObjectFromGUID("725c42")
-    reveal = getObjectFromGUID("e2578a")
+    if string.find(selfName, "Red") then
+        myDeck = getObjectFromGUID(objLib.redSchemeDeck)
+        tracker = getObjectFromGUID(objLib.redSchemeTracker)
+        tablet = getObjectFromGUID(objLib.redSchemePanel)
+        reveal = getObjectFromGUID(objLib.redSchemeReveal)
+    end
     createButtons()
     createCheckbox()
     createTextbox()
