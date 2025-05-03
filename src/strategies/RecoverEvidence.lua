@@ -19,11 +19,21 @@ function onLoad()
 end
 
 function setUpStrat()
-    redBagObject = getObjectFromGUID("cdd66c")
-    blueBagObject= getObjectFromGUID("41fc3e")
-
-    redBagObject.clone({position=red})
-    blueBagObject.clone({position=blue})
+    local bag=getObjectFromGUID("b469ee")
+    local y=0
+    for i = 5, 1, -1 do
+        local b=bag.takeObject({position={blue.x,blue.y+y,blue.z}})
+        b.setRotation({0,-90,0})
+        Wait.frames(function() b.setState(3) end,180)
+        y=y+1
+    end
+    local y=0
+    for i = 5, 1, -1 do
+        local r=bag.takeObject({position={red.x,red.y+y,red.z}})
+        Wait.frames(function() r.setState(2) end,180)
+        r.setRotation({0,90,0})
+        y=y+1
+    end
 end
 
 
