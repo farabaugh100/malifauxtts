@@ -162,16 +162,20 @@ function retrieve_crew()
 end
 function getSoulstones(soulstones)
     local x=0
+    local z=07
+    --{-38.00, 0.86, 11.50}
     if playerColor=="Blue" then
-        x=-26
+        x=-38.000
+        z=11.5
     elseif playerColor=="Red" then
-        x=26
+        x=38.00
+        z=-11.5
     end
     local soulstoneBag=getObjectFromGUID("ea5878")
     local wait=5
     local y=1
     for i = soulstones, 1, -1 do
-        Wait.frames(function()soulstoneBag.takeObject({position = {x = x, y = y, z = -19}}) y=y+1 end,wait)
+        Wait.frames(function()soulstoneBag.takeObject({position = {x = x, y = y, z = z}}) y=y+1 end,wait)
         wait=wait+5
     end
 end
@@ -281,7 +285,8 @@ function spawnUpgrade (modelName,modelSlot)
                 callback_function = function(spawnedObject)
                     spawnedObject.setCustomObject({stackable = false})
                     spawnedObject.reload()
-                    spawnedObject.clone({position=upgradeContainerObject.getPosition(),rotation={x=0,y=180,z=0}})
+                    local newCard=spawnedObject.clone({position=upgradeContainerObject.getPosition(),rotation={x=0,y=180,z=0}})
+                    Wait.frames(function()newCard.call("fetched",playerColor)end,1)
                     table.insert(spawnedRefCards, spawnedObject)
                 end,
             })

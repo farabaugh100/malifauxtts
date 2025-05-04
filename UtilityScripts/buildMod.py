@@ -46,7 +46,7 @@ modelsIds=["000000","000888","f5da9d","88b910","000839","fb3900","11cdcb","d95ea
 importObjects(destinationData,modelsFile,modelsIds)
 #Tokens
 tokensFile='../4EBaseModComponents/TS_Save_13305.json'
-tokensIds=["3ea749","ba0d43","804197","9ea377","5ec6cb","b5603d","e9680e"]#Last 6 you will need to check the currect file
+tokensIds=["3ea749"]
 importObjects(destinationData,tokensFile,tokensIds)
 #Markers
 markersFile='../4EBaseModComponents/TS_Save_13306.json'
