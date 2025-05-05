@@ -402,6 +402,8 @@ TRH_Class ="mini"
     --Extras
 	function UI_ModifyCondition(alt,name) if alt ~= '-3' then ModifyCondition({name=name,amount= (alt == '-1' and 1 or (alt == '-2' and -1) or 0 ) }) end end
 	function UI_ModifyAura(p,alt) if alt ~= '-3' then ModifyAura({amount= (alt == '-1' and 1 or (alt == '-2' and -1) or 0 ) }) end end
+	function UI_ModifyActivated(p,alt) UI_ModifyCondition("0","Activated") end
+	function UI_ModifyMode(p,alt) UI_ModifyCondition("0","Mode") end
 	function UI_ModifyHealth(p,alt) if alt ~= '-3' then ModifyHealth({amount= (alt == '-1' and 1 or (alt == '-2' and -1) or 0 ) }) end end
 
 	function UI_ModifyFlicker(p,alt) UI_ModifyCondition("0","Flicker") end
