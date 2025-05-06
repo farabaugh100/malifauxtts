@@ -40,10 +40,10 @@ modelPlayer="Blue"
 	end
 
 	function onLoad(save)
-		self.setLock(true)--dont froget to remove this
+		--self.setLock(true)--dont froget to remove this
 		--self.script_state=onSave()
 		save = JSON.decode(save) or {}
-		self.setDescription("RSS_Model");
+		--self.setDescription("RSS_Model");
 		recoverState(save)
 
 		rebuildAssets()
@@ -72,6 +72,7 @@ modelPlayer="Blue"
 	end
 
 	function recoverState(save)
+		log("recoverState")
         if save.state ~= nil then
             local defaults = state.conditions          -- your zero-defaults from the literal table
 			local defaults2 = state.extras
