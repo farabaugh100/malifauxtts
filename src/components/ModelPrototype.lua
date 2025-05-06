@@ -72,7 +72,6 @@ modelPlayer="Blue"
 	end
 
 	function recoverState(save)
-		log("recoverState")
         if save.state ~= nil then
             local defaults = state.conditions          -- your zero-defaults from the literal table
 			local defaults2 = state.extras
