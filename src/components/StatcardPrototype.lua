@@ -47,7 +47,7 @@ function hello_world()
     log("Hello World")
 end
 function createStatCard(params)
-    log(params)
+    --log(params)
     health = params["health"]
     imageScale = params["imageScale"]
     modelImage = params["modelImage"]
@@ -61,7 +61,7 @@ function createStatCard(params)
     crewCard=params["crewCard"]
     factionColor=factionColorLookup(params["faction"])
     self.setDescription("DF: "..params.df.." WP: "..params.wp.."\nSP: "..params.sp.." SZ: "..params.sz)
-    log(factionColor)
+    
     --log(params["faction"])
     --createModel(self.getPosition());
     rebuildUI()
@@ -84,37 +84,37 @@ end
 function factionColorLookup(faction)
     --log(faction.."faction")
     if faction=="Guild" then
-        log("guild")
+        --log("guild")
         return Color(.70,0.19,.17)
     elseif faction=="Arcanists" then
-        log("Arcanists")
+        --log("Arcanists")
         return Color(0/255, 90/255, 154/255);
     elseif faction=="Arcanist" then
-        log("Arcanist")
+        --log("Arcanist")
         return Color(0/255, 90/255, 154/255);
     elseif faction=="Resurrectionists" then
-        log("Resurrectionists")
+        --log("Resurrectionists")
         return Color(37/255, 136/255, 69/255);
     elseif faction=="Resurrectionist" then
-        log("Resurrectionist")
+        --log("Resurrectionist")
         return Color(37/255, 136/255, 69/255);
     elseif faction=="Neverborn" then
-        log("Neverborn")
+        --log("Neverborn")
         return Color(95/255, 53/255, 129/255);
     elseif faction=="Ten Thunders" then
-        log("Thunders")
+        --log("Thunders")
         return Color(208/255, 95/255, 36/255);
     elseif faction=="Outcast" then
-        log("Outcast")
+        --log("Outcast")
         return Color(181/255, 143/255, 18/255)
     elseif faction=="Explorer's Society" then
-        log("Explorer's Society")
+        --log("Explorer's Society")
         return Color(0/255, 114/255, 111/255)
     elseif faction=="Explorers Society" then
-        log("Explorers Society")
+        --log("Explorers Society")
         return Color(0/255, 114/255, 111/255)
     else
-        log("else")
+        --log("else")
         return Color(.70,0.19,.17)
     end
 end 
@@ -142,8 +142,8 @@ function createModel(position)
     end
     model.setDescription(objectData.Description)
     model.setName(name)
-    log(faction)
-    log(factionColor)
+    --log(faction)
+    --log(factionColor)
     model.script_state = "{\"originalData\":{\"base\":{\"color\":{\"a\":1,\"b\":".. factionColor.b ..",\"g\":".. factionColor.g ..",\"r\":".. factionColor.r .."},\"size\":".. baseScale * 25 .."},\"health\":{\"current\":" ..health ..",\"max\":" ..health .."},\"imageScale\":" .. imageScale  .."}}";
 
 
