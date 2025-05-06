@@ -6,6 +6,8 @@ local ChildObjs = {
 local Conditions = {}
 local state = {conditions={ Aura=0,Activated =0}};
 local config={}
+local lastPlayerTouched="Blue"
+local colide=false
 ------ LIFE CICLE EVENTS --------------------
 function onDestroy()
     if (ChildObjs.aura_obj ~= nil) then 
@@ -13,11 +15,26 @@ function onDestroy()
     end
 end
 function onLoad(save)
+
+    local data = JSON.decode(save)
+    if data ~=nil then
+        config=data["config"]
+        colide=data["colide"]
+    end
+    if self.getName()=="Strategy" then
+        log("here")
+        colide=true
+    end
     rebuildAssets()
     self.UI.setXml(ui())
     showAura()
 end
 function onSave()
+    local save = {
+        config=config,
+        colide=colide,v
+    }
+    return JSON.encode(save)
 end
 function onUpdate()
 end
@@ -37,6 +54,9 @@ end
 function setConfig(newConfig)
     config=newConfig
     self.setName(newConfig.name)
+    if newConfig.name=="Strategy" then
+        colide=true
+    end
     local thickness=0.01
     --
 
@@ -62,7 +82,7 @@ function setConfig(newConfig)
         x=0.608
         z=0.608
     end
-
+    self.script_state=onSave()
     self.setScale({x,1,z})
     self.reload()
 end
@@ -221,4 +241,53 @@ function showAura()
         specularIntensity=0,
         cast_shadows=false
     })
+end
+
+--WIP--
+function onCollisionEnter(col)
+
+    if colided then
+        return 0
+    end
+    if self.getName()=="Strategy" then
+        colided=false
+        return 0
+    end
+    --config.count = math.max(1, self.getQuantity())
+    if ((col.collision_object.getVar("TRH_Class") or "") == "mini") then
+        log(self.getName())
+        --log(config)
+        colided=true
+        local aura =col.collision_object.call("getAura", self)
+        local selfHalfBaseSize=getHalfBaseSize()
+        local modelHalfBaseSize=col.collision_object.call("getHalfBaseSize", self)
+        --log("aura"..aura)
+        --log("selfHalfBaseSize "..selfHalfBaseSize)
+        --log("modelHalfBaseSize "..modelHalfBaseSize)
+        self.setPosition(col.collision_object.getPosition())
+        self.setLock(true)
+        local menuManager=getObjectFromGUID("15fc7f")
+        menuManager.call("callMove",{color=lastPlayerTouched,obj=self,range=aura+selfHalfBaseSize+modelHalfBaseSize})
+    end
+end
+function getHalfBaseSize()
+    log(config.size)
+    if config~=nil then
+        if config.size~=nil then
+            if config.size==30 or config.size=="30" then
+                return 0.59055
+            elseif config.size==40 or config.size=="40" then
+                return 0.7874
+            elseif config.size=="50" or config.size==50 then
+                return 0.98425
+            end
+        end
+    end
+    return 0.59055
+end
+function onObjectPickUp(player_color, picked_up_object)
+    if picked_up_object==self then
+        --log(player_color)
+        lastPlayerTouched=player_color
+    end
 end

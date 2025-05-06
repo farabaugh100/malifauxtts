@@ -1,7 +1,7 @@
 {
   "SaveName": "4e Card Builder v2",
-  "EpochTime": 1746318685,
-  "Date": "5/3/2025 8:31:25 PM",
+  "EpochTime": 1746507047,
+  "Date": "5/6/2025 12:50:47 AM",
   "VersionNumber": "v13.3",
   "GameMode": "Malifaux Breachside Gamma - dev branch",
   "GameType": "Game",
@@ -3306,7 +3306,7 @@
         "posX": -37.8354721,
         "posY": 0.9864669,
         "posZ": -31.95159,
-        "rotX": 0.00043188993,
+        "rotX": 0.000431890046,
         "rotY": 270.0,
         "rotZ": -8.778595E-05,
         "scaleX": 0.5368931,
@@ -3322,9 +3322,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.409395,
-        "g": 0.409395,
-        "b": 0.409395
+        "r": 0.409394979,
+        "g": 0.409394979,
+        "b": 0.409394979
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -3373,9 +3373,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.409395,
-        "g": 0.409395,
-        "b": 0.409395
+        "r": 0.409394979,
+        "g": 0.409394979,
+        "b": 0.409394979
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -3424,9 +3424,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.127166539,
-        "g": 0.127166539,
-        "b": 0.127166539
+        "r": 0.12716651,
+        "g": 0.12716651,
+        "b": 0.12716651
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -3709,9 +3709,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.381521851,
-        "g": 0.381521851,
-        "b": 0.381521851
+        "r": 0.381521821,
+        "g": 0.381521821,
+        "b": 0.381521821
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -3760,9 +3760,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.242149085,
-        "g": 0.234977126,
-        "b": 0.234977126
+        "r": 0.242149055,
+        "g": 0.2349771,
+        "b": 0.2349771
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -3883,11 +3883,11 @@
       "Name": "Custom_Assetbundle",
       "Transform": {
         "posX": -1.52714753,
-        "posY": 0.6277724,
+        "posY": 0.62777245,
         "posZ": -98.6046753,
-        "rotX": -1.1763811E-05,
+        "rotX": -9.68317E-06,
         "rotY": 14.972434,
-        "rotZ": -1.44281E-06,
+        "rotZ": -5.334007E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -3901,7 +3901,7 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.045928508,
+        "r": 0.0459284633,
         "g": 0.475558221,
         "b": 0.8000001
       },
@@ -3991,12 +3991,12 @@
       "GUID": "e727dd",
       "Name": "Custom_Token",
       "Transform": {
-        "posX": -4.47034836E-08,
-        "posY": 0.687772334,
+        "posX": -1.86264515E-08,
+        "posY": 0.6877723,
         "posZ": -41.0,
-        "rotX": 3.78967138E-06,
-        "rotY": 6.83018925E-06,
-        "rotZ": 1.28267379E-06,
+        "rotX": 4.87394664E-06,
+        "rotY": 1.02452832E-05,
+        "rotZ": 2.72487023E-06,
         "scaleX": 0.35,
         "scaleY": 1.0,
         "scaleZ": 0.35
@@ -4048,9 +4048,9 @@
       "GUID": "e594e2",
       "Name": "3DText",
       "Transform": {
-        "posX": -7.62939453E-06,
-        "posY": 0.959189534,
-        "posZ": -47.4823952,
+        "posX": -1.716614E-05,
+        "posY": 0.9591877,
+        "posZ": -47.4824371,
         "rotX": 90.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4102,12 +4102,12 @@
       "GUID": "17aadb",
       "Name": "Checker_red",
       "Transform": {
-        "posX": 6.11682272,
-        "posY": 0.587717533,
+        "posX": 6.116824,
+        "posY": 0.587723255,
         "posZ": -98.79309,
-        "rotX": 0.00113408535,
-        "rotY": 270.000732,
-        "rotZ": 359.994171,
+        "rotX": 0.00113262411,
+        "rotY": 270.000854,
+        "rotZ": -0.005496146,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -4148,8 +4148,8 @@
       "Name": "3DText",
       "Transform": {
         "posX": -7.62939453E-06,
-        "posY": 0.9607468,
-        "posZ": -50.79808,
+        "posY": 0.960745,
+        "posZ": -50.7981262,
         "rotX": 90.0,
         "rotY": 179.540451,
         "rotZ": 0.0,
@@ -4202,8 +4202,8 @@
       "Name": "3DText",
       "Transform": {
         "posX": -8.355734,
-        "posY": 0.9603225,
-        "posZ": -47.5072,
+        "posY": 0.960320652,
+        "posZ": -47.5072479,
         "rotX": 90.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4256,11 +4256,11 @@
       "Name": "Notecard",
       "Transform": {
         "posX": -34.0,
-        "posY": 0.831455469,
+        "posY": 0.8314555,
         "posZ": -21.99982,
-        "rotX": -2.945499E-07,
+        "rotX": -2.461906E-07,
         "rotY": 90.0088654,
-        "rotZ": -5.20448839E-06,
+        "rotZ": -7.593739E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -4300,12 +4300,12 @@
       "GUID": "15fc7f",
       "Name": "Checker_white",
       "Transform": {
-        "posX": 6.09947634,
-        "posY": 0.8377614,
-        "posZ": -98.74637,
-        "rotX": 359.942657,
-        "rotY": 89.98632,
-        "rotZ": 0.04186408,
+        "posX": 6.09947872,
+        "posY": 0.837731063,
+        "posZ": -98.74635,
+        "rotX": 359.9422,
+        "rotY": 89.98644,
+        "rotZ": 0.03916495,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -4337,7 +4337,7 @@
       "GridProjection": false,
       "HideWhenFaceDown": false,
       "Hands": false,
-      "LuaScript": "-- Bundled by luabundle {\"rootModuleName\":\"Menu Manager.15fc7f.lua\",\"version\":\"1.6.0\"}\nlocal __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)\n\tlocal loadingPlaceholder = {[{}] = true}\n\n\tlocal register\n\tlocal modules = {}\n\n\tlocal require\n\tlocal loaded = {}\n\n\tregister = function(name, body)\n\t\tif not modules[name] then\n\t\t\tmodules[name] = body\n\t\tend\n\tend\n\n\trequire = function(name)\n\t\tlocal loadedModule = loaded[name]\n\n\t\tif loadedModule then\n\t\t\tif loadedModule == loadingPlaceholder then\n\t\t\t\treturn nil\n\t\t\tend\n\t\telse\n\t\t\tif not modules[name] then\n\t\t\t\tif not superRequire then\n\t\t\t\t\tlocal identifier = type(name) == 'string' and '\\\"' .. name .. '\\\"' or tostring(name)\n\t\t\t\t\terror('Tried to require ' .. identifier .. ', but no such module has been registered')\n\t\t\t\telse\n\t\t\t\t\treturn superRequire(name)\n\t\t\t\tend\n\t\t\tend\n\n\t\t\tloaded[name] = loadingPlaceholder\n\t\t\tloadedModule = modules[name](require, loaded, register, modules)\n\t\t\tloaded[name] = loadedModule\n\t\tend\n\n\t\treturn loadedModule\n\tend\n\n\treturn require, loaded, register, modules\nend)(nil)\n__bundle_register(\"Menu Manager.15fc7f.lua\", function(require, _LOADED, __bundle_register, __bundle_modules)\nrequire(\"baseMod/MenuManager\")\nend)\n__bundle_register(\"baseMod/MenuManager\", function(require, _LOADED, __bundle_register, __bundle_modules)\n\r\n------------- MENU STATE ---------------------\r\n    \r\nlocal MenuLayers = {};\r\nlocal UIState = {\r\n    deployment = {mode=0,rotation=0};\r\n\r\n};\r\nlocal MoveManager = nil;\r\nlocal DeploymentOverlay = nil;\r\n\r\nfunction InitUIState()\r\n    UIState.Blue = DefaultPlayer()\r\n    UIState.Red = DefaultPlayer()\r\n    UIState.Black = DefaultPlayer()\r\nend\r\n\r\nfunction DefaultPlayer()\r\n    return {\r\n        active = 'false',\r\n        object_target = nil,\r\n        object_target_guid = '-1',\r\n        menu_layer = \"Base\",\r\n        selectedCondition = \"\",\r\n        lockOpen = false,\r\n    }\r\nend\r\n\r\n------------- LIFE CICLE EVENTS --------------\r\n\r\nfunction onNumberInput(params)\r\n    local color = params.color;\r\n    local number = params.number;\r\n    if UIState[color] and UIState[color].active then\r\n        -- PlayerPressButtonFlash(color, number)\r\n        PlayerPressButton(color,number) \r\n    end\r\nend\r\n\r\nfunction onScriptingButtonDown(number, color)\r\n    if UIState[color] and UIState[color].active == 'true' then\r\n        -- PlayerPressButtonFlash(color, number)\r\n        PlayerPressButton(color,number) \r\n        return true;\r\n    end\r\nend\r\n\r\nfunction onLoad()\r\n    MoveManager = getObjectFromGUID(\"17aadb\");\r\n    DeploymentOverlay = getObjectFromGUID(\"02c08b\");\r\n    \r\n    MoveManager.call(\"SetMenuManager\",{menuManager = self})\r\n    rebuildAssets();\r\n    InitUIState();\r\n    InitMenuLayers();\r\n    UI.setXml(ui());\r\nend\r\n\r\nfunction onUpdate()\r\n    for _, player in ipairs(Player.getPlayers()) do\r\n        if IsPlayerSuscribed(player.color) then\r\n            local hoveredElement = player.getHoverObject();\r\n            local RSS_Class = hoveredElement and hoveredElement.getVar(\"RSS_Class\") or 'no Hover';\r\n            \r\n            if RSS_Class == \"Model\" or RSS_Class == \"Marker\" then\r\n                ActiveMenu(player,'true');\r\n            else\r\n                ActiveMenu(player,'false');\r\n            end\r\n        end\r\n    end\r\nend\r\n\r\n------------- MENU STATE ACTIONS -------------\r\n\r\nfunction ActiveMenu(player,value)\r\n    if UIState[player.color].lockOpen == false then\r\n        if UIState[player.color].active ~= value or UIState[player.color].object_target ~= player.getHoverObject() then\r\n            -- UI.setAttribute(player.color .. '_Menu','active',value)\r\n            SetMenuLayer(player.color,'Base');\r\n            UIState[player.color].active = value;\r\n            if value == 'true' then Player_AssignTargetObject(player) else Player_CleanTargetObject(player) end\r\n        end\r\n    end\r\nend\r\n\r\nfunction Player_AssignTargetObject(player)\r\n    SetMenuLayer(player.color,\"Base\")\r\n    UIState[player.color].selectedCondition = \"\";\r\n    UIState[player.color].object_target = player.getHoverObject();\r\n    UIState[player.color].object_target_guid =  UIState[player.color].object_target.getGUID(); \r\nend\r\n\r\nfunction Player_CleanTargetObject(player)\r\n    UIState[player.color].object_target = nil;\r\n    UIState[player.color].object_target_guid = '-1';\r\nend\r\n\r\nfunction IsPlayerSuscribed(color)\r\n    return UIState[color] ~= nil;\r\nend\r\n\r\nfunction SelectCondition(color,name)\r\n    if UIState[color].selectedCondition == name then\r\n        ModifySelectedCondition(color,1)\r\n    else\r\n        UIState[color].selectedCondition = name;\r\n    end\r\nend\r\n\r\n------------- MODEL COMUNICATION -------------\r\n\r\nfunction ModifySelectedCondition(color,amount)\r\n    if  UIState[color].selectedCondition ~= \"\" then\r\n        ModifyCondition(color,UIState[color].selectedCondition  , amount);\r\n    end\r\nend\r\n\r\n\r\nfunction ModifyCondition(color,name,amount)\r\n    UIState[color].object_target.call(\"ModifyCondition\", {name =name  ,amount = amount});\r\nend\r\n\r\n\r\nfunction ModifyHealth(color,amount)\r\n    UIState[color].object_target.call(\"ModifyHealth\", {amount = amount});\r\nend\r\n\r\n\r\nfunction ModifyAura(color,amount)\r\n    UIState[color].object_target.call(\"ModifyAura\", {amount = amount});\r\nend\r\n\r\n------------- MOVEMENT COMUNICATION ----------\r\n\r\nfunction StartControledMove(color,range)\r\n    SetMenuLayer(color, \"Move\")\r\n    UIState[color].lockOpen = true;\r\n    MoveManager.call(\"StartControledMove\", {color = color, obj = UIState[color].object_target  });\r\n    if range ~= nil then\r\n        MoveManager.call(\"SetMoveRange\", {color = color, amount = range });\r\n    end\r\nend\r\n\r\nfunction StartFreeMove(color)\r\n    SetMenuLayer(color, \"FreeMove\")\r\n    UIState[color].lockOpen = true;\r\n    MoveManager.call(\"StartFreeMove\", {color = color, obj = UIState[color].object_target  });\r\nend\r\n\r\nfunction CleanMovement(params)\r\n    local color = params.color;\r\n    SetMenuLayer(color, \"Base\")\r\n    UIState[color].lockOpen = false;\r\nend\r\n\r\n\r\nfunction AbortMove (color)\r\n    SetMenuLayer(color, \"Base\")\r\n    UIState[color].lockOpen = false;\r\n    MoveManager.call(\"AbortMove\", {color = color, obj = UIState[color].object_target  });\r\nend\r\n\r\nfunction CompleteMove (color)\r\n    SetMenuLayer(color, \"Base\")\r\n    UIState[color].lockOpen = false;\r\n    MoveManager.call(\"CompleteMove\", {color = color, obj = UIState[color].object_target  });\r\nend\r\n\r\nfunction AddMoveStep (color)\r\n    MoveManager.call(\"AddMoveStep\", {color = color, obj = UIState[color].object_target  });\r\nend\r\n\r\nfunction RemoveMoveStep (color)\r\n    MoveManager.call(\"RemoveMoveStep\", {color = color, obj = UIState[color].object_target  });\r\nend\r\n\r\nfunction ModifyMoveRange(color, amount)\r\n    MoveManager.call(\"ModifyMoveRange\", {color = color, amount = amount });\r\nend\r\n\r\n\r\n------------- UI FEEDBACK---------------------\r\n\r\nfunction PlayerPressButton(color,number)\r\n    MenuLayers[UIState[color].menu_layer][\"_\"..number].onSelect(color);\r\nend\r\n\r\n-- function PlayerPressButtonFlash(color,number)\r\n--     local buttonId = color .. [[_Option_]] .. number;\r\n--     UI.setAttribute(buttonId,'color',\"#995500\");\r\n--     Wait.frames(function() PlayerPressButtonFlashEnd(buttonId) end, 4)\r\n-- end\r\n\r\n-- function PlayerPressButtonFlashEnd(buttonId)\r\n--     UI.setAttribute(buttonId,'color',\"#373737\")\r\n-- end\r\n\r\n\r\n-- function ChangeLayerFlash(color)\r\n--     for i = 0,9,1 do \r\n--     local buttonId = color .. [[_Option_]] .. i;\r\n--     UI.setAttribute(buttonId,'color',\"#cc9900\");\r\n--     end\r\n--     Wait.frames(function() ChangeLayerFlashEnd(color) end, 2)\r\n-- end\r\n\r\n-- function ChangeLayerFlashEnd(color) \r\n--     for i = 0,9,1 do \r\n--         local buttonId = color .. [[_Option_]] .. i;\r\n--         UI.setAttribute(buttonId,'color',\"#373737\");\r\n--     end\r\n\r\n-- end\r\n\r\n------------ DEPLOYMENT ----------------------\r\n\r\nfunction FindDeploymentOverlay()\r\nif DeploymentOverlay == nil then\r\n    for key,guid in pairs {\"c2c330\" ,\"3eed6c\",\"57825b\",\"02c08b\"} do\r\n        DeploymentOverlay = getObjectFromGUID(guid);\r\n        if DeploymentOverlay ~= nil then\r\n            break;\r\n        end\r\n    end\r\nend\r\nend\r\n\r\nfunction StateToDeployment(depState)\r\nif     depState == 1 then return \"Corner\"\r\nelseif depState == 2 then return \"Wedge\"\r\nelseif depState == 3 then return \"Standard\"\r\nelseif depState == 4 then return \"Flank\"\r\nelse   return \"????\"\r\nend\r\nend\r\nfunction tellStratsDeployment(mode)\r\nlocal strats={\"bdcaa6\",\"8e625b\"}\r\nfor index, value in ipairs(strats) do\r\n    getObjectFromGUID(value).call(\"setDeployment\",mode)\r\nend\r\nend\r\nfunction ChangeModeDeployment()\r\nFindDeploymentOverlay();\r\nUIState.deployment.mode = (UIState.deployment.mode +1)%5;\r\ntellStratsDeployment(UIState.deployment.mode)\r\nif UIState.deployment.mode == 0 then\r\n    DeploymentOverlay.setScale(Vector(0.1,1,0.1))\r\n    DeploymentOverlay.setPosition(Vector(0,-10,0))\r\nelse\r\n    DeploymentOverlay.setScale(Vector(18,1,18));\r\n    --log(DeploymentOverlay.getScale())\r\n    DeploymentOverlay.setPosition(Vector(0,0.95,0))\r\n    DeploymentOverlay.setRotation(Vector(0, UIState.deployment.rotation * 90,0));\r\n    DeploymentOverlay = DeploymentOverlay.setState(UIState.deployment.mode);\r\n    print('Deployment set to \"' .. StateToDeployment( UIState.deployment.mode) .. '\"');\r\n    Wait.frames(function() DeploymentOverlay.setScale(Vector(18,1,18)); end,1)\r\nend\r\nend\r\n\r\nfunction RotateDeployment()\r\nFindDeploymentOverlay();\r\nUIState.deployment.rotation = (UIState.deployment.rotation +1)%4;\r\nDeploymentOverlay.setRotation(Vector(0, UIState.deployment.rotation * 90,0));\r\nend\r\n\r\n------------- UI SETUP -----------------------\r\nlocal GeneralMenuOptions = {\r\n   -- Rebuild = { action = function() rebuildAssets() end, x=0, y=-1, image= \"https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/reload.png\" },\r\n    ChangeDeployment = { action = function() ChangeModeDeployment() end, x=0, y =0, image= \"https://steamusercontent-a.akamaihd.net/ugc/1755816788596196197/1D640D73C228B945161222D9AAA500E6F59A9F16/\" },\r\n    RotateDeployment = { action = function() RotateDeployment() end, x=1, y =0, image= \"https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/reload.png\" }  \r\n}\r\n\r\nfunction CallMenuAction(player,name)\r\n    GeneralMenuOptions[name].action();\r\nend\r\n\r\nfunction rebuildAssets()\r\n    local assets = {};\r\n    for optionName,details in pairs(GeneralMenuOptions) do\r\n        assets[#assets+1]={name=optionName , url = details.image};\r\n    end\r\n\r\n    UI.setCustomAssets(assets)\r\nend\r\n------------ Menu Layers ----------------\r\n    function InitMenuLayers()\r\n        MenuLayers = {\r\n            --Base = BaseMenu(),\r\n            Base = QUICKMoveMenu(),\r\n            Move = MoveMenu(), \r\n            FreeMove = FreeMoveMenu(), \r\n            ConditionToggle = ConditionToggleMenu(),\r\n            ConditionStack = ConditionStackMenu(),\r\n            Token = TokenMenu(),\r\n            ModelManipulation = ModelManipulationMenu(),\r\n        }\r\n\r\n        SetMenuLayer('Red','Base')\r\n        SetMenuLayer('Blue','Base')\r\n        SetMenuLayer('Black','Base')\r\n    end\r\n\r\n    function SetMenuLayer(color, LayerName)\r\n        if UIState[color].menu_layer ~= LayerName then\r\n            UIState[color].lockOpen = false;\r\n            UIState[color].menu_layer = LayerName;\r\n            for key,value in pairs(MenuLayers[LayerName]) do\r\n                local buttonId = color .. [[_Option]] .. key;\r\n                local descId = color .. [[_Option]] .. key .. [[_Desc]];\r\n                UI.setAttribute(descId,'text',value.desc)\r\n            end\r\n        end\r\n        --ChangeLayerFlash(color)\r\n    end\r\n\r\n    function BaseMenu()\r\n        return {\r\n            _Tittle = {desc='Model Menu'},\r\n            _10 = MenuOption(\"ACTIVATED\",    function(color) ModifyCondition(color,\"Activated\",0)  end),\r\n            _1 = MenuOption(\"COND STACK\",   function(color) SetMenuLayer(color, \"ConditionStack\") end),\r\n            _2 = MenuOption(\"COND TOGGLE\",  function(color) SetMenuLayer(color, \"ConditionToggle\") end),\r\n            _3 = MenuOption(\"TOKEN\",        function(color) SetMenuLayer(color, \"Token\") end),\r\n            _4 = MenuOption(\"CONTROLED MOVE\", function(color) StartControledMove(color) end),-- SetMenuLayer(color, \"Move\") end),\r\n            _5 = MenuOption(\"HEALTH -\",     function(color) ModifyHealth(color,-1) end),\r\n            _6 = MenuOption(\"AURA -\",       function(color) ModifyAura(color,-1) end),\r\n            _7 = MenuOption(\"FREE MOVE\",    function(color) StartFreeMove(color) end),\r\n            _8 = MenuOption(\"HEALTH +\",     function(color) ModifyHealth(color,1) end),\r\n            _9 = MenuOption(\"AURA +\",       function(color) ModifyAura(color,1) end),\r\n        }\r\n    end\r\n\r\n    function MoveMenu()\r\n        return {\r\n            _Tittle = {desc='Controled Movement'},\r\n            -- _1 = MenuOption(\"REMOVE WAYPOINT\",  function(color) RemoveMoveStep(color) end),\r\n            -- _2 = MenuOption(\"Push 1¨\",          function(color) print(\"not implemented push1¨\") end),\r\n            -- _3 = MenuOption(\"Push 1/2¨\",        function(color) print(\"not implemented push1/2¨\") end),\r\n            \r\n            -- _4 = MenuOption(\"ADD WAYPOINT\",     function(color) AddMoveStep(color) end),\r\n            -- _5 = MenuOption(\"TOWARDS/AWAY\",     function(color) print(\"Not implemented swap directions\") end),\r\n            -- _6 = MenuOption(\"DEC RANGE\",        function(color)  ModifyMoveRange(color,-1) end),\r\n            \r\n            -- _7 = MenuOption(\"COMPLETE\",         function(color) CompleteMove(color) end),\r\n            -- _8 = MenuOption(\"SEVERE/NORMAL\",    function(color) print(\"Not Implemented add servere cost\") end),\r\n            -- _9 = MenuOption(\"ADD RANGE\",        function(color) ModifyMoveRange(color,1) end),\r\n             \r\n            _1 = MenuOption(\"REMOVE WAYPOINT\",  function(color) AbortMove(color) end),\r\n            _2 = MenuOption(\"Push 1¨\",          function(color) AbortMove(color)  end),\r\n            _3 = MenuOption(\"Push 1/2¨\",        function(color) AbortMove(color)  end),\r\n            \r\n            _4 = MenuOption(\"ADD WAYPOINT\",     function(color) AbortMove(color) end),\r\n            _5 = MenuOption(\"TOWARDS/AWAY\",     function(color) AbortMove(color)  end),\r\n            _6 = MenuOption(\"DEC RANGE\",        function(color) AbortMove(color) end),\r\n            \r\n            _7 = MenuOption(\"COMPLETE\",         function(color) AbortMove(color) end),\r\n            _8 = MenuOption(\"SEVERE/NORMAL\",    function(color) AbortMove(color)  end),\r\n            _9 = MenuOption(\"ADD RANGE\",        function(color) AbortMove(color) end),\r\n            \r\n            _10 = MenuOption(\"CANCEL\",  function(color) AbortMove(color) end),\r\n        }\r\n    end\r\n\r\n    function QUICKMoveMenu()\r\n        return {\r\n            _Tittle = {desc='Controled Movement'},\r\n            _1 = MenuOption(\"Move 1¨\",  function(color) StartControledMove(color,1) end),\r\n            _2 = MenuOption(\"Move 2¨\",  function(color) StartControledMove(color,2) end),\r\n            _3 = MenuOption(\"Move 3¨\",  function(color) StartControledMove(color,3) end),\r\n            \r\n            _4 = MenuOption(\"Move 4¨\",  function(color) StartControledMove(color,4) end),\r\n            _5 = MenuOption(\"Move 5¨\",  function(color) StartControledMove(color,5) end),\r\n            _6 = MenuOption(\"Move 6¨\",  function(color) StartControledMove(color,6) end),\r\n            \r\n            _7 = MenuOption(\"Move 7¨\",  function(color) StartControledMove(color,7) end),\r\n            _8 = MenuOption(\"Move 8¨\",  function(color) StartControledMove(color,8) end),\r\n            _9 = MenuOption(\"Move 9¨\",  function(color) StartControledMove(color,9) end),\r\n            \r\n            _10 = MenuOption(\"Free Move\",  function(color) StartFreeMove(color) end),\r\n        }\r\n    end\r\n\r\n    function FreeMoveMenu()\r\n        return {\r\n            _Tittle = {desc='Free Movement'},\r\n            _1 = MenuOption(\"COMPLETE\", function(color) CompleteMove(color) end),\r\n            _2 = MenuOption(\" \",        function(color) print('not implemented') end ),\r\n            _3 = MenuOption(\" \",        function(color) print('not implemented') end ),\r\n            \r\n            _4 = MenuOption(\" \",        function(color) print('not implemented') end ),\r\n            _5 = MenuOption(\" \",        function(color) print('not implemented') end ),\r\n            _6 = MenuOption(\" \",        function(color) print('not implemented') end ),\r\n            \r\n            _7 = MenuOption(\"COMPLETE\", function(color) CompleteMove(color) end),\r\n            _8 = MenuOption(\" \",        function(color) print('not implemented') end ),\r\n            _9 = MenuOption(\" \",        function(color) print('not implemented') end ),\r\n            _10 = MenuOption(\"CANCEL\",  function(color) AbortMove(color) end),\r\n        }\r\n    end\r\n\r\n    function ConditionToggleMenu()\r\n        return {\r\n            _Tittle = {desc='Toggleable Conditions'},\r\n            _1 = MenuOption(\"BACK\",function(color) SetMenuLayer(color, \"Base\") end),\r\n            _2 = MenuOption(\"FAST/SLOW\",function(color) ModifyCondition(color,\"Fast\",1) end),\r\n            _3 = MenuOption(\"STUNNED\",function(color) ModifyCondition(color,\"Stunned\",0) end),\r\n            _4 = MenuOption(\"STAGGERED\",function(color) ModifyCondition(color,\"Staggered\",0) end),\r\n            _5 = MenuOption(\"ADVERSARY\",function(color) ModifyCondition(color,\"Adversary\",0) end),\r\n            _6 = MenuOption(\" \",function(color) print(\"option6 \") end),\r\n            _7 = MenuOption(\" \",function(color) print(\"option7 \") end),\r\n            _8 = MenuOption(\" \",function(color) print(\"option8 \") end),\r\n            _9 = MenuOption(\" \",function(color) print(\"option9 \") end),\r\n            _10 = MenuOption(\"CANCEL\",function(color) print(\"option0 \") end),\r\n        }\r\n    end\r\n\r\n    function ConditionStackMenu()\r\n        return {\r\n            _Tittle = {desc='Stackable Conditions'},\r\n            _10 = MenuOption(\"CANCEL\",function(color) SetMenuLayer(color, \"Base\") end),\r\n            _1 = MenuOption(\"REMOVE\",function(color) ModifySelectedCondition(color,-1) end),\r\n            _2 = MenuOption(\"ADD\",function(color) ModifySelectedCondition(color,1) end),\r\n            _3 = MenuOption(\"CLEAN\",function(color) ModifySelectedCondition(color,-100) end),\r\n            _4 = MenuOption(\"FOCUS\",function(color) SelectCondition(color,'Focus') end),\r\n            _5 = MenuOption(\"SHIELD\",function(color) SelectCondition(color,'Shielded') end),\r\n            _6 = MenuOption(\"BURN\",function(color) SelectCondition(color,'Burning') end),\r\n            _7 = MenuOption(\"POISON\",function(color) SelectCondition(color,'Poison') end),\r\n            _8 = MenuOption(\"INJURED\",function(color) SelectCondition(color,'Injured') end),\r\n            _9 = MenuOption(\"DISTRACTED\",function(color) SelectCondition(color,'Distracted') end),\r\n        }\r\n    end\r\n\r\n    function TokenMenu()\r\n        return {\r\n            _Tittle = {desc='Tokens'},\r\n            _10 = MenuOption(\"BACK\",function(color) SetMenuLayer(color, \"Base\") end),\r\n            _1 = MenuOption(\"POWER TOKEN\",function(color) print(\"option0 \") end),\r\n            _2 = MenuOption(\"ADD\",function(color) print(\"option2 \") end),\r\n            _3 = MenuOption(\"REMOVE\",function(color) print(\"option3 \") end),\r\n            _4 = MenuOption(\"BLOOD TOKEN\",function(color) print(\"option4 \") end),\r\n            _5 = MenuOption(\"DARK TOKEN\",function(color) print(\"option5 \") end),\r\n            _6 = MenuOption(\"BALANCE TOKEN\",function(color) print(\"option6 \") end),\r\n            _7 = MenuOption(\"GREEN TOKEN\",function(color) print(\"option7 \") end),\r\n            _8 = MenuOption(\"CORRUPTION TOKEN\",function(color) print(\"option8 \") end),\r\n            _9 = MenuOption(\"GOLD TOKEN\",function(color) print(\"option9 \") end),\r\n        }\r\n    end\r\n\r\n    function ModelManipulationMenu()\r\n        return {\r\n            _Tittle = {desc='Model Manipulation'},\r\n            _1 = MenuOption(\"BACK\",function(color) SetMenuLayer(color, \"Base\") end),\r\n            _2 = MenuOption(\"ACCEPT\",function(color) print(\"option2 \") end),\r\n            _3 = MenuOption(\"UNDO\",function(color) print(\"option3 \") end),\r\n            _4 = MenuOption(\"MOUSE WAYPOINT\",function(color) print(\"option4 \") end),\r\n            _5 = MenuOption(\"TOWARDS 1¨\",function(color) print(\"option5 \") end),\r\n            _6 = MenuOption(\"TOWARDS 1/2¨\",function(color) print(\"option6 \") end),\r\n            _7 = MenuOption(\"AWAY 1¨\",function(color) print(\"option7 \") end),\r\n            _8 = MenuOption(\"AWAY 1/2¨\",function(color) print(\"option8 \") end),\r\n            _9 = MenuOption(\" \",function(color) print(\"option9 \") end),\r\n            _10 = MenuOption(\"CANCEL\",function(color) print(\"option0 \") end),\r\n        }\r\n    end\r\n\r\n    function MenuOption(desc,exe)\r\n        return {\r\n                onSelect = exe,\r\n                desc = desc, \r\n        }\r\n    end\r\n\r\n---------- GENERAL MENU -------------\r\n    \r\n---------- Menu DOM ----------------\r\n\r\n    function ui() \r\n        return [[\r\n            <Panel color=\"#FFFFFF00\" height=\"100%\" width=\"100%\" rectAlignment=\"LowerRight\" childForceExpandWidth=\"true\" >]]..\r\n            GeneralMenu()..\r\n            -- PlayerMenu('Blue')..\r\n            -- PlayerMenu('Red')..\r\n            -- PlayerMenu('Black')..\r\n            [[</Panel>\r\n        ]];\r\n    end\r\n\r\n    function GeneralMenu()\r\n        local TextOptions = \"\";\r\n        for optionName,details in pairs(GeneralMenuOptions) do\r\n            TextOptions = TextOptions .. GeneralMenuOption(optionName,details.x,details.y,details.action);\r\n        end\r\n        return [[<Panel id='General_Menu'  height=\"40\" width=\"0\" rectAlignment=\"UpperRight\"   childForceExpandWidth=\"false\">]]..TextOptions..[[</Panel>]]\r\n    end\r\n\r\n\r\n    function GeneralMenuOption(name,x,y,fun)\r\n        local id = \"MenuOption_\" .. name ;\r\n        return [[<Button id=\"]] .. id ..[[\" width=\"40\" height=\"40\" color=\"#aaaaaaff\"  position=']] ..(x* (-45) -25).. [[ ]] .. (y*(-45)-90) .. [[ 0'  onClick=\"]].. self.getGUID()..[[/CallMenuAction(]] .. name .. [[)\" >]] ..\r\n        -- [[<Text  id=\"OptionText_]]..name ..[[\"  alignment='UpperRight' fontSize=\"15\" color=\"#d9ddde\" outline='#000000' >]].. name ..[[</Text>]]..\r\n            [[<Image  id=\"OptionImage_]]..name ..[[\" image=\"]] .. name .. [[\" color=\"#ffffffff\" rectAlignment='MiddleCenter' width='35' height='35'/>]]..\r\n        [[</Button>]];\r\n    end\r\n\r\n    -- function HUDSingleConditionBody(color,name)\r\n    --     local secondary = Conditions[name].secondary;\r\n    --     local imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\n    --     return [[\r\n    --         <Image id=\"]]..color ..[[_ConditionImage_]]..name ..[[\" image=\"]] .. imageName .. [[\" color=\"]] .. Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or '22') .. [[\" rectAlignment='LowerLeft' width='30' height='30'/>\r\n    --         <Text  id=\"]]..color ..[[_ConditionText_]]..name ..[[\" active=']] .. (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false')  ..[['  fontSize='22' text=']] .. state.conditions[name] .. [[' color='#ffffff' fontStyle='Bold'  rectAlignment='LowerLeft' outline='#000000' outlineSize='1 1' />\r\n    --     ]]\r\n    -- end\r\n\r\n\r\n\r\n    function PlayerMenu(color)\r\n        return [[\r\n            <VerticalLayout id=']]..color..[[_Menu' active='false' visibility=']]..color..[[' height=\"160\" width=\"0\" rectAlignment=\"LowerRight\"  childForceExpandWidth=\"false\">\r\n                <Text id=']] .. color .. [[_Option_Tittle_Desc' alignment='UpperRight' fontSize=\"25\" color=\"#d9ddde\" outline='#000000'   >   Model Menu</Text>\r\n            ]]..MenuButtons(color)..[[\r\n        </VerticalLayout>\r\n        ]]\r\n    end\r\n\r\n    function BaseButton(color,number,x,y,width)\r\n        return  [[<Panel id=']] .. color .. [[_Option_]]..number..[[' height=\"80\" width=\"]]..(80 * width)..[[\"  alignment='LowerLeft'  position=']] ..(x* 82 - 270 + (40 * width)).. [[ ]] .. (30 + y*(82)) .. [[ 0'  color=\"#373737\" padding='4 4 4 4' >\r\n                    <Text id=']] .. color .. [[_Option_]]..number..[[_Desc' alignment='UpperLeft' fontSize=\"11\" color=\"#d9ddde\"   >  ]].. MenuLayers.Base[\"_\"..number].desc ..[[</Text>\r\n                    <Text alignment='UpperRight' fontSize=\"14\" color=\"#d9ddde\" >]]..number..[[</Text>\r\n                </Panel>]];\r\n    end\r\n\r\n\r\n    function MenuButtons(color)\r\n        return [[\r\n            <Panel id=']] .. color .. [[_Menu_Layer' active='true' height=\"80\" width=\"0\" position='0 0 0' rectAlignment=\"LowerRight\"  childForceExpandWidth=\"true\">]]..\r\n                BaseButton(color,10,0,0,2) ..\r\n                BaseButton(color,1,0,1,1) ..\r\n                BaseButton(color,2,1,1,1) ..\r\n                BaseButton(color,3,2,1,1) ..\r\n                BaseButton(color,4,0,2,1) ..\r\n                BaseButton(color,5,1,2,1) ..\r\n                BaseButton(color,6,2,2,1) ..\r\n                BaseButton(color,7,0,3,1) ..\r\n                BaseButton(color,8,1,3,1) ..\r\n                BaseButton(color,9,2,3,1) ..\r\n            [[</Panel>\r\n        ]]\r\n    end\nend)\nreturn __bundle_require(\"Menu Manager.15fc7f.lua\")",
+      "LuaScript": "-- Bundled by luabundle {\"rootModuleName\":\"Menu Manager.15fc7f.lua\",\"version\":\"1.6.0\"}\nlocal __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)\n\tlocal loadingPlaceholder = {[{}] = true}\n\n\tlocal register\n\tlocal modules = {}\n\n\tlocal require\n\tlocal loaded = {}\n\n\tregister = function(name, body)\n\t\tif not modules[name] then\n\t\t\tmodules[name] = body\n\t\tend\n\tend\n\n\trequire = function(name)\n\t\tlocal loadedModule = loaded[name]\n\n\t\tif loadedModule then\n\t\t\tif loadedModule == loadingPlaceholder then\n\t\t\t\treturn nil\n\t\t\tend\n\t\telse\n\t\t\tif not modules[name] then\n\t\t\t\tif not superRequire then\n\t\t\t\t\tlocal identifier = type(name) == 'string' and '\\\"' .. name .. '\\\"' or tostring(name)\n\t\t\t\t\terror('Tried to require ' .. identifier .. ', but no such module has been registered')\n\t\t\t\telse\n\t\t\t\t\treturn superRequire(name)\n\t\t\t\tend\n\t\t\tend\n\n\t\t\tloaded[name] = loadingPlaceholder\n\t\t\tloadedModule = modules[name](require, loaded, register, modules)\n\t\t\tloaded[name] = loadedModule\n\t\tend\n\n\t\treturn loadedModule\n\tend\n\n\treturn require, loaded, register, modules\nend)(nil)\n__bundle_register(\"Menu Manager.15fc7f.lua\", function(require, _LOADED, __bundle_register, __bundle_modules)\nrequire(\"baseMod/MenuManager\")\nend)\n__bundle_register(\"baseMod/MenuManager\", function(require, _LOADED, __bundle_register, __bundle_modules)\n\r\n------------- MENU STATE ---------------------\r\n    \r\nlocal MenuLayers = {};\r\nlocal UIState = {\r\n    deployment = {mode=0,rotation=0};\r\n\r\n};\r\nlocal MoveManager = nil;\r\nlocal DeploymentOverlay = nil;\r\n\r\nfunction InitUIState()\r\n    UIState.Blue = DefaultPlayer()\r\n    UIState.Red = DefaultPlayer()\r\n    UIState.Black = DefaultPlayer()\r\nend\r\n\r\nfunction DefaultPlayer()\r\n    return {\r\n        active = 'false',\r\n        object_target = nil,\r\n        object_target_guid = '-1',\r\n        menu_layer = \"Base\",\r\n        selectedCondition = \"\",\r\n        lockOpen = false,\r\n    }\r\nend\r\n\r\n------------- LIFE CICLE EVENTS --------------\r\n\r\nfunction onNumberInput(params)\r\n    local color = params.color;\r\n    local number = params.number;\r\n    if UIState[color] and UIState[color].active then\r\n        -- PlayerPressButtonFlash(color, number)\r\n        PlayerPressButton(color,number) \r\n    end\r\nend\r\n\r\nfunction onScriptingButtonDown(number, color)\r\n    if UIState[color] and UIState[color].active == 'true' then\r\n        -- PlayerPressButtonFlash(color, number)\r\n        PlayerPressButton(color,number) \r\n        return true;\r\n    end\r\nend\r\n\r\nfunction onLoad()\r\n    MoveManager = getObjectFromGUID(\"17aadb\");\r\n    DeploymentOverlay = getObjectFromGUID(\"02c08b\");\r\n    \r\n    MoveManager.call(\"SetMenuManager\",{menuManager = self})\r\n    rebuildAssets();\r\n    InitUIState();\r\n    InitMenuLayers();\r\n    UI.setXml(ui());\r\nend\r\n\r\nfunction onUpdate()\r\n    for _, player in ipairs(Player.getPlayers()) do\r\n        if IsPlayerSuscribed(player.color) then\r\n            local hoveredElement = player.getHoverObject();\r\n            local RSS_Class = hoveredElement and hoveredElement.getVar(\"RSS_Class\") or 'no Hover';\r\n            \r\n            if RSS_Class == \"Model\" or RSS_Class == \"Marker\" then\r\n                ActiveMenu(player,'true');\r\n            else\r\n                ActiveMenu(player,'false');\r\n            end\r\n        end\r\n    end\r\nend\r\n\r\n------------- MENU STATE ACTIONS -------------\r\n\r\nfunction ActiveMenu(player,value)\r\n    if UIState[player.color].lockOpen == false then\r\n        if UIState[player.color].active ~= value or UIState[player.color].object_target ~= player.getHoverObject() then\r\n            -- UI.setAttribute(player.color .. '_Menu','active',value)\r\n            SetMenuLayer(player.color,'Base');\r\n            UIState[player.color].active = value;\r\n            if value == 'true' then Player_AssignTargetObject(player) else Player_CleanTargetObject(player) end\r\n        end\r\n    end\r\nend\r\n\r\nfunction Player_AssignTargetObject(player)\r\n    SetMenuLayer(player.color,\"Base\")\r\n    UIState[player.color].selectedCondition = \"\";\r\n    UIState[player.color].object_target = player.getHoverObject();\r\n    UIState[player.color].object_target_guid =  UIState[player.color].object_target.getGUID(); \r\nend\r\nfunction callMove(params)\r\n    setPlayerObjectTarget(params.color,params.obj)\r\n    StartControledMove(params.color,params.range)\r\nend\r\nfunction setPlayerObjectTarget(color,obj)\r\n    UIState[color].object_target = obj\r\n    UIState[color].object_target_guid =obj.getGUID()\r\nend\r\nfunction Player_CleanTargetObject(player)\r\n    UIState[player.color].object_target = nil;\r\n    UIState[player.color].object_target_guid = '-1';\r\nend\r\n\r\nfunction IsPlayerSuscribed(color)\r\n    return UIState[color] ~= nil;\r\nend\r\n\r\nfunction SelectCondition(color,name)\r\n    if UIState[color].selectedCondition == name then\r\n        ModifySelectedCondition(color,1)\r\n    else\r\n        UIState[color].selectedCondition = name;\r\n    end\r\nend\r\n\r\n------------- MODEL COMUNICATION -------------\r\n\r\nfunction ModifySelectedCondition(color,amount)\r\n    if  UIState[color].selectedCondition ~= \"\" then\r\n        ModifyCondition(color,UIState[color].selectedCondition  , amount);\r\n    end\r\nend\r\n\r\n\r\nfunction ModifyCondition(color,name,amount)\r\n    UIState[color].object_target.call(\"ModifyCondition\", {name =name  ,amount = amount});\r\nend\r\n\r\n\r\nfunction ModifyHealth(color,amount)\r\n    UIState[color].object_target.call(\"ModifyHealth\", {amount = amount});\r\nend\r\n\r\n\r\nfunction ModifyAura(color,amount)\r\n    UIState[color].object_target.call(\"ModifyAura\", {amount = amount});\r\nend\r\n\r\n------------- MOVEMENT COMUNICATION ----------\r\n\r\nfunction StartControledMove(color,range)\r\n    SetMenuLayer(color, \"Move\")\r\n    UIState[color].lockOpen = true;\r\n    MoveManager.call(\"StartControledMove\", {color = color, obj = UIState[color].object_target  });\r\n    if range ~= nil then\r\n        MoveManager.call(\"SetMoveRange\", {color = color, amount = range });\r\n    end\r\nend\r\n\r\nfunction StartFreeMove(color)\r\n    SetMenuLayer(color, \"FreeMove\")\r\n    UIState[color].lockOpen = true;\r\n    MoveManager.call(\"StartFreeMove\", {color = color, obj = UIState[color].object_target  });\r\nend\r\n\r\nfunction CleanMovement(params)\r\n    local color = params.color;\r\n    SetMenuLayer(color, \"Base\")\r\n    UIState[color].lockOpen = false;\r\nend\r\n\r\n\r\nfunction AbortMove (color)\r\n    SetMenuLayer(color, \"Base\")\r\n    UIState[color].lockOpen = false;\r\n    MoveManager.call(\"AbortMove\", {color = color, obj = UIState[color].object_target  });\r\nend\r\n\r\nfunction CompleteMove (color)\r\n    SetMenuLayer(color, \"Base\")\r\n    UIState[color].lockOpen = false;\r\n    MoveManager.call(\"CompleteMove\", {color = color, obj = UIState[color].object_target  });\r\nend\r\n\r\nfunction AddMoveStep (color)\r\n    MoveManager.call(\"AddMoveStep\", {color = color, obj = UIState[color].object_target  });\r\nend\r\n\r\nfunction RemoveMoveStep (color)\r\n    MoveManager.call(\"RemoveMoveStep\", {color = color, obj = UIState[color].object_target  });\r\nend\r\n\r\nfunction ModifyMoveRange(color, amount)\r\n    MoveManager.call(\"ModifyMoveRange\", {color = color, amount = amount });\r\nend\r\n\r\n\r\n------------- UI FEEDBACK---------------------\r\n\r\nfunction PlayerPressButton(color,number)\r\n\r\n    MenuLayers[UIState[color].menu_layer][\"_\"..number].onSelect(color);\r\nend\r\n\r\n-- function PlayerPressButtonFlash(color,number)\r\n--     local buttonId = color .. [[_Option_]] .. number;\r\n--     UI.setAttribute(buttonId,'color',\"#995500\");\r\n--     Wait.frames(function() PlayerPressButtonFlashEnd(buttonId) end, 4)\r\n-- end\r\n\r\n-- function PlayerPressButtonFlashEnd(buttonId)\r\n--     UI.setAttribute(buttonId,'color',\"#373737\")\r\n-- end\r\n\r\n\r\n-- function ChangeLayerFlash(color)\r\n--     for i = 0,9,1 do \r\n--     local buttonId = color .. [[_Option_]] .. i;\r\n--     UI.setAttribute(buttonId,'color',\"#cc9900\");\r\n--     end\r\n--     Wait.frames(function() ChangeLayerFlashEnd(color) end, 2)\r\n-- end\r\n\r\n-- function ChangeLayerFlashEnd(color) \r\n--     for i = 0,9,1 do \r\n--         local buttonId = color .. [[_Option_]] .. i;\r\n--         UI.setAttribute(buttonId,'color',\"#373737\");\r\n--     end\r\n\r\n-- end\r\n\r\n------------ DEPLOYMENT ----------------------\r\n\r\nfunction FindDeploymentOverlay()\r\nif DeploymentOverlay == nil then\r\n    for key,guid in pairs {\"c2c330\" ,\"3eed6c\",\"57825b\",\"02c08b\"} do\r\n        DeploymentOverlay = getObjectFromGUID(guid);\r\n        if DeploymentOverlay ~= nil then\r\n            break;\r\n        end\r\n    end\r\nend\r\nend\r\n\r\nfunction StateToDeployment(depState)\r\nif     depState == 1 then return \"Corner\"\r\nelseif depState == 2 then return \"Wedge\"\r\nelseif depState == 3 then return \"Standard\"\r\nelseif depState == 4 then return \"Flank\"\r\nelse   return \"????\"\r\nend\r\nend\r\nfunction tellStratsDeployment(mode)\r\nlocal strats={\"bdcaa6\",\"8e625b\"}\r\nfor index, value in ipairs(strats) do\r\n    getObjectFromGUID(value).call(\"setDeployment\",mode)\r\nend\r\nend\r\nfunction ChangeModeDeployment()\r\nFindDeploymentOverlay();\r\nUIState.deployment.mode = (UIState.deployment.mode +1)%5;\r\ntellStratsDeployment(UIState.deployment.mode)\r\nif UIState.deployment.mode == 0 then\r\n    DeploymentOverlay.setScale(Vector(0.1,1,0.1))\r\n    DeploymentOverlay.setPosition(Vector(0,-10,0))\r\nelse\r\n    DeploymentOverlay.setScale(Vector(18,1,18));\r\n    --log(DeploymentOverlay.getScale())\r\n    DeploymentOverlay.setPosition(Vector(0,0.95,0))\r\n    DeploymentOverlay.setRotation(Vector(0, UIState.deployment.rotation * 90,0));\r\n    DeploymentOverlay = DeploymentOverlay.setState(UIState.deployment.mode);\r\n    print('Deployment set to \"' .. StateToDeployment( UIState.deployment.mode) .. '\"');\r\n    Wait.frames(function() DeploymentOverlay.setScale(Vector(18,1,18)); end,1)\r\nend\r\nend\r\n\r\nfunction RotateDeployment()\r\nFindDeploymentOverlay();\r\nUIState.deployment.rotation = (UIState.deployment.rotation +1)%4;\r\nDeploymentOverlay.setRotation(Vector(0, UIState.deployment.rotation * 90,0));\r\nend\r\n\r\n------------- UI SETUP -----------------------\r\nlocal GeneralMenuOptions = {\r\n   -- Rebuild = { action = function() rebuildAssets() end, x=0, y=-1, image= \"https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/reload.png\" },\r\n    ChangeDeployment = { action = function() ChangeModeDeployment() end, x=0, y =0, image= \"https://steamusercontent-a.akamaihd.net/ugc/1755816788596196197/1D640D73C228B945161222D9AAA500E6F59A9F16/\" },\r\n    RotateDeployment = { action = function() RotateDeployment() end, x=1, y =0, image= \"https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/reload.png\" }  \r\n}\r\n\r\nfunction CallMenuAction(player,name)\r\n    GeneralMenuOptions[name].action();\r\nend\r\n\r\nfunction rebuildAssets()\r\n    local assets = {};\r\n    for optionName,details in pairs(GeneralMenuOptions) do\r\n        assets[#assets+1]={name=optionName , url = details.image};\r\n    end\r\n\r\n    UI.setCustomAssets(assets)\r\nend\r\n------------ Menu Layers ----------------\r\n    function InitMenuLayers()\r\n        MenuLayers = {\r\n            --Base = BaseMenu(),\r\n            Base = QUICKMoveMenu(),\r\n            Move = MoveMenu(), \r\n            FreeMove = FreeMoveMenu(), \r\n            ConditionToggle = ConditionToggleMenu(),\r\n            ConditionStack = ConditionStackMenu(),\r\n            Token = TokenMenu(),\r\n            ModelManipulation = ModelManipulationMenu(),\r\n        }\r\n\r\n        SetMenuLayer('Red','Base')\r\n        SetMenuLayer('Blue','Base')\r\n        SetMenuLayer('Black','Base')\r\n    end\r\n\r\n    function SetMenuLayer(color, LayerName)\r\n        if UIState[color].menu_layer ~= LayerName then\r\n            UIState[color].lockOpen = false;\r\n            UIState[color].menu_layer = LayerName;\r\n            for key,value in pairs(MenuLayers[LayerName]) do\r\n                local buttonId = color .. [[_Option]] .. key;\r\n                local descId = color .. [[_Option]] .. key .. [[_Desc]];\r\n                UI.setAttribute(descId,'text',value.desc)\r\n            end\r\n        end\r\n        --ChangeLayerFlash(color)\r\n    end\r\n\r\n    function BaseMenu()\r\n        return {\r\n            _Tittle = {desc='Model Menu'},\r\n            _10 = MenuOption(\"ACTIVATED\",    function(color) ModifyCondition(color,\"Activated\",0)  end),\r\n            _1 = MenuOption(\"COND STACK\",   function(color) SetMenuLayer(color, \"ConditionStack\") end),\r\n            _2 = MenuOption(\"COND TOGGLE\",  function(color) SetMenuLayer(color, \"ConditionToggle\") end),\r\n            _3 = MenuOption(\"TOKEN\",        function(color) SetMenuLayer(color, \"Token\") end),\r\n            _4 = MenuOption(\"CONTROLED MOVE\", function(color) StartControledMove(color) end),-- SetMenuLayer(color, \"Move\") end),\r\n            _5 = MenuOption(\"HEALTH -\",     function(color) ModifyHealth(color,-1) end),\r\n            _6 = MenuOption(\"AURA -\",       function(color) ModifyAura(color,-1) end),\r\n            _7 = MenuOption(\"FREE MOVE\",    function(color) StartFreeMove(color) end),\r\n            _8 = MenuOption(\"HEALTH +\",     function(color) ModifyHealth(color,1) end),\r\n            _9 = MenuOption(\"AURA +\",       function(color) ModifyAura(color,1) end),\r\n        }\r\n    end\r\n\r\n    function MoveMenu()\r\n        return {\r\n            _Tittle = {desc='Controled Movement'},\r\n            -- _1 = MenuOption(\"REMOVE WAYPOINT\",  function(color) RemoveMoveStep(color) end),\r\n            -- _2 = MenuOption(\"Push 1¨\",          function(color) print(\"not implemented push1¨\") end),\r\n            -- _3 = MenuOption(\"Push 1/2¨\",        function(color) print(\"not implemented push1/2¨\") end),\r\n            \r\n            -- _4 = MenuOption(\"ADD WAYPOINT\",     function(color) AddMoveStep(color) end),\r\n            -- _5 = MenuOption(\"TOWARDS/AWAY\",     function(color) print(\"Not implemented swap directions\") end),\r\n            -- _6 = MenuOption(\"DEC RANGE\",        function(color)  ModifyMoveRange(color,-1) end),\r\n            \r\n            -- _7 = MenuOption(\"COMPLETE\",         function(color) CompleteMove(color) end),\r\n            -- _8 = MenuOption(\"SEVERE/NORMAL\",    function(color) print(\"Not Implemented add servere cost\") end),\r\n            -- _9 = MenuOption(\"ADD RANGE\",        function(color) ModifyMoveRange(color,1) end),\r\n             \r\n            _1 = MenuOption(\"REMOVE WAYPOINT\",  function(color) AbortMove(color) end),\r\n            _2 = MenuOption(\"Push 1¨\",          function(color) AbortMove(color)  end),\r\n            _3 = MenuOption(\"Push 1/2¨\",        function(color) AbortMove(color)  end),\r\n            \r\n            _4 = MenuOption(\"ADD WAYPOINT\",     function(color) AbortMove(color) end),\r\n            _5 = MenuOption(\"TOWARDS/AWAY\",     function(color) AbortMove(color)  end),\r\n            _6 = MenuOption(\"DEC RANGE\",        function(color) AbortMove(color) end),\r\n            \r\n            _7 = MenuOption(\"COMPLETE\",         function(color) AbortMove(color) end),\r\n            _8 = MenuOption(\"SEVERE/NORMAL\",    function(color) AbortMove(color)  end),\r\n            _9 = MenuOption(\"ADD RANGE\",        function(color) AbortMove(color) end),\r\n            \r\n            _10 = MenuOption(\"CANCEL\",  function(color) AbortMove(color) end),\r\n        }\r\n    end\r\n\r\n    function QUICKMoveMenu()\r\n        return {\r\n            _Tittle = {desc='Controled Movement'},\r\n            _1 = MenuOption(\"Move 1¨\",  function(color) StartControledMove(color,1) end),\r\n            _2 = MenuOption(\"Move 2¨\",  function(color) StartControledMove(color,2) end),\r\n            _3 = MenuOption(\"Move 3¨\",  function(color) StartControledMove(color,3) end),\r\n            \r\n            _4 = MenuOption(\"Move 4¨\",  function(color) StartControledMove(color,4) end),\r\n            _5 = MenuOption(\"Move 5¨\",  function(color) StartControledMove(color,5) end),\r\n            _6 = MenuOption(\"Move 6¨\",  function(color) StartControledMove(color,6) end),\r\n            \r\n            _7 = MenuOption(\"Move 7¨\",  function(color) StartControledMove(color,7) end),\r\n            _8 = MenuOption(\"Move 8¨\",  function(color) StartControledMove(color,8) end),\r\n            _9 = MenuOption(\"Move 9¨\",  function(color) StartControledMove(color,9) end),\r\n            \r\n            _10 = MenuOption(\"Free Move\",  function(color) StartFreeMove(color) end),\r\n        }\r\n    end\r\n\r\n    function FreeMoveMenu()\r\n        return {\r\n            _Tittle = {desc='Free Movement'},\r\n            _1 = MenuOption(\"COMPLETE\", function(color) CompleteMove(color) end),\r\n            _2 = MenuOption(\" \",        function(color) print('not implemented') end ),\r\n            _3 = MenuOption(\" \",        function(color) print('not implemented') end ),\r\n            \r\n            _4 = MenuOption(\" \",        function(color) print('not implemented') end ),\r\n            _5 = MenuOption(\" \",        function(color) print('not implemented') end ),\r\n            _6 = MenuOption(\" \",        function(color) print('not implemented') end ),\r\n            \r\n            _7 = MenuOption(\"COMPLETE\", function(color) CompleteMove(color) end),\r\n            _8 = MenuOption(\" \",        function(color) print('not implemented') end ),\r\n            _9 = MenuOption(\" \",        function(color) print('not implemented') end ),\r\n            _10 = MenuOption(\"CANCEL\",  function(color) AbortMove(color) end),\r\n        }\r\n    end\r\n\r\n    function ConditionToggleMenu()\r\n        return {\r\n            _Tittle = {desc='Toggleable Conditions'},\r\n            _1 = MenuOption(\"BACK\",function(color) SetMenuLayer(color, \"Base\") end),\r\n            _2 = MenuOption(\"FAST/SLOW\",function(color) ModifyCondition(color,\"Fast\",1) end),\r\n            _3 = MenuOption(\"STUNNED\",function(color) ModifyCondition(color,\"Stunned\",0) end),\r\n            _4 = MenuOption(\"STAGGERED\",function(color) ModifyCondition(color,\"Staggered\",0) end),\r\n            _5 = MenuOption(\"ADVERSARY\",function(color) ModifyCondition(color,\"Adversary\",0) end),\r\n            _6 = MenuOption(\" \",function(color) print(\"option6 \") end),\r\n            _7 = MenuOption(\" \",function(color) print(\"option7 \") end),\r\n            _8 = MenuOption(\" \",function(color) print(\"option8 \") end),\r\n            _9 = MenuOption(\" \",function(color) print(\"option9 \") end),\r\n            _10 = MenuOption(\"CANCEL\",function(color) print(\"option0 \") end),\r\n        }\r\n    end\r\n\r\n    function ConditionStackMenu()\r\n        return {\r\n            _Tittle = {desc='Stackable Conditions'},\r\n            _10 = MenuOption(\"CANCEL\",function(color) SetMenuLayer(color, \"Base\") end),\r\n            _1 = MenuOption(\"REMOVE\",function(color) ModifySelectedCondition(color,-1) end),\r\n            _2 = MenuOption(\"ADD\",function(color) ModifySelectedCondition(color,1) end),\r\n            _3 = MenuOption(\"CLEAN\",function(color) ModifySelectedCondition(color,-100) end),\r\n            _4 = MenuOption(\"FOCUS\",function(color) SelectCondition(color,'Focus') end),\r\n            _5 = MenuOption(\"SHIELD\",function(color) SelectCondition(color,'Shielded') end),\r\n            _6 = MenuOption(\"BURN\",function(color) SelectCondition(color,'Burning') end),\r\n            _7 = MenuOption(\"POISON\",function(color) SelectCondition(color,'Poison') end),\r\n            _8 = MenuOption(\"INJURED\",function(color) SelectCondition(color,'Injured') end),\r\n            _9 = MenuOption(\"DISTRACTED\",function(color) SelectCondition(color,'Distracted') end),\r\n        }\r\n    end\r\n\r\n    function TokenMenu()\r\n        return {\r\n            _Tittle = {desc='Tokens'},\r\n            _10 = MenuOption(\"BACK\",function(color) SetMenuLayer(color, \"Base\") end),\r\n            _1 = MenuOption(\"POWER TOKEN\",function(color) print(\"option0 \") end),\r\n            _2 = MenuOption(\"ADD\",function(color) print(\"option2 \") end),\r\n            _3 = MenuOption(\"REMOVE\",function(color) print(\"option3 \") end),\r\n            _4 = MenuOption(\"BLOOD TOKEN\",function(color) print(\"option4 \") end),\r\n            _5 = MenuOption(\"DARK TOKEN\",function(color) print(\"option5 \") end),\r\n            _6 = MenuOption(\"BALANCE TOKEN\",function(color) print(\"option6 \") end),\r\n            _7 = MenuOption(\"GREEN TOKEN\",function(color) print(\"option7 \") end),\r\n            _8 = MenuOption(\"CORRUPTION TOKEN\",function(color) print(\"option8 \") end),\r\n            _9 = MenuOption(\"GOLD TOKEN\",function(color) print(\"option9 \") end),\r\n        }\r\n    end\r\n\r\n    function ModelManipulationMenu()\r\n        return {\r\n            _Tittle = {desc='Model Manipulation'},\r\n            _1 = MenuOption(\"BACK\",function(color) SetMenuLayer(color, \"Base\") end),\r\n            _2 = MenuOption(\"ACCEPT\",function(color) print(\"option2 \") end),\r\n            _3 = MenuOption(\"UNDO\",function(color) print(\"option3 \") end),\r\n            _4 = MenuOption(\"MOUSE WAYPOINT\",function(color) print(\"option4 \") end),\r\n            _5 = MenuOption(\"TOWARDS 1¨\",function(color) print(\"option5 \") end),\r\n            _6 = MenuOption(\"TOWARDS 1/2¨\",function(color) print(\"option6 \") end),\r\n            _7 = MenuOption(\"AWAY 1¨\",function(color) print(\"option7 \") end),\r\n            _8 = MenuOption(\"AWAY 1/2¨\",function(color) print(\"option8 \") end),\r\n            _9 = MenuOption(\" \",function(color) print(\"option9 \") end),\r\n            _10 = MenuOption(\"CANCEL\",function(color) print(\"option0 \") end),\r\n        }\r\n    end\r\n\r\n    function MenuOption(desc,exe)\r\n        return {\r\n                onSelect = exe,\r\n                desc = desc, \r\n        }\r\n    end\r\n\r\n---------- GENERAL MENU -------------\r\n    \r\n---------- Menu DOM ----------------\r\n\r\n    function ui() \r\n        return [[\r\n            <Panel color=\"#FFFFFF00\" height=\"100%\" width=\"100%\" rectAlignment=\"LowerRight\" childForceExpandWidth=\"true\" >]]..\r\n            GeneralMenu()..\r\n            -- PlayerMenu('Blue')..\r\n            -- PlayerMenu('Red')..\r\n            -- PlayerMenu('Black')..\r\n            [[</Panel>\r\n        ]];\r\n    end\r\n\r\n    function GeneralMenu()\r\n        local TextOptions = \"\";\r\n        for optionName,details in pairs(GeneralMenuOptions) do\r\n            TextOptions = TextOptions .. GeneralMenuOption(optionName,details.x,details.y,details.action);\r\n        end\r\n        return [[<Panel id='General_Menu'  height=\"40\" width=\"0\" rectAlignment=\"UpperRight\"   childForceExpandWidth=\"false\">]]..TextOptions..[[</Panel>]]\r\n    end\r\n\r\n\r\n    function GeneralMenuOption(name,x,y,fun)\r\n        local id = \"MenuOption_\" .. name ;\r\n        return [[<Button id=\"]] .. id ..[[\" width=\"40\" height=\"40\" color=\"#aaaaaaff\"  position=']] ..(x* (-45) -25).. [[ ]] .. (y*(-45)-90) .. [[ 0'  onClick=\"]].. self.getGUID()..[[/CallMenuAction(]] .. name .. [[)\" >]] ..\r\n        -- [[<Text  id=\"OptionText_]]..name ..[[\"  alignment='UpperRight' fontSize=\"15\" color=\"#d9ddde\" outline='#000000' >]].. name ..[[</Text>]]..\r\n            [[<Image  id=\"OptionImage_]]..name ..[[\" image=\"]] .. name .. [[\" color=\"#ffffffff\" rectAlignment='MiddleCenter' width='35' height='35'/>]]..\r\n        [[</Button>]];\r\n    end\r\n\r\n    -- function HUDSingleConditionBody(color,name)\r\n    --     local secondary = Conditions[name].secondary;\r\n    --     local imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\n    --     return [[\r\n    --         <Image id=\"]]..color ..[[_ConditionImage_]]..name ..[[\" image=\"]] .. imageName .. [[\" color=\"]] .. Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or '22') .. [[\" rectAlignment='LowerLeft' width='30' height='30'/>\r\n    --         <Text  id=\"]]..color ..[[_ConditionText_]]..name ..[[\" active=']] .. (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false')  ..[['  fontSize='22' text=']] .. state.conditions[name] .. [[' color='#ffffff' fontStyle='Bold'  rectAlignment='LowerLeft' outline='#000000' outlineSize='1 1' />\r\n    --     ]]\r\n    -- end\r\n\r\n\r\n\r\n    function PlayerMenu(color)\r\n        return [[\r\n            <VerticalLayout id=']]..color..[[_Menu' active='false' visibility=']]..color..[[' height=\"160\" width=\"0\" rectAlignment=\"LowerRight\"  childForceExpandWidth=\"false\">\r\n                <Text id=']] .. color .. [[_Option_Tittle_Desc' alignment='UpperRight' fontSize=\"25\" color=\"#d9ddde\" outline='#000000'   >   Model Menu</Text>\r\n            ]]..MenuButtons(color)..[[\r\n        </VerticalLayout>\r\n        ]]\r\n    end\r\n\r\n    function BaseButton(color,number,x,y,width)\r\n        return  [[<Panel id=']] .. color .. [[_Option_]]..number..[[' height=\"80\" width=\"]]..(80 * width)..[[\"  alignment='LowerLeft'  position=']] ..(x* 82 - 270 + (40 * width)).. [[ ]] .. (30 + y*(82)) .. [[ 0'  color=\"#373737\" padding='4 4 4 4' >\r\n                    <Text id=']] .. color .. [[_Option_]]..number..[[_Desc' alignment='UpperLeft' fontSize=\"11\" color=\"#d9ddde\"   >  ]].. MenuLayers.Base[\"_\"..number].desc ..[[</Text>\r\n                    <Text alignment='UpperRight' fontSize=\"14\" color=\"#d9ddde\" >]]..number..[[</Text>\r\n                </Panel>]];\r\n    end\r\n\r\n\r\n    function MenuButtons(color)\r\n        return [[\r\n            <Panel id=']] .. color .. [[_Menu_Layer' active='true' height=\"80\" width=\"0\" position='0 0 0' rectAlignment=\"LowerRight\"  childForceExpandWidth=\"true\">]]..\r\n                BaseButton(color,10,0,0,2) ..\r\n                BaseButton(color,1,0,1,1) ..\r\n                BaseButton(color,2,1,1,1) ..\r\n                BaseButton(color,3,2,1,1) ..\r\n                BaseButton(color,4,0,2,1) ..\r\n                BaseButton(color,5,1,2,1) ..\r\n                BaseButton(color,6,2,2,1) ..\r\n                BaseButton(color,7,0,3,1) ..\r\n                BaseButton(color,8,1,3,1) ..\r\n                BaseButton(color,9,2,3,1) ..\r\n            [[</Panel>\r\n        ]]\r\n    end\nend)\nreturn __bundle_require(\"Menu Manager.15fc7f.lua\")",
       "LuaScriptState": "",
       "XmlUI": "",
       "CustomUIAssets": [
@@ -4387,7 +4387,7 @@
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
-      "Locked": false,
+      "Locked": true,
       "Grid": false,
       "Snap": false,
       "IgnoreFoW": false,
@@ -4419,7 +4419,7 @@
         },
         "CastShadows": true
       },
-      "LuaScript": "-- Bundled by luabundle {\"rootModuleName\":\"Model Prototype.000000.lua\",\"version\":\"1.6.0\"}\nlocal __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)\n\tlocal loadingPlaceholder = {[{}] = true}\n\n\tlocal register\n\tlocal modules = {}\n\n\tlocal require\n\tlocal loaded = {}\n\n\tregister = function(name, body)\n\t\tif not modules[name] then\n\t\t\tmodules[name] = body\n\t\tend\n\tend\n\n\trequire = function(name)\n\t\tlocal loadedModule = loaded[name]\n\n\t\tif loadedModule then\n\t\t\tif loadedModule == loadingPlaceholder then\n\t\t\t\treturn nil\n\t\t\tend\n\t\telse\n\t\t\tif not modules[name] then\n\t\t\t\tif not superRequire then\n\t\t\t\t\tlocal identifier = type(name) == 'string' and '\\\"' .. name .. '\\\"' or tostring(name)\n\t\t\t\t\terror('Tried to require ' .. identifier .. ', but no such module has been registered')\n\t\t\t\telse\n\t\t\t\t\treturn superRequire(name)\n\t\t\t\tend\n\t\t\tend\n\n\t\t\tloaded[name] = loadingPlaceholder\n\t\t\tloadedModule = modules[name](require, loaded, register, modules)\n\t\t\tloaded[name] = loadedModule\n\t\tend\n\n\t\treturn loadedModule\n\tend\n\n\treturn require, loaded, register, modules\nend)(nil)\n__bundle_register(\"Model Prototype.000000.lua\", function(require, _LOADED, __bundle_register, __bundle_modules)\nrequire(\"components/ModelPrototype\")\nend)\n__bundle_register(\"components/ModelPrototype\", function(require, _LOADED, __bundle_register, __bundle_modules)\nRSS_Class = 'Model';\r\nTRH_Class =\"mini\"\r\n------ CLASS VARIABLES ----------------------\r\n\r\n\tlocal ChildObjs = {\r\n\t\taura_obj = nil\r\n\t};\r\n\tlocal Conditions = {}\r\n\tlocal originalData = nil;\r\n\tlocal state = {\r\n\t\tconditions={Flicker = 0,Backtrack = 0,AuraNegligent = 0,AuraBinding = 0,Analyzed = 0,AuraFire = 0,Greedy = 0,AuraFumes = 0,Engorged = 0,Broodling = 0,Suppresed = 0,Fright = 0,Challenged = 0,Power = 0,Glowy = 0,Perforated = 0,Brilliance = 0,Parasite = 0,Shame = 0,SpiritualChains = 0,AuraStaggered = 0,ImprovisedPart=0,Adaptable = 0,Adversary = 0,AuraConcealment = 0,AuraHazardous = 0,Bolstered = 0,Burning = 0,Craven = 0,Distracted = 0,Entranced = 0,Fast = 0,Focused = 0,Hastened = 0,Impact = 0,Injured = 0,Insight = 0,Poison = 0,Shielded = 0,Slow = 0,Staggered = 0,Stunned = 0,Summon = 0,},\r\n\t\textras={Aura = 0,Activated = 0,Mode = 0},\r\n\t\ttokens={},\r\n\t\thealth={current=-1,max= 9},\r\n\t\tbase={size=30,color=Color(1,0.5,1)},\r\n\t\timageScale=1.5,\r\n\t\t\r\n\t\tmoveHistory={},\r\n\t\t\r\n\r\n\t\treferenceCard = { GUID = '', obj = nil},\r\n\t\r\n\t};\r\n\r\n\tlocal UIStatus = {\r\n\t\tBlue = {rotation = -2},\r\n\t\tRed = {rotation = -2},\r\n\t\tBlack = {rotation = -2},\r\n\t\tGrey = {rotation = -2},\r\n\t};\r\n\r\n\t\r\n\r\n------ LIFE CICLE EVENTS --------------------\r\n\r\n\tfunction onDestroy()\r\n\t\tif (ChildObjs.aura_obj ~= nil) then ChildObjs.aura_obj.destruct() end\r\n\tend\r\n\r\n\tfunction onLoad(save)\r\n\t\t--self.script_state=onSave()\r\n\t\tsave = JSON.decode(save) or {}\r\n\t\tself.setDescription(\"RSS_Model\");\r\n\t\trecoverState(save)\r\n\r\n\t\trebuildAssets()\r\n\t\tself.UI.setXml(ui())\r\n\t\tRefreshModelShape()\r\n\t\tshowAura()\r\n\t\tWait.frames(function()resetPlayerRotation()end,60)\r\n\t\t\r\n\tend\r\n\t\r\n\tfunction onSave()\r\n\t\tlocal data={}\r\n\t\tdata.state = state;\r\n\t\tdata.originalData = originalData ~= nil and originalData or state;\r\n\t\t\r\n\t\treturn JSON.encode(data)\r\n\tend\r\n\r\n\r\n\tfunction onUpdate()\r\n\t\tfor _, player in ipairs(Player.getPlayers()) do\r\n\t\t\tif IsPlayerSuscribed(player.color) then\r\n\t\t\t\tHUDLookAtPlayer(player);\r\n\t\t\tend\r\n\t\tend\r\n\tend\r\n\r\n\tfunction recoverState(save)\r\n        if save.state ~= nil then\r\n            local defaults = state.conditions          -- your zero-defaults from the literal table\r\n\t\t\tlocal defaults2 = state.extras\r\n            state = save.state\r\n\t\t\tif state.extras==nil then\r\n                state.extras={Aura = 0,Activated = 0,Mode = 0}\r\n            end\r\n            -- re-apply any missing condition keys back to zero\r\n            for name,_ in pairs(defaults) do\r\n              state.conditions[name] = state.conditions[name] or 0\r\n            end\r\n\r\n\t\t\tfor name,_ in pairs(defaults2) do\r\n\t\t\t\tstate.extras[name] = state.extras[name] or 0\r\n\t\t\tend\r\n            -- ensure Mode is still defined\r\n            state.extras.Mode = state.extras.Mode or 0\r\n        else \r\n            \r\n            originalData = save.originalData;\r\n            state.health = originalData.health;\r\n            state.base = originalData.base;\r\n            state.imageScale = originalData.imageScale;\r\n            state.base.color = Color(state.base.color); \r\n        end\r\n\t\t\r\n\r\n\t\t-- TODO Modify State With original Data\r\n\tend\r\n\r\n------ STATE ACTIONS ------------------------\r\n\r\n\tfunction SetInitialState(newState) --Tobe called from the reference card\r\n\t\tstate.state = newState.state;\r\n\t\tstate.health = newState.health;\r\n\t\tstate.base = newState.base;\r\n\t\tstate.imageScale = newState.imageScale;\r\n\t\tstate.referenceCard = newState.referenceCard;\r\n\t\t--state.name = state.name;\r\n\tend\r\n\r\n\tfunction ModifyHealth(params)\r\n\t\tstate.health.current =math.max(0, math.min(state.health.max, state.health.current + params.amount));\t\r\n\t\tSyncHealth()\r\n\tend\r\n\r\n\tfunction ModifyAura(params)\r\n\t\tstate.extras.Aura = math.max(0,state.extras.Aura + params.amount);\r\n\t\tlocal newScale = 0;\r\n\t\tif state.extras.Aura > 0 then\r\n\t\t\tnewScale = state.extras.Aura+(state.base.size/50);\r\n\t\tend\r\n\r\n\t\tChildObjs.aura_obj.setScale(Vector(newScale,1,newScale));\r\n\t\tSyncExtra(\"Aura\")\r\n\tend\r\n\r\n\tfunction ModifyCondition(params)\r\n\t\tlocal extrasKeys = { Mode = true, Aura = true, Activated = true }\r\n\r\n\t\tlocal previousValue = 0;\r\n\r\n\t\tif extrasKeys[params.name] then \r\n\t\t\tlocal previousValue = state.extras[params.name]\r\n\t\t\tif params.amount == 0 then -- toggle\r\n\t\t\t\tstate.extras[params.name] = math.max(0, 1 - state.extras[params.name])\t\r\n\t\t\telse\r\n\t\t\t\tif Conditions[params.name].loop ~= nil then\r\n\t\t\t\t\tstate.extras[params.name] = math.max(0, (state.extras[params.name] + params.amount + Conditions[params.name].loop) % Conditions[params.name].loop)\r\n\t\t\t\telse\r\n\t\t\t\t\tstate.extras[params.name] = math.max(0, state.extras[params.name] + params.amount)\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\telse \r\n\t\t\tlocal previousValue = state.conditions[params.name]\r\n\t\t\tif params.amount == 0 then -- toggle\r\n                \r\n\t\t\t\tstate.conditions[params.name] = math.max(0, 1 - state.conditions[params.name])\r\n\t\t\telse\r\n\t\t\t\tif Conditions[params.name].loop ~= nil then\r\n\t\t\t\t\tstate.conditions[params.name] = math.max(0, (state.conditions[params.name] + params.amount + Conditions[params.name].loop) % Conditions[params.name].loop)\r\n\t\t\t\telse\r\n\t\t\t\t\tstate.conditions[params.name] = math.max(0, state.conditions[params.name] + params.amount)\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend\r\n\t\t\r\n\t\tlocal states  = self.getData();\r\n\r\n\t\tSync()\r\n\t\r\n\t\tif extrasKeys[params.name] then\r\n\t\t\tprint(self.getData().Nickname .. [[: ']] .. params.name .. [[' ]] .. previousValue .. [[->]] .. state.extras[params.name])\r\n\t\t\tSyncExtra(params.name)\r\n\t\telse\r\n            \r\n\t\t\tprint(self.getData().Nickname .. [[: ']] .. params.name .. [[' ]] .. previousValue .. [[->]] .. state.conditions[params.name])\r\n\t\t\tSyncCondition(params.name)\r\n\t\tend\r\n\r\n\r\n\tend\r\n\r\n\tfunction ModifyMoveRange(params)\r\n\t\tstate.move.moveRange = math.max(0, state.move.moveRange + params.amount);\r\n\tend\r\n\r\n------ MODEL MANIPULATION -------------------\r\n\t\r\n\tfunction AuraFollowObject(params)\r\n\t\tif ChildObjs.aura_obj ~= nil then\r\n\t\t\tChildObjs.aura_obj.setVar('parent',params.obj);\r\n\t\tend\r\n\tend\r\n\r\n\tfunction AuraResetFollow()\r\n\t\tif ChildObjs.aura_obj ~= nil then\r\n\t\t\tChildObjs.aura_obj.setVar('parent',self);\r\n\t\tend\r\n\tend\r\n\r\n\tfunction RefreshModelShape()\r\n\t\tlocal attachments = self.getAttachments()\r\n\t\tfor key,value in pairs(attachments) do\r\n\t\t\tmodelElement = self.removeAttachment(0)\r\n\t\t\tmodelElement.setCustomObject({\r\n\t\t\t\timage_scalar = tonumber(state.imageScale * 1.2)\r\n\t\t\t});\r\n\t\t\t-- modelElement.getComponent('MeshCollider').set('enabled',false)\r\n\t\t\tself.addAttachment(modelElement)\r\n\t\tend \r\n\t\tlocal baseScale = state.base.size / 25;\r\n\t\tself.setScale(Vector(baseScale,1,baseScale))\r\n\t\tRefreshBaseColor()\r\n\tend\r\n\t\r\n\tfunction RefreshBaseColor()\r\n\t\tif state.extras.Activated == 0 then\r\n\t\t\tself.setColorTint(state.base.color)\r\n\t\telse\r\n\t\t\tself.setColorTint( Color(state.base.color):lerp(Color.white, 0.45) )\r\n\t\tend\r\n\tend\r\n------ UI GENERATION ------------------------\r\n\tfunction calculatePlayerRotation()\r\n\t\tfor _, player in ipairs(Player.getPlayers()) do\r\n\t\t\tUIStatus[player.color].rotation = player.getPointerRotation() - self.getRotation().y + 180;\r\n\t\tend\r\n\tend\r\n\tfunction Sync()\r\n        resetPlayerRotation()\r\n\t\tself.UI.setXml(ui())\r\n\t\t--propagateToReferenceCard()\r\n\tend\r\n\t\r\n\tfunction SyncCondition(name)\r\n\t\tlocal secondary = Conditions[name].secondary;\r\n\t\tlocal imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\n\t\r\n\t\tfor k,color in pairs({'Red', 'Blue','Grey','Black'}) do\r\n\t\t\tself.UI.setAttributes(color..\"_ConditionImage_\".. name, {\r\n\t\t\t\tcolor= Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or '22'),\r\n\t\t\t\timage= imageName,\r\n\t\t\t});\r\n\t\t\tself.UI.setAttributes(color..\"_ConditionText_\".. name, {\r\n\t\t\t\tactive= (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false'),\r\n\t\t\t\ttext= state.conditions[name] \r\n\t\t\t});\r\n\t\tend\r\n\tend\t\r\n\r\n\tfunction SyncExtra(name)\r\n\t\tlocal secondary = Conditions[name].secondary;\r\n\t\tlocal imageName = (secondary == nil and name or (state.extras[name] > 1 and name or secondary));\r\n\t\r\n\t\tfor k,color in pairs({'Red', 'Blue','Grey','Black'}) do\r\n\t\t\tself.UI.setAttributes(color..\"_ConditionImage_\".. name, {\r\n\t\t\t\tcolor= Conditions[imageName].color .. (state.extras[name] > 0  and 'ff' or '22'),\r\n\t\t\t\timage= imageName,\r\n\t\t\t});\r\n\t\t\tself.UI.setAttributes(color..\"_ConditionText_\".. name, {\r\n\t\t\t\tactive= (Conditions[name].stacks and state.extras[name] > 0 and 'true' or 'false'),\r\n\t\t\t\ttext= state.extras[name] \r\n\t\t\t});\r\n\t\tend\r\n\r\n\t\tif name == \"Activated\" then\r\n\t\t\tRefreshBaseColor()\r\n\t\tend\r\n\tend\t\r\n\t\r\n\tfunction SyncHealth()\r\n\t\tfor k,color in pairs({'Red', 'Blue','Grey','Black'}) do\r\n\t\t\tself.UI.setAttributes( color .. \"_HealthBar_Text\", {\r\n\t\t\t\ttext = state.health.current.. [[/]] .. state.health.max\r\n\t\t\t});\r\n\t\t\tself.UI.setAttributes(color .. \"_HealthBar\", {\r\n\t\t\t\tpercentage= (state.health.current / state.health.max * 100)\r\n\t\t\t});\r\n\t\tend\r\n\tend\t\r\n\r\n\tfunction IsPlayerSuscribed(color)\r\n\t\t-- print(color .. \" -> \" ..  ((UIStatus[color] ~= nil) and 'true' or 'false') )\r\n\t\treturn UIStatus[color] ~= nil;\r\n\tend\r\n\tfunction resetPlayerRotation()\r\n\t\tfor index,player in pairs(UIStatus) do\r\n\t\t\tUIStatus[index].rotation=-2\r\n\t\tend\r\n\tend\r\n\tfunction HUDLookAtPlayer(player)\r\n        --if true then\r\n        --    return false\r\n        --end\r\n\t\tlocal playerRotation  = player.getPointerRotation();\r\n        --log(\"playerRotation\"..playerRotation)\r\n\t\tif playerRotation == nil then playerRotation = 0 end;\r\n\t\tlocal pointerRotation = playerRotation - self.getRotation().y +180;\r\n\t\tpointerRotation = math.floor((pointerRotation+15) / 30)\r\n\t\tif pointerRotation ~= UIStatus[player.color].rotation then\r\n\t\t\tself.UI.setAttribute(player.color .. '_PlayerHUDPivot','rotation','0 0 '.. -30 * pointerRotation  )\r\n\t\t\tUIStatus[player.color].rotation = pointerRotation;\r\n\t\tend\r\n\tend\r\n\r\n\tfunction ui() \r\n\t\treturn [[\r\n\t\t\t<Panel color=\"#FFFFFFff\" height=\"0\" width=\"0\" rectAlignment=\"MiddleCenter\" childForceExpandWidth=\"true\" >]]..\r\n\t\t\tPlayerHUDPivot('Blue')..\r\n\t\t\tPlayerHUDPivot('Red')..\r\n\t\t\tPlayerHUDPivot('Grey')..\r\n\t\t\tPlayerHUDPivot('Black')..\r\n\t\t\t[[</Panel>\r\n\t\t]];\r\n\tend\r\n\r\n\tfunction rebuildAssets()\r\n\t\tlocal assets = {};\r\n\t\tfor conditionName, value in pairs(Conditions) do\r\n\t\t\tassets[#assets+1]={name=conditionName , url = value.url};\r\n\t\tend\r\n\r\n\t\tself.UI.setCustomAssets(assets)\r\n\tend\r\n\r\n\tfunction PlayerHUDPivot(color)\r\n\t\treturn [[\r\n\t\t\t<Panel id=']]..color..[[_PlayerHUDPivot' visibility=']]..color..[[' height=\"160\" width=\"100\" position='0 0 -240' rotation='0 0 ]] .. - UIStatus[color].rotation .. [[' rectAlignment=\"MiddleCenter\" childForceExpandWidth=\"false\">\r\n\t\t\r\n\t\t\t]]..(state.extras.Mode == 0 and PlayerHUDContainer(color) or Compact_PlayerHUD(color))..[[\r\n\t\t</Panel>\r\n\t\t]]\r\n\tend\r\n\r\n\t\r\n\tfunction Compact_PlayerHUD(color)\r\n\t\treturn [[\r\n\t\t\t<Panel id='PlayerHUD_Container' active='true' height=\"80\" width=\"60\" rectAlignment=\"MiddleCenter\"  rotation='-35 0 0' position='0 0 0' childForceExpandWidth=\"false\">]]..\r\n\t\t\tCompact_HUDConditions(color) ..\r\n\t\t\t\t[[<ProgressBar width=\"100%\" height=\"20\" id=\"]] .. color .. [[_HealthBar\" color='#00000080' fillImageColor=\"#44AA22FF\" percentage=\"]] ..(state.health.current / state.health.max * 100) .. [[\" textColor=\"#00000000\"/>  ]] ..\r\n\t\t\t\t[[<Text id=']] .. color .. [[_HealthBar_Text' fontSize='18' height=\"20\" onClick='UI_ModifyHealth' text=']] .. state.health.current.. [[/]] .. state.health.max.. [[' color='#ffffff' fontStyle='Bold' outline='#000000' outlineSize='1 1' />]] ..\r\n\t\t\t[[</Panel>\r\n\t\t]]\r\n\tend\r\n\r\n\r\n\tfunction PlayerHUDContainer(color)\r\n\t\treturn [[\r\n\t\t\t<Panel id='PlayerHUD_Container' active='true' height=\"80\" width=\"128\" rectAlignment=\"MiddleCenter\"  rotation='-35 0 0' position='0 50 0' childForceExpandWidth=\"false\">]]..\r\n\t\t\t\tHUDConditions(color) ..\r\n\t\t\t\t[[<ProgressBar width=\"100%\" height=\"30\" id=\"]] .. color .. [[_HealthBar\" color='#00000080' fillImageColor=\"#44AA22FF\" percentage=\"]] ..(state.health.current / state.health.max * 100) .. [[\" textColor=\"#00000000\"/>  ]] ..\r\n\t\t\t\t[[<Text id=']] .. color .. [[_HealthBar_Text' fontSize='25' height=\"30\" onClick='UI_ModifyHealth' text=']] .. state.health.current.. [[/]] .. state.health.max.. [[' color='#ffffff' fontStyle='Bold' outline='#000000' outlineSize='1 1' />]] ..\r\n\t\t\t[[</Panel>\r\n\t\t]]\r\n\tend\r\n\r\n\tfunction Compact_HUDConditions(color)\r\n\t\tlocal size = 18\r\n\t\tlocal size2 = 10\r\n\t\tlocal row1 = 0\r\n\t\tlocal row2 = 0\r\n\t\tlocal output = [[<Panel width=\"100%\" rectAlignment=\"MiddleLeft\" position='0 0 0' > ]]\r\n\t\r\n\t\tfor key, value in pairs(state.conditions) do\r\n\t\t\tif value ~= 0 then\r\n\t\t\t\tif row1 < 6 then\r\n\t\t\t\t\toutput = output .. HUDSingleCondition(color, key, 0.5 + row1, 1.5, size2)\r\n\t\t\t\t\trow1 = row1 + 1\r\n\t\t\t\telse\r\n\t\t\t\t\toutput = output .. HUDSingleCondition(color, key, 0.5 + row2, 2.5, size2)\r\n\t\t\t\t\trow2 = row2 + 1\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend\r\n\t\r\n\t\toutput = output .. HUDSingleCondition(color, \"Aura\", 1.5, -1, size)\r\n\t\toutput = output .. HUDSingleCondition(color, \"Activated\", 0.5, -1, size)\r\n\t\toutput = output .. HUDSingleCondition(color, \"Mode\", 2.5, -1, size)\r\n\t\toutput = output .. [[</Panel>]]\r\n\t\r\n\t\treturn output\r\n\tend\r\n\r\n\tfunction HUDConditions(color)\r\n\t\tlocal size = 30;\r\n\t\tlocal row1 = 0;\r\n\t\tlocal row2 = 0;\r\n\t\tlocal output =  [[<Panel width=\"100%\" rectAlignment=\"MiddleLeft\" position='0 0 0' > ]]\r\n\r\n\t\tfor key, value in pairs(state.conditions) do\r\n\t\t\tif value ~= 0 then\r\n\t\t\t\tif row1 < 4 then\r\n\t\t\t\t\toutput = output .. HUDSingleCondition(color, key, row1, 1, size)\r\n\t\t\t\t\trow1 = row1 + 1\r\n\t\t\t\telse\r\n\t\t\t\t\toutput = output .. HUDSingleCondition(color, key, row2, -1, size)\r\n\t\t\t\t\trow2 = row2 + 1\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend\r\n\r\n\t\toutput = output .. HUDSingleCondition(color,\"Aura\", 4 ,1,size) \r\n\t\toutput = output .. HUDSingleCondition(color,\"Activated\", 4 ,0,size) \r\n\t\toutput = output .. HUDSingleCondition(color,\"Mode\", 4 ,-1,size) \r\n\t\toutput = output .. [[</Panel>]]\r\n\r\n\t\treturn output\r\n\tend\r\n\r\n    --Extras\r\n\tfunction UI_ModifyCondition(alt,name) if alt ~= '-3' then ModifyCondition({name=name,amount= (alt == '-1' and 1 or (alt == '-2' and -1) or 0 ) }) end end\r\n\tfunction UI_ModifyAura(p,alt) if alt ~= '-3' then ModifyAura({amount= (alt == '-1' and 1 or (alt == '-2' and -1) or 0 ) }) end end\r\n\tfunction UI_ModifyHealth(p,alt) if alt ~= '-3' then ModifyHealth({amount= (alt == '-1' and 1 or (alt == '-2' and -1) or 0 ) }) end end\r\n\r\n\tfunction UI_ModifyFlicker(p,alt) UI_ModifyCondition(\"0\",\"Flicker\") end\r\n\tfunction UI_ModifyBacktrack(p,alt) UI_ModifyCondition(\"0\",\"Backtrack\") end\r\n\tfunction UI_ModifyAuraNegligent(p,alt) UI_ModifyCondition(\"0\",\"AuraNegligent\") end\r\n\tfunction UI_ModifyAuraBinding(p,alt) UI_ModifyCondition(\"0\",\"AuraBinding\") end\r\n\tfunction UI_ModifyAnalyzed(p,alt) UI_ModifyCondition(\"0\",\"Analyzed\") end\r\n\tfunction UI_ModifyAuraFire(p,alt) UI_ModifyCondition(\"0\",\"AuraFire\") end\r\n\tfunction UI_ModifyGreedy(p,alt) UI_ModifyCondition(\"0\",\"Greedy\") end\r\n\tfunction UI_ModifyAuraFumes(p,alt) UI_ModifyCondition(\"0\",\"AuraFumes\") end\r\n\tfunction UI_ModifyEngorged(p,alt) UI_ModifyCondition(\"0\",\"Engorged\") end\r\n\tfunction UI_ModifyBroodling(p,alt) UI_ModifyCondition(\"0\",\"Broodling\") end\r\n\tfunction UI_ModifySuppresed(p,alt) UI_ModifyCondition(\"0\",\"Suppresed\") end\r\n\tfunction UI_ModifyFright(p,alt) UI_ModifyCondition(\"0\",\"Fright\") end\r\n\tfunction UI_ModifyChallenged(p,alt) UI_ModifyCondition(\"0\",\"Challenged\") end\r\n\tfunction UI_ModifyPower(p,alt) UI_ModifyCondition(\"0\",\"Power\") end\r\n\tfunction UI_ModifyGlowy(p,alt) UI_ModifyCondition(\"0\",\"Glowy\") end\r\n\tfunction UI_ModifyPerforated(p,alt) UI_ModifyCondition(\"0\",\"Perforated\") end\r\n\tfunction UI_ModifyBrilliance(p,alt) UI_ModifyCondition(\"0\",\"Brilliance\") end\r\n\tfunction UI_ModifyParasite(p,alt) UI_ModifyCondition(\"0\",\"Parasite\") end\r\n\tfunction UI_ModifyShame(p,alt) UI_ModifyCondition(\"0\",\"Shame\") end\r\n\tfunction UI_ModifySpiritualChains(p,alt) UI_ModifyCondition(\"0\",\"SpiritualChains\") end\r\n\tfunction UI_ModifyAuraStaggered(p,alt) UI_ModifyCondition(\"0\",\"AuraStaggered\") end\r\n\tfunction UI_ModifyImprovisedPart(p,alt) UI_ModifyCondition(\"0\",\"ImprovisedPart\") end\r\n\r\n\tfunction UI_ModifyAdaptable(p,alt) UI_ModifyCondition(\"0\",\"Adaptable\") end\r\n\tfunction UI_ModifyAdversary(p,alt) UI_ModifyCondition(\"0\",\"Adversary\") end\r\n\tfunction UI_ModifyAuraConcealment(p,alt) UI_ModifyCondition(\"0\",\"AuraConcealment\") end\r\n\tfunction UI_ModifyAuraHazardous(p,alt) UI_ModifyCondition(\"0\",\"AuraHazardous\") end\r\n\tfunction UI_ModifyBolstered(p,alt) UI_ModifyCondition(\"0\",\"Bolstered\") end\r\n\tfunction UI_ModifyBurning(p,alt) UI_ModifyCondition(\"0\",\"Burning\") end\r\n\tfunction UI_ModifyCraven(p,alt) UI_ModifyCondition(\"0\",\"Craven\") end\r\n\tfunction UI_ModifyDistracted(p,alt) UI_ModifyCondition(\"0\",\"Distracted\") end\r\n\tfunction UI_ModifyEntranced(p,alt) UI_ModifyCondition(\"0\",\"Entranced\") end\r\n\tfunction UI_ModifyFast(p,alt) UI_ModifyCondition(\"0\",\"Fast\") end\r\n\tfunction UI_ModifyFocused(p,alt) UI_ModifyCondition(\"0\",\"Focused\") end\r\n\tfunction UI_ModifyHastened(p,alt) UI_ModifyCondition(\"0\",\"Hastened\") end\r\n\tfunction UI_ModifyImpact(p,alt) UI_ModifyCondition(\"0\",\"Impact\") end\r\n\tfunction UI_ModifyInjured(p,alt) UI_ModifyCondition(\"0\",\"Injured\") end\r\n\tfunction UI_ModifyInsight(p,alt) UI_ModifyCondition(\"0\",\"Insight\") end\r\n\tfunction UI_ModifyPoison(p,alt) UI_ModifyCondition(\"0\",\"Poison\") end\r\n\tfunction UI_ModifyShielded(p,alt) UI_ModifyCondition(\"0\",\"Shielded\") end\r\n\tfunction UI_ModifySlow(p,alt) UI_ModifyCondition(\"0\",\"Slow\") end\r\n\tfunction UI_ModifyStaggered(p,alt) UI_ModifyCondition(\"0\",\"Staggered\") end\r\n\tfunction UI_ModifyStunned(p,alt) UI_ModifyCondition(\"0\",\"Stunned\") end\r\n\tfunction UI_ModifySummon(p,alt) UI_ModifyCondition(\"0\",\"Summon\") end\r\n\r\n\tfunction HUDSingleCondition(color,name,x,y,size)\r\n\t\r\n\t\tlocal id = \"ConditionFrame_\" .. name ;\r\n\r\n\t\treturn [[<Panel id=\"]] .. id ..[[\" width=\"]] ..size..[[\" height=\"]] ..size..[[\" alignment='LowerLeft' position=']] ..((x* (size +2)) - (1.5*size + 2)).. [[ ]] .. y*( (size +2)) .. [[ 0' ]] .. \r\n\t\t[[onClick='UI_Modify]] .. name ..[[()'>]] ..\r\n\t\t\tHUDSingleConditionBody(color,name,size)..\r\n\t\t[[</Panel>]];\r\n\tend\r\n\r\n\tfunction HUDSingleConditionBody(color,name,size)\r\n\t\tlocal extrasKeys = { Mode = true, Aura = true, Activated = true }\r\n\t\tlocal secondary = Conditions[name].secondary;\r\n\r\n\t\tif extrasKeys[name] then\r\n\t\t\tlocal imageName = (secondary == nil and name or (state.extras[name] > 1 and name or secondary));\r\n\t\t\tlocal colorBlock = Conditions[imageName].color .. (state.extras[name] > 0  and 'ff' or '22'); --.. [[|]] .. Conditions[imageName].color .. [[ff|#00000000|#00000000]];\r\n\t\t\treturn [[\r\n\t\t\t\t<Image id=\"]]..color ..[[_ConditionImage_]]..name ..[[\" image=\"]] .. imageName .. [[\" color=\"]] .. colorBlock .. [[\" rectAlignment='LowerLeft' width=']] ..size..[[' height=']] ..size..[['/>\r\n\t\t\t\t<Text  id=\"]]..color ..[[_ConditionText_]]..name ..[[\" active=']] .. (Conditions[name].stacks and state.extras[name] > 0 and 'true' or 'false')  ..[['  fontSize=']] ..math.floor(size*0.85)..[[' text=']] .. state.extras[name] .. [[' color='#ffffff' fontStyle='Bold'  rectAlignment='LowerLeft' outline='#000000' outlineSize='1 1' />\r\n\t\t\t]]\r\n\t\tend\r\n\r\n\t\tlocal imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\n\t\tlocal colorBlock = Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or '22'); --.. [[|]] .. Conditions[imageName].color .. [[ff|#00000000|#00000000]];\r\n\t\treturn [[\r\n\t\t\t<Image id=\"]]..color ..[[_ConditionImage_]]..name ..[[\" image=\"]] .. imageName .. [[\" color=\"]] .. colorBlock .. [[\" rectAlignment='LowerLeft' width=']] ..size..[[' height=']] ..size..[['/>\r\n\t\t\t<Text  id=\"]]..color ..[[_ConditionText_]]..name ..[[\" active=']] .. (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false')  ..[['  fontSize=']] ..math.floor(size*0.85)..[[' text=']] .. state.conditions[name] .. [[' color='#ffffff' fontStyle='Bold'  rectAlignment='LowerLeft' outline='#000000' outlineSize='1 1' />\r\n\t\t]]\r\n\t\r\n\tend\r\n\r\n\r\n\tConditions = {\r\n\t\tFlicker ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Flicker.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tBacktrack ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Backtrack.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tAuraNegligent ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Aura%20(Negligent).png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tAuraBinding ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Aura%20(Binding).png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tAnalyzed ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Analyzed.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tAuraFire ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Aura%20(Fire).png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tGreedy ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Greedy.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tAuraFumes ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Aura%20(Fumes).png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tEngorged ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Engorged.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tBroodling ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Broodling.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tSuppresed ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Suppressed.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tFright ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Fright.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tChallenged ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Challenged.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tPower ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Power.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tGlowy ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Glowy.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tPerforated ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Perforated.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tBrilliance ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Brilliance.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tParasite ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Parasite.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tShame ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Shame.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tSpiritualChains ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/SpiritualChains.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tAuraStaggered ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Aura%20(Staggered).png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tImprovisedPart ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Tokens/ImprovisedPart.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tAdaptable ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Adaptable.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tAdversary ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Adversary.png\", color=\"#DF2020\",stacks=false},\r\n\t\tAuraConcealment ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Aura%20(Concealment).png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tAuraHazardous ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Aura%20(Hazardous).png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tBolstered ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Bolstered.png\", color=\"#F53423\",stacks=false},\r\n\t\tBurning ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Burning.png\", color=\"#DB8E47\",stacks=false},\r\n\t\tCraven ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Craven.png\", color=\"#FF87DC\",stacks=false},\r\n\t\tDistracted ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Distracted.png\", color=\"#FF42CF\",stacks=false},\r\n\t\tEntranced ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Entranced.png\", color=\"#A020F0\",stacks=false},\r\n\t\tFast ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Fast.png\", color=\"#E2D064\",stacks=false},\r\n\t\tFocused ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Focused.png\", color=\"#9A37D3\",stacks=false},\r\n\t\tHastened ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Hastened.png\", color=\"#FEE711\",stacks=false},\r\n\t\tImpact ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Impact.png\", color=\"#E9B175\",stacks=false},\r\n\t\tInjured ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Injured.png\", color=\"#920606\",stacks=false},\r\n\t\tInsight ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Insight.png\", color=\"#B7FFDF\",stacks=false},\r\n\t\tPoison ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Poisoned.png\", color=\"#83CD4D\",stacks=false},\r\n\t\tShielded ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Shielded.png\", color=\"#6AC3FF\",stacks=false},\r\n\t\tSlow ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Slowed.png\", color=\"#B8B8B8\",stacks=false},\r\n\t\tStaggered ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Staggered.png\", color=\"#138C01\",stacks=false},\r\n\t\tStunned ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Stunned.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tSummon ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Summon.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tAura = { url=\"https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png\", color=\"#99aa22\", stacks=true },\r\n\t\tActivated  = { url=\"https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/flag.png\", color=\"#bbbb22\", stacks=false },\r\n\t\tMode  = { url=\"https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/gear.png\", color=\"#bbffbb\", stacks=false, loop = 2 }\r\n\t\t\r\n\t}\r\n\r\n------ Object SPAWMERS ----------------------\r\n\r\n\tfunction showAura()\r\n\r\n\t\tlocal a=(state.extras.Aura > 0) and (state.extras.Aura+(state.base.size/50)) or 0; --based on model base size\r\n\t\r\n\t\tlocal me = self\r\n\t\tlocal clr = self.getColorTint()\r\n\t\t\tChildObjs.aura_obj=spawnObject({\r\n\t\t\ttype='custom_model',\r\n\t\t\tposition=self.getPosition(),\r\n\t\t\trotation=self.getRotation(),\r\n\t\t\tscale={a,1,a},\r\n\t\t\tmass=0,\r\n\t\t\tuse_gravity=false,\r\n\t\t\tsound=false,\r\n\t\t\tsnap_to_grid=false,\r\n\t\t\tcallback_function=function(b)\r\n\t\t\t\tb.setColorTint(clr)\r\n\t\t\t\tb.setVar('parent',self)\r\n\t\t\t\tb.setLuaScript([[\r\n\t\t\t\t\tlocal lastParent = nil\r\n\t\t\t\t\tlocal clock = 2\r\n\t\t\t\t\tfunction onLoad() \r\n\t\t\t\t\t\t(self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false)\r\n\t\t\t\t\t\tWait.condition(\r\n\t\t\t\t\t\t\tfunction() \r\n\t\t\t\t\t\t\t\t(self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false) \r\n\t\t\t\t\t\t\tend, \r\n\t\t\t\t\t\t\tfunction() \r\n\t\t\t\t\t\t\t\treturn not(self.loading_custom) \r\n\t\t\t\t\t\t\tend\r\n\t\t\t\t\t\t) \r\n\t\t\t\t\tend \r\n\t\t\t\t\tfunction onUpdate() \r\n\t\t\t\t\t\tif (parent ~= nil) then \r\n\t\t\t\t\t\t\tif clock < 0 then\r\n\t\t\t\t\t\t\t\tclock = 2;\r\n\t\t\t\t\t\t\t\tif self.getPosition():distance(parent.getPosition()) > 0.01 then\r\n\t\t\t\t\t\t\t\t\tself.setPosition(parent.getPosition())\r\n\t\t\t\t\t\t\t\t\tself.setRotation(parent.getRotation()) \r\n\t\t\t\t\t\t\t\tend\r\n\t\t\t\t\t\t\telse\r\n\t\t\t\t\t\t\t\tclock = clock - 1\r\n\t\t\t\t\t\t\tend\r\n\t\t\t\t\t\telse \r\n\t\t\t\t\t\t\tself.destruct() \r\n\t\t\t\t\t\tend \r\n\t\t\t\t\tend\r\n\t\t\t\t]])\r\n\t\t\t\tb.getComponent('MeshRenderer').set('receiveShadows',false)\r\n\t\t\t\tb.mass=0\r\n\t\t\t\tb.bounciness=0\r\n\t\t\t\tb.drag=0\r\n\t\t\t\tb.use_snap_points=false\r\n\t\t\t\tb.use_grid=false\r\n\t\t\t\tb.use_gravity=false\r\n\t\t\t\tb.auto_raise=false\r\n\t\t\t\tb.auto_raise=false\r\n\t\t\t\tb.sticky=false\r\n\t\t\t\tb.interactable=false\r\n\t\t\tend\r\n\t\t})\r\n\t\tChildObjs.aura_obj.setCustomObject({\r\n\t\t\tmesh='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/components/arcs/round0.obj',\r\n\t\t\tcollider='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/utility/null_COL.obj',\r\n\t\t\tmaterial=3,\r\n\t\t\tspecularIntensity=0,\r\n\t\t\tcast_shadows=false\r\n\t\t})\r\n\tend\r\n------ Wip ----------------------------------\r\n\tfunction addMarker(config)\r\n\t\t\r\n        local name=config.name:gsub(\"%(\",\"\"):gsub(\"%)\",\"\"):gsub(\"%s+\",\"\")\r\n\t\tif Conditions[name] then\r\n\t\t\tif state.conditions[name]==0 then\r\n\t\t\t\tModifyCondition({name=name,amount= 1 })\r\n\t\t\telse\r\n\t\t\t\tModifyCondition({name=name,amount= -1 })\r\n\t\t\tend --[[\r\n\t\t\tif name==\"Fast\" then\r\n\t\t\t\tif state.conditions[\"Fast\"]==1 then\r\n\t\t\t\t\tModifyCondition({name=\"Fast\",amount= 2 })\r\n\t\t\t\telse\r\n\t\t\t\t\tstate.conditions[\"Fast\"]=0\r\n\t\t\t\t\tModifyCondition({name=\"Fast\",amount= 2 })    \r\n\t\t\t\tend\r\n\t\t\telseif name==\"Slow\" then\r\n\t\t\t\tif state.conditions[\"Fast\"]==2 then\r\n\t\t\t\t\tModifyCondition({name=\"Fast\",amount= 1 })\r\n\t\t\t\telse\r\n\t\t\t\t\tstate.conditions[\"Fast\"]=0\r\n\t\t\t\t\tModifyCondition({name=\"Fast\",amount= 1 })    \r\n\t\t\t\tend\r\n\t\t\telse\r\n\t\t\t\t\r\n\t\t\t\t       \r\n\t\t\tend\r\n\t\t\t]]\r\n\t\t\treturn true\r\n\r\n\t\telse\r\n\t\t\treturn false\r\n\t\tend\r\n\tend\r\n\r\n\tfunction end_round() \r\n\t\tModifyCondition({name=\"Activated\",amount= -1 })\r\n\t\tif state.conditions[\"Poison\"]>0 then\r\n\t\t\tModifyCondition({name=\"Poison\",amount= -1 })\r\n\t\t\tModifyHealth({amount=-1})\r\n\t\t\textra_damage = math.floor(state.conditions[\"Poison\"]/3)\r\n\t\t\tModifyHealth({amount=extra_damage*-1})\r\n\t\tend\r\n\t\tif state.conditions[\"Burning\"]>0 then\r\n\t\t\tModifyHealth({amount=-1})\r\n\t\t\textra_damage = math.floor(state.condition[\"Burning\"]/3)\r\n\t\t\tModifyHealth({amount=extra_damage*-1})\r\n\t\tend\r\n\t\tModifyCondition({name=\"Injured\",amount= -1 })\r\n\t\tModifyCondition({name=\"Adversary\",amount= -1 })\r\n\tend\r\n------ END ----------------------------------\nend)\nreturn __bundle_require(\"Model Prototype.000000.lua\")",
+      "LuaScript": "-- Bundled by luabundle {\"rootModuleName\":\"Model Prototype.000000.lua\",\"version\":\"1.6.0\"}\nlocal __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)\n\tlocal loadingPlaceholder = {[{}] = true}\n\n\tlocal register\n\tlocal modules = {}\n\n\tlocal require\n\tlocal loaded = {}\n\n\tregister = function(name, body)\n\t\tif not modules[name] then\n\t\t\tmodules[name] = body\n\t\tend\n\tend\n\n\trequire = function(name)\n\t\tlocal loadedModule = loaded[name]\n\n\t\tif loadedModule then\n\t\t\tif loadedModule == loadingPlaceholder then\n\t\t\t\treturn nil\n\t\t\tend\n\t\telse\n\t\t\tif not modules[name] then\n\t\t\t\tif not superRequire then\n\t\t\t\t\tlocal identifier = type(name) == 'string' and '\\\"' .. name .. '\\\"' or tostring(name)\n\t\t\t\t\terror('Tried to require ' .. identifier .. ', but no such module has been registered')\n\t\t\t\telse\n\t\t\t\t\treturn superRequire(name)\n\t\t\t\tend\n\t\t\tend\n\n\t\t\tloaded[name] = loadingPlaceholder\n\t\t\tloadedModule = modules[name](require, loaded, register, modules)\n\t\t\tloaded[name] = loadedModule\n\t\tend\n\n\t\treturn loadedModule\n\tend\n\n\treturn require, loaded, register, modules\nend)(nil)\n__bundle_register(\"Model Prototype.000000.lua\", function(require, _LOADED, __bundle_register, __bundle_modules)\nrequire(\"components/ModelPrototype\")\nend)\n__bundle_register(\"components/ModelPrototype\", function(require, _LOADED, __bundle_register, __bundle_modules)\nRSS_Class = 'Model';\r\nTRH_Class =\"mini\"\r\nmodelPlayer=\"Blue\"\r\n------ CLASS VARIABLES ----------------------\r\n\r\n\tlocal ChildObjs = {\r\n\t\taura_obj = nil\r\n\t};\r\n\t\r\n\tlocal Conditions = {}\r\n\tlocal originalData = nil;\r\n\tlocal state = {\r\n\t\tconditions={Flicker = 0,Backtrack = 0,AuraNegligent = 0,AuraBinding = 0,Analyzed = 0,AuraFire = 0,Greedy = 0,AuraFumes = 0,Engorged = 0,Broodling = 0,Suppresed = 0,Fright = 0,Challenged = 0,Power = 0,Glowy = 0,Perforated = 0,Brilliance = 0,Parasite = 0,Shame = 0,SpiritualChains = 0,AuraStaggered = 0,ImprovisedPart=0,Adaptable = 0,Adversary = 0,AuraConcealment = 0,AuraHazardous = 0,Bolstered = 0,Burning = 0,Craven = 0,Distracted = 0,Entranced = 0,Fast = 0,Focused = 0,Hastened = 0,Impact = 0,Injured = 0,Insight = 0,Poison = 0,Shielded = 0,Slow = 0,Staggered = 0,Stunned = 0,Summon = 0,},\r\n\t\textras={Aura = 0,Activated = 0,Mode = 0},\r\n\t\ttokens={},\r\n\t\thealth={current=-1,max= 9},\r\n\t\tbase={size=30,color=Color(1,0.5,1)},\r\n\t\timageScale=1.5,\r\n\t\t\r\n\t\tmoveHistory={},\r\n\t\t\r\n\r\n\t\treferenceCard = { GUID = '', obj = nil},\r\n\t\r\n\t};\r\n\r\n\tlocal UIStatus = {\r\n\t\tBlue = {rotation = -2},\r\n\t\tRed = {rotation = -2},\r\n\t\tBlack = {rotation = -2},\r\n\t\tGrey = {rotation = -2},\r\n\t};\r\n\r\n\t\r\n\r\n------ LIFE CICLE EVENTS --------------------\r\n\r\n\tfunction onDestroy()\r\n\t\tif (ChildObjs.aura_obj ~= nil) then ChildObjs.aura_obj.destruct() end\r\n\tend\r\n\r\n\tfunction onLoad(save)\r\n\t\tself.setLock(true)--dont froget to remove this\r\n\t\t--self.script_state=onSave()\r\n\t\tsave = JSON.decode(save) or {}\r\n\t\tself.setDescription(\"RSS_Model\");\r\n\t\trecoverState(save)\r\n\r\n\t\trebuildAssets()\r\n\t\tself.UI.setXml(ui())\r\n\t\tRefreshModelShape()\r\n\t\tshowAura()\r\n\t\tWait.frames(function()resetPlayerRotation()end,60)\r\n\t\t\r\n\tend\r\n\t\r\n\tfunction onSave()\r\n\t\tlocal data={}\r\n\t\tdata.state = state;\r\n\t\tdata.originalData = originalData ~= nil and originalData or state;\r\n\t\t\r\n\t\treturn JSON.encode(data)\r\n\tend\r\n\r\n\r\n\tfunction onUpdate()\r\n\t\tfor _, player in ipairs(Player.getPlayers()) do\r\n\t\t\tif IsPlayerSuscribed(player.color) then\r\n\t\t\t\tHUDLookAtPlayer(player);\r\n\t\t\tend\r\n\t\tend\r\n\tend\r\n\r\n\tfunction recoverState(save)\r\n        if save.state ~= nil then\r\n            local defaults = state.conditions          -- your zero-defaults from the literal table\r\n\t\t\tlocal defaults2 = state.extras\r\n            state = save.state\r\n\t\t\tif state.extras==nil then\r\n                state.extras={Aura = 0,Activated = 0,Mode = 0}\r\n            end\r\n            -- re-apply any missing condition keys back to zero\r\n            for name,_ in pairs(defaults) do\r\n              state.conditions[name] = state.conditions[name] or 0\r\n            end\r\n\r\n\t\t\tfor name,_ in pairs(defaults2) do\r\n\t\t\t\tstate.extras[name] = state.extras[name] or 0\r\n\t\t\tend\r\n            -- ensure Mode is still defined\r\n            state.extras.Mode = state.extras.Mode or 0\r\n        else \r\n            \r\n            originalData = save.originalData;\r\n            state.health = originalData.health;\r\n            state.base = originalData.base;\r\n            state.imageScale = originalData.imageScale;\r\n            state.base.color = Color(state.base.color); \r\n        end\r\n\t\t\r\n\r\n\t\t-- TODO Modify State With original Data\r\n\tend\r\n\r\n------ STATE ACTIONS ------------------------\r\n\r\n\tfunction SetInitialState(newState) --Tobe called from the reference card\r\n\t\tstate.state = newState.state;\r\n\t\tstate.health = newState.health;\r\n\t\tstate.base = newState.base;\r\n\t\tstate.imageScale = newState.imageScale;\r\n\t\tstate.referenceCard = newState.referenceCard;\r\n\t\t--state.name = state.name;\r\n\tend\r\n\r\n\tfunction ModifyHealth(params)\r\n\t\tstate.health.current =math.max(0, math.min(state.health.max, state.health.current + params.amount));\t\r\n\t\tSyncHealth()\r\n\tend\r\n\r\n\tfunction ModifyAura(params)\r\n\t\tstate.extras.Aura = math.max(0,state.extras.Aura + params.amount);\r\n\t\tlocal newScale = 0;\r\n\t\tif state.extras.Aura > 0 then\r\n\t\t\tnewScale = state.extras.Aura+(state.base.size/50);\r\n\t\tend\r\n\r\n\t\tChildObjs.aura_obj.setScale(Vector(newScale,1,newScale));\r\n\t\tSyncExtra(\"Aura\")\r\n\tend\r\n\r\n\tfunction ModifyCondition(params)\r\n\t\tlocal extrasKeys = { Mode = true, Aura = true, Activated = true }\r\n\r\n\t\tlocal previousValue = 0;\r\n\r\n\t\tif extrasKeys[params.name] then \r\n\t\t\tlocal previousValue = state.extras[params.name]\r\n\t\t\tif params.amount == 0 then -- toggle\r\n\t\t\t\tstate.extras[params.name] = math.max(0, 1 - state.extras[params.name])\t\r\n\t\t\telse\r\n\t\t\t\tif Conditions[params.name].loop ~= nil then\r\n\t\t\t\t\tstate.extras[params.name] = math.max(0, (state.extras[params.name] + params.amount + Conditions[params.name].loop) % Conditions[params.name].loop)\r\n\t\t\t\telse\r\n\t\t\t\t\tstate.extras[params.name] = math.max(0, state.extras[params.name] + params.amount)\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\telse \r\n\t\t\tlocal previousValue = state.conditions[params.name]\r\n\t\t\tif params.amount == 0 then -- toggle\r\n                \r\n\t\t\t\tstate.conditions[params.name] = math.max(0, 1 - state.conditions[params.name])\r\n\t\t\telse\r\n\t\t\t\tif Conditions[params.name].loop ~= nil then\r\n\t\t\t\t\tstate.conditions[params.name] = math.max(0, (state.conditions[params.name] + params.amount + Conditions[params.name].loop) % Conditions[params.name].loop)\r\n\t\t\t\telse\r\n\t\t\t\t\tstate.conditions[params.name] = math.max(0, state.conditions[params.name] + params.amount)\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend\r\n\t\t\r\n\t\tlocal states  = self.getData();\r\n\r\n\t\tSync()\r\n\t\r\n\t\tif extrasKeys[params.name] then\r\n\t\t\tprint(self.getData().Nickname .. [[: ']] .. params.name .. [[' ]] .. previousValue .. [[->]] .. state.extras[params.name])\r\n\t\t\tSyncExtra(params.name)\r\n\t\telse\r\n            \r\n\t\t\tprint(self.getData().Nickname .. [[: ']] .. params.name .. [[' ]] .. previousValue .. [[->]] .. state.conditions[params.name])\r\n\t\t\tSyncCondition(params.name)\r\n\t\tend\r\n\r\n\r\n\tend\r\n\r\n\tfunction ModifyMoveRange(params)\r\n\t\tstate.move.moveRange = math.max(0, state.move.moveRange + params.amount);\r\n\tend\r\n\r\n------ MODEL MANIPULATION -------------------\r\n\t\r\n\tfunction AuraFollowObject(params)\r\n\t\tif ChildObjs.aura_obj ~= nil then\r\n\t\t\tChildObjs.aura_obj.setVar('parent',params.obj);\r\n\t\tend\r\n\tend\r\n\r\n\tfunction AuraResetFollow()\r\n\t\tif ChildObjs.aura_obj ~= nil then\r\n\t\t\tChildObjs.aura_obj.setVar('parent',self);\r\n\t\tend\r\n\tend\r\n\r\n\tfunction RefreshModelShape()\r\n\t\tlocal attachments = self.getAttachments()\r\n\t\tfor key,value in pairs(attachments) do\r\n\t\t\tmodelElement = self.removeAttachment(0)\r\n\t\t\tmodelElement.setCustomObject({\r\n\t\t\t\timage_scalar = tonumber(state.imageScale * 1.2)\r\n\t\t\t});\r\n\t\t\t-- modelElement.getComponent('MeshCollider').set('enabled',false)\r\n\t\t\tself.addAttachment(modelElement)\r\n\t\tend \r\n\t\tlocal baseScale = state.base.size / 25;\r\n\t\tself.setScale(Vector(baseScale,1,baseScale))\r\n\t\tRefreshBaseColor()\r\n\tend\r\n\t\r\n\tfunction RefreshBaseColor()\r\n\t\tif state.extras.Activated == 0 then\r\n\t\t\tself.setColorTint(state.base.color)\r\n\t\telse\r\n\t\t\tself.setColorTint( Color(state.base.color):lerp(Color.white, 0.45) )\r\n\t\tend\r\n\tend\r\n------ UI GENERATION ------------------------\r\n\tfunction calculatePlayerRotation()\r\n\t\tfor _, player in ipairs(Player.getPlayers()) do\r\n\t\t\tUIStatus[player.color].rotation = player.getPointerRotation() - self.getRotation().y + 180;\r\n\t\tend\r\n\tend\r\n\tfunction Sync()\r\n        resetPlayerRotation()\r\n\t\tself.UI.setXml(ui())\r\n\t\t--propagateToReferenceCard()\r\n\tend\r\n\t\r\n\tfunction SyncCondition(name)\r\n\t\tlocal secondary = Conditions[name].secondary;\r\n\t\tlocal imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\n\t\r\n\t\tfor k,color in pairs({'Red', 'Blue','Grey','Black'}) do\r\n\t\t\tself.UI.setAttributes(color..\"_ConditionImage_\".. name, {\r\n\t\t\t\tcolor= Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or '22'),\r\n\t\t\t\timage= imageName,\r\n\t\t\t});\r\n\t\t\tself.UI.setAttributes(color..\"_ConditionText_\".. name, {\r\n\t\t\t\tactive= (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false'),\r\n\t\t\t\ttext= state.conditions[name] \r\n\t\t\t});\r\n\t\tend\r\n\tend\t\r\n\r\n\tfunction SyncExtra(name)\r\n\t\tlocal secondary = Conditions[name].secondary;\r\n\t\tlocal imageName = (secondary == nil and name or (state.extras[name] > 1 and name or secondary));\r\n\t\r\n\t\tfor k,color in pairs({'Red', 'Blue','Grey','Black'}) do\r\n\t\t\tself.UI.setAttributes(color..\"_ConditionImage_\".. name, {\r\n\t\t\t\tcolor= Conditions[imageName].color .. (state.extras[name] > 0  and 'ff' or '22'),\r\n\t\t\t\timage= imageName,\r\n\t\t\t});\r\n\t\t\tself.UI.setAttributes(color..\"_ConditionText_\".. name, {\r\n\t\t\t\tactive= (Conditions[name].stacks and state.extras[name] > 0 and 'true' or 'false'),\r\n\t\t\t\ttext= state.extras[name] \r\n\t\t\t});\r\n\t\tend\r\n\r\n\t\tif name == \"Activated\" then\r\n\t\t\tRefreshBaseColor()\r\n\t\tend\r\n\tend\t\r\n\t\r\n\tfunction SyncHealth()\r\n\t\tfor k,color in pairs({'Red', 'Blue','Grey','Black'}) do\r\n\t\t\tself.UI.setAttributes( color .. \"_HealthBar_Text\", {\r\n\t\t\t\ttext = state.health.current.. [[/]] .. state.health.max\r\n\t\t\t});\r\n\t\t\tself.UI.setAttributes(color .. \"_HealthBar\", {\r\n\t\t\t\tpercentage= (state.health.current / state.health.max * 100)\r\n\t\t\t});\r\n\t\tend\r\n\tend\t\r\n\r\n\tfunction IsPlayerSuscribed(color)\r\n\t\t-- print(color .. \" -> \" ..  ((UIStatus[color] ~= nil) and 'true' or 'false') )\r\n\t\treturn UIStatus[color] ~= nil;\r\n\tend\r\n\tfunction resetPlayerRotation()\r\n\t\tfor index,player in pairs(UIStatus) do\r\n\t\t\tUIStatus[index].rotation=-2\r\n\t\tend\r\n\tend\r\n\tfunction HUDLookAtPlayer(player)\r\n        --if true then\r\n        --    return false\r\n        --end\r\n\t\tlocal playerRotation  = player.getPointerRotation();\r\n        --log(\"playerRotation\"..playerRotation)\r\n\t\tif playerRotation == nil then playerRotation = 0 end;\r\n\t\tlocal pointerRotation = playerRotation - self.getRotation().y +180;\r\n\t\tpointerRotation = math.floor((pointerRotation+15) / 30)\r\n\t\tif pointerRotation ~= UIStatus[player.color].rotation then\r\n\t\t\tself.UI.setAttribute(player.color .. '_PlayerHUDPivot','rotation','0 0 '.. -30 * pointerRotation  )\r\n\t\t\tUIStatus[player.color].rotation = pointerRotation;\r\n\t\tend\r\n\tend\r\n\r\n\tfunction ui() \r\n\t\treturn [[\r\n\t\t\t<Panel color=\"#FFFFFFff\" height=\"0\" width=\"0\" rectAlignment=\"MiddleCenter\" childForceExpandWidth=\"true\" >]]..\r\n\t\t\tPlayerHUDPivot('Blue')..\r\n\t\t\tPlayerHUDPivot('Red')..\r\n\t\t\tPlayerHUDPivot('Grey')..\r\n\t\t\tPlayerHUDPivot('Black')..\r\n\t\t\t[[</Panel>\r\n\t\t]];\r\n\tend\r\n\r\n\tfunction rebuildAssets()\r\n\t\tlocal assets = {};\r\n\t\tfor conditionName, value in pairs(Conditions) do\r\n\t\t\tassets[#assets+1]={name=conditionName , url = value.url};\r\n\t\tend\r\n\r\n\t\tself.UI.setCustomAssets(assets)\r\n\tend\r\n\r\n\tfunction PlayerHUDPivot(color)\r\n\t\treturn [[\r\n\t\t\t<Panel id=']]..color..[[_PlayerHUDPivot' visibility=']]..color..[[' height=\"160\" width=\"100\" position='0 0 -240' rotation='0 0 ]] .. - UIStatus[color].rotation .. [[' rectAlignment=\"MiddleCenter\" childForceExpandWidth=\"false\">\r\n\t\t\r\n\t\t\t]]..(state.extras.Mode == 0 and PlayerHUDContainer(color) or Compact_PlayerHUD(color))..[[\r\n\t\t</Panel>\r\n\t\t]]\r\n\tend\r\n\r\n\t\r\n\tfunction Compact_PlayerHUD(color)\r\n\t\treturn [[\r\n\t\t\t<Panel id='PlayerHUD_Container' active='true' height=\"80\" width=\"60\" rectAlignment=\"MiddleCenter\"  rotation='-35 0 0' position='0 0 0' childForceExpandWidth=\"false\">]]..\r\n\t\t\tCompact_HUDConditions(color) ..\r\n\t\t\t\t[[<ProgressBar width=\"100%\" height=\"20\" id=\"]] .. color .. [[_HealthBar\" color='#00000080' fillImageColor=\"#44AA22FF\" percentage=\"]] ..(state.health.current / state.health.max * 100) .. [[\" textColor=\"#00000000\"/>  ]] ..\r\n\t\t\t\t[[<Text id=']] .. color .. [[_HealthBar_Text' fontSize='18' height=\"20\" onClick='UI_ModifyHealth' text=']] .. state.health.current.. [[/]] .. state.health.max.. [[' color='#ffffff' fontStyle='Bold' outline='#000000' outlineSize='1 1' />]] ..\r\n\t\t\t[[</Panel>\r\n\t\t]]\r\n\tend\r\n\r\n\r\n\tfunction PlayerHUDContainer(color)\r\n\t\treturn [[\r\n\t\t\t<Panel id='PlayerHUD_Container' active='true' height=\"80\" width=\"128\" rectAlignment=\"MiddleCenter\"  rotation='-35 0 0' position='0 50 0' childForceExpandWidth=\"false\">]]..\r\n\t\t\t\tHUDConditions(color) ..\r\n\t\t\t\t[[<ProgressBar width=\"100%\" height=\"30\" id=\"]] .. color .. [[_HealthBar\" color='#00000080' fillImageColor=\"#44AA22FF\" percentage=\"]] ..(state.health.current / state.health.max * 100) .. [[\" textColor=\"#00000000\"/>  ]] ..\r\n\t\t\t\t[[<Text id=']] .. color .. [[_HealthBar_Text' fontSize='25' height=\"30\" onClick='UI_ModifyHealth' text=']] .. state.health.current.. [[/]] .. state.health.max.. [[' color='#ffffff' fontStyle='Bold' outline='#000000' outlineSize='1 1' />]] ..\r\n\t\t\t[[</Panel>\r\n\t\t]]\r\n\tend\r\n\r\n\tfunction Compact_HUDConditions(color)\r\n\t\tlocal size = 18\r\n\t\tlocal size2 = 10\r\n\t\tlocal row1 = 0\r\n\t\tlocal row2 = 0\r\n\t\tlocal output = [[<Panel width=\"100%\" rectAlignment=\"MiddleLeft\" position='0 0 0' > ]]\r\n\t\r\n\t\tfor key, value in pairs(state.conditions) do\r\n\t\t\tif value ~= 0 then\r\n\t\t\t\tif row1 < 6 then\r\n\t\t\t\t\toutput = output .. HUDSingleCondition(color, key, 0.5 + row1, 1.5, size2)\r\n\t\t\t\t\trow1 = row1 + 1\r\n\t\t\t\telse\r\n\t\t\t\t\toutput = output .. HUDSingleCondition(color, key, 0.5 + row2, 2.5, size2)\r\n\t\t\t\t\trow2 = row2 + 1\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend\r\n\t\r\n\t\toutput = output .. HUDSingleCondition(color, \"Aura\", 1.5, -1, size)\r\n\t\toutput = output .. HUDSingleCondition(color, \"Activated\", 0.5, -1, size)\r\n\t\toutput = output .. HUDSingleCondition(color, \"Mode\", 2.5, -1, size)\r\n\t\toutput = output .. [[</Panel>]]\r\n\t\r\n\t\treturn output\r\n\tend\r\n\r\n\tfunction HUDConditions(color)\r\n\t\tlocal size = 30;\r\n\t\tlocal row1 = 0;\r\n\t\tlocal row2 = 0;\r\n\t\tlocal output =  [[<Panel width=\"100%\" rectAlignment=\"MiddleLeft\" position='0 0 0' > ]]\r\n\r\n\t\tfor key, value in pairs(state.conditions) do\r\n\t\t\tif value ~= 0 then\r\n\t\t\t\tif row1 < 4 then\r\n\t\t\t\t\toutput = output .. HUDSingleCondition(color, key, row1, 1, size)\r\n\t\t\t\t\trow1 = row1 + 1\r\n\t\t\t\telse\r\n\t\t\t\t\toutput = output .. HUDSingleCondition(color, key, row2, -1, size)\r\n\t\t\t\t\trow2 = row2 + 1\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend\r\n\r\n\t\toutput = output .. HUDSingleCondition(color,\"Aura\", 4 ,1,size) \r\n\t\toutput = output .. HUDSingleCondition(color,\"Activated\", 4 ,0,size) \r\n\t\toutput = output .. HUDSingleCondition(color,\"Mode\", 4 ,-1,size) \r\n\t\toutput = output .. [[</Panel>]]\r\n\r\n\t\treturn output\r\n\tend\r\n\t\r\n    --Extras\r\n\tfunction UI_ModifyCondition(alt,name) if alt ~= '-3' then ModifyCondition({name=name,amount= (alt == '-1' and 1 or (alt == '-2' and -1) or 0 ) }) end end\r\n\tfunction UI_ModifyAura(p,alt) if alt ~= '-3' then ModifyAura({amount= (alt == '-1' and 1 or (alt == '-2' and -1) or 0 ) }) end end\r\n\tfunction UI_ModifyActivated(p,alt) UI_ModifyCondition(\"0\",\"Activated\") end\r\n\tfunction UI_ModifyMode(p,alt) UI_ModifyCondition(\"0\",\"Mode\") end\r\n\tfunction UI_ModifyHealth(p,alt) if alt ~= '-3' then ModifyHealth({amount= (alt == '-1' and 1 or (alt == '-2' and -1) or 0 ) }) end end\r\n\r\n\tfunction UI_ModifyFlicker(p,alt) UI_ModifyCondition(\"0\",\"Flicker\") end\r\n\tfunction UI_ModifyBacktrack(p,alt) UI_ModifyCondition(\"0\",\"Backtrack\") end\r\n\tfunction UI_ModifyAuraNegligent(p,alt) UI_ModifyCondition(\"0\",\"AuraNegligent\") end\r\n\tfunction UI_ModifyAuraBinding(p,alt) UI_ModifyCondition(\"0\",\"AuraBinding\") end\r\n\tfunction UI_ModifyAnalyzed(p,alt) UI_ModifyCondition(\"0\",\"Analyzed\") end\r\n\tfunction UI_ModifyAuraFire(p,alt) UI_ModifyCondition(\"0\",\"AuraFire\") end\r\n\tfunction UI_ModifyGreedy(p,alt) UI_ModifyCondition(\"0\",\"Greedy\") end\r\n\tfunction UI_ModifyAuraFumes(p,alt) UI_ModifyCondition(\"0\",\"AuraFumes\") end\r\n\tfunction UI_ModifyEngorged(p,alt) UI_ModifyCondition(\"0\",\"Engorged\") end\r\n\tfunction UI_ModifyBroodling(p,alt) UI_ModifyCondition(\"0\",\"Broodling\") end\r\n\tfunction UI_ModifySuppresed(p,alt) UI_ModifyCondition(\"0\",\"Suppresed\") end\r\n\tfunction UI_ModifyFright(p,alt) UI_ModifyCondition(\"0\",\"Fright\") end\r\n\tfunction UI_ModifyChallenged(p,alt) UI_ModifyCondition(\"0\",\"Challenged\") end\r\n\tfunction UI_ModifyPower(p,alt) UI_ModifyCondition(\"0\",\"Power\") end\r\n\tfunction UI_ModifyGlowy(p,alt) UI_ModifyCondition(\"0\",\"Glowy\") end\r\n\tfunction UI_ModifyPerforated(p,alt) UI_ModifyCondition(\"0\",\"Perforated\") end\r\n\tfunction UI_ModifyBrilliance(p,alt) UI_ModifyCondition(\"0\",\"Brilliance\") end\r\n\tfunction UI_ModifyParasite(p,alt) UI_ModifyCondition(\"0\",\"Parasite\") end\r\n\tfunction UI_ModifyShame(p,alt) UI_ModifyCondition(\"0\",\"Shame\") end\r\n\tfunction UI_ModifySpiritualChains(p,alt) UI_ModifyCondition(\"0\",\"SpiritualChains\") end\r\n\tfunction UI_ModifyAuraStaggered(p,alt) UI_ModifyCondition(\"0\",\"AuraStaggered\") end\r\n\tfunction UI_ModifyImprovisedPart(p,alt) UI_ModifyCondition(\"0\",\"ImprovisedPart\") end\r\n\r\n\tfunction UI_ModifyAdaptable(p,alt) UI_ModifyCondition(\"0\",\"Adaptable\") end\r\n\tfunction UI_ModifyAdversary(p,alt) UI_ModifyCondition(\"0\",\"Adversary\") end\r\n\tfunction UI_ModifyAuraConcealment(p,alt) UI_ModifyCondition(\"0\",\"AuraConcealment\") end\r\n\tfunction UI_ModifyAuraHazardous(p,alt) UI_ModifyCondition(\"0\",\"AuraHazardous\") end\r\n\tfunction UI_ModifyBolstered(p,alt) UI_ModifyCondition(\"0\",\"Bolstered\") end\r\n\tfunction UI_ModifyBurning(p,alt) UI_ModifyCondition(\"0\",\"Burning\") end\r\n\tfunction UI_ModifyCraven(p,alt) UI_ModifyCondition(\"0\",\"Craven\") end\r\n\tfunction UI_ModifyDistracted(p,alt) UI_ModifyCondition(\"0\",\"Distracted\") end\r\n\tfunction UI_ModifyEntranced(p,alt) UI_ModifyCondition(\"0\",\"Entranced\") end\r\n\tfunction UI_ModifyFast(p,alt) UI_ModifyCondition(\"0\",\"Fast\") end\r\n\tfunction UI_ModifyFocused(p,alt) UI_ModifyCondition(\"0\",\"Focused\") end\r\n\tfunction UI_ModifyHastened(p,alt) UI_ModifyCondition(\"0\",\"Hastened\") end\r\n\tfunction UI_ModifyImpact(p,alt) UI_ModifyCondition(\"0\",\"Impact\") end\r\n\tfunction UI_ModifyInjured(p,alt) UI_ModifyCondition(\"0\",\"Injured\") end\r\n\tfunction UI_ModifyInsight(p,alt) UI_ModifyCondition(\"0\",\"Insight\") end\r\n\tfunction UI_ModifyPoison(p,alt) UI_ModifyCondition(\"0\",\"Poison\") end\r\n\tfunction UI_ModifyShielded(p,alt) UI_ModifyCondition(\"0\",\"Shielded\") end\r\n\tfunction UI_ModifySlow(p,alt) UI_ModifyCondition(\"0\",\"Slow\") end\r\n\tfunction UI_ModifyStaggered(p,alt) UI_ModifyCondition(\"0\",\"Staggered\") end\r\n\tfunction UI_ModifyStunned(p,alt) UI_ModifyCondition(\"0\",\"Stunned\") end\r\n\tfunction UI_ModifySummon(p,alt) UI_ModifyCondition(\"0\",\"Summon\") end\r\n\r\n\tfunction HUDSingleCondition(color,name,x,y,size)\r\n\t\r\n\t\tlocal id = \"ConditionFrame_\" .. name ;\r\n\r\n\t\treturn [[<Panel id=\"]] .. id ..[[\" width=\"]] ..size..[[\" height=\"]] ..size..[[\" alignment='LowerLeft' position=']] ..((x* (size +2)) - (1.5*size + 2)).. [[ ]] .. y*( (size +2)) .. [[ 0' ]] .. \r\n\t\t[[onClick='UI_Modify]] .. name ..[[()'>]] ..\r\n\t\t\tHUDSingleConditionBody(color,name,size)..\r\n\t\t[[</Panel>]];\r\n\tend\r\n\r\n\tfunction HUDSingleConditionBody(color,name,size)\r\n\t\tlocal extrasKeys = { Mode = true, Aura = true, Activated = true }\r\n\t\tlocal secondary = Conditions[name].secondary;\r\n\r\n\t\tif extrasKeys[name] then\r\n\t\t\tlocal imageName = (secondary == nil and name or (state.extras[name] > 1 and name or secondary));\r\n\t\t\tlocal colorBlock = Conditions[imageName].color .. (state.extras[name] > 0  and 'ff' or '22'); --.. [[|]] .. Conditions[imageName].color .. [[ff|#00000000|#00000000]];\r\n\t\t\treturn [[\r\n\t\t\t\t<Image id=\"]]..color ..[[_ConditionImage_]]..name ..[[\" image=\"]] .. imageName .. [[\" color=\"]] .. colorBlock .. [[\" rectAlignment='LowerLeft' width=']] ..size..[[' height=']] ..size..[['/>\r\n\t\t\t\t<Text  id=\"]]..color ..[[_ConditionText_]]..name ..[[\" active=']] .. (Conditions[name].stacks and state.extras[name] > 0 and 'true' or 'false')  ..[['  fontSize=']] ..math.floor(size*0.85)..[[' text=']] .. state.extras[name] .. [[' color='#ffffff' fontStyle='Bold'  rectAlignment='LowerLeft' outline='#000000' outlineSize='1 1' />\r\n\t\t\t]]\r\n\t\tend\r\n\r\n\t\tlocal imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\n\t\tlocal colorBlock = Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or '22'); --.. [[|]] .. Conditions[imageName].color .. [[ff|#00000000|#00000000]];\r\n\t\treturn [[\r\n\t\t\t<Image id=\"]]..color ..[[_ConditionImage_]]..name ..[[\" image=\"]] .. imageName .. [[\" color=\"]] .. colorBlock .. [[\" rectAlignment='LowerLeft' width=']] ..size..[[' height=']] ..size..[['/>\r\n\t\t\t<Text  id=\"]]..color ..[[_ConditionText_]]..name ..[[\" active=']] .. (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false')  ..[['  fontSize=']] ..math.floor(size*0.85)..[[' text=']] .. state.conditions[name] .. [[' color='#ffffff' fontStyle='Bold'  rectAlignment='LowerLeft' outline='#000000' outlineSize='1 1' />\r\n\t\t]]\r\n\t\r\n\tend\r\n\r\n\r\n\tConditions = {\r\n\t\tFlicker ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Flicker.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tBacktrack ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Backtrack.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tAuraNegligent ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Aura%20(Negligent).png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tAuraBinding ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Aura%20(Binding).png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tAnalyzed ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Analyzed.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tAuraFire ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Aura%20(Fire).png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tGreedy ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Greedy.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tAuraFumes ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Aura%20(Fumes).png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tEngorged ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Engorged.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tBroodling ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Broodling.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tSuppresed ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Suppressed.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tFright ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Fright.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tChallenged ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Challenged.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tPower ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Power.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tGlowy ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Glowy.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tPerforated ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Perforated.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tBrilliance ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Brilliance.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tParasite ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Parasite.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tShame ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Shame.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tSpiritualChains ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/SpiritualChains.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tAuraStaggered ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Aura%20(Staggered).png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tImprovisedPart ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Tokens/ImprovisedPart.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tAdaptable ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Adaptable.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tAdversary ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Adversary.png\", color=\"#DF2020\",stacks=false},\r\n\t\tAuraConcealment ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Aura%20(Concealment).png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tAuraHazardous ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Aura%20(Hazardous).png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tBolstered ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Bolstered.png\", color=\"#F53423\",stacks=false},\r\n\t\tBurning ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Burning.png\", color=\"#DB8E47\",stacks=false},\r\n\t\tCraven ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Craven.png\", color=\"#FF87DC\",stacks=false},\r\n\t\tDistracted ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Distracted.png\", color=\"#FF42CF\",stacks=false},\r\n\t\tEntranced ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Entranced.png\", color=\"#A020F0\",stacks=false},\r\n\t\tFast ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Fast.png\", color=\"#E2D064\",stacks=false},\r\n\t\tFocused ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Focused.png\", color=\"#9A37D3\",stacks=false},\r\n\t\tHastened ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Hastened.png\", color=\"#FEE711\",stacks=false},\r\n\t\tImpact ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Impact.png\", color=\"#E9B175\",stacks=false},\r\n\t\tInjured ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Injured.png\", color=\"#920606\",stacks=false},\r\n\t\tInsight ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Insight.png\", color=\"#B7FFDF\",stacks=false},\r\n\t\tPoison ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Poisoned.png\", color=\"#83CD4D\",stacks=false},\r\n\t\tShielded ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Shielded.png\", color=\"#6AC3FF\",stacks=false},\r\n\t\tSlow ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Slowed.png\", color=\"#B8B8B8\",stacks=false},\r\n\t\tStaggered ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Staggered.png\", color=\"#138C01\",stacks=false},\r\n\t\tStunned ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Stunned.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tSummon ={ url=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Summon.png\", color=\"#FFFFFF\",stacks=false},\r\n\t\tAura = { url=\"https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png\", color=\"#99aa22\", stacks=true },\r\n\t\tActivated  = { url=\"https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/flag.png\", color=\"#bbbb22\", stacks=false },\r\n\t\tMode  = { url=\"https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/gear.png\", color=\"#bbffbb\", stacks=false, loop = 2 }\r\n\t\t\r\n\t}\r\n\r\n------ Object SPAWMERS ----------------------\r\n\r\n\tfunction showAura()\r\n\r\n\t\tlocal a=(state.extras.Aura > 0) and (state.extras.Aura+(state.base.size/50)) or 0; --based on model base size\r\n\t\r\n\t\tlocal me = self\r\n\t\tlocal clr = self.getColorTint()\r\n\t\t\tChildObjs.aura_obj=spawnObject({\r\n\t\t\ttype='custom_model',\r\n\t\t\tposition=self.getPosition(),\r\n\t\t\trotation=self.getRotation(),\r\n\t\t\tscale={a,1,a},\r\n\t\t\tmass=0,\r\n\t\t\tuse_gravity=false,\r\n\t\t\tsound=false,\r\n\t\t\tsnap_to_grid=false,\r\n\t\t\tcallback_function=function(b)\r\n\t\t\t\tb.setColorTint(clr)\r\n\t\t\t\tb.setVar('parent',self)\r\n\t\t\t\tb.setLuaScript([[\r\n\t\t\t\t\tlocal lastParent = nil\r\n\t\t\t\t\tlocal clock = 2\r\n\t\t\t\t\tfunction onLoad() \r\n\t\t\t\t\t\t(self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false)\r\n\t\t\t\t\t\tWait.condition(\r\n\t\t\t\t\t\t\tfunction() \r\n\t\t\t\t\t\t\t\t(self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false) \r\n\t\t\t\t\t\t\tend, \r\n\t\t\t\t\t\t\tfunction() \r\n\t\t\t\t\t\t\t\treturn not(self.loading_custom) \r\n\t\t\t\t\t\t\tend\r\n\t\t\t\t\t\t) \r\n\t\t\t\t\tend \r\n\t\t\t\t\tfunction onUpdate() \r\n\t\t\t\t\t\tif (parent ~= nil) then \r\n\t\t\t\t\t\t\tif clock < 0 then\r\n\t\t\t\t\t\t\t\tclock = 2;\r\n\t\t\t\t\t\t\t\tif self.getPosition():distance(parent.getPosition()) > 0.01 then\r\n\t\t\t\t\t\t\t\t\tself.setPosition(parent.getPosition())\r\n\t\t\t\t\t\t\t\t\tself.setRotation(parent.getRotation()) \r\n\t\t\t\t\t\t\t\tend\r\n\t\t\t\t\t\t\telse\r\n\t\t\t\t\t\t\t\tclock = clock - 1\r\n\t\t\t\t\t\t\tend\r\n\t\t\t\t\t\telse \r\n\t\t\t\t\t\t\tself.destruct() \r\n\t\t\t\t\t\tend \r\n\t\t\t\t\tend\r\n\t\t\t\t]])\r\n\t\t\t\tb.getComponent('MeshRenderer').set('receiveShadows',false)\r\n\t\t\t\tb.mass=0\r\n\t\t\t\tb.bounciness=0\r\n\t\t\t\tb.drag=0\r\n\t\t\t\tb.use_snap_points=false\r\n\t\t\t\tb.use_grid=false\r\n\t\t\t\tb.use_gravity=false\r\n\t\t\t\tb.auto_raise=false\r\n\t\t\t\tb.auto_raise=false\r\n\t\t\t\tb.sticky=false\r\n\t\t\t\tb.interactable=false\r\n\t\t\tend\r\n\t\t})\r\n\t\tChildObjs.aura_obj.setCustomObject({\r\n\t\t\tmesh='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/components/arcs/round0.obj',\r\n\t\t\tcollider='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/utility/null_COL.obj',\r\n\t\t\tmaterial=3,\r\n\t\t\tspecularIntensity=0,\r\n\t\t\tcast_shadows=false\r\n\t\t})\r\n\tend\r\n------ Wip ----------------------------------\r\n\r\n\tfunction addMarker(config)--we should rename this to add token\r\n\t\t\r\n        local name=config.name:gsub(\"%(\",\"\"):gsub(\"%)\",\"\"):gsub(\"%s+\",\"\")\r\n\t\tif Conditions[name] then\r\n\t\t\tif state.conditions[name]==0 then\r\n\t\t\t\tModifyCondition({name=name,amount= 1 })\r\n\t\t\telse\r\n\t\t\t\tModifyCondition({name=name,amount= -1 })\r\n\t\t\tend --[[\r\n\t\t\tif name==\"Fast\" then\r\n\t\t\t\tif state.conditions[\"Fast\"]==1 then\r\n\t\t\t\t\tModifyCondition({name=\"Fast\",amount= 2 })\r\n\t\t\t\telse\r\n\t\t\t\t\tstate.conditions[\"Fast\"]=0\r\n\t\t\t\t\tModifyCondition({name=\"Fast\",amount= 2 })    \r\n\t\t\t\tend\r\n\t\t\telseif name==\"Slow\" then\r\n\t\t\t\tif state.conditions[\"Fast\"]==2 then\r\n\t\t\t\t\tModifyCondition({name=\"Fast\",amount= 1 })\r\n\t\t\t\telse\r\n\t\t\t\t\tstate.conditions[\"Fast\"]=0\r\n\t\t\t\t\tModifyCondition({name=\"Fast\",amount= 1 })    \r\n\t\t\t\tend\r\n\t\t\telse\r\n\t\t\t\t\r\n\t\t\t\t       \r\n\t\t\tend\r\n\t\t\t]]\r\n\t\t\treturn true\r\n\r\n\t\telse\r\n\t\t\treturn false\r\n\t\tend\r\n\tend\r\n\r\n\tfunction end_round() \r\n\t\tModifyCondition({name=\"Activated\",amount= -1 })\r\n\t\tif state.conditions[\"Poison\"]>0 then\r\n\t\t\tModifyCondition({name=\"Poison\",amount= -1 })\r\n\t\t\tModifyHealth({amount=-1})\r\n\t\t\textra_damage = math.floor(state.conditions[\"Poison\"]/3)\r\n\t\t\tModifyHealth({amount=extra_damage*-1})\r\n\t\tend\r\n\t\tif state.conditions[\"Burning\"]>0 then\r\n\t\t\tModifyHealth({amount=-1})\r\n\t\t\textra_damage = math.floor(state.condition[\"Burning\"]/3)\r\n\t\t\tModifyHealth({amount=extra_damage*-1})\r\n\t\tend\r\n\t\tModifyCondition({name=\"Injured\",amount= -1 })\r\n\t\tModifyCondition({name=\"Adversary\",amount= -1 })\r\n\tend\r\nfunction getAura()\r\n\treturn state.extras.Aura\r\nend\r\n\r\nfunction getHalfBaseSize()\r\n    if config~=nil then\r\n        if config.base.size~=nil then\r\n            if config.base.size==30 or config.base.size==\"30\" then\r\n                return 0.59055\r\n            elseif config.base.size==40 or config.base.size==\"40\" then\r\n                return 0.7874\r\n            elseif config.base.size==50 or config.base.size==\"50\" then\r\n                return 0.98425\r\n            end\r\n        end\r\n    end\r\n    return 0.59055\r\nend\r\n------ END ----------------------------------\nend)\nreturn __bundle_require(\"Model Prototype.000000.lua\")",
       "LuaScriptState": "{\"originalData\":{\"base\":{\"color\":{\"a\":1,\"b\":1,\"g\":0.5,\"r\":1},\"size\":30},\"conditions\":{\"Adaptable\":0,\"Adversary\":0,\"Analyzed\":0,\"AuraBinding\":0,\"AuraConcealment\":0,\"AuraFire\":0,\"AuraFumes\":0,\"AuraHazardous\":0,\"AuraNegligent\":0,\"AuraStaggered\":0,\"Backtrack\":0,\"Bolstered\":0,\"Brilliance\":0,\"Broodling\":0,\"Burning\":0,\"Challenged\":0,\"Craven\":0,\"Distracted\":0,\"Engorged\":0,\"Entranced\":0,\"Fast\":0,\"Flicker\":0,\"Focused\":0,\"Fright\":0,\"Glowy\":0,\"Greedy\":0,\"Hastened\":0,\"Impact\":0,\"ImprovisedPart\":0,\"Injured\":0,\"Insight\":0,\"Parasite\":0,\"Perforated\":0,\"Poison\":0,\"Power\":0,\"Shame\":0,\"Shielded\":0,\"Slow\":0,\"SpiritualChains\":0,\"Staggered\":0,\"Stunned\":0,\"Summon\":0,\"Suppresed\":0},\"extras\":{\"Activated\":0,\"Aura\":0,\"Mode\":0},\"health\":{\"current\":-1,\"max\":9},\"imageScale\":1.5,\"moveHistory\":[],\"referenceCard\":{\"GUID\":\"\"},\"tokens\":[]},\"state\":{\"base\":{\"color\":{\"a\":1,\"b\":1,\"g\":0.5,\"r\":1},\"size\":30},\"conditions\":{\"Adaptable\":0,\"Adversary\":0,\"Analyzed\":0,\"AuraBinding\":0,\"AuraConcealment\":0,\"AuraFire\":0,\"AuraFumes\":0,\"AuraHazardous\":0,\"AuraNegligent\":0,\"AuraStaggered\":0,\"Backtrack\":0,\"Bolstered\":0,\"Brilliance\":0,\"Broodling\":0,\"Burning\":0,\"Challenged\":0,\"Craven\":0,\"Distracted\":0,\"Engorged\":0,\"Entranced\":0,\"Fast\":0,\"Flicker\":0,\"Focused\":0,\"Fright\":0,\"Glowy\":0,\"Greedy\":0,\"Hastened\":0,\"Impact\":0,\"ImprovisedPart\":0,\"Injured\":0,\"Insight\":0,\"Parasite\":0,\"Perforated\":0,\"Poison\":0,\"Power\":0,\"Shame\":0,\"Shielded\":0,\"Slow\":0,\"SpiritualChains\":0,\"Staggered\":0,\"Stunned\":0,\"Summon\":0,\"Suppresed\":0},\"extras\":{\"Activated\":0,\"Aura\":0,\"Mode\":0},\"health\":{\"current\":-1,\"max\":9},\"imageScale\":1.5,\"moveHistory\":[],\"referenceCard\":{\"GUID\":\"\"},\"tokens\":[]}}",
       "XmlUI": "",
       "CustomUIAssets": [
@@ -4659,15 +4659,15 @@
           "GUID": "cc101e",
           "Name": "Figurine_Custom",
           "Transform": {
-            "posX": -5.48002663E-06,
-            "posY": 0.119999513,
-            "posZ": 4.104428E-06,
-            "rotX": -0.000763471937,
-            "rotY": -0.00108941167,
-            "rotZ": -0.000519267167,
-            "scaleX": 0.297257125,
+            "posX": -3.79869243E-06,
+            "posY": 0.1199995,
+            "posZ": 1.48170022E-06,
+            "rotX": -0.0007636221,
+            "rotY": -0.00109453441,
+            "rotZ": -0.0005192405,
+            "scaleX": 0.297257155,
             "scaleY": 0.594497144,
-            "scaleZ": 0.2972591
+            "scaleZ": 0.297259063
           },
           "Nickname": "",
           "Description": "",
@@ -4728,9 +4728,9 @@
         "posX": -36.2247849,
         "posY": 0.587772667,
         "posZ": 44.60769,
-        "rotX": -6.796161E-08,
+        "rotX": -6.502469E-08,
         "rotY": 269.967468,
-        "rotZ": -2.706159E-08,
+        "rotZ": -4.101734E-08,
         "scaleX": 3.2506578,
         "scaleY": 1.0,
         "scaleZ": 3.2506578
@@ -4779,9 +4779,9 @@
         "posX": 29.7922745,
         "posY": 0.5877726,
         "posZ": 44.9559059,
-        "rotX": 4.199261E-08,
+        "rotX": 1.44287551E-08,
         "rotY": 89.9994,
-        "rotZ": -2.363534E-07,
+        "rotZ": -3.69147948E-08,
         "scaleX": 3.2506578,
         "scaleY": 1.0,
         "scaleZ": 3.2506578
@@ -4827,9 +4827,9 @@
       "GUID": "d3c7cc",
       "Name": "3DText",
       "Transform": {
-        "posX": -0.21799469,
-        "posY": 0.960650563,
-        "posZ": 31.9146118,
+        "posX": -0.217996612,
+        "posY": 0.9606487,
+        "posZ": 31.9146042,
         "rotX": 90.0,
         "rotY": 0.301294655,
         "rotZ": 0.0,
@@ -4882,8 +4882,8 @@
       "Name": "3DText",
       "Transform": {
         "posX": -17.2804871,
-        "posY": 0.9601699,
-        "posZ": 26.1344967,
+        "posY": 0.960166156,
+        "posZ": 26.1344929,
         "rotX": 90.0,
         "rotY": 359.468323,
         "rotZ": 0.0,
@@ -4936,8 +4936,8 @@
       "Name": "3DText",
       "Transform": {
         "posX": 16.7951336,
-        "posY": 0.9608957,
-        "posZ": 26.2562962,
+        "posY": 0.960894763,
+        "posZ": 26.2562847,
         "rotX": 90.0,
         "rotY": 359.468323,
         "rotZ": 0.0,
@@ -5341,12 +5341,12 @@
       "GUID": "1b16b0",
       "Name": "BlockSquare",
       "Transform": {
-        "posX": 0.0127181523,
-        "posY": 1.08777213,
+        "posX": 0.0127181383,
+        "posY": 1.08777225,
         "posZ": -98.24594,
-        "rotX": 5.612796E-07,
-        "rotY": 0.00427215546,
-        "rotZ": 1.10962014E-06,
+        "rotX": -5.8533135E-07,
+        "rotY": 0.00427010655,
+        "rotZ": 5.434509E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -5387,8 +5387,8 @@
       "Name": "3DText",
       "Transform": {
         "posX": 10.7942762,
-        "posY": 0.960897565,
-        "posZ": -98.3153,
+        "posY": 0.9608966,
+        "posZ": -98.3153458,
         "rotX": 90.0,
         "rotY": 269.693481,
         "rotZ": 0.0,
@@ -5441,8 +5441,8 @@
       "Name": "3DText",
       "Transform": {
         "posX": -9.55702,
-        "posY": 0.960188031,
-        "posZ": -98.0174942,
+        "posY": 0.9601842,
+        "posZ": -98.0175552,
         "rotX": 90.0,
         "rotY": 89.0990143,
         "rotZ": 0.0,
@@ -5787,9 +5787,9 @@
         "posX": 12.6577768,
         "posY": 0.6210051,
         "posZ": -95.95677,
-        "rotX": 3.4500863E-06,
+        "rotX": 2.643284E-07,
         "rotY": 179.997,
-        "rotZ": 3.59741335E-07,
+        "rotZ": 1.07527183E-06,
         "scaleX": 0.713773131,
         "scaleY": 0.0664657652,
         "scaleZ": 0.706220865
@@ -5961,11 +5961,11 @@
       "Name": "Custom_Model_Infinite_Bag",
       "Transform": {
         "posX": 14.9626064,
-        "posY": 0.621005,
+        "posY": 0.6210051,
         "posZ": -96.5976639,
-        "rotX": -3.75515356E-07,
+        "rotX": 4.18937844E-07,
         "rotY": 179.985977,
-        "rotZ": 4.65648E-08,
+        "rotZ": -2.1494634E-07,
         "scaleX": 0.7137734,
         "scaleY": 0.0664657652,
         "scaleZ": 0.7062205
@@ -6139,9 +6139,9 @@
         "posX": 13.4374294,
         "posY": 0.6214455,
         "posZ": -96.9794846,
-        "rotX": 1.69890441E-07,
+        "rotX": 1.39096812E-07,
         "rotY": 269.808167,
-        "rotZ": -1.65211759E-07,
+        "rotZ": -5.387531E-07,
         "scaleX": 0.73517406,
         "scaleY": 0.06734645,
         "scaleZ": 0.744278133
@@ -6329,9 +6329,9 @@
         "posX": -6.072866,
         "posY": 0.587772369,
         "posZ": -99.8726044,
-        "rotX": 1.42606666E-07,
+        "rotX": 2.997261E-07,
         "rotY": 270.0086,
-        "rotZ": -3.26716957E-07,
+        "rotZ": -4.51148843E-08,
         "scaleX": 2.5,
         "scaleY": 1.0,
         "scaleZ": 2.5
@@ -6409,9 +6409,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.4093942,
-        "g": 0.4093942,
-        "b": 0.4093942
+        "r": 0.409394175,
+        "g": 0.409394175,
+        "b": 0.409394175
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -6994,9 +6994,9 @@
         "posX": -10.1440382,
         "posY": 0.657772243,
         "posZ": -104.40345,
-        "rotX": 3.61613743E-08,
+        "rotX": 7.27379756E-08,
         "rotY": 180.005188,
-        "rotZ": -2.91613862E-08,
+        "rotZ": -6.54893E-08,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -7039,7 +7039,7 @@
         "posX": 7.847672,
         "posY": 0.838255763,
         "posZ": -98.3329,
-        "rotX": -1.92664146E-07,
+        "rotX": -1.05783741E-07,
         "rotY": 179.955475,
         "rotZ": 180.0,
         "scaleX": 1.0,
@@ -7082,11 +7082,11 @@
       "Name": "Infinite_Bag",
       "Transform": {
         "posX": 13.49361,
-        "posY": 0.5707721,
+        "posY": 0.570772231,
         "posZ": -91.04163,
-        "rotX": -1.284772E-07,
+        "rotX": -3.11849277E-07,
         "rotY": 0.343849659,
-        "rotZ": 2.65469339E-07,
+        "rotZ": 5.566729E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -7178,10 +7178,10 @@
       "GUID": "02c7e5",
       "Name": "Deck",
       "Transform": {
-        "posX": 0.62626487,
-        "posY": 0.868661,
+        "posX": 0.6262648,
+        "posY": 0.8686609,
         "posZ": -90.17453,
-        "rotX": -2.47706879E-07,
+        "rotX": -1.262145E-07,
         "rotY": 269.998352,
         "rotZ": 180.0,
         "scaleX": 1.5,
@@ -11030,7 +11030,7 @@
         "posZ": 44.64034,
         "rotX": 1.24191456E-06,
         "rotY": 180.00853,
-        "rotZ": 7.874039E-07,
+        "rotZ": 7.87404E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -11408,9 +11408,9 @@
         "posX": 13.4839077,
         "posY": 0.621445358,
         "posZ": -95.38546,
-        "rotX": 7.388883E-08,
+        "rotX": 2.44471067E-07,
         "rotY": 90.0098,
-        "rotZ": 3.991668E-07,
+        "rotZ": -3.37521237E-06,
         "scaleX": 0.7351749,
         "scaleY": 0.06734628,
         "scaleZ": 0.7442768
@@ -11598,9 +11598,9 @@
         "posX": -36.2247849,
         "posY": 0.5877726,
         "posZ": 55.60769,
-        "rotX": -1.36109819E-07,
+        "rotX": -3.746047E-08,
         "rotY": 269.984344,
-        "rotZ": 2.657051E-08,
+        "rotZ": -4.64660754E-09,
         "scaleX": 3.24971676,
         "scaleY": 1.0,
         "scaleZ": 3.24971676
@@ -11649,9 +11649,9 @@
         "posX": 29.7922764,
         "posY": 0.587772548,
         "posZ": 55.9559059,
-        "rotX": -8.924685E-09,
+        "rotX": -2.17460339E-09,
         "rotY": 90.01519,
-        "rotZ": -4.20249968E-09,
+        "rotZ": -2.743905E-08,
         "scaleX": 3.24971676,
         "scaleY": 1.0,
         "scaleZ": 3.24971676
@@ -11700,9 +11700,9 @@
         "posX": -6.104351,
         "posY": 0.4027381,
         "posZ": -44.9372368,
-        "rotX": -6.803785E-07,
+        "rotX": 6.73932163E-07,
         "rotY": 269.9865,
-        "rotZ": -2.25131629E-07,
+        "rotZ": -7.031074E-08,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -14181,11 +14181,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 1.890625,
-        "posY": 0.6877722,
+        "posY": 0.6877723,
         "posZ": -41.0,
-        "rotX": -4.958103E-07,
-        "rotY": 1.50088546E-14,
-        "rotZ": -3.468843E-06,
+        "rotX": 7.54849043E-06,
+        "rotY": -9.841513E-14,
+        "rotZ": -1.49401308E-06,
         "scaleX": 0.35,
         "scaleY": 1.0,
         "scaleZ": 0.35
@@ -14238,11 +14238,11 @@
       "Name": "Bag",
       "Transform": {
         "posX": -9.996077,
-        "posY": 0.4027378,
+        "posY": 0.402737737,
         "posZ": -44.7053,
-        "rotX": 2.64396931E-07,
+        "rotX": 2.69436839E-07,
         "rotY": 270.010742,
-        "rotZ": -5.661736E-07,
+        "rotZ": -8.730391E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -16793,9 +16793,9 @@
         "posX": 34.0,
         "posY": 0.831455469,
         "posZ": -22.0,
-        "rotX": -3.51309814E-06,
+        "rotX": -6.11758E-06,
         "rotY": 270.0114,
-        "rotZ": 2.98182476E-06,
+        "rotZ": 5.36500829E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -16854,9 +16854,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.409393519,
-        "g": 0.409393519,
-        "b": 0.409393519
+        "r": 0.4093935,
+        "g": 0.4093935,
+        "b": 0.4093935
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -18035,7 +18035,7 @@
         "posX": 2.99095,
         "posY": 0.838255763,
         "posZ": -101.635666,
-        "rotX": -6.15779129E-07,
+        "rotX": -3.777583E-09,
         "rotY": 224.955322,
         "rotZ": 180.0,
         "scaleX": 1.0,
@@ -18080,9 +18080,9 @@
         "posX": -5.64377165,
         "posY": 0.7071062,
         "posZ": -89.23961,
-        "rotX": 3.31926344E-08,
+        "rotX": 5.87680375E-08,
         "rotY": 0.00682970742,
-        "rotZ": -1.3478585E-07,
+        "rotZ": -1.2481145E-08,
         "scaleX": 4.005152,
         "scaleY": 0.238667816,
         "scaleZ": 4.08891773
@@ -18201,9 +18201,9 @@
         "posX": 1.13222337,
         "posY": 0.7071062,
         "posZ": -64.44204,
-        "rotX": 7.504755E-08,
+        "rotX": 4.636584E-08,
         "rotY": 0.007831986,
-        "rotZ": 3.03971674E-08,
+        "rotZ": -5.974531E-08,
         "scaleX": 4.005152,
         "scaleY": 0.238667816,
         "scaleZ": 4.08891773
@@ -18322,9 +18322,9 @@
         "posX": 3.63673639,
         "posY": 0.7071062,
         "posZ": -59.4378128,
-        "rotX": 1.92009377E-08,
+        "rotX": -3.02546361E-08,
         "rotY": 0.0122168744,
-        "rotZ": -9.249953E-09,
+        "rotZ": 3.70597171E-08,
         "scaleX": 4.005152,
         "scaleY": 0.238667816,
         "scaleZ": 4.08891773
@@ -18443,9 +18443,9 @@
         "posX": 9.132203,
         "posY": 0.71136117,
         "posZ": -59.442028,
-        "rotX": -5.7955E-09,
+        "rotX": 4.740269E-08,
         "rotY": 0.007798049,
-        "rotZ": 4.378688E-08,
+        "rotZ": -1.32274858E-08,
         "scaleX": 4.163286,
         "scaleY": 0.247177854,
         "scaleZ": 4.23470974
@@ -18564,9 +18564,9 @@
         "posX": -1.365258,
         "posY": 0.7758394,
         "posZ": -59.4584541,
-        "rotX": 1.31101743E-08,
+        "rotX": 2.34291289E-08,
         "rotY": 0.007750238,
-        "rotZ": 1.03900648E-08,
+        "rotZ": 2.52640149E-08,
         "scaleX": 4.15433025,
         "scaleY": 0.3761342,
         "scaleZ": 4.194234
@@ -18685,9 +18685,9 @@
         "posX": -6.86782074,
         "posY": 0.7114318,
         "posZ": -59.4420433,
-        "rotX": -2.71139768E-08,
+        "rotX": -1.01139385E-07,
         "rotY": 0.0122307325,
-        "rotZ": 2.47736676E-08,
+        "rotZ": 3.83838881E-08,
         "scaleX": 4.165667,
         "scaleY": 0.247319117,
         "scaleZ": 4.21092653
@@ -18806,9 +18806,9 @@
         "posX": -6.86782551,
         "posY": 0.70711875,
         "posZ": -54.4420357,
-        "rotX": -2.1595465E-08,
+        "rotX": -4.78217856E-08,
         "rotY": 0.0122406594,
-        "rotZ": 8.22473254E-08,
+        "rotZ": -1.15276384E-08,
         "scaleX": 4.02530766,
         "scaleY": 0.238693029,
         "scaleZ": 4.06405
@@ -18925,11 +18925,11 @@
       "Name": "Custom_Model_Bag",
       "Transform": {
         "posX": -1.36778677,
-        "posY": 0.7070714,
+        "posY": 0.7070715,
         "posZ": -54.4420357,
-        "rotX": 5.63842839E-08,
+        "rotX": -3.59935619E-08,
         "rotY": 0.00779495761,
-        "rotZ": -1.06433862E-09,
+        "rotZ": 4.12782741E-09,
         "scaleX": 4.01877928,
         "scaleY": 0.238598421,
         "scaleZ": 4.08772945
@@ -19048,9 +19048,9 @@
         "posX": 9.292699,
         "posY": 0.7070715,
         "posZ": -54.5942764,
-        "rotX": 4.3169603E-08,
+        "rotX": 7.251117E-08,
         "rotY": 0.0122104688,
-        "rotZ": 2.6445564E-08,
+        "rotZ": -1.73849415E-08,
         "scaleX": 4.01877928,
         "scaleY": 0.238598421,
         "scaleZ": 4.08772945
@@ -19169,9 +19169,9 @@
         "posX": 3.632214,
         "posY": 0.707119,
         "posZ": -54.442028,
-        "rotX": 7.678516E-08,
+        "rotX": 3.861884E-09,
         "rotY": 0.012203576,
-        "rotZ": -2.47945831E-10,
+        "rotZ": 1.18721895E-08,
         "scaleX": 4.0302453,
         "scaleY": 0.238693416,
         "scaleZ": 4.05899858
@@ -19290,9 +19290,9 @@
         "posX": -10.4075193,
         "posY": 0.5877724,
         "posZ": -93.12634,
-        "rotX": 9.83525E-09,
+        "rotX": 2.57689852E-08,
         "rotY": 0.0125048142,
-        "rotZ": -1.251668E-07,
+        "rotZ": -4.55789362E-09,
         "scaleX": 2.5,
         "scaleY": 1.0,
         "scaleZ": 2.5
@@ -19371,8 +19371,8 @@
       },
       "ColorDiffuse": {
         "r": 0.454703748,
-        "g": 0.438066065,
-        "b": 0.438066065
+        "g": 0.438066036,
+        "b": 0.438066036
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -19411,9 +19411,9 @@
         "posX": -15.21203,
         "posY": 0.5877724,
         "posZ": -93.37164,
-        "rotX": -4.70713175E-08,
-        "rotY": 0.000294012338,
-        "rotZ": -6.054416E-08,
+        "rotX": -4.30261267E-08,
+        "rotY": 0.000294012279,
+        "rotZ": -1.34887292E-08,
         "scaleX": 2.5,
         "scaleY": 1.0,
         "scaleZ": 2.5
@@ -19468,9 +19468,9 @@
         "posX": -15.1585722,
         "posY": 0.811456144,
         "posZ": -9.696442,
-        "rotX": 1.72103569E-06,
+        "rotX": 1.79894232E-06,
         "rotY": 270.0067,
-        "rotZ": 8.69508E-06,
+        "rotZ": 6.61789727E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -19485,8 +19485,8 @@
       },
       "ColorDiffuse": {
         "r": 0.454703748,
-        "g": 0.438066065,
-        "b": 0.438066065
+        "g": 0.438066036,
+        "b": 0.438066036
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -19519,15 +19519,15 @@
       "XmlUI": ""
     },
     {
-      "GUID": "38c509",
+      "GUID": "7ca3d8",
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.02927065,
-        "posY": 1.08806086,
-        "posZ": -98.73748,
-        "rotX": 359.99115,
-        "rotY": 209.9607,
-        "rotZ": 359.9206,
+        "posX": 6.029163,
+        "posY": 1.08816719,
+        "posZ": -98.73741,
+        "rotX": 359.992645,
+        "rotY": 209.960922,
+        "rotZ": 359.9289,
         "scaleX": 0.0,
         "scaleY": 1.0,
         "scaleZ": 0.0

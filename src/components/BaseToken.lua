@@ -20,7 +20,7 @@ function onCollisionEnter(col)
     config.count = math.max(1, self.getQuantity())
     if ((col.collision_object.getVar("TRH_Class") or "") == "mini") then
         colided=true
-        if (col.collision_object.call("addMarker", config)) then self.destruct() end
+        if (col.collision_object.call("addToken", config)) then self.destruct() end
     end
 end
 function setConfig(newConfig)
