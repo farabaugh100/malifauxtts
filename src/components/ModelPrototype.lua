@@ -1,10 +1,12 @@
 RSS_Class = 'Model';
 TRH_Class ="mini"
+modelPlayer="Blue"
 ------ CLASS VARIABLES ----------------------
 
 	local ChildObjs = {
 		aura_obj = nil
 	};
+	
 	local Conditions = {}
 	local originalData = nil;
 	local state = {
@@ -38,6 +40,7 @@ TRH_Class ="mini"
 	end
 
 	function onLoad(save)
+		self.setLock(true)--dont froget to remove this
 		--self.script_state=onSave()
 		save = JSON.decode(save) or {}
 		self.setDescription("RSS_Model");
@@ -398,7 +401,7 @@ TRH_Class ="mini"
 
 		return output
 	end
-
+	
     --Extras
 	function UI_ModifyCondition(alt,name) if alt ~= '-3' then ModifyCondition({name=name,amount= (alt == '-1' and 1 or (alt == '-2' and -1) or 0 ) }) end end
 	function UI_ModifyAura(p,alt) if alt ~= '-3' then ModifyAura({amount= (alt == '-1' and 1 or (alt == '-2' and -1) or 0 ) }) end end
@@ -625,7 +628,8 @@ TRH_Class ="mini"
 		})
 	end
 ------ Wip ----------------------------------
-	function addMarker(config)
+
+	function addMarker(config)--we should rename this to add token
 		
         local name=config.name:gsub("%(",""):gsub("%)",""):gsub("%s+","")
 		if Conditions[name] then
@@ -676,4 +680,22 @@ TRH_Class ="mini"
 		ModifyCondition({name="Injured",amount= -1 })
 		ModifyCondition({name="Adversary",amount= -1 })
 	end
+function getAura()
+	return state.extras.Aura
+end
+
+function getHalfBaseSize()
+    if config~=nil then
+        if config.base.size~=nil then
+            if config.base.size==30 or config.base.size=="30" then
+                return 0.59055
+            elseif config.base.size==40 or config.base.size=="40" then
+                return 0.7874
+            elseif config.base.size==50 or config.base.size=="50" then
+                return 0.98425
+            end
+        end
+    end
+    return 0.59055
+end
 ------ END ----------------------------------

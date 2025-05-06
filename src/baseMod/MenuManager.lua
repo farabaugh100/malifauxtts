@@ -90,7 +90,14 @@ function Player_AssignTargetObject(player)
     UIState[player.color].object_target = player.getHoverObject();
     UIState[player.color].object_target_guid =  UIState[player.color].object_target.getGUID(); 
 end
-
+function callMove(params)
+    setPlayerObjectTarget(params.color,params.obj)
+    StartControledMove(params.color,params.range)
+end
+function setPlayerObjectTarget(color,obj)
+    UIState[color].object_target = obj
+    UIState[color].object_target_guid =obj.getGUID()
+end
 function Player_CleanTargetObject(player)
     UIState[player.color].object_target = nil;
     UIState[player.color].object_target_guid = '-1';
@@ -183,6 +190,7 @@ end
 ------------- UI FEEDBACK---------------------
 
 function PlayerPressButton(color,number)
+
     MenuLayers[UIState[color].menu_layer]["_"..number].onSelect(color);
 end
 
