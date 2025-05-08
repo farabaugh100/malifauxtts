@@ -43,7 +43,6 @@ VARIABLES = {
   finishedDiscard = false,
   finishedReshuffle = false, 
   finishedRemoved = false,
-  stopLogging = false,
   log = "",
   visitingEmpowermentZone = nil,
   visitingDuelZone = nil,
@@ -653,146 +652,145 @@ end
 function onDiscard(player, _, _)
   startAction()
   VARIABLES.finishedDiscard = false
+  -- get discard position
   local discardPosition = VARIABLES.zones.discardZone.getPosition()
+  -- get zones occupants
   local discardOccupants = VARIABLES.zones.discardZone.getObjects()
   local conflictOccupants = VARIABLES.zones.conflictZone.getObjects()
   local flippingOccupants = VARIABLES.zones.flippingZone.getObjects()
   local empowermentOccupants = VARIABLES.zones.empowermentZone.getObjects()
-  local cardsCount = 0
-  local cardUsedInDuelGUID = ""
+  -- get the number of cards in discard
+  local cardsCount = countCards(discardOccupants)
+  -- get the number of cards to discard
+  local cardsToDiscard = 0
+  cardsToDiscard = cardsToDiscard + countCards(conflictOccupants)
+  cardsToDiscard = cardsToDiscard + countCards(flippingOccupants)
+  cardsToDiscard = cardsToDiscard + countCards(empowermentOccupants)
 
-  for i=1, #discardOccupants, 1 do
-    -- Checks if we found a deck or a card
-    if discardOccupants[i].type == "Deck" then
-      cardsCount = cardsCount + #discardOccupants[i].getObjects()
-    end
+  -- check if there is anything to do
+  if cardsToDiscard ~= 0 then
 
-    if discardOccupants[i].type == "Card" then
-      cardsCount = cardsCount + 1
-    end
-  end
+    -- get total card number that must end in discard
+    cardsCount = cardsCount + cardsToDiscard
+    local cardUsedInDuelGUID = "" 
 
-  for i=1, #empowermentOccupants, 1 do
-    -- Checks if we found a deck or a card
-    if empowermentOccupants[i].type == "Deck" then
-      cardsCount = cardsCount + #empowermentOccupants[i].getObjects()
-      local rotation = empowermentOccupants[i].getRotation()
-      rotation.z = 0
-      empowermentOccupants[i].setLock(true)
-      empowermentOccupants[i].setRotation(rotation)
-      empowermentOccupants[i].setPosition(discardPosition)
-    end
-
-    if empowermentOccupants[i].type == "Card" then
-      cardsCount = cardsCount + 1
-      local rotation = empowermentOccupants[i].getRotation()
-      rotation.z = 0
-      empowermentOccupants[i].setLock(true)
-      empowermentOccupants[i].setRotation(rotation)
-      empowermentOccupants[i].setPosition(discardPosition)
-    end
-  end 
-
-  discardPosition.y = discardPosition.y + 0.5
-  for i=1, #conflictOccupants, 1 do
-    -- Checks if we found a deck or a card
-    if conflictOccupants[i].type == "Deck" then
-      local cards = conflictOccupants[i].getObjects()
-      local position = discardPosition
-
-      cardsCount = cardsCount + #cards
-      cardUsedInDuelGUID = cards[#cards].guid
-
-      for j=1, #cards, 1 do
-        conflictOccupants[i].takeObject(
-          {
-            position = discardPosition,
-            top = false,
-            smooth = false,
-            callback_function = function(spawned_object)
-              spawned_object.setLock(true)
-              local rotation = spawned_object.getRotation()
-              rotation.z = 0
-              spawned_object.setRotation(rotation)               
-            end,
-          }
-        )
-        discardPosition.y = discardPosition.y + 0.1        
+    -- clean Empowerment Zone
+    for i=1, #empowermentOccupants, 1 do
+      -- Checks if we found a deck or a card and send it to discard
+      if empowermentOccupants[i].type == "Deck" or empowermentOccupants[i].type == "Card" then
+        local rotation = empowermentOccupants[i].getRotation()
+        rotation.z = 0
+        empowermentOccupants[i].setLock(true)
+        empowermentOccupants[i].setRotation(rotation)
+        empowermentOccupants[i].setPosition(discardPosition)
       end
-      break
-    elseif conflictOccupants[i].type == "Card" then
-      cardUsedInDuelGUID = conflictOccupants[i].getGUID() 
-      cardsCount = cardsCount + 1
-      local rotation = conflictOccupants[i].getRotation()
-      rotation.z = 0
-      conflictOccupants[i].setLock(true)
-      conflictOccupants[i].setRotation(rotation) 
-      conflictOccupants[i].setPosition(discardPosition) 
-      discardPosition.y = discardPosition.y + 0.1   
+    end 
+
+    -- advance discard position up
+    discardPosition.y = discardPosition.y + 0.5
+
+    -- clean conflict Zone
+    for i=1, #conflictOccupants, 1 do
+      -- Checks if we found a deck
+      if conflictOccupants[i].type == "Deck" then
+        local cards = conflictOccupants[i].getObjects()
+        local position = discardPosition
+
+        -- set last card guid as used in the duel
+        cardUsedInDuelGUID = cards[#cards].guid
+
+        -- send iteratively all card from deck to discard
+        for j=1, #cards, 1 do
+          conflictOccupants[i].takeObject(
+            {
+              position = discardPosition,
+              top = false,
+              smooth = false,
+              callback_function = function(spawned_object)
+                spawned_object.setLock(true)
+                local rotation = spawned_object.getRotation()
+                rotation.z = 0
+                spawned_object.setRotation(rotation)               
+              end,
+            }
+          )
+          -- advance discard position up
+          discardPosition.y = discardPosition.y + 0.1        
+        end
+      -- Checks if we found a card
+      elseif conflictOccupants[i].type == "Card" then
+        -- set this card guid as used in the duel
+        cardUsedInDuelGUID = conflictOccupants[i].getGUID() 
+        -- send the card to discard
+        local rotation = conflictOccupants[i].getRotation()
+        rotation.z = 0
+        conflictOccupants[i].setLock(true)
+        conflictOccupants[i].setRotation(rotation) 
+        conflictOccupants[i].setPosition(discardPosition) 
+
+        -- advance discard position up
+        discardPosition.y = discardPosition.y + 0.1   
+      end
     end
-  end
-  discardPosition.y = discardPosition.y + 0.5
-  for i=1, #flippingOccupants, 1 do
-    -- Checks if we found a deck or a card
-    if flippingOccupants[i].type == "Deck" then
-      cardsCount = cardsCount + #flippingOccupants[i].getObjects()
-      local rotation = flippingOccupants[i].getRotation()
+    -- advance discard position up
+    discardPosition.y = discardPosition.y + 0.5
+
+    -- clean flipping Zone
+    for i=1, #flippingOccupants, 1 do
+      -- Checks if we found a deck or a card
+      if flippingOccupants[i].type == "Deck" or flippingOccupants[i].type == "Card" then
+        local rotation = flippingOccupants[i].getRotation()
+        rotation.z = 0
+        flippingOccupants[i].setLock(true)
+        flippingOccupants[i].setRotation(rotation)
+        flippingOccupants[i].setPosition(discardPosition)
+      end
+    end
+    -- advance discard position up
+    discardPosition.y = discardPosition.y + 0.5
+
+    -- get the card used in a duel 
+    cardUsedInDuel = getObjectFromGUID(cardUsedInDuelGUID)
+    if cardUsedInDuel ~= nil then
+      -- if it exist send it to the discard on top
+      local rotation = cardUsedInDuel.getRotation()
       rotation.z = 0
-      flippingOccupants[i].setLock(true)
-      flippingOccupants[i].setRotation(rotation)
-      flippingOccupants[i].setPosition(discardPosition)
+      cardUsedInDuel.setLock(true)
+      cardUsedInDuel.setRotation(rotation)
+      cardUsedInDuel.setPosition(discardPosition)
     end
 
-    if flippingOccupants[i].type == "Card" then
-      cardsCount = cardsCount + 1
-      local rotation = flippingOccupants[i].getRotation()
-      rotation.z = 0
-      flippingOccupants[i].setLock(true)
-      flippingOccupants[i].setRotation(rotation)
-      flippingOccupants[i].setPosition(discardPosition)
-    end
-  end
-
-  discardPosition.y = discardPosition.y + 0.5
-  cardUsedInDuel = getObjectFromGUID(cardUsedInDuelGUID)
-  if cardUsedInDuel ~= nil then
-    local rotation = cardUsedInDuel.getRotation()
-    rotation.z = 0
-    cardUsedInDuel.setLock(true)
-    cardUsedInDuel.setRotation(rotation)
-    cardUsedInDuel.setPosition(discardPosition)
-  end
-  if cardsCount ~= 0 then
+    -- Wait until all cards are in discard zone
     Wait.condition(
       function()
+        -- Unlock all cards and decks in discard zone
         local discardOccupants = VARIABLES.zones.discardZone.getObjects()
         for i=1, #discardOccupants, 1 do
           if discardOccupants[i].type == "Deck" or discardOccupants[i].type == "Card" then
             discardOccupants[i].setLock(false) 
           end  
         end 
+        -- Wait until all cards in discard zone creates one deck
         Wait.condition(
           function()
             VARIABLES.finishedDiscard = true
             stopAction()
           end,
           function()
-            local discardOccupants = VARIABLES.zones.discardZone.getObjects()
-            for i=1, #discardOccupants, 1 do
-              if discardOccupants[i].type == "Deck" then
-                if cardsCount == #discardOccupants[i].getObjects() then
-                  return true
-                else
-                  return false
+            if cardsCount == 1 then
+              return true
+            else
+              local discardOccupants = VARIABLES.zones.discardZone.getObjects()
+              for i=1, #discardOccupants, 1 do
+                if discardOccupants[i].type == "Deck" then
+                  if cardsCount == #discardOccupants[i].getObjects() then
+                    return true
+                  else
+                    return false
+                  end
                 end
-              elseif discardOccupants[i].type == "Card" then
-                if cardsCount == 1 then
-                  return true
-                else
-                  return false
-                end  
-              end
-            end 
+              end 
+            end
             return false           
           end,
           5,function()
@@ -802,24 +800,13 @@ function onDiscard(player, _, _)
         )
       end,
       function()
-        local discardOccupants = VARIABLES.zones.discardZone.getObjects()
-        local cardsInDiscard = 0
-        for i=1, #discardOccupants, 1 do
-          if discardOccupants[i].type == "Deck" then
-            
-            cardsInDiscard = cardsInDiscard + #discardOccupants[i].getObjects()
-            if cardsCount == cardsInDiscard then
-              return true
-            end
-          end
-          if discardOccupants[i].type == "Card" then
-            cardsInDiscard = cardsInDiscard + 1
-            if cardsCount == cardsInDiscard then
-              return true
-            end
-          end
-        end
-        return false      
+        local discardOccupants = VARIABLES.zones.discardZone.getObjects()        
+        local cardsInDiscard = countCards(discardOccupants)
+        if cardsCount == cardsInDiscard then
+          return true
+        else        
+          return false
+        end      
       end,
       5,
       function()
@@ -837,83 +824,89 @@ end
 --- Transfer cards from discard to deck and shuffles them. 
 function onReshuffle(player, _, _)
   startAction()
-  VARIABLES.log = "performed: Reshuffle"
-  VARIABLES.finishedReshuffle = false
-  local discardOccupants = VARIABLES.zones.discardZone.getObjects()
-  local deckOccupants = VARIABLES.zones.deckZone.getObjects()
-  local deckPosition = VARIABLES.zones.deckZone.getPosition() 
-  local cardsCount = 0
-
-  for i=1, #discardOccupants, 1 do
-    -- Checks if we found a deck or a card
-    if discardOccupants[i].type == "Deck" or discardOccupants[i].type == "Card" then
-      if discardOccupants[i].type == "Deck" then
-        cardsCount = cardsCount + #discardOccupants[i].getObjects()
-      else
-        cardsCount = cardsCount + 1
-      end
-      local rotation = discardOccupants[i].getRotation()
-      rotation.z = 180
-      discardOccupants[i].setRotation(rotation)
-      discardOccupants[i].setPosition(deckPosition)
-      discardOccupant = discardOccupants[i]
-      break
-    end
-  end 
-
-  for i=1, #deckOccupants, 1 do
-    -- Checks if we found a deck or a card
-    if deckOccupants[i].type == "Deck" or deckOccupants[i].type == "Card" then
-      if deckOccupants[i].type == "Deck" then
-        cardsCount = cardsCount + #deckOccupants[i].getObjects()
-      else
-        cardsCount = cardsCount + 1
-      end
-      break
-    end
-  end 
-
+  onDiscard()
   Wait.condition(
     function()
+      VARIABLES.finishedReshuffle = false
+      -- get zones occupants
+      local discardOccupants = VARIABLES.zones.discardZone.getObjects()
       local deckOccupants = VARIABLES.zones.deckZone.getObjects()
-      for i=1, #deckOccupants, 1 do
-        -- Checks if we found a deck
-        if deckOccupants[i].type == "Deck" then
-          deckOccupants[i].randomize()
-        end
-      end
-      VARIABLES.finishedReshuffle = true
-      logAction(player)
-      stopAction()
-    end,
-    function()
-      if cardsCount == 0 then
-        return true
-      else
-        local deckOccupants = VARIABLES.zones.deckZone.getObjects()
-        for i=1, #deckOccupants, 1 do
+      local deckPosition = VARIABLES.zones.deckZone.getPosition() 
+      -- get the number of cards in discard zone
+      local cardsToReshuffle = countCards(discardOccupants)
+    
+      local cardsCount = 0
+    
+      -- check if the is anything to do
+      if cardsToReshuffle ~= 0 then
+        cardsCount = cardsToReshuffle + countCards(deckOccupants)
+    
+        -- send cards from zone discard to deck zone 
+        for i=1, #discardOccupants, 1 do
           -- Checks if we found a deck or a card
-          if deckOccupants[i].type == "Deck" then
-            if cardsCount == #deckOccupants[i].getObjects() then              
-              return true
-            end 
-          elseif deckOccupants[i].type == "Card" then
-            if cardsCount == 1 then              
-              return true
-            end
+          if discardOccupants[i].type == "Deck" or discardOccupants[i].type == "Card" then
+            local rotation = discardOccupants[i].getRotation()
+            rotation.z = 180
+            discardOccupants[i].setRotation(rotation)
+            discardOccupants[i].setPosition(deckPosition)
+            discardOccupant = discardOccupants[i]
           end
         end
-        return false 
+    
+        -- Wait until all cards are in deck zone
+        Wait.condition(
+          function()
+            local deckOccupants = VARIABLES.zones.deckZone.getObjects()
+            for i=1, #deckOccupants, 1 do
+              -- Checks if we found a deck
+              if deckOccupants[i].type == "Deck" then
+                deckOccupants[i].randomize()
+              end
+            end
+            VARIABLES.finishedReshuffle = true
+            VARIABLES.log = "performed: Reshuffle"
+            logAction(player)
+            stopAction()
+          end,
+          function()
+            if cardsCount == 0 or cardsCount == 1 then
+              return true
+            else
+              local deckOccupants = VARIABLES.zones.deckZone.getObjects()
+    
+              for i=1, #deckOccupants, 1 do
+                -- Checks if we found a deck or a card
+                if deckOccupants[i].type == "Deck" then
+                  if cardsCount ==  #deckOccupants[i].getObjects() then
+                    return true
+                  end
+                end
+              end
+            end
+            return false
+          end,
+          5,
+          function()
+            VARIABLES.finishedReshuffle = true
+            VARIABLES.log = "performed: Reshuffle"
+            logAction(player,nil," wrong")
+            stopAction()
+          end
+        )    
+      else
+        VARIABLES.finishedReshuffle = true
+        stopAction()
       end
-      return false
+    end,
+    function()
+      return VARIABLES.finishedDiscard
     end,
     5,
     function()
       VARIABLES.finishedReshuffle = true
-      logAction(player,nil," wrong")
       stopAction()
     end
-  ) 
+  )   
 end
 
 --- Swaps cards between deck and discard.
@@ -987,71 +980,73 @@ end
 function onRemoved(player, _, _)
   startAction()
   VARIABLES.finishedRemoved = false
+  -- get discard position
+  local discardPosition = VARIABLES.zones.discardZone.getPosition()
+  -- get zones occupants
   local removedOccupants = VARIABLES.zones.removedZone.getObjects()
-  local deckOccupants = VARIABLES.zones.deckZone.getObjects()
-  local deckPosition = VARIABLES.zones.deckZone.getPosition()
-  local cardsCount = 0
-
+  local discardOccupants = VARIABLES.zones.discardZone.getObjects()
+  local handOccupants = nil
   local player = getPlayer(VARIABLES.playerColor)
+  -- get total card count to discard
+  local cardsToDiscard = 0
+  cardsToDiscard = cardsToDiscard + countCards(removedOccupants)
   if player then 
-    local handOccupants = player.getHandObjects()
+    handOccupants = player.getHandObjects() 
+    cardsToDiscard = cardsToDiscard + #handOccupants
+  end
 
+  --get total cards number that must end in discard zone
+  cardsCount = cardsToDiscard + countCards(discardOccupants)
+
+  -- clean hand zone
+  if handOccupants then 
     for i=1, #handOccupants, 1 do
-        cardsCount = cardsCount + 1
         local rotation = handOccupants[i].getRotation()
-        rotation.z = 180
-        handOccupants[i].setPosition(deckPosition)
+        rotation.z = 0
+        handOccupants[i].setPosition(discardPosition)
         handOccupants[i].setRotation(rotation)      
     end  
   end
 
+  -- clear removed zone
   for i=1, #removedOccupants, 1 do
     -- Checks if we found a deck or a card
     if removedOccupants[i].type == "Deck" or removedOccupants[i].type == "Card" then
-      if removedOccupants[i].type == "Deck" then
-        cardsCount = cardsCount + #removedOccupants[i].getObjects()
-      else
-        cardsCount = cardsCount + 1
-      end
       local rotation = removedOccupants[i].getRotation()
-      rotation.z = 180
+      rotation.z = 0
       removedOccupants[i].setRotation(rotation)
-      removedOccupants[i].setPosition(deckPosition)
+      removedOccupants[i].setPosition(discardPosition)
       break
     end
   end
 
-  if cardsCount ~= 0 then
-    for i=1, #deckOccupants, 1 do
-      -- Checks if we found a deck or a card
-      if deckOccupants[i].type == "Deck" or deckOccupants[i].type == "Card" then
-        if deckOccupants[i].type == "Deck" then
-          cardsCount = cardsCount + #deckOccupants[i].getObjects()
-        else
-          cardsCount = cardsCount + 1
-        end
-        break
-      end
-    end
-
+  if cardsToDiscard ~= 0 then
+    -- Wait until all cards are in discard zone and create a deck.
     Wait.condition(
       function()
         VARIABLES.finishedRemoved = true
         stopAction()
       end,
       function()
-        local deckOccupants = VARIABLES.zones.deckZone.getObjects()
-        for i=1, #deckOccupants, 1 do
-          -- Checks if we found a deck or a card
-          if deckOccupants[i].type == "Deck" then
-            if cardsCount == #deckOccupants[i].getObjects() then              
-              return true
-            end 
-          elseif deckOccupants[i].type == "Card" then
-            if cardsCount == 1 then              
-              return true
+        if cardsCount == 0 then
+          return true
+        else
+          local discardOccupants = VARIABLES.zones.discardZone.getObjects()
+          for i=1, #discardOccupants, 1 do
+            if discardOccupants[i].type == "Deck" then
+              if cardsCount == #discardOccupants[i].getObjects() then
+                return true
+              else
+                return false
+              end
+            elseif discardOccupants[i].type == "Card" then
+              if cardsCount == 1 then
+                return true
+              else
+                return false
+              end
             end
-          end
+          end 
         end
         return false          
       end,
@@ -1070,35 +1065,20 @@ end
 --- Gather all the cards in the deck zone and shuffles them.
 function onResetCards(player, _, _)
   startAction()
-  VARIABLES.stopLogging = true
-  onDiscard()
+  onRemoved()
+  -- Wait until onRemoved is finished
   Wait.condition(
     function()
-      onRemoved()
+      onReshuffle()
+      -- Wait until onReshuffle is finished
       Wait.condition(
         function()
-          onReshuffle()
-          Wait.condition(
-            function()
-              VARIABLES.log = "performed: Reset Deck"
-              VARIABLES.stopLogging = false
-              logAction(player)
-              stopAction()        
-            end,
-            function()              
-              return VARIABLES.finishedReshuffle
-            end,
-            5,
-            function()
-              VARIABLES.log = "performed: Reset Deck"
-              VARIABLES.stopLogging = false
-              logAction(player)
-              stopAction()        
-            end
-          )                    
+          VARIABLES.log = "performed: Reset Deck"
+          logAction(player)
+          stopAction()                   
         end,
         function()
-          return VARIABLES.finishedRemoved
+          return VARIABLES.finishedReshuffle
         end,
         5,
         function()
@@ -1107,7 +1087,7 @@ function onResetCards(player, _, _)
       )      
     end,
     function()
-      return VARIABLES.finishedDiscard
+      return VARIABLES.finishedRemoved
     end,
     5,
     function()
@@ -1172,27 +1152,27 @@ function stopAction()
 end
 
 function logAction(player, prefix, suffix)
-  if not VARIABLES.stopLogging then
-    if prefix then
-      VARIABLES.log = prefix .. VARIABLES.log
-    end
-
-    if suffix then
-      VARIABLES.log = VARIABLES.log .. suffix
-    end 
-
-    local color = Color.white
-    local name = "Unknown"
-    if player then
-      name = player.steam_name 
-      color = player.color 
-    end
-
-    VARIABLES.log = name .. " " .. VARIABLES.log
-
-    printToAll(VARIABLES.log, color)
-    VARIABLES.log = ""
+  if prefix then
+    VARIABLES.log = prefix .. VARIABLES.log
   end
+
+  if suffix then
+    VARIABLES.log = VARIABLES.log .. suffix
+  end 
+
+  local color = Color.white
+  local name = "Unknown"
+  if player then
+    name = player.steam_name 
+    color = player.color 
+  end
+
+  VARIABLES.log = name .. " " .. VARIABLES.log
+
+  if name ~= "Unknown" then
+    printToAll(VARIABLES.log, color)
+  end
+  VARIABLES.log = ""
 end
 
 function addCardToLog(card)
@@ -1334,17 +1314,18 @@ function getPlayer(color)
   return nil
 end
 
---- Print table (dev)
-function printTable(obj,option)
-  if type(obj) ~= 'table' then return obj end
-  local res = {}
-  for k, v in pairs(obj) do
-    if option == "s" then
-      print(k..": ",v)
-    else
-      print(k..": ",printTable(v))
+--- Counts cards in zone.
+-- @tparam tab Object table.
+-- @treturn number Total card count.
+function countCards(occupants)
+  local cardsCount = 0
+  for i=1, #occupants, 1 do
+    -- Checks if we found a deck or a card
+    if occupants[i].type == "Deck" then
+      cardsCount = cardsCount + #occupants[i].getObjects()
+    elseif occupants[i].type == "Card" then
+      cardsCount = cardsCount + 1
     end
   end
-  print("--")
-  return res
+  return cardsCount
 end
