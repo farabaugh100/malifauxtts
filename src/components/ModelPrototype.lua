@@ -495,7 +495,7 @@ TRH_Class ="mini"
 	Conditions = {
 		Aura = { url="https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png", color="#99aa22", stacks=true },
 		Activated  = { url="https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/flag.png", color="#bbbb22", stacks=false },
-		Mode  = { url="https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/gear.png", color="#bbffbb", stacks=false, loop = 2 }
+		Mode  = { url="https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/gear.png", color="#bbffbb", stacks=false, loop = 2 },
 
 		Adaptable ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Adaptable.png", color="#FFFFFF",stacks=false},
 		Adversary ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Adversary.png", color="#DF2020",stacks=false},
@@ -531,7 +531,7 @@ TRH_Class ="mini"
 		ImprovisedPart ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Tokens/ImprovisedPart.png", color="#FFFFFF",stacks=false},
 		Injured ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Injured.png", color="#920606",stacks=false},
 		Insight ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Insight.png", color="#B7FFDF",stacks=false},
-		Paranoia ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Parasite.png", color="#FFFFFF",stacks=false},
+		Paranoia ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Paranoia.png", color="#FFFFFF",stacks=false},
 		Parasite ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Parasite.png", color="#FFFFFF",stacks=false},
 		Perforated ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Perforated.png", color="#FFFFFF",stacks=false},
 		Poison ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Poisoned.png", color="#83CD4D",stacks=false},

@@ -1,7 +1,7 @@
 {
   "SaveName": "Bare Mod",
-  "EpochTime": 1746316056,
-  "Date": "5/3/2025 7:47:36 PM",
+  "EpochTime": 1746994706,
+  "Date": "5/11/2025 4:18:26 PM",
   "VersionNumber": "v13.3",
   "GameMode": "Malifaux Breachside Gamma - dev branch",
   "GameType": "Game",
@@ -3306,7 +3306,7 @@
         "posX": -37.8354721,
         "posY": 0.9864669,
         "posZ": -31.95159,
-        "rotX": 0.000431889785,
+        "rotX": 0.00043188993,
         "rotY": 270.0,
         "rotZ": -8.778595E-05,
         "scaleX": 0.5368931,
@@ -3322,9 +3322,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.409395039,
-        "g": 0.409395039,
-        "b": 0.409395039
+        "r": 0.409395,
+        "g": 0.409395,
+        "b": 0.409395
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -3373,9 +3373,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.409395039,
-        "g": 0.409395039,
-        "b": 0.409395039
+        "r": 0.409395,
+        "g": 0.409395,
+        "b": 0.409395
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -3424,9 +3424,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.127166569,
-        "g": 0.127166569,
-        "b": 0.127166569
+        "r": 0.127166539,
+        "g": 0.127166539,
+        "b": 0.127166539
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -3709,9 +3709,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.381521881,
-        "g": 0.381521881,
-        "b": 0.381521881
+        "r": 0.381521851,
+        "g": 0.381521851,
+        "b": 0.381521851
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -3760,9 +3760,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.242149144,
-        "g": 0.234977156,
-        "b": 0.234977156
+        "r": 0.242149085,
+        "g": 0.234977126,
+        "b": 0.234977126
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -3975,11 +3975,11 @@
       "Name": "Custom_Assetbundle",
       "Transform": {
         "posX": -1.52714753,
-        "posY": 0.6277724,
+        "posY": 0.62777245,
         "posZ": -98.6046753,
-        "rotX": -9.869329E-06,
+        "rotX": -1.08422018E-05,
         "rotY": 14.972434,
-        "rotZ": -1.27047122E-06,
+        "rotZ": 1.3160145E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -3993,7 +3993,7 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.0459285527,
+        "r": 0.045928508,
         "g": 0.475558221,
         "b": 0.8000001
       },
@@ -4083,12 +4083,12 @@
       "GUID": "e727dd",
       "Name": "Custom_Token",
       "Transform": {
-        "posX": 0.0206498578,
-        "posY": 0.6877723,
+        "posX": 0.0206497665,
+        "posY": 0.687772453,
         "posZ": -41.1197968,
-        "rotX": 7.42268958E-06,
+        "rotX": -2.99501176E-06,
         "rotY": 315.0002,
-        "rotZ": 8.7164135E-06,
+        "rotZ": -1.72308637E-06,
         "scaleX": 0.35,
         "scaleY": 1.0,
         "scaleZ": 0.35
@@ -4141,8 +4141,8 @@
       "Name": "3DText",
       "Transform": {
         "posX": 0.0,
-        "posY": 0.9599982,
-        "posZ": -47.48004,
+        "posY": 0.9599983,
+        "posZ": -47.48005,
         "rotX": 90.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4194,12 +4194,12 @@
       "GUID": "17aadb",
       "Name": "Checker_red",
       "Transform": {
-        "posX": 6.116796,
+        "posX": 6.11676455,
         "posY": 0.587768435,
-        "posZ": -98.79314,
-        "rotX": 0.0001553349,
+        "posZ": -98.79317,
+        "rotX": 0.000154594964,
         "rotY": 270.000977,
-        "rotZ": -0.000457685,
+        "rotZ": -0.000456959329,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -4240,8 +4240,8 @@
       "Name": "3DText",
       "Transform": {
         "posX": -7.62939453E-06,
-        "posY": 0.9599982,
-        "posZ": -50.80005,
+        "posY": 0.9599983,
+        "posZ": -50.8000565,
         "rotX": 90.0,
         "rotY": 179.540451,
         "rotZ": 0.0,
@@ -4348,11 +4348,11 @@
       "Name": "Notecard",
       "Transform": {
         "posX": -34.0,
-        "posY": 0.831455469,
+        "posY": 0.8314555,
         "posZ": -21.99982,
-        "rotX": -3.411749E-07,
+        "rotX": -2.95882364E-06,
         "rotY": 90.0088654,
-        "rotZ": -7.57258476E-06,
+        "rotZ": -2.89531613E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -4392,12 +4392,12 @@
       "GUID": "15fc7f",
       "Name": "Checker_white",
       "Transform": {
-        "posX": 6.0997653,
-        "posY": 0.8382237,
-        "posZ": -98.74659,
-        "rotX": -0.00247912784,
-        "rotY": 89.9872742,
-        "rotZ": 0.00239443965,
+        "posX": 6.09978628,
+        "posY": 0.8382236,
+        "posZ": -98.7466049,
+        "rotX": -0.00247541256,
+        "rotY": 89.98729,
+        "rotZ": 0.00239534932,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -4457,9 +4457,9 @@
         "posX": -36.2247849,
         "posY": 0.587772667,
         "posZ": 44.60769,
-        "rotX": 1.14115629E-07,
+        "rotX": -8.406534E-08,
         "rotY": 269.967468,
-        "rotZ": 1.06533768E-07,
+        "rotZ": 1.12542551E-07,
         "scaleX": 3.2506578,
         "scaleY": 1.0,
         "scaleZ": 3.2506578
@@ -4508,9 +4508,9 @@
         "posX": 29.7922745,
         "posY": 0.5877726,
         "posZ": 44.9559059,
-        "rotX": 3.403805E-09,
+        "rotX": 1.19715455E-08,
         "rotY": 89.9994,
-        "rotZ": 3.08717119E-09,
+        "rotZ": 6.389475E-09,
         "scaleX": 3.2506578,
         "scaleY": 1.0,
         "scaleZ": 3.2506578
@@ -4556,11 +4556,11 @@
       "GUID": "d3c7cc",
       "Name": "3DText",
       "Transform": {
-        "posX": -0.21799469,
-        "posY": 0.96065253,
-        "posZ": 31.9146271,
+        "posX": -0.21799852,
+        "posY": 0.960650563,
+        "posZ": 31.9146233,
         "rotX": 90.0,
-        "rotY": 0.301294655,
+        "rotY": 0.301289827,
         "rotZ": 0.0,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -4610,9 +4610,9 @@
       "GUID": "407221",
       "Name": "3DText",
       "Transform": {
-        "posX": -17.2804871,
-        "posY": 0.9601737,
-        "posZ": 26.1345081,
+        "posX": -17.2805,
+        "posY": 0.9601699,
+        "posZ": 26.1345043,
         "rotX": 90.0,
         "rotY": 359.468323,
         "rotZ": 0.0,
@@ -4665,8 +4665,8 @@
       "Name": "3DText",
       "Transform": {
         "posX": 16.7951336,
-        "posY": 0.9608966,
-        "posZ": 26.2563057,
+        "posY": 0.9608957,
+        "posZ": 26.2563038,
         "rotX": 90.0,
         "rotY": 359.468323,
         "rotZ": 0.0,
@@ -5070,12 +5070,12 @@
       "GUID": "1b16b0",
       "Name": "BlockSquare",
       "Transform": {
-        "posX": 0.0127181439,
+        "posX": 0.0127181495,
         "posY": 1.08777225,
         "posZ": -98.24594,
-        "rotX": 7.635104E-07,
-        "rotY": 0.004276366,
-        "rotZ": 8.972236E-07,
+        "rotX": -4.39644566E-07,
+        "rotY": 0.00427643536,
+        "rotZ": 1.06108155E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -5115,9 +5115,9 @@
       "GUID": "66b554",
       "Name": "3DText",
       "Transform": {
-        "posX": 10.7942762,
-        "posY": 0.960898459,
-        "posZ": -98.31526,
+        "posX": 10.7942724,
+        "posY": 0.9608976,
+        "posZ": -98.3153152,
         "rotX": 90.0,
         "rotY": 269.693481,
         "rotZ": 0.0,
@@ -5169,9 +5169,9 @@
       "GUID": "8a3c17",
       "Name": "3DText",
       "Transform": {
-        "posX": -9.55702,
-        "posY": 0.9601918,
-        "posZ": -98.01743,
+        "posX": -9.557022,
+        "posY": 0.9601881,
+        "posZ": -98.0174942,
         "rotX": 90.0,
         "rotY": 89.0990143,
         "rotZ": 0.0,
@@ -5516,9 +5516,9 @@
         "posX": 12.6577768,
         "posY": 0.6210051,
         "posZ": -95.95677,
-        "rotX": -5.544333E-07,
+        "rotX": -5.07883158E-07,
         "rotY": 179.997,
-        "rotZ": 9.10652261E-07,
+        "rotZ": 1.081872E-06,
         "scaleX": 0.713773131,
         "scaleY": 0.0664657652,
         "scaleZ": 0.706220865
@@ -5690,11 +5690,11 @@
       "Name": "Custom_Model_Infinite_Bag",
       "Transform": {
         "posX": 14.9626064,
-        "posY": 0.621005,
+        "posY": 0.6210051,
         "posZ": -96.5976639,
-        "rotX": 9.606227E-08,
+        "rotX": 5.10006146E-07,
         "rotY": 179.985977,
-        "rotZ": 3.41249847E-06,
+        "rotZ": 4.82368932E-07,
         "scaleX": 0.7137734,
         "scaleY": 0.0664657652,
         "scaleZ": 0.7062205
@@ -5866,11 +5866,11 @@
       "Name": "Custom_Model_Infinite_Bag",
       "Transform": {
         "posX": 13.4374294,
-        "posY": 0.6214454,
+        "posY": 0.6214455,
         "posZ": -96.9794846,
-        "rotX": -1.18517725E-07,
+        "rotX": -2.13367759E-08,
         "rotY": 269.808167,
-        "rotZ": -5.78653442E-07,
+        "rotZ": -4.00928371E-07,
         "scaleX": 0.73517406,
         "scaleY": 0.06734645,
         "scaleZ": 0.744278133
@@ -6058,9 +6058,9 @@
         "posX": -6.072866,
         "posY": 0.587772369,
         "posZ": -99.8726044,
-        "rotX": 3.72874638E-07,
+        "rotX": 3.397927E-07,
         "rotY": 270.0086,
-        "rotZ": 1.770569E-08,
+        "rotZ": 3.2558447E-09,
         "scaleX": 2.5,
         "scaleY": 1.0,
         "scaleZ": 2.5
@@ -6138,9 +6138,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.409394234,
-        "g": 0.409394234,
-        "b": 0.409394234
+        "r": 0.4093942,
+        "g": 0.4093942,
+        "b": 0.4093942
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -6720,11 +6720,11 @@
       "GUID": "4ddd87",
       "Name": "Checker_black",
       "Transform": {
-        "posX": 7.84766054,
+        "posX": 7.84767056,
         "posY": 0.838255763,
-        "posZ": -98.3329849,
-        "rotX": 7.83363063E-08,
-        "rotY": 179.956268,
+        "posZ": -98.33302,
+        "rotX": -6.50426841E-07,
+        "rotY": 179.955521,
         "rotZ": 180.0,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -6768,9 +6768,9 @@
         "posX": 13.49361,
         "posY": 0.570772231,
         "posZ": -91.04163,
-        "rotX": 7.46099E-07,
+        "rotX": -1.862334E-07,
         "rotY": 0.343849748,
-        "rotZ": 3.01068326E-07,
+        "rotZ": 6.92119954E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -6862,10 +6862,10 @@
       "GUID": "02c7e5",
       "Name": "Deck",
       "Transform": {
-        "posX": 0.626264632,
-        "posY": 0.8686609,
+        "posX": 0.6262646,
+        "posY": 0.868661,
         "posZ": -90.17453,
-        "rotX": -3.18630157E-07,
+        "rotX": -1.0906669E-07,
         "rotY": 269.998352,
         "rotZ": 180.0,
         "scaleX": 1.5,
@@ -10714,7 +10714,7 @@
         "posZ": 44.64034,
         "rotX": 1.24191456E-06,
         "rotY": 180.00853,
-        "rotZ": 7.874038E-07,
+        "rotZ": 7.874039E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -11090,11 +11090,11 @@
       "Name": "Custom_Model_Infinite_Bag",
       "Transform": {
         "posX": 13.4839077,
-        "posY": 0.6214453,
+        "posY": 0.621445358,
         "posZ": -95.38546,
-        "rotX": 3.89464674E-07,
+        "rotX": 2.02156116E-07,
         "rotY": 90.0098,
-        "rotZ": 5.200654E-07,
+        "rotZ": 3.94904E-07,
         "scaleX": 0.7351749,
         "scaleY": 0.06734628,
         "scaleZ": 0.7442768
@@ -11282,9 +11282,9 @@
         "posX": -36.2247849,
         "posY": 0.5877726,
         "posZ": 55.60769,
-        "rotX": -7.38545E-09,
+        "rotX": -1.03565219E-08,
         "rotY": 269.984344,
-        "rotZ": 1.12766507E-08,
+        "rotZ": -3.39273787E-09,
         "scaleX": 3.24971676,
         "scaleY": 1.0,
         "scaleZ": 3.24971676
@@ -11333,9 +11333,9 @@
         "posX": 29.7922764,
         "posY": 0.587772548,
         "posZ": 55.9559059,
-        "rotX": -2.43550531E-08,
+        "rotX": -2.660907E-09,
         "rotY": 90.01519,
-        "rotZ": -1.19299441E-08,
+        "rotZ": -1.813808E-08,
         "scaleX": 3.24971676,
         "scaleY": 1.0,
         "scaleZ": 3.24971676
@@ -11382,11 +11382,11 @@
       "Name": "Bag",
       "Transform": {
         "posX": -5.52551031,
-        "posY": 0.402738571,
+        "posY": 0.402739048,
         "posZ": -44.77294,
-        "rotX": -3.99671336E-07,
+        "rotX": 5.757781E-07,
         "rotY": 269.986755,
-        "rotZ": -2.04015151E-07,
+        "rotZ": 6.316467E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -13867,9 +13867,9 @@
         "posX": 2.00649333,
         "posY": 0.6877722,
         "posZ": -41.18053,
-        "rotX": -2.86261252E-06,
+        "rotX": -1.8781958E-06,
         "rotY": 314.999878,
-        "rotZ": 2.8317852E-06,
+        "rotZ": -4.826061E-06,
         "scaleX": 0.35,
         "scaleY": 1.0,
         "scaleZ": 0.35
@@ -13922,11 +13922,11 @@
       "Name": "Bag",
       "Transform": {
         "posX": -9.593889,
-        "posY": 0.402738452,
+        "posY": 0.402737319,
         "posZ": -44.9545,
-        "rotX": 7.483082E-07,
-        "rotY": 270.03186,
-        "rotZ": 7.60961257E-07,
+        "rotX": -6.63586263E-07,
+        "rotY": 270.0318,
+        "rotZ": 6.63218E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -16475,11 +16475,11 @@
       "Name": "Notecard",
       "Transform": {
         "posX": 34.0,
-        "posY": 0.831455469,
+        "posY": 0.8314554,
         "posZ": -22.0,
-        "rotX": -4.858687E-06,
+        "rotX": -2.21992741E-06,
         "rotY": 270.0114,
-        "rotZ": 8.514649E-06,
+        "rotZ": 6.88756927E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -16538,9 +16538,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.409393549,
-        "g": 0.409393549,
-        "b": 0.409393549
+        "r": 0.409393519,
+        "g": 0.409393519,
+        "b": 0.409393519
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -17105,18 +17105,18 @@
       }
     },
     {
-      "GUID": "c81718",
-      "Name": "Card",
+      "GUID": "386309",
+      "Name": "Custom_Tile",
       "Transform": {
         "posX": 7.47,
-        "posY": 0.6013771,
+        "posY": 0.5877724,
         "posZ": 49.6,
-        "rotX": -4.67029764E-07,
-        "rotY": 180.000046,
-        "rotZ": 180.0,
-        "scaleX": 2.06,
+        "rotX": 3.37635129E-08,
+        "rotY": 180.0,
+        "rotZ": -1.51315973E-07,
+        "scaleX": 3.18583179,
         "scaleY": 1.0,
-        "scaleZ": 2.06
+        "scaleZ": 3.18583179
       },
       "Nickname": "",
       "Description": "",
@@ -17127,9 +17127,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.713235259,
-        "g": 0.713235259,
-        "b": 0.713235259
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -17144,18 +17144,17 @@
       "Tooltip": true,
       "GridProjection": false,
       "HideWhenFaceDown": false,
-      "Hands": true,
-      "CardID": 57100,
-      "SidewaysCard": false,
-      "CustomDeck": {
-        "571": {
-          "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/15412170793688424668/7BC5012B9731608BAA667E0158A0D3963D020F7A/",
-          "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/15412170793688424668/7BC5012B9731608BAA667E0158A0D3963D020F7A/",
-          "NumWidth": 2,
-          "NumHeight": 2,
-          "BackIsHidden": false,
-          "UniqueBack": true,
-          "Type": 0
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/TemporalDistoriton/M4EBetaCardsRepo/refs/heads/main/Strategy-Cards/0.png",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/TemporalDistoriton/M4EBetaCardsRepo/refs/heads/main/Strategy-Cards/0.png",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
         }
       },
       "LuaScript": "",
@@ -17163,18 +17162,18 @@
       "XmlUI": ""
     },
     {
-      "GUID": "75d6fd",
-      "Name": "Card",
+      "GUID": "6475fa",
+      "Name": "Custom_Tile",
       "Transform": {
-        "posX": -1.72999954,
-        "posY": 0.6013771,
+        "posX": -1.73,
+        "posY": 0.5877724,
         "posZ": 49.6,
-        "rotX": -5.89828026E-08,
-        "rotY": 179.990723,
-        "rotZ": 180.0,
-        "scaleX": 2.06,
+        "rotX": 3.65137467E-08,
+        "rotY": 180.000015,
+        "rotZ": -1.465861E-07,
+        "scaleX": 3.19,
         "scaleY": 1.0,
-        "scaleZ": 2.06
+        "scaleZ": 3.19
       },
       "Nickname": "",
       "Description": "",
@@ -17185,9 +17184,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.713235259,
-        "g": 0.713235259,
-        "b": 0.713235259
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -17202,18 +17201,17 @@
       "Tooltip": true,
       "GridProjection": false,
       "HideWhenFaceDown": false,
-      "Hands": true,
-      "CardID": 57101,
-      "SidewaysCard": false,
-      "CustomDeck": {
-        "571": {
-          "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/15412170793688424668/7BC5012B9731608BAA667E0158A0D3963D020F7A/",
-          "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/15412170793688424668/7BC5012B9731608BAA667E0158A0D3963D020F7A/",
-          "NumWidth": 2,
-          "NumHeight": 2,
-          "BackIsHidden": false,
-          "UniqueBack": true,
-          "Type": 0
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/TemporalDistoriton/M4EBetaCardsRepo/refs/heads/main/Strategy-Cards/1.png",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/TemporalDistoriton/M4EBetaCardsRepo/refs/heads/main/Strategy-Cards/1.png",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
         }
       },
       "LuaScript": "",
@@ -17221,18 +17219,18 @@
       "XmlUI": ""
     },
     {
-      "GUID": "18d8ca",
-      "Name": "Card",
+      "GUID": "268282",
+      "Name": "Custom_Tile",
       "Transform": {
         "posX": 12.07,
-        "posY": 0.6013771,
+        "posY": 0.5877724,
         "posZ": 49.6,
-        "rotX": -5.498771E-08,
-        "rotY": 179.996017,
-        "rotZ": 180.0,
-        "scaleX": 2.06,
+        "rotX": 2.48256775E-08,
+        "rotY": 179.99852,
+        "rotZ": 7.55500338E-08,
+        "scaleX": 3.19,
         "scaleY": 1.0,
-        "scaleZ": 2.06
+        "scaleZ": 3.19
       },
       "Nickname": "",
       "Description": "",
@@ -17243,9 +17241,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.713235259,
-        "g": 0.713235259,
-        "b": 0.713235259
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -17260,18 +17258,17 @@
       "Tooltip": true,
       "GridProjection": false,
       "HideWhenFaceDown": false,
-      "Hands": true,
-      "CardID": 57102,
-      "SidewaysCard": false,
-      "CustomDeck": {
-        "571": {
-          "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/15412170793688424668/7BC5012B9731608BAA667E0158A0D3963D020F7A/",
-          "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/15412170793688424668/7BC5012B9731608BAA667E0158A0D3963D020F7A/",
-          "NumWidth": 2,
-          "NumHeight": 2,
-          "BackIsHidden": false,
-          "UniqueBack": true,
-          "Type": 0
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/TemporalDistoriton/M4EBetaCardsRepo/refs/heads/main/Strategy-Cards/2.png",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/TemporalDistoriton/M4EBetaCardsRepo/refs/heads/main/Strategy-Cards/2.png",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
         }
       },
       "LuaScript": "",
@@ -17279,18 +17276,18 @@
       "XmlUI": ""
     },
     {
-      "GUID": "79e2b9",
-      "Name": "Card",
+      "GUID": "cfda01",
+      "Name": "Custom_Tile",
       "Transform": {
         "posX": 2.66,
-        "posY": 0.6013771,
+        "posY": 0.5877724,
         "posZ": 49.6,
-        "rotX": -2.87197448E-08,
-        "rotY": 180.00145,
-        "rotZ": 180.0,
-        "scaleX": 2.06,
+        "rotX": -1.0274934E-07,
+        "rotY": 179.947159,
+        "rotZ": 2.307773E-07,
+        "scaleX": 3.19,
         "scaleY": 1.0,
-        "scaleZ": 2.06
+        "scaleZ": 3.19
       },
       "Nickname": "",
       "Description": "",
@@ -17301,9 +17298,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.713235259,
-        "g": 0.713235259,
-        "b": 0.713235259
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -17318,18 +17315,17 @@
       "Tooltip": true,
       "GridProjection": false,
       "HideWhenFaceDown": false,
-      "Hands": true,
-      "CardID": 57103,
-      "SidewaysCard": false,
-      "CustomDeck": {
-        "571": {
-          "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/15412170793688424668/7BC5012B9731608BAA667E0158A0D3963D020F7A/",
-          "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/15412170793688424668/7BC5012B9731608BAA667E0158A0D3963D020F7A/",
-          "NumWidth": 2,
-          "NumHeight": 2,
-          "BackIsHidden": false,
-          "UniqueBack": true,
-          "Type": 0
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/TemporalDistoriton/M4EBetaCardsRepo/refs/heads/main/Strategy-Cards/3.png",
+        "ImageSecondaryURL": "https://raw.githubusercontent.com/TemporalDistoriton/M4EBetaCardsRepo/refs/heads/main/Strategy-Cards/3.png",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
         }
       },
       "LuaScript": "",

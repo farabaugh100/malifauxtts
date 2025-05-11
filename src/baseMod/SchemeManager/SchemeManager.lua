@@ -11,14 +11,14 @@ buttonScale = {0.1,0.1,0.1}
 
 disableSave = true
 local objLib={
-    blueSchemeDeck="2287ed",
+    blueSchemeDeck="bdc196",
     blueSchemeManager="b1938a",
     blueSchemePanel="420546",
     blueSchemeReveal="61fe0d",
     blueSchemeTracker="a1873a",
     blueOptionsTag="b_option",
     blueRevealTag="b_reveal",
-    redSchemeDeck="a9e5e3",
+    redSchemeDeck="2c8eb3",
     redSchemeManager="47995f",
     redSchemePanel="725c42",
     redSchemeReveal="e2578a",
