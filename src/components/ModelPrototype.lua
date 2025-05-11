@@ -11,7 +11,7 @@ modelPlayer="Blue"
 	local originalData = nil;
 	local state = {
 		conditions={Flicker = 0,Backtrack = 0,AuraNegligent = 0,AuraBinding = 0,Analyzed = 0,AuraFire = 0,Greedy = 0,AuraFumes = 0,Engorged = 0,Broodling = 0,Suppresed = 0,Fright = 0,Challenged = 0,Power = 0,Glowy = 0,Perforated = 0,Brilliance = 0,Parasite = 0,Shame = 0,SpiritualChains = 0,AuraStaggered = 0,ImprovisedPart=0,Adaptable = 0,Adversary = 0,AuraConcealment = 0,AuraHazardous = 0,Bolstered = 0,Burning = 0,Craven = 0,Distracted = 0,Entranced = 0,Fast = 0,Focused = 0,Hastened = 0,Impact = 0,Injured = 0,Insight = 0,Poison = 0,Shielded = 0,Slow = 0,Staggered = 0,Stunned = 0,Summon = 0,},
-		extras={Aura = 0,Activated = 0,Mode = 0},
+		extras={Aura = 0,Activated = 0,Mode = 0,Scheme=0,},
 		tokens={},
 		health={current=-1,max= 9},
 		base={size=30,color=Color(1,0.5,1)},
@@ -77,7 +77,7 @@ modelPlayer="Blue"
 			local defaults2 = state.extras
             state = save.state
 			if state.extras==nil then
-                state.extras={Aura = 0,Activated = 0,Mode = 0}
+                state.extras={Aura = 0,Activated = 0,Mode = 0,Scheme=0}
             end
             -- re-apply any missing condition keys back to zero
             for name,_ in pairs(defaults) do
@@ -130,7 +130,7 @@ modelPlayer="Blue"
 	end
 
 	function ModifyCondition(params)
-		local extrasKeys = { Mode = true, Aura = true, Activated = true }
+		local extrasKeys = { Mode = true, Aura = true, Activated = true,Scheme=true }
 
 		local previousValue = 0;
 
@@ -288,7 +288,6 @@ modelPlayer="Blue"
         --    return false
         --end
 		local playerRotation  = player.getPointerRotation();
-        --log("playerRotation"..playerRotation)
 		if playerRotation == nil then playerRotation = 0 end;
 		local pointerRotation = playerRotation - self.getRotation().y +180;
 		pointerRotation = math.floor((pointerRotation+15) / 30)
@@ -396,9 +395,9 @@ modelPlayer="Blue"
 
 		output = output .. HUDSingleCondition(color,"Aura", 4 ,1,size) 
 		output = output .. HUDSingleCondition(color,"Activated", 4 ,0,size) 
-		output = output .. HUDSingleCondition(color,"Mode", 4 ,-1,size) 
+		output = output .. HUDSingleCondition(color,"Mode", 4 ,-1,size)
+		output = output .. HUDSchemeButton(color,size)
 		output = output .. [[</Panel>]]
-
 		return output
 	end
 	
@@ -407,6 +406,7 @@ modelPlayer="Blue"
 	function UI_ModifyAura(p,alt) if alt ~= '-3' then ModifyAura({amount= (alt == '-1' and 1 or (alt == '-2' and -1) or 0 ) }) end end
 	function UI_ModifyActivated(p,alt) UI_ModifyCondition("0","Activated") end
 	function UI_ModifyMode(p,alt) UI_ModifyCondition("0","Mode") end
+	function UI_ModifyScheme(p,alt) spawnScheme(p,alt) end
 	function UI_ModifyHealth(p,alt) if alt ~= '-3' then ModifyHealth({amount= (alt == '-1' and 1 or (alt == '-2' and -1) or 0 ) }) end end
 
 	function UI_ModifyFlicker(p,alt) UI_ModifyCondition("0","Flicker") end
@@ -455,7 +455,6 @@ modelPlayer="Blue"
 	function UI_ModifySummon(p,alt) UI_ModifyCondition("0","Summon") end
 
 	function HUDSingleCondition(color,name,x,y,size)
-	
 		local id = "ConditionFrame_" .. name ;
 
 		return [[<Panel id="]] .. id ..[[" width="]] ..size..[[" height="]] ..size..[[" alignment='LowerLeft' position=']] ..((x* (size +2)) - (1.5*size + 2)).. [[ ]] .. y*( (size +2)) .. [[ 0' ]] .. 
@@ -463,9 +462,20 @@ modelPlayer="Blue"
 			HUDSingleConditionBody(color,name,size)..
 		[[</Panel>]];
 	end
+	function HUDSchemeButton(color,size)
+		local name="Scheme"
+		local id = "ConditionFrame_" .. name ;
 
+		return [[<Panel id="]] .. id ..[[" width="]] ..size..[[" height="]] ..size..[[" alignment='LowerLeft' position=']] ..((-1* (size +2)) - (1.5*size + 2)).. [[ ]] .. -1*( (size +2)) .. [[ 0' ]] .. 
+		[[onClick='UI_Modify]] .. name ..[[()'>]] ..
+			[[
+				<Image id="]]..color ..[[_ConditionImage_]]..name ..[[" image="]] .. name .. [[" color="]] .. "clear" .. [[" rectAlignment='LowerLeft' width=']] ..size..[[' height=']] ..size..[['/>
+				<Text  id="]]..color ..[[_ConditionText_]]..name ..[[" active=']] .. 'true'  ..[['  fontSize=']] ..math.floor(size*0.85)..[[' text=']] .. name .. [[' color='#ffffff' fontStyle='Bold'  rectAlignment='LowerLeft' outline='#000000' outlineSize='1 1' />
+			]]..
+		[[</Panel>]];
+	end
 	function HUDSingleConditionBody(color,name,size)
-		local extrasKeys = { Mode = true, Aura = true, Activated = true }
+		local extrasKeys = { Mode = true, Aura = true, Activated = true,Scheme=true }
 		local secondary = Conditions[name].secondary;
 
 		if extrasKeys[name] then
@@ -533,8 +543,8 @@ modelPlayer="Blue"
 		Summon ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Summon.png", color="#FFFFFF",stacks=false},
 		Aura = { url="https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png", color="#99aa22", stacks=true },
 		Activated  = { url="https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/flag.png", color="#bbbb22", stacks=false },
-		Mode  = { url="https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/gear.png", color="#bbffbb", stacks=false, loop = 2 }
-		
+		Mode  = { url="https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/gear.png", color="#bbffbb", stacks=false, loop = 2 },
+		--Scheme  = { url="https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/gear.png", color="#bbffbb", stacks=false},
 	}
 
 ------ Object SPAWMERS ----------------------
@@ -678,5 +688,27 @@ function getHalfBaseSize()
         end
     end
     return 0.59055
+end
+
+function spawnScheme(p,alt)
+	self.setLock(true)
+	log(p.color)
+	local bagId=Global.call("getPlayerFactionSchemeBag",{color=p.color})
+	local bag=getObjectFromGUID(bagId)
+	local savedAura=state.extras.Aura
+	--ModifyAura({amount=savedAura*-1})
+	--ModifyAura({amount=1})
+	local schemeMarker=bag.takeObject({position = self.getPosition(),smooth=false})
+	Wait.frames(function()schemeMarker.call("setLastPlayerTouched",p.color)end,1)
+	--schemeMarker.setVar("lastPlayerTouched", p.color)
+	--log("getVar"..schemeMarker.getVar("lastPlayerTouched"))
+	--Wait.frames(function()ModifyAura({amount=savedAura*-1}) ModifyAura({amount=savedAura}) end,10)
+end
+
+function SetDeletion()
+	return false
+end
+function setDeletionVar(bool)
+    return false
 end
 ------ END ----------------------------------

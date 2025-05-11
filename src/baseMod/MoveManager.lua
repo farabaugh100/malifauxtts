@@ -92,6 +92,7 @@ end
 
 	function AbortMove(params)
 		local color = params.color;
+		MoveState[color].object_target.call("SetDeletion");
 		clean_move_flow(color)
 	end
 
@@ -104,7 +105,7 @@ end
 		else
 			MoveState[color].object_target.setPosition(MoveState[color].currentMoveCenter)
 		end
-		
+		MoveState[color].object_target.call("setDeletionVar",false)
 		clean_move_flow(color)
 	end
 	

@@ -120,6 +120,7 @@ function retrieve_crew()
    local separatedCrew = mysplit(description)
    
    local faction = getFaction(separatedCrew[1])
+   Global.call("setPlayerFaction",{color=playerColor,faction=faction})
    GetPlayerFromColor(playerColor).broadcast("Retrieving '"..separatedCrew[1].."' crew ",Color[playerColor])
    for key,value in pairs(separatedCrew) do
     local starterCharacter = string.sub(value, 1, 2)

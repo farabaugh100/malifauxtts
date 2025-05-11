@@ -6,7 +6,8 @@ local ChildObjs = {
 local Conditions = {}
 local state = {conditions={ Aura=0,Activated =0}};
 local config={}
-local lastPlayerTouched="Blue"
+local deletionVar=false
+lastPlayerTouched=nil
 local colide=false
 ------ LIFE CICLE EVENTS --------------------
 function onDestroy()
@@ -22,8 +23,9 @@ function onLoad(save)
         colide=data["colide"]
     end
     if self.getName()=="Strategy" then
-        log("here")
         colide=true
+    elseif self.getName()=="Guild" then
+        --self.setPosition(getObjectFromGUID("7c0835").getPosition())
     end
     rebuildAssets()
     self.UI.setXml(ui())
@@ -255,23 +257,20 @@ function onCollisionEnter(col)
     end
     --config.count = math.max(1, self.getQuantity())
     if ((col.collision_object.getVar("TRH_Class") or "") == "mini") then
-        log(self.getName())
-        --log(config)
         colided=true
+        deletionVar=true
         local aura =col.collision_object.call("getAura", self)
         local selfHalfBaseSize=getHalfBaseSize()
         local modelHalfBaseSize=col.collision_object.call("getHalfBaseSize", self)
-        --log("aura"..aura)
-        --log("selfHalfBaseSize "..selfHalfBaseSize)
-        --log("modelHalfBaseSize "..modelHalfBaseSize)
         self.setPosition(col.collision_object.getPosition())
         self.setLock(true)
         local menuManager=getObjectFromGUID("15fc7f")
+        --lastPlayerTouched="Red"
+        log("lastPlayerTouched "..lastPlayerTouched)
         menuManager.call("callMove",{color=lastPlayerTouched,obj=self,range=aura+selfHalfBaseSize+modelHalfBaseSize})
     end
 end
 function getHalfBaseSize()
-    log(config.size)
     if config~=nil then
         if config.size~=nil then
             if config.size==30 or config.size=="30" then
@@ -287,7 +286,20 @@ function getHalfBaseSize()
 end
 function onObjectPickUp(player_color, picked_up_object)
     if picked_up_object==self then
-        --log(player_color)
         lastPlayerTouched=player_color
     end
+end
+function setLastPlayerTouched(player_color)
+    log("setLastPlayerTouched")
+    lastPlayerTouched=player_color
+end
+
+function SetDeletion()
+    if deletionVar then
+        Wait.frames(function()self.destruct()end,60)
+    end
+end
+
+function setDeletionVar(bool)
+    deletionVar=boll
 end
