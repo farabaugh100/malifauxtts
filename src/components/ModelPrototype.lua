@@ -10,7 +10,11 @@ modelPlayer="Blue"
 	local Conditions = {}
 	local originalData = nil;
 	local state = {
+<<<<<<< HEAD
 		conditions={Adaptable = 0,Adversary = 0,Analyzed = 0,AuraBinding = 0,AuraFire = 0,AuraFumes = 0,AuraNegligent = 0,AuraStaggered = 0,AuraConcealment = 0,AuraHazardous = 0,Backtrack = 0,Bolstered = 0,BogSpirit = 0,Brilliance = 0,Broodling = 0,Burning = 0,Challenged = 0,Craven = 0,CruelWhispers = 0,Distracted = 0,Engorged = 0,Entranced = 0,Fast = 0,Flicker = 0,Focused = 0,FragileEgo = 0,Fright = 0,Glowy = 0,Greedy = 0,Hastened = 0,Impact = 0,ImprovisedPart = 0,Injured = 0,Insight = 0,Paranoia = 0,Parasite = 0,Perforated = 0,Poison = 0,Power = 0,Reload = 0,Shame = 0,Shielded = 0,Slow = 0,SpiritualChains = 0,Staggered = 0,Stunned = 0,Summon = 0,Suppresed = 0,Hunger = 0,Adaptable = 0,Focused = 0,Shielded = 0,},
+=======
+		conditions={Flicker = 0,Backtrack = 0,AuraNegligent = 0,AuraBinding = 0,Analyzed = 0,AuraFire = 0,Greedy = 0,AuraFumes = 0,Engorged = 0,Broodling = 0,Suppresed = 0,Fright = 0,Challenged = 0,Power = 0,Glowy = 0,Perforated = 0,Brilliance = 0,Parasite = 0,Shame = 0,SpiritualChains = 0,AuraStaggered = 0,ImprovisedPart=0,Adaptable = 0,Adversary = 0,AuraConcealment = 0,AuraHazardous = 0,Bolstered = 0,Burning = 0,Craven = 0,Distracted = 0,Entranced = 0,Fast = 0,Focused = 0,Hastened = 0,Impact = 0,Injured = 0,Insight = 0,Poison = 0,Shielded = 0,Slow = 0,Staggered = 0,Stunned = 0,Summon = 0,},
+>>>>>>> 640059f7919abeb759d7bc61f1ff25cb18cf682c
 		extras={Aura = 0,Activated = 0,Mode = 0,Scheme=0,},
 		tokens={},
 		health={current=-1,max= 9},
@@ -557,6 +561,7 @@ modelPlayer="Blue"
 		Staggered ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Staggered.png", color="#138C01",stacks=false},
 		Stunned ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Stunned.png", color="#FFFFFF",stacks=false},
 		Summon ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Summon.png", color="#FFFFFF",stacks=false},
+<<<<<<< HEAD
 		Suppresed ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Suppressed.png", color="#FFFFFF",stacks=false},
 		Hunger ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Hunger.png", color="#FFFFFF",stacks=false},
 		Adaptable ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Adaptable.png", color="#FFFFFF",stacks=false},
@@ -564,6 +569,12 @@ modelPlayer="Blue"
 		Shielded ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Shielded.png", color="#6AC3FF",stacks=false},
 
 		
+=======
+		Aura = { url="https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png", color="#99aa22", stacks=true },
+		Activated  = { url="https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/flag.png", color="#bbbb22", stacks=false },
+		Mode  = { url="https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/gear.png", color="#bbffbb", stacks=false, loop = 2 },
+		--Scheme  = { url="https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/gear.png", color="#bbffbb", stacks=false},
+>>>>>>> 640059f7919abeb759d7bc61f1ff25cb18cf682c
 	}
 
 ------ Object SPAWMERS ----------------------
