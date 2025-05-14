@@ -80,12 +80,31 @@ end
 function factionColorLookup(faction)
     if faction=="Guild" then
         return Color(.70,0.19,.17)
+    elseif faction=="Arcanists" then
+        return Color(0/255, 90/255, 154/255);
+    elseif faction=="Arcanist" then
+        return Color(0/255, 90/255, 154/255);
+    elseif faction=="Resurrectionists" then
+        return Color(37/255, 136/255, 69/255);
+    elseif faction=="Resurrectionist" then
+        return Color(37/255, 136/255, 69/255);
+    elseif faction=="Neverborn" then
+        return Color(95/255, 53/255, 129/255);
+    elseif faction=="Ten Thunders" then
+        return Color(208/255, 95/255, 36/255);
     elseif faction=="Outcast" then
-        return Color(.70,0.55,.04)
+        return Color(181/255, 143/255, 18/255)
+    elseif faction=="Explorer's Society" then
+        return Color(0/255, 114/255, 111/255)
+    elseif faction=="Explorers Society" then
+        return Color(0/255, 114/255, 111/255)
+    elseif faction=="Explorers Society" then
+        return Color(145/255, 93/255, 35/255)
     else
         return Color(.70,0.19,.17)
     end
 end 
+
 function createModel(position)
     local pos = position:add(Vector(0,2,0))
 
