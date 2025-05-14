@@ -38,7 +38,7 @@ flipPanelIds=["502932","1e8c61","83a171","31e7ff","a1b94b","5bc572","8138b3","57
 importObjects(destinationData,flipPanelFile,flipPanelIds)
 #Scheme Panel
 schemePanelFile='../schemescript/TS_Save_13298.json'
-schemePanelIds=["b1938a","420546","61fe0d","2287ed","d5e9df","deb131","697be6","a9e5e3","e2578a","725c42","47995f","914a0a","7e13e8"]
+schemePanelIds=["b1938a","420546","61fe0d","bdc196","d5e9df","697be6","2c8eb3","e2578a","725c42","47995f","914a0a","7e13e8","f4ffc1"]
 importObjects(destinationData,schemePanelFile,schemePanelIds)
 #Models
 modelsFile='../4EStatCardCreater/TS_Save_13302.json'

@@ -1,7 +1,7 @@
 {
   "SaveName": "Markers V2 Filled",
-  "EpochTime": 1746316415,
-  "Date": "5/3/2025 7:53:35 PM",
+  "EpochTime": 1746989503,
+  "Date": "5/11/2025 2:51:43 PM",
   "VersionNumber": "v13.3",
   "GameMode": "Malifaux Breachside Gamma - dev branch",
   "GameType": "Game",
@@ -3202,9 +3202,9 @@
         "posX": -37.8354721,
         "posY": 0.9864669,
         "posZ": -31.95159,
-        "rotX": 0.000431890745,
+        "rotX": 0.000431890861,
         "rotY": 270.0,
-        "rotZ": -8.77859638E-05,
+        "rotZ": -8.778594E-05,
         "scaleX": 0.5368931,
         "scaleY": 0.5515663,
         "scaleZ": 0.5515663
@@ -3218,9 +3218,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.4093948,
-        "g": 0.4093948,
-        "b": 0.4093948
+        "r": 0.409394771,
+        "g": 0.409394771,
+        "b": 0.409394771
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -3269,9 +3269,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.4093948,
-        "g": 0.4093948,
-        "b": 0.4093948
+        "r": 0.409394771,
+        "g": 0.409394771,
+        "b": 0.409394771
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -3492,9 +3492,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.381521642,
-        "g": 0.381521642,
-        "b": 0.381521642
+        "r": 0.3815216,
+        "g": 0.3815216,
+        "b": 0.3815216
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -3543,9 +3543,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.2421489,
-        "g": 0.234976918,
-        "b": 0.234976918
+        "r": 0.242148876,
+        "g": 0.234976888,
+        "b": 0.234976888
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -3758,11 +3758,11 @@
       "Name": "Custom_Assetbundle",
       "Transform": {
         "posX": -1.52714753,
-        "posY": 0.627772331,
+        "posY": 0.6277724,
         "posZ": -98.6046753,
-        "rotX": -9.560313E-06,
+        "rotX": -1.07564683E-05,
         "rotY": 14.972434,
-        "rotZ": -2.07442054E-06,
+        "rotZ": 4.778931E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -3776,7 +3776,7 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.0459282473,
+        "r": 0.0459281951,
         "g": 0.475558221,
         "b": 0.8000001
       },
@@ -3810,8 +3810,8 @@
       "Name": "3DText",
       "Transform": {
         "posX": -17.6002026,
-        "posY": 0.959162831,
-        "posZ": -47.4825859,
+        "posY": 0.959159,
+        "posZ": -47.48262,
         "rotX": 90.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -3863,12 +3863,12 @@
       "GUID": "17aadb",
       "Name": "Checker_red",
       "Transform": {
-        "posX": 6.116635,
+        "posX": 6.11660337,
         "posY": 0.5877685,
-        "posZ": -98.79327,
-        "rotX": 0.000154132911,
+        "posZ": -98.7933,
+        "rotX": 0.000157585426,
         "rotY": 270.000916,
-        "rotZ": -0.000457425544,
+        "rotZ": -0.000457692047,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -3909,8 +3909,8 @@
       "Name": "3DText",
       "Transform": {
         "posX": -0.235267654,
-        "posY": 0.9607354,
-        "posZ": -41.73314,
+        "posY": 0.960733533,
+        "posZ": -41.7331657,
         "rotX": 90.0,
         "rotY": 179.540451,
         "rotZ": 0.0,
@@ -3963,8 +3963,8 @@
       "Name": "3DText",
       "Transform": {
         "posX": -27.053566,
-        "posY": 0.9602958,
-        "posZ": -47.50743,
+        "posY": 0.9602919,
+        "posZ": -47.507473,
         "rotX": 90.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4016,12 +4016,12 @@
       "GUID": "15fc7f",
       "Name": "Checker_white",
       "Transform": {
-        "posX": 6.0996995,
+        "posX": 6.09972048,
         "posY": 0.838223755,
-        "posZ": -98.74654,
-        "rotX": -0.00247747847,
+        "posZ": -98.74655,
+        "rotX": -0.00248431251,
         "rotY": 89.98728,
-        "rotZ": 0.00239551556,
+        "rotZ": 0.00239432231,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -4079,11 +4079,11 @@
       "Name": "Custom_PDF",
       "Transform": {
         "posX": -36.2247849,
-        "posY": 0.587772667,
+        "posY": 0.587772548,
         "posZ": 44.60769,
-        "rotX": -2.11201172E-08,
+        "rotX": -4.475422E-08,
         "rotY": 269.967468,
-        "rotZ": 1.89348555E-07,
+        "rotZ": 1.45138458E-07,
         "scaleX": 3.2506578,
         "scaleY": 1.0,
         "scaleZ": 3.2506578
@@ -4132,9 +4132,9 @@
         "posX": 29.7922745,
         "posY": 0.5877726,
         "posZ": 44.9559059,
-        "rotX": 1.06627009E-08,
+        "rotX": 2.0650333E-08,
         "rotY": 89.9994,
-        "rotZ": 1.49956367E-08,
+        "rotZ": 4.462722E-09,
         "scaleX": 3.2506578,
         "scaleY": 1.0,
         "scaleZ": 3.2506578
@@ -5130,11 +5130,11 @@
       "GUID": "d3c7cc",
       "Name": "3DText",
       "Transform": {
-        "posX": -0.218015686,
-        "posY": 0.9606391,
-        "posZ": 31.9145985,
+        "posX": -0.218021408,
+        "posY": 0.9606373,
+        "posZ": 31.9145947,
         "rotX": 90.0,
-        "rotY": 0.301294655,
+        "rotY": 0.301289827,
         "rotZ": 0.0,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -5184,9 +5184,9 @@
       "GUID": "407221",
       "Name": "3DText",
       "Transform": {
-        "posX": -17.2805538,
-        "posY": 0.960147,
-        "posZ": 26.1344814,
+        "posX": -17.2805672,
+        "posY": 0.960143268,
+        "posZ": 26.1344719,
         "rotX": 90.0,
         "rotY": 359.468323,
         "rotZ": 0.0,
@@ -5239,8 +5239,8 @@
       "Name": "3DText",
       "Transform": {
         "posX": 16.7951336,
-        "posY": 0.96089,
-        "posZ": 26.2562637,
+        "posY": 0.960889041,
+        "posZ": 26.2562618,
         "rotX": 90.0,
         "rotY": 359.468323,
         "rotZ": 0.0,
@@ -5644,12 +5644,12 @@
       "GUID": "1b16b0",
       "Name": "BlockSquare",
       "Transform": {
-        "posX": 0.0127182,
+        "posX": 0.0127182091,
         "posY": 1.08777225,
         "posZ": -98.24594,
-        "rotX": -9.21524133E-07,
-        "rotY": 0.00427495455,
-        "rotZ": 1.36486926E-06,
+        "rotX": -9.595628E-07,
+        "rotY": 0.00427504349,
+        "rotZ": 1.12253827E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -5689,9 +5689,9 @@
       "GUID": "66b554",
       "Name": "3DText",
       "Transform": {
-        "posX": 10.7942762,
-        "posY": 0.960891247,
-        "posZ": -98.31563,
+        "posX": 10.7942724,
+        "posY": 0.9608905,
+        "posZ": -98.31568,
         "rotX": 90.0,
         "rotY": 269.693481,
         "rotZ": 0.0,
@@ -5743,9 +5743,9 @@
       "GUID": "8a3c17",
       "Name": "3DText",
       "Transform": {
-        "posX": -9.55702,
-        "posY": 0.960165143,
-        "posZ": -98.01786,
+        "posX": -9.557022,
+        "posY": 0.9601613,
+        "posZ": -98.01792,
         "rotX": 90.0,
         "rotY": 89.0990143,
         "rotZ": 0.0,
@@ -5974,11 +5974,11 @@
       "Name": "Custom_Model_Infinite_Bag",
       "Transform": {
         "posX": 12.6577768,
-        "posY": 0.6210051,
+        "posY": 0.621005058,
         "posZ": -95.95677,
-        "rotX": -4.932094E-07,
+        "rotX": -1.59084038E-07,
         "rotY": 179.997,
-        "rotZ": 1.08076279E-06,
+        "rotZ": 2.26649632E-07,
         "scaleX": 0.713773131,
         "scaleY": 0.0664657652,
         "scaleZ": 0.706220865
@@ -6152,9 +6152,9 @@
         "posX": 14.9626064,
         "posY": 0.6210051,
         "posZ": -96.5976639,
-        "rotX": 6.97810037E-07,
+        "rotX": 6.25158634E-07,
         "rotY": 179.985977,
-        "rotZ": -3.45082867E-07,
+        "rotZ": -3.17802517E-07,
         "scaleX": 0.7137734,
         "scaleY": 0.0664657652,
         "scaleZ": 0.7062205
@@ -6328,9 +6328,9 @@
         "posX": 13.4374294,
         "posY": 0.6214455,
         "posZ": -96.9794846,
-        "rotX": 1.00099562E-07,
+        "rotX": 1.61429057E-07,
         "rotY": 269.808167,
-        "rotZ": -4.73061249E-07,
+        "rotZ": -4.58987728E-07,
         "scaleX": 0.73517406,
         "scaleY": 0.06734645,
         "scaleZ": 0.744278133
@@ -6518,9 +6518,9 @@
         "posX": -6.072866,
         "posY": 0.587772369,
         "posZ": -99.8726044,
-        "rotX": 2.52088626E-07,
+        "rotX": -2.91333066E-07,
         "rotY": 270.0086,
-        "rotZ": 3.527332E-08,
+        "rotZ": 6.97794E-08,
         "scaleX": 2.5,
         "scaleY": 1.0,
         "scaleZ": 2.5
@@ -6598,9 +6598,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.409394026,
-        "g": 0.409394026,
-        "b": 0.409394026
+        "r": 0.409394,
+        "g": 0.409394,
+        "b": 0.409394
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -7180,11 +7180,11 @@
       "GUID": "4ddd87",
       "Name": "Checker_black",
       "Transform": {
-        "posX": 7.84769,
+        "posX": 7.8477,
         "posY": 0.838255763,
-        "posZ": -98.33322,
-        "rotX": 6.983101E-08,
-        "rotY": 179.954086,
+        "posZ": -98.33326,
+        "rotX": -1.07353412E-06,
+        "rotY": 179.953339,
         "rotZ": 180.0,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -7228,9 +7228,9 @@
         "posX": 13.49361,
         "posY": 0.570772231,
         "posZ": -91.04163,
-        "rotX": -4.13980729E-07,
+        "rotX": -4.26095539E-07,
         "rotY": 0.3438496,
-        "rotZ": 6.661964E-07,
+        "rotZ": 6.95366E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -7322,10 +7322,10 @@
       "GUID": "02c7e5",
       "Name": "Deck",
       "Transform": {
-        "posX": 0.626264632,
+        "posX": 0.626264751,
         "posY": 0.8686609,
         "posZ": -90.17453,
-        "rotX": -2.936176E-07,
+        "rotX": -8.443975E-08,
         "rotY": 269.998352,
         "rotZ": 180.0,
         "scaleX": 1.5,
@@ -11438,9 +11438,9 @@
         "posX": 13.4839077,
         "posY": 0.621445358,
         "posZ": -95.38546,
-        "rotX": -2.581702E-07,
+        "rotX": -8.738321E-08,
         "rotY": 90.0098,
-        "rotZ": 6.022011E-07,
+        "rotZ": 4.871014E-07,
         "scaleX": 0.7351749,
         "scaleY": 0.06734628,
         "scaleZ": 0.7442768
@@ -11628,9 +11628,9 @@
         "posX": -36.2247849,
         "posY": 0.5877726,
         "posZ": 55.60769,
-        "rotX": -2.258658E-08,
+        "rotX": -1.69336616E-08,
         "rotY": 269.984344,
-        "rotZ": -1.06637659E-08,
+        "rotZ": -8.108533E-09,
         "scaleX": 3.24971676,
         "scaleY": 1.0,
         "scaleZ": 3.24971676
@@ -11679,9 +11679,9 @@
         "posX": 29.7922764,
         "posY": 0.587772548,
         "posZ": 55.9559059,
-        "rotX": -6.07370731E-09,
+        "rotX": -1.856814E-09,
         "rotY": 90.01519,
-        "rotZ": -3.152396E-08,
+        "rotZ": 5.12270226E-09,
         "scaleX": 3.24971676,
         "scaleY": 1.0,
         "scaleZ": 3.24971676
@@ -11746,9 +11746,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.40939334,
-        "g": 0.40939334,
-        "b": 0.40939334
+        "r": 0.4093933,
+        "g": 0.4093933,
+        "b": 0.4093933
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -12549,11 +12549,11 @@
       "Name": "Custom_Model_Infinite_Bag",
       "Transform": {
         "posX": 21.6023617,
-        "posY": 1.08103013,
-        "posZ": 3.86604238,
-        "rotX": -4.580174E-06,
-        "rotY": -5.10503924E-05,
-        "rotZ": -8.075728E-06,
+        "posY": 1.08103025,
+        "posZ": 3.86604261,
+        "rotX": -2.09367681E-06,
+        "rotY": -5.42494163E-05,
+        "rotZ": -6.00754447E-06,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -12668,10 +12668,10 @@
       "Transform": {
         "posX": 22.6548977,
         "posY": 1.01382387,
-        "posZ": 6.35644627,
-        "rotX": 4.685999E-06,
+        "posZ": 6.356447,
+        "rotX": -9.71904E-06,
         "rotY": 270.0001,
-        "rotZ": -6.17357E-06,
+        "rotZ": 3.018983E-06,
         "scaleX": 0.3045071,
         "scaleY": 0.1,
         "scaleZ": 0.3045071
@@ -12730,12 +12730,12 @@
       "GUID": "d41eb9",
       "Name": "Checker_white",
       "Transform": {
-        "posX": 28.5489731,
-        "posY": 1.25930691,
-        "posZ": 2.787396,
-        "rotX": 1.55601465E-05,
-        "rotY": 180.6695,
-        "rotZ": 180.0,
+        "posX": 28.548666,
+        "posY": 0.860906,
+        "posZ": 2.784691,
+        "rotX": 359.3994,
+        "rotY": 180.839462,
+        "rotZ": 181.350784,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -12767,7 +12767,7 @@
       "GridProjection": false,
       "HideWhenFaceDown": false,
       "Hands": false,
-      "LuaScript": "local generalLibeary={}\r\n\r\n\r\n\r\n\r\nlocal specialLibeary={\r\n    Echo={\r\n        name=\"Echo\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='When a friendly Obliteration model is killed within 1\\\" of this marker, it may drain a soulstone. If it does, it does not infuse a soulstone for being killed and, after the model is removed, this crew may summon a model of the same name within 1\\\" of this marker with a Flicker token and 2 health. Then remove this marker.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Echo.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Decoy={\r\n        name=\"Decoy\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='During the end phase, choose a Decoy marker. Make a Scheme marker in base contact with the chosen marker, then remove the chosen marker.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Decoy.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Gloom={\r\n        name=\"Gloom\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='Allies that start a move within 2\\\" of this marker may ignore models and terrain while moving. Allies may treat this marker as blocking terrain for actions and abilities.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Gloom.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Scrap={\r\n        name=\"Scrap\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='Hazardous (Perforated).';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Scrap.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Shadow={\r\n        name=\"Shadow\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='Concealing.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Shadow.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Rift={\r\n        name=\"Rift\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='A friendly Oni within 1\\\" of this marker may remove this marker after succeeding on an attack to make that attack deal +1 damage.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Rift.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Pyrotechnic={\r\n        name=\"Pyrotechnic\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='At the end of the turn apply the following to all friendly Pyrotechnic markers depending on the suit of the top card of your discard pile: BOOM!: All models 2\\\" of one or more Pyrotchnic marker must pass a TN 14Sp duel or be dealt 2 damage. Surprise!: All models within 2\\\" gain a Glowy token. Whoa...: All models within 2\\\" gain an Insight token. Toxic Smoke: All models within 2\\\" gain a Poison token.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Pyrotechnic.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    TideMarker={\r\n        name=\"Tide Marker\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='Once per activation.  Friendly Angler models within 1\\\" of this marker may reveive a + to Df Duels.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Tide.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Piano={\r\n        name=\"Piano\";\r\n        size=\"40\";\r\n        ht=\"3\";\r\n        rules='Ht 3, blocking, impassable. During the end phase, choose a Piano marker. An enemy model within 1\\\" of the chosen marker gains an Entranced token. Then remove the chosen marker.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Piano.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Inferno={\r\n        name=\"Inferno\";\r\n        size=\"50\";\r\n        ht=\"0\";\r\n        rules='Hazardous(Burning)';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Inferno.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Underbrush={\r\n        name=\"Underbrush\";\r\n        size=\"50\";\r\n        ht=\"0\";\r\n        rules='concealing, dense, severe.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Underbrush.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    ShadowLair={\r\n        name=\"Shadow Lair\";\r\n        size=\"50\";\r\n        ht=\"0\";\r\n        rules='Enemy models that end their activation in base contact with this marker gain a Fright token.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Shadow%20Lair.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Web={\r\n        name=\"Web\";\r\n        size=\"50\";\r\n        ht=\"0\";\r\n        rules='Severe. Models in base contact with a Web marker may not be placed by models friendly to them.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Web.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Assault={\r\n        name=\"Assault\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='Enemy models within 1\\\" of an Assault marker cannot gain cover or concealment in duels with friendly Cavalier models.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Assault.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n}\r\n\r\n\r\n\r\nlocal scoringLibeary={\r\n    Strategy={\r\n        name=\"Strategy\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://raw.githubusercontent.com//farabaugh100/malifauxtts/main/assets/img/ScoringMarkers/Strategy.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Guild={\r\n        name=\"Guild\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://raw.githubusercontent.com//farabaugh100/malifauxtts/main/assets/img/ScoringMarkers/Guild.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Arcanists={\r\n        name=\"Arcanists\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://raw.githubusercontent.com//farabaugh100/malifauxtts/main/assets/img/ScoringMarkers/Arcanists.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Resurrectionist={\r\n        name=\"Resurrectionist\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://raw.githubusercontent.com//farabaugh100/malifauxtts/main/assets/img/ScoringMarkers/Resurrectionists.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Neverborn={\r\n        name=\"Neverborn\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://raw.githubusercontent.com//farabaugh100/malifauxtts/main/assets/img/ScoringMarkers/Neverborn.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Outcasts={\r\n        name=\"Outcasts\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://raw.githubusercontent.com//farabaugh100/malifauxtts/main/assets/img/ScoringMarkers/Outcasts.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    TenThunders={\r\n        name=\"TenThunders\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://raw.githubusercontent.com//farabaugh100/malifauxtts/main/assets/img/ScoringMarkers/TenThunders.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Bayou={\r\n        name=\"Bayou\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://raw.githubusercontent.com//farabaugh100/malifauxtts/main/assets/img/ScoringMarkers/Bayou.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    ExplorersSociety={\r\n        name=\"ExplorersSociety\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://raw.githubusercontent.com//farabaugh100/malifauxtts/main/assets/img/ScoringMarkers/ExplorersSociety.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nfunction getGenearyLibeary()\r\n    return generalMarkers\r\nend\r\n\r\nfunction getSpecialLibeary()\r\n    return specialLibeary\r\nend\r\n\r\nfunction getScoringLibeary()\r\n    return scoringLibeary\r\nend",
+      "LuaScript": "local generalLibeary={}\r\n\r\n\r\n\r\n\r\nlocal specialLibeary={\r\n    Echo={\r\n        name=\"Echo\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='When a friendly Obliteration model is killed within 1\\\" of this marker, it may drain a soulstone. If it does, it does not infuse a soulstone for being killed and, after the model is removed, this crew may summon a model of the same name within 1\\\" of this marker with a Flicker token and 2 health. Then remove this marker.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Echo.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Decoy={\r\n        name=\"Decoy\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='During the end phase, choose a Decoy marker. Make a Scheme marker in base contact with the chosen marker, then remove the chosen marker.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Decoy.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Gloom={\r\n        name=\"Gloom\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='Allies that start a move within 2\\\" of this marker may ignore models and terrain while moving. Allies may treat this marker as blocking terrain for actions and abilities.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Gloom.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Scrap={\r\n        name=\"Scrap\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='Hazardous (Perforated).';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Scrap.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Shadow={\r\n        name=\"Shadow\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='Concealing.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Shadow.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Rift={\r\n        name=\"Rift\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='A friendly Oni within 1\\\" of this marker may remove this marker after succeeding on an attack to make that attack deal +1 damage.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Rift.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Pyrotechnic={\r\n        name=\"Pyrotechnic\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='At the end of the turn apply the following to all friendly Pyrotechnic markers depending on the suit of the top card of your discard pile: BOOM!: All models 2\\\" of one or more Pyrotchnic marker must pass a TN 14Sp duel or be dealt 2 damage. Surprise!: All models within 2\\\" gain a Glowy token. Whoa...: All models within 2\\\" gain an Insight token. Toxic Smoke: All models within 2\\\" gain a Poison token.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Pyrotechnic.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Tide={\r\n        name=\"Tide\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='Once per activation.  Friendly Angler models within 1\\\" of this marker may reveive a + to Df Duels.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Tide.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Piano={\r\n        name=\"Piano\";\r\n        size=\"40\";\r\n        ht=\"3\";\r\n        rules='Ht 3, blocking, impassable. During the end phase, choose a Piano marker. An enemy model within 1\\\" of the chosen marker gains an Entranced token. Then remove the chosen marker.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Piano.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Inferno={\r\n        name=\"Inferno\";\r\n        size=\"50\";\r\n        ht=\"0\";\r\n        rules='Hazardous(Burning)';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Inferno.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Underbrush={\r\n        name=\"Underbrush\";\r\n        size=\"50\";\r\n        ht=\"0\";\r\n        rules='concealing, dense, severe.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Underbrush.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    ShadowLair={\r\n        name=\"Shadow Lair\";\r\n        size=\"50\";\r\n        ht=\"0\";\r\n        rules='Enemy models that end their activation in base contact with this marker gain a Fright token.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Shadow%20Lair.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Web={\r\n        name=\"Web\";\r\n        size=\"50\";\r\n        ht=\"0\";\r\n        rules='Severe. Models in base contact with a Web marker may not be placed by models friendly to them.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Web.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Assault={\r\n        name=\"Assault\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='Enemy models within 1\\\" of an Assault marker cannot gain cover or concealment in duels with friendly Cavalier models.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Assault.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Bog={\r\n        name=\"Bog\";\r\n        size=\"50\";\r\n        ht=\"0\";\r\n        rules='Severe. When an enemy model activates within 1\\\" of this marker, it gains a Stunned token.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Markers/Bog.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    IcePillar={\r\n        name=\"Ice Pillar\";\r\n        size=\"30\";\r\n        ht=\"5\";\r\n        rules='Blocking, impassable. Models within 2\\\" of this marker reduce their duel totals by 1.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Markers/Ice%20Pillar.png\";\r\n        color=\"#ADD3FF\";\r\n    },\r\n}\r\n\r\n\r\n\r\n\r\nlocal scoringLibeary={\r\n    Strategy={\r\n        name=\"Strategy\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://raw.githubusercontent.com//farabaugh100/malifauxtts/main/assets/img/ScoringMarkers/Strategy.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Guild={\r\n        name=\"Guild\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://raw.githubusercontent.com//farabaugh100/malifauxtts/main/assets/img/ScoringMarkers/Guild.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Arcanists={\r\n        name=\"Arcanists\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://raw.githubusercontent.com//farabaugh100/malifauxtts/main/assets/img/ScoringMarkers/Arcanists.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Resurrectionist={\r\n        name=\"Resurrectionist\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://raw.githubusercontent.com//farabaugh100/malifauxtts/main/assets/img/ScoringMarkers/Resurrectionists.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Neverborn={\r\n        name=\"Neverborn\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://raw.githubusercontent.com//farabaugh100/malifauxtts/main/assets/img/ScoringMarkers/Neverborn.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Outcasts={\r\n        name=\"Outcasts\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://raw.githubusercontent.com//farabaugh100/malifauxtts/main/assets/img/ScoringMarkers/Outcasts.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    TenThunders={\r\n        name=\"TenThunders\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://raw.githubusercontent.com//farabaugh100/malifauxtts/main/assets/img/ScoringMarkers/TenThunders.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Bayou={\r\n        name=\"Bayou\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://raw.githubusercontent.com//farabaugh100/malifauxtts/main/assets/img/ScoringMarkers/Bayou.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    ExplorersSociety={\r\n        name=\"ExplorersSociety\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://raw.githubusercontent.com//farabaugh100/malifauxtts/main/assets/img/ScoringMarkers/ExplorersSociety.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nfunction getGenearyLibeary()\r\n    return generalMarkers\r\nend\r\n\r\nfunction getSpecialLibeary()\r\n    return specialLibeary\r\nend\r\n\r\nfunction getScoringLibeary()\r\n    return scoringLibeary\r\nend",
       "LuaScriptState": "",
       "XmlUI": ""
     },
@@ -12830,15 +12830,15 @@
       "XmlUI": "",
       "ContainedObjects": [
         {
-          "GUID": "0dfcd4",
+          "GUID": "c10e87",
           "Name": "Custom_Token",
           "Transform": {
             "posX": -4.905245,
-            "posY": 0.811457038,
-            "posZ": 2.513737,
-            "rotX": -1.20742588E-05,
+            "posY": 0.8114567,
+            "posZ": -2.486263,
+            "rotX": -2.2359387E-05,
             "rotY": 14.9977484,
-            "rotZ": 1.73736146E-06,
+            "rotZ": 2.40752229E-07,
             "scaleX": 0.365,
             "scaleY": 1.0,
             "scaleZ": 0.365
@@ -12978,8 +12978,8 @@
       },
       "ColorDiffuse": {
         "r": 0.454703748,
-        "g": 0.4380657,
-        "b": 0.4380657
+        "g": 0.438065678,
+        "b": 0.438065678
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -13070,15 +13070,15 @@
       "XmlUI": "",
       "ContainedObjects": [
         {
-          "GUID": "96f2b9",
+          "GUID": "e505d0",
           "Name": "Custom_Token",
           "Transform": {
             "posX": -7.905245,
-            "posY": 0.8114565,
-            "posZ": -7.486263,
-            "rotX": -1.29894561E-05,
-            "rotY": 14.9999695,
-            "rotZ": -3.363627E-05,
+            "posY": 0.811456,
+            "posZ": -12.4862633,
+            "rotX": -2.2801476E-05,
+            "rotY": 14.99998,
+            "rotZ": -3.37857182E-06,
             "scaleX": 0.365,
             "scaleY": 1.0,
             "scaleZ": 0.365
@@ -13253,15 +13253,15 @@
       "XmlUI": "",
       "ContainedObjects": [
         {
-          "GUID": "0c0025",
+          "GUID": "2d77e7",
           "Name": "Custom_Token",
           "Transform": {
-            "posX": -7.905245,
-            "posY": 0.8114561,
-            "posZ": -12.4862633,
-            "rotX": -1.8895722E-05,
-            "rotY": 14.99964,
-            "rotZ": -9.95928349E-06,
+            "posX": -4.905245,
+            "posY": 0.811457038,
+            "posZ": 0.0137369884,
+            "rotX": -1.5499807E-05,
+            "rotY": 14.9996367,
+            "rotZ": 7.760289E-06,
             "scaleX": 0.365,
             "scaleY": 1.0,
             "scaleZ": 0.365
@@ -13436,15 +13436,15 @@
       "XmlUI": "",
       "ContainedObjects": [
         {
-          "GUID": "16f47d",
+          "GUID": "5c17c0",
           "Name": "Custom_Token",
           "Transform": {
-            "posX": -7.905245,
-            "posY": 0.811456144,
-            "posZ": -9.986263,
-            "rotX": -6.424842E-06,
-            "rotY": 14.9941578,
-            "rotZ": -4.131055E-05,
+            "posX": -4.905245,
+            "posY": 0.8114571,
+            "posZ": 2.513737,
+            "rotX": -2.10991743E-06,
+            "rotY": 14.9941664,
+            "rotZ": -1.45586691E-05,
             "scaleX": 0.365,
             "scaleY": 1.0,
             "scaleZ": 0.365
@@ -13619,15 +13619,15 @@
       "XmlUI": "",
       "ContainedObjects": [
         {
-          "GUID": "269a1f",
+          "GUID": "dc7259",
           "Name": "Custom_Token",
           "Transform": {
             "posX": -7.905245,
-            "posY": 0.8114569,
-            "posZ": 0.0137370219,
-            "rotX": -4.07584866E-06,
-            "rotY": 14.9751921,
-            "rotZ": -1.56347669E-05,
+            "posY": 0.8114566,
+            "posZ": -4.986263,
+            "rotX": 1.07340618E-07,
+            "rotY": 14.9751987,
+            "rotZ": -1.19276219E-05,
             "scaleX": 0.365,
             "scaleY": 1.0,
             "scaleZ": 0.365
@@ -13802,15 +13802,15 @@
       "XmlUI": "",
       "ContainedObjects": [
         {
-          "GUID": "12d6a3",
+          "GUID": "533474",
           "Name": "Custom_Token",
           "Transform": {
             "posX": -7.905245,
-            "posY": 0.81145674,
-            "posZ": -2.486263,
-            "rotX": -1.80127081E-05,
-            "rotY": 14.9953556,
-            "rotZ": -4.42276723E-06,
+            "posY": 0.8114564,
+            "posZ": -7.486263,
+            "rotX": -5.45478224E-06,
+            "rotY": 14.9953318,
+            "rotZ": -1.10547144E-05,
             "scaleX": 0.365,
             "scaleY": 1.0,
             "scaleZ": 0.365
@@ -13985,15 +13985,15 @@
       "XmlUI": "",
       "ContainedObjects": [
         {
-          "GUID": "8544cb",
+          "GUID": "4f41f6",
           "Name": "Custom_Token",
           "Transform": {
             "posX": -4.905245,
-            "posY": 0.8114567,
-            "posZ": -2.486263,
-            "rotX": -2.153609E-06,
-            "rotY": 15.0000429,
-            "rotZ": 3.39906433E-06,
+            "posY": 0.8114565,
+            "posZ": -7.486263,
+            "rotX": -1.63903223E-05,
+            "rotY": 15.0000162,
+            "rotZ": 1.45093463E-06,
             "scaleX": 0.365,
             "scaleY": 1.0,
             "scaleZ": 0.365
@@ -14168,15 +14168,15 @@
       "XmlUI": "",
       "ContainedObjects": [
         {
-          "GUID": "f46107",
+          "GUID": "448939",
           "Name": "Custom_Token",
           "Transform": {
             "posX": -4.905245,
-            "posY": 0.811457,
-            "posZ": 0.0137369242,
-            "rotX": 8.020858E-06,
+            "posY": 0.8114567,
+            "posZ": -4.986263,
+            "rotX": 1.38195639E-06,
             "rotY": 14.9997244,
-            "rotZ": -8.713153E-06,
+            "rotZ": -1.64292524E-05,
             "scaleX": 0.365,
             "scaleY": 1.0,
             "scaleZ": 0.365
@@ -14351,15 +14351,15 @@
       "XmlUI": "",
       "ContainedObjects": [
         {
-          "GUID": "ca7b72",
+          "GUID": "b7a219",
           "Name": "Custom_Token",
           "Transform": {
             "posX": -7.905245,
-            "posY": 0.8114565,
-            "posZ": -4.986263,
-            "rotX": -1.16152632E-05,
-            "rotY": 14.9997978,
-            "rotZ": -2.21420282E-06,
+            "posY": 0.8114562,
+            "posZ": -9.986263,
+            "rotX": -4.452461E-06,
+            "rotY": 14.9997482,
+            "rotZ": 2.46443851E-05,
             "scaleX": 0.365,
             "scaleY": 1.0,
             "scaleZ": 0.365
@@ -14479,12 +14479,12 @@
       "GUID": "54e4b3",
       "Name": "Custom_Model_Infinite_Bag",
       "Transform": {
-        "posX": 23.1575489,
+        "posX": 23.157547,
         "posY": 1.0810293,
         "posZ": -4.342568,
-        "rotX": 1.37620736E-05,
-        "rotY": 180.019379,
-        "rotZ": 6.26796327E-06,
+        "rotX": 1.25965234E-05,
+        "rotY": 180.019318,
+        "rotZ": 3.06170682E-06,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -14670,11 +14670,11 @@
       "Name": "Custom_Model_Infinite_Bag",
       "Transform": {
         "posX": 23.157526,
-        "posY": 1.081029,
-        "posZ": -6.842606,
-        "rotX": 1.66003665E-05,
+        "posY": 1.0810287,
+        "posZ": -6.84260654,
+        "rotX": 1.278183E-05,
         "rotY": 180.019226,
-        "rotZ": 7.409097E-06,
+        "rotZ": 5.027468E-06,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -14861,10 +14861,10 @@
       "Transform": {
         "posX": 23.1575489,
         "posY": 1.0810287,
-        "posZ": -9.342573,
-        "rotX": 1.36801673E-05,
+        "posZ": -9.342574,
+        "rotX": 1.71528754E-05,
         "rotY": 180.019272,
-        "rotZ": 8.36767049E-06,
+        "rotZ": 6.18341E-06,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -15051,10 +15051,10 @@
       "Transform": {
         "posX": 23.1575775,
         "posY": 1.0810287,
-        "posZ": -11.8426056,
-        "rotX": 1.69179948E-05,
+        "posZ": -11.8426065,
+        "rotX": 1.46523435E-05,
         "rotY": 180.01918,
-        "rotZ": 3.20631125E-06,
+        "rotZ": 6.50694028E-06,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -15240,11 +15240,11 @@
       "Name": "Custom_Model_Infinite_Bag",
       "Transform": {
         "posX": 23.1575928,
-        "posY": 1.0810287,
-        "posZ": -14.3426056,
-        "rotX": 1.30857979E-05,
-        "rotY": 180.019287,
-        "rotZ": 1.00042853E-05,
+        "posY": 1.08102846,
+        "posZ": -14.3426075,
+        "rotX": 1.40214552E-05,
+        "rotY": 180.0193,
+        "rotZ": 1.064965E-05,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -15430,11 +15430,11 @@
       "Name": "Custom_Model_Infinite_Bag",
       "Transform": {
         "posX": 23.1575928,
-        "posY": 1.08102655,
+        "posY": 1.08102918,
         "posZ": -16.8426018,
-        "rotX": 0.000191314,
-        "rotY": 180.019165,
-        "rotZ": 6.26201927E-06,
+        "rotX": 0.000121479738,
+        "rotY": 180.019226,
+        "rotZ": -6.771719E-06,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -15621,10 +15621,10 @@
       "Transform": {
         "posX": 26.1575928,
         "posY": 1.08102953,
-        "posZ": -1.84259486,
-        "rotX": 1.3866932E-05,
+        "posZ": -1.842595,
+        "rotX": 1.36475455E-05,
         "rotY": 180.019241,
-        "rotZ": 8.139418E-06,
+        "rotZ": 5.54301141E-06,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -15810,11 +15810,11 @@
       "Name": "Custom_Model_Infinite_Bag",
       "Transform": {
         "posX": 26.157526,
-        "posY": 1.0810293,
-        "posZ": -4.342603,
-        "rotX": 1.19291371E-05,
+        "posY": 1.08102918,
+        "posZ": -4.34260368,
+        "rotX": 1.650756E-05,
         "rotY": 180.0192,
-        "rotZ": 6.39815835E-06,
+        "rotZ": 4.376126E-06,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -16000,11 +16000,11 @@
       "Name": "Custom_Model_Infinite_Bag",
       "Transform": {
         "posX": 26.1575432,
-        "posY": 1.08102894,
-        "posZ": -6.84259939,
-        "rotX": 1.63932291E-05,
-        "rotY": 180.0193,
-        "rotZ": 5.85237876E-06,
+        "posY": 1.081029,
+        "posZ": -6.8426,
+        "rotX": 1.62701526E-05,
+        "rotY": 180.019318,
+        "rotZ": 3.916373E-06,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -16190,11 +16190,11 @@
       "Name": "Custom_Model_Infinite_Bag",
       "Transform": {
         "posX": 26.157505,
-        "posY": 1.08102822,
-        "posZ": -9.342545,
-        "rotX": 1.28879019E-05,
-        "rotY": 180.019455,
-        "rotZ": 4.81806865E-06,
+        "posY": 1.08102846,
+        "posZ": -9.34254551,
+        "rotX": 1.29899427E-05,
+        "rotY": 180.019424,
+        "rotZ": 2.88624187E-06,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -16381,10 +16381,10 @@
       "Transform": {
         "posX": 26.1574936,
         "posY": 1.08102858,
-        "posZ": -11.842617,
-        "rotX": 1.41479441E-05,
-        "rotY": 180.019287,
-        "rotZ": 8.129579E-06,
+        "posZ": -11.842618,
+        "rotX": 1.53865585E-05,
+        "rotY": 180.0193,
+        "rotZ": 7.028809E-06,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -16570,11 +16570,11 @@
       "Name": "Custom_Model_Infinite_Bag",
       "Transform": {
         "posX": 26.15752,
-        "posY": 1.0810287,
+        "posY": 1.08102822,
         "posZ": -14.3426142,
-        "rotX": 1.09673438E-05,
+        "rotX": 1.35101463E-05,
         "rotY": 180.019348,
-        "rotZ": 5.91041362E-06,
+        "rotZ": 4.9108553E-06,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -16760,11 +16760,11 @@
       "Name": "Custom_Model_Infinite_Bag",
       "Transform": {
         "posX": 26.15756,
-        "posY": 1.08102727,
+        "posY": 1.08102763,
         "posZ": -16.8426151,
-        "rotX": 0.000136528615,
-        "rotY": 180.019333,
-        "rotZ": -1.87055363E-07,
+        "rotX": 7.947948E-05,
+        "rotY": 180.019287,
+        "rotZ": 4.76141076E-06,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -16950,11 +16950,11 @@
       "Name": "Custom_Model_Infinite_Bag",
       "Transform": {
         "posX": 23.0675278,
-        "posY": 1.0810293,
-        "posZ": -1.99935424,
-        "rotX": 1.551795E-05,
+        "posY": 1.08102965,
+        "posZ": -1.99935448,
+        "rotX": 1.48853869E-05,
         "rotY": 180.0193,
-        "rotZ": 3.61443358E-06,
+        "rotZ": 3.72874183E-06,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -17136,13 +17136,81 @@
       ]
     },
     {
+      "GUID": "4a5c26",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 22.6548977,
+        "posY": 1.01382387,
+        "posZ": 6.35644674,
+        "rotX": -1.083262E-05,
+        "rotY": 270.000061,
+        "rotZ": -1.33837329E-05,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": false,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/components/arcs/round0.obj",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/utility/null_COL.obj",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": false
+      },
+      "LuaScript": "            local lastParent = nil\n            function onLoad() \n            (self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false)\n            Wait.condition(\n            function() \n            (self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false) \n            end, \n            function() \n            return not(self.loading_custom) \n            end\n            ) \n            end \n            function onUpdate() \n            if (parent ~= nil) then \n            if (not parent.resting or lastParent ~= parent) then \n            lastParent = parent\n            self.setPosition(parent.getPosition())\n            self.setRotation(parent.getRotation()) \n            end \n            else \n            self.destruct() \n            end \n            end\n            ",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 1.0,
+        "DynamicFriction": 0.7,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 0.0,
+        "Drag": 0.0,
+        "AngularDrag": 0.1,
+        "UseGravity": false
+      }
+    },
+    {
       "GUID": "7abb2f",
       "Name": "Custom_Model_Bag",
       "Transform": {
         "posX": -18.0746288,
         "posY": 0.6352986,
         "posZ": 43.5,
-        "rotX": -1.76008427E-07,
+        "rotX": -1.76008569E-07,
         "rotY": 179.936356,
         "rotZ": 4.632023E-07,
         "scaleX": 7.897566,
@@ -17206,15 +17274,15 @@
       "XmlUI": "",
       "ContainedObjects": [
         {
-          "GUID": "8e8443",
+          "GUID": "b25851",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -13.9052448,
-            "posY": 0.8336632,
-            "posZ": 0.0137371067,
-            "rotX": -7.423118E-06,
-            "rotY": -4.80983363E-05,
-            "rotZ": -1.354417E-06,
+            "posY": 0.833663166,
+            "posZ": 0.0137369987,
+            "rotX": -7.04355125E-06,
+            "rotY": -5.59677574E-05,
+            "rotZ": -5.680259E-07,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -17264,15 +17332,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "3f6c02",
+              "GUID": "e963f2",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -13.9052448,
-                "posY": 0.9702905,
+                "posY": 0.97027427,
                 "posZ": 0.0137369912,
-                "rotX": 0.0009595663,
+                "rotX": 0.001340597,
                 "rotY": 270.000122,
-                "rotZ": 0.000783514231,
+                "rotZ": -0.000319076615,
                 "scaleX": 0.365,
                 "scaleY": 1.0,
                 "scaleZ": 0.365
@@ -17330,15 +17398,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "3f6c02",
+              "GUID": "e963f2",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 1.27617377E-05,
-                "rotY": 270.0001,
-                "rotZ": -1.07537326E-05,
+                "rotX": -3.71149554E-06,
+                "rotY": 270.000122,
+                "rotZ": 9.253183E-07,
                 "scaleX": 0.24506101,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.237559065
@@ -17396,15 +17464,15 @@
           ]
         },
         {
-          "GUID": "53e767",
+          "GUID": "93bf3d",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -13.9052448,
-            "posY": 0.8336632,
+            "posY": 0.833663166,
             "posZ": -2.486263,
-            "rotX": -3.36771268E-06,
-            "rotY": -4.80522431E-05,
-            "rotZ": 1.57688453E-06,
+            "rotX": 4.578349E-07,
+            "rotY": -4.90906241E-05,
+            "rotZ": -2.147475E-06,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -17454,15 +17522,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "58acf2",
+              "GUID": "05d91f",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -13.9052448,
-                "posY": 0.9702953,
+                "posY": 0.970298052,
                 "posZ": -2.486263,
-                "rotX": -0.000357211364,
+                "rotX": -0.000333239936,
                 "rotY": 270.000122,
-                "rotZ": -0.0003615614,
+                "rotZ": -0.00143787672,
                 "scaleX": 0.365,
                 "scaleY": 1.0,
                 "scaleZ": 0.365
@@ -17520,15 +17588,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "58acf2",
+              "GUID": "05d91f",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 1.27617377E-05,
-                "rotY": 270.0001,
-                "rotZ": -1.07537326E-05,
+                "rotX": -3.71149554E-06,
+                "rotY": 270.000122,
+                "rotZ": 9.253183E-07,
                 "scaleX": 0.24506101,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.237559065
@@ -17586,15 +17654,15 @@
           ]
         },
         {
-          "GUID": "1f372d",
+          "GUID": "d51cc0",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -13.9052448,
-            "posY": 0.8336631,
+            "posY": 0.833663,
             "posZ": -4.986263,
-            "rotX": -3.06210472E-06,
-            "rotY": -6.579115E-05,
-            "rotZ": -5.47489833E-07,
+            "rotX": -4.73715954E-06,
+            "rotY": -6.008326E-05,
+            "rotZ": -1.3621414E-07,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -17644,15 +17712,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "668c3f",
+              "GUID": "a301f7",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -13.9052448,
-                "posY": 0.9702831,
+                "posY": 0.970277846,
                 "posZ": -4.986263,
-                "rotX": -0.00136065716,
-                "rotY": 270.000122,
-                "rotZ": 0.0009981337,
+                "rotX": -0.000542050751,
+                "rotY": 270.0001,
+                "rotZ": 0.00176109467,
                 "scaleX": 0.365,
                 "scaleY": 1.0,
                 "scaleZ": 0.365
@@ -17710,15 +17778,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "668c3f",
+              "GUID": "a301f7",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 1.27617377E-05,
-                "rotY": 270.0001,
-                "rotZ": -1.07537326E-05,
+                "rotX": -3.71149554E-06,
+                "rotY": 270.000122,
+                "rotZ": 9.253183E-07,
                 "scaleX": 0.24506101,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.237559065
@@ -17776,15 +17844,15 @@
           ]
         },
         {
-          "GUID": "4f7367",
+          "GUID": "d1b99f",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -13.9052448,
-            "posY": 0.833663,
+            "posY": 0.8336629,
             "posZ": -7.486263,
-            "rotX": -2.6348514E-06,
-            "rotY": -3.915394E-05,
-            "rotZ": -1.01935063E-06,
+            "rotX": -8.243657E-06,
+            "rotY": -4.898251E-05,
+            "rotZ": 3.201452E-07,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -17834,15 +17902,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "cd0fff",
+              "GUID": "d3b81f",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -13.9052448,
-                "posY": 0.9702708,
+                "posY": 0.9702895,
                 "posZ": -7.486263,
-                "rotX": -0.000183890676,
+                "rotX": 0.00111838069,
                 "rotY": 270.000122,
-                "rotZ": -0.00150566746,
+                "rotZ": -0.001130494,
                 "scaleX": 0.365,
                 "scaleY": 1.0,
                 "scaleZ": 0.365
@@ -17900,15 +17968,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "cd0fff",
+              "GUID": "d3b81f",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 1.27617377E-05,
-                "rotY": 270.0001,
-                "rotZ": -1.07537326E-05,
+                "rotX": -3.71149554E-06,
+                "rotY": 270.000122,
+                "rotZ": 9.253183E-07,
                 "scaleX": 0.24506101,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.237559065
@@ -17966,15 +18034,15 @@
           ]
         },
         {
-          "GUID": "375e4e",
+          "GUID": "ef7d62",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -13.9052448,
             "posY": 0.8336627,
             "posZ": -9.986263,
-            "rotX": -2.72541934E-06,
-            "rotY": -5.481783E-05,
-            "rotZ": -1.93473326E-07,
+            "rotX": -7.173478E-07,
+            "rotY": -4.29940519E-05,
+            "rotZ": 1.40429177E-06,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -18024,15 +18092,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "f86bb3",
+              "GUID": "0ed0f2",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -13.9052448,
-                "posY": 0.9702838,
+                "posY": 0.9702901,
                 "posZ": -9.986263,
-                "rotX": 0.001460725,
+                "rotX": 0.00136161176,
                 "rotY": 270.000122,
-                "rotZ": -0.000394123723,
+                "rotZ": -0.000363449275,
                 "scaleX": 0.365,
                 "scaleY": 1.0,
                 "scaleZ": 0.365
@@ -18090,15 +18158,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "f86bb3",
+              "GUID": "0ed0f2",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 1.27617377E-05,
-                "rotY": 270.0001,
-                "rotZ": -1.07537326E-05,
+                "rotX": -3.71149554E-06,
+                "rotY": 270.000122,
+                "rotZ": 9.253183E-07,
                 "scaleX": 0.24506101,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.237559065
@@ -18156,15 +18224,15 @@
           ]
         },
         {
-          "GUID": "c816d7",
+          "GUID": "ba13db",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -13.9052448,
-            "posY": 0.8336625,
+            "posY": 0.83366245,
             "posZ": -12.4862633,
-            "rotX": -4.857082E-06,
-            "rotY": -5.66974777E-05,
-            "rotZ": -1.46393795E-08,
+            "rotX": -5.389036E-06,
+            "rotY": -5.88384319E-05,
+            "rotZ": 1.75756168E-06,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -18214,15 +18282,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "e31c0e",
+              "GUID": "7f8c91",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -13.9052448,
-                "posY": 0.9702782,
+                "posY": 0.970272243,
                 "posZ": -12.4862633,
-                "rotX": 0.00121250434,
-                "rotY": 270.000122,
-                "rotZ": -0.000497388246,
+                "rotX": 0.0006409816,
+                "rotY": 270.0001,
+                "rotZ": -0.00204740348,
                 "scaleX": 0.365,
                 "scaleY": 1.0,
                 "scaleZ": 0.365
@@ -18280,15 +18348,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "e31c0e",
+              "GUID": "7f8c91",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 1.27617377E-05,
-                "rotY": 270.0001,
-                "rotZ": -1.07537326E-05,
+                "rotX": -3.71149554E-06,
+                "rotY": 270.000122,
+                "rotZ": 9.253183E-07,
                 "scaleX": 0.24506101,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.237559065
@@ -18346,15 +18414,15 @@
           ]
         },
         {
-          "GUID": "7460fd",
+          "GUID": "a1b14a",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -10.9052448,
-            "posY": 0.8336635,
+            "posY": 0.8336634,
             "posZ": 2.513737,
-            "rotX": -5.3032154E-06,
-            "rotY": -4.794201E-05,
-            "rotZ": -1.21377991E-06,
+            "rotX": -2.15477215E-07,
+            "rotY": -5.819018E-05,
+            "rotZ": 2.341259E-07,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -18404,15 +18472,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "9a5fa5",
+              "GUID": "efb9fd",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -10.9052448,
-                "posY": 0.9702824,
+                "posY": 0.970298231,
                 "posZ": 2.513737,
-                "rotX": 0.000739158,
+                "rotX": 0.0014396247,
                 "rotY": 270.000122,
-                "rotZ": -0.000627048954,
+                "rotZ": 4.48503124E-05,
                 "scaleX": 0.365,
                 "scaleY": 1.0,
                 "scaleZ": 0.365
@@ -18470,15 +18538,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "9a5fa5",
+              "GUID": "efb9fd",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 1.27617377E-05,
-                "rotY": 270.0001,
-                "rotZ": -1.07537326E-05,
+                "rotX": -3.71149554E-06,
+                "rotY": 270.000122,
+                "rotZ": 9.253183E-07,
                 "scaleX": 0.24506101,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.237559065
@@ -18536,20 +18604,20 @@
           ]
         },
         {
-          "GUID": "df6687",
+          "GUID": "e8ecb5",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -10.9052448,
             "posY": 0.8336632,
-            "posZ": 0.0137371039,
-            "rotX": -3.04295281E-06,
-            "rotY": -4.80872768E-05,
-            "rotZ": 3.05593267E-06,
+            "posZ": 0.0137370313,
+            "rotX": -1.02050805E-07,
+            "rotY": -5.530043E-05,
+            "rotZ": 1.07480048E-06,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
           },
-          "Nickname": "Tide Marker",
+          "Nickname": "Tide",
           "Description": "",
           "GMNotes": "",
           "AltLookAngle": {
@@ -18594,20 +18662,20 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "0302b5",
+              "GUID": "86f798",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -10.9052448,
-                "posY": 0.9702971,
-                "posZ": 0.0137369912,
-                "rotX": -0.0004369723,
+                "posY": 0.9702912,
+                "posZ": 0.0137369921,
+                "rotX": 0.002137726,
                 "rotY": 270.0001,
-                "rotZ": 0.00107529585,
+                "rotZ": 0.000108587359,
                 "scaleX": 0.365,
                 "scaleY": 1.0,
                 "scaleZ": 0.365
               },
-              "Nickname": "Tide Marker",
+              "Nickname": "Tide",
               "Description": "Once per activation.  Friendly Angler models within 1\" of this marker may reveive a + to Df Duels.",
               "GMNotes": "",
               "AltLookAngle": {
@@ -18660,20 +18728,20 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "0302b5",
+              "GUID": "86f798",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 1.27617377E-05,
-                "rotY": 270.0001,
-                "rotZ": -1.07537326E-05,
+                "rotX": -3.71149554E-06,
+                "rotY": 270.000122,
+                "rotZ": 9.253183E-07,
                 "scaleX": 0.24506101,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.237559065
               },
-              "Nickname": "Tide Marker",
+              "Nickname": "Tide",
               "Description": "Once per activation.  Friendly Angler models within 1\" of this marker may reveive a + to Df Duels.",
               "GMNotes": "",
               "AltLookAngle": {
@@ -18726,15 +18794,15 @@
           ]
         },
         {
-          "GUID": "3fe11b",
+          "GUID": "d35663",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -10.9052448,
             "posY": 0.8336632,
             "posZ": -2.486263,
-            "rotX": -6.148578E-06,
-            "rotY": -5.40760921E-05,
-            "rotZ": -4.31697316E-07,
+            "rotX": -1.84250075E-06,
+            "rotY": -5.794601E-05,
+            "rotZ": -1.335786E-06,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -18784,15 +18852,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "cd88c2",
+              "GUID": "f70e01",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -10.9052448,
-                "posY": 0.970022142,
-                "posZ": -2.484207,
-                "rotX": 0.0165166054,
-                "rotY": 269.993835,
-                "rotZ": 0.07504197,
+                "posY": 0.970271468,
+                "posZ": -2.48653245,
+                "rotX": 0.04244258,
+                "rotY": 270.0001,
+                "rotZ": 0.06736604,
                 "scaleX": 0.48666,
                 "scaleY": 1.0,
                 "scaleZ": 0.48666
@@ -18850,15 +18918,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "cd88c2",
+              "GUID": "f70e01",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 1.27617377E-05,
-                "rotY": 270.0001,
-                "rotZ": -1.07537326E-05,
+                "rotX": -3.71149554E-06,
+                "rotY": 270.000122,
+                "rotZ": 9.253183E-07,
                 "scaleX": 0.326743543,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.316741079
@@ -18916,15 +18984,15 @@
           ]
         },
         {
-          "GUID": "773467",
+          "GUID": "dfabe3",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -10.9052448,
             "posY": 0.833663,
             "posZ": -4.986263,
-            "rotX": -4.85757E-06,
-            "rotY": -4.71142157E-05,
-            "rotZ": -2.37294671E-07,
+            "rotX": -8.443256E-06,
+            "rotY": -4.33524765E-05,
+            "rotZ": -4.42283721E-07,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -18974,15 +19042,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "7abbb4",
+              "GUID": "592a61",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -10.9052448,
-                "posY": 0.9702221,
+                "posY": 0.9703,
                 "posZ": -4.986263,
-                "rotX": 0.00219394849,
+                "rotX": 0.007718777,
                 "rotY": 270.000122,
-                "rotZ": -0.00130066148,
+                "rotZ": 0.003269726,
                 "scaleX": 0.608,
                 "scaleY": 1.0,
                 "scaleZ": 0.608
@@ -19040,15 +19108,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "7abbb4",
+              "GUID": "592a61",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 1.27617377E-05,
-                "rotY": 270.0001,
-                "rotZ": -1.07537326E-05,
+                "rotX": -3.71149554E-06,
+                "rotY": 270.000122,
+                "rotZ": 9.253183E-07,
                 "scaleX": 0.4082112,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.3957148
@@ -19106,15 +19174,15 @@
           ]
         },
         {
-          "GUID": "ce66a1",
+          "GUID": "165840",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -10.9052448,
-            "posY": 0.8336629,
+            "posY": 0.833663,
             "posZ": -7.486263,
-            "rotX": 3.28188833E-07,
-            "rotY": -3.51992749E-05,
-            "rotZ": 1.157574E-06,
+            "rotX": -2.69594852E-06,
+            "rotY": -6.746677E-05,
+            "rotZ": -8.40168752E-07,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -19164,15 +19232,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "103f35",
+              "GUID": "10fe5f",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -10.9052448,
-                "posY": 0.9702388,
+                "posY": 0.970212162,
                 "posZ": -7.486263,
-                "rotX": 0.006667461,
+                "rotX": 0.007993389,
                 "rotY": 270.000122,
-                "rotZ": -0.0055224034,
+                "rotZ": 359.991241,
                 "scaleX": 0.608,
                 "scaleY": 1.0,
                 "scaleZ": 0.608
@@ -19230,15 +19298,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "103f35",
+              "GUID": "10fe5f",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 1.27617377E-05,
-                "rotY": 270.0001,
-                "rotZ": -1.07537326E-05,
+                "rotX": -3.71149554E-06,
+                "rotY": 270.000122,
+                "rotZ": 9.253183E-07,
                 "scaleX": 0.4082112,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.3957148
@@ -19296,15 +19364,15 @@
           ]
         },
         {
-          "GUID": "f3056d",
+          "GUID": "cdf3d5",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -10.9052448,
-            "posY": 0.833662748,
+            "posY": 0.8336626,
             "posZ": -9.986263,
-            "rotX": -6.34611251E-06,
-            "rotY": -3.80042729E-05,
-            "rotZ": 1.82611313E-06,
+            "rotX": -7.86993E-06,
+            "rotY": -5.572501E-05,
+            "rotZ": 1.04778849E-06,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -19354,15 +19422,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "d5a4ef",
+              "GUID": "07a09a",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -10.9052448,
-                "posY": 0.9702797,
+                "posY": 0.970223546,
                 "posZ": -9.986263,
-                "rotX": -0.00188765232,
+                "rotX": 0.003308467,
                 "rotY": 270.0001,
-                "rotZ": 0.00435949769,
+                "rotZ": 359.9914,
                 "scaleX": 0.608,
                 "scaleY": 1.0,
                 "scaleZ": 0.608
@@ -19420,15 +19488,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "d5a4ef",
+              "GUID": "07a09a",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 1.27617377E-05,
-                "rotY": 270.0001,
-                "rotZ": -1.07537326E-05,
+                "rotX": -3.71149554E-06,
+                "rotY": 270.000122,
+                "rotZ": 9.253183E-07,
                 "scaleX": 0.4082112,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.3957148
@@ -19486,15 +19554,15 @@
           ]
         },
         {
-          "GUID": "b136b2",
+          "GUID": "2d6446",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -10.9052448,
-            "posY": 0.8336625,
+            "posY": 0.83366245,
             "posZ": -12.4862633,
-            "rotX": 7.664581E-07,
-            "rotY": -6.739255E-05,
-            "rotZ": 1.30264834E-06,
+            "rotX": -2.11591737E-06,
+            "rotY": -8.00239359E-05,
+            "rotZ": 1.99888018E-06,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -19544,15 +19612,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "819133",
+              "GUID": "1c8363",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -10.9052448,
-                "posY": 0.9702344,
+                "posY": 0.970297,
                 "posZ": -12.4862633,
-                "rotX": 0.00160642061,
+                "rotX": 0.00313657522,
                 "rotY": 270.000122,
-                "rotZ": -0.00310668536,
+                "rotZ": 359.991333,
                 "scaleX": 0.608,
                 "scaleY": 1.0,
                 "scaleZ": 0.608
@@ -19610,15 +19678,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "819133",
+              "GUID": "1c8363",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 1.27617377E-05,
-                "rotY": 270.0001,
-                "rotZ": -1.07537326E-05,
+                "rotX": -3.71149554E-06,
+                "rotY": 270.000122,
+                "rotZ": 9.253183E-07,
                 "scaleX": 0.4082112,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.3957148
@@ -19676,15 +19744,15 @@
           ]
         },
         {
-          "GUID": "0b2869",
+          "GUID": "c63cc1",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -7.905245,
             "posY": 0.833663464,
             "posZ": 2.513737,
-            "rotX": -4.860333E-06,
-            "rotY": -4.70314226E-05,
-            "rotZ": -9.787202E-07,
+            "rotX": -4.56729731E-06,
+            "rotY": -4.93933076E-05,
+            "rotZ": -1.14749116E-06,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -19734,15 +19802,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "e1a086",
+              "GUID": "36f2eb",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -7.905245,
-                "posY": 0.97028923,
+                "posY": 0.970280468,
                 "posZ": 2.513737,
-                "rotX": 0.00119926559,
+                "rotX": 0.00148858665,
                 "rotY": 270.000122,
-                "rotZ": -1.56690191E-06,
+                "rotZ": -0.000465334218,
                 "scaleX": 0.365,
                 "scaleY": 1.0,
                 "scaleZ": 0.365
@@ -19800,15 +19868,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "e1a086",
+              "GUID": "36f2eb",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 1.27617377E-05,
-                "rotY": 270.0001,
-                "rotZ": -1.07537326E-05,
+                "rotX": -3.71149554E-06,
+                "rotY": 270.000122,
+                "rotZ": 9.253183E-07,
                 "scaleX": 0.24506101,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.237559065
@@ -19864,76 +19932,388 @@
               ]
             }
           ]
+        },
+        {
+          "GUID": "90c982",
+          "Name": "Custom_Model_Infinite_Bag",
+          "Transform": {
+            "posX": -7.905245,
+            "posY": 0.8336633,
+            "posZ": 0.0137369605,
+            "rotX": -4.07619154E-06,
+            "rotY": -5.53201571E-05,
+            "rotZ": -2.03601743E-07,
+            "scaleX": 1.53646016,
+            "scaleY": 0.144412935,
+            "scaleZ": 1.48942518
+          },
+          "Nickname": "Bog",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "CustomMesh": {
+            "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1666858152071991282/5C391C2599AE5F6972D6EFA7BFC04B41D6E821E3/",
+            "DiffuseURL": "",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 7,
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": [
+            {
+              "GUID": "339b5e",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": -7.905245,
+                "posY": 0.9702463,
+                "posZ": 0.0137369949,
+                "rotX": -0.00428759726,
+                "rotY": 270.000061,
+                "rotZ": 0.008031963,
+                "scaleX": 0.608,
+                "scaleY": 1.0,
+                "scaleZ": 0.608
+              },
+              "Nickname": "Bog",
+              "Description": "Severe. When an enemy model activates within 1\" of this marker, it gains a Stunned token.",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": true,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": true,
+              "CustomImage": {
+                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Markers/Bog.png",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 15.0,
+                  "StandUp": false,
+                  "Stackable": false
+                }
+              },
+              "LuaScript": "-- Bundled by luabundle {\"rootModuleName\":\"Base Marker.030e0e.lua\",\"version\":\"1.6.0\"}\nlocal __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)\n\tlocal loadingPlaceholder = {[{}] = true}\n\n\tlocal register\n\tlocal modules = {}\n\n\tlocal require\n\tlocal loaded = {}\n\n\tregister = function(name, body)\n\t\tif not modules[name] then\n\t\t\tmodules[name] = body\n\t\tend\n\tend\n\n\trequire = function(name)\n\t\tlocal loadedModule = loaded[name]\n\n\t\tif loadedModule then\n\t\t\tif loadedModule == loadingPlaceholder then\n\t\t\t\treturn nil\n\t\t\tend\n\t\telse\n\t\t\tif not modules[name] then\n\t\t\t\tif not superRequire then\n\t\t\t\t\tlocal identifier = type(name) == 'string' and '\\\"' .. name .. '\\\"' or tostring(name)\n\t\t\t\t\terror('Tried to require ' .. identifier .. ', but no such module has been registered')\n\t\t\t\telse\n\t\t\t\t\treturn superRequire(name)\n\t\t\t\tend\n\t\t\tend\n\n\t\t\tloaded[name] = loadingPlaceholder\n\t\t\tloadedModule = modules[name](require, loaded, register, modules)\n\t\t\tloaded[name] = loadedModule\n\t\tend\n\n\t\treturn loadedModule\n\tend\n\n\treturn require, loaded, register, modules\nend)(nil)\n__bundle_register(\"Base Marker.030e0e.lua\", function(require, _LOADED, __bundle_register, __bundle_modules)\nrequire(\"components/BaseMarker\")\nend)\n__bundle_register(\"components/BaseMarker\", function(require, _LOADED, __bundle_register, __bundle_modules)\nRSS_Class = 'Marker';\r\n------ CLASS VARIABLES ----------------------\r\nlocal ChildObjs = {\r\n    aura_obj = nil\r\n};\r\nlocal Conditions = {}\r\nlocal state = {conditions={ Aura=0,Activated =0}};\r\nlocal config={}\r\n------ LIFE CICLE EVENTS --------------------\r\nfunction onDestroy()\r\n    if (ChildObjs.aura_obj ~= nil) then \r\n        ChildObjs.aura_obj.destruct() \r\n    end\r\nend\r\nfunction onLoad(save)\r\n    rebuildAssets()\r\n    self.UI.setXml(ui())\r\n    showAura()\r\nend\r\nfunction onSave()\r\nend\r\nfunction onUpdate()\r\nend\r\n------ STATE ACTIONS ------------------------\r\nfunction SetInitialState(newState) --Tobe called from the reference card\r\nend\r\nfunction ModifyAura(params)\r\n    local bound = self.getBoundsNormalized();\r\n    state.conditions.Aura = math.max(0,state.conditions.Aura + params.amount);\r\n    local newScale = 0;\r\n    if state.conditions.Aura > 0 then\r\n        newScale = state.conditions.Aura+(bound.size.x/2+0.02);\r\n    end\r\n    ChildObjs.aura_obj.setScale(Vector(newScale,1,newScale));\r\n    SyncCondition(\"Aura\")\r\nend\r\nfunction setConfig(newConfig)\r\n    config=newConfig\r\n    self.setName(newConfig.name)\r\n    local thickness=0.01\r\n    --\r\n\r\n    --    thickness=newConfig.ht\r\n    --end\r\n    self.setCustomObject({\r\n        image = newConfig.image;\r\n        --thickness=thickness\r\n    });\r\n    --Converst bbcode to tts frendly floats\r\n    local r=tonumber(string.sub(newConfig.color,2,3),16)/255\r\n    local g=tonumber(string.sub(newConfig.color,4,5),16)/255\r\n    local b=tonumber(string.sub(newConfig.color,6,7),16)/255\r\n    self.setDescription(newConfig.rules)\r\n    self.setColorTint({r,g,b})\r\n    local x=0.365\r\n    local y=0.2\r\n    local z=0.365\r\n    if newConfig.size==\"40\" then\r\n        x=0.48666\r\n        z=0.48666\r\n    elseif newConfig.size==\"50\" then\r\n        x=0.608\r\n        z=0.608\r\n    end\r\n\r\n    self.setScale({x,1,z})\r\n    self.reload()\r\nend\r\nfunction setThickness(thickness)\r\n    self.setCustomObject({\r\n        thickness=thickness\r\n    });\r\nend\r\n------ MODEL MANIPULATION -------------------\r\nfunction AuraFollowObject(params)\r\n    if ChildObjs.aura_obj ~= nil then\r\n        ChildObjs.aura_obj.setVar('parent',params.obj);\r\n    end\r\nend\r\nfunction AuraResetFollow()\r\n    if ChildObjs.aura_obj ~= nil then\r\n        ChildObjs.aura_obj.setVar('parent',self);\r\n    end\r\nend\r\n------ UI GENERATION ------------------------\r\nfunction Sync()\r\n    self.UI.setXml(ui())\r\n    --propagateToReferenceCard()\r\nend\r\nfunction SyncCondition(name)\r\n    local secondary = Conditions[name].secondary;\r\n    local imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\n    local color = 'All';\r\n    self.UI.setAttributes(color..\"_ConditionImage_\".. name, {\r\n        color= Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or 'ff'),\r\n        image= imageName,\r\n    });\r\n        self.UI.setAttributes(color..\"_ConditionText_\".. name, {\r\n        active= (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false'),\r\n        text= state.conditions[name] \r\n    });\r\n    if name == \"Activated\" then\r\n        RefreshBaseColor()\r\n    end\r\nend\r\nfunction ui() \r\n    return [[\r\n        <Panel color=\"#FFFFFFff\" height=\"0\" width=\"0\" rectAlignment=\"MiddleCenter\" childForceExpandWidth=\"true\" >]]..\r\n        PlayerHUDPivot('All')..\r\n        [[</Panel>\r\n    ]];\r\nend\r\nfunction rebuildAssets()\r\n    local assets = {};\r\n    for conditionName, value in pairs(Conditions) do\r\n        assets[#assets+1]={name=conditionName , url = value.url};\r\n    end\r\n    self.UI.setCustomAssets(assets)\r\n    end\r\nfunction PlayerHUDPivot(color)\r\n    return [[\r\n        <Panel id=']]..color..[[_PlayerHUDPivot'  height=\"160\" width=\"128\" position='0 0 -10' rotation='0 0 0' rectAlignment=\"MiddleCenter\"  childForceExpandWidth=\"false\">\r\n        ]]..HUDConditions(color) ..[[\r\n        </Panel>\r\n    ]]\r\nend\r\n-- function PlayerHUDContainer(color)\r\n-- return [[\r\n-- <Panel id='PlayerHUD_Container' active='true' height=\"80\" width=\"100%\" rectAlignment=\"MiddleCenter\"  rotation='0 0 0' position='0 50 0' childForceExpandWidth=\"false\">]]..\r\n-- HUDConditions(color) ..\r\n-- [[</Panel>\r\n-- ]]\r\n-- end\r\nfunction HUDConditions(color)\r\n    return [[<Panel width=\"100%\" rectAlignment=\"MiddleLeft\" position='0 0 0' rotation='0 0 180' scale='4 4 4' > ]]..\r\n        HUDSingleCondition(color,\"Aura\", 0 ,0) ..\r\n    [[</Panel>]]\r\nend\r\nfunction UI_ModifyAura(p,alt) \r\n    if alt ~= '-3' then \r\n        ModifyAura({amount= (alt == '-1' and 1 or (alt == '-2' and -1) or 0 ) }) \r\n    end \r\nend\r\nfunction HUDSingleCondition(color,name,x,y)\r\n    local id = \"ConditionFrame_\" .. name ;\r\n    return [[<Panel id=\"]] .. id ..[[\" width=\"30\" height=\"30\" alignment='LowerLeft' position=']] ..(x* 32 ).. [[ ]] .. y*(32) .. [[ 0' ]] .. \r\n        [[onClick='UI_Modify]] .. name ..[[()'>]] ..\r\n        HUDSingleConditionBody(color,name)..\r\n    [[</Panel>]];\r\nend\r\nfunction HUDSingleConditionBody(color,name)\r\n    local secondary = Conditions[name].secondary;\r\n    local imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\n    return [[\r\n        <Image id=\"]]..color ..[[_ConditionImage_]]..name ..[[\" image=\"]] .. imageName .. [[\" color=\"]] .. Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or 'ff') .. [[\" rectAlignment='LowerLeft' width='30' height='30'/>\r\n        <Text  id=\"]]..color ..[[_ConditionText_]]..name ..[[\" active=']] .. (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false')  ..[['  fontSize='22' text=']] .. state.conditions[name] .. [[' color='#ffffff' fontStyle='Bold'  rectAlignment='LowerLeft' outline='#000000' outlineSize='1 1' />\r\n    ]]\r\nend\r\nConditions = {\r\n    Aura = { url=\"https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png\", color=\"#99aa22\", stacks=true }\r\n}\r\nfunction showAura()\r\n    local bound = self.getBoundsNormalized();\r\n    local a=(state.conditions.Aura > 0) and (state.conditions.Aura+(bound.size.x/2)+0.02) or 0; --based on model base size\r\n    local me = self\r\n    local clr = self.getColorTint()\r\n    ChildObjs.aura_obj=spawnObject({\r\n        type='custom_model',\r\n        position=self.getPosition(),\r\n        rotation=self.getRotation(),\r\n        scale={a,1,a},\r\n        mass=0,\r\n        use_gravity=false,\r\n        sound=false,\r\n        snap_to_grid=false,\r\n        callback_function=function(b)\r\n            b.setColorTint(clr)\r\n            b.setVar('parent',self)\r\n            b.setLuaScript([[\r\n            local lastParent = nil\r\n            function onLoad() \r\n            (self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false)\r\n            Wait.condition(\r\n            function() \r\n            (self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false) \r\n            end, \r\n            function() \r\n            return not(self.loading_custom) \r\n            end\r\n            ) \r\n            end \r\n            function onUpdate() \r\n            if (parent ~= nil) then \r\n            if (not parent.resting or lastParent ~= parent) then \r\n            lastParent = parent\r\n            self.setPosition(parent.getPosition())\r\n            self.setRotation(parent.getRotation()) \r\n            end \r\n            else \r\n            self.destruct() \r\n            end \r\n            end\r\n            ]])\r\n            b.getComponent('MeshRenderer').set('receiveShadows',false)\r\n            b.mass=0\r\n            b.bounciness=0\r\n            b.drag=0\r\n            b.use_snap_points=false\r\n            b.use_grid=false\r\n            b.use_gravity=false\r\n            b.auto_raise=false\r\n            b.auto_raise=false\r\n            b.sticky=false\r\n            b.interactable=false\r\n        end\r\n        })\r\n        ChildObjs.aura_obj.setCustomObject({\r\n        mesh='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/components/arcs/round0.obj',\r\n        collider='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/utility/null_COL.obj',\r\n        material=3,\r\n        specularIntensity=0,\r\n        cast_shadows=false\r\n    })\r\nend\nend)\nreturn __bundle_require(\"Base Marker.030e0e.lua\")",
+              "LuaScriptState": "[]",
+              "XmlUI": "",
+              "CustomUIAssets": [
+                {
+                  "Type": 0,
+                  "Name": "Aura",
+                  "URL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png"
+                }
+              ]
+            }
+          ],
+          "ChildObjects": [
+            {
+              "GUID": "339b5e",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": 0.0,
+                "posY": 0.0,
+                "posZ": 0.0,
+                "rotX": -3.71149554E-06,
+                "rotY": 270.000122,
+                "rotZ": 9.253183E-07,
+                "scaleX": 0.4082112,
+                "scaleY": 6.92458773,
+                "scaleZ": 0.3957148
+              },
+              "Nickname": "Bog",
+              "Description": "Severe. When an enemy model activates within 1\" of this marker, it gains a Stunned token.",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": true,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": true,
+              "CustomImage": {
+                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Markers/Bog.png",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 15.0,
+                  "StandUp": false,
+                  "Stackable": false
+                }
+              },
+              "LuaScript": "-- Bundled by luabundle {\"rootModuleName\":\"Base Marker.030e0e.lua\",\"version\":\"1.6.0\"}\nlocal __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)\n\tlocal loadingPlaceholder = {[{}] = true}\n\n\tlocal register\n\tlocal modules = {}\n\n\tlocal require\n\tlocal loaded = {}\n\n\tregister = function(name, body)\n\t\tif not modules[name] then\n\t\t\tmodules[name] = body\n\t\tend\n\tend\n\n\trequire = function(name)\n\t\tlocal loadedModule = loaded[name]\n\n\t\tif loadedModule then\n\t\t\tif loadedModule == loadingPlaceholder then\n\t\t\t\treturn nil\n\t\t\tend\n\t\telse\n\t\t\tif not modules[name] then\n\t\t\t\tif not superRequire then\n\t\t\t\t\tlocal identifier = type(name) == 'string' and '\\\"' .. name .. '\\\"' or tostring(name)\n\t\t\t\t\terror('Tried to require ' .. identifier .. ', but no such module has been registered')\n\t\t\t\telse\n\t\t\t\t\treturn superRequire(name)\n\t\t\t\tend\n\t\t\tend\n\n\t\t\tloaded[name] = loadingPlaceholder\n\t\t\tloadedModule = modules[name](require, loaded, register, modules)\n\t\t\tloaded[name] = loadedModule\n\t\tend\n\n\t\treturn loadedModule\n\tend\n\n\treturn require, loaded, register, modules\nend)(nil)\n__bundle_register(\"Base Marker.030e0e.lua\", function(require, _LOADED, __bundle_register, __bundle_modules)\nrequire(\"components/BaseMarker\")\nend)\n__bundle_register(\"components/BaseMarker\", function(require, _LOADED, __bundle_register, __bundle_modules)\nRSS_Class = 'Marker';\r\n------ CLASS VARIABLES ----------------------\r\nlocal ChildObjs = {\r\n    aura_obj = nil\r\n};\r\nlocal Conditions = {}\r\nlocal state = {conditions={ Aura=0,Activated =0}};\r\nlocal config={}\r\n------ LIFE CICLE EVENTS --------------------\r\nfunction onDestroy()\r\n    if (ChildObjs.aura_obj ~= nil) then \r\n        ChildObjs.aura_obj.destruct() \r\n    end\r\nend\r\nfunction onLoad(save)\r\n    rebuildAssets()\r\n    self.UI.setXml(ui())\r\n    showAura()\r\nend\r\nfunction onSave()\r\nend\r\nfunction onUpdate()\r\nend\r\n------ STATE ACTIONS ------------------------\r\nfunction SetInitialState(newState) --Tobe called from the reference card\r\nend\r\nfunction ModifyAura(params)\r\n    local bound = self.getBoundsNormalized();\r\n    state.conditions.Aura = math.max(0,state.conditions.Aura + params.amount);\r\n    local newScale = 0;\r\n    if state.conditions.Aura > 0 then\r\n        newScale = state.conditions.Aura+(bound.size.x/2+0.02);\r\n    end\r\n    ChildObjs.aura_obj.setScale(Vector(newScale,1,newScale));\r\n    SyncCondition(\"Aura\")\r\nend\r\nfunction setConfig(newConfig)\r\n    config=newConfig\r\n    self.setName(newConfig.name)\r\n    local thickness=0.01\r\n    --\r\n\r\n    --    thickness=newConfig.ht\r\n    --end\r\n    self.setCustomObject({\r\n        image = newConfig.image;\r\n        --thickness=thickness\r\n    });\r\n    --Converst bbcode to tts frendly floats\r\n    local r=tonumber(string.sub(newConfig.color,2,3),16)/255\r\n    local g=tonumber(string.sub(newConfig.color,4,5),16)/255\r\n    local b=tonumber(string.sub(newConfig.color,6,7),16)/255\r\n    self.setDescription(newConfig.rules)\r\n    self.setColorTint({r,g,b})\r\n    local x=0.365\r\n    local y=0.2\r\n    local z=0.365\r\n    if newConfig.size==\"40\" then\r\n        x=0.48666\r\n        z=0.48666\r\n    elseif newConfig.size==\"50\" then\r\n        x=0.608\r\n        z=0.608\r\n    end\r\n\r\n    self.setScale({x,1,z})\r\n    self.reload()\r\nend\r\nfunction setThickness(thickness)\r\n    self.setCustomObject({\r\n        thickness=thickness\r\n    });\r\nend\r\n------ MODEL MANIPULATION -------------------\r\nfunction AuraFollowObject(params)\r\n    if ChildObjs.aura_obj ~= nil then\r\n        ChildObjs.aura_obj.setVar('parent',params.obj);\r\n    end\r\nend\r\nfunction AuraResetFollow()\r\n    if ChildObjs.aura_obj ~= nil then\r\n        ChildObjs.aura_obj.setVar('parent',self);\r\n    end\r\nend\r\n------ UI GENERATION ------------------------\r\nfunction Sync()\r\n    self.UI.setXml(ui())\r\n    --propagateToReferenceCard()\r\nend\r\nfunction SyncCondition(name)\r\n    local secondary = Conditions[name].secondary;\r\n    local imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\n    local color = 'All';\r\n    self.UI.setAttributes(color..\"_ConditionImage_\".. name, {\r\n        color= Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or 'ff'),\r\n        image= imageName,\r\n    });\r\n        self.UI.setAttributes(color..\"_ConditionText_\".. name, {\r\n        active= (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false'),\r\n        text= state.conditions[name] \r\n    });\r\n    if name == \"Activated\" then\r\n        RefreshBaseColor()\r\n    end\r\nend\r\nfunction ui() \r\n    return [[\r\n        <Panel color=\"#FFFFFFff\" height=\"0\" width=\"0\" rectAlignment=\"MiddleCenter\" childForceExpandWidth=\"true\" >]]..\r\n        PlayerHUDPivot('All')..\r\n        [[</Panel>\r\n    ]];\r\nend\r\nfunction rebuildAssets()\r\n    local assets = {};\r\n    for conditionName, value in pairs(Conditions) do\r\n        assets[#assets+1]={name=conditionName , url = value.url};\r\n    end\r\n    self.UI.setCustomAssets(assets)\r\n    end\r\nfunction PlayerHUDPivot(color)\r\n    return [[\r\n        <Panel id=']]..color..[[_PlayerHUDPivot'  height=\"160\" width=\"128\" position='0 0 -10' rotation='0 0 0' rectAlignment=\"MiddleCenter\"  childForceExpandWidth=\"false\">\r\n        ]]..HUDConditions(color) ..[[\r\n        </Panel>\r\n    ]]\r\nend\r\n-- function PlayerHUDContainer(color)\r\n-- return [[\r\n-- <Panel id='PlayerHUD_Container' active='true' height=\"80\" width=\"100%\" rectAlignment=\"MiddleCenter\"  rotation='0 0 0' position='0 50 0' childForceExpandWidth=\"false\">]]..\r\n-- HUDConditions(color) ..\r\n-- [[</Panel>\r\n-- ]]\r\n-- end\r\nfunction HUDConditions(color)\r\n    return [[<Panel width=\"100%\" rectAlignment=\"MiddleLeft\" position='0 0 0' rotation='0 0 180' scale='4 4 4' > ]]..\r\n        HUDSingleCondition(color,\"Aura\", 0 ,0) ..\r\n    [[</Panel>]]\r\nend\r\nfunction UI_ModifyAura(p,alt) \r\n    if alt ~= '-3' then \r\n        ModifyAura({amount= (alt == '-1' and 1 or (alt == '-2' and -1) or 0 ) }) \r\n    end \r\nend\r\nfunction HUDSingleCondition(color,name,x,y)\r\n    local id = \"ConditionFrame_\" .. name ;\r\n    return [[<Panel id=\"]] .. id ..[[\" width=\"30\" height=\"30\" alignment='LowerLeft' position=']] ..(x* 32 ).. [[ ]] .. y*(32) .. [[ 0' ]] .. \r\n        [[onClick='UI_Modify]] .. name ..[[()'>]] ..\r\n        HUDSingleConditionBody(color,name)..\r\n    [[</Panel>]];\r\nend\r\nfunction HUDSingleConditionBody(color,name)\r\n    local secondary = Conditions[name].secondary;\r\n    local imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\n    return [[\r\n        <Image id=\"]]..color ..[[_ConditionImage_]]..name ..[[\" image=\"]] .. imageName .. [[\" color=\"]] .. Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or 'ff') .. [[\" rectAlignment='LowerLeft' width='30' height='30'/>\r\n        <Text  id=\"]]..color ..[[_ConditionText_]]..name ..[[\" active=']] .. (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false')  ..[['  fontSize='22' text=']] .. state.conditions[name] .. [[' color='#ffffff' fontStyle='Bold'  rectAlignment='LowerLeft' outline='#000000' outlineSize='1 1' />\r\n    ]]\r\nend\r\nConditions = {\r\n    Aura = { url=\"https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png\", color=\"#99aa22\", stacks=true }\r\n}\r\nfunction showAura()\r\n    local bound = self.getBoundsNormalized();\r\n    local a=(state.conditions.Aura > 0) and (state.conditions.Aura+(bound.size.x/2)+0.02) or 0; --based on model base size\r\n    local me = self\r\n    local clr = self.getColorTint()\r\n    ChildObjs.aura_obj=spawnObject({\r\n        type='custom_model',\r\n        position=self.getPosition(),\r\n        rotation=self.getRotation(),\r\n        scale={a,1,a},\r\n        mass=0,\r\n        use_gravity=false,\r\n        sound=false,\r\n        snap_to_grid=false,\r\n        callback_function=function(b)\r\n            b.setColorTint(clr)\r\n            b.setVar('parent',self)\r\n            b.setLuaScript([[\r\n            local lastParent = nil\r\n            function onLoad() \r\n            (self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false)\r\n            Wait.condition(\r\n            function() \r\n            (self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false) \r\n            end, \r\n            function() \r\n            return not(self.loading_custom) \r\n            end\r\n            ) \r\n            end \r\n            function onUpdate() \r\n            if (parent ~= nil) then \r\n            if (not parent.resting or lastParent ~= parent) then \r\n            lastParent = parent\r\n            self.setPosition(parent.getPosition())\r\n            self.setRotation(parent.getRotation()) \r\n            end \r\n            else \r\n            self.destruct() \r\n            end \r\n            end\r\n            ]])\r\n            b.getComponent('MeshRenderer').set('receiveShadows',false)\r\n            b.mass=0\r\n            b.bounciness=0\r\n            b.drag=0\r\n            b.use_snap_points=false\r\n            b.use_grid=false\r\n            b.use_gravity=false\r\n            b.auto_raise=false\r\n            b.auto_raise=false\r\n            b.sticky=false\r\n            b.interactable=false\r\n        end\r\n        })\r\n        ChildObjs.aura_obj.setCustomObject({\r\n        mesh='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/components/arcs/round0.obj',\r\n        collider='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/utility/null_COL.obj',\r\n        material=3,\r\n        specularIntensity=0,\r\n        cast_shadows=false\r\n    })\r\nend\nend)\nreturn __bundle_require(\"Base Marker.030e0e.lua\")",
+              "LuaScriptState": "[]",
+              "XmlUI": "",
+              "CustomUIAssets": [
+                {
+                  "Type": 0,
+                  "Name": "Aura",
+                  "URL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "GUID": "ce91e4",
+          "Name": "Custom_Model_Infinite_Bag",
+          "Transform": {
+            "posX": -7.905245,
+            "posY": 0.833663166,
+            "posZ": -2.486263,
+            "rotX": -3.35036157E-06,
+            "rotY": -5.85875459E-05,
+            "rotZ": -1.47271749E-06,
+            "scaleX": 1.53646016,
+            "scaleY": 0.144412935,
+            "scaleZ": 1.48942518
+          },
+          "Nickname": "Ice Pillar",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "CustomMesh": {
+            "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1666858152071991282/5C391C2599AE5F6972D6EFA7BFC04B41D6E821E3/",
+            "DiffuseURL": "",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 7,
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": [
+            {
+              "GUID": "605524",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": -7.905245,
+                "posY": 0.970293,
+                "posZ": -2.486263,
+                "rotX": 0.000568312942,
+                "rotY": 270.000122,
+                "rotZ": 0.00115542673,
+                "scaleX": 0.365,
+                "scaleY": 1.0,
+                "scaleZ": 0.365
+              },
+              "Nickname": "Ice Pillar",
+              "Description": "Blocking, impassable. Models within 2\" of this marker reduce their duel totals by 1.",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.6784314,
+                "g": 0.827451,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": true,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": true,
+              "CustomImage": {
+                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Markers/Ice%20Pillar.png",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 15.0,
+                  "StandUp": false,
+                  "Stackable": false
+                }
+              },
+              "LuaScript": "-- Bundled by luabundle {\"rootModuleName\":\"Base Marker.030e0e.lua\",\"version\":\"1.6.0\"}\nlocal __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)\n\tlocal loadingPlaceholder = {[{}] = true}\n\n\tlocal register\n\tlocal modules = {}\n\n\tlocal require\n\tlocal loaded = {}\n\n\tregister = function(name, body)\n\t\tif not modules[name] then\n\t\t\tmodules[name] = body\n\t\tend\n\tend\n\n\trequire = function(name)\n\t\tlocal loadedModule = loaded[name]\n\n\t\tif loadedModule then\n\t\t\tif loadedModule == loadingPlaceholder then\n\t\t\t\treturn nil\n\t\t\tend\n\t\telse\n\t\t\tif not modules[name] then\n\t\t\t\tif not superRequire then\n\t\t\t\t\tlocal identifier = type(name) == 'string' and '\\\"' .. name .. '\\\"' or tostring(name)\n\t\t\t\t\terror('Tried to require ' .. identifier .. ', but no such module has been registered')\n\t\t\t\telse\n\t\t\t\t\treturn superRequire(name)\n\t\t\t\tend\n\t\t\tend\n\n\t\t\tloaded[name] = loadingPlaceholder\n\t\t\tloadedModule = modules[name](require, loaded, register, modules)\n\t\t\tloaded[name] = loadedModule\n\t\tend\n\n\t\treturn loadedModule\n\tend\n\n\treturn require, loaded, register, modules\nend)(nil)\n__bundle_register(\"Base Marker.030e0e.lua\", function(require, _LOADED, __bundle_register, __bundle_modules)\nrequire(\"components/BaseMarker\")\nend)\n__bundle_register(\"components/BaseMarker\", function(require, _LOADED, __bundle_register, __bundle_modules)\nRSS_Class = 'Marker';\r\n------ CLASS VARIABLES ----------------------\r\nlocal ChildObjs = {\r\n    aura_obj = nil\r\n};\r\nlocal Conditions = {}\r\nlocal state = {conditions={ Aura=0,Activated =0}};\r\nlocal config={}\r\n------ LIFE CICLE EVENTS --------------------\r\nfunction onDestroy()\r\n    if (ChildObjs.aura_obj ~= nil) then \r\n        ChildObjs.aura_obj.destruct() \r\n    end\r\nend\r\nfunction onLoad(save)\r\n    rebuildAssets()\r\n    self.UI.setXml(ui())\r\n    showAura()\r\nend\r\nfunction onSave()\r\nend\r\nfunction onUpdate()\r\nend\r\n------ STATE ACTIONS ------------------------\r\nfunction SetInitialState(newState) --Tobe called from the reference card\r\nend\r\nfunction ModifyAura(params)\r\n    local bound = self.getBoundsNormalized();\r\n    state.conditions.Aura = math.max(0,state.conditions.Aura + params.amount);\r\n    local newScale = 0;\r\n    if state.conditions.Aura > 0 then\r\n        newScale = state.conditions.Aura+(bound.size.x/2+0.02);\r\n    end\r\n    ChildObjs.aura_obj.setScale(Vector(newScale,1,newScale));\r\n    SyncCondition(\"Aura\")\r\nend\r\nfunction setConfig(newConfig)\r\n    config=newConfig\r\n    self.setName(newConfig.name)\r\n    local thickness=0.01\r\n    --\r\n\r\n    --    thickness=newConfig.ht\r\n    --end\r\n    self.setCustomObject({\r\n        image = newConfig.image;\r\n        --thickness=thickness\r\n    });\r\n    --Converst bbcode to tts frendly floats\r\n    local r=tonumber(string.sub(newConfig.color,2,3),16)/255\r\n    local g=tonumber(string.sub(newConfig.color,4,5),16)/255\r\n    local b=tonumber(string.sub(newConfig.color,6,7),16)/255\r\n    self.setDescription(newConfig.rules)\r\n    self.setColorTint({r,g,b})\r\n    local x=0.365\r\n    local y=0.2\r\n    local z=0.365\r\n    if newConfig.size==\"40\" then\r\n        x=0.48666\r\n        z=0.48666\r\n    elseif newConfig.size==\"50\" then\r\n        x=0.608\r\n        z=0.608\r\n    end\r\n\r\n    self.setScale({x,1,z})\r\n    self.reload()\r\nend\r\nfunction setThickness(thickness)\r\n    self.setCustomObject({\r\n        thickness=thickness\r\n    });\r\nend\r\n------ MODEL MANIPULATION -------------------\r\nfunction AuraFollowObject(params)\r\n    if ChildObjs.aura_obj ~= nil then\r\n        ChildObjs.aura_obj.setVar('parent',params.obj);\r\n    end\r\nend\r\nfunction AuraResetFollow()\r\n    if ChildObjs.aura_obj ~= nil then\r\n        ChildObjs.aura_obj.setVar('parent',self);\r\n    end\r\nend\r\n------ UI GENERATION ------------------------\r\nfunction Sync()\r\n    self.UI.setXml(ui())\r\n    --propagateToReferenceCard()\r\nend\r\nfunction SyncCondition(name)\r\n    local secondary = Conditions[name].secondary;\r\n    local imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\n    local color = 'All';\r\n    self.UI.setAttributes(color..\"_ConditionImage_\".. name, {\r\n        color= Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or 'ff'),\r\n        image= imageName,\r\n    });\r\n        self.UI.setAttributes(color..\"_ConditionText_\".. name, {\r\n        active= (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false'),\r\n        text= state.conditions[name] \r\n    });\r\n    if name == \"Activated\" then\r\n        RefreshBaseColor()\r\n    end\r\nend\r\nfunction ui() \r\n    return [[\r\n        <Panel color=\"#FFFFFFff\" height=\"0\" width=\"0\" rectAlignment=\"MiddleCenter\" childForceExpandWidth=\"true\" >]]..\r\n        PlayerHUDPivot('All')..\r\n        [[</Panel>\r\n    ]];\r\nend\r\nfunction rebuildAssets()\r\n    local assets = {};\r\n    for conditionName, value in pairs(Conditions) do\r\n        assets[#assets+1]={name=conditionName , url = value.url};\r\n    end\r\n    self.UI.setCustomAssets(assets)\r\n    end\r\nfunction PlayerHUDPivot(color)\r\n    return [[\r\n        <Panel id=']]..color..[[_PlayerHUDPivot'  height=\"160\" width=\"128\" position='0 0 -10' rotation='0 0 0' rectAlignment=\"MiddleCenter\"  childForceExpandWidth=\"false\">\r\n        ]]..HUDConditions(color) ..[[\r\n        </Panel>\r\n    ]]\r\nend\r\n-- function PlayerHUDContainer(color)\r\n-- return [[\r\n-- <Panel id='PlayerHUD_Container' active='true' height=\"80\" width=\"100%\" rectAlignment=\"MiddleCenter\"  rotation='0 0 0' position='0 50 0' childForceExpandWidth=\"false\">]]..\r\n-- HUDConditions(color) ..\r\n-- [[</Panel>\r\n-- ]]\r\n-- end\r\nfunction HUDConditions(color)\r\n    return [[<Panel width=\"100%\" rectAlignment=\"MiddleLeft\" position='0 0 0' rotation='0 0 180' scale='4 4 4' > ]]..\r\n        HUDSingleCondition(color,\"Aura\", 0 ,0) ..\r\n    [[</Panel>]]\r\nend\r\nfunction UI_ModifyAura(p,alt) \r\n    if alt ~= '-3' then \r\n        ModifyAura({amount= (alt == '-1' and 1 or (alt == '-2' and -1) or 0 ) }) \r\n    end \r\nend\r\nfunction HUDSingleCondition(color,name,x,y)\r\n    local id = \"ConditionFrame_\" .. name ;\r\n    return [[<Panel id=\"]] .. id ..[[\" width=\"30\" height=\"30\" alignment='LowerLeft' position=']] ..(x* 32 ).. [[ ]] .. y*(32) .. [[ 0' ]] .. \r\n        [[onClick='UI_Modify]] .. name ..[[()'>]] ..\r\n        HUDSingleConditionBody(color,name)..\r\n    [[</Panel>]];\r\nend\r\nfunction HUDSingleConditionBody(color,name)\r\n    local secondary = Conditions[name].secondary;\r\n    local imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\n    return [[\r\n        <Image id=\"]]..color ..[[_ConditionImage_]]..name ..[[\" image=\"]] .. imageName .. [[\" color=\"]] .. Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or 'ff') .. [[\" rectAlignment='LowerLeft' width='30' height='30'/>\r\n        <Text  id=\"]]..color ..[[_ConditionText_]]..name ..[[\" active=']] .. (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false')  ..[['  fontSize='22' text=']] .. state.conditions[name] .. [[' color='#ffffff' fontStyle='Bold'  rectAlignment='LowerLeft' outline='#000000' outlineSize='1 1' />\r\n    ]]\r\nend\r\nConditions = {\r\n    Aura = { url=\"https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png\", color=\"#99aa22\", stacks=true }\r\n}\r\nfunction showAura()\r\n    local bound = self.getBoundsNormalized();\r\n    local a=(state.conditions.Aura > 0) and (state.conditions.Aura+(bound.size.x/2)+0.02) or 0; --based on model base size\r\n    local me = self\r\n    local clr = self.getColorTint()\r\n    ChildObjs.aura_obj=spawnObject({\r\n        type='custom_model',\r\n        position=self.getPosition(),\r\n        rotation=self.getRotation(),\r\n        scale={a,1,a},\r\n        mass=0,\r\n        use_gravity=false,\r\n        sound=false,\r\n        snap_to_grid=false,\r\n        callback_function=function(b)\r\n            b.setColorTint(clr)\r\n            b.setVar('parent',self)\r\n            b.setLuaScript([[\r\n            local lastParent = nil\r\n            function onLoad() \r\n            (self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false)\r\n            Wait.condition(\r\n            function() \r\n            (self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false) \r\n            end, \r\n            function() \r\n            return not(self.loading_custom) \r\n            end\r\n            ) \r\n            end \r\n            function onUpdate() \r\n            if (parent ~= nil) then \r\n            if (not parent.resting or lastParent ~= parent) then \r\n            lastParent = parent\r\n            self.setPosition(parent.getPosition())\r\n            self.setRotation(parent.getRotation()) \r\n            end \r\n            else \r\n            self.destruct() \r\n            end \r\n            end\r\n            ]])\r\n            b.getComponent('MeshRenderer').set('receiveShadows',false)\r\n            b.mass=0\r\n            b.bounciness=0\r\n            b.drag=0\r\n            b.use_snap_points=false\r\n            b.use_grid=false\r\n            b.use_gravity=false\r\n            b.auto_raise=false\r\n            b.auto_raise=false\r\n            b.sticky=false\r\n            b.interactable=false\r\n        end\r\n        })\r\n        ChildObjs.aura_obj.setCustomObject({\r\n        mesh='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/components/arcs/round0.obj',\r\n        collider='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/utility/null_COL.obj',\r\n        material=3,\r\n        specularIntensity=0,\r\n        cast_shadows=false\r\n    })\r\nend\nend)\nreturn __bundle_require(\"Base Marker.030e0e.lua\")",
+              "LuaScriptState": "[]",
+              "XmlUI": "",
+              "CustomUIAssets": [
+                {
+                  "Type": 0,
+                  "Name": "Aura",
+                  "URL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png"
+                }
+              ]
+            }
+          ],
+          "ChildObjects": [
+            {
+              "GUID": "605524",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": 0.0,
+                "posY": 0.0,
+                "posZ": 0.0,
+                "rotX": -3.71149554E-06,
+                "rotY": 270.000122,
+                "rotZ": 9.253183E-07,
+                "scaleX": 0.24506101,
+                "scaleY": 6.92458773,
+                "scaleZ": 0.237559065
+              },
+              "Nickname": "Ice Pillar",
+              "Description": "Blocking, impassable. Models within 2\" of this marker reduce their duel totals by 1.",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.6784314,
+                "g": 0.827451,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": true,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": true,
+              "CustomImage": {
+                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Markers/Ice%20Pillar.png",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 15.0,
+                  "StandUp": false,
+                  "Stackable": false
+                }
+              },
+              "LuaScript": "-- Bundled by luabundle {\"rootModuleName\":\"Base Marker.030e0e.lua\",\"version\":\"1.6.0\"}\nlocal __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)\n\tlocal loadingPlaceholder = {[{}] = true}\n\n\tlocal register\n\tlocal modules = {}\n\n\tlocal require\n\tlocal loaded = {}\n\n\tregister = function(name, body)\n\t\tif not modules[name] then\n\t\t\tmodules[name] = body\n\t\tend\n\tend\n\n\trequire = function(name)\n\t\tlocal loadedModule = loaded[name]\n\n\t\tif loadedModule then\n\t\t\tif loadedModule == loadingPlaceholder then\n\t\t\t\treturn nil\n\t\t\tend\n\t\telse\n\t\t\tif not modules[name] then\n\t\t\t\tif not superRequire then\n\t\t\t\t\tlocal identifier = type(name) == 'string' and '\\\"' .. name .. '\\\"' or tostring(name)\n\t\t\t\t\terror('Tried to require ' .. identifier .. ', but no such module has been registered')\n\t\t\t\telse\n\t\t\t\t\treturn superRequire(name)\n\t\t\t\tend\n\t\t\tend\n\n\t\t\tloaded[name] = loadingPlaceholder\n\t\t\tloadedModule = modules[name](require, loaded, register, modules)\n\t\t\tloaded[name] = loadedModule\n\t\tend\n\n\t\treturn loadedModule\n\tend\n\n\treturn require, loaded, register, modules\nend)(nil)\n__bundle_register(\"Base Marker.030e0e.lua\", function(require, _LOADED, __bundle_register, __bundle_modules)\nrequire(\"components/BaseMarker\")\nend)\n__bundle_register(\"components/BaseMarker\", function(require, _LOADED, __bundle_register, __bundle_modules)\nRSS_Class = 'Marker';\r\n------ CLASS VARIABLES ----------------------\r\nlocal ChildObjs = {\r\n    aura_obj = nil\r\n};\r\nlocal Conditions = {}\r\nlocal state = {conditions={ Aura=0,Activated =0}};\r\nlocal config={}\r\n------ LIFE CICLE EVENTS --------------------\r\nfunction onDestroy()\r\n    if (ChildObjs.aura_obj ~= nil) then \r\n        ChildObjs.aura_obj.destruct() \r\n    end\r\nend\r\nfunction onLoad(save)\r\n    rebuildAssets()\r\n    self.UI.setXml(ui())\r\n    showAura()\r\nend\r\nfunction onSave()\r\nend\r\nfunction onUpdate()\r\nend\r\n------ STATE ACTIONS ------------------------\r\nfunction SetInitialState(newState) --Tobe called from the reference card\r\nend\r\nfunction ModifyAura(params)\r\n    local bound = self.getBoundsNormalized();\r\n    state.conditions.Aura = math.max(0,state.conditions.Aura + params.amount);\r\n    local newScale = 0;\r\n    if state.conditions.Aura > 0 then\r\n        newScale = state.conditions.Aura+(bound.size.x/2+0.02);\r\n    end\r\n    ChildObjs.aura_obj.setScale(Vector(newScale,1,newScale));\r\n    SyncCondition(\"Aura\")\r\nend\r\nfunction setConfig(newConfig)\r\n    config=newConfig\r\n    self.setName(newConfig.name)\r\n    local thickness=0.01\r\n    --\r\n\r\n    --    thickness=newConfig.ht\r\n    --end\r\n    self.setCustomObject({\r\n        image = newConfig.image;\r\n        --thickness=thickness\r\n    });\r\n    --Converst bbcode to tts frendly floats\r\n    local r=tonumber(string.sub(newConfig.color,2,3),16)/255\r\n    local g=tonumber(string.sub(newConfig.color,4,5),16)/255\r\n    local b=tonumber(string.sub(newConfig.color,6,7),16)/255\r\n    self.setDescription(newConfig.rules)\r\n    self.setColorTint({r,g,b})\r\n    local x=0.365\r\n    local y=0.2\r\n    local z=0.365\r\n    if newConfig.size==\"40\" then\r\n        x=0.48666\r\n        z=0.48666\r\n    elseif newConfig.size==\"50\" then\r\n        x=0.608\r\n        z=0.608\r\n    end\r\n\r\n    self.setScale({x,1,z})\r\n    self.reload()\r\nend\r\nfunction setThickness(thickness)\r\n    self.setCustomObject({\r\n        thickness=thickness\r\n    });\r\nend\r\n------ MODEL MANIPULATION -------------------\r\nfunction AuraFollowObject(params)\r\n    if ChildObjs.aura_obj ~= nil then\r\n        ChildObjs.aura_obj.setVar('parent',params.obj);\r\n    end\r\nend\r\nfunction AuraResetFollow()\r\n    if ChildObjs.aura_obj ~= nil then\r\n        ChildObjs.aura_obj.setVar('parent',self);\r\n    end\r\nend\r\n------ UI GENERATION ------------------------\r\nfunction Sync()\r\n    self.UI.setXml(ui())\r\n    --propagateToReferenceCard()\r\nend\r\nfunction SyncCondition(name)\r\n    local secondary = Conditions[name].secondary;\r\n    local imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\n    local color = 'All';\r\n    self.UI.setAttributes(color..\"_ConditionImage_\".. name, {\r\n        color= Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or 'ff'),\r\n        image= imageName,\r\n    });\r\n        self.UI.setAttributes(color..\"_ConditionText_\".. name, {\r\n        active= (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false'),\r\n        text= state.conditions[name] \r\n    });\r\n    if name == \"Activated\" then\r\n        RefreshBaseColor()\r\n    end\r\nend\r\nfunction ui() \r\n    return [[\r\n        <Panel color=\"#FFFFFFff\" height=\"0\" width=\"0\" rectAlignment=\"MiddleCenter\" childForceExpandWidth=\"true\" >]]..\r\n        PlayerHUDPivot('All')..\r\n        [[</Panel>\r\n    ]];\r\nend\r\nfunction rebuildAssets()\r\n    local assets = {};\r\n    for conditionName, value in pairs(Conditions) do\r\n        assets[#assets+1]={name=conditionName , url = value.url};\r\n    end\r\n    self.UI.setCustomAssets(assets)\r\n    end\r\nfunction PlayerHUDPivot(color)\r\n    return [[\r\n        <Panel id=']]..color..[[_PlayerHUDPivot'  height=\"160\" width=\"128\" position='0 0 -10' rotation='0 0 0' rectAlignment=\"MiddleCenter\"  childForceExpandWidth=\"false\">\r\n        ]]..HUDConditions(color) ..[[\r\n        </Panel>\r\n    ]]\r\nend\r\n-- function PlayerHUDContainer(color)\r\n-- return [[\r\n-- <Panel id='PlayerHUD_Container' active='true' height=\"80\" width=\"100%\" rectAlignment=\"MiddleCenter\"  rotation='0 0 0' position='0 50 0' childForceExpandWidth=\"false\">]]..\r\n-- HUDConditions(color) ..\r\n-- [[</Panel>\r\n-- ]]\r\n-- end\r\nfunction HUDConditions(color)\r\n    return [[<Panel width=\"100%\" rectAlignment=\"MiddleLeft\" position='0 0 0' rotation='0 0 180' scale='4 4 4' > ]]..\r\n        HUDSingleCondition(color,\"Aura\", 0 ,0) ..\r\n    [[</Panel>]]\r\nend\r\nfunction UI_ModifyAura(p,alt) \r\n    if alt ~= '-3' then \r\n        ModifyAura({amount= (alt == '-1' and 1 or (alt == '-2' and -1) or 0 ) }) \r\n    end \r\nend\r\nfunction HUDSingleCondition(color,name,x,y)\r\n    local id = \"ConditionFrame_\" .. name ;\r\n    return [[<Panel id=\"]] .. id ..[[\" width=\"30\" height=\"30\" alignment='LowerLeft' position=']] ..(x* 32 ).. [[ ]] .. y*(32) .. [[ 0' ]] .. \r\n        [[onClick='UI_Modify]] .. name ..[[()'>]] ..\r\n        HUDSingleConditionBody(color,name)..\r\n    [[</Panel>]];\r\nend\r\nfunction HUDSingleConditionBody(color,name)\r\n    local secondary = Conditions[name].secondary;\r\n    local imageName = (secondary == nil and name or (state.conditions[name] > 1 and name or secondary));\r\n    return [[\r\n        <Image id=\"]]..color ..[[_ConditionImage_]]..name ..[[\" image=\"]] .. imageName .. [[\" color=\"]] .. Conditions[imageName].color .. (state.conditions[name] > 0  and 'ff' or 'ff') .. [[\" rectAlignment='LowerLeft' width='30' height='30'/>\r\n        <Text  id=\"]]..color ..[[_ConditionText_]]..name ..[[\" active=']] .. (Conditions[name].stacks and state.conditions[name] > 0 and 'true' or 'false')  ..[['  fontSize='22' text=']] .. state.conditions[name] .. [[' color='#ffffff' fontStyle='Bold'  rectAlignment='LowerLeft' outline='#000000' outlineSize='1 1' />\r\n    ]]\r\nend\r\nConditions = {\r\n    Aura = { url=\"https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png\", color=\"#99aa22\", stacks=true }\r\n}\r\nfunction showAura()\r\n    local bound = self.getBoundsNormalized();\r\n    local a=(state.conditions.Aura > 0) and (state.conditions.Aura+(bound.size.x/2)+0.02) or 0; --based on model base size\r\n    local me = self\r\n    local clr = self.getColorTint()\r\n    ChildObjs.aura_obj=spawnObject({\r\n        type='custom_model',\r\n        position=self.getPosition(),\r\n        rotation=self.getRotation(),\r\n        scale={a,1,a},\r\n        mass=0,\r\n        use_gravity=false,\r\n        sound=false,\r\n        snap_to_grid=false,\r\n        callback_function=function(b)\r\n            b.setColorTint(clr)\r\n            b.setVar('parent',self)\r\n            b.setLuaScript([[\r\n            local lastParent = nil\r\n            function onLoad() \r\n            (self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false)\r\n            Wait.condition(\r\n            function() \r\n            (self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false) \r\n            end, \r\n            function() \r\n            return not(self.loading_custom) \r\n            end\r\n            ) \r\n            end \r\n            function onUpdate() \r\n            if (parent ~= nil) then \r\n            if (not parent.resting or lastParent ~= parent) then \r\n            lastParent = parent\r\n            self.setPosition(parent.getPosition())\r\n            self.setRotation(parent.getRotation()) \r\n            end \r\n            else \r\n            self.destruct() \r\n            end \r\n            end\r\n            ]])\r\n            b.getComponent('MeshRenderer').set('receiveShadows',false)\r\n            b.mass=0\r\n            b.bounciness=0\r\n            b.drag=0\r\n            b.use_snap_points=false\r\n            b.use_grid=false\r\n            b.use_gravity=false\r\n            b.auto_raise=false\r\n            b.auto_raise=false\r\n            b.sticky=false\r\n            b.interactable=false\r\n        end\r\n        })\r\n        ChildObjs.aura_obj.setCustomObject({\r\n        mesh='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/components/arcs/round0.obj',\r\n        collider='https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/utility/null_COL.obj',\r\n        material=3,\r\n        specularIntensity=0,\r\n        cast_shadows=false\r\n    })\r\nend\nend)\nreturn __bundle_require(\"Base Marker.030e0e.lua\")",
+              "LuaScriptState": "[]",
+              "XmlUI": "",
+              "CustomUIAssets": [
+                {
+                  "Type": 0,
+                  "Name": "Aura",
+                  "URL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png"
+                }
+              ]
+            }
+          ]
         }
       ]
-    },
-    {
-      "GUID": "bd8b5a",
-      "Name": "Custom_Model",
-      "Transform": {
-        "posX": 22.6548977,
-        "posY": 1.01382387,
-        "posZ": 6.35644627,
-        "rotX": 4.685999E-06,
-        "rotY": 270.000061,
-        "rotZ": -6.17357E-06,
-        "scaleX": 0.0,
-        "scaleY": 1.0,
-        "scaleZ": 0.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "AltLookAngle": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "LayoutGroupSortIndex": 0,
-      "Value": 0,
-      "Locked": false,
-      "Grid": false,
-      "Snap": false,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": false,
-      "Sticky": false,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomMesh": {
-        "MeshURL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/components/arcs/round0.obj",
-        "DiffuseURL": "",
-        "NormalURL": "",
-        "ColliderURL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/utility/null_COL.obj",
-        "Convex": true,
-        "MaterialIndex": 3,
-        "TypeIndex": 0,
-        "CastShadows": false
-      },
-      "LuaScript": "            local lastParent = nil\n            function onLoad() \n            (self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false)\n            Wait.condition(\n            function() \n            (self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false) \n            end, \n            function() \n            return not(self.loading_custom) \n            end\n            ) \n            end \n            function onUpdate() \n            if (parent ~= nil) then \n            if (not parent.resting or lastParent ~= parent) then \n            lastParent = parent\n            self.setPosition(parent.getPosition())\n            self.setRotation(parent.getRotation()) \n            end \n            else \n            self.destruct() \n            end \n            end\n            ",
-      "LuaScriptState": "",
-      "XmlUI": "",
-      "PhysicsMaterial": {
-        "StaticFriction": 1.0,
-        "DynamicFriction": 0.7,
-        "Bounciness": 0.0,
-        "FrictionCombine": 0,
-        "BounceCombine": 0
-      },
-      "Rigidbody": {
-        "Mass": 0.0,
-        "Drag": 0.0,
-        "AngularDrag": 0.1,
-        "UseGravity": false
-      }
     }
   ]
 }

@@ -60,7 +60,8 @@ local defaultstate = {
 
 
         spawnedButtonCount = 0
-        myDeck = getObjectFromGUID("697be6")
+        --myDeck = getObjectFromGUID("697be6")f4ffc1
+        myDeck = getObjectFromGUID("f4ffc1")
         bmanager = getObjectFromGUID("b1938a")
         rmanager = getObjectFromGUID("47995f")
         createCheckbox()
