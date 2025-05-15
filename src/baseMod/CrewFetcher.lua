@@ -127,8 +127,8 @@ function retrieve_crew()
         local soulstones =string.sub(value,-2):gsub("%s+","")
         soulstones=tonumber(soulstones)
         
-        if soulstones>5 then
-            soulstones=5
+        if soulstones>6 then
+            soulstones=6
         end
         getSoulstones(soulstones)
     end

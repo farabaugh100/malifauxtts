@@ -24,10 +24,11 @@ def importObjects(destinationData,fileName,objList):
 #takes command line arguments for the two files.  Source first then destination.
 #Right now the ids to pull are hardcoded.  Probably should be a command line arg too but I was feeling lazy.
 print(sys.argv)
-#die()
+
+bareMod="../BareMod/Bare_Mod.json"
 destinationFilename=sys.argv[1]
 
-with open(destinationFilename, 'r') as file:
+with open(bareMod, 'r') as file:
     destinationData = json.load(file)
 
 
