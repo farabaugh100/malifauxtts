@@ -12,6 +12,7 @@ def importObjects(destinationData,fileName,objList):
     objToExport=[]
     for obj in originData["ObjectStates"]:
         if obj["GUID"] in objList:
+            print(obj["Nickname"])
             objToExport.append(obj)
 
     for obj in objToExport:
@@ -36,22 +37,27 @@ with open(bareMod, 'r') as file:
 #Import flip Panel
 flipPanelFile='../FlipPanel/Malifaux Breachside Gamma - added flip panels.json'
 flipPanelIds=["502932","1e8c61","83a171","31e7ff","a1b94b","5bc572","8138b3","572b26","4101c7","febe4d","566809","df38a2","b1137e","045b9e","9332c8","82bf88","c8d8aa","b854ca","d224ab"]
+print("flip panel")
 importObjects(destinationData,flipPanelFile,flipPanelIds)
 #Scheme Panel
 schemePanelFile='../schemescript/TS_Save_13298.json'
-schemePanelIds=["b1938a","420546","61fe0d","bdc196","d5e9df","697be6","2c8eb3","e2578a","725c42","47995f","914a0a","7e13e8","f4ffc1"]
+schemePanelIds=["b1938a","420546","61fe0d","d5e9df","697be6","e2578a","725c42","47995f","914a0a","7e13e8","460c2e","b4060e","43c0dd"]#last 3 are the scheme deck
+print("scheme panel")
 importObjects(destinationData,schemePanelFile,schemePanelIds)
 #Models
 modelsFile='../4EStatCardCreater/TS_Save_13302.json'
 modelsIds=["000000","000888","f5da9d","88b910","000839","fb3900","11cdcb","d95ea4","c98d47","64e45c","313d9c"]
+print("models")
 importObjects(destinationData,modelsFile,modelsIds)
 #Tokens
 tokensFile='../4EBaseModComponents/TS_Save_13305.json'
 tokensIds=["3ea749"]
+print("tokens")
 importObjects(destinationData,tokensFile,tokensIds)
 #Markers
 markersFile='../4EBaseModComponents/TS_Save_13306.json'
 markersIds=["7abb2f","83ac1c","edf269","fe97e9","898648","7c0835","b469ee","31f5d9","44e232","68a770","10de55"]
+print("markers")
 importObjects(destinationData,markersFile,markersIds)
 
 
