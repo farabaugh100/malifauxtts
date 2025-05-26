@@ -8,7 +8,7 @@ TRH_Class ="mini"
 	local Conditions = {}
 	local originalData = nil;
 	local state = {
-		conditions={Adaptable = 0,Adversary = 0,Analyzed = 0,AuraBinding = 0,AuraFire = 0,AuraFumes = 0,AuraNegligent = 0,AuraStaggered = 0,AuraConcealment = 0,AuraHazardous = 0,Backtrack = 0,Bolstered = 0,BogSpirit = 0,Brilliance = 0,Broodling = 0,Burning = 0,Challenged = 0,Craven = 0,CruelWhispers = 0,Distracted = 0,Engorged = 0,Entranced = 0,Fast = 0,Flicker = 0,Focused = 0,FragileEgo = 0,Fright = 0,Glowy = 0,Greedy = 0,Hastened = 0,Impact = 0,ImprovisedPart = 0,Injured = 0,Insight = 0,Paranoia = 0,Parasite = 0,Perforated = 0,Poison = 0,Power = 0,Reload = 0,Shame = 0,Shielded = 0,Slow = 0,SpiritualChains = 0,Staggered = 0,Stunned = 0,Summon = 0,Suppresed = 0,Hunger = 0,Adaptable = 0,Focused = 0,Shielded = 0,},
+		conditions={Abandoned = 0,Adaptable = 0,Adversary = 0,Analyzed = 0,AuraBinding = 0,AuraFire = 0,AuraFumes = 0,AuraNegligent = 0,AuraStaggered = 0,AuraConcealment = 0,AuraHazardous = 0,Backtrack = 0,Bolstered = 0,BogSpirit = 0,Brilliance = 0,Broodling = 0,Burning = 0,Challenged = 0,Craven = 0,CruelWhispers = 0,Distracted = 0,Engorged = 0,Entranced = 0,Fast = 0,Flicker = 0,Focused = 0,FragileEgo = 0,Fright = 0,Glowy = 0,Greedy = 0,Hastened = 0,Impact = 0,ImprovisedPart = 0,Injured = 0,Insight = 0,Paranoia = 0,Parasite = 0,Perforated = 0,Poison = 0,Power = 0,Reload = 0,Shame = 0,Shielded = 0,Slow = 0,SpiritualChains = 0,Staggered = 0,Stunned = 0,Summon = 0,Suppresed = 0,Hunger = 0,Familia = 0,NewBlood = 0,Adaptable = 0,Focused = 0,Shielded = 0,},
 		extras={Aura = 0,Activated = 0,Mode = 0},
 		tokens={},
 		health={current=-1,max= 9},
@@ -406,59 +406,61 @@ TRH_Class ="mini"
 	function UI_ModifyMode(p,alt) UI_ModifyCondition("0","Mode") end
 	function UI_ModifyHealth(p,alt) if alt ~= '-3' then ModifyHealth({amount= (alt == '-1' and 1 or (alt == '-2' and -1) or 0 ) }) end end
 
-	function UI_ModifyAdaptable(p,alt) UI_ModifyCondition("0","Adaptable") end
-	function UI_ModifyAdversary(p,alt) UI_ModifyCondition("0","Adversary") end
-	function UI_ModifyAnalyzed(p,alt) UI_ModifyCondition("0","Analyzed") end
-	function UI_ModifyAuraBinding(p,alt) UI_ModifyCondition("0","AuraBinding") end
-	function UI_ModifyAuraFire(p,alt) UI_ModifyCondition("0","AuraFire") end
-	function UI_ModifyAuraFumes(p,alt) UI_ModifyCondition("0","AuraFumes") end
-	function UI_ModifyAuraNegligent(p,alt) UI_ModifyCondition("0","AuraNegligent") end
-	function UI_ModifyAuraStaggered(p,alt) UI_ModifyCondition("0","AuraStaggered") end
-	function UI_ModifyAuraConcealment(p,alt) UI_ModifyCondition("0","AuraConcealment") end
-	function UI_ModifyAuraHazardous(p,alt) UI_ModifyCondition("0","AuraHazardous") end
-	function UI_ModifyBacktrack(p,alt) UI_ModifyCondition("0","Backtrack") end
-	function UI_ModifyBolstered(p,alt) UI_ModifyCondition("0","Bolstered") end
-	function UI_ModifyBogSpirit(p,alt) UI_ModifyCondition("0","BogSpirit") end
-	function UI_ModifyBrilliance(p,alt) UI_ModifyCondition("0","Brilliance") end
-	function UI_ModifyBroodling(p,alt) UI_ModifyCondition("0","Broodling") end
-	function UI_ModifyBurning(p,alt) UI_ModifyCondition("0","Burning") end
-	function UI_ModifyChallenged(p,alt) UI_ModifyCondition("0","Challenged") end
-	function UI_ModifyCraven(p,alt) UI_ModifyCondition("0","Craven") end
-	function UI_ModifyCruelWhispers(p,alt) UI_ModifyCondition("0","CruelWhispers") end
-	function UI_ModifyDistracted(p,alt) UI_ModifyCondition("0","Distracted") end
-	function UI_ModifyEngorged(p,alt) UI_ModifyCondition("0","Engorged") end
-	function UI_ModifyEntranced(p,alt) UI_ModifyCondition("0","Entranced") end
-	function UI_ModifyFast(p,alt) UI_ModifyCondition("0","Fast") end
-	function UI_ModifyFlicker(p,alt) UI_ModifyCondition("0","Flicker") end
-	function UI_ModifyFocused(p,alt) UI_ModifyCondition("0","Focused") end
-	function UI_ModifyFragileEgo(p,alt) UI_ModifyCondition("0","FragileEgo") end
-	function UI_ModifyFright(p,alt) UI_ModifyCondition("0","Fright") end
-	function UI_ModifyGlowy(p,alt) UI_ModifyCondition("0","Glowy") end
-	function UI_ModifyGreedy(p,alt) UI_ModifyCondition("0","Greedy") end
-	function UI_ModifyHastened(p,alt) UI_ModifyCondition("0","Hastened") end
-	function UI_ModifyImpact(p,alt) UI_ModifyCondition("0","Impact") end
-	function UI_ModifyImprovisedPart(p,alt) UI_ModifyCondition("0","ImprovisedPart") end
-	function UI_ModifyInjured(p,alt) UI_ModifyCondition("0","Injured") end
-	function UI_ModifyInsight(p,alt) UI_ModifyCondition("0","Insight") end
-	function UI_ModifyParanoia(p,alt) UI_ModifyCondition("0","Paranoia") end
-	function UI_ModifyParasite(p,alt) UI_ModifyCondition("0","Parasite") end
-	function UI_ModifyPerforated(p,alt) UI_ModifyCondition("0","Perforated") end
-	function UI_ModifyPoison(p,alt) UI_ModifyCondition("0","Poison") end
-	function UI_ModifyPower(p,alt) UI_ModifyCondition("0","Power") end
-	function UI_ModifyReload(p,alt) UI_ModifyCondition("0","Reload") end
-	function UI_ModifyShame(p,alt) UI_ModifyCondition("0","Shame") end
-	function UI_ModifyShielded(p,alt) UI_ModifyCondition("0","Shielded") end
-	function UI_ModifySlow(p,alt) UI_ModifyCondition("0","Slow") end
-	function UI_ModifySpiritualChains(p,alt) UI_ModifyCondition("0","SpiritualChains") end
-	function UI_ModifyStaggered(p,alt) UI_ModifyCondition("0","Staggered") end
-	function UI_ModifyStunned(p,alt) UI_ModifyCondition("0","Stunned") end
-	function UI_ModifySummon(p,alt) UI_ModifyCondition("0","Summon") end
-	function UI_ModifySuppresed(p,alt) UI_ModifyCondition("0","Suppresed") end
-	function UI_ModifyHunger(p,alt) UI_ModifyCondition("0","Hunger") end
-	function UI_ModifyAdaptable(p,alt) UI_ModifyCondition("0","Adaptable") end
-	function UI_ModifyFocused(p,alt) UI_ModifyCondition("0","Focused") end
-	function UI_ModifyShielded(p,alt) UI_ModifyCondition("0","Shielded") end
-
+function UI_ModifyAbandoned(p,alt) UI_ModifyCondition("0","Abandoned") end
+function UI_ModifyAdaptable(p,alt) UI_ModifyCondition("0","Adaptable") end
+function UI_ModifyAdversary(p,alt) UI_ModifyCondition("0","Adversary") end
+function UI_ModifyAnalyzed(p,alt) UI_ModifyCondition("0","Analyzed") end
+function UI_ModifyAuraBinding(p,alt) UI_ModifyCondition("0","AuraBinding") end
+function UI_ModifyAuraFire(p,alt) UI_ModifyCondition("0","AuraFire") end
+function UI_ModifyAuraFumes(p,alt) UI_ModifyCondition("0","AuraFumes") end
+function UI_ModifyAuraNegligent(p,alt) UI_ModifyCondition("0","AuraNegligent") end
+function UI_ModifyAuraStaggered(p,alt) UI_ModifyCondition("0","AuraStaggered") end
+function UI_ModifyAuraConcealment(p,alt) UI_ModifyCondition("0","AuraConcealment") end
+function UI_ModifyAuraHazardous(p,alt) UI_ModifyCondition("0","AuraHazardous") end
+function UI_ModifyBacktrack(p,alt) UI_ModifyCondition("0","Backtrack") end
+function UI_ModifyBolstered(p,alt) UI_ModifyCondition("0","Bolstered") end
+function UI_ModifyBogSpirit(p,alt) UI_ModifyCondition("0","BogSpirit") end
+function UI_ModifyBrilliance(p,alt) UI_ModifyCondition("0","Brilliance") end
+function UI_ModifyBroodling(p,alt) UI_ModifyCondition("0","Broodling") end
+function UI_ModifyBurning(p,alt) UI_ModifyCondition("0","Burning") end
+function UI_ModifyChallenged(p,alt) UI_ModifyCondition("0","Challenged") end
+function UI_ModifyCraven(p,alt) UI_ModifyCondition("0","Craven") end
+function UI_ModifyCruelWhispers(p,alt) UI_ModifyCondition("0","CruelWhispers") end
+function UI_ModifyDistracted(p,alt) UI_ModifyCondition("0","Distracted") end
+function UI_ModifyEngorged(p,alt) UI_ModifyCondition("0","Engorged") end
+function UI_ModifyEntranced(p,alt) UI_ModifyCondition("0","Entranced") end
+function UI_ModifyFast(p,alt) UI_ModifyCondition("0","Fast") end
+function UI_ModifyFlicker(p,alt) UI_ModifyCondition("0","Flicker") end
+function UI_ModifyFocused(p,alt) UI_ModifyCondition("0","Focused") end
+function UI_ModifyFragileEgo(p,alt) UI_ModifyCondition("0","FragileEgo") end
+function UI_ModifyFright(p,alt) UI_ModifyCondition("0","Fright") end
+function UI_ModifyGlowy(p,alt) UI_ModifyCondition("0","Glowy") end
+function UI_ModifyGreedy(p,alt) UI_ModifyCondition("0","Greedy") end
+function UI_ModifyHastened(p,alt) UI_ModifyCondition("0","Hastened") end
+function UI_ModifyImpact(p,alt) UI_ModifyCondition("0","Impact") end
+function UI_ModifyImprovisedPart(p,alt) UI_ModifyCondition("0","ImprovisedPart") end
+function UI_ModifyInjured(p,alt) UI_ModifyCondition("0","Injured") end
+function UI_ModifyInsight(p,alt) UI_ModifyCondition("0","Insight") end
+function UI_ModifyParanoia(p,alt) UI_ModifyCondition("0","Paranoia") end
+function UI_ModifyParasite(p,alt) UI_ModifyCondition("0","Parasite") end
+function UI_ModifyPerforated(p,alt) UI_ModifyCondition("0","Perforated") end
+function UI_ModifyPoison(p,alt) UI_ModifyCondition("0","Poison") end
+function UI_ModifyPower(p,alt) UI_ModifyCondition("0","Power") end
+function UI_ModifyReload(p,alt) UI_ModifyCondition("0","Reload") end
+function UI_ModifyShame(p,alt) UI_ModifyCondition("0","Shame") end
+function UI_ModifyShielded(p,alt) UI_ModifyCondition("0","Shielded") end
+function UI_ModifySlow(p,alt) UI_ModifyCondition("0","Slow") end
+function UI_ModifySpiritualChains(p,alt) UI_ModifyCondition("0","SpiritualChains") end
+function UI_ModifyStaggered(p,alt) UI_ModifyCondition("0","Staggered") end
+function UI_ModifyStunned(p,alt) UI_ModifyCondition("0","Stunned") end
+function UI_ModifySummon(p,alt) UI_ModifyCondition("0","Summon") end
+function UI_ModifySuppresed(p,alt) UI_ModifyCondition("0","Suppresed") end
+function UI_ModifyHunger(p,alt) UI_ModifyCondition("0","Hunger") end
+function UI_ModifyFamilia(p,alt) UI_ModifyCondition("0","Familia") end
+function UI_ModifyNewBlood(p,alt) UI_ModifyCondition("0","NewBlood") end
+function UI_ModifyAdaptable(p,alt) UI_ModifyCondition("0","Adaptable") end
+function UI_ModifyFocused(p,alt) UI_ModifyCondition("0","Focused") end
+function UI_ModifyShielded(p,alt) UI_ModifyCondition("0","Shielded") end
 	function HUDSingleCondition(color,name,x,y,size)
 	
 		local id = "ConditionFrame_" .. name ;
@@ -497,6 +499,7 @@ TRH_Class ="mini"
 		Activated  = { url="https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/flag.png", color="#bbbb22", stacks=false },
 		Mode  = { url="https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/gear.png", color="#bbffbb", stacks=false, loop = 2 },
 
+		Abandoned ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Abandoned.png", color="#FFFFFF",stacks=false},
 		Adaptable ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Adaptable.png", color="#FFFFFF",stacks=false},
 		Adversary ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Adversary.png", color="#DF2020",stacks=false},
 		Analyzed ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Analyzed.png", color="#FFFFFF",stacks=false},
@@ -546,10 +549,11 @@ TRH_Class ="mini"
 		Summon ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Summon.png", color="#FFFFFF",stacks=false},
 		Suppresed ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Suppressed.png", color="#FFFFFF",stacks=false},
 		Hunger ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Hunger.png", color="#FFFFFF",stacks=false},
+		Familia ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Familia.png", color="#FFFFFF",stacks=false},
+		NewBlood ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/NewBlood.png", color="#FFFFFF",stacks=false},
 		Adaptable ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Adaptable.png", color="#FFFFFF",stacks=false},
 		Focused ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Focused.png", color="#9A37D3",stacks=false},
 		Shielded ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Shielded.png", color="#6AC3FF",stacks=false},
-
 		
 	}
 
