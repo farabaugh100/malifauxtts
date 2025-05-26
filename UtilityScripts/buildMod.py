@@ -41,7 +41,7 @@ print("flip panel")
 importObjects(destinationData,flipPanelFile,flipPanelIds)
 #Scheme Panel
 schemePanelFile='../schemescript/TS_Save_13298.json'
-schemePanelIds=["b1938a","420546","61fe0d","d5e9df","697be6","e2578a","725c42","47995f","914a0a","7e13e8","460c2e","b4060e","43c0dd"]#last 3 are the scheme deck
+schemePanelIds=["b1938a","420546","61fe0d","d5e9df","697be6","e2578a","725c42","47995f","914a0a","7e13e8","bb6c9e","0e2d1d","45bdbf"]#last 3 are the scheme deck
 print("scheme panel")
 importObjects(destinationData,schemePanelFile,schemePanelIds)
 #Models
