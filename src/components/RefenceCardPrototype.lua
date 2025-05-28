@@ -52,6 +52,7 @@ function fetched(color)
                 slot=fetchTokens(config.tokens,color,slot)
             end
             if config.markers~="" then
+                slot=fetchMarkers("Remains",color,slot)
                 slot=fetchMarkers(config.markers,color,slot)
             end
         end
