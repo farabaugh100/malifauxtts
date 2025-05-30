@@ -58,7 +58,7 @@ function displayConfirmationPrompt(params)
   local panel = {
     tag = "Panel",
     attributes = {
-      id = self.getGUID().."ConfirmationPromptPanel",
+      id = idPrefix.."ConfirmationPromptPanel",
       height = height,
       width = width,
       scale = "1 1 1",
@@ -117,12 +117,12 @@ function displayConfirmationPrompt(params)
               {
                 tag = "Button",
                 attributes = {
-                  id = self.getGUID().."Close",
+                  id = idPrefix,
                   minHeight = 30,
                   minWidth = 60,
                   color = "red",
                   text = "NO", 
-                  onClick = "onCloseButtonClicked",
+                  onClick = "onCloseButtonClicked(close)",
                 }
               },
             },
@@ -145,7 +145,7 @@ end
 function onCloseButtonClicked(player,text,id)
 
   -- Check if close button was clicked
-  if id ~= self.getGUID().."Close" then
+  if text ~= "close" then
     -- If not call confirmed function
     local source = getObjectFromGUID(id)
     if source then
@@ -158,7 +158,7 @@ function onCloseButtonClicked(player,text,id)
   local ui = Global.UI.getXmlTable()
   -- Finds ConfirmationPromptPanel in UI table and removes it
   for k, v in pairs(ui) do
-    if v.attributes.id == self.getGUID().."ConfirmationPromptPanel" then
+    if v.attributes.id == id.."ConfirmationPromptPanel" then
       table.remove(ui,k)
       break
     end
