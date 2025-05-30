@@ -393,7 +393,7 @@ function createUI()
               attributes = {
                 id = "resetButton" .. self.getGUID(),
                 text = "RESET",
-                onClick = "onResetCards",
+                onClick = "resetConfirmationPrompt",
                 fontSize = math.floor(CONSTANTS.fontSize),
                 fontColor = CONSTANTS.buttonFontColor,
                 color = CONSTANTS.buttonColor,
@@ -822,6 +822,7 @@ function onDiscard(player, _, _)
 end
 
 --- Transfer cards from discard to deck and shuffles them. 
+-- @tparam instance player Player Instance.
 function onReshuffle(player, _, _)
   startAction()
   onDiscard()
@@ -1062,8 +1063,26 @@ function onRemoved(player, _, _)
   end  
 end
 
+--- Calls confirmation prompt in GLobal.
+-- @tparam instance player Player Instance.
+function resetConfirmationPrompt(player, _, _)
+  local question = "Do really want to reset your deck?"
+  local description = "All cards will return to your deck and will be shuffled."
+  
+  local params = {
+    question=question,
+    description=description,
+    source=self,
+    player=player,
+    confirmedFunction="onResetCards"
+  }
+
+  Global.call("displayConfirmationPrompt",params)  
+end
+
 --- Gather all the cards in the deck zone and shuffles them.
-function onResetCards(player, _, _)
+-- @tparam instance player Player Instance.
+function onResetCards(player)
   startAction()
   onRemoved()
   -- Wait until onRemoved is finished
@@ -1125,7 +1144,7 @@ end
 
 function stopAction()
   self.UI.setAttribute("resetButton" .. self.getGUID(), "color", CONSTANTS.buttonColor)
-  self.UI.setAttribute("resetButton" .. self.getGUID(), "onClick", "onResetCards")
+  self.UI.setAttribute("resetButton" .. self.getGUID(), "onClick", "resetConfirmationPrompt")
 
   self.UI.setAttribute("flipButton-3" .. self.getGUID(), "color", CONSTANTS.buttonColor) 
   self.UI.setAttribute("flipButton-3" .. self.getGUID(), "onClick", "onFlip")
