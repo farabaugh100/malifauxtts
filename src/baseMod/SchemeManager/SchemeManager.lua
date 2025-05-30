@@ -1,5 +1,5 @@
 schemes = {"Assassinate","Breakthrough","ScouttheRooftops","Ensnare","DetonateCharges",
-"FrameJob","TaketheHighground","SearchtheArea","LighttheBeacons","HarnesstheLeyLine",
+"FrameJob","TaketheHighground","SearchtheArea","GraveRobbing","HarnesstheLeyLine",
 "RunicBinding","MakeitLookLikeAnAccident","PublicDemonstration","LeaveYourMark","ReshapeTheLand"}
 
 --Color information for button text (r,g,b, values of 0-1)
@@ -29,14 +29,14 @@ local objLib={
 local defaultstate = {
     schemes={Assassinate={"ScouttheRooftops","DetonateCharges","RunicBinding"},
             Breakthrough={"Assassinate","PublicDemonstration","FrameJob"},
-            ScouttheRooftops={"DetonateCharges","LighttheBeacons","LeaveYourMark"},
+            ScouttheRooftops={"DetonateCharges","GraveRobbing","LeaveYourMark"},
             Ensnare={"ReshapeTheLand","SearchtheArea","FrameJob"},
-            DetonateCharges={"LighttheBeacons","RunicBinding","TaketheHighground"},        
+            DetonateCharges={"GraveRobbing","RunicBinding","TaketheHighground"},        
             FrameJob={"PublicDemonstration","HarnesstheLeyLine","ScouttheRooftops"},            
             TaketheHighground={"MakeitLookLikeAnAccident","Ensnare","SearchtheArea"},            
             SearchtheArea={"Breakthrough","FrameJob","HarnesstheLeyLine"},            
-            LighttheBeacons={"RunicBinding","LeaveYourMark","MakeitLookLikeAnAccident"},
-            HarnesstheLeyLine={"Assassinate","ScouttheRooftops","LighttheBeacons"},
+            GraveRobbing={"RunicBinding","LeaveYourMark","MakeitLookLikeAnAccident"},
+            HarnesstheLeyLine={"Assassinate","ScouttheRooftops","GraveRobbing"},
             RunicBinding={"LeaveYourMark","TaketheHighground","Ensnare"},
             MakeitLookLikeAnAccident={"Ensnare","ReshapeTheLand","Breakthrough"},
             PublicDemonstration={"HarnesstheLeyLine","Assassinate","DetonateCharges"},

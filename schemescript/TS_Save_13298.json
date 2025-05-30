@@ -1,7 +1,7 @@
 {
   "SaveName": "schemes",
-  "EpochTime": 1748280371,
-  "Date": "5/26/2025 1:26:11 PM",
+  "EpochTime": 1748615190,
+  "Date": "5/30/2025 10:26:30 AM",
   "VersionNumber": "v13.3",
   "GameMode": "Malifaux Breachside Gamma - dev branch",
   "GameType": "Game",
@@ -3319,9 +3319,9 @@
         "posX": -37.8354721,
         "posY": 0.9864669,
         "posZ": -31.95159,
-        "rotX": 0.00043189124,
+        "rotX": 0.000431891356,
         "rotY": 270.0,
-        "rotZ": -8.778594E-05,
+        "rotZ": -8.77859638E-05,
         "scaleX": 0.5368931,
         "scaleY": 0.5515663,
         "scaleZ": 0.5515663
@@ -3335,9 +3335,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.409394681,
-        "g": 0.409394681,
-        "b": 0.409394681
+        "r": 0.409394652,
+        "g": 0.409394652,
+        "b": 0.409394652
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -3386,9 +3386,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.409394681,
-        "g": 0.409394681,
-        "b": 0.409394681
+        "r": 0.409394652,
+        "g": 0.409394652,
+        "b": 0.409394652
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -3437,9 +3437,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.4093946,
-        "g": 0.4093946,
-        "b": 0.4093946
+        "r": 0.409394562,
+        "g": 0.409394562,
+        "b": 0.409394562
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -3500,9 +3500,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.409394562,
-        "g": 0.409394562,
-        "b": 0.409394562
+        "r": 0.409394532,
+        "g": 0.409394532,
+        "b": 0.409394532
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -3563,9 +3563,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.409394681,
-        "g": 0.409394681,
-        "b": 0.409394681
+        "r": 0.409394652,
+        "g": 0.409394652,
+        "b": 0.409394652
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -5391,9 +5391,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.127166241,
-        "g": 0.127166241,
-        "b": 0.127166241
+        "r": 0.127166212,
+        "g": 0.127166212,
+        "b": 0.127166212
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -5653,11 +5653,11 @@
       "Name": "Custom_Model_Infinite_Bag",
       "Transform": {
         "posX": -9.830339,
-        "posY": 1.02595091,
+        "posY": 1.025952,
         "posZ": -35.1697731,
-        "rotX": -1.975825E-06,
+        "rotX": -1.51839022E-05,
         "rotY": 359.9877,
-        "rotZ": 3.026241E-07,
+        "rotZ": 9.187272E-06,
         "scaleX": 2.22426844,
         "scaleY": 0.5289924,
         "scaleZ": 2.21988
@@ -5824,12 +5824,12 @@
       "GUID": "83ac1c",
       "Name": "Custom_Model_Infinite_Bag",
       "Transform": {
-        "posX": 9.858403,
-        "posY": 1.02595091,
+        "posX": 9.858402,
+        "posY": 1.02595508,
         "posZ": -35.2214241,
-        "rotX": 1.19321712E-05,
-        "rotY": -0.00332464278,
-        "rotZ": 5.27474E-06,
+        "rotX": -5.454241E-05,
+        "rotY": -0.00330609363,
+        "rotZ": 8.36286E-05,
         "scaleX": 2.22426844,
         "scaleY": 0.5289924,
         "scaleZ": 2.21988
@@ -6050,7 +6050,7 @@
       "GUID": "2a1296",
       "Name": "3DText",
       "Transform": {
-        "posX": 9.894057,
+        "posX": 9.894059,
         "posY": 0.9608537,
         "posZ": -33.6583,
         "rotX": 90.0,
@@ -6123,9 +6123,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.381521523,
-        "g": 0.381521523,
-        "b": 0.381521523
+        "r": 0.3815215,
+        "g": 0.3815215,
+        "b": 0.3815215
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -6273,9 +6273,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.242148787,
-        "g": 0.2349768,
-        "b": 0.2349768
+        "r": 0.242148757,
+        "g": 0.234976768,
+        "b": 0.234976768
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -6624,11 +6624,11 @@
       "Name": "Custom_Assetbundle",
       "Transform": {
         "posX": -1.52714753,
-        "posY": 0.62777245,
+        "posY": 0.6277724,
         "posZ": -98.6046753,
-        "rotX": -1.2662751E-05,
+        "rotX": -1.09227512E-05,
         "rotY": 14.972434,
-        "rotZ": -3.665666E-07,
+        "rotZ": 1.40735619E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -6642,7 +6642,7 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.04592807,
+        "r": 0.04592803,
         "g": 0.475558221,
         "b": 0.8000001
       },
@@ -7738,8 +7738,8 @@
       "Name": "3DText",
       "Transform": {
         "posX": -17.6002026,
-        "posY": 0.9591361,
-        "posZ": -47.48288,
+        "posY": 0.959136248,
+        "posZ": -47.4828873,
         "rotX": 90.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -7791,12 +7791,12 @@
       "GUID": "17aadb",
       "Name": "Checker_red",
       "Transform": {
-        "posX": 6.116659,
+        "posX": 6.116628,
         "posY": 0.587768435,
-        "posZ": -98.793396,
-        "rotX": 0.000155935966,
+        "posZ": -98.79343,
+        "rotX": 0.000151808374,
         "rotY": 270.001831,
-        "rotZ": -0.000456915761,
+        "rotZ": -0.00045733765,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -7835,9 +7835,9 @@
       "GUID": "15caf9",
       "Name": "3DText",
       "Transform": {
-        "posX": -0.235277191,
+        "posX": -0.235277221,
         "posY": 0.9607221,
-        "posZ": -41.73358,
+        "posZ": -41.73359,
         "rotX": 90.0,
         "rotY": 179.540451,
         "rotZ": 0.0,
@@ -7889,9 +7889,9 @@
       "GUID": "7b5599",
       "Name": "3DText",
       "Transform": {
-        "posX": -27.0536079,
+        "posX": -27.0536118,
         "posY": 0.960269034,
-        "posZ": -47.5075073,
+        "posZ": -47.507515,
         "rotX": 90.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -7943,8 +7943,8 @@
       "GUID": "474b53",
       "Name": "3DText",
       "Transform": {
-        "posX": -0.000297546416,
-        "posY": 0.959584355,
+        "posX": -0.000297546474,
+        "posY": 0.9595844,
         "posZ": -33.8652,
         "rotX": 90.0,
         "rotY": 180.0,
@@ -7998,11 +7998,11 @@
       "Name": "Notecard",
       "Transform": {
         "posX": -34.0,
-        "posY": 0.8314554,
+        "posY": 0.8314555,
         "posZ": -21.99982,
-        "rotX": -2.58511182E-06,
+        "rotX": 9.791447E-08,
         "rotY": 90.0088654,
-        "rotZ": -5.883866E-06,
+        "rotZ": -5.88249441E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -8041,12 +8041,12 @@
       "GUID": "15fc7f",
       "Name": "Checker_white",
       "Transform": {
-        "posX": 6.101082,
+        "posX": 6.10110331,
         "posY": 0.8382237,
-        "posZ": -98.74697,
-        "rotX": -0.002472789,
-        "rotY": 89.98846,
-        "rotZ": 0.002394556,
+        "posZ": -98.74699,
+        "rotX": -0.00246466068,
+        "rotY": 89.98848,
+        "rotZ": 0.002397183,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -8103,11 +8103,11 @@
       "Name": "Custom_PDF",
       "Transform": {
         "posX": -36.2247849,
-        "posY": 0.587772667,
+        "posY": 0.5877726,
         "posZ": 44.60769,
-        "rotX": -5.725683E-08,
+        "rotX": 6.57237251E-08,
         "rotY": 269.967468,
-        "rotZ": 6.23336547E-08,
+        "rotZ": -3.30327445E-08,
         "scaleX": 3.2506578,
         "scaleY": 1.0,
         "scaleZ": 3.2506578
@@ -8156,9 +8156,9 @@
         "posX": 29.7922745,
         "posY": 0.5877726,
         "posZ": 44.95587,
-        "rotX": -3.47795819E-08,
+        "rotX": -2.77176948E-08,
         "rotY": 89.99941,
-        "rotZ": 1.77435355E-09,
+        "rotZ": -3.61480534E-09,
         "scaleX": 3.2506578,
         "scaleY": 1.0,
         "scaleZ": 3.2506578
@@ -9155,8 +9155,8 @@
       "Name": "3DText",
       "Transform": {
         "posX": 15.9028521,
-        "posY": 0.9608843,
-        "posZ": -30.1226368,
+        "posY": 0.9608833,
+        "posZ": -30.12266,
         "rotX": 90.0,
         "rotY": 180.562454,
         "rotZ": 0.0,
@@ -9208,9 +9208,9 @@
       "GUID": "ecd006",
       "Name": "3DText",
       "Transform": {
-        "posX": -15.6857109,
-        "posY": 0.960129857,
-        "posZ": -30.43059,
+        "posX": -15.6857185,
+        "posY": 0.9601261,
+        "posZ": -30.4306126,
         "rotX": 90.0,
         "rotY": 180.562454,
         "rotZ": 0.0,
@@ -9263,10 +9263,10 @@
       "Name": "3DText",
       "Transform": {
         "posX": -0.218006134,
-        "posY": 0.960631549,
-        "posZ": 31.9145641,
+        "posY": 0.960629642,
+        "posZ": 31.91456,
         "rotX": 90.0,
-        "rotY": 0.301294565,
+        "rotY": 0.301294625,
         "rotZ": 0.0,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -9316,9 +9316,9 @@
       "GUID": "407221",
       "Name": "3DText",
       "Transform": {
-        "posX": -17.28056,
-        "posY": 0.9601318,
-        "posZ": 26.1344681,
+        "posX": -17.2805767,
+        "posY": 0.960128,
+        "posZ": 26.1344624,
         "rotX": 90.0,
         "rotY": 359.468323,
         "rotZ": 0.0,
@@ -9371,8 +9371,8 @@
       "Name": "3DText",
       "Transform": {
         "posX": 16.7951336,
-        "posY": 0.9608864,
-        "posZ": 26.2562275,
+        "posY": 0.9608854,
+        "posZ": 26.2562237,
         "rotX": 90.0,
         "rotY": 359.468323,
         "rotZ": 0.0,
@@ -9776,12 +9776,12 @@
       "GUID": "1b16b0",
       "Name": "BlockSquare",
       "Transform": {
-        "posX": 0.012718156,
-        "posY": 1.08777213,
+        "posX": 0.0127181318,
+        "posY": 1.08777225,
         "posZ": -98.24594,
-        "rotX": -3.3138214E-08,
-        "rotY": 0.004276142,
-        "rotZ": 6.274645E-07,
+        "rotX": -7.69612768E-07,
+        "rotY": 0.0042741,
+        "rotZ": 5.52521158E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -9821,8 +9821,8 @@
       "Name": "3DText",
       "Transform": {
         "posX": 10.7942724,
-        "posY": 0.960888,
-        "posZ": -98.31561,
+        "posY": 0.960887134,
+        "posZ": -98.31565,
         "rotX": 90.0,
         "rotY": 269.693481,
         "rotZ": 0.0,
@@ -9874,9 +9874,9 @@
       "GUID": "8a3c17",
       "Name": "3DText",
       "Transform": {
-        "posX": -9.557068,
-        "posY": 0.9601499,
-        "posZ": -98.01805,
+        "posX": -9.557083,
+        "posY": 0.9601461,
+        "posZ": -98.0181046,
         "rotX": 90.0,
         "rotY": 89.09897,
         "rotZ": 0.0,
@@ -10216,8 +10216,8 @@
       "GUID": "510f93",
       "Name": "3DText",
       "Transform": {
-        "posX": -19.9706631,
-        "posY": 0.960227132,
+        "posX": -19.9706783,
+        "posY": 0.9602234,
         "posZ": 47.32619,
         "rotX": 89.98022,
         "rotY": 359.135254,
@@ -10273,9 +10273,9 @@
         "posX": 12.6577768,
         "posY": 0.6210051,
         "posZ": -95.95677,
-        "rotX": -3.45641183E-07,
+        "rotX": -4.18584762E-07,
         "rotY": 179.997,
-        "rotZ": 9.45305942E-07,
+        "rotZ": 1.097834E-06,
         "scaleX": 0.713773131,
         "scaleY": 0.0664657652,
         "scaleZ": 0.706220865
@@ -10447,11 +10447,11 @@
       "Name": "Custom_Model_Infinite_Bag",
       "Transform": {
         "posX": 14.9626064,
-        "posY": 0.621005,
+        "posY": 0.6210051,
         "posZ": -96.5976639,
-        "rotX": -3.63620416E-07,
+        "rotX": 4.15250668E-07,
         "rotY": 179.985977,
-        "rotZ": 2.767282E-07,
+        "rotZ": -1.18335059E-07,
         "scaleX": 0.7137734,
         "scaleY": 0.0664657652,
         "scaleZ": 0.7062205
@@ -10625,9 +10625,9 @@
         "posX": 13.4374294,
         "posY": 0.6214455,
         "posZ": -96.9794846,
-        "rotX": 2.34120861E-07,
+        "rotX": 1.05039639E-07,
         "rotY": 269.808167,
-        "rotZ": -4.63874528E-07,
+        "rotZ": -4.032353E-07,
         "scaleX": 0.73517406,
         "scaleY": 0.06734645,
         "scaleZ": 0.744278133
@@ -11135,9 +11135,9 @@
         "posX": -6.072866,
         "posY": 0.587772369,
         "posZ": -99.8726044,
-        "rotX": 1.734063E-07,
+        "rotX": -2.700153E-07,
         "rotY": 270.0086,
-        "rotZ": -3.1889158E-07,
+        "rotZ": 3.75844223E-07,
         "scaleX": 2.5,
         "scaleY": 1.0,
         "scaleZ": 2.5
@@ -11214,9 +11214,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.4093939,
-        "g": 0.4093939,
-        "b": 0.4093939
+        "r": 0.409393877,
+        "g": 0.409393877,
+        "b": 0.409393877
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -11799,9 +11799,9 @@
         "posX": -23.5884933,
         "posY": 0.657772243,
         "posZ": -51.4371948,
-        "rotX": 2.6612561E-08,
+        "rotX": -2.18913261E-08,
         "rotY": 180.0052,
-        "rotZ": 2.7510465E-08,
+        "rotZ": 1.05147775E-08,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -11841,11 +11841,11 @@
       "GUID": "4ddd87",
       "Name": "Checker_black",
       "Transform": {
-        "posX": 7.84771061,
+        "posX": 7.84772062,
         "posY": 0.838255763,
-        "posZ": -98.3331757,
-        "rotX": -1.02705428E-06,
-        "rotY": 179.95253,
+        "posZ": -98.33321,
+        "rotX": -5.933866E-07,
+        "rotY": 179.9518,
         "rotZ": 180.0,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -11888,9 +11888,9 @@
         "posX": 13.49361,
         "posY": 0.570772231,
         "posZ": -91.04163,
-        "rotX": -3.81906659E-07,
+        "rotX": -3.48780219E-07,
         "rotY": 0.343849778,
-        "rotZ": 6.34806838E-07,
+        "rotZ": 6.811684E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -12163,9 +12163,9 @@
       "Name": "Deck",
       "Transform": {
         "posX": -16.2833843,
-        "posY": 1.28337133,
+        "posY": 1.28337121,
         "posZ": -21.2816448,
-        "rotX": 2.705138E-05,
+        "rotX": 3.32785676E-05,
         "rotY": 269.998444,
         "rotZ": 180.0,
         "scaleX": 1.5,
@@ -16012,7 +16012,7 @@
         "posX": 16.26102,
         "posY": 1.28336942,
         "posZ": -25.1492863,
-        "rotX": -5.51256971E-06,
+        "rotX": -7.201528E-06,
         "rotY": 269.998383,
         "rotZ": 180.0,
         "scaleX": 1.5,
@@ -19856,10 +19856,10 @@
       "GUID": "02c7e5",
       "Name": "Deck",
       "Transform": {
-        "posX": 0.626265,
-        "posY": 0.8686609,
+        "posX": 0.6262651,
+        "posY": 0.868661,
         "posZ": -90.17453,
-        "rotX": -2.82096462E-08,
+        "rotX": -4.70948827E-08,
         "rotY": 269.998352,
         "rotZ": 180.0,
         "scaleX": 1.5,
@@ -23940,7 +23940,7 @@
         "posZ": 44.64034,
         "rotX": 1.24191456E-06,
         "rotY": 180.00853,
-        "rotZ": 7.87405043E-07,
+        "rotZ": 7.87405156E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -24316,9 +24316,9 @@
         "posX": 13.4839077,
         "posY": 0.621445358,
         "posZ": -95.38546,
-        "rotX": 1.14674634E-07,
+        "rotX": 1.89262082E-08,
         "rotY": 90.0098,
-        "rotZ": 3.18667958E-07,
+        "rotZ": 3.736172E-07,
         "scaleX": 0.7351749,
         "scaleY": 0.06734628,
         "scaleZ": 0.7442768
@@ -24506,9 +24506,9 @@
         "posX": -36.2247849,
         "posY": 0.5877726,
         "posZ": 55.60769,
-        "rotX": -1.72095511E-08,
+        "rotX": -1.74357826E-08,
         "rotY": 269.984344,
-        "rotZ": -9.437563E-09,
+        "rotZ": -1.00434336E-08,
         "scaleX": 3.24971676,
         "scaleY": 1.0,
         "scaleZ": 3.24971676
@@ -24557,9 +24557,9 @@
         "posX": 29.7922764,
         "posY": 0.587772548,
         "posZ": 55.9559059,
-        "rotX": -1.17035193E-09,
+        "rotX": -9.919482E-09,
         "rotY": 90.01519,
-        "rotZ": -3.063639E-08,
+        "rotZ": -2.88665181E-08,
         "scaleX": 3.24971676,
         "scaleY": 1.0,
         "scaleZ": 3.24971676
@@ -24606,11 +24606,11 @@
       "Name": "Bag",
       "Transform": {
         "posX": -24.4353371,
-        "posY": 0.4027382,
+        "posY": 0.402738154,
         "posZ": -44.9415321,
-        "rotX": -1.18855688E-07,
-        "rotY": 269.9862,
-        "rotZ": 1.18884266E-07,
+        "rotX": 3.446662E-07,
+        "rotY": 269.986176,
+        "rotZ": -4.285835E-08,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -29696,11 +29696,11 @@
       "Name": "Notecard",
       "Transform": {
         "posX": 34.0,
-        "posY": 0.8314554,
+        "posY": 0.831455469,
         "posZ": -22.0,
-        "rotX": -2.3002076E-06,
+        "rotX": -2.2776353E-06,
         "rotY": 270.0114,
-        "rotZ": 6.9292937E-06,
+        "rotZ": 2.97886572E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -36068,9 +36068,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.409393221,
-        "g": 0.409393221,
-        "b": 0.409393221
+        "r": 0.409393162,
+        "g": 0.409393162,
+        "b": 0.409393162
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -36687,7 +36687,7 @@
           "Stackable": false
         }
       },
-      "LuaScript": "-- Bundled by luabundle {\"rootModuleName\":\"Blue Scheme Manager.b1938a.lua\",\"version\":\"1.6.0\"}\nlocal __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)\n\tlocal loadingPlaceholder = {[{}] = true}\n\n\tlocal register\n\tlocal modules = {}\n\n\tlocal require\n\tlocal loaded = {}\n\n\tregister = function(name, body)\n\t\tif not modules[name] then\n\t\t\tmodules[name] = body\n\t\tend\n\tend\n\n\trequire = function(name)\n\t\tlocal loadedModule = loaded[name]\n\n\t\tif loadedModule then\n\t\t\tif loadedModule == loadingPlaceholder then\n\t\t\t\treturn nil\n\t\t\tend\n\t\telse\n\t\t\tif not modules[name] then\n\t\t\t\tif not superRequire then\n\t\t\t\t\tlocal identifier = type(name) == 'string' and '\\\"' .. name .. '\\\"' or tostring(name)\n\t\t\t\t\terror('Tried to require ' .. identifier .. ', but no such module has been registered')\n\t\t\t\telse\n\t\t\t\t\treturn superRequire(name)\n\t\t\t\tend\n\t\t\tend\n\n\t\t\tloaded[name] = loadingPlaceholder\n\t\t\tloadedModule = modules[name](require, loaded, register, modules)\n\t\t\tloaded[name] = loadedModule\n\t\tend\n\n\t\treturn loadedModule\n\tend\n\n\treturn require, loaded, register, modules\nend)(nil)\n__bundle_register(\"Blue Scheme Manager.b1938a.lua\", function(require, _LOADED, __bundle_register, __bundle_modules)\n--require(\"baseMod/SchemeManager/BlueSchemeManager\")\r\nrequire(\"baseMod/SchemeManager/SchemeManager\")\nend)\n__bundle_register(\"baseMod/SchemeManager/SchemeManager\", function(require, _LOADED, __bundle_register, __bundle_modules)\nschemes = {\"Assassinate\",\"Breakthrough\",\"ScouttheRooftops\",\"Ensnare\",\"DetonateCharges\",\r\n\"FrameJob\",\"TaketheHighground\",\"SearchtheArea\",\"LighttheBeacons\",\"HarnesstheLeyLine\",\r\n\"RunicBinding\",\"MakeitLookLikeAnAccident\",\"PublicDemonstration\",\"LeaveYourMark\",\"ReshapeTheLand\"}\r\n\r\n--Color information for button text (r,g,b, values of 0-1)\r\nbuttonFontColor = {0,0,0}\r\n--Color information for button background\r\nbuttonColor = {1,1,1}\r\n--Change scale of button (Avoid changing if possible)\r\nbuttonScale = {0.1,0.1,0.1}\r\n\r\ndisableSave = false\r\nlocal objLib={\r\n    blueSchemeDeck=\"0e2d1d\",\r\n    blueSchemeManager=\"b1938a\",\r\n    blueSchemePanel=\"420546\",\r\n    blueSchemeReveal=\"61fe0d\",\r\n    blueSchemeTracker=\"a1873a\",\r\n    blueOptionsTag=\"b_option\",\r\n    blueRevealTag=\"b_reveal\",\r\n    redSchemeDeck=\"45bdbf\",\r\n    redSchemeManager=\"47995f\",\r\n    redSchemePanel=\"725c42\",\r\n    redSchemeReveal=\"e2578a\",\r\n    redSchemeTracker=\"a687eb\",\r\n    redOptionsTag=\"r_option\",\r\n    redRevealTag=\"r_reveal\",\r\n}\r\nlocal defaultstate = {\r\n    schemes={Assassinate={\"ScouttheRooftops\",\"DetonateCharges\",\"RunicBinding\"},\r\n            Breakthrough={\"Assassinate\",\"PublicDemonstration\",\"FrameJob\"},\r\n            ScouttheRooftops={\"DetonateCharges\",\"LighttheBeacons\",\"LeaveYourMark\"},\r\n            Ensnare={\"ReshapeTheLand\",\"SearchtheArea\",\"FrameJob\"},\r\n            DetonateCharges={\"LighttheBeacons\",\"RunicBinding\",\"TaketheHighground\"},        \r\n            FrameJob={\"PublicDemonstration\",\"HarnesstheLeyLine\",\"ScouttheRooftops\"},            \r\n            TaketheHighground={\"MakeitLookLikeAnAccident\",\"Ensnare\",\"SearchtheArea\"},            \r\n            SearchtheArea={\"Breakthrough\",\"FrameJob\",\"HarnesstheLeyLine\"},            \r\n            LighttheBeacons={\"RunicBinding\",\"LeaveYourMark\",\"MakeitLookLikeAnAccident\"},\r\n            HarnesstheLeyLine={\"Assassinate\",\"ScouttheRooftops\",\"LighttheBeacons\"},\r\n            RunicBinding={\"LeaveYourMark\",\"TaketheHighground\",\"Ensnare\"},\r\n            MakeitLookLikeAnAccident={\"Ensnare\",\"ReshapeTheLand\",\"Breakthrough\"},\r\n            PublicDemonstration={\"HarnesstheLeyLine\",\"Assassinate\",\"DetonateCharges\"},\r\n            LeaveYourMark={\"TaketheHighground\",\"MakeitLookLikeAnAccident\",\"ReshapeTheLand\"},\r\n            ReshapeTheLand={\"SearchtheArea\",\"Breakthrough\",\"PublicDemonstration\"},\r\n        },\r\n    currentscheme= \"\",\r\n    currentoptions= {},\r\n    startingschemes= {},\r\n    buttons={\r\n            {\r\n                pos = {-1,0.1,-0.9},\r\n                size = 1500,\r\n                label = \"Option 1\"\r\n            },\r\n            {\r\n                pos = {-1,0.1,-0.4},\r\n                size = 1500,\r\n                label = \"Option 2\"\r\n            },\r\n            {\r\n                pos = {-1,0.1,0.1},\r\n                size = 1500,\r\n                label = \"Option 3\"\r\n            }\r\n        },\r\n    checkbox={\r\n            {\r\n                pos = {1.5,0.1,-0.85},\r\n                size = 1000,\r\n                state = false\r\n            },\r\n            {\r\n                pos = {1.5,0.1,-0.3},\r\n                size = 1000,\r\n                state = false\r\n            }\r\n        },\r\n    textbox={\r\n            pos       = {0,0.1,0.75},\r\n            width     = 1100,\r\n            height    = 200,\r\n            font_size = 120,\r\n            alignment = 3,\r\n            label     = \"Hidden Information\",\r\n            value     = \"\",\r\n            color     = {1,1,1,0},\r\n            font_color = {0,0,0,255}\r\n        },\r\n    reveal={\r\n            pos = {1,0.1,0.1},\r\n            size = 1500,\r\n            label = \"Reveal\"\r\n        }\r\n    \r\n}\r\n\r\nlocal myDeck\r\nlocal tracker\r\nlocal tablet\r\nlocal reveal\r\nlocal optionTag\r\nlocal revealTag\r\nlocal thisColor\r\n--Save function\r\nfunction updateSave()\r\n    saved_data = JSON.encode(state)\r\n    if disableSave==true then saved_data=\"\" end\r\n    self.script_state = saved_data\r\nend\r\n\r\n--Startup procedure\r\nfunction onload(saved_data)\r\n    local selfName=self.getName()\r\n    if disableSave==true then saved_data=\"\" end\r\n    if saved_data ~= \"\" then\r\n        local loaded_data = JSON.decode(saved_data)\r\n        state = loaded_data\r\n    else\r\n        state = defaultstate\r\n    end\r\n\r\n    spawnedButtonCount = 0\r\n    if string.find(selfName, \"Red\") then\r\n        myDeck = getObjectFromGUID(objLib.redSchemeDeck)\r\n        tracker = getObjectFromGUID(objLib.redSchemeTracker)\r\n        tablet = getObjectFromGUID(objLib.redSchemePanel)\r\n        reveal = getObjectFromGUID(objLib.redSchemeReveal)\r\n        optionTag=objLib.redOptionsTag\r\n        revealTag=objLib.redRevealTag\r\n        thisColor=\"red\"\r\n    elseif string.find(selfName, \"Blue\") then\r\n        myDeck = getObjectFromGUID(objLib.blueSchemeDeck)\r\n        tracker = getObjectFromGUID(objLib.blueSchemeTracker)\r\n        tablet = getObjectFromGUID(objLib.blueSchemePanel)\r\n        reveal = getObjectFromGUID(objLib.blueSchemeReveal)\r\n        optionTag=objLib.blueOptionsTag\r\n        revealTag=objLib.blueRevealTag\r\n        thisColor=\"blue\"\r\n    end\r\n    createButtons()\r\n    createCheckbox()\r\n    createTextbox()\r\n    createReveal()\r\nend\r\n\r\nfunction createButtons()\r\n    for i, data in ipairs(state.buttons) do\r\n        --Sets up reference function\r\n        local buttonNumber = spawnedButtonCount\r\n        local funcName = \"scheme\"..i\r\n        local func = function() click_scheme(i) end\r\n        self.setVar(funcName, func)\r\n        \r\n        --Creates button and counts it\r\n        self.createButton({\r\n            label=data.label, click_function=funcName, function_owner=self,\r\n            position=data.pos, height=data.size, width=data.size*3,\r\n            font_size=data.size, scale=buttonScale,\r\n            color=buttonColor, font_color=buttonFontColor\r\n        })\r\n        spawnedButtonCount = spawnedButtonCount + 1\r\n    end\r\nend\r\n\r\nfunction createCheckbox()\r\n    for i, data in ipairs(state.checkbox) do\r\n        --Sets up reference function\r\n        local buttonNumber = spawnedButtonCount\r\n        local funcName = \"checkbox\"..i\r\n        local func = function() click_checkbox(i, buttonNumber) end\r\n        self.setVar(funcName, func)\r\n        --Sets up label\r\n        local label = \"\"\r\n        if data.state==true then label=string.char(10008) end\r\n        --Creates button and counts it\r\n        self.createButton({\r\n            label=label, click_function=funcName, function_owner=self,\r\n            position=data.pos, height=data.size, width=data.size,\r\n            font_size=data.size, scale=buttonScale,\r\n            color=buttonColor, font_color=buttonFontColor\r\n        })\r\n        spawnedButtonCount = spawnedButtonCount + 1\r\n    end\r\nend\r\n\r\nfunction createTextbox()\r\n    data = state.textbox\r\n    --Sets up reference function\r\n    local funcName = \"textbox\"..1\r\n    local func = function(_,_,val,sel) click_textbox(val,sel) end\r\n    self.setVar(funcName, func)\r\n\r\n    self.createInput({\r\n        input_function = funcName,\r\n        function_owner = self,\r\n        alignment      = data.alignment,\r\n        label          = data.label,\r\n        position       = data.pos,\r\n        width          = data.width,\r\n        height         = data.height,\r\n        font_size      = data.font_size,\r\n        font_color     = data.font_color,\r\n        color          = data.color,  \r\n        value          = data.value,\r\n    })\r\nend\r\n\r\nfunction createReveal()\r\n    local data = state.reveal\r\n    --Sets up reference function\r\n    local funcName = \"reveal\"..1\r\n    local func = function() click_reveal() end\r\n    self.setVar(funcName, func)\r\n    \r\n    --Creates button and counts it\r\n    self.createButton({\r\n        label=data.label, click_function=funcName, function_owner=self,\r\n        position=data.pos, height=data.size, width=data.size*3,\r\n        font_size=data.size, scale=buttonScale,\r\n        color=buttonColor, font_color=buttonFontColor\r\n    })\r\nend\r\n\r\nfunction click_reveal()\r\n    local score = 0\r\n\r\n    if state.checkbox[1].state == true then score = score+1 end\r\n    if state.checkbox[2].state == true then score = score+1 end\r\n\r\n    cloneCardFromDeck(state.currentscheme, revealTag)\r\n\r\n    if(state.textbox.value != \"\") then \r\n        broadcastToAll(\"Hidden Info: \"..state.textbox.value, {31,136,255,255})\r\n    end\r\n\r\n    updateScore(score)\r\n    updateSave()\r\nend\r\n\r\nfunction click_textbox(value, selected)\r\n    if selected == false then\r\n        state.textbox.value = value\r\n        updateSave()\r\n    end\r\nend\r\n\r\nfunction click_checkbox(tableIndex, buttonIndex)\r\n    if state.checkbox[tableIndex].state == true then\r\n        state.checkbox[tableIndex].state = false\r\n        self.editButton({index=buttonIndex, label=\"\"})\r\n    else\r\n        state.checkbox[tableIndex].state = true\r\n        self.editButton({index=buttonIndex, label=string.char(10008)})\r\n    end\r\n    updateSave()\r\nend\r\n\r\nfunction set_startingschemes(schemes)\r\n    state.currentoptions = schemes[1]\r\n    for i, scheme in ipairs(state.currentoptions) do\r\n        cloneCardFromDeck(scheme, optionTag..i)\r\n    end\r\n\r\nend\r\n\r\nfunction click_scheme(buttonIndex)\r\n    \r\n    --log(\"Button: \"..buttonIndex)\r\n    --log(state.currentoptions)\r\n    local new_scheme = state.currentoptions[buttonIndex]\r\n\r\n    --log(\"Card: \"..new_scheme)\r\n\r\n    cloneCardFromDeck(new_scheme, \"current_\"..thisColor)\r\n\r\n    state.currentoptions = state.schemes[new_scheme]\r\n\r\n    for i, scheme in ipairs(state.currentoptions) do\r\n        cloneCardFromDeck(scheme, optionTag..i)\r\n    end\r\n\r\n    state.currentscheme = new_scheme\r\n\r\n    updateSave()\r\nend\r\n\r\n\r\nfunction updateScore(value)\r\n\r\n    for i=1,value,1 do tracker.call(\"add_subtract\", {obj, thisColor, false}) end\r\n\r\nend\r\n\r\nfunction cloneCardFromDeck(cardName, tag)\r\n    \r\n    local cards = myDeck.getObjects()\r\n    local target = tablet\r\n    \r\n    if tag == revealTag then target = reveal end\r\n\r\n    local snapPoints = target.getSnapPoints()\r\n    local current_snap = findSnapPointByTag(snapPoints, tag)\r\n\r\n    for _, card in ipairs(cards) do\r\n        if card.name == cardName then\r\n            \r\n            local params = {\r\n                index = card.index,\r\n                position = getWorldPositionFromSnap(target, current_snap.position),\r\n                smooth = false,\r\n                callback_function = function(pulledCard)\r\n                    if pulledCard then\r\n                        local cloneParams = {\r\n                            position = pulledCard.getPosition() + Vector(0, 2, 0),\r\n                            rotation = pulledCard.getRotation()\r\n                        }\r\n                        local clone = pulledCard.clone(cloneParams)\r\n                        myDeck.putObject(pulledCard)\r\n                    else\r\n                        print(\"Error: Failed to pull card.\")\r\n                    end\r\n                end\r\n            }\r\n            myDeck.takeObject(params)\r\n            return\r\n        end\r\n    end\r\n    print(\"Card \"..cardName..\" not found in deck!\")\r\nend\r\n\r\nfunction findSnapPointByTag(snapPoints, tag)\r\n    for _, snap in ipairs(snapPoints) do\r\n        if snap.tags then\r\n            for _, snapTag in ipairs(snap.tags) do\r\n                if snapTag == tag then\r\n                    return snap\r\n                end\r\n            end\r\n        end\r\n    end\r\n    return nil\r\nend\r\n\r\nfunction getWorldPositionFromSnap(snapObject, snapPoint)\r\n    local worldPos = snapObject.positionToWorld(snapPoint)\r\n    return worldPos\r\nend\nend)\nreturn __bundle_require(\"Blue Scheme Manager.b1938a.lua\")",
+      "LuaScript": "-- Bundled by luabundle {\"rootModuleName\":\"Blue Scheme Manager.b1938a.lua\",\"version\":\"1.6.0\"}\nlocal __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)\n\tlocal loadingPlaceholder = {[{}] = true}\n\n\tlocal register\n\tlocal modules = {}\n\n\tlocal require\n\tlocal loaded = {}\n\n\tregister = function(name, body)\n\t\tif not modules[name] then\n\t\t\tmodules[name] = body\n\t\tend\n\tend\n\n\trequire = function(name)\n\t\tlocal loadedModule = loaded[name]\n\n\t\tif loadedModule then\n\t\t\tif loadedModule == loadingPlaceholder then\n\t\t\t\treturn nil\n\t\t\tend\n\t\telse\n\t\t\tif not modules[name] then\n\t\t\t\tif not superRequire then\n\t\t\t\t\tlocal identifier = type(name) == 'string' and '\\\"' .. name .. '\\\"' or tostring(name)\n\t\t\t\t\terror('Tried to require ' .. identifier .. ', but no such module has been registered')\n\t\t\t\telse\n\t\t\t\t\treturn superRequire(name)\n\t\t\t\tend\n\t\t\tend\n\n\t\t\tloaded[name] = loadingPlaceholder\n\t\t\tloadedModule = modules[name](require, loaded, register, modules)\n\t\t\tloaded[name] = loadedModule\n\t\tend\n\n\t\treturn loadedModule\n\tend\n\n\treturn require, loaded, register, modules\nend)(nil)\n__bundle_register(\"Blue Scheme Manager.b1938a.lua\", function(require, _LOADED, __bundle_register, __bundle_modules)\n--require(\"baseMod/SchemeManager/BlueSchemeManager\")\r\nrequire(\"baseMod/SchemeManager/SchemeManager\")\nend)\n__bundle_register(\"baseMod/SchemeManager/SchemeManager\", function(require, _LOADED, __bundle_register, __bundle_modules)\nschemes = {\"Assassinate\",\"Breakthrough\",\"ScouttheRooftops\",\"Ensnare\",\"DetonateCharges\",\r\n\"FrameJob\",\"TaketheHighground\",\"SearchtheArea\",\"GraveRobbing\",\"HarnesstheLeyLine\",\r\n\"RunicBinding\",\"MakeitLookLikeAnAccident\",\"PublicDemonstration\",\"LeaveYourMark\",\"ReshapeTheLand\"}\r\n\r\n--Color information for button text (r,g,b, values of 0-1)\r\nbuttonFontColor = {0,0,0}\r\n--Color information for button background\r\nbuttonColor = {1,1,1}\r\n--Change scale of button (Avoid changing if possible)\r\nbuttonScale = {0.1,0.1,0.1}\r\n\r\ndisableSave = false\r\nlocal objLib={\r\n    blueSchemeDeck=\"0e2d1d\",\r\n    blueSchemeManager=\"b1938a\",\r\n    blueSchemePanel=\"420546\",\r\n    blueSchemeReveal=\"61fe0d\",\r\n    blueSchemeTracker=\"a1873a\",\r\n    blueOptionsTag=\"b_option\",\r\n    blueRevealTag=\"b_reveal\",\r\n    redSchemeDeck=\"45bdbf\",\r\n    redSchemeManager=\"47995f\",\r\n    redSchemePanel=\"725c42\",\r\n    redSchemeReveal=\"e2578a\",\r\n    redSchemeTracker=\"a687eb\",\r\n    redOptionsTag=\"r_option\",\r\n    redRevealTag=\"r_reveal\",\r\n}\r\nlocal defaultstate = {\r\n    schemes={Assassinate={\"ScouttheRooftops\",\"DetonateCharges\",\"RunicBinding\"},\r\n            Breakthrough={\"Assassinate\",\"PublicDemonstration\",\"FrameJob\"},\r\n            ScouttheRooftops={\"DetonateCharges\",\"GraveRobbing\",\"LeaveYourMark\"},\r\n            Ensnare={\"ReshapeTheLand\",\"SearchtheArea\",\"FrameJob\"},\r\n            DetonateCharges={\"GraveRobbing\",\"RunicBinding\",\"TaketheHighground\"},        \r\n            FrameJob={\"PublicDemonstration\",\"HarnesstheLeyLine\",\"ScouttheRooftops\"},            \r\n            TaketheHighground={\"MakeitLookLikeAnAccident\",\"Ensnare\",\"SearchtheArea\"},            \r\n            SearchtheArea={\"Breakthrough\",\"FrameJob\",\"HarnesstheLeyLine\"},            \r\n            GraveRobbing={\"RunicBinding\",\"LeaveYourMark\",\"MakeitLookLikeAnAccident\"},\r\n            HarnesstheLeyLine={\"Assassinate\",\"ScouttheRooftops\",\"GraveRobbing\"},\r\n            RunicBinding={\"LeaveYourMark\",\"TaketheHighground\",\"Ensnare\"},\r\n            MakeitLookLikeAnAccident={\"Ensnare\",\"ReshapeTheLand\",\"Breakthrough\"},\r\n            PublicDemonstration={\"HarnesstheLeyLine\",\"Assassinate\",\"DetonateCharges\"},\r\n            LeaveYourMark={\"TaketheHighground\",\"MakeitLookLikeAnAccident\",\"ReshapeTheLand\"},\r\n            ReshapeTheLand={\"SearchtheArea\",\"Breakthrough\",\"PublicDemonstration\"},\r\n        },\r\n    currentscheme= \"\",\r\n    currentoptions= {},\r\n    startingschemes= {},\r\n    buttons={\r\n            {\r\n                pos = {-1,0.1,-0.9},\r\n                size = 1500,\r\n                label = \"Option 1\"\r\n            },\r\n            {\r\n                pos = {-1,0.1,-0.4},\r\n                size = 1500,\r\n                label = \"Option 2\"\r\n            },\r\n            {\r\n                pos = {-1,0.1,0.1},\r\n                size = 1500,\r\n                label = \"Option 3\"\r\n            }\r\n        },\r\n    checkbox={\r\n            {\r\n                pos = {1.5,0.1,-0.85},\r\n                size = 1000,\r\n                state = false\r\n            },\r\n            {\r\n                pos = {1.5,0.1,-0.3},\r\n                size = 1000,\r\n                state = false\r\n            }\r\n        },\r\n    textbox={\r\n            pos       = {0,0.1,0.75},\r\n            width     = 1100,\r\n            height    = 200,\r\n            font_size = 120,\r\n            alignment = 3,\r\n            label     = \"Hidden Information\",\r\n            value     = \"\",\r\n            color     = {1,1,1,0},\r\n            font_color = {0,0,0,255}\r\n        },\r\n    reveal={\r\n            pos = {1,0.1,0.1},\r\n            size = 1500,\r\n            label = \"Reveal\"\r\n        }\r\n    \r\n}\r\n\r\nlocal myDeck\r\nlocal tracker\r\nlocal tablet\r\nlocal reveal\r\nlocal optionTag\r\nlocal revealTag\r\nlocal thisColor\r\n--Save function\r\nfunction updateSave()\r\n    saved_data = JSON.encode(state)\r\n    if disableSave==true then saved_data=\"\" end\r\n    self.script_state = saved_data\r\nend\r\n\r\n--Startup procedure\r\nfunction onload(saved_data)\r\n    local selfName=self.getName()\r\n    if disableSave==true then saved_data=\"\" end\r\n    if saved_data ~= \"\" then\r\n        local loaded_data = JSON.decode(saved_data)\r\n        state = loaded_data\r\n    else\r\n        state = defaultstate\r\n    end\r\n\r\n    spawnedButtonCount = 0\r\n    if string.find(selfName, \"Red\") then\r\n        myDeck = getObjectFromGUID(objLib.redSchemeDeck)\r\n        tracker = getObjectFromGUID(objLib.redSchemeTracker)\r\n        tablet = getObjectFromGUID(objLib.redSchemePanel)\r\n        reveal = getObjectFromGUID(objLib.redSchemeReveal)\r\n        optionTag=objLib.redOptionsTag\r\n        revealTag=objLib.redRevealTag\r\n        thisColor=\"red\"\r\n    elseif string.find(selfName, \"Blue\") then\r\n        myDeck = getObjectFromGUID(objLib.blueSchemeDeck)\r\n        tracker = getObjectFromGUID(objLib.blueSchemeTracker)\r\n        tablet = getObjectFromGUID(objLib.blueSchemePanel)\r\n        reveal = getObjectFromGUID(objLib.blueSchemeReveal)\r\n        optionTag=objLib.blueOptionsTag\r\n        revealTag=objLib.blueRevealTag\r\n        thisColor=\"blue\"\r\n    end\r\n    createButtons()\r\n    createCheckbox()\r\n    createTextbox()\r\n    createReveal()\r\nend\r\n\r\nfunction createButtons()\r\n    for i, data in ipairs(state.buttons) do\r\n        --Sets up reference function\r\n        local buttonNumber = spawnedButtonCount\r\n        local funcName = \"scheme\"..i\r\n        local func = function() click_scheme(i) end\r\n        self.setVar(funcName, func)\r\n        \r\n        --Creates button and counts it\r\n        self.createButton({\r\n            label=data.label, click_function=funcName, function_owner=self,\r\n            position=data.pos, height=data.size, width=data.size*3,\r\n            font_size=data.size, scale=buttonScale,\r\n            color=buttonColor, font_color=buttonFontColor\r\n        })\r\n        spawnedButtonCount = spawnedButtonCount + 1\r\n    end\r\nend\r\n\r\nfunction createCheckbox()\r\n    for i, data in ipairs(state.checkbox) do\r\n        --Sets up reference function\r\n        local buttonNumber = spawnedButtonCount\r\n        local funcName = \"checkbox\"..i\r\n        local func = function() click_checkbox(i, buttonNumber) end\r\n        self.setVar(funcName, func)\r\n        --Sets up label\r\n        local label = \"\"\r\n        if data.state==true then label=string.char(10008) end\r\n        --Creates button and counts it\r\n        self.createButton({\r\n            label=label, click_function=funcName, function_owner=self,\r\n            position=data.pos, height=data.size, width=data.size,\r\n            font_size=data.size, scale=buttonScale,\r\n            color=buttonColor, font_color=buttonFontColor\r\n        })\r\n        spawnedButtonCount = spawnedButtonCount + 1\r\n    end\r\nend\r\n\r\nfunction createTextbox()\r\n    data = state.textbox\r\n    --Sets up reference function\r\n    local funcName = \"textbox\"..1\r\n    local func = function(_,_,val,sel) click_textbox(val,sel) end\r\n    self.setVar(funcName, func)\r\n\r\n    self.createInput({\r\n        input_function = funcName,\r\n        function_owner = self,\r\n        alignment      = data.alignment,\r\n        label          = data.label,\r\n        position       = data.pos,\r\n        width          = data.width,\r\n        height         = data.height,\r\n        font_size      = data.font_size,\r\n        font_color     = data.font_color,\r\n        color          = data.color,  \r\n        value          = data.value,\r\n    })\r\nend\r\n\r\nfunction createReveal()\r\n    local data = state.reveal\r\n    --Sets up reference function\r\n    local funcName = \"reveal\"..1\r\n    local func = function() click_reveal() end\r\n    self.setVar(funcName, func)\r\n    \r\n    --Creates button and counts it\r\n    self.createButton({\r\n        label=data.label, click_function=funcName, function_owner=self,\r\n        position=data.pos, height=data.size, width=data.size*3,\r\n        font_size=data.size, scale=buttonScale,\r\n        color=buttonColor, font_color=buttonFontColor\r\n    })\r\nend\r\n\r\nfunction click_reveal()\r\n    local score = 0\r\n\r\n    if state.checkbox[1].state == true then score = score+1 end\r\n    if state.checkbox[2].state == true then score = score+1 end\r\n\r\n    cloneCardFromDeck(state.currentscheme, revealTag)\r\n\r\n    if(state.textbox.value != \"\") then \r\n        broadcastToAll(\"Hidden Info: \"..state.textbox.value, {31,136,255,255})\r\n    end\r\n\r\n    updateScore(score)\r\n    updateSave()\r\nend\r\n\r\nfunction click_textbox(value, selected)\r\n    if selected == false then\r\n        state.textbox.value = value\r\n        updateSave()\r\n    end\r\nend\r\n\r\nfunction click_checkbox(tableIndex, buttonIndex)\r\n    if state.checkbox[tableIndex].state == true then\r\n        state.checkbox[tableIndex].state = false\r\n        self.editButton({index=buttonIndex, label=\"\"})\r\n    else\r\n        state.checkbox[tableIndex].state = true\r\n        self.editButton({index=buttonIndex, label=string.char(10008)})\r\n    end\r\n    updateSave()\r\nend\r\n\r\nfunction set_startingschemes(schemes)\r\n    state.currentoptions = schemes[1]\r\n    for i, scheme in ipairs(state.currentoptions) do\r\n        cloneCardFromDeck(scheme, optionTag..i)\r\n    end\r\n\r\nend\r\n\r\nfunction click_scheme(buttonIndex)\r\n    \r\n    --log(\"Button: \"..buttonIndex)\r\n    --log(state.currentoptions)\r\n    local new_scheme = state.currentoptions[buttonIndex]\r\n\r\n    --log(\"Card: \"..new_scheme)\r\n\r\n    cloneCardFromDeck(new_scheme, \"current_\"..thisColor)\r\n\r\n    state.currentoptions = state.schemes[new_scheme]\r\n\r\n    for i, scheme in ipairs(state.currentoptions) do\r\n        cloneCardFromDeck(scheme, optionTag..i)\r\n    end\r\n\r\n    state.currentscheme = new_scheme\r\n\r\n    updateSave()\r\nend\r\n\r\n\r\nfunction updateScore(value)\r\n\r\n    for i=1,value,1 do tracker.call(\"add_subtract\", {obj, thisColor, false}) end\r\n\r\nend\r\n\r\nfunction cloneCardFromDeck(cardName, tag)\r\n    \r\n    local cards = myDeck.getObjects()\r\n    local target = tablet\r\n    \r\n    if tag == revealTag then target = reveal end\r\n\r\n    local snapPoints = target.getSnapPoints()\r\n    local current_snap = findSnapPointByTag(snapPoints, tag)\r\n\r\n    for _, card in ipairs(cards) do\r\n        if card.name == cardName then\r\n            \r\n            local params = {\r\n                index = card.index,\r\n                position = getWorldPositionFromSnap(target, current_snap.position),\r\n                smooth = false,\r\n                callback_function = function(pulledCard)\r\n                    if pulledCard then\r\n                        local cloneParams = {\r\n                            position = pulledCard.getPosition() + Vector(0, 2, 0),\r\n                            rotation = pulledCard.getRotation()\r\n                        }\r\n                        local clone = pulledCard.clone(cloneParams)\r\n                        myDeck.putObject(pulledCard)\r\n                    else\r\n                        print(\"Error: Failed to pull card.\")\r\n                    end\r\n                end\r\n            }\r\n            myDeck.takeObject(params)\r\n            return\r\n        end\r\n    end\r\n    print(\"Card \"..cardName..\" not found in deck!\")\r\nend\r\n\r\nfunction findSnapPointByTag(snapPoints, tag)\r\n    for _, snap in ipairs(snapPoints) do\r\n        if snap.tags then\r\n            for _, snapTag in ipairs(snap.tags) do\r\n                if snapTag == tag then\r\n                    return snap\r\n                end\r\n            end\r\n        end\r\n    end\r\n    return nil\r\nend\r\n\r\nfunction getWorldPositionFromSnap(snapObject, snapPoint)\r\n    local worldPos = snapObject.positionToWorld(snapPoint)\r\n    return worldPos\r\nend\nend)\nreturn __bundle_require(\"Blue Scheme Manager.b1938a.lua\")",
       "LuaScriptState": ""
     },
     {
@@ -36941,7 +36941,7 @@
           "Stackable": false
         }
       },
-      "LuaScript": "-- Bundled by luabundle {\"rootModuleName\":\"Red Scheme Manager.47995f.lua\",\"version\":\"1.6.0\"}\nlocal __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)\n\tlocal loadingPlaceholder = {[{}] = true}\n\n\tlocal register\n\tlocal modules = {}\n\n\tlocal require\n\tlocal loaded = {}\n\n\tregister = function(name, body)\n\t\tif not modules[name] then\n\t\t\tmodules[name] = body\n\t\tend\n\tend\n\n\trequire = function(name)\n\t\tlocal loadedModule = loaded[name]\n\n\t\tif loadedModule then\n\t\t\tif loadedModule == loadingPlaceholder then\n\t\t\t\treturn nil\n\t\t\tend\n\t\telse\n\t\t\tif not modules[name] then\n\t\t\t\tif not superRequire then\n\t\t\t\t\tlocal identifier = type(name) == 'string' and '\\\"' .. name .. '\\\"' or tostring(name)\n\t\t\t\t\terror('Tried to require ' .. identifier .. ', but no such module has been registered')\n\t\t\t\telse\n\t\t\t\t\treturn superRequire(name)\n\t\t\t\tend\n\t\t\tend\n\n\t\t\tloaded[name] = loadingPlaceholder\n\t\t\tloadedModule = modules[name](require, loaded, register, modules)\n\t\t\tloaded[name] = loadedModule\n\t\tend\n\n\t\treturn loadedModule\n\tend\n\n\treturn require, loaded, register, modules\nend)(nil)\n__bundle_register(\"Red Scheme Manager.47995f.lua\", function(require, _LOADED, __bundle_register, __bundle_modules)\n--require(\"baseMod/SchemeManager/RedSchemeManager\")\r\nrequire(\"baseMod/SchemeManager/SchemeManager\")\nend)\n__bundle_register(\"baseMod/SchemeManager/SchemeManager\", function(require, _LOADED, __bundle_register, __bundle_modules)\nschemes = {\"Assassinate\",\"Breakthrough\",\"ScouttheRooftops\",\"Ensnare\",\"DetonateCharges\",\r\n\"FrameJob\",\"TaketheHighground\",\"SearchtheArea\",\"LighttheBeacons\",\"HarnesstheLeyLine\",\r\n\"RunicBinding\",\"MakeitLookLikeAnAccident\",\"PublicDemonstration\",\"LeaveYourMark\",\"ReshapeTheLand\"}\r\n\r\n--Color information for button text (r,g,b, values of 0-1)\r\nbuttonFontColor = {0,0,0}\r\n--Color information for button background\r\nbuttonColor = {1,1,1}\r\n--Change scale of button (Avoid changing if possible)\r\nbuttonScale = {0.1,0.1,0.1}\r\n\r\ndisableSave = false\r\nlocal objLib={\r\n    blueSchemeDeck=\"0e2d1d\",\r\n    blueSchemeManager=\"b1938a\",\r\n    blueSchemePanel=\"420546\",\r\n    blueSchemeReveal=\"61fe0d\",\r\n    blueSchemeTracker=\"a1873a\",\r\n    blueOptionsTag=\"b_option\",\r\n    blueRevealTag=\"b_reveal\",\r\n    redSchemeDeck=\"45bdbf\",\r\n    redSchemeManager=\"47995f\",\r\n    redSchemePanel=\"725c42\",\r\n    redSchemeReveal=\"e2578a\",\r\n    redSchemeTracker=\"a687eb\",\r\n    redOptionsTag=\"r_option\",\r\n    redRevealTag=\"r_reveal\",\r\n}\r\nlocal defaultstate = {\r\n    schemes={Assassinate={\"ScouttheRooftops\",\"DetonateCharges\",\"RunicBinding\"},\r\n            Breakthrough={\"Assassinate\",\"PublicDemonstration\",\"FrameJob\"},\r\n            ScouttheRooftops={\"DetonateCharges\",\"LighttheBeacons\",\"LeaveYourMark\"},\r\n            Ensnare={\"ReshapeTheLand\",\"SearchtheArea\",\"FrameJob\"},\r\n            DetonateCharges={\"LighttheBeacons\",\"RunicBinding\",\"TaketheHighground\"},        \r\n            FrameJob={\"PublicDemonstration\",\"HarnesstheLeyLine\",\"ScouttheRooftops\"},            \r\n            TaketheHighground={\"MakeitLookLikeAnAccident\",\"Ensnare\",\"SearchtheArea\"},            \r\n            SearchtheArea={\"Breakthrough\",\"FrameJob\",\"HarnesstheLeyLine\"},            \r\n            LighttheBeacons={\"RunicBinding\",\"LeaveYourMark\",\"MakeitLookLikeAnAccident\"},\r\n            HarnesstheLeyLine={\"Assassinate\",\"ScouttheRooftops\",\"LighttheBeacons\"},\r\n            RunicBinding={\"LeaveYourMark\",\"TaketheHighground\",\"Ensnare\"},\r\n            MakeitLookLikeAnAccident={\"Ensnare\",\"ReshapeTheLand\",\"Breakthrough\"},\r\n            PublicDemonstration={\"HarnesstheLeyLine\",\"Assassinate\",\"DetonateCharges\"},\r\n            LeaveYourMark={\"TaketheHighground\",\"MakeitLookLikeAnAccident\",\"ReshapeTheLand\"},\r\n            ReshapeTheLand={\"SearchtheArea\",\"Breakthrough\",\"PublicDemonstration\"},\r\n        },\r\n    currentscheme= \"\",\r\n    currentoptions= {},\r\n    startingschemes= {},\r\n    buttons={\r\n            {\r\n                pos = {-1,0.1,-0.9},\r\n                size = 1500,\r\n                label = \"Option 1\"\r\n            },\r\n            {\r\n                pos = {-1,0.1,-0.4},\r\n                size = 1500,\r\n                label = \"Option 2\"\r\n            },\r\n            {\r\n                pos = {-1,0.1,0.1},\r\n                size = 1500,\r\n                label = \"Option 3\"\r\n            }\r\n        },\r\n    checkbox={\r\n            {\r\n                pos = {1.5,0.1,-0.85},\r\n                size = 1000,\r\n                state = false\r\n            },\r\n            {\r\n                pos = {1.5,0.1,-0.3},\r\n                size = 1000,\r\n                state = false\r\n            }\r\n        },\r\n    textbox={\r\n            pos       = {0,0.1,0.75},\r\n            width     = 1100,\r\n            height    = 200,\r\n            font_size = 120,\r\n            alignment = 3,\r\n            label     = \"Hidden Information\",\r\n            value     = \"\",\r\n            color     = {1,1,1,0},\r\n            font_color = {0,0,0,255}\r\n        },\r\n    reveal={\r\n            pos = {1,0.1,0.1},\r\n            size = 1500,\r\n            label = \"Reveal\"\r\n        }\r\n    \r\n}\r\n\r\nlocal myDeck\r\nlocal tracker\r\nlocal tablet\r\nlocal reveal\r\nlocal optionTag\r\nlocal revealTag\r\nlocal thisColor\r\n--Save function\r\nfunction updateSave()\r\n    saved_data = JSON.encode(state)\r\n    if disableSave==true then saved_data=\"\" end\r\n    self.script_state = saved_data\r\nend\r\n\r\n--Startup procedure\r\nfunction onload(saved_data)\r\n    local selfName=self.getName()\r\n    if disableSave==true then saved_data=\"\" end\r\n    if saved_data ~= \"\" then\r\n        local loaded_data = JSON.decode(saved_data)\r\n        state = loaded_data\r\n    else\r\n        state = defaultstate\r\n    end\r\n\r\n    spawnedButtonCount = 0\r\n    if string.find(selfName, \"Red\") then\r\n        myDeck = getObjectFromGUID(objLib.redSchemeDeck)\r\n        tracker = getObjectFromGUID(objLib.redSchemeTracker)\r\n        tablet = getObjectFromGUID(objLib.redSchemePanel)\r\n        reveal = getObjectFromGUID(objLib.redSchemeReveal)\r\n        optionTag=objLib.redOptionsTag\r\n        revealTag=objLib.redRevealTag\r\n        thisColor=\"red\"\r\n    elseif string.find(selfName, \"Blue\") then\r\n        myDeck = getObjectFromGUID(objLib.blueSchemeDeck)\r\n        tracker = getObjectFromGUID(objLib.blueSchemeTracker)\r\n        tablet = getObjectFromGUID(objLib.blueSchemePanel)\r\n        reveal = getObjectFromGUID(objLib.blueSchemeReveal)\r\n        optionTag=objLib.blueOptionsTag\r\n        revealTag=objLib.blueRevealTag\r\n        thisColor=\"blue\"\r\n    end\r\n    createButtons()\r\n    createCheckbox()\r\n    createTextbox()\r\n    createReveal()\r\nend\r\n\r\nfunction createButtons()\r\n    for i, data in ipairs(state.buttons) do\r\n        --Sets up reference function\r\n        local buttonNumber = spawnedButtonCount\r\n        local funcName = \"scheme\"..i\r\n        local func = function() click_scheme(i) end\r\n        self.setVar(funcName, func)\r\n        \r\n        --Creates button and counts it\r\n        self.createButton({\r\n            label=data.label, click_function=funcName, function_owner=self,\r\n            position=data.pos, height=data.size, width=data.size*3,\r\n            font_size=data.size, scale=buttonScale,\r\n            color=buttonColor, font_color=buttonFontColor\r\n        })\r\n        spawnedButtonCount = spawnedButtonCount + 1\r\n    end\r\nend\r\n\r\nfunction createCheckbox()\r\n    for i, data in ipairs(state.checkbox) do\r\n        --Sets up reference function\r\n        local buttonNumber = spawnedButtonCount\r\n        local funcName = \"checkbox\"..i\r\n        local func = function() click_checkbox(i, buttonNumber) end\r\n        self.setVar(funcName, func)\r\n        --Sets up label\r\n        local label = \"\"\r\n        if data.state==true then label=string.char(10008) end\r\n        --Creates button and counts it\r\n        self.createButton({\r\n            label=label, click_function=funcName, function_owner=self,\r\n            position=data.pos, height=data.size, width=data.size,\r\n            font_size=data.size, scale=buttonScale,\r\n            color=buttonColor, font_color=buttonFontColor\r\n        })\r\n        spawnedButtonCount = spawnedButtonCount + 1\r\n    end\r\nend\r\n\r\nfunction createTextbox()\r\n    data = state.textbox\r\n    --Sets up reference function\r\n    local funcName = \"textbox\"..1\r\n    local func = function(_,_,val,sel) click_textbox(val,sel) end\r\n    self.setVar(funcName, func)\r\n\r\n    self.createInput({\r\n        input_function = funcName,\r\n        function_owner = self,\r\n        alignment      = data.alignment,\r\n        label          = data.label,\r\n        position       = data.pos,\r\n        width          = data.width,\r\n        height         = data.height,\r\n        font_size      = data.font_size,\r\n        font_color     = data.font_color,\r\n        color          = data.color,  \r\n        value          = data.value,\r\n    })\r\nend\r\n\r\nfunction createReveal()\r\n    local data = state.reveal\r\n    --Sets up reference function\r\n    local funcName = \"reveal\"..1\r\n    local func = function() click_reveal() end\r\n    self.setVar(funcName, func)\r\n    \r\n    --Creates button and counts it\r\n    self.createButton({\r\n        label=data.label, click_function=funcName, function_owner=self,\r\n        position=data.pos, height=data.size, width=data.size*3,\r\n        font_size=data.size, scale=buttonScale,\r\n        color=buttonColor, font_color=buttonFontColor\r\n    })\r\nend\r\n\r\nfunction click_reveal()\r\n    local score = 0\r\n\r\n    if state.checkbox[1].state == true then score = score+1 end\r\n    if state.checkbox[2].state == true then score = score+1 end\r\n\r\n    cloneCardFromDeck(state.currentscheme, revealTag)\r\n\r\n    if(state.textbox.value != \"\") then \r\n        broadcastToAll(\"Hidden Info: \"..state.textbox.value, {31,136,255,255})\r\n    end\r\n\r\n    updateScore(score)\r\n    updateSave()\r\nend\r\n\r\nfunction click_textbox(value, selected)\r\n    if selected == false then\r\n        state.textbox.value = value\r\n        updateSave()\r\n    end\r\nend\r\n\r\nfunction click_checkbox(tableIndex, buttonIndex)\r\n    if state.checkbox[tableIndex].state == true then\r\n        state.checkbox[tableIndex].state = false\r\n        self.editButton({index=buttonIndex, label=\"\"})\r\n    else\r\n        state.checkbox[tableIndex].state = true\r\n        self.editButton({index=buttonIndex, label=string.char(10008)})\r\n    end\r\n    updateSave()\r\nend\r\n\r\nfunction set_startingschemes(schemes)\r\n    state.currentoptions = schemes[1]\r\n    for i, scheme in ipairs(state.currentoptions) do\r\n        cloneCardFromDeck(scheme, optionTag..i)\r\n    end\r\n\r\nend\r\n\r\nfunction click_scheme(buttonIndex)\r\n    \r\n    --log(\"Button: \"..buttonIndex)\r\n    --log(state.currentoptions)\r\n    local new_scheme = state.currentoptions[buttonIndex]\r\n\r\n    --log(\"Card: \"..new_scheme)\r\n\r\n    cloneCardFromDeck(new_scheme, \"current_\"..thisColor)\r\n\r\n    state.currentoptions = state.schemes[new_scheme]\r\n\r\n    for i, scheme in ipairs(state.currentoptions) do\r\n        cloneCardFromDeck(scheme, optionTag..i)\r\n    end\r\n\r\n    state.currentscheme = new_scheme\r\n\r\n    updateSave()\r\nend\r\n\r\n\r\nfunction updateScore(value)\r\n\r\n    for i=1,value,1 do tracker.call(\"add_subtract\", {obj, thisColor, false}) end\r\n\r\nend\r\n\r\nfunction cloneCardFromDeck(cardName, tag)\r\n    \r\n    local cards = myDeck.getObjects()\r\n    local target = tablet\r\n    \r\n    if tag == revealTag then target = reveal end\r\n\r\n    local snapPoints = target.getSnapPoints()\r\n    local current_snap = findSnapPointByTag(snapPoints, tag)\r\n\r\n    for _, card in ipairs(cards) do\r\n        if card.name == cardName then\r\n            \r\n            local params = {\r\n                index = card.index,\r\n                position = getWorldPositionFromSnap(target, current_snap.position),\r\n                smooth = false,\r\n                callback_function = function(pulledCard)\r\n                    if pulledCard then\r\n                        local cloneParams = {\r\n                            position = pulledCard.getPosition() + Vector(0, 2, 0),\r\n                            rotation = pulledCard.getRotation()\r\n                        }\r\n                        local clone = pulledCard.clone(cloneParams)\r\n                        myDeck.putObject(pulledCard)\r\n                    else\r\n                        print(\"Error: Failed to pull card.\")\r\n                    end\r\n                end\r\n            }\r\n            myDeck.takeObject(params)\r\n            return\r\n        end\r\n    end\r\n    print(\"Card \"..cardName..\" not found in deck!\")\r\nend\r\n\r\nfunction findSnapPointByTag(snapPoints, tag)\r\n    for _, snap in ipairs(snapPoints) do\r\n        if snap.tags then\r\n            for _, snapTag in ipairs(snap.tags) do\r\n                if snapTag == tag then\r\n                    return snap\r\n                end\r\n            end\r\n        end\r\n    end\r\n    return nil\r\nend\r\n\r\nfunction getWorldPositionFromSnap(snapObject, snapPoint)\r\n    local worldPos = snapObject.positionToWorld(snapPoint)\r\n    return worldPos\r\nend\nend)\nreturn __bundle_require(\"Red Scheme Manager.47995f.lua\")",
+      "LuaScript": "-- Bundled by luabundle {\"rootModuleName\":\"Red Scheme Manager.47995f.lua\",\"version\":\"1.6.0\"}\nlocal __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)\n\tlocal loadingPlaceholder = {[{}] = true}\n\n\tlocal register\n\tlocal modules = {}\n\n\tlocal require\n\tlocal loaded = {}\n\n\tregister = function(name, body)\n\t\tif not modules[name] then\n\t\t\tmodules[name] = body\n\t\tend\n\tend\n\n\trequire = function(name)\n\t\tlocal loadedModule = loaded[name]\n\n\t\tif loadedModule then\n\t\t\tif loadedModule == loadingPlaceholder then\n\t\t\t\treturn nil\n\t\t\tend\n\t\telse\n\t\t\tif not modules[name] then\n\t\t\t\tif not superRequire then\n\t\t\t\t\tlocal identifier = type(name) == 'string' and '\\\"' .. name .. '\\\"' or tostring(name)\n\t\t\t\t\terror('Tried to require ' .. identifier .. ', but no such module has been registered')\n\t\t\t\telse\n\t\t\t\t\treturn superRequire(name)\n\t\t\t\tend\n\t\t\tend\n\n\t\t\tloaded[name] = loadingPlaceholder\n\t\t\tloadedModule = modules[name](require, loaded, register, modules)\n\t\t\tloaded[name] = loadedModule\n\t\tend\n\n\t\treturn loadedModule\n\tend\n\n\treturn require, loaded, register, modules\nend)(nil)\n__bundle_register(\"Red Scheme Manager.47995f.lua\", function(require, _LOADED, __bundle_register, __bundle_modules)\n--require(\"baseMod/SchemeManager/RedSchemeManager\")\r\nrequire(\"baseMod/SchemeManager/SchemeManager\")\nend)\n__bundle_register(\"baseMod/SchemeManager/SchemeManager\", function(require, _LOADED, __bundle_register, __bundle_modules)\nschemes = {\"Assassinate\",\"Breakthrough\",\"ScouttheRooftops\",\"Ensnare\",\"DetonateCharges\",\r\n\"FrameJob\",\"TaketheHighground\",\"SearchtheArea\",\"GraveRobbing\",\"HarnesstheLeyLine\",\r\n\"RunicBinding\",\"MakeitLookLikeAnAccident\",\"PublicDemonstration\",\"LeaveYourMark\",\"ReshapeTheLand\"}\r\n\r\n--Color information for button text (r,g,b, values of 0-1)\r\nbuttonFontColor = {0,0,0}\r\n--Color information for button background\r\nbuttonColor = {1,1,1}\r\n--Change scale of button (Avoid changing if possible)\r\nbuttonScale = {0.1,0.1,0.1}\r\n\r\ndisableSave = false\r\nlocal objLib={\r\n    blueSchemeDeck=\"0e2d1d\",\r\n    blueSchemeManager=\"b1938a\",\r\n    blueSchemePanel=\"420546\",\r\n    blueSchemeReveal=\"61fe0d\",\r\n    blueSchemeTracker=\"a1873a\",\r\n    blueOptionsTag=\"b_option\",\r\n    blueRevealTag=\"b_reveal\",\r\n    redSchemeDeck=\"45bdbf\",\r\n    redSchemeManager=\"47995f\",\r\n    redSchemePanel=\"725c42\",\r\n    redSchemeReveal=\"e2578a\",\r\n    redSchemeTracker=\"a687eb\",\r\n    redOptionsTag=\"r_option\",\r\n    redRevealTag=\"r_reveal\",\r\n}\r\nlocal defaultstate = {\r\n    schemes={Assassinate={\"ScouttheRooftops\",\"DetonateCharges\",\"RunicBinding\"},\r\n            Breakthrough={\"Assassinate\",\"PublicDemonstration\",\"FrameJob\"},\r\n            ScouttheRooftops={\"DetonateCharges\",\"GraveRobbing\",\"LeaveYourMark\"},\r\n            Ensnare={\"ReshapeTheLand\",\"SearchtheArea\",\"FrameJob\"},\r\n            DetonateCharges={\"GraveRobbing\",\"RunicBinding\",\"TaketheHighground\"},        \r\n            FrameJob={\"PublicDemonstration\",\"HarnesstheLeyLine\",\"ScouttheRooftops\"},            \r\n            TaketheHighground={\"MakeitLookLikeAnAccident\",\"Ensnare\",\"SearchtheArea\"},            \r\n            SearchtheArea={\"Breakthrough\",\"FrameJob\",\"HarnesstheLeyLine\"},            \r\n            GraveRobbing={\"RunicBinding\",\"LeaveYourMark\",\"MakeitLookLikeAnAccident\"},\r\n            HarnesstheLeyLine={\"Assassinate\",\"ScouttheRooftops\",\"GraveRobbing\"},\r\n            RunicBinding={\"LeaveYourMark\",\"TaketheHighground\",\"Ensnare\"},\r\n            MakeitLookLikeAnAccident={\"Ensnare\",\"ReshapeTheLand\",\"Breakthrough\"},\r\n            PublicDemonstration={\"HarnesstheLeyLine\",\"Assassinate\",\"DetonateCharges\"},\r\n            LeaveYourMark={\"TaketheHighground\",\"MakeitLookLikeAnAccident\",\"ReshapeTheLand\"},\r\n            ReshapeTheLand={\"SearchtheArea\",\"Breakthrough\",\"PublicDemonstration\"},\r\n        },\r\n    currentscheme= \"\",\r\n    currentoptions= {},\r\n    startingschemes= {},\r\n    buttons={\r\n            {\r\n                pos = {-1,0.1,-0.9},\r\n                size = 1500,\r\n                label = \"Option 1\"\r\n            },\r\n            {\r\n                pos = {-1,0.1,-0.4},\r\n                size = 1500,\r\n                label = \"Option 2\"\r\n            },\r\n            {\r\n                pos = {-1,0.1,0.1},\r\n                size = 1500,\r\n                label = \"Option 3\"\r\n            }\r\n        },\r\n    checkbox={\r\n            {\r\n                pos = {1.5,0.1,-0.85},\r\n                size = 1000,\r\n                state = false\r\n            },\r\n            {\r\n                pos = {1.5,0.1,-0.3},\r\n                size = 1000,\r\n                state = false\r\n            }\r\n        },\r\n    textbox={\r\n            pos       = {0,0.1,0.75},\r\n            width     = 1100,\r\n            height    = 200,\r\n            font_size = 120,\r\n            alignment = 3,\r\n            label     = \"Hidden Information\",\r\n            value     = \"\",\r\n            color     = {1,1,1,0},\r\n            font_color = {0,0,0,255}\r\n        },\r\n    reveal={\r\n            pos = {1,0.1,0.1},\r\n            size = 1500,\r\n            label = \"Reveal\"\r\n        }\r\n    \r\n}\r\n\r\nlocal myDeck\r\nlocal tracker\r\nlocal tablet\r\nlocal reveal\r\nlocal optionTag\r\nlocal revealTag\r\nlocal thisColor\r\n--Save function\r\nfunction updateSave()\r\n    saved_data = JSON.encode(state)\r\n    if disableSave==true then saved_data=\"\" end\r\n    self.script_state = saved_data\r\nend\r\n\r\n--Startup procedure\r\nfunction onload(saved_data)\r\n    local selfName=self.getName()\r\n    if disableSave==true then saved_data=\"\" end\r\n    if saved_data ~= \"\" then\r\n        local loaded_data = JSON.decode(saved_data)\r\n        state = loaded_data\r\n    else\r\n        state = defaultstate\r\n    end\r\n\r\n    spawnedButtonCount = 0\r\n    if string.find(selfName, \"Red\") then\r\n        myDeck = getObjectFromGUID(objLib.redSchemeDeck)\r\n        tracker = getObjectFromGUID(objLib.redSchemeTracker)\r\n        tablet = getObjectFromGUID(objLib.redSchemePanel)\r\n        reveal = getObjectFromGUID(objLib.redSchemeReveal)\r\n        optionTag=objLib.redOptionsTag\r\n        revealTag=objLib.redRevealTag\r\n        thisColor=\"red\"\r\n    elseif string.find(selfName, \"Blue\") then\r\n        myDeck = getObjectFromGUID(objLib.blueSchemeDeck)\r\n        tracker = getObjectFromGUID(objLib.blueSchemeTracker)\r\n        tablet = getObjectFromGUID(objLib.blueSchemePanel)\r\n        reveal = getObjectFromGUID(objLib.blueSchemeReveal)\r\n        optionTag=objLib.blueOptionsTag\r\n        revealTag=objLib.blueRevealTag\r\n        thisColor=\"blue\"\r\n    end\r\n    createButtons()\r\n    createCheckbox()\r\n    createTextbox()\r\n    createReveal()\r\nend\r\n\r\nfunction createButtons()\r\n    for i, data in ipairs(state.buttons) do\r\n        --Sets up reference function\r\n        local buttonNumber = spawnedButtonCount\r\n        local funcName = \"scheme\"..i\r\n        local func = function() click_scheme(i) end\r\n        self.setVar(funcName, func)\r\n        \r\n        --Creates button and counts it\r\n        self.createButton({\r\n            label=data.label, click_function=funcName, function_owner=self,\r\n            position=data.pos, height=data.size, width=data.size*3,\r\n            font_size=data.size, scale=buttonScale,\r\n            color=buttonColor, font_color=buttonFontColor\r\n        })\r\n        spawnedButtonCount = spawnedButtonCount + 1\r\n    end\r\nend\r\n\r\nfunction createCheckbox()\r\n    for i, data in ipairs(state.checkbox) do\r\n        --Sets up reference function\r\n        local buttonNumber = spawnedButtonCount\r\n        local funcName = \"checkbox\"..i\r\n        local func = function() click_checkbox(i, buttonNumber) end\r\n        self.setVar(funcName, func)\r\n        --Sets up label\r\n        local label = \"\"\r\n        if data.state==true then label=string.char(10008) end\r\n        --Creates button and counts it\r\n        self.createButton({\r\n            label=label, click_function=funcName, function_owner=self,\r\n            position=data.pos, height=data.size, width=data.size,\r\n            font_size=data.size, scale=buttonScale,\r\n            color=buttonColor, font_color=buttonFontColor\r\n        })\r\n        spawnedButtonCount = spawnedButtonCount + 1\r\n    end\r\nend\r\n\r\nfunction createTextbox()\r\n    data = state.textbox\r\n    --Sets up reference function\r\n    local funcName = \"textbox\"..1\r\n    local func = function(_,_,val,sel) click_textbox(val,sel) end\r\n    self.setVar(funcName, func)\r\n\r\n    self.createInput({\r\n        input_function = funcName,\r\n        function_owner = self,\r\n        alignment      = data.alignment,\r\n        label          = data.label,\r\n        position       = data.pos,\r\n        width          = data.width,\r\n        height         = data.height,\r\n        font_size      = data.font_size,\r\n        font_color     = data.font_color,\r\n        color          = data.color,  \r\n        value          = data.value,\r\n    })\r\nend\r\n\r\nfunction createReveal()\r\n    local data = state.reveal\r\n    --Sets up reference function\r\n    local funcName = \"reveal\"..1\r\n    local func = function() click_reveal() end\r\n    self.setVar(funcName, func)\r\n    \r\n    --Creates button and counts it\r\n    self.createButton({\r\n        label=data.label, click_function=funcName, function_owner=self,\r\n        position=data.pos, height=data.size, width=data.size*3,\r\n        font_size=data.size, scale=buttonScale,\r\n        color=buttonColor, font_color=buttonFontColor\r\n    })\r\nend\r\n\r\nfunction click_reveal()\r\n    local score = 0\r\n\r\n    if state.checkbox[1].state == true then score = score+1 end\r\n    if state.checkbox[2].state == true then score = score+1 end\r\n\r\n    cloneCardFromDeck(state.currentscheme, revealTag)\r\n\r\n    if(state.textbox.value != \"\") then \r\n        broadcastToAll(\"Hidden Info: \"..state.textbox.value, {31,136,255,255})\r\n    end\r\n\r\n    updateScore(score)\r\n    updateSave()\r\nend\r\n\r\nfunction click_textbox(value, selected)\r\n    if selected == false then\r\n        state.textbox.value = value\r\n        updateSave()\r\n    end\r\nend\r\n\r\nfunction click_checkbox(tableIndex, buttonIndex)\r\n    if state.checkbox[tableIndex].state == true then\r\n        state.checkbox[tableIndex].state = false\r\n        self.editButton({index=buttonIndex, label=\"\"})\r\n    else\r\n        state.checkbox[tableIndex].state = true\r\n        self.editButton({index=buttonIndex, label=string.char(10008)})\r\n    end\r\n    updateSave()\r\nend\r\n\r\nfunction set_startingschemes(schemes)\r\n    state.currentoptions = schemes[1]\r\n    for i, scheme in ipairs(state.currentoptions) do\r\n        cloneCardFromDeck(scheme, optionTag..i)\r\n    end\r\n\r\nend\r\n\r\nfunction click_scheme(buttonIndex)\r\n    \r\n    --log(\"Button: \"..buttonIndex)\r\n    --log(state.currentoptions)\r\n    local new_scheme = state.currentoptions[buttonIndex]\r\n\r\n    --log(\"Card: \"..new_scheme)\r\n\r\n    cloneCardFromDeck(new_scheme, \"current_\"..thisColor)\r\n\r\n    state.currentoptions = state.schemes[new_scheme]\r\n\r\n    for i, scheme in ipairs(state.currentoptions) do\r\n        cloneCardFromDeck(scheme, optionTag..i)\r\n    end\r\n\r\n    state.currentscheme = new_scheme\r\n\r\n    updateSave()\r\nend\r\n\r\n\r\nfunction updateScore(value)\r\n\r\n    for i=1,value,1 do tracker.call(\"add_subtract\", {obj, thisColor, false}) end\r\n\r\nend\r\n\r\nfunction cloneCardFromDeck(cardName, tag)\r\n    \r\n    local cards = myDeck.getObjects()\r\n    local target = tablet\r\n    \r\n    if tag == revealTag then target = reveal end\r\n\r\n    local snapPoints = target.getSnapPoints()\r\n    local current_snap = findSnapPointByTag(snapPoints, tag)\r\n\r\n    for _, card in ipairs(cards) do\r\n        if card.name == cardName then\r\n            \r\n            local params = {\r\n                index = card.index,\r\n                position = getWorldPositionFromSnap(target, current_snap.position),\r\n                smooth = false,\r\n                callback_function = function(pulledCard)\r\n                    if pulledCard then\r\n                        local cloneParams = {\r\n                            position = pulledCard.getPosition() + Vector(0, 2, 0),\r\n                            rotation = pulledCard.getRotation()\r\n                        }\r\n                        local clone = pulledCard.clone(cloneParams)\r\n                        myDeck.putObject(pulledCard)\r\n                    else\r\n                        print(\"Error: Failed to pull card.\")\r\n                    end\r\n                end\r\n            }\r\n            myDeck.takeObject(params)\r\n            return\r\n        end\r\n    end\r\n    print(\"Card \"..cardName..\" not found in deck!\")\r\nend\r\n\r\nfunction findSnapPointByTag(snapPoints, tag)\r\n    for _, snap in ipairs(snapPoints) do\r\n        if snap.tags then\r\n            for _, snapTag in ipairs(snap.tags) do\r\n                if snapTag == tag then\r\n                    return snap\r\n                end\r\n            end\r\n        end\r\n    end\r\n    return nil\r\nend\r\n\r\nfunction getWorldPositionFromSnap(snapObject, snapPoint)\r\n    local worldPos = snapObject.positionToWorld(snapPoint)\r\n    return worldPos\r\nend\nend)\nreturn __bundle_require(\"Red Scheme Manager.47995f.lua\")",
       "LuaScriptState": ""
     },
     {
@@ -36951,7 +36951,7 @@
         "posX": -6.39168739,
         "posY": 0.627959,
         "posZ": 49.25645,
-        "rotX": 7.658887E-09,
+        "rotX": -1.52572461E-08,
         "rotY": 180.000458,
         "rotZ": 180.0,
         "scaleX": 1.99688435,
@@ -37204,9 +37204,9 @@
         "posX": -0.117464714,
         "posY": 0.861457765,
         "posZ": 19.60759,
-        "rotX": 1.37194356E-05,
+        "rotX": 1.37194393E-05,
         "rotY": 179.979065,
-        "rotZ": -1.66466737E-06,
+        "rotZ": -1.66466759E-06,
         "scaleX": 1.70230925,
         "scaleY": 1.0,
         "scaleZ": 1.70230925
@@ -37250,8 +37250,9 @@
           "Stackable": false
         }
       },
-      "LuaScript": "-- Bundled by luabundle {\"rootModuleName\":\"Game Setup.d5e9df.lua\",\"version\":\"1.6.0\"}\nlocal __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)\n\tlocal loadingPlaceholder = {[{}] = true}\n\n\tlocal register\n\tlocal modules = {}\n\n\tlocal require\n\tlocal loaded = {}\n\n\tregister = function(name, body)\n\t\tif not modules[name] then\n\t\t\tmodules[name] = body\n\t\tend\n\tend\n\n\trequire = function(name)\n\t\tlocal loadedModule = loaded[name]\n\n\t\tif loadedModule then\n\t\t\tif loadedModule == loadingPlaceholder then\n\t\t\t\treturn nil\n\t\t\tend\n\t\telse\n\t\t\tif not modules[name] then\n\t\t\t\tif not superRequire then\n\t\t\t\t\tlocal identifier = type(name) == 'string' and '\\\"' .. name .. '\\\"' or tostring(name)\n\t\t\t\t\terror('Tried to require ' .. identifier .. ', but no such module has been registered')\n\t\t\t\telse\n\t\t\t\t\treturn superRequire(name)\n\t\t\t\tend\n\t\t\tend\n\n\t\t\tloaded[name] = loadingPlaceholder\n\t\t\tloadedModule = modules[name](require, loaded, register, modules)\n\t\t\tloaded[name] = loadedModule\n\t\tend\n\n\t\treturn loadedModule\n\tend\n\n\treturn require, loaded, register, modules\nend)(nil)\n__bundle_register(\"Game Setup.d5e9df.lua\", function(require, _LOADED, __bundle_register, __bundle_modules)\nrequire(\"baseMod/SchemeManager/GameSetup\")\nend)\n__bundle_register(\"baseMod/SchemeManager/GameSetup\", function(require, _LOADED, __bundle_register, __bundle_modules)\n--Color information for button text (r,g,b, values of 0-1)\nbuttonFontColor = {0,0,0}\n--Color information for button background\nbuttonColor = {1,1,1}\n--Change scale of button (Avoid changing if possible)\nbuttonScale = {0.1,0.1,0.1}\n\ndisableSave = true\n\nlocal defaultstate = {\n\n    schemes = {\"Assassinate\",\"Breakthrough\",\"ScouttheRooftops\",\"Ensnare\",\"DetonateCharges\",\n    \"FrameJob\",\"TaketheHighground\",\"SearchtheArea\",\"LighttheBeacons\",\"HarnesstheLeyLine\",\n    \"RunicBinding\",\"MakeitLookLikeAnAccident\",\"PublicDemonstration\",\"LeaveYourMark\",\"ReshapeTheLand\"},\n    strategies = {\"Boundary Dispute\",\"Informants\",\"Collapsing Mines\",\"Recover Evidence\"},\n    deployment = {\"Corner\",\"Standard\",\"Wedge\",\"Flank\"},\n    players = {\"Blue\",\"Red\"},\n    game_setup= true,\n    button={\n            pos = {0,0.1,-1.0},\n            size = 1500,\n            label = \"Start\"\n            },\n    checkbox={\n        {\n            pos = {1.0,0.1,0},\n            size = 1000,\n            state = false\n        },\n        {\n            pos = {1.0,0.1,0.45},\n            size = 1000,\n            state = false\n        },\n        {\n            pos = {1.0,0.1,0.9},\n            size = 1000,\n            state = false\n        }\n    }\n    \n}\n\n--Save function\n    function updateSave()\n        saved_data = JSON.encode(state)\n        if disableSave==true then saved_data=\"\" end\n        self.script_state = saved_data\n    end\n    \n--Startup procedure\n    function onload(saved_data)\n        if disableSave==true then saved_data=\"\" end\n        if saved_data ~= \"\" then\n            local loaded_data = JSON.decode(saved_data)\n            state = loaded_data\n        else\n            state = defaultstate\n        end\n\n\n        spawnedButtonCount = 0\n        --myDeck = getObjectFromGUID(\"697be6\")f4ffc1\n        myDeck = getObjectFromGUID(\"bb6c9e\")\n        bmanager = getObjectFromGUID(\"b1938a\")\n        rmanager = getObjectFromGUID(\"47995f\")\n        createCheckbox()\n        createButton()\n    end\n\n    function createButton()\n        data = state.button\n        --Sets up reference function\n        local buttonNumber = spawnedButtonCount\n        local funcName = \"setup\"\n        local func = function() setup_game() end\n        self.setVar(funcName, func)\n        \n        --Creates button and counts it\n        self.createButton({\n            label=data.label, click_function=funcName, function_owner=self,\n            position=data.pos, height=data.size, width=data.size*3,\n            font_size=data.size, scale=buttonScale,\n            color=buttonColor, font_color=buttonFontColor\n        })\n    end\n\n    function createCheckbox()\n        for i, data in ipairs(state.checkbox) do\n            --Sets up reference function\n            local buttonNumber = spawnedButtonCount\n            local funcName = \"checkbox\"..i\n            local func = function() click_checkbox(i, buttonNumber) end\n            self.setVar(funcName, func)\n            --Sets up label\n            local label = \"\"\n            if data.state==true then label=string.char(10008) end\n            --Creates button and counts it\n            self.createButton({\n                label=label, click_function=funcName, function_owner=self,\n                position=data.pos, height=data.size, width=data.size,\n                font_size=data.size, scale=buttonScale,\n                color=buttonColor, font_color=buttonFontColor\n            })\n            spawnedButtonCount = spawnedButtonCount + 1\n        end\n    end\n\n    function click_checkbox(tableIndex, buttonIndex)\n        if state.checkbox[tableIndex].state == true then\n            state.checkbox[tableIndex].state = false\n            self.editButton({index=buttonIndex, label=\"\"})\n        else\n            state.checkbox[tableIndex].state = true\n            self.editButton({index=buttonIndex, label=string.char(10008)})\n        end\n        updateSave()\n    end\n\n    function setup_game()\n        math.randomseed(os.time())\n\n        local copy = state.schemes\n\n        for i = #copy, 2, -1 do\n            local j = math.random(i)\n            copy[i], copy[j] = copy[j], copy[i]\n        end\n\n        -- Pick the first 3\n        local selected = {copy[1], copy[2], copy[3]}\n\n        local deployment = state.deployment[math.random(4)]\n        if state.checkbox[1].state == true then broadcastToAll(\"Deployment is: \"..deployment) end\n        \n        local strategy = state.strategies[math.random(4)]\n        if state.checkbox[2].state == true then broadcastToAll(\"Strategy is: \"..strategy) end\n\n        local attacker = state.players[math.random(2)]\n        if state.checkbox[3].state == true then broadcastToAll(\"Attacker is: \"..attacker) end\n\n        bmanager.call(\"set_startingschemes\", {selected})\n        rmanager.call(\"set_startingschemes\", {selected})\n\n        deleteSelf()\n        \n    end\n\n    function deleteSelf()\n        Wait.frames(function() destroyObject(self) end, 1)\n    end\nend)\nreturn __bundle_require(\"Game Setup.d5e9df.lua\")",
+      "LuaScript": "-- Bundled by luabundle {\"rootModuleName\":\"Game Setup.d5e9df.lua\",\"version\":\"1.6.0\"}\nlocal __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)\n\tlocal loadingPlaceholder = {[{}] = true}\n\n\tlocal register\n\tlocal modules = {}\n\n\tlocal require\n\tlocal loaded = {}\n\n\tregister = function(name, body)\n\t\tif not modules[name] then\n\t\t\tmodules[name] = body\n\t\tend\n\tend\n\n\trequire = function(name)\n\t\tlocal loadedModule = loaded[name]\n\n\t\tif loadedModule then\n\t\t\tif loadedModule == loadingPlaceholder then\n\t\t\t\treturn nil\n\t\t\tend\n\t\telse\n\t\t\tif not modules[name] then\n\t\t\t\tif not superRequire then\n\t\t\t\t\tlocal identifier = type(name) == 'string' and '\\\"' .. name .. '\\\"' or tostring(name)\n\t\t\t\t\terror('Tried to require ' .. identifier .. ', but no such module has been registered')\n\t\t\t\telse\n\t\t\t\t\treturn superRequire(name)\n\t\t\t\tend\n\t\t\tend\n\n\t\t\tloaded[name] = loadingPlaceholder\n\t\t\tloadedModule = modules[name](require, loaded, register, modules)\n\t\t\tloaded[name] = loadedModule\n\t\tend\n\n\t\treturn loadedModule\n\tend\n\n\treturn require, loaded, register, modules\nend)(nil)\n__bundle_register(\"Game Setup.d5e9df.lua\", function(require, _LOADED, __bundle_register, __bundle_modules)\nrequire(\"baseMod/SchemeManager/GameSetup\")\nend)\n__bundle_register(\"baseMod/SchemeManager/GameSetup\", function(require, _LOADED, __bundle_register, __bundle_modules)\n--Color information for button text (r,g,b, values of 0-1)\nbuttonFontColor = {0,0,0}\n--Color information for button background\nbuttonColor = {1,1,1}\n--Change scale of button (Avoid changing if possible)\nbuttonScale = {0.1,0.1,0.1}\n\ndisableSave = true\n\nlocal defaultstate = {\n\n    schemes = {\"Assassinate\",\"Breakthrough\",\"ScouttheRooftops\",\"Ensnare\",\"DetonateCharges\",\n    \"FrameJob\",\"TaketheHighground\",\"SearchtheArea\",\"GraveRobbing\",\"HarnesstheLeyLine\",\n    \"RunicBinding\",\"MakeitLookLikeAnAccident\",\"PublicDemonstration\",\"LeaveYourMark\",\"ReshapeTheLand\"},\n    strategies = {\"Boundary Dispute\",\"Informants\",\"Collapsing Mines\",\"Recover Evidence\"},\n    deployment = {\"Corner\",\"Standard\",\"Wedge\",\"Flank\"},\n    players = {\"Blue\",\"Red\"},\n    game_setup= true,\n    button={\n            pos = {0,0.1,-1.0},\n            size = 1500,\n            label = \"Start\"\n            },\n    checkbox={\n        {\n            pos = {1.0,0.1,0},\n            size = 1000,\n            state = false\n        },\n        {\n            pos = {1.0,0.1,0.45},\n            size = 1000,\n            state = false\n        },\n        {\n            pos = {1.0,0.1,0.9},\n            size = 1000,\n            state = false\n        }\n    }\n    \n}\n\n--Save function\n    function updateSave()\n        saved_data = JSON.encode(state)\n        if disableSave==true then saved_data=\"\" end\n        self.script_state = saved_data\n    end\n    \n--Startup procedure\n    function onload(saved_data)\n        if disableSave==true then saved_data=\"\" end\n        if saved_data ~= \"\" then\n            local loaded_data = JSON.decode(saved_data)\n            state = loaded_data\n        else\n            state = defaultstate\n        end\n\n\n        spawnedButtonCount = 0\n        --myDeck = getObjectFromGUID(\"697be6\")f4ffc1\n        myDeck = getObjectFromGUID(\"bb6c9e\")\n        bmanager = getObjectFromGUID(\"b1938a\")\n        rmanager = getObjectFromGUID(\"47995f\")\n        createCheckbox()\n        createButton()\n    end\n\n    function createButton()\n        data = state.button\n        --Sets up reference function\n        local buttonNumber = spawnedButtonCount\n        local funcName = \"setup\"\n        local func = function() setup_game() end\n        self.setVar(funcName, func)\n        \n        --Creates button and counts it\n        self.createButton({\n            label=data.label, click_function=funcName, function_owner=self,\n            position=data.pos, height=data.size, width=data.size*3,\n            font_size=data.size, scale=buttonScale,\n            color=buttonColor, font_color=buttonFontColor\n        })\n    end\n\n    function createCheckbox()\n        for i, data in ipairs(state.checkbox) do\n            --Sets up reference function\n            local buttonNumber = spawnedButtonCount\n            local funcName = \"checkbox\"..i\n            local func = function() click_checkbox(i, buttonNumber) end\n            self.setVar(funcName, func)\n            --Sets up label\n            local label = \"\"\n            if data.state==true then label=string.char(10008) end\n            --Creates button and counts it\n            self.createButton({\n                label=label, click_function=funcName, function_owner=self,\n                position=data.pos, height=data.size, width=data.size,\n                font_size=data.size, scale=buttonScale,\n                color=buttonColor, font_color=buttonFontColor\n            })\n            spawnedButtonCount = spawnedButtonCount + 1\n        end\n    end\n\n    function click_checkbox(tableIndex, buttonIndex)\n        if state.checkbox[tableIndex].state == true then\n            state.checkbox[tableIndex].state = false\n            self.editButton({index=buttonIndex, label=\"\"})\n        else\n            state.checkbox[tableIndex].state = true\n            self.editButton({index=buttonIndex, label=string.char(10008)})\n        end\n        updateSave()\n    end\n\n    function setup_game()\n        math.randomseed(os.time())\n\n        local copy = state.schemes\n\n        for i = #copy, 2, -1 do\n            local j = math.random(i)\n            copy[i], copy[j] = copy[j], copy[i]\n        end\n\n        -- Pick the first 3\n        local selected = {copy[1], copy[2], copy[3]}\n\n        local deployment = state.deployment[math.random(4)]\n        if state.checkbox[1].state == true then broadcastToAll(\"Deployment is: \"..deployment) end\n        \n        local strategy = state.strategies[math.random(4)]\n        if state.checkbox[2].state == true then broadcastToAll(\"Strategy is: \"..strategy) end\n\n        local attacker = state.players[math.random(2)]\n        if state.checkbox[3].state == true then broadcastToAll(\"Attacker is: \"..attacker) end\n\n        bmanager.call(\"set_startingschemes\", {selected})\n        rmanager.call(\"set_startingschemes\", {selected})\n\n        deleteSelf()\n        \n    end\n\n    function deleteSelf()\n        Wait.frames(function() destroyObject(self) end, 1)\n    end\nend)\nreturn __bundle_require(\"Game Setup.d5e9df.lua\")",
       "LuaScriptState": "",
+      "XmlUI": "",
       "AttachedSnapPoints": [
         {
           "Position": {
@@ -37272,9 +37273,9 @@
         "posX": -13.4324112,
         "posY": 0.680913568,
         "posZ": 49.35162,
-        "rotX": 4.268325E-08,
+        "rotX": 4.670782E-08,
         "rotY": 180.02829,
-        "rotZ": -4.6497135E-08,
+        "rotZ": -9.94082949E-09,
         "scaleX": 1.93762064,
         "scaleY": 1.0,
         "scaleZ": 1.93762064
@@ -37316,13 +37317,13 @@
         57001,
         57009,
         57008,
-        57010,
         57007,
         57011,
         57006,
         57013,
         57014,
-        57012
+        57012,
+        57010
       ],
       "CustomDeck": {
         "570": {
@@ -37804,64 +37805,6 @@
           "XmlUI": ""
         },
         {
-          "GUID": "969c83",
-          "Name": "Card",
-          "Transform": {
-            "posX": -43.8994751,
-            "posY": 0.737107933,
-            "posZ": 72.158905,
-            "rotX": 0.0006883869,
-            "rotY": 179.982925,
-            "rotZ": -0.0008871683,
-            "scaleX": 1.93762064,
-            "scaleY": 1.0,
-            "scaleZ": 1.93762064
-          },
-          "Nickname": "LighttheBeacons",
-          "Description": "",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": false,
-          "Hands": true,
-          "CardID": 57010,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "570": {
-              "FaceURL": "https://raw.githubusercontent.com/TemporalDistoriton/M4EBetaCardsRepo/refs/heads/main/Scheme-Cards/5x3_All.png",
-              "BackURL": "https://raw.githubusercontent.com/TemporalDistoriton/M4EBetaCardsRepo/refs/heads/main/Scheme-Cards/5x3_All.png",
-              "NumWidth": 5,
-              "NumHeight": 3,
-              "BackIsHidden": false,
-              "UniqueBack": true,
-              "Type": 0
-            }
-          },
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": ""
-        },
-        {
           "GUID": "b70f5f",
           "Name": "Card",
           "Transform": {
@@ -38208,6 +38151,64 @@
           "LuaScript": "",
           "LuaScriptState": "",
           "XmlUI": ""
+        },
+        {
+          "GUID": "969c83",
+          "Name": "Card",
+          "Transform": {
+            "posX": -13.96723,
+            "posY": 0.794753969,
+            "posZ": 49.56753,
+            "rotX": -0.000236217587,
+            "rotY": 180.016129,
+            "rotZ": -0.000882641354,
+            "scaleX": 1.93762064,
+            "scaleY": 1.0,
+            "scaleZ": 1.93762064
+          },
+          "Nickname": "GraveRobbing",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 57010,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "570": {
+              "FaceURL": "https://raw.githubusercontent.com/TemporalDistoriton/M4EBetaCardsRepo/refs/heads/main/Scheme-Cards/5x3_All.png",
+              "BackURL": "https://raw.githubusercontent.com/TemporalDistoriton/M4EBetaCardsRepo/refs/heads/main/Scheme-Cards/5x3_All.png",
+              "NumWidth": 5,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
         }
       ]
     },
@@ -38215,12 +38216,12 @@
       "GUID": "0e2d1d",
       "Name": "Deck",
       "Transform": {
-        "posX": -26.8882332,
-        "posY": 0.8545995,
-        "posZ": 23.2987671,
-        "rotX": 1.08429986E-05,
-        "rotY": 270.011719,
-        "rotZ": 4.00747E-06,
+        "posX": -26.8883877,
+        "posY": 0.854599535,
+        "posZ": 23.2988167,
+        "rotX": -5.85928E-06,
+        "rotY": 270.016,
+        "rotZ": 6.35137E-06,
         "scaleX": 1.93762064,
         "scaleY": 1.0,
         "scaleZ": 1.93762064
@@ -38262,13 +38263,13 @@
         57001,
         57009,
         57008,
-        57010,
         57007,
         57011,
         57006,
         57013,
         57014,
-        57012
+        57012,
+        57010
       ],
       "CustomDeck": {
         "570": {
@@ -38750,64 +38751,6 @@
           "XmlUI": ""
         },
         {
-          "GUID": "969c83",
-          "Name": "Card",
-          "Transform": {
-            "posX": -43.8994751,
-            "posY": 0.737107933,
-            "posZ": 72.158905,
-            "rotX": 0.0006883869,
-            "rotY": 179.982925,
-            "rotZ": -0.0008871683,
-            "scaleX": 1.93762064,
-            "scaleY": 1.0,
-            "scaleZ": 1.93762064
-          },
-          "Nickname": "LighttheBeacons",
-          "Description": "",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": false,
-          "Hands": true,
-          "CardID": 57010,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "570": {
-              "FaceURL": "https://raw.githubusercontent.com/TemporalDistoriton/M4EBetaCardsRepo/refs/heads/main/Scheme-Cards/5x3_All.png",
-              "BackURL": "https://raw.githubusercontent.com/TemporalDistoriton/M4EBetaCardsRepo/refs/heads/main/Scheme-Cards/5x3_All.png",
-              "NumWidth": 5,
-              "NumHeight": 3,
-              "BackIsHidden": false,
-              "UniqueBack": true,
-              "Type": 0
-            }
-          },
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": ""
-        },
-        {
           "GUID": "b70f5f",
           "Name": "Card",
           "Transform": {
@@ -39154,6 +39097,64 @@
           "LuaScript": "",
           "LuaScriptState": "",
           "XmlUI": ""
+        },
+        {
+          "GUID": "969c83",
+          "Name": "Card",
+          "Transform": {
+            "posX": -26.6632214,
+            "posY": 0.955158234,
+            "posZ": 23.4063435,
+            "rotX": 0.002110644,
+            "rotY": 270.015961,
+            "rotZ": 0.00334993564,
+            "scaleX": 1.93762064,
+            "scaleY": 1.0,
+            "scaleZ": 1.93762064
+          },
+          "Nickname": "GraveRobbing",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 57010,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "570": {
+              "FaceURL": "https://raw.githubusercontent.com/TemporalDistoriton/M4EBetaCardsRepo/refs/heads/main/Scheme-Cards/5x3_All.png",
+              "BackURL": "https://raw.githubusercontent.com/TemporalDistoriton/M4EBetaCardsRepo/refs/heads/main/Scheme-Cards/5x3_All.png",
+              "NumWidth": 5,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
         }
       ]
     },
@@ -39161,12 +39162,12 @@
       "GUID": "45bdbf",
       "Name": "Deck",
       "Transform": {
-        "posX": 26.85958,
+        "posX": 26.8595,
         "posY": 0.854599535,
-        "posZ": 23.0494633,
-        "rotX": 6.09513245E-06,
-        "rotY": 89.994,
-        "rotZ": -1.83739053E-06,
+        "posZ": 23.04926,
+        "rotX": 1.24017731E-06,
+        "rotY": 89.9939346,
+        "rotZ": -8.224194E-06,
         "scaleX": 1.93762064,
         "scaleY": 1.0,
         "scaleZ": 1.93762064
@@ -39208,13 +39209,13 @@
         57001,
         57009,
         57008,
-        57010,
         57007,
         57011,
         57006,
         57013,
         57014,
-        57012
+        57012,
+        57010
       ],
       "CustomDeck": {
         "570": {
@@ -39696,64 +39697,6 @@
           "XmlUI": ""
         },
         {
-          "GUID": "969c83",
-          "Name": "Card",
-          "Transform": {
-            "posX": -43.8994751,
-            "posY": 0.737107933,
-            "posZ": 72.158905,
-            "rotX": 0.0006883869,
-            "rotY": 179.982925,
-            "rotZ": -0.0008871683,
-            "scaleX": 1.93762064,
-            "scaleY": 1.0,
-            "scaleZ": 1.93762064
-          },
-          "Nickname": "LighttheBeacons",
-          "Description": "",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": false,
-          "Hands": true,
-          "CardID": 57010,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "570": {
-              "FaceURL": "https://raw.githubusercontent.com/TemporalDistoriton/M4EBetaCardsRepo/refs/heads/main/Scheme-Cards/5x3_All.png",
-              "BackURL": "https://raw.githubusercontent.com/TemporalDistoriton/M4EBetaCardsRepo/refs/heads/main/Scheme-Cards/5x3_All.png",
-              "NumWidth": 5,
-              "NumHeight": 3,
-              "BackIsHidden": false,
-              "UniqueBack": true,
-              "Type": 0
-            }
-          },
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": ""
-        },
-        {
           "GUID": "b70f5f",
           "Name": "Card",
           "Transform": {
@@ -40085,6 +40028,64 @@
           "HideWhenFaceDown": false,
           "Hands": true,
           "CardID": 57012,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "570": {
+              "FaceURL": "https://raw.githubusercontent.com/TemporalDistoriton/M4EBetaCardsRepo/refs/heads/main/Scheme-Cards/5x3_All.png",
+              "BackURL": "https://raw.githubusercontent.com/TemporalDistoriton/M4EBetaCardsRepo/refs/heads/main/Scheme-Cards/5x3_All.png",
+              "NumWidth": 5,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "969c83",
+          "Name": "Card",
+          "Transform": {
+            "posX": 27.2306137,
+            "posY": 1.02623355,
+            "posZ": 23.2142181,
+            "rotX": 358.6266,
+            "rotY": 89.99635,
+            "rotZ": 0.000220497,
+            "scaleX": 1.93762064,
+            "scaleY": 1.0,
+            "scaleZ": 1.93762064
+          },
+          "Nickname": "GraveRobbing",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 57010,
           "SidewaysCard": false,
           "CustomDeck": {
             "570": {
