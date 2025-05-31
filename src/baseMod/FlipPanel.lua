@@ -895,7 +895,16 @@ function onReshuffle(player, _, _)
           end
         )    
       else
-        VARIABLES.finishedReshuffle = true
+        local deckOccupants = VARIABLES.zones.deckZone.getObjects()
+        for i=1, #deckOccupants, 1 do
+          -- Checks if we found a deck
+          if deckOccupants[i].type == "Deck" then
+            deckOccupants[i].randomize()
+            VARIABLES.log = "performed: Reshuffle"
+            logAction(player) 
+          end
+        end
+        VARIABLES.finishedReshuffle = true       
         stopAction()
       end
     end,
