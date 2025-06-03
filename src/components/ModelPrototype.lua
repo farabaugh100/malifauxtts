@@ -1,3 +1,5 @@
+
+
 RSS_Class = 'Model';
 TRH_Class ="mini"
 ------ CLASS VARIABLES ----------------------
@@ -8,18 +10,18 @@ TRH_Class ="mini"
 	local Conditions = {}
 	local originalData = nil;
 	local state = {
-		conditions={Abandoned = 0,Adaptable = 0,Adversary = 0,Analyzed = 0,AuraBinding = 0,AuraFire = 0,AuraFumes = 0,AuraNegligent = 0,AuraStaggered = 0,AuraConcealment = 0,AuraHazardous = 0,Backtrack = 0,Bolstered = 0,BogSpirit = 0,Brilliance = 0,Broodling = 0,Burning = 0,Challenged = 0,Craven = 0,CruelWhispers = 0,Distracted = 0,Engorged = 0,Entranced = 0,Fast = 0,Flicker = 0,Focused = 0,FragileEgo = 0,Fright = 0,Glowy = 0,Greedy = 0,Hastened = 0,Impact = 0,ImprovisedPart = 0,Injured = 0,Insight = 0,Paranoia = 0,Parasite = 0,Perforated = 0,Poison = 0,Power = 0,Reload = 0,Shame = 0,Shielded = 0,Slow = 0,SpiritualChains = 0,Staggered = 0,Stunned = 0,Summon = 0,Suppresed = 0,Hunger = 0,Familia = 0,NewBlood = 0,CoveredInBlood = 0,Adaptable = 0,Focused = 0,Shielded = 0,}		
+		conditions={Abandoned = 0,Adaptable = 0,Adversary = 0,Analyzed = 0,AuraBinding = 0,AuraFire = 0,AuraFumes = 0,AuraNegligent = 0,AuraStaggered = 0,AuraConcealment = 0,AuraHazardous = 0,Backtrack = 0,Bolstered = 0,BogSpirit = 0,Brilliance = 0,Broodling = 0,Burning = 0,Challenged = 0,Craven = 0,CruelWhispers = 0,Distracted = 0,Engorged = 0,Entranced = 0,Fast = 0,Flicker = 0,Focused = 0,FragileEgo = 0,Fright = 0,Glowy = 0,Greedy = 0,Hastened = 0,Impact = 0,ImprovisedPart = 0,Injured = 0,Insight = 0,Paranoia = 0,Parasite = 0,Perforated = 0,Poison = 0,Power = 0,Reload = 0,Shame = 0,Shielded = 0,Slow = 0,SpiritualChains = 0,Staggered = 0,Stunned = 0,Summon = 0,Suppresed = 0,Hunger = 0,Familia = 0,NewBlood = 0,CoveredInBlood = 0,Adaptable = 0,Focused = 0,Shielded = 0,},
 		extras={Aura = 0,Activated = 0,Mode = 0},
 		tokens={},
 		health={current=-1,max= 9},
 		base={size=30,color=Color(1,0.5,1)},
 		imageScale=1.5,
+		isLocked=false,  -- Add this line
 		
 		moveHistory={},
 		
-
 		referenceCard = { GUID = '', obj = nil},
-	
+
 	};
 
 	local UIStatus = {
@@ -28,7 +30,35 @@ TRH_Class ="mini"
 		Black = {rotation = -2},
 		Grey = {rotation = -2},
 	};
+	
+-- Lock/Unlock button configuration
+local LOCK_ICON_URL = "https://raw.githubusercontent.com/farabaugh100/malifauxtts/Temporals_Branch/assets/img/baseMod/Locked_Icon.png"
+local UNLOCK_ICON_URL = "https://raw.githubusercontent.com/farabaugh100/malifauxtts/Temporals_Branch/assets/img/baseMod/Unlocked_Icon.png"
+local LOCK_BUTTON_COLOR = "#FFFFFF"  -- Colour for locked
+local UNLOCK_BUTTON_COLOR = "#FFFFFF"  -- Colour for unlocked
+	
+-- function to sync the lock button appearance
 
+	function SyncLockButton()
+		if not self.UI then return end
+		
+		local iconUrl = state.isLocked and LOCK_ICON_URL or UNLOCK_ICON_URL
+		-- Use same transparency as your health bar background (50%)
+		local buttonColor = "#FFFFFF80"  -- 50% transparent white
+		
+		for k,color in pairs({'Red', 'Blue','Grey','Black'}) do
+			self.UI.setAttributes(color .. "_LockButton", {
+				image = iconUrl,
+				color = buttonColor
+			});
+		end
+	end
+	
+	function UI_ToggleLock(player, alt)
+		if alt ~= '-3' then
+			ToggleLock()
+		end
+	end
 	
 
 ------ LIFE CICLE EVENTS --------------------
@@ -47,7 +77,12 @@ TRH_Class ="mini"
 		self.UI.setXml(ui())
 		RefreshModelShape()
 		showAura()
-		Wait.frames(function()resetPlayerRotation()end,60)
+		
+		-- Delay the SyncLockButton call to let UI fully initialize
+		Wait.frames(function()
+			resetPlayerRotation()
+			SyncLockButton()  -- Move this here, after UI is ready
+		end, 60)
 		
 	end
 	
@@ -66,35 +101,50 @@ TRH_Class ="mini"
 				HUDLookAtPlayer(player);
 			end
 		end
+		
+		-- Check if lock state changed
+		local currentLockState = self.getLock()
+		if currentLockState ~= state.isLocked then
+			state.isLocked = currentLockState
+			SyncLockButton()
+		end
 	end
 
 	function recoverState(save)
-        if save.state ~= nil then
-            local defaults = state.conditions          -- your zero-defaults from the literal table
+		if save.state ~= nil then
+			local defaults = state.conditions          -- your zero-defaults from the literal table
 			local defaults2 = state.extras
-            state = save.state
+			state = save.state
 			if state.extras==nil then
-                state.extras={Aura = 0,Activated = 0,Mode = 0}
-            end
-            -- re-apply any missing condition keys back to zero
-            for name,_ in pairs(defaults) do
-              state.conditions[name] = state.conditions[name] or 0
-            end
+				state.extras={Aura = 0,Activated = 0,Mode = 0}
+			end
+			-- Add this line to ensure isLocked is preserved
+			if state.isLocked == nil then
+				state.isLocked = false
+			end
+			-- re-apply any missing condition keys back to zero
+			for name,_ in pairs(defaults) do
+			  state.conditions[name] = state.conditions[name] or 0
+			end
 
 			for name,_ in pairs(defaults2) do
 				state.extras[name] = state.extras[name] or 0
 			end
-            -- ensure Mode is still defined
-            state.extras.Mode = state.extras.Mode or 0
-        else 
-            
-            originalData = save.originalData;
-            state.health = originalData.health;
-            state.base = originalData.base;
-            state.imageScale = originalData.imageScale;
-            state.base.color = Color(state.base.color); 
-        end
-		
+			-- ensure Mode is still defined
+			state.extras.Mode = state.extras.Mode or 0
+		else 
+			
+			originalData = save.originalData;
+			state.health = originalData.health;
+			state.base = originalData.base;
+			state.imageScale = originalData.imageScale;
+			state.base.color = Color(state.base.color); 
+			-- Add this line for backward compatibility
+			if state.isLocked == nil then
+				state.isLocked = false
+			end
+		end
+		self.setLock(state.isLocked)
 
 		-- TODO Modify State With original Data
 	end
@@ -128,8 +178,7 @@ TRH_Class ="mini"
 
 	function ModifyCondition(params)
 		local extrasKeys = { Mode = true, Aura = true, Activated = true }
-
-		local previousValue = 0;
+		local previousValue = 0
 
 		if extrasKeys[params.name] then 
 			local previousValue = state.extras[params.name]
@@ -145,7 +194,6 @@ TRH_Class ="mini"
 		else 
 			local previousValue = state.conditions[params.name]
 			if params.amount == 0 then -- toggle
-                
 				state.conditions[params.name] = math.max(0, 1 - state.conditions[params.name])
 			else
 				if Conditions[params.name].loop ~= nil then
@@ -154,27 +202,89 @@ TRH_Class ="mini"
 					state.conditions[params.name] = math.max(0, state.conditions[params.name] + params.amount)
 				end
 			end
+			
+			-- Update description when condition changes (only for non-extras)
+			UpdateDescriptionWithConditions()
 		end
 		
-		local states  = self.getData();
-
+		local states = self.getData()
 		Sync()
-	
+
 		if extrasKeys[params.name] then
 			print(self.getData().Nickname .. [[: ']] .. params.name .. [[' ]] .. previousValue .. [[->]] .. state.extras[params.name])
 			SyncExtra(params.name)
 		else
-            
 			print(self.getData().Nickname .. [[: ']] .. params.name .. [[' ]] .. previousValue .. [[->]] .. state.conditions[params.name])
 			SyncCondition(params.name)
 		end
-
-
 	end
 
 	function ModifyMoveRange(params)
 		state.move.moveRange = math.max(0, state.move.moveRange + params.amount);
 	end
+	
+------ ADD STATUS TO DESCRIPTION ------------
+	function GetConditionsFromDescription()
+		local desc = self.getDescription()
+		local conditions = {}
+		
+		-- Split description by newlines and look for condition names
+		for line in desc:gmatch("[^\r\n]+") do
+			local trimmedLine = line:match("^%s*(.-)%s*$") -- trim whitespace
+			if Conditions[trimmedLine] then
+				conditions[trimmedLine] = true
+			end
+		end
+		
+		return conditions
+	end
+
+	function GetBaseDescription()
+		local desc = self.getDescription()
+		local lines = {}
+		
+		-- Split by newlines and keep only non-condition lines
+		for line in desc:gmatch("[^\r\n]+") do
+			local trimmedLine = line:match("^%s*(.-)%s*$") -- trim whitespace
+			if not Conditions[trimmedLine] then
+				table.insert(lines, line)
+			end
+		end
+		
+		return table.concat(lines, "\n")
+	end
+	
+	function UpdateDescriptionWithConditions()
+		local baseDesc = GetBaseDescription()
+		local activeConditions = {}
+		
+		-- Collect all active conditions
+		for conditionName, value in pairs(state.conditions) do
+			if value > 0 then
+				table.insert(activeConditions, conditionName)
+			end
+		end
+		
+		-- Sort conditions alphabetically for consistency
+		table.sort(activeConditions)
+		
+		-- Build new description
+		local newDesc = baseDesc
+		if #activeConditions > 0 then
+			if newDesc ~= "" then
+				newDesc = newDesc .. "\n"
+			end
+			newDesc = newDesc .. table.concat(activeConditions, "\n")
+		end
+		
+		self.setDescription(newDesc)
+	end
+	
+	function CleanDescription()
+		local baseDesc = GetBaseDescription()
+		self.setDescription(baseDesc)
+		UpdateDescriptionWithConditions()
+	end	
 
 ------ MODEL MANIPULATION -------------------
 	
@@ -212,6 +322,16 @@ TRH_Class ="mini"
 			self.setColorTint( Color(state.base.color):lerp(Color.white, 0.45) )
 		end
 	end
+	
+-- function to toggle lock state
+function ToggleLock()
+    state.isLocked = not state.isLocked
+    self.setLock(state.isLocked)
+    SyncLockButton()
+    print(self.getData().Nickname .. " is now " .. (state.isLocked and "locked" or "unlocked"))
+end	
+	
+	
 ------ UI GENERATION ------------------------
 	function calculatePlayerRotation()
 		for _, player in ipairs(Player.getPlayers()) do
@@ -221,6 +341,7 @@ TRH_Class ="mini"
 	function Sync()
         resetPlayerRotation()
 		self.UI.setXml(ui())
+		SyncLockButton()
 		--propagateToReferenceCard()
 	end
 	
@@ -329,19 +450,26 @@ TRH_Class ="mini"
 		return [[
 			<Panel id='PlayerHUD_Container' active='true' height="80" width="60" rectAlignment="MiddleCenter"  rotation='-35 0 0' position='0 0 0' childForceExpandWidth="false">]]..
 			Compact_HUDConditions(color) ..
-				[[<ProgressBar width="100%" height="20" id="]] .. color .. [[_HealthBar" color='#00000080' fillImageColor="#44AA22FF" percentage="]] ..(state.health.current / state.health.max * 100) .. [[" textColor="#00000000"/>  ]] ..
-				[[<Text id=']] .. color .. [[_HealthBar_Text' fontSize='18' height="20" onClick='UI_ModifyHealth' text=']] .. state.health.current.. [[/]] .. state.health.max.. [[' color='#ffffff' fontStyle='Bold' outline='#000000' outlineSize='1 1' />]] ..
-			[[</Panel>
+			[[<Panel width="100%" height="20" rectAlignment="MiddleCenter">]] ..
+				-- Lock position
+				[[<Image id="]] .. color .. [[_LockButton" width="20" height="20" rectAlignment="MiddleCenter" position="-45 0 0" onClick="UI_ToggleLock" image="]] .. (state.isLocked and LOCK_ICON_URL or UNLOCK_ICON_URL) .. [[" color="#FF0000"/>]] ..
+				[[<ProgressBar width="80%" height="20" id="]] .. color .. [[_HealthBar" color='#00000080' fillImageColor="#44AA22FF" percentage="]] ..(state.health.current / state.health.max * 100) .. [[" textColor="#00000000" rectAlignment="MiddleCenter"/>]] ..
+				[[<Text id=']] .. color .. [[_HealthBar_Text' fontSize='18' height="20" onClick='UI_ModifyHealth' text=']] .. state.health.current.. [[/]] .. state.health.max.. [[' color='#ffffff' fontStyle='Bold' outline='#000000' outlineSize='1 1' rectAlignment="MiddleCenter"/>]] ..
+			[[</Panel>]] ..
+		[[</Panel>
 		]]
 	end
-
 
 	function PlayerHUDContainer(color)
 		return [[
 			<Panel id='PlayerHUD_Container' active='true' height="80" width="128" rectAlignment="MiddleCenter"  rotation='-35 0 0' position='0 50 0' childForceExpandWidth="false">]]..
 				HUDConditions(color) ..
-				[[<ProgressBar width="100%" height="30" id="]] .. color .. [[_HealthBar" color='#00000080' fillImageColor="#44AA22FF" percentage="]] ..(state.health.current / state.health.max * 100) .. [[" textColor="#00000000"/>  ]] ..
-				[[<Text id=']] .. color .. [[_HealthBar_Text' fontSize='25' height="30" onClick='UI_ModifyHealth' text=']] .. state.health.current.. [[/]] .. state.health.max.. [[' color='#ffffff' fontStyle='Bold' outline='#000000' outlineSize='1 1' />]] ..
+				[[<Panel width="100%" height="30" rectAlignment="MiddleCenter">]] ..
+					-- Lock Position
+					[[<Image id="]] .. color .. [[_LockButton" width="25" height="25" rectAlignment="MiddleCenter" position="-80 0 0" onClick="UI_ToggleLock" image="]] .. (state.isLocked and LOCK_ICON_URL or UNLOCK_ICON_URL) .. [[" color="#FF0000"/>]] ..
+					[[<ProgressBar width="80%" height="30" id="]] .. color .. [[_HealthBar" color='#00000080' fillImageColor="#44AA22FF" percentage="]] ..(state.health.current / state.health.max * 100) .. [[" textColor="#00000000" rectAlignment="MiddleCenter"/>]] ..
+					[[<Text id=']] .. color .. [[_HealthBar_Text' fontSize='25' height="30" onClick='UI_ModifyHealth' text=']] .. state.health.current.. [[/]] .. state.health.max.. [[' color='#ffffff' fontStyle='Bold' outline='#000000' outlineSize='1 1' rectAlignment="MiddleCenter"/>]] ..
+				[[</Panel>]] ..
 			[[</Panel>
 		]]
 	end
@@ -558,6 +686,9 @@ TRH_Class ="mini"
 		Shielded ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Shielded.png", color="#6AC3FF",stacks=false},
 		
 	}
+	
+	
+	
 
 ------ Object SPAWMERS ----------------------
 
