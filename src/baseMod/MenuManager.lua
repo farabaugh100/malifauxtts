@@ -217,7 +217,7 @@ end
 
 function FindDeploymentOverlay()
 if DeploymentOverlay == nil then
-    for key,guid in pairs {"c2c330" ,"3eed6c","57825b","02c08b"} do
+    for key,guid in pairs {"3550d9" ,"20bee9","a32ed4","b6d707"} do
         DeploymentOverlay = getObjectFromGUID(guid);
         if DeploymentOverlay ~= nil then
             break;
@@ -245,16 +245,16 @@ FindDeploymentOverlay();
 UIState.deployment.mode = (UIState.deployment.mode +1)%5;
 tellStratsDeployment(UIState.deployment.mode)
 if UIState.deployment.mode == 0 then
-    DeploymentOverlay.setScale(Vector(0.1,1,0.1))
+    --DeploymentOverlay.setScale(Vector(0.1,1,0.1))
     DeploymentOverlay.setPosition(Vector(0,-10,0))
 else
-    DeploymentOverlay.setScale(Vector(18,1,18));
+    --DeploymentOverlay.setScale(Vector(0.5,1,0.5));
     --log(DeploymentOverlay.getScale())
-    DeploymentOverlay.setPosition(Vector(0,0.95,0))
+    DeploymentOverlay.setPosition(Vector(0,0.81,0))
     DeploymentOverlay.setRotation(Vector(0, UIState.deployment.rotation * 90,0));
     DeploymentOverlay = DeploymentOverlay.setState(UIState.deployment.mode);
     print('Deployment set to "' .. StateToDeployment( UIState.deployment.mode) .. '"');
-    Wait.frames(function() DeploymentOverlay.setScale(Vector(18,1,18)); end,1)
+    --Wait.frames(function() DeploymentOverlay.setScale(Vector(0.5,1,0.5)); end,1)
 end
 end
 
