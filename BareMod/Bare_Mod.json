@@ -1,7 +1,7 @@
 {
   "SaveName": "Bare Mod",
-  "EpochTime": 1748279950,
-  "Date": "5/26/2025 1:19:10 PM",
+  "EpochTime": 1749337368,
+  "Date": "6/7/2025 7:02:48 PM",
   "VersionNumber": "v13.3",
   "GameMode": "Malifaux Breachside Gamma 4th Edition",
   "GameType": "Game",
@@ -3306,9 +3306,9 @@
         "posX": -37.8354721,
         "posY": 0.9864669,
         "posZ": -31.95159,
-        "rotX": 0.000431890745,
+        "rotX": 0.000431890861,
         "rotY": 270.0,
-        "rotZ": -8.77859638E-05,
+        "rotZ": -8.778594E-05,
         "scaleX": 0.5368931,
         "scaleY": 0.5515663,
         "scaleZ": 0.5515663
@@ -3322,9 +3322,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.4093948,
-        "g": 0.4093948,
-        "b": 0.4093948
+        "r": 0.409394771,
+        "g": 0.409394771,
+        "b": 0.409394771
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -3373,9 +3373,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.4093948,
-        "g": 0.4093948,
-        "b": 0.4093948
+        "r": 0.409394771,
+        "g": 0.409394771,
+        "b": 0.409394771
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -3424,9 +3424,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.127166361,
-        "g": 0.127166361,
-        "b": 0.127166361
+        "r": 0.127166331,
+        "g": 0.127166331,
+        "b": 0.127166331
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -3709,9 +3709,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.381521642,
-        "g": 0.381521642,
-        "b": 0.381521642
+        "r": 0.3815216,
+        "g": 0.3815216,
+        "b": 0.3815216
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -3760,9 +3760,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.2421489,
-        "g": 0.234976918,
-        "b": 0.234976918
+        "r": 0.242148876,
+        "g": 0.234976888,
+        "b": 0.234976888
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -3977,9 +3977,9 @@
         "posX": -1.52714753,
         "posY": 0.62777245,
         "posZ": -98.6046753,
-        "rotX": -1.03125994E-05,
+        "rotX": -9.69324446E-06,
         "rotY": 14.972434,
-        "rotZ": 1.05550259E-06,
+        "rotZ": 1.17573657E-08,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -3993,7 +3993,7 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.0459282473,
+        "r": 0.0459281951,
         "g": 0.475558221,
         "b": 0.8000001
       },
@@ -4140,9 +4140,9 @@
       "GUID": "e594e2",
       "Name": "3DText",
       "Transform": {
-        "posX": -7.62939453E-06,
-        "posY": 0.9599887,
-        "posZ": -47.4803238,
+        "posX": -3.81469727E-06,
+        "posY": 0.9599847,
+        "posZ": -47.48038,
         "rotX": 90.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4194,12 +4194,12 @@
       "GUID": "17aadb",
       "Name": "Checker_red",
       "Transform": {
-        "posX": 6.116607,
-        "posY": 0.587768435,
+        "posX": 6.11660671,
+        "posY": 0.5877683,
         "posZ": -98.79332,
-        "rotX": 0.000154329988,
+        "rotX": 0.000156021488,
         "rotY": 270.000977,
-        "rotZ": -0.000457426475,
+        "rotZ": -0.00045721326,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -4239,9 +4239,9 @@
       "GUID": "15caf9",
       "Name": "3DText",
       "Transform": {
-        "posX": -3.24249268E-05,
-        "posY": 0.9599887,
-        "posZ": -50.80034,
+        "posX": -1.90734881E-05,
+        "posY": 0.9599847,
+        "posZ": -50.8004074,
         "rotX": 90.0,
         "rotY": 179.540451,
         "rotZ": 0.0,
@@ -4293,9 +4293,9 @@
       "GUID": "7b5599",
       "Name": "3DText",
       "Transform": {
-        "posX": -8.675239,
-        "posY": 0.9603148,
-        "posZ": -47.50737,
+        "posX": -8.675218,
+        "posY": 0.960310936,
+        "posZ": -47.50743,
         "rotX": 90.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4348,11 +4348,11 @@
       "Name": "Notecard",
       "Transform": {
         "posX": -34.0,
-        "posY": 0.8314555,
+        "posY": 0.8314554,
         "posZ": -21.99982,
-        "rotX": -5.55052475E-06,
+        "rotX": -2.90462572E-06,
         "rotY": 90.0088654,
-        "rotZ": -5.5735477E-06,
+        "rotZ": -3.216636E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -4384,7 +4384,7 @@
       "GridProjection": false,
       "HideWhenFaceDown": false,
       "Hands": false,
-      "LuaScript": "-- Bundled by luabundle {\"rootModuleName\":\"Paste Your Crew in the Description.c8fe52.lua\",\"version\":\"1.6.0\"}\nlocal __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)\n\tlocal loadingPlaceholder = {[{}] = true}\n\n\tlocal register\n\tlocal modules = {}\n\n\tlocal require\n\tlocal loaded = {}\n\n\tregister = function(name, body)\n\t\tif not modules[name] then\n\t\t\tmodules[name] = body\n\t\tend\n\tend\n\n\trequire = function(name)\n\t\tlocal loadedModule = loaded[name]\n\n\t\tif loadedModule then\n\t\t\tif loadedModule == loadingPlaceholder then\n\t\t\t\treturn nil\n\t\t\tend\n\t\telse\n\t\t\tif not modules[name] then\n\t\t\t\tif not superRequire then\n\t\t\t\t\tlocal identifier = type(name) == 'string' and '\\\"' .. name .. '\\\"' or tostring(name)\n\t\t\t\t\terror('Tried to require ' .. identifier .. ', but no such module has been registered')\n\t\t\t\telse\n\t\t\t\t\treturn superRequire(name)\n\t\t\t\tend\n\t\t\tend\n\n\t\t\tloaded[name] = loadingPlaceholder\n\t\t\tloadedModule = modules[name](require, loaded, register, modules)\n\t\t\tloaded[name] = loadedModule\n\t\tend\n\n\t\treturn loadedModule\n\tend\n\n\treturn require, loaded, register, modules\nend)(nil)\n__bundle_register(\"Paste Your Crew in the Description.c8fe52.lua\", function(require, _LOADED, __bundle_register, __bundle_modules)\nrequire(\"baseMod/CrewFetcher\")\nend)\n__bundle_register(\"baseMod/CrewFetcher\", function(require, _LOADED, __bundle_register, __bundle_modules)\nreferenceCardsContainerGUID = \"000888\"\r\nupgradeContainerGUID = \"f5da9d\"\r\ncontrollerGUID = \"e894f6\"\r\nmissingNoContainerGUID = \"db7b30\"\r\nboardBlueGUID = \"5dd6ff\"\r\nboardRedGUID = \"9f46fd\"\r\n\r\nreferenceCardsContainerObject = nil\r\nupgradeContainerObject = nil\r\nmissingNoContainerObject = nil\r\nplayerColor = ''\r\nlocal workInProgress = false;\r\n\r\nbasePositionBlue = {x= -22, y=1.5,z=14}\r\nbasePositionRed = {x= 22, y=1.5,z=-14}\r\n\r\nspawnedRefCards = {}\r\nlocal prototypes = {\r\n    base = '3ce58e',\r\n}\r\nlocal Factions = {};\r\nFactions[\"Guild\"] = Color(191/255, 26/255, 33/255);\r\nFactions[\"Arcanists\"] = Color(0/255, 90/255, 154/255);\r\nFactions[\"Arcanist\"] = Color(0/255, 90/255, 154/255);\r\nFactions[\"Resurrectionists\"] = Color(37/255, 136/255, 69/255);\r\nFactions[\"Resurrectionist\"] = Color(37/255, 136/255, 69/255);\r\nFactions[\"Neverborn\"] = Color(95/255, 53/255, 129/255);\r\nFactions[\"Ten Thunders\"] = Color(208/255, 95/255, 36/255);\r\nFactions[\"Outcasts\"] = Color(181/255, 143/255, 18/255);\r\nFactions[\"Explorer's Society\"] = Color(0/255, 114/255, 111/255);\r\nFactions[\"Explorers Society\"] = Color(0/255, 114/255, 111/255);\r\nFactions[\"Bayou\"] = Color(145/255, 93/255, 35/255);\r\n\r\nlocal factionsBoardState = {}\r\nfactionsBoardState[\"Guild\"] = 2;\r\nfactionsBoardState[\"Arcanists\"] = 3;\r\nfactionsBoardState[\"Arcanist\"] = 3;\r\nfactionsBoardState[\"Resurrectionist\"] = 4;\r\nfactionsBoardState[\"Resurrectionists\"] = 4;\r\nfactionsBoardState[\"Neverborn\"] = 5;\r\nfactionsBoardState[\"Ten Thunders\"] = 6;\r\nfactionsBoardState[\"Outcasts\"] = 7;\r\nfactionsBoardState[\"Explorer's Society\"] = 8;\r\nfactionsBoardState[\"Explorers Society\"] = 8;\r\nfactionsBoardState[\"Bayou\"] = 9;\r\n\r\nfunction onload(saved_data)\r\n    createAll()\r\nend\r\n\r\nfunction updateSave()\r\nend\r\n\r\nfunction createAll()\r\n    s_color = {0.5, 0.5, 0.5, 95}\r\n    f_color = {0,0,0,1}\r\n    self.createButton({\r\n      label=\"Retrieve Crew\",\r\n      click_function=\"retrieve_crew_ui\",\r\n      tooltip=ttText,\r\n      function_owner=self,\r\n      position={0,1,0.6},\r\n      height=30,\r\n      width=300,\r\n      \r\n      scale={x=-0.6, y=1, z=-0.6},\r\n      font_size=30,\r\n      font_color=f_color,\r\n      color={0.8,0.8,0.9,1}\r\n      })\r\nend\r\n\r\nfunction removeAll()\r\n    self.removeButton(0)\r\nend\r\n\r\nfunction reloadAll()\r\n    removeAll()\r\n    createAll()\r\n    updateSave()\r\nend\r\n\r\nfunction retrieve_crew_ui(_obj, _color, alt_click)\r\n    if workInProgress == false then\r\n        workInProgress = true;\r\n        Wait.time( function() workInProgress =false;end,10);\r\n        if _color ~= 'Red' and _color ~= 'Blue' then\r\n            broadcastToAll(\"Please Select Color first, only Blue and Red are Valid\");\r\n        else\r\n            playerColor = _color\r\n            retrieve_crew()\r\n        \r\n        end\r\n    else\r\n        GetPlayerFromColor(playerColor).broadcast(\"Retrieving previous crew; wait 10 seconds\",Color[_color])\r\n    end\r\nend\r\nfunction retrieve_crew()\r\n    for key,refCard in pairs(spawnedRefCards) do\r\n        if refCard ~= nil and not refCard.isDestroyed() then\r\n            refCard.call(\"destruct\", {})\r\n            refCard.destruct()\r\n        end\r\n    end\r\n    spawnedRefCards = {}\r\n    local placingReferences = false\r\n   \r\n    if referenceCardsContainerObject == nil then\r\n        referenceCardsContainerObject = getObjectFromGUID(referenceCardsContainerGUID)\r\n    end\r\n    if upgradeContainerObject == nil then\r\n        upgradeContainerObject = getObjectFromGUID(upgradeContainerGUID)\r\n    end\r\n    if missingNoContainerObject == nil then\r\n        missingNoContainerObject = getObjectFromGUID(missingNoContainerGUID)\r\n    end\r\n\r\n   local modelPosition = 0\r\n   local description = self.getData().Description\r\n   local separatedCrew = mysplit(description)\r\n   \r\n   local faction = getFaction(separatedCrew[1])\r\n   GetPlayerFromColor(playerColor).broadcast(\"Retrieving '\"..separatedCrew[1]..\"' crew \",Color[playerColor])\r\n   for key,value in pairs(separatedCrew) do\r\n    local starterCharacter = string.sub(value, 1, 2)\r\n    if starterCharacter == 'Si' and key >1 then\r\n        local soulstones =string.sub(value,-2):gsub(\"%s+\",\"\")\r\n        soulstones=tonumber(soulstones)\r\n        \r\n        if soulstones>6 then\r\n            soulstones=6\r\n        end\r\n        getSoulstones(soulstones)\r\n    end\r\n    if starterCharacter == '  ' then\r\n      local entity = string.sub(value, 3)\r\n      local secondCharacter = string.sub(entity, 1, 2)\r\n      if secondCharacter == '  ' then\r\n        spawnUpgrade(string.sub(entity, 3),modelPosition)\r\n        print('upgrade: ' .. string.sub(entity, 3))\r\n      else\r\n        spawnModel(entity,modelPosition,faction,placingReferences)\r\n        --if spawnStatCard(entity,modelPosition,faction,placingReferences) then\r\n        --    spawnModel(entity,modelPosition,faction,placingReferences)\r\n        --end\r\n        --print('model: ' .. entity)\r\n        \r\n        if placingReferences == false then\r\n            modelPosition = modelPosition +1\r\n        end\r\n        \r\n      end\r\n    else\r\n        if value == 'References:' then\r\n            placingReferences = true    \r\n            modelPosition = modelPosition + 2\r\n        end\r\n\r\n    end\r\n    \r\n   end\r\nend\r\nfunction getSoulstones(soulstones)\r\n    local x=0\r\n    local z=07\r\n    --{-38.00, 0.86, 11.50}\r\n    if playerColor==\"Blue\" then\r\n        x=-38.000\r\n        z=11.5\r\n    elseif playerColor==\"Red\" then\r\n        x=38.00\r\n        z=-11.5\r\n    end\r\n    local soulstoneBag=getObjectFromGUID(\"ea5878\")\r\n    local wait=5\r\n    local y=1\r\n    for i = soulstones, 1, -1 do\r\n        Wait.frames(function()soulstoneBag.takeObject({position = {x = x, y = y, z = z}}) y=y+1 end,wait)\r\n        wait=wait+5\r\n    end\r\nend\r\nfunction getFaction(firstCrewLine)\r\n    for faction,color in pairs(Factions) do\r\n        if ends_with(firstCrewLine,\"(\".. faction ..\")\") then\r\n            setPlayerBoard(faction)\r\n            return faction;\r\n        end\r\n    end\r\nend\r\n\r\nfunction setPlayerBoard(faction)\r\n    local playerBoard\r\n    if playerColor == \"Blue\" then\r\n        playerBoard = getObjectFromGUID(boardBlueGUID)\r\n    elseif playerColor == \"Red\" then\r\n        playerBoard = getObjectFromGUID(boardRedGUID)\r\n    end\r\n    if playerBoard != nil then\r\n        playerBoard.setState(factionsBoardState[faction])\r\n    end\r\nend\r\nfunction spawnStatCard (modelName,modelSlot,faction,isReference)\r\n    ismodel = false;\r\n    local found = 0;\r\n    local color = Factions[faction];\r\n    local refrence = getObjectFromGUID(\"c78aef\")\r\n    local str = string.gsub(modelName, \"%s+\", \"\")\r\n    str = string.gsub(str, \",\", \"\")\r\n    str = string.gsub(str, \"-\", \"\")\r\n    local info=refrence.call(\"retriveModel\",str)\r\n    if info==\"na\" then\r\n        return true\r\n    else\r\n        info[\"playerColor\"]=playerColor\r\n        info[faction]=faction\r\n        local statCardPrototype = getObjectFromGUID(prototypes.base)\r\n        local pos=getSlotPosition(modelSlot):add(Vector(0,1,0))\r\n        local rot=getSlotRotation()\r\n        local statCard = statCardPrototype.clone({position=pos,rotation=rot})\r\n        Wait.frames(function() statCard.call(\"createStatCard\",info) end,10)\r\n        if string.match(info[\"characteristics\"], \"Master\") then\r\n            local crewCardinfo=refrence.call(\"retriveCrewCard\",info[\"crewCard\"])\r\n            if crewCardinfo==\"na\" then\r\n                return true\r\n            else\r\n                pos=getSlotPosition(18):add(Vector(0,1,0))\r\n                local crewCard = statCardPrototype.clone({position=pos,rotation=rot})\r\n                Wait.frames(function() crewCard.call(\"createCrewCard\",crewCardinfo) end,10)\r\n            end\r\n\r\n        end\r\n        return false\r\n    end\r\nend\r\nfunction spawnModel(modelName,modelSlot,faction,isReference)\r\n    ismodel = false;\r\n    local found = 0;\r\n    local color = Factions[faction];\r\n    for key,containedObject in pairs(referenceCardsContainerObject.getObjects()) do\r\n        local isEquivalentModel = containedObject.name:gsub(\"[%c%p]\", \"\") == modelName:gsub(\"[%c%p]\", \"\");\r\n        if isReference and modelName~=\"\" then\r\n            isEquivalentModel = starts_with(containedObject.name:gsub(\"[%c%p]\", \"\"),modelName:gsub(\"[%c%p]\", \"\"));\r\n        end\r\n        if isEquivalentModel then\r\n            ismodel = true\r\n            \r\n            referenceCardsContainerObject.takeObject({\r\n                index = containedObject.index - found,\r\n                position = getSlotPosition(modelSlot):add(Vector(0,1,0)),\r\n                rotation = getSlotRotation(),\r\n                callback_function = function(spawnedObject)\r\n                    spawnedObject.setCustomObject({stackable = false})\r\n                    spawnedObject.reload()\r\n                    spawnedObject.clone({position=referenceCardsContainerObject.getPosition(),rotation={x=0,y=180,z=0}})\r\n                    spawnedObject.call(\"rt_createModel\", {faction=faction,r = color.r,g = color.g,b = color.b,isReference=isReference})\r\n                    table.insert(spawnedRefCards, spawnedObject)\r\n                end,\r\n            })\r\n            found = found +1;\r\n            if isReference == false then\r\n                break \r\n            else\r\n            end\r\n        else\r\n            if isReference and found > 3 then\r\n                break\r\n            end\r\n        end\r\n    end\r\n\r\n    if ismodel == false then\r\n        spawnUpgrade (modelName,modelSlot)\r\n    end\r\nend\r\n\r\nfunction spawnUpgrade (modelName,modelSlot)\r\n    local found = false\r\n    for key,containedObject in pairs(upgradeContainerObject.getObjects()) do\r\n        if containedObject.name:gsub(\"[%c%p]\", \"\") == modelName:gsub(\"[%c%p]\", \"\") then\r\n            found = true\r\n            upgradeContainerObject.takeObject({\r\n                index = containedObject.index,\r\n                position = getSlotPosition(modelSlot-1.2),\r\n                rotation = getSlotRotation(),\r\n                callback_function = function(spawnedObject)\r\n                    spawnedObject.setCustomObject({stackable = false})\r\n                    spawnedObject.reload()\r\n                    local newCard=spawnedObject.clone({position=upgradeContainerObject.getPosition(),rotation={x=0,y=180,z=0}})\r\n                    Wait.frames(function()newCard.call(\"fetched\",playerColor)end,1)\r\n                    table.insert(spawnedRefCards, spawnedObject)\r\n                end,\r\n            })\r\n            break \r\n        end\r\n    end\r\n    if found == false then\r\n        spawnMissingNo(modelName,modelSlot)\r\n    end\r\nend\r\n\r\nfunction spawnMissingNo(modelName,modelSlot)\r\n    missingNoContainerObject.takeObject({\r\n        position = getSlotPosition(modelSlot):add(Vector(0,1,0)),\r\n        rotation = getSlotRotation(),\r\n        callback_function = function(spawnedObject)\r\n            spawnedObject.setCustomObject({stackable = false})\r\n            spawnedObject.reload()\r\n            spawnedObject.setName(\"MISSING (\" .. modelName .. \")\")\r\n        end\r\n    })\r\nend\r\n\r\nfunction getSlotPosition(modelSlot)\r\n    local row = 0\r\n    local targetPos = modelSlot\r\n    while targetPos >= 8.5 do\r\n        row = row + 1\r\n        targetPos = targetPos - 9\r\n    end\r\n\r\n    if playerColor == 'Red' then\r\n        return Vector( basePositionRed.x+ row * 6,basePositionRed.y  ,basePositionRed.z + ((targetPos) * ( 3.5)))\r\n    end\r\n    if playerColor == 'Blue' then\r\n        return Vector( basePositionBlue.x+ row * -6,basePositionBlue.y  ,basePositionBlue.z + ((targetPos) * ( -3.5)))\r\n    end\r\nend\r\n\r\n\r\nfunction getSlotRotation(modelSlot)\r\n    if playerColor == 'Red' then\r\n        return {x=0,y=90,z=0}\r\n    end\r\n    if playerColor == 'Blue' then\r\n        return {x=0,y=-90,z=0}\r\n    end\r\nend\r\n\r\n\r\nfunction mysplit (inputstr, sep)\r\n    if sep == nil then\r\n            sep = \"%c\"\r\n    end\r\n    local t={}\r\n    for str in string.gmatch(inputstr, \"([^\"..sep..\"]+)\") do\r\n            table.insert(t, str)\r\n    end\r\n    return t\r\nend\r\n\r\nfunction updateVal()\r\n    if tooltip_show then\r\n        ttText = \"     \" .. val .. \"\\n\" .. self.getName()\r\n    else\r\n        ttText = self.getName()\r\n    end\r\n\r\n    self.editButton({\r\n        index = 0,\r\n        label = tostring(val),\r\n        tooltip = ttText\r\n        })\r\nend\r\n\r\nfunction reset_val()\r\n    val = 0\r\n    updateVal()\r\n    updateSave()\r\nend\r\n\r\nfunction starts_with(str, start)\r\n    return str:sub(1, #start) == start\r\nend\r\n\r\nfunction ends_with(str, ending)\r\n    return ending == \"\" or str:sub(-#ending) == ending\r\nend\r\n\r\nfunction GetPlayerFromColor(color)\r\n    for _, player in pairs(Player.getPlayers()) do\r\n        if player.color == color then\r\n            return player;\r\n        end\r\n    end\r\nend\r\n\nend)\nreturn __bundle_require(\"Paste Your Crew in the Description.c8fe52.lua\")",
+      "LuaScript": "-- Bundled by luabundle {\"rootModuleName\":\"Paste Your Crew in the Description.c8fe52.lua\",\"version\":\"1.6.0\"}\nlocal __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)\n\tlocal loadingPlaceholder = {[{}] = true}\n\n\tlocal register\n\tlocal modules = {}\n\n\tlocal require\n\tlocal loaded = {}\n\n\tregister = function(name, body)\n\t\tif not modules[name] then\n\t\t\tmodules[name] = body\n\t\tend\n\tend\n\n\trequire = function(name)\n\t\tlocal loadedModule = loaded[name]\n\n\t\tif loadedModule then\n\t\t\tif loadedModule == loadingPlaceholder then\n\t\t\t\treturn nil\n\t\t\tend\n\t\telse\n\t\t\tif not modules[name] then\n\t\t\t\tif not superRequire then\n\t\t\t\t\tlocal identifier = type(name) == 'string' and '\\\"' .. name .. '\\\"' or tostring(name)\n\t\t\t\t\terror('Tried to require ' .. identifier .. ', but no such module has been registered')\n\t\t\t\telse\n\t\t\t\t\treturn superRequire(name)\n\t\t\t\tend\n\t\t\tend\n\n\t\t\tloaded[name] = loadingPlaceholder\n\t\t\tloadedModule = modules[name](require, loaded, register, modules)\n\t\t\tloaded[name] = loadedModule\n\t\tend\n\n\t\treturn loadedModule\n\tend\n\n\treturn require, loaded, register, modules\nend)(nil)\n__bundle_register(\"Paste Your Crew in the Description.c8fe52.lua\", function(require, _LOADED, __bundle_register, __bundle_modules)\nrequire(\"baseMod/CrewFetcher\")\nend)\n__bundle_register(\"baseMod/CrewFetcher\", function(require, _LOADED, __bundle_register, __bundle_modules)\nreferenceCardsContainerGUID = \"000888\"\r\nupgradeContainerGUID = \"f5da9d\"\r\ncontrollerGUID = \"e894f6\"\r\nmissingNoContainerGUID = \"db7b30\"\r\nboardBlueGUID = \"5dd6ff\"\r\nboardRedGUID = \"9f46fd\"\r\n\r\nreferenceCardsContainerObject = nil\r\nupgradeContainerObject = nil\r\nmissingNoContainerObject = nil\r\nplayerColor = ''\r\nlocal workInProgress = false;\r\n\r\nbasePositionBlue = {x= -22, y=1.5,z=14}\r\nbasePositionRed = {x= 22, y=1.5,z=-14}\r\n\r\nspawnedRefCards = {}\r\nlocal prototypes = {\r\n    base = '3ce58e',\r\n}\r\nlocal Factions = {};\r\nFactions[\"Guild\"] = Color(191/255, 26/255, 33/255);\r\nFactions[\"Arcanists\"] = Color(0/255, 90/255, 154/255);\r\nFactions[\"Arcanist\"] = Color(0/255, 90/255, 154/255);\r\nFactions[\"Resurrectionists\"] = Color(37/255, 136/255, 69/255);\r\nFactions[\"Resurrectionist\"] = Color(37/255, 136/255, 69/255);\r\nFactions[\"Neverborn\"] = Color(95/255, 53/255, 129/255);\r\nFactions[\"Ten Thunders\"] = Color(208/255, 95/255, 36/255);\r\nFactions[\"Outcasts\"] = Color(181/255, 143/255, 18/255);\r\nFactions[\"Explorer's Society\"] = Color(0/255, 114/255, 111/255);\r\nFactions[\"Explorers Society\"] = Color(0/255, 114/255, 111/255);\r\nFactions[\"Bayou\"] = Color(145/255, 93/255, 35/255);\r\n\r\nlocal factionsBoardState = {}\r\nfactionsBoardState[\"Guild\"] = 2;\r\nfactionsBoardState[\"Arcanists\"] = 3;\r\nfactionsBoardState[\"Arcanist\"] = 3;\r\nfactionsBoardState[\"Resurrectionist\"] = 4;\r\nfactionsBoardState[\"Resurrectionists\"] = 4;\r\nfactionsBoardState[\"Neverborn\"] = 5;\r\nfactionsBoardState[\"Ten Thunders\"] = 6;\r\nfactionsBoardState[\"Outcasts\"] = 7;\r\nfactionsBoardState[\"Explorer's Society\"] = 8;\r\nfactionsBoardState[\"Explorers Society\"] = 8;\r\nfactionsBoardState[\"Bayou\"] = 9;\r\n\r\nfunction onload(saved_data)\r\n    createAll()\r\nend\r\n\r\nfunction updateSave()\r\nend\r\n\r\nfunction createAll()\r\n    s_color = {0.5, 0.5, 0.5, 95}\r\n    f_color = {0,0,0,1}\r\n    self.createButton({\r\n      label=\"Retrieve Crew\",\r\n      click_function=\"retrieve_crew_ui\",\r\n      tooltip=ttText,\r\n      function_owner=self,\r\n      position={0,1,0.6},\r\n      height=30,\r\n      width=300,\r\n      \r\n      scale={x=-0.6, y=1, z=-0.6},\r\n      font_size=30,\r\n      font_color=f_color,\r\n      color={0.8,0.8,0.9,1}\r\n      })\r\nend\r\n\r\nfunction removeAll()\r\n    self.removeButton(0)\r\nend\r\n\r\nfunction reloadAll()\r\n    removeAll()\r\n    createAll()\r\n    updateSave()\r\nend\r\n\r\nfunction retrieve_crew_ui(_obj, _color, alt_click)\r\n    if workInProgress == false then\r\n        workInProgress = true;\r\n        Wait.time( function() workInProgress =false;end,10);\r\n        if _color ~= 'Red' and _color ~= 'Blue' then\r\n            broadcastToAll(\"Please Select Color first, only Blue and Red are Valid\");\r\n        else\r\n            playerColor = _color\r\n            retrieve_crew()\r\n        \r\n        end\r\n    else\r\n        GetPlayerFromColor(playerColor).broadcast(\"Retrieving previous crew; wait 10 seconds\",Color[_color])\r\n    end\r\nend\r\nfunction retrieve_crew()\r\n    for key,refCard in pairs(spawnedRefCards) do\r\n        if refCard ~= nil and not refCard.isDestroyed() then\r\n            refCard.call(\"destruct\", {})\r\n            refCard.destruct()\r\n        end\r\n    end\r\n    spawnedRefCards = {}\r\n    local placingReferences = false\r\n   \r\n    if referenceCardsContainerObject == nil then\r\n        referenceCardsContainerObject = getObjectFromGUID(referenceCardsContainerGUID)\r\n    end\r\n    if upgradeContainerObject == nil then\r\n        upgradeContainerObject = getObjectFromGUID(upgradeContainerGUID)\r\n    end\r\n    if missingNoContainerObject == nil then\r\n        missingNoContainerObject = getObjectFromGUID(missingNoContainerGUID)\r\n    end\r\n\r\n   local modelPosition = 0\r\n   local description = self.getData().Description\r\n   local separatedCrew = mysplit(description)\r\n   \r\n   local faction = getFaction(separatedCrew[1])\r\n   GetPlayerFromColor(playerColor).broadcast(\"Retrieving '\"..separatedCrew[1]..\"' crew \",Color[playerColor])\r\n   for key,value in pairs(separatedCrew) do\r\n    local starterCharacter = string.sub(value, 1, 2)\r\n    if starterCharacter == 'Si' and key >1 then\r\n        local soulstones =string.sub(value,-2):gsub(\"%s+\",\"\")\r\n        soulstones=tonumber(soulstones)\r\n        \r\n        if soulstones>6 then\r\n            soulstones=6\r\n        end\r\n        getSoulstones(soulstones)\r\n    end\r\n    if starterCharacter == '  ' then\r\n      local entity = string.sub(value, 3)\r\n      local secondCharacter = string.sub(entity, 1, 2)\r\n      if secondCharacter == '  ' then\r\n        spawnUpgrade(string.sub(entity, 3),modelPosition)\r\n        print('upgrade: ' .. string.sub(entity, 3))\r\n      else\r\n        spawnModel(entity,modelPosition,faction,placingReferences)\r\n        --if spawnStatCard(entity,modelPosition,faction,placingReferences) then\r\n        --    spawnModel(entity,modelPosition,faction,placingReferences)\r\n        --end\r\n        --print('model: ' .. entity)\r\n        \r\n        if placingReferences == false then\r\n            modelPosition = modelPosition +1\r\n        end\r\n        \r\n      end\r\n    else\r\n        if value == 'References:' then\r\n            placingReferences = true    \r\n            modelPosition = modelPosition + 2\r\n        end\r\n\r\n    end\r\n    \r\n   end\r\nend\r\nfunction getSoulstones(soulstones)\r\n    local x=0\r\n    local z=07\r\n    --{-38.00, 0.86, 11.50}\r\n    if playerColor==\"Blue\" then\r\n        x=-38.000\r\n        z=11.5\r\n    elseif playerColor==\"Red\" then\r\n        x=38.00\r\n        z=-11.5\r\n    end\r\n    local soulstoneBag=getObjectFromGUID(\"ea5878\")\r\n    local wait=5\r\n    local y=1\r\n    for i = soulstones, 1, -1 do\r\n        Wait.frames(function()soulstoneBag.takeObject({position = {x = x, y = y, z = z}}) y=y+1 end,wait)\r\n        wait=wait+5\r\n    end\r\nend\r\nfunction getFaction(firstCrewLine)\r\n    for faction,color in pairs(Factions) do\r\n        if ends_with(firstCrewLine,\"(\".. faction ..\")\") then\r\n            setPlayerBoard(faction)\r\n            return faction;\r\n        end\r\n    end\r\nend\r\n\r\nfunction setPlayerBoard(faction)\r\n    local playerBoard\r\n    if playerColor == \"Blue\" then\r\n        playerBoard = getObjectFromGUID(boardBlueGUID)\r\n    elseif playerColor == \"Red\" then\r\n        playerBoard = getObjectFromGUID(boardRedGUID)\r\n    end\r\n    if playerBoard != nil then\r\n        playerBoard.setState(factionsBoardState[faction])\r\n    end\r\nend\r\nfunction spawnStatCard (modelName,modelSlot,faction,isReference)\r\n    ismodel = false;\r\n    local found = 0;\r\n    local color = Factions[faction];\r\n    local refrence = getObjectFromGUID(\"c78aef\")\r\n    local str = string.gsub(modelName, \"%s+\", \"\")\r\n    str = string.gsub(str, \",\", \"\")\r\n    str = string.gsub(str, \"-\", \"\")\r\n    local info=refrence.call(\"retriveModel\",str)\r\n    if info==\"na\" then\r\n        return true\r\n    else\r\n        info[\"playerColor\"]=playerColor\r\n        info[faction]=faction\r\n        local statCardPrototype = getObjectFromGUID(prototypes.base)\r\n        local pos=getSlotPosition(modelSlot):add(Vector(0,1,0))\r\n        local rot=getSlotRotation()\r\n        local statCard = statCardPrototype.clone({position=pos,rotation=rot})\r\n        Wait.frames(function() statCard.call(\"createStatCard\",info) end,10)\r\n        if string.match(info[\"characteristics\"], \"Master\") then\r\n            local crewCardinfo=refrence.call(\"retriveCrewCard\",info[\"crewCard\"])\r\n            if crewCardinfo==\"na\" then\r\n                return true\r\n            else\r\n                pos=getSlotPosition(18):add(Vector(0,1,0))\r\n                local crewCard = statCardPrototype.clone({position=pos,rotation=rot})\r\n                Wait.frames(function() crewCard.call(\"createCrewCard\",crewCardinfo) end,10)\r\n            end\r\n\r\n        end\r\n        return false\r\n    end\r\nend\r\nfunction spawnModel(modelName,modelSlot,faction,isReference)\r\n    ismodel = false;\r\n    local found = 0;\r\n    local color = Factions[faction];\r\n    for key,containedObject in pairs(referenceCardsContainerObject.getObjects()) do\r\n        local isEquivalentModel = containedObject.name:gsub(\"[%c%p]\", \"\") == modelName:gsub(\"[%c%p]\", \"\");\r\n        if isReference and modelName~=\"\" then\r\n            isEquivalentModel = starts_with(string.lower(containedObject.name:gsub(\"[%c%p]\", \"\")),string.lower(modelName:gsub(\"[%c%p]\", \"\")));\r\n        end\r\n        if isEquivalentModel then\r\n            ismodel = true\r\n            \r\n            referenceCardsContainerObject.takeObject({\r\n                index = containedObject.index - found,\r\n                position = getSlotPosition(modelSlot):add(Vector(0,1,0)),\r\n                rotation = getSlotRotation(),\r\n                callback_function = function(spawnedObject)\r\n                    spawnedObject.setCustomObject({stackable = false})\r\n                    spawnedObject.reload()\r\n                    spawnedObject.clone({position=referenceCardsContainerObject.getPosition(),rotation={x=0,y=180,z=0}})\r\n                    spawnedObject.call(\"rt_createModel\", {faction=faction,r = color.r,g = color.g,b = color.b,isReference=isReference})\r\n                    table.insert(spawnedRefCards, spawnedObject)\r\n                end,\r\n            })\r\n            found = found +1;\r\n            if isReference == false then\r\n                break \r\n            else\r\n            end\r\n        else\r\n            if isReference and found > 3 then\r\n                break\r\n            end\r\n        end\r\n    end\r\n\r\n    if ismodel == false then\r\n        spawnUpgrade (modelName,modelSlot)\r\n    end\r\nend\r\n\r\nfunction spawnUpgrade (modelName,modelSlot)\r\n    local found = false\r\n    for key,containedObject in pairs(upgradeContainerObject.getObjects()) do\r\n        if containedObject.name:gsub(\"[%c%p]\", \"\") == modelName:gsub(\"[%c%p]\", \"\") then\r\n            found = true\r\n            upgradeContainerObject.takeObject({\r\n                index = containedObject.index,\r\n                position = getSlotPosition(modelSlot-1.2),\r\n                rotation = getSlotRotation(),\r\n                callback_function = function(spawnedObject)\r\n                    spawnedObject.setCustomObject({stackable = false})\r\n                    spawnedObject.reload()\r\n                    local newCard=spawnedObject.clone({position=upgradeContainerObject.getPosition(),rotation={x=0,y=180,z=0}})\r\n                    Wait.frames(function()newCard.call(\"fetched\",playerColor)end,1)\r\n                    table.insert(spawnedRefCards, spawnedObject)\r\n                end,\r\n            })\r\n            break \r\n        end\r\n    end\r\n    if found == false then\r\n        spawnMissingNo(modelName,modelSlot)\r\n    end\r\nend\r\n\r\nfunction spawnMissingNo(modelName,modelSlot)\r\n    missingNoContainerObject.takeObject({\r\n        position = getSlotPosition(modelSlot):add(Vector(0,1,0)),\r\n        rotation = getSlotRotation(),\r\n        callback_function = function(spawnedObject)\r\n            spawnedObject.setCustomObject({stackable = false})\r\n            spawnedObject.reload()\r\n            spawnedObject.setName(\"MISSING (\" .. modelName .. \")\")\r\n        end\r\n    })\r\nend\r\n\r\nfunction getSlotPosition(modelSlot)\r\n    local row = 0\r\n    local targetPos = modelSlot\r\n    while targetPos >= 8.5 do\r\n        row = row + 1\r\n        targetPos = targetPos - 9\r\n    end\r\n\r\n    if playerColor == 'Red' then\r\n        return Vector( basePositionRed.x+ row * 6,basePositionRed.y  ,basePositionRed.z + ((targetPos) * ( 3.5)))\r\n    end\r\n    if playerColor == 'Blue' then\r\n        return Vector( basePositionBlue.x+ row * -6,basePositionBlue.y  ,basePositionBlue.z + ((targetPos) * ( -3.5)))\r\n    end\r\nend\r\n\r\n\r\nfunction getSlotRotation(modelSlot)\r\n    if playerColor == 'Red' then\r\n        return {x=0,y=90,z=0}\r\n    end\r\n    if playerColor == 'Blue' then\r\n        return {x=0,y=-90,z=0}\r\n    end\r\nend\r\n\r\n\r\nfunction mysplit (inputstr, sep)\r\n    if sep == nil then\r\n            sep = \"%c\"\r\n    end\r\n    local t={}\r\n    for str in string.gmatch(inputstr, \"([^\"..sep..\"]+)\") do\r\n            table.insert(t, str)\r\n    end\r\n    return t\r\nend\r\n\r\nfunction updateVal()\r\n    if tooltip_show then\r\n        ttText = \"     \" .. val .. \"\\n\" .. self.getName()\r\n    else\r\n        ttText = self.getName()\r\n    end\r\n\r\n    self.editButton({\r\n        index = 0,\r\n        label = tostring(val),\r\n        tooltip = ttText\r\n        })\r\nend\r\n\r\nfunction reset_val()\r\n    val = 0\r\n    updateVal()\r\n    updateSave()\r\nend\r\n\r\nfunction starts_with(str, start)\r\n    return str:sub(1, #start) == start\r\nend\r\n\r\nfunction ends_with(str, ending)\r\n    return ending == \"\" or str:sub(-#ending) == ending\r\nend\r\n\r\nfunction GetPlayerFromColor(color)\r\n    for _, player in pairs(Player.getPlayers()) do\r\n        if player.color == color then\r\n            return player;\r\n        end\r\n    end\r\nend\r\n\nend)\nreturn __bundle_require(\"Paste Your Crew in the Description.c8fe52.lua\")",
       "LuaScriptState": "",
       "XmlUI": ""
     },
@@ -4392,12 +4392,12 @@
       "GUID": "15fc7f",
       "Name": "Checker_white",
       "Transform": {
-        "posX": 6.09988976,
-        "posY": 0.838223636,
-        "posZ": -98.74667,
-        "rotX": -0.00247688638,
-        "rotY": 89.98742,
-        "rotZ": 0.00239494559,
+        "posX": 6.099886,
+        "posY": 0.8382236,
+        "posZ": -98.746666,
+        "rotX": -0.00247772178,
+        "rotY": 89.98744,
+        "rotZ": 0.0023946974,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -4457,9 +4457,9 @@
         "posX": -36.1118965,
         "posY": 0.5877726,
         "posZ": 44.63,
-        "rotX": -1.05917035E-08,
+        "rotX": 4.62083776E-08,
         "rotY": 269.8769,
-        "rotZ": -1.0280365E-08,
+        "rotZ": -3.5900463E-08,
         "scaleX": 3.2506578,
         "scaleY": 1.0,
         "scaleZ": 3.2506578
@@ -4508,9 +4508,9 @@
         "posX": 36.11,
         "posY": 0.5877726,
         "posZ": 44.63,
-        "rotX": -1.19168329E-08,
+        "rotX": 6.31006E-09,
         "rotY": 89.9994,
-        "rotZ": -1.32275986E-07,
+        "rotZ": -2.1904933E-08,
         "scaleX": 3.2506578,
         "scaleY": 1.0,
         "scaleZ": 3.2506578
@@ -4556,11 +4556,11 @@
       "GUID": "d3c7cc",
       "Name": "3DText",
       "Transform": {
-        "posX": -0.218021408,
-        "posY": 0.9606391,
-        "posZ": 31.9145985,
+        "posX": -0.218006134,
+        "posY": 0.960635364,
+        "posZ": 31.914587,
         "rotX": 90.0,
-        "rotY": 0.301289827,
+        "rotY": 0.301275253,
         "rotZ": 0.0,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -4610,9 +4610,9 @@
       "GUID": "407221",
       "Name": "3DText",
       "Transform": {
-        "posX": -17.2805672,
-        "posY": 0.960147,
-        "posZ": 26.1344585,
+        "posX": -17.2805634,
+        "posY": 0.9601452,
+        "posZ": 26.1344433,
         "rotX": 90.0,
         "rotY": 359.468323,
         "rotZ": 0.0,
@@ -4664,9 +4664,9 @@
       "GUID": "15890f",
       "Name": "3DText",
       "Transform": {
-        "posX": 16.7951336,
-        "posY": 0.96089,
-        "posZ": 26.2562618,
+        "posX": 16.79516,
+        "posY": 0.960887134,
+        "posZ": 26.2562466,
         "rotX": 90.0,
         "rotY": 359.468323,
         "rotZ": 0.0,
@@ -5070,12 +5070,12 @@
       "GUID": "1b16b0",
       "Name": "BlockSquare",
       "Transform": {
-        "posX": 0.01271817,
+        "posX": 0.0127181737,
         "posY": 1.08777225,
         "posZ": -98.24594,
-        "rotX": -6.73921761E-07,
-        "rotY": 0.00427371357,
-        "rotZ": 1.348475E-06,
+        "rotX": -1.2217472E-06,
+        "rotY": 0.004270605,
+        "rotZ": 1.06330924E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -5115,9 +5115,9 @@
       "GUID": "66b554",
       "Name": "3DText",
       "Transform": {
-        "posX": 10.7942724,
-        "posY": 0.9608924,
-        "posZ": -98.31568,
+        "posX": 10.7942781,
+        "posY": 0.9608886,
+        "posZ": -98.31576,
         "rotX": 90.0,
         "rotY": 269.693481,
         "rotZ": 0.0,
@@ -5169,9 +5169,9 @@
       "GUID": "8a3c17",
       "Name": "3DText",
       "Transform": {
-        "posX": -9.557054,
-        "posY": 0.9601652,
-        "posZ": -98.01788,
+        "posX": -9.557041,
+        "posY": 0.960161,
+        "posZ": -98.01798,
         "rotX": 90.0,
         "rotY": 89.099,
         "rotZ": 0.0,
@@ -5448,7 +5448,7 @@
           "Stackable": false
         }
       },
-      "LuaScript": "-- Bundled by luabundle {\"rootModuleName\":\"Collapsing Mines.c1d250.lua\",\"version\":\"1.6.0\"}\nlocal __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)\n\tlocal loadingPlaceholder = {[{}] = true}\n\n\tlocal register\n\tlocal modules = {}\n\n\tlocal require\n\tlocal loaded = {}\n\n\tregister = function(name, body)\n\t\tif not modules[name] then\n\t\t\tmodules[name] = body\n\t\tend\n\tend\n\n\trequire = function(name)\n\t\tlocal loadedModule = loaded[name]\n\n\t\tif loadedModule then\n\t\t\tif loadedModule == loadingPlaceholder then\n\t\t\t\treturn nil\n\t\t\tend\n\t\telse\n\t\t\tif not modules[name] then\n\t\t\t\tif not superRequire then\n\t\t\t\t\tlocal identifier = type(name) == 'string' and '\\\"' .. name .. '\\\"' or tostring(name)\n\t\t\t\t\terror('Tried to require ' .. identifier .. ', but no such module has been registered')\n\t\t\t\telse\n\t\t\t\t\treturn superRequire(name)\n\t\t\t\tend\n\t\t\tend\n\n\t\t\tloaded[name] = loadingPlaceholder\n\t\t\tloadedModule = modules[name](require, loaded, register, modules)\n\t\t\tloaded[name] = loadedModule\n\t\tend\n\n\t\treturn loadedModule\n\tend\n\n\treturn require, loaded, register, modules\nend)(nil)\n__bundle_register(\"Collapsing Mines.c1d250.lua\", function(require, _LOADED, __bundle_register, __bundle_modules)\nrequire(\"strategies/CollapsingMines\")\n\nend)\n__bundle_register(\"strategies/CollapsingMines\", function(require, _LOADED, __bundle_register, __bundle_modules)\nlocal center={x= 0, y= 0.9114264,z= 0}\r\nlocal topLeft={x= 9, y= 0.91143,z= 9}\r\nlocal topRight={x= 9, y= 0.91143,z= -9}\r\nlocal bottomLeft={x= -9, y= 0.91143,z= 9}\r\nlocal bottomRight={x= -9, y= 0.91143,z= -9}\r\nfunction onLoad()\r\n    self.createButton({\r\n        label=tostring(val),\r\n        click_function=\"setUpStrat\",\r\n        tooltip=ttText,\r\n        function_owner=self,\r\n        position={0,0.05,-0.2},\r\n        height=600,\r\n        width=1000,\r\n        alignment = 3,\r\n        scale={x=1.5, y=1.5, z=1.5},\r\n        font_size=600,\r\n        font_color=f_color,\r\n        color={0,0,0,0}\r\n        })\r\n\r\nend\r\nfunction setUpStrat()\r\n    bagObject = getObjectFromGUID(\"b469ee\")\r\n    bagObject.takeObject({position=center}).setLock(true)\r\n    bagObject.takeObject({position=topLeft}).setLock(true)\r\n    bagObject.takeObject({position=topRight}).setLock(true)\r\n    bagObject.takeObject({position=bottomLeft}).setLock(true)\r\n    bagObject.takeObject({position=bottomRight}).setLock(true)\r\n\r\n    \r\nend\nend)\nreturn __bundle_require(\"Collapsing Mines.c1d250.lua\")",
+      "LuaScript": "-- Bundled by luabundle {\"rootModuleName\":\"Plan Explosives.c1d250.lua\",\"version\":\"1.6.0\"}\nlocal __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)\n\tlocal loadingPlaceholder = {[{}] = true}\n\n\tlocal register\n\tlocal modules = {}\n\n\tlocal require\n\tlocal loaded = {}\n\n\tregister = function(name, body)\n\t\tif not modules[name] then\n\t\t\tmodules[name] = body\n\t\tend\n\tend\n\n\trequire = function(name)\n\t\tlocal loadedModule = loaded[name]\n\n\t\tif loadedModule then\n\t\t\tif loadedModule == loadingPlaceholder then\n\t\t\t\treturn nil\n\t\t\tend\n\t\telse\n\t\t\tif not modules[name] then\n\t\t\t\tif not superRequire then\n\t\t\t\t\tlocal identifier = type(name) == 'string' and '\\\"' .. name .. '\\\"' or tostring(name)\n\t\t\t\t\terror('Tried to require ' .. identifier .. ', but no such module has been registered')\n\t\t\t\telse\n\t\t\t\t\treturn superRequire(name)\n\t\t\t\tend\n\t\t\tend\n\n\t\t\tloaded[name] = loadingPlaceholder\n\t\t\tloadedModule = modules[name](require, loaded, register, modules)\n\t\t\tloaded[name] = loadedModule\n\t\tend\n\n\t\treturn loadedModule\n\tend\n\n\treturn require, loaded, register, modules\nend)(nil)\n__bundle_register(\"Plan Explosives.c1d250.lua\", function(require, _LOADED, __bundle_register, __bundle_modules)\nrequire(\"strategies/CollapsingMines\")\n\nend)\n__bundle_register(\"strategies/CollapsingMines\", function(require, _LOADED, __bundle_register, __bundle_modules)\nlocal center={x= 0, y= 0.9114264,z= 0}\r\nlocal topLeft={x= 9, y= 0.91143,z= 9}\r\nlocal topRight={x= 9, y= 0.91143,z= -9}\r\nlocal bottomLeft={x= -9, y= 0.91143,z= 9}\r\nlocal bottomRight={x= -9, y= 0.91143,z= -9}\r\nfunction onLoad()\r\n    self.createButton({\r\n        label=tostring(val),\r\n        click_function=\"setUpStrat\",\r\n        tooltip=ttText,\r\n        function_owner=self,\r\n        position={0,0.05,-0.2},\r\n        height=600,\r\n        width=1000,\r\n        alignment = 3,\r\n        scale={x=1.5, y=1.5, z=1.5},\r\n        font_size=600,\r\n        font_color=f_color,\r\n        color={0,0,0,0}\r\n        })\r\n\r\nend\r\nfunction setUpStrat()\r\n    bagObject = getObjectFromGUID(\"b469ee\")\r\n    bagObject.takeObject({position=center}).setLock(true)\r\n    bagObject.takeObject({position=topLeft}).setLock(true)\r\n    bagObject.takeObject({position=topRight}).setLock(true)\r\n    bagObject.takeObject({position=bottomLeft}).setLock(true)\r\n    bagObject.takeObject({position=bottomRight}).setLock(true)\r\n\r\n    \r\nend\nend)\nreturn __bundle_require(\"Plan Explosives.c1d250.lua\")",
       "LuaScriptState": "",
       "XmlUI": ""
     },
@@ -5516,9 +5516,9 @@
         "posX": 12.6577768,
         "posY": 0.6210051,
         "posZ": -95.95677,
-        "rotX": -3.079457E-07,
+        "rotX": -4.32582567E-07,
         "rotY": 179.997,
-        "rotZ": 9.3004E-07,
+        "rotZ": 1.0738238E-06,
         "scaleX": 0.713773131,
         "scaleY": 0.0664657652,
         "scaleZ": 0.706220865
@@ -5692,9 +5692,9 @@
         "posX": 14.9626064,
         "posY": 0.6210051,
         "posZ": -96.5976639,
-        "rotX": 8.389576E-07,
+        "rotX": 8.00793941E-07,
         "rotY": 179.985977,
-        "rotZ": -3.2877324E-07,
+        "rotZ": -3.217677E-07,
         "scaleX": 0.7137734,
         "scaleY": 0.0664657652,
         "scaleZ": 0.7062205
@@ -5868,9 +5868,9 @@
         "posX": 13.4374294,
         "posY": 0.6214455,
         "posZ": -96.9794846,
-        "rotX": 1.2609938E-07,
+        "rotX": 1.44109109E-07,
         "rotY": 269.808167,
-        "rotZ": -5.650546E-07,
+        "rotZ": -4.56434634E-07,
         "scaleX": 0.73517406,
         "scaleY": 0.06734645,
         "scaleZ": 0.744278133
@@ -6056,11 +6056,11 @@
       "Name": "Custom_Tile",
       "Transform": {
         "posX": -6.072866,
-        "posY": 0.587772369,
+        "posY": 0.5877724,
         "posZ": -99.8726044,
-        "rotX": -2.274476E-07,
+        "rotX": -2.16327535E-07,
         "rotY": 270.0086,
-        "rotZ": 3.392469E-08,
+        "rotZ": 5.2172485E-08,
         "scaleX": 2.5,
         "scaleY": 1.0,
         "scaleZ": 2.5
@@ -6138,9 +6138,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.409394026,
-        "g": 0.409394026,
-        "b": 0.409394026
+        "r": 0.409394,
+        "g": 0.409394,
+        "b": 0.409394
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -6723,7 +6723,7 @@
         "posX": 7.84772062,
         "posY": 0.838255763,
         "posZ": -98.33321,
-        "rotX": -5.34631E-07,
+        "rotX": -2.853182E-07,
         "rotY": 179.9518,
         "rotZ": 180.0,
         "scaleX": 1.0,
@@ -6768,9 +6768,9 @@
         "posX": 13.49361,
         "posY": 0.570772231,
         "posZ": -91.04163,
-        "rotX": -4.20628368E-07,
+        "rotX": -3.97417949E-07,
         "rotY": 0.343849748,
-        "rotZ": 6.726968E-07,
+        "rotZ": 6.66935136E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -6862,10 +6862,10 @@
       "GUID": "02c7e5",
       "Name": "Deck",
       "Transform": {
-        "posX": 0.6262646,
-        "posY": 0.868661,
+        "posX": 0.6262645,
+        "posY": 0.8686609,
         "posZ": -90.17453,
-        "rotX": -1.14111586E-07,
+        "rotX": -1.45010958E-07,
         "rotY": 269.998352,
         "rotZ": 180.0,
         "scaleX": 1.5,
@@ -10714,7 +10714,7 @@
         "posZ": 44.64034,
         "rotX": 1.24191456E-06,
         "rotY": 180.00853,
-        "rotZ": 7.874046E-07,
+        "rotZ": 7.874047E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -11092,9 +11092,9 @@
         "posX": 13.4839077,
         "posY": 0.621445358,
         "posZ": -95.38546,
-        "rotX": -3.133467E-08,
+        "rotX": -9.736899E-09,
         "rotY": 90.0098,
-        "rotZ": 5.1869074E-07,
+        "rotZ": 4.87653551E-07,
         "scaleX": 0.7351749,
         "scaleY": 0.06734628,
         "scaleZ": 0.7442768
@@ -11280,11 +11280,11 @@
       "Name": "Custom_PDF",
       "Transform": {
         "posX": -36.11,
-        "posY": 0.5877726,
+        "posY": 0.587772548,
         "posZ": 55.0,
-        "rotX": -7.206792E-09,
+        "rotX": 5.65488634E-09,
         "rotY": 269.9839,
-        "rotZ": -4.39650236E-08,
+        "rotZ": -3.02990948E-08,
         "scaleX": 3.24971676,
         "scaleY": 1.0,
         "scaleZ": 3.24971676
@@ -11331,11 +11331,11 @@
       "Name": "Custom_PDF",
       "Transform": {
         "posX": 36.11,
-        "posY": 0.5877726,
+        "posY": 0.587772548,
         "posZ": 55.0013237,
-        "rotX": 1.35988882E-08,
+        "rotX": -8.558135E-09,
         "rotY": 90.01178,
-        "rotZ": -7.82488954E-08,
+        "rotZ": 2.22570748E-07,
         "scaleX": 3.24971676,
         "scaleY": 1.0,
         "scaleZ": 3.24971676
@@ -11381,12 +11381,12 @@
       "GUID": "591e39",
       "Name": "Bag",
       "Transform": {
-        "posX": -5.525511,
-        "posY": 0.402738929,
+        "posX": -5.525512,
+        "posY": 0.4027388,
         "posZ": -44.77294,
-        "rotX": 5.457525E-07,
-        "rotY": 269.986847,
-        "rotZ": 3.59789851E-07,
+        "rotX": 5.63531977E-09,
+        "rotY": 269.986664,
+        "rotZ": 2.96253063E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -16477,9 +16477,9 @@
         "posX": 34.0,
         "posY": 0.831455469,
         "posZ": -22.0,
-        "rotX": -2.289491E-06,
+        "rotX": -2.33984633E-06,
         "rotY": 270.0114,
-        "rotZ": 1.98596649E-06,
+        "rotZ": 1.96404039E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -16511,7 +16511,7 @@
       "GridProjection": false,
       "HideWhenFaceDown": false,
       "Hands": false,
-      "LuaScript": "-- Bundled by luabundle {\"rootModuleName\":\"Paste Your Crew in the Description.ddca98.lua\",\"version\":\"1.6.0\"}\nlocal __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)\n\tlocal loadingPlaceholder = {[{}] = true}\n\n\tlocal register\n\tlocal modules = {}\n\n\tlocal require\n\tlocal loaded = {}\n\n\tregister = function(name, body)\n\t\tif not modules[name] then\n\t\t\tmodules[name] = body\n\t\tend\n\tend\n\n\trequire = function(name)\n\t\tlocal loadedModule = loaded[name]\n\n\t\tif loadedModule then\n\t\t\tif loadedModule == loadingPlaceholder then\n\t\t\t\treturn nil\n\t\t\tend\n\t\telse\n\t\t\tif not modules[name] then\n\t\t\t\tif not superRequire then\n\t\t\t\t\tlocal identifier = type(name) == 'string' and '\\\"' .. name .. '\\\"' or tostring(name)\n\t\t\t\t\terror('Tried to require ' .. identifier .. ', but no such module has been registered')\n\t\t\t\telse\n\t\t\t\t\treturn superRequire(name)\n\t\t\t\tend\n\t\t\tend\n\n\t\t\tloaded[name] = loadingPlaceholder\n\t\t\tloadedModule = modules[name](require, loaded, register, modules)\n\t\t\tloaded[name] = loadedModule\n\t\tend\n\n\t\treturn loadedModule\n\tend\n\n\treturn require, loaded, register, modules\nend)(nil)\n__bundle_register(\"Paste Your Crew in the Description.ddca98.lua\", function(require, _LOADED, __bundle_register, __bundle_modules)\nrequire(\"baseMod/CrewFetcher\")\nend)\n__bundle_register(\"baseMod/CrewFetcher\", function(require, _LOADED, __bundle_register, __bundle_modules)\nreferenceCardsContainerGUID = \"000888\"\r\nupgradeContainerGUID = \"f5da9d\"\r\ncontrollerGUID = \"e894f6\"\r\nmissingNoContainerGUID = \"db7b30\"\r\nboardBlueGUID = \"5dd6ff\"\r\nboardRedGUID = \"9f46fd\"\r\n\r\nreferenceCardsContainerObject = nil\r\nupgradeContainerObject = nil\r\nmissingNoContainerObject = nil\r\nplayerColor = ''\r\nlocal workInProgress = false;\r\n\r\nbasePositionBlue = {x= -22, y=1.5,z=14}\r\nbasePositionRed = {x= 22, y=1.5,z=-14}\r\n\r\nspawnedRefCards = {}\r\nlocal prototypes = {\r\n    base = '3ce58e',\r\n}\r\nlocal Factions = {};\r\nFactions[\"Guild\"] = Color(191/255, 26/255, 33/255);\r\nFactions[\"Arcanists\"] = Color(0/255, 90/255, 154/255);\r\nFactions[\"Arcanist\"] = Color(0/255, 90/255, 154/255);\r\nFactions[\"Resurrectionists\"] = Color(37/255, 136/255, 69/255);\r\nFactions[\"Resurrectionist\"] = Color(37/255, 136/255, 69/255);\r\nFactions[\"Neverborn\"] = Color(95/255, 53/255, 129/255);\r\nFactions[\"Ten Thunders\"] = Color(208/255, 95/255, 36/255);\r\nFactions[\"Outcasts\"] = Color(181/255, 143/255, 18/255);\r\nFactions[\"Explorer's Society\"] = Color(0/255, 114/255, 111/255);\r\nFactions[\"Explorers Society\"] = Color(0/255, 114/255, 111/255);\r\nFactions[\"Bayou\"] = Color(145/255, 93/255, 35/255);\r\n\r\nlocal factionsBoardState = {}\r\nfactionsBoardState[\"Guild\"] = 2;\r\nfactionsBoardState[\"Arcanists\"] = 3;\r\nfactionsBoardState[\"Arcanist\"] = 3;\r\nfactionsBoardState[\"Resurrectionist\"] = 4;\r\nfactionsBoardState[\"Resurrectionists\"] = 4;\r\nfactionsBoardState[\"Neverborn\"] = 5;\r\nfactionsBoardState[\"Ten Thunders\"] = 6;\r\nfactionsBoardState[\"Outcasts\"] = 7;\r\nfactionsBoardState[\"Explorer's Society\"] = 8;\r\nfactionsBoardState[\"Explorers Society\"] = 8;\r\nfactionsBoardState[\"Bayou\"] = 9;\r\n\r\nfunction onload(saved_data)\r\n    createAll()\r\nend\r\n\r\nfunction updateSave()\r\nend\r\n\r\nfunction createAll()\r\n    s_color = {0.5, 0.5, 0.5, 95}\r\n    f_color = {0,0,0,1}\r\n    self.createButton({\r\n      label=\"Retrieve Crew\",\r\n      click_function=\"retrieve_crew_ui\",\r\n      tooltip=ttText,\r\n      function_owner=self,\r\n      position={0,1,0.6},\r\n      height=30,\r\n      width=300,\r\n      \r\n      scale={x=-0.6, y=1, z=-0.6},\r\n      font_size=30,\r\n      font_color=f_color,\r\n      color={0.8,0.8,0.9,1}\r\n      })\r\nend\r\n\r\nfunction removeAll()\r\n    self.removeButton(0)\r\nend\r\n\r\nfunction reloadAll()\r\n    removeAll()\r\n    createAll()\r\n    updateSave()\r\nend\r\n\r\nfunction retrieve_crew_ui(_obj, _color, alt_click)\r\n    if workInProgress == false then\r\n        workInProgress = true;\r\n        Wait.time( function() workInProgress =false;end,10);\r\n        if _color ~= 'Red' and _color ~= 'Blue' then\r\n            broadcastToAll(\"Please Select Color first, only Blue and Red are Valid\");\r\n        else\r\n            playerColor = _color\r\n            retrieve_crew()\r\n        \r\n        end\r\n    else\r\n        GetPlayerFromColor(playerColor).broadcast(\"Retrieving previous crew; wait 10 seconds\",Color[_color])\r\n    end\r\nend\r\nfunction retrieve_crew()\r\n    for key,refCard in pairs(spawnedRefCards) do\r\n        if refCard ~= nil and not refCard.isDestroyed() then\r\n            refCard.call(\"destruct\", {})\r\n            refCard.destruct()\r\n        end\r\n    end\r\n    spawnedRefCards = {}\r\n    local placingReferences = false\r\n   \r\n    if referenceCardsContainerObject == nil then\r\n        referenceCardsContainerObject = getObjectFromGUID(referenceCardsContainerGUID)\r\n    end\r\n    if upgradeContainerObject == nil then\r\n        upgradeContainerObject = getObjectFromGUID(upgradeContainerGUID)\r\n    end\r\n    if missingNoContainerObject == nil then\r\n        missingNoContainerObject = getObjectFromGUID(missingNoContainerGUID)\r\n    end\r\n\r\n   local modelPosition = 0\r\n   local description = self.getData().Description\r\n   local separatedCrew = mysplit(description)\r\n   \r\n   local faction = getFaction(separatedCrew[1])\r\n   GetPlayerFromColor(playerColor).broadcast(\"Retrieving '\"..separatedCrew[1]..\"' crew \",Color[playerColor])\r\n   for key,value in pairs(separatedCrew) do\r\n    local starterCharacter = string.sub(value, 1, 2)\r\n    if starterCharacter == 'Si' and key >1 then\r\n        local soulstones =string.sub(value,-2):gsub(\"%s+\",\"\")\r\n        soulstones=tonumber(soulstones)\r\n        \r\n        if soulstones>6 then\r\n            soulstones=6\r\n        end\r\n        getSoulstones(soulstones)\r\n    end\r\n    if starterCharacter == '  ' then\r\n      local entity = string.sub(value, 3)\r\n      local secondCharacter = string.sub(entity, 1, 2)\r\n      if secondCharacter == '  ' then\r\n        spawnUpgrade(string.sub(entity, 3),modelPosition)\r\n        print('upgrade: ' .. string.sub(entity, 3))\r\n      else\r\n        spawnModel(entity,modelPosition,faction,placingReferences)\r\n        --if spawnStatCard(entity,modelPosition,faction,placingReferences) then\r\n        --    spawnModel(entity,modelPosition,faction,placingReferences)\r\n        --end\r\n        --print('model: ' .. entity)\r\n        \r\n        if placingReferences == false then\r\n            modelPosition = modelPosition +1\r\n        end\r\n        \r\n      end\r\n    else\r\n        if value == 'References:' then\r\n            placingReferences = true    \r\n            modelPosition = modelPosition + 2\r\n        end\r\n\r\n    end\r\n    \r\n   end\r\nend\r\nfunction getSoulstones(soulstones)\r\n    local x=0\r\n    local z=07\r\n    --{-38.00, 0.86, 11.50}\r\n    if playerColor==\"Blue\" then\r\n        x=-38.000\r\n        z=11.5\r\n    elseif playerColor==\"Red\" then\r\n        x=38.00\r\n        z=-11.5\r\n    end\r\n    local soulstoneBag=getObjectFromGUID(\"ea5878\")\r\n    local wait=5\r\n    local y=1\r\n    for i = soulstones, 1, -1 do\r\n        Wait.frames(function()soulstoneBag.takeObject({position = {x = x, y = y, z = z}}) y=y+1 end,wait)\r\n        wait=wait+5\r\n    end\r\nend\r\nfunction getFaction(firstCrewLine)\r\n    for faction,color in pairs(Factions) do\r\n        if ends_with(firstCrewLine,\"(\".. faction ..\")\") then\r\n            setPlayerBoard(faction)\r\n            return faction;\r\n        end\r\n    end\r\nend\r\n\r\nfunction setPlayerBoard(faction)\r\n    local playerBoard\r\n    if playerColor == \"Blue\" then\r\n        playerBoard = getObjectFromGUID(boardBlueGUID)\r\n    elseif playerColor == \"Red\" then\r\n        playerBoard = getObjectFromGUID(boardRedGUID)\r\n    end\r\n    if playerBoard != nil then\r\n        playerBoard.setState(factionsBoardState[faction])\r\n    end\r\nend\r\nfunction spawnStatCard (modelName,modelSlot,faction,isReference)\r\n    ismodel = false;\r\n    local found = 0;\r\n    local color = Factions[faction];\r\n    local refrence = getObjectFromGUID(\"c78aef\")\r\n    local str = string.gsub(modelName, \"%s+\", \"\")\r\n    str = string.gsub(str, \",\", \"\")\r\n    str = string.gsub(str, \"-\", \"\")\r\n    local info=refrence.call(\"retriveModel\",str)\r\n    if info==\"na\" then\r\n        return true\r\n    else\r\n        info[\"playerColor\"]=playerColor\r\n        info[faction]=faction\r\n        local statCardPrototype = getObjectFromGUID(prototypes.base)\r\n        local pos=getSlotPosition(modelSlot):add(Vector(0,1,0))\r\n        local rot=getSlotRotation()\r\n        local statCard = statCardPrototype.clone({position=pos,rotation=rot})\r\n        Wait.frames(function() statCard.call(\"createStatCard\",info) end,10)\r\n        if string.match(info[\"characteristics\"], \"Master\") then\r\n            local crewCardinfo=refrence.call(\"retriveCrewCard\",info[\"crewCard\"])\r\n            if crewCardinfo==\"na\" then\r\n                return true\r\n            else\r\n                pos=getSlotPosition(18):add(Vector(0,1,0))\r\n                local crewCard = statCardPrototype.clone({position=pos,rotation=rot})\r\n                Wait.frames(function() crewCard.call(\"createCrewCard\",crewCardinfo) end,10)\r\n            end\r\n\r\n        end\r\n        return false\r\n    end\r\nend\r\nfunction spawnModel(modelName,modelSlot,faction,isReference)\r\n    ismodel = false;\r\n    local found = 0;\r\n    local color = Factions[faction];\r\n    for key,containedObject in pairs(referenceCardsContainerObject.getObjects()) do\r\n        local isEquivalentModel = containedObject.name:gsub(\"[%c%p]\", \"\") == modelName:gsub(\"[%c%p]\", \"\");\r\n        if isReference and modelName~=\"\" then\r\n            isEquivalentModel = starts_with(containedObject.name:gsub(\"[%c%p]\", \"\"),modelName:gsub(\"[%c%p]\", \"\"));\r\n        end\r\n        if isEquivalentModel then\r\n            ismodel = true\r\n            \r\n            referenceCardsContainerObject.takeObject({\r\n                index = containedObject.index - found,\r\n                position = getSlotPosition(modelSlot):add(Vector(0,1,0)),\r\n                rotation = getSlotRotation(),\r\n                callback_function = function(spawnedObject)\r\n                    spawnedObject.setCustomObject({stackable = false})\r\n                    spawnedObject.reload()\r\n                    spawnedObject.clone({position=referenceCardsContainerObject.getPosition(),rotation={x=0,y=180,z=0}})\r\n                    spawnedObject.call(\"rt_createModel\", {faction=faction,r = color.r,g = color.g,b = color.b,isReference=isReference})\r\n                    table.insert(spawnedRefCards, spawnedObject)\r\n                end,\r\n            })\r\n            found = found +1;\r\n            if isReference == false then\r\n                break \r\n            else\r\n            end\r\n        else\r\n            if isReference and found > 3 then\r\n                break\r\n            end\r\n        end\r\n    end\r\n\r\n    if ismodel == false then\r\n        spawnUpgrade (modelName,modelSlot)\r\n    end\r\nend\r\n\r\nfunction spawnUpgrade (modelName,modelSlot)\r\n    local found = false\r\n    for key,containedObject in pairs(upgradeContainerObject.getObjects()) do\r\n        if containedObject.name:gsub(\"[%c%p]\", \"\") == modelName:gsub(\"[%c%p]\", \"\") then\r\n            found = true\r\n            upgradeContainerObject.takeObject({\r\n                index = containedObject.index,\r\n                position = getSlotPosition(modelSlot-1.2),\r\n                rotation = getSlotRotation(),\r\n                callback_function = function(spawnedObject)\r\n                    spawnedObject.setCustomObject({stackable = false})\r\n                    spawnedObject.reload()\r\n                    local newCard=spawnedObject.clone({position=upgradeContainerObject.getPosition(),rotation={x=0,y=180,z=0}})\r\n                    Wait.frames(function()newCard.call(\"fetched\",playerColor)end,1)\r\n                    table.insert(spawnedRefCards, spawnedObject)\r\n                end,\r\n            })\r\n            break \r\n        end\r\n    end\r\n    if found == false then\r\n        spawnMissingNo(modelName,modelSlot)\r\n    end\r\nend\r\n\r\nfunction spawnMissingNo(modelName,modelSlot)\r\n    missingNoContainerObject.takeObject({\r\n        position = getSlotPosition(modelSlot):add(Vector(0,1,0)),\r\n        rotation = getSlotRotation(),\r\n        callback_function = function(spawnedObject)\r\n            spawnedObject.setCustomObject({stackable = false})\r\n            spawnedObject.reload()\r\n            spawnedObject.setName(\"MISSING (\" .. modelName .. \")\")\r\n        end\r\n    })\r\nend\r\n\r\nfunction getSlotPosition(modelSlot)\r\n    local row = 0\r\n    local targetPos = modelSlot\r\n    while targetPos >= 8.5 do\r\n        row = row + 1\r\n        targetPos = targetPos - 9\r\n    end\r\n\r\n    if playerColor == 'Red' then\r\n        return Vector( basePositionRed.x+ row * 6,basePositionRed.y  ,basePositionRed.z + ((targetPos) * ( 3.5)))\r\n    end\r\n    if playerColor == 'Blue' then\r\n        return Vector( basePositionBlue.x+ row * -6,basePositionBlue.y  ,basePositionBlue.z + ((targetPos) * ( -3.5)))\r\n    end\r\nend\r\n\r\n\r\nfunction getSlotRotation(modelSlot)\r\n    if playerColor == 'Red' then\r\n        return {x=0,y=90,z=0}\r\n    end\r\n    if playerColor == 'Blue' then\r\n        return {x=0,y=-90,z=0}\r\n    end\r\nend\r\n\r\n\r\nfunction mysplit (inputstr, sep)\r\n    if sep == nil then\r\n            sep = \"%c\"\r\n    end\r\n    local t={}\r\n    for str in string.gmatch(inputstr, \"([^\"..sep..\"]+)\") do\r\n            table.insert(t, str)\r\n    end\r\n    return t\r\nend\r\n\r\nfunction updateVal()\r\n    if tooltip_show then\r\n        ttText = \"     \" .. val .. \"\\n\" .. self.getName()\r\n    else\r\n        ttText = self.getName()\r\n    end\r\n\r\n    self.editButton({\r\n        index = 0,\r\n        label = tostring(val),\r\n        tooltip = ttText\r\n        })\r\nend\r\n\r\nfunction reset_val()\r\n    val = 0\r\n    updateVal()\r\n    updateSave()\r\nend\r\n\r\nfunction starts_with(str, start)\r\n    return str:sub(1, #start) == start\r\nend\r\n\r\nfunction ends_with(str, ending)\r\n    return ending == \"\" or str:sub(-#ending) == ending\r\nend\r\n\r\nfunction GetPlayerFromColor(color)\r\n    for _, player in pairs(Player.getPlayers()) do\r\n        if player.color == color then\r\n            return player;\r\n        end\r\n    end\r\nend\r\n\nend)\nreturn __bundle_require(\"Paste Your Crew in the Description.ddca98.lua\")",
+      "LuaScript": "-- Bundled by luabundle {\"rootModuleName\":\"Paste Your Crew in the Description.ddca98.lua\",\"version\":\"1.6.0\"}\nlocal __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)\n\tlocal loadingPlaceholder = {[{}] = true}\n\n\tlocal register\n\tlocal modules = {}\n\n\tlocal require\n\tlocal loaded = {}\n\n\tregister = function(name, body)\n\t\tif not modules[name] then\n\t\t\tmodules[name] = body\n\t\tend\n\tend\n\n\trequire = function(name)\n\t\tlocal loadedModule = loaded[name]\n\n\t\tif loadedModule then\n\t\t\tif loadedModule == loadingPlaceholder then\n\t\t\t\treturn nil\n\t\t\tend\n\t\telse\n\t\t\tif not modules[name] then\n\t\t\t\tif not superRequire then\n\t\t\t\t\tlocal identifier = type(name) == 'string' and '\\\"' .. name .. '\\\"' or tostring(name)\n\t\t\t\t\terror('Tried to require ' .. identifier .. ', but no such module has been registered')\n\t\t\t\telse\n\t\t\t\t\treturn superRequire(name)\n\t\t\t\tend\n\t\t\tend\n\n\t\t\tloaded[name] = loadingPlaceholder\n\t\t\tloadedModule = modules[name](require, loaded, register, modules)\n\t\t\tloaded[name] = loadedModule\n\t\tend\n\n\t\treturn loadedModule\n\tend\n\n\treturn require, loaded, register, modules\nend)(nil)\n__bundle_register(\"Paste Your Crew in the Description.ddca98.lua\", function(require, _LOADED, __bundle_register, __bundle_modules)\nrequire(\"baseMod/CrewFetcher\")\nend)\n__bundle_register(\"baseMod/CrewFetcher\", function(require, _LOADED, __bundle_register, __bundle_modules)\nreferenceCardsContainerGUID = \"000888\"\r\nupgradeContainerGUID = \"f5da9d\"\r\ncontrollerGUID = \"e894f6\"\r\nmissingNoContainerGUID = \"db7b30\"\r\nboardBlueGUID = \"5dd6ff\"\r\nboardRedGUID = \"9f46fd\"\r\n\r\nreferenceCardsContainerObject = nil\r\nupgradeContainerObject = nil\r\nmissingNoContainerObject = nil\r\nplayerColor = ''\r\nlocal workInProgress = false;\r\n\r\nbasePositionBlue = {x= -22, y=1.5,z=14}\r\nbasePositionRed = {x= 22, y=1.5,z=-14}\r\n\r\nspawnedRefCards = {}\r\nlocal prototypes = {\r\n    base = '3ce58e',\r\n}\r\nlocal Factions = {};\r\nFactions[\"Guild\"] = Color(191/255, 26/255, 33/255);\r\nFactions[\"Arcanists\"] = Color(0/255, 90/255, 154/255);\r\nFactions[\"Arcanist\"] = Color(0/255, 90/255, 154/255);\r\nFactions[\"Resurrectionists\"] = Color(37/255, 136/255, 69/255);\r\nFactions[\"Resurrectionist\"] = Color(37/255, 136/255, 69/255);\r\nFactions[\"Neverborn\"] = Color(95/255, 53/255, 129/255);\r\nFactions[\"Ten Thunders\"] = Color(208/255, 95/255, 36/255);\r\nFactions[\"Outcasts\"] = Color(181/255, 143/255, 18/255);\r\nFactions[\"Explorer's Society\"] = Color(0/255, 114/255, 111/255);\r\nFactions[\"Explorers Society\"] = Color(0/255, 114/255, 111/255);\r\nFactions[\"Bayou\"] = Color(145/255, 93/255, 35/255);\r\n\r\nlocal factionsBoardState = {}\r\nfactionsBoardState[\"Guild\"] = 2;\r\nfactionsBoardState[\"Arcanists\"] = 3;\r\nfactionsBoardState[\"Arcanist\"] = 3;\r\nfactionsBoardState[\"Resurrectionist\"] = 4;\r\nfactionsBoardState[\"Resurrectionists\"] = 4;\r\nfactionsBoardState[\"Neverborn\"] = 5;\r\nfactionsBoardState[\"Ten Thunders\"] = 6;\r\nfactionsBoardState[\"Outcasts\"] = 7;\r\nfactionsBoardState[\"Explorer's Society\"] = 8;\r\nfactionsBoardState[\"Explorers Society\"] = 8;\r\nfactionsBoardState[\"Bayou\"] = 9;\r\n\r\nfunction onload(saved_data)\r\n    createAll()\r\nend\r\n\r\nfunction updateSave()\r\nend\r\n\r\nfunction createAll()\r\n    s_color = {0.5, 0.5, 0.5, 95}\r\n    f_color = {0,0,0,1}\r\n    self.createButton({\r\n      label=\"Retrieve Crew\",\r\n      click_function=\"retrieve_crew_ui\",\r\n      tooltip=ttText,\r\n      function_owner=self,\r\n      position={0,1,0.6},\r\n      height=30,\r\n      width=300,\r\n      \r\n      scale={x=-0.6, y=1, z=-0.6},\r\n      font_size=30,\r\n      font_color=f_color,\r\n      color={0.8,0.8,0.9,1}\r\n      })\r\nend\r\n\r\nfunction removeAll()\r\n    self.removeButton(0)\r\nend\r\n\r\nfunction reloadAll()\r\n    removeAll()\r\n    createAll()\r\n    updateSave()\r\nend\r\n\r\nfunction retrieve_crew_ui(_obj, _color, alt_click)\r\n    if workInProgress == false then\r\n        workInProgress = true;\r\n        Wait.time( function() workInProgress =false;end,10);\r\n        if _color ~= 'Red' and _color ~= 'Blue' then\r\n            broadcastToAll(\"Please Select Color first, only Blue and Red are Valid\");\r\n        else\r\n            playerColor = _color\r\n            retrieve_crew()\r\n        \r\n        end\r\n    else\r\n        GetPlayerFromColor(playerColor).broadcast(\"Retrieving previous crew; wait 10 seconds\",Color[_color])\r\n    end\r\nend\r\nfunction retrieve_crew()\r\n    for key,refCard in pairs(spawnedRefCards) do\r\n        if refCard ~= nil and not refCard.isDestroyed() then\r\n            refCard.call(\"destruct\", {})\r\n            refCard.destruct()\r\n        end\r\n    end\r\n    spawnedRefCards = {}\r\n    local placingReferences = false\r\n   \r\n    if referenceCardsContainerObject == nil then\r\n        referenceCardsContainerObject = getObjectFromGUID(referenceCardsContainerGUID)\r\n    end\r\n    if upgradeContainerObject == nil then\r\n        upgradeContainerObject = getObjectFromGUID(upgradeContainerGUID)\r\n    end\r\n    if missingNoContainerObject == nil then\r\n        missingNoContainerObject = getObjectFromGUID(missingNoContainerGUID)\r\n    end\r\n\r\n   local modelPosition = 0\r\n   local description = self.getData().Description\r\n   local separatedCrew = mysplit(description)\r\n   \r\n   local faction = getFaction(separatedCrew[1])\r\n   GetPlayerFromColor(playerColor).broadcast(\"Retrieving '\"..separatedCrew[1]..\"' crew \",Color[playerColor])\r\n   for key,value in pairs(separatedCrew) do\r\n    local starterCharacter = string.sub(value, 1, 2)\r\n    if starterCharacter == 'Si' and key >1 then\r\n        local soulstones =string.sub(value,-2):gsub(\"%s+\",\"\")\r\n        soulstones=tonumber(soulstones)\r\n        \r\n        if soulstones>6 then\r\n            soulstones=6\r\n        end\r\n        getSoulstones(soulstones)\r\n    end\r\n    if starterCharacter == '  ' then\r\n      local entity = string.sub(value, 3)\r\n      local secondCharacter = string.sub(entity, 1, 2)\r\n      if secondCharacter == '  ' then\r\n        spawnUpgrade(string.sub(entity, 3),modelPosition)\r\n        print('upgrade: ' .. string.sub(entity, 3))\r\n      else\r\n        spawnModel(entity,modelPosition,faction,placingReferences)\r\n        --if spawnStatCard(entity,modelPosition,faction,placingReferences) then\r\n        --    spawnModel(entity,modelPosition,faction,placingReferences)\r\n        --end\r\n        --print('model: ' .. entity)\r\n        \r\n        if placingReferences == false then\r\n            modelPosition = modelPosition +1\r\n        end\r\n        \r\n      end\r\n    else\r\n        if value == 'References:' then\r\n            placingReferences = true    \r\n            modelPosition = modelPosition + 2\r\n        end\r\n\r\n    end\r\n    \r\n   end\r\nend\r\nfunction getSoulstones(soulstones)\r\n    local x=0\r\n    local z=07\r\n    --{-38.00, 0.86, 11.50}\r\n    if playerColor==\"Blue\" then\r\n        x=-38.000\r\n        z=11.5\r\n    elseif playerColor==\"Red\" then\r\n        x=38.00\r\n        z=-11.5\r\n    end\r\n    local soulstoneBag=getObjectFromGUID(\"ea5878\")\r\n    local wait=5\r\n    local y=1\r\n    for i = soulstones, 1, -1 do\r\n        Wait.frames(function()soulstoneBag.takeObject({position = {x = x, y = y, z = z}}) y=y+1 end,wait)\r\n        wait=wait+5\r\n    end\r\nend\r\nfunction getFaction(firstCrewLine)\r\n    for faction,color in pairs(Factions) do\r\n        if ends_with(firstCrewLine,\"(\".. faction ..\")\") then\r\n            setPlayerBoard(faction)\r\n            return faction;\r\n        end\r\n    end\r\nend\r\n\r\nfunction setPlayerBoard(faction)\r\n    local playerBoard\r\n    if playerColor == \"Blue\" then\r\n        playerBoard = getObjectFromGUID(boardBlueGUID)\r\n    elseif playerColor == \"Red\" then\r\n        playerBoard = getObjectFromGUID(boardRedGUID)\r\n    end\r\n    if playerBoard != nil then\r\n        playerBoard.setState(factionsBoardState[faction])\r\n    end\r\nend\r\nfunction spawnStatCard (modelName,modelSlot,faction,isReference)\r\n    ismodel = false;\r\n    local found = 0;\r\n    local color = Factions[faction];\r\n    local refrence = getObjectFromGUID(\"c78aef\")\r\n    local str = string.gsub(modelName, \"%s+\", \"\")\r\n    str = string.gsub(str, \",\", \"\")\r\n    str = string.gsub(str, \"-\", \"\")\r\n    local info=refrence.call(\"retriveModel\",str)\r\n    if info==\"na\" then\r\n        return true\r\n    else\r\n        info[\"playerColor\"]=playerColor\r\n        info[faction]=faction\r\n        local statCardPrototype = getObjectFromGUID(prototypes.base)\r\n        local pos=getSlotPosition(modelSlot):add(Vector(0,1,0))\r\n        local rot=getSlotRotation()\r\n        local statCard = statCardPrototype.clone({position=pos,rotation=rot})\r\n        Wait.frames(function() statCard.call(\"createStatCard\",info) end,10)\r\n        if string.match(info[\"characteristics\"], \"Master\") then\r\n            local crewCardinfo=refrence.call(\"retriveCrewCard\",info[\"crewCard\"])\r\n            if crewCardinfo==\"na\" then\r\n                return true\r\n            else\r\n                pos=getSlotPosition(18):add(Vector(0,1,0))\r\n                local crewCard = statCardPrototype.clone({position=pos,rotation=rot})\r\n                Wait.frames(function() crewCard.call(\"createCrewCard\",crewCardinfo) end,10)\r\n            end\r\n\r\n        end\r\n        return false\r\n    end\r\nend\r\nfunction spawnModel(modelName,modelSlot,faction,isReference)\r\n    ismodel = false;\r\n    local found = 0;\r\n    local color = Factions[faction];\r\n    for key,containedObject in pairs(referenceCardsContainerObject.getObjects()) do\r\n        local isEquivalentModel = containedObject.name:gsub(\"[%c%p]\", \"\") == modelName:gsub(\"[%c%p]\", \"\");\r\n        if isReference and modelName~=\"\" then\r\n            isEquivalentModel = starts_with(string.lower(containedObject.name:gsub(\"[%c%p]\", \"\")),string.lower(modelName:gsub(\"[%c%p]\", \"\")));\r\n        end\r\n        if isEquivalentModel then\r\n            ismodel = true\r\n            \r\n            referenceCardsContainerObject.takeObject({\r\n                index = containedObject.index - found,\r\n                position = getSlotPosition(modelSlot):add(Vector(0,1,0)),\r\n                rotation = getSlotRotation(),\r\n                callback_function = function(spawnedObject)\r\n                    spawnedObject.setCustomObject({stackable = false})\r\n                    spawnedObject.reload()\r\n                    spawnedObject.clone({position=referenceCardsContainerObject.getPosition(),rotation={x=0,y=180,z=0}})\r\n                    spawnedObject.call(\"rt_createModel\", {faction=faction,r = color.r,g = color.g,b = color.b,isReference=isReference})\r\n                    table.insert(spawnedRefCards, spawnedObject)\r\n                end,\r\n            })\r\n            found = found +1;\r\n            if isReference == false then\r\n                break \r\n            else\r\n            end\r\n        else\r\n            if isReference and found > 3 then\r\n                break\r\n            end\r\n        end\r\n    end\r\n\r\n    if ismodel == false then\r\n        spawnUpgrade (modelName,modelSlot)\r\n    end\r\nend\r\n\r\nfunction spawnUpgrade (modelName,modelSlot)\r\n    local found = false\r\n    for key,containedObject in pairs(upgradeContainerObject.getObjects()) do\r\n        if containedObject.name:gsub(\"[%c%p]\", \"\") == modelName:gsub(\"[%c%p]\", \"\") then\r\n            found = true\r\n            upgradeContainerObject.takeObject({\r\n                index = containedObject.index,\r\n                position = getSlotPosition(modelSlot-1.2),\r\n                rotation = getSlotRotation(),\r\n                callback_function = function(spawnedObject)\r\n                    spawnedObject.setCustomObject({stackable = false})\r\n                    spawnedObject.reload()\r\n                    local newCard=spawnedObject.clone({position=upgradeContainerObject.getPosition(),rotation={x=0,y=180,z=0}})\r\n                    Wait.frames(function()newCard.call(\"fetched\",playerColor)end,1)\r\n                    table.insert(spawnedRefCards, spawnedObject)\r\n                end,\r\n            })\r\n            break \r\n        end\r\n    end\r\n    if found == false then\r\n        spawnMissingNo(modelName,modelSlot)\r\n    end\r\nend\r\n\r\nfunction spawnMissingNo(modelName,modelSlot)\r\n    missingNoContainerObject.takeObject({\r\n        position = getSlotPosition(modelSlot):add(Vector(0,1,0)),\r\n        rotation = getSlotRotation(),\r\n        callback_function = function(spawnedObject)\r\n            spawnedObject.setCustomObject({stackable = false})\r\n            spawnedObject.reload()\r\n            spawnedObject.setName(\"MISSING (\" .. modelName .. \")\")\r\n        end\r\n    })\r\nend\r\n\r\nfunction getSlotPosition(modelSlot)\r\n    local row = 0\r\n    local targetPos = modelSlot\r\n    while targetPos >= 8.5 do\r\n        row = row + 1\r\n        targetPos = targetPos - 9\r\n    end\r\n\r\n    if playerColor == 'Red' then\r\n        return Vector( basePositionRed.x+ row * 6,basePositionRed.y  ,basePositionRed.z + ((targetPos) * ( 3.5)))\r\n    end\r\n    if playerColor == 'Blue' then\r\n        return Vector( basePositionBlue.x+ row * -6,basePositionBlue.y  ,basePositionBlue.z + ((targetPos) * ( -3.5)))\r\n    end\r\nend\r\n\r\n\r\nfunction getSlotRotation(modelSlot)\r\n    if playerColor == 'Red' then\r\n        return {x=0,y=90,z=0}\r\n    end\r\n    if playerColor == 'Blue' then\r\n        return {x=0,y=-90,z=0}\r\n    end\r\nend\r\n\r\n\r\nfunction mysplit (inputstr, sep)\r\n    if sep == nil then\r\n            sep = \"%c\"\r\n    end\r\n    local t={}\r\n    for str in string.gmatch(inputstr, \"([^\"..sep..\"]+)\") do\r\n            table.insert(t, str)\r\n    end\r\n    return t\r\nend\r\n\r\nfunction updateVal()\r\n    if tooltip_show then\r\n        ttText = \"     \" .. val .. \"\\n\" .. self.getName()\r\n    else\r\n        ttText = self.getName()\r\n    end\r\n\r\n    self.editButton({\r\n        index = 0,\r\n        label = tostring(val),\r\n        tooltip = ttText\r\n        })\r\nend\r\n\r\nfunction reset_val()\r\n    val = 0\r\n    updateVal()\r\n    updateSave()\r\nend\r\n\r\nfunction starts_with(str, start)\r\n    return str:sub(1, #start) == start\r\nend\r\n\r\nfunction ends_with(str, ending)\r\n    return ending == \"\" or str:sub(-#ending) == ending\r\nend\r\n\r\nfunction GetPlayerFromColor(color)\r\n    for _, player in pairs(Player.getPlayers()) do\r\n        if player.color == color then\r\n            return player;\r\n        end\r\n    end\r\nend\r\n\nend)\nreturn __bundle_require(\"Paste Your Crew in the Description.ddca98.lua\")",
       "LuaScriptState": "",
       "XmlUI": ""
     },
@@ -16538,9 +16538,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.40939334,
-        "g": 0.40939334,
-        "b": 0.40939334
+        "r": 0.4093933,
+        "g": 0.4093933,
+        "b": 0.4093933
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -17339,9 +17339,9 @@
         "posX": -49.5,
         "posY": 0.5877726,
         "posZ": 44.64,
-        "rotX": 2.91310354E-09,
+        "rotX": 1.20246062E-08,
         "rotY": 269.9876,
-        "rotZ": -2.47676226E-08,
+        "rotZ": 3.825796E-08,
         "scaleX": 3.54,
         "scaleY": 1.0,
         "scaleZ": 3.25
@@ -17390,9 +17390,9 @@
         "posX": 49.5,
         "posY": 0.587772548,
         "posZ": 44.6400032,
-        "rotX": -1.587495E-08,
+        "rotX": -4.28782654E-09,
         "rotY": 90.00789,
-        "rotZ": -1.08808813E-07,
+        "rotZ": -3.399155E-08,
         "scaleX": 3.54,
         "scaleY": 1.0,
         "scaleZ": 3.25
@@ -17441,9 +17441,9 @@
         "posX": 49.5,
         "posY": 0.5877726,
         "posZ": 54.9999962,
-        "rotX": 3.31937748E-08,
+        "rotX": -1.50558517E-08,
         "rotY": 90.00896,
-        "rotZ": -3.99159568E-08,
+        "rotZ": -1.1101787E-08,
         "scaleX": 3.5381074,
         "scaleY": 1.0,
         "scaleZ": 3.25
@@ -17490,11 +17490,11 @@
       "Name": "Custom_PDF",
       "Transform": {
         "posX": -49.5,
-        "posY": 0.587772667,
+        "posY": 0.5877726,
         "posZ": 55.00001,
-        "rotX": 1.10810527E-10,
+        "rotX": -2.03327968E-08,
         "rotY": 270.0017,
-        "rotZ": 1.94740522E-07,
+        "rotZ": -3.4132082E-08,
         "scaleX": 3.54,
         "scaleY": 1.0,
         "scaleZ": 3.25

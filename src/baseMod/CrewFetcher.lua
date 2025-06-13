@@ -237,9 +237,9 @@ function spawnModel(modelName,modelSlot,faction,isReference)
     local found = 0;
     local color = Factions[faction];
     for key,containedObject in pairs(referenceCardsContainerObject.getObjects()) do
-        local isEquivalentModel = containedObject.name:gsub("[%c%p]", "") == modelName:gsub("[%c%p]", "");
+        local isEquivalentModel = string.lower(containedObject.name:gsub("[%c%p]", "")) == string.lower(modelName:gsub("[%c%p]", ""));
         if isReference and modelName~="" then
-            isEquivalentModel = starts_with(containedObject.name:gsub("[%c%p]", ""),modelName:gsub("[%c%p]", ""));
+            isEquivalentModel = starts_with(string.lower(containedObject.name:gsub("[%c%p]", "")),string.lower(modelName:gsub("[%c%p]", "")));
         end
         if isEquivalentModel then
             ismodel = true
