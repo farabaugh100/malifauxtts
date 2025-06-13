@@ -11,6 +11,7 @@ TRH_Class ="mini"
 	local originalData = nil;
 	local state = {
 		conditions={Abandoned = 0,Adaptable = 0,Adversary = 0,Analyzed = 0,AuraBinding = 0,AuraConcealment = 0,AuraFire = 0,AuraFumes = 0,AuraHazardous = 0,AuraNegligent = 0,AuraStaggered = 0,Backtrack = 0,BogSpirit = 0,Bolstered = 0,Brilliance = 0,Broodling = 0,Burning = 0,Challenged = 0,Convert = 0,CoveredInBlood = 0,Craven = 0,CruelWhispers = 0,Death = 0,Distracted = 0,Drift = 0,Engorged = 0,Entranced = 0,Life = 0,Familia = 0,Fast = 0,Flicker = 0,Focused = 0,FragileEgo = 0,Fright = 0,FrozenSolid = 0,Glowy = 0,Greedy = 0,Hastened = 0,Hunger = 0,Impact = 0,ImprovisedPart = 0,Injured = 0,Insight = 0,NewBlood = 0,Numb = 0,Paranoia = 0,Parasite = 0,Perforated = 0,Poison = 0,Power = 0,Promoted = 0,Reload = 0,Shame = 0,Shielded = 0,Sin = 0,Slow = 0,SpiritualChains = 0,Staggered = 0,Stunned = 0,Summon = 0,Suppresed = 0,Voyage = 0,Adaptable = 0,Focused = 0,Shielded = 0,},		extras={Aura = 0,Activated = 0,Mode = 0},
+		extras={Aura = 0,Activated = 0,Mode = 0},
 		tokens={},
 		health={current=-1,max= 9},
 		base={size=30,color=Color(1,0.5,1)},
@@ -532,6 +533,7 @@ end
 	function UI_ModifyActivated(p,alt) UI_ModifyCondition("0","Activated") end
 	function UI_ModifyMode(p,alt) UI_ModifyCondition("0","Mode") end
 	function UI_ModifyHealth(p,alt) if alt ~= '-3' then ModifyHealth({amount= (alt == '-1' and 1 or (alt == '-2' and -1) or 0 ) }) end end
+	function HUDSingleCondition(color,name,x,y,size)
 
 	function UI_ModifyAbandoned(p,alt) UI_ModifyCondition("0","Abandoned") end
 	function UI_ModifyAdaptable(p,alt) UI_ModifyCondition("0","Adaptable") end
@@ -598,7 +600,11 @@ end
 	function UI_ModifyAdaptable(p,alt) UI_ModifyCondition("0","Adaptable") end
 	function UI_ModifyFocused(p,alt) UI_ModifyCondition("0","Focused") end
 	function UI_ModifyShielded(p,alt) UI_ModifyCondition("0","Shielded") end
-	function HUDSingleCondition(color,name,x,y,size)
+
+
+
+
+
 	
 		local id = "ConditionFrame_" .. name ;
 
