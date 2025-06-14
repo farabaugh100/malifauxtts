@@ -47,7 +47,7 @@ end
 
 function onLoad()
     MoveManager = getObjectFromGUID("17aadb");
-    DeploymentOverlay = getObjectFromGUID("02c08b");
+    DeploymentOverlay = getObjectFromGUID("3550d9");
     
     MoveManager.call("SetMenuManager",{menuManager = self})
     rebuildAssets();
