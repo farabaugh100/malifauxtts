@@ -10,7 +10,7 @@ TRH_Class ="mini"
 	local Conditions = {}
 	local originalData = nil;
 	local state = {
-		conditions={Abandoned = 0,Adaptable = 0,Adversary = 0,Analyzed = 0,AuraBinding = 0,AuraConcealment = 0,AuraFire = 0,AuraFumes = 0,AuraHazardous = 0,AuraNegligent = 0,AuraStaggered = 0,Backtrack = 0,BogSpirit = 0,Bolstered = 0,Brilliance = 0,Broodling = 0,Burning = 0,Challenged = 0,Convert = 0,CoveredInBlood = 0,Craven = 0,CruelWhispers = 0,Death = 0,Distracted = 0,Drift = 0,Engorged = 0,Entranced = 0,Life = 0,Familia = 0,Fast = 0,Flicker = 0,Focused = 0,FragileEgo = 0,Fright = 0,FrozenSolid = 0,Glowy = 0,Greedy = 0,Hastened = 0,Hunger = 0,Impact = 0,ImprovisedPart = 0,Injured = 0,Insight = 0,NewBlood = 0,Numb = 0,Paranoia = 0,Parasite = 0,Perforated = 0,Poison = 0,Power = 0,Promoted = 0,Reload = 0,Shame = 0,Shielded = 0,Sin = 0,Slow = 0,SpiritualChains = 0,Staggered = 0,Stunned = 0,Summon = 0,Suppresed = 0,Voyage = 0,Adaptable = 0,Focused = 0,Shielded = 0,}
+		conditions={Abandoned = 0,Adaptable = 0,Adversary = 0,Analyzed = 0,AuraBinding = 0,AuraConcealment = 0,AuraFire = 0,AuraFumes = 0,AuraHazardous = 0,AuraNegligent = 0,AuraStaggered = 0,Backtrack = 0,BogSpirit = 0,Bolstered = 0,Brilliance = 0,Broodling = 0,Burning = 0,Challenged = 0,Convert = 0,CoveredInBlood = 0,Craven = 0,CruelWhispers = 0,Death = 0,Distracted = 0,Drift = 0,Engorged = 0,Entranced = 0,Life = 0,Familia = 0,Fast = 0,Flicker = 0,Focused = 0,FragileEgo = 0,Fright = 0,FrozenSolid = 0,Glowy = 0,Greedy = 0,Hastened = 0,Hunger = 0,Impact = 0,ImprovisedPart = 0,Injured = 0,Insight = 0,NewBlood = 0,Numb = 0,Paranoia = 0,Parasite = 0,Perforated = 0,Poison = 0,Power = 0,Promoted = 0,Reload = 0,Shame = 0,Shielded = 0,Sin = 0,Slow = 0,SpiritualChains = 0,Staggered = 0,Stunned = 0,Summon = 0,Suppresed = 0,Voyage = 0,Adaptable = 0,Focused = 0,Shielded = 0,},		extras={Aura = 0,Activated = 0,Mode = 0},
 		extras={Aura = 0,Activated = 0,Mode = 0},
 		tokens={},
 		health={current=-1,max= 9},
@@ -660,23 +660,23 @@ end
 		Broodling ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Broodling.png", color="#FFFFFF",stacks=false},
 		Burning ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Burning.png", color="#DB8E47",stacks=false},
 		Challenged ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Challenged.png", color="#FFFFFF",stacks=false},
-		Convert ={ url="", color="",stacks=false},
+		Convert ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Convert.png", color="#FFFFFF",stacks=false},
 		CoveredInBlood ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Covered%20In%20Blood.png", color="#FFFFFF",stacks=false},
 		Craven ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Craven.png", color="#FF87DC",stacks=false},
 		CruelWhispers ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Cruel%20Whispers.png", color="#FFFFFF",stacks=false},
-		Death ={ url="", color="#FFFFFF",stacks=false},
+		Death ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Death.png", color="#FFFFFF",stacks=false},
 		Distracted ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Distracted.png", color="#FF42CF",stacks=false},
 		Drift ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Drift.png", color="#FFFFFF",stacks=false},
 		Engorged ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Engorged.png", color="#FFFFFF",stacks=false},
 		Entranced ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Entranced.png", color="#A020F0",stacks=false},
-		Life ={ url="", color="#FFFFFF",stacks=false},
+		Life ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Life.png", color="#FFFFFF",stacks=false},
 		Familia ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Familia.png", color="#FFFFFF",stacks=false},
 		Fast ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Fast.png", color="#E2D064",stacks=false},
 		Flicker ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Flicker.png", color="#FFFFFF",stacks=false},
 		Focused ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Focused.png", color="#9A37D3",stacks=false},
 		FragileEgo ={ url="https://github.com/farabaugh100/malifauxtts/blob/main/assets/Tokens/Fragile%20Ego.png?raw=true", color="#FFFFFF",stacks=false},
 		Fright ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Fright.png", color="#FFFFFF",stacks=false},
-		FrozenSolid ={ url="", color="#FFFFFF",stacks=false},
+		FrozenSolid ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Frozen%20Solid.png", color="#FFFFFF",stacks=false},
 		Glowy ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Glowy.png", color="#FFFFFF",stacks=false},
 		Greedy ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Greedy.png", color="#FFFFFF",stacks=false},
 		Hastened ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Hastened.png", color="#FEE711",stacks=false},
@@ -686,13 +686,13 @@ end
 		Injured ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Injured.png", color="#920606",stacks=false},
 		Insight ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Insight.png", color="#B7FFDF",stacks=false},
 		NewBlood ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/NewBlood.png", color="#FFFFFF",stacks=false},
-		Numb ={ url="", color="#FFFFFF",stacks=false},
+		Numb ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Numb.png", color="#FFFFFF",stacks=false},
 		Paranoia ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Paranoia.png", color="#FFFFFF",stacks=false},
 		Parasite ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Parasite.png", color="#FFFFFF",stacks=false},
 		Perforated ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Perforated.png", color="#FFFFFF",stacks=false},
 		Poison ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Poisoned.png", color="#83CD4D",stacks=false},
 		Power ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Power.png", color="#FFFFFF",stacks=false},
-		Promoted ={ url="", color="",stacks=false},
+		Promoted ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Promoted.png", color="#FFFFFF",stacks=false},
 		Reload ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Reload.png", color="#FFFFFF",stacks=false},
 		Shame ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Shame.png", color="#FFFFFF",stacks=false},
 		Shielded ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Shielded.png", color="#6AC3FF",stacks=false},
@@ -703,10 +703,15 @@ end
 		Stunned ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Stunned.png", color="#FFFFFF",stacks=false},
 		Summon ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Summon.png", color="#FFFFFF",stacks=false},
 		Suppresed ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Suppressed.png", color="#FFFFFF",stacks=false},
-		Voyage ={ url="", color="#FFFFFF",stacks=false},
+		Voyage ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Voyage.png", color="#FFFFFF",stacks=false},
 		Adaptable ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Adaptable.png", color="#FFFFFF",stacks=false},
 		Focused ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Focused.png", color="#9A37D3",stacks=false},
 		Shielded ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Shielded.png", color="#6AC3FF",stacks=false},
+
+
+
+
+		
 	}
 	
 	

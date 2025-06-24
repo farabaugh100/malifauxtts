@@ -276,7 +276,7 @@ end
 function spawnUpgrade (modelName,modelSlot)
     local found = false
     for key,containedObject in pairs(upgradeContainerObject.getObjects()) do
-        if containedObject.name:gsub("[%c%p]", "") == modelName:gsub("[%c%p]", "") then
+        if string.lower(containedObject.name:gsub("[%c%p]", "")) == string.lower(modelName:gsub("[%c%p]", "")) then
             found = true
             upgradeContainerObject.takeObject({
                 index = containedObject.index,
