@@ -83,7 +83,7 @@ function validateZones()
     if VARIABLES.validation == false then
       VARIABLES.log = "| Blue Zones Validation Error! |"
       logAction()
-      return validation
+      return false
     end
 
     local flippingZonePosition = VARIABLES.zones.flippingZone.getPosition()
@@ -107,7 +107,7 @@ function validateZones()
     if VARIABLES.validation == false then
       VARIABLES.log = "| Red Zones Validation Error! |"
       logAction()
-      return validation
+      return false
     end
 
     local flippingZonePosition = VARIABLES.zones.flippingZone.getPosition()
@@ -119,7 +119,7 @@ function validateZones()
     VARIABLES.positionInFlippingZone = position
   end
 
-  return validation
+  return VARIABLES.validation
 end
 
 --- Creates UI on the panel.
@@ -128,14 +128,8 @@ function createUI()
   local thickness = self.getCustomObject().thickness
   local validation = ""
   local flipSection = {}
-  local modifier = ""
 
   if VARIABLES.validation then
-    if VARIABLES.modifier > 0 then
-      modifier = "+" .. VARIABLES.modifier
-    else
-      modifier = VARIABLES.modifier
-    end
     local buttonHeight = 200
 
     flipSection = {
