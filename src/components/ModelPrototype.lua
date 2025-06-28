@@ -10,7 +10,8 @@ TRH_Class ="mini"
 	local Conditions = {}
 	local originalData = nil;
 	local state = {
-		conditions={Abandoned = 0,Adaptable = 0,Adversary = 0,Analyzed = 0,AuraBinding = 0,AuraConcealment = 0,AuraFire = 0,AuraFumes = 0,AuraHazardous = 0,AuraNegligent = 0,AuraStaggered = 0,Backtrack = 0,BogSpirit = 0,Bolstered = 0,Brilliance = 0,Broodling = 0,Burning = 0,Challenged = 0,Convert = 0,CoveredInBlood = 0,Craven = 0,CruelWhispers = 0,Death = 0,Distracted = 0,Drift = 0,Engorged = 0,Entranced = 0,Life = 0,Familia = 0,Fast = 0,Flicker = 0,Focused = 0,FragileEgo = 0,Fright = 0,FrozenSolid = 0,Glowy = 0,Greedy = 0,Hastened = 0,Hunger = 0,Impact = 0,ImprovisedPart = 0,Injured = 0,Insight = 0,NewBlood = 0,Numb = 0,Paranoia = 0,Parasite = 0,Perforated = 0,Poison = 0,Power = 0,Promoted = 0,Reload = 0,Shame = 0,Shielded = 0,Sin = 0,Slow = 0,SpiritualChains = 0,Staggered = 0,Stunned = 0,Summon = 0,Suppresed = 0,Voyage = 0,Adaptable = 0,Focused = 0,Shielded = 0,},		extras={Aura = 0,Activated = 0,Mode = 0},
+		--replace with whats in the google doc
+		conditions={Abandoned = 0,Adaptable = 0,Adversary = 0,Analyzed = 0,AuraBinding = 0,AuraConcealment = 0,AuraFire = 0,AuraFumes = 0,AuraHazardous = 0,AuraNegligent = 0,AuraStaggered = 0,Backtrack = 0,Badge = 0,Balm = 0,BogSpirit = 0,Bolstered = 0,Bounty = 0,Blight = 0,Brilliance = 0,Broodling = 0,Burning = 0,Challenged = 0,Chi = 0,Convert = 0,CoveredInBlood = 0,Craven = 0,CruelWhispers = 0,Death = 0,Distracted = 0,Drift = 0,Engorged = 0,Entranced = 0,Life = 0,Familia = 0,Fast = 0,Fate = 0,Flicker = 0,Focused = 0,FragileEgo = 0,Fright = 0,FrozenSolid = 0,Glowy = 0,GnawedtoDeath = 0,Greedy = 0,Hastened = 0,Hunger = 0,Impact = 0,ImprovisedPart = 0,Injured = 0,Insight = 0,NewBlood = 0,Numb = 0,Paranoia = 0,Parasite = 0,Perforated = 0,Poison = 0,Power = 0,Promoted = 0,Reload = 0,Shame = 0,Shielded = 0,Sin = 0,Slow = 0,SpiritualChains = 0,Staggered = 0,Stunned = 0,Summon = 0,Suppresed = 0,Voyage = 0,Adaptable = 0,Focused = 0,Shielded = 0,},
 		extras={Aura = 0,Activated = 0,Mode = 0},
 		tokens={},
 		health={current=-1,max= 9},
@@ -534,7 +535,7 @@ end
 	function UI_ModifyMode(p,alt) UI_ModifyCondition("0","Mode") end
 	function UI_ModifyHealth(p,alt) if alt ~= '-3' then ModifyHealth({amount= (alt == '-1' and 1 or (alt == '-2' and -1) or 0 ) }) end end
 	function HUDSingleCondition(color,name,x,y,size)
-
+	--REPLACE WITH CONTENTS OF model prototype 2 GOOGLE DOC
 	function UI_ModifyAbandoned(p,alt) UI_ModifyCondition("0","Abandoned") end
 	function UI_ModifyAdaptable(p,alt) UI_ModifyCondition("0","Adaptable") end
 	function UI_ModifyAdversary(p,alt) UI_ModifyCondition("0","Adversary") end
@@ -547,12 +548,17 @@ end
 	function UI_ModifyAuraNegligent(p,alt) UI_ModifyCondition("0","AuraNegligent") end
 	function UI_ModifyAuraStaggered(p,alt) UI_ModifyCondition("0","AuraStaggered") end
 	function UI_ModifyBacktrack(p,alt) UI_ModifyCondition("0","Backtrack") end
+	function UI_ModifyBadge(p,alt) UI_ModifyCondition("0","Badge") end
+	function UI_ModifyBalm(p,alt) UI_ModifyCondition("0","Balm") end
 	function UI_ModifyBogSpirit(p,alt) UI_ModifyCondition("0","BogSpirit") end
 	function UI_ModifyBolstered(p,alt) UI_ModifyCondition("0","Bolstered") end
+	function UI_ModifyBounty(p,alt) UI_ModifyCondition("0","Bounty") end
+	function UI_ModifyBlight(p,alt) UI_ModifyCondition("0","Blight") end
 	function UI_ModifyBrilliance(p,alt) UI_ModifyCondition("0","Brilliance") end
 	function UI_ModifyBroodling(p,alt) UI_ModifyCondition("0","Broodling") end
 	function UI_ModifyBurning(p,alt) UI_ModifyCondition("0","Burning") end
 	function UI_ModifyChallenged(p,alt) UI_ModifyCondition("0","Challenged") end
+	function UI_ModifyChi(p,alt) UI_ModifyCondition("0","Chi") end
 	function UI_ModifyConvert(p,alt) UI_ModifyCondition("0","Convert") end
 	function UI_ModifyCoveredInBlood(p,alt) UI_ModifyCondition("0","CoveredInBlood") end
 	function UI_ModifyCraven(p,alt) UI_ModifyCondition("0","Craven") end
@@ -565,12 +571,14 @@ end
 	function UI_ModifyLife(p,alt) UI_ModifyCondition("0","Life") end
 	function UI_ModifyFamilia(p,alt) UI_ModifyCondition("0","Familia") end
 	function UI_ModifyFast(p,alt) UI_ModifyCondition("0","Fast") end
+	function UI_ModifyFate(p,alt) UI_ModifyCondition("0","Fate") end
 	function UI_ModifyFlicker(p,alt) UI_ModifyCondition("0","Flicker") end
 	function UI_ModifyFocused(p,alt) UI_ModifyCondition("0","Focused") end
 	function UI_ModifyFragileEgo(p,alt) UI_ModifyCondition("0","FragileEgo") end
 	function UI_ModifyFright(p,alt) UI_ModifyCondition("0","Fright") end
 	function UI_ModifyFrozenSolid(p,alt) UI_ModifyCondition("0","FrozenSolid") end
 	function UI_ModifyGlowy(p,alt) UI_ModifyCondition("0","Glowy") end
+	function UI_ModifyGnawedtoDeath(p,alt) UI_ModifyCondition("0","GnawedtoDeath") end
 	function UI_ModifyGreedy(p,alt) UI_ModifyCondition("0","Greedy") end
 	function UI_ModifyHastened(p,alt) UI_ModifyCondition("0","Hastened") end
 	function UI_ModifyHunger(p,alt) UI_ModifyCondition("0","Hunger") end
@@ -600,7 +608,7 @@ end
 	function UI_ModifyAdaptable(p,alt) UI_ModifyCondition("0","Adaptable") end
 	function UI_ModifyFocused(p,alt) UI_ModifyCondition("0","Focused") end
 	function UI_ModifyShielded(p,alt) UI_ModifyCondition("0","Shielded") end
-
+	--REPLACE WITH CONTENTS OF model prototype 2 GOOGLE DOC
 
 
 
@@ -641,73 +649,80 @@ end
 		Aura = { url="https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png", color="#99aa22", stacks=true },
 		Activated  = { url="https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/flag.png", color="#bbbb22", stacks=false },
 		Mode  = { url="https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/gear.png", color="#bbffbb", stacks=false, loop = 2 },
-
+		--REPLACE WITH CONTENTS OF model prototype 1 GOOGLE DOC
 		Abandoned ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Abandoned.png", color="#FFFFFF",stacks=false},
-		Adaptable ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Adaptable.png", color="#FFFFFF",stacks=false},
-		Adversary ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Adversary.png", color="#DF2020",stacks=false},
-		Analyzed ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Analyzed.png", color="#FFFFFF",stacks=false},
-		AuraBinding ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Aura%20(Binding).png", color="#FFFFFF",stacks=false},
-		AuraConcealment ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Aura%20(Concealment).png", color="#FFFFFF",stacks=false},
-		AuraFire ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Aura%20(Fire).png", color="#FFFFFF",stacks=false},
-		AuraFumes ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Aura%20(Fumes).png", color="#FFFFFF",stacks=false},
-		AuraHazardous ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Aura%20(Hazardous).png", color="#FFFFFF",stacks=false},
-		AuraNegligent ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Aura%20(Negligent).png", color="#FFFFFF",stacks=false},
-		AuraStaggered ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Aura%20(Staggered).png", color="#FFFFFF",stacks=false},
-		Backtrack ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Backtrack.png", color="#FFFFFF",stacks=false},
+		Adaptable ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Adaptable.png", color="#FFFFFF",stacks=false},
+		Adversary ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Adversary.png", color="#DF2020",stacks=false},
+		Analyzed ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Analyzed.png", color="#FFFFFF",stacks=false},
+		AuraBinding ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Aura%20(Binding).png", color="#FFFFFF",stacks=false},
+		AuraConcealment ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Aura%20(Concealment).png", color="#FFFFFF",stacks=false},
+		AuraFire ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Aura%20(Fire).png", color="#FFFFFF",stacks=false},
+		AuraFumes ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Aura%20(Fumes).png", color="#FFFFFF",stacks=false},
+		AuraHazardous ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Aura%20(Hazardous).png", color="#FFFFFF",stacks=false},
+		AuraNegligent ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Aura%20(Negligent).png", color="#FFFFFF",stacks=false},
+		AuraStaggered ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Aura%20(Staggered).png", color="#FFFFFF",stacks=false},
+		Backtrack ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Backtrack.png", color="#FFFFFF",stacks=false},
+		Badge ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Badge.png", color="#FFFFFF",stacks=false},
+		Balm ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Balm.png", color="#FFFFFF",stacks=false},
 		BogSpirit ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Bog%20Spirit.png", color="#FFFFFF",stacks=false},
-		Bolstered ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Bolstered.png", color="#F53423",stacks=false},
-		Brilliance ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Brilliance.png", color="#FFFFFF",stacks=false},
-		Broodling ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Broodling.png", color="#FFFFFF",stacks=false},
-		Burning ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Burning.png", color="#DB8E47",stacks=false},
-		Challenged ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Challenged.png", color="#FFFFFF",stacks=false},
+		Bolstered ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Bolstered.png", color="#F53423",stacks=false},
+		Bounty ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Bounty.png", color="#FFFFFF",stacks=false},
+		Blight ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Blight.png", color="#FFFFFF",stacks=false},
+		Brilliance ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Brilliance.png", color="#FFFFFF",stacks=false},
+		Broodling ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Broodling.png", color="#FFFFFF",stacks=false},
+		Burning ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Burning.png", color="#DB8E47",stacks=false},
+		Challenged ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Challenged.png", color="#FFFFFF",stacks=false},
+		Chi ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Chi.png", color="#FFFFFF",stacks=false},
 		Convert ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Convert.png", color="#FFFFFF",stacks=false},
 		CoveredInBlood ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Covered%20In%20Blood.png", color="#FFFFFF",stacks=false},
-		Craven ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Craven.png", color="#FF87DC",stacks=false},
+		Craven ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Craven.png", color="#FF87DC",stacks=false},
 		CruelWhispers ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Cruel%20Whispers.png", color="#FFFFFF",stacks=false},
 		Death ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Death.png", color="#FFFFFF",stacks=false},
-		Distracted ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Distracted.png", color="#FF42CF",stacks=false},
+		Distracted ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Distracted.png", color="#FF42CF",stacks=false},
 		Drift ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Drift.png", color="#FFFFFF",stacks=false},
-		Engorged ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Engorged.png", color="#FFFFFF",stacks=false},
-		Entranced ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Entranced.png", color="#A020F0",stacks=false},
+		Engorged ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Engorged.png", color="#FFFFFF",stacks=false},
+		Entranced ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Entranced.png", color="#A020F0",stacks=false},
 		Life ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Life.png", color="#FFFFFF",stacks=false},
 		Familia ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Familia.png", color="#FFFFFF",stacks=false},
-		Fast ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Fast.png", color="#E2D064",stacks=false},
-		Flicker ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Flicker.png", color="#FFFFFF",stacks=false},
-		Focused ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Focused.png", color="#9A37D3",stacks=false},
+		Fast ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Fast.png", color="#E2D064",stacks=false},
+		Fate ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Fate.png", color="#FFFFFF",stacks=false},
+		Flicker ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Flicker.png", color="#FFFFFF",stacks=false},
+		Focused ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Focused.png", color="#9A37D3",stacks=false},
 		FragileEgo ={ url="https://github.com/farabaugh100/malifauxtts/blob/main/assets/Tokens/Fragile%20Ego.png?raw=true", color="#FFFFFF",stacks=false},
-		Fright ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Fright.png", color="#FFFFFF",stacks=false},
+		Fright ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Fright.png", color="#FFFFFF",stacks=false},
 		FrozenSolid ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Frozen%20Solid.png", color="#FFFFFF",stacks=false},
-		Glowy ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Glowy.png", color="#FFFFFF",stacks=false},
-		Greedy ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Greedy.png", color="#FFFFFF",stacks=false},
-		Hastened ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Hastened.png", color="#FEE711",stacks=false},
+		Glowy ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Glowy.png", color="#FFFFFF",stacks=false},
+		GnawedtoDeath ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/GnawedToDeath.png", color="#FFFFFF",stacks=false},
+		Greedy ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Greedy.png", color="#FFFFFF",stacks=false},
+		Hastened ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Hastened.png", color="#FEE711",stacks=false},
 		Hunger ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Hunger.png", color="#FFFFFF",stacks=false},
-		Impact ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Impact.png", color="#E9B175",stacks=false},
+		Impact ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Impact.png", color="#E9B175",stacks=false},
 		ImprovisedPart ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Tokens/ImprovisedPart.png", color="#FFFFFF",stacks=false},
-		Injured ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Injured.png", color="#920606",stacks=false},
-		Insight ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Insight.png", color="#B7FFDF",stacks=false},
+		Injured ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Injured.png", color="#920606",stacks=false},
+		Insight ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Insight.png", color="#B7FFDF",stacks=false},
 		NewBlood ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/NewBlood.png", color="#FFFFFF",stacks=false},
 		Numb ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Numb.png", color="#FFFFFF",stacks=false},
 		Paranoia ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Paranoia.png", color="#FFFFFF",stacks=false},
-		Parasite ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Parasite.png", color="#FFFFFF",stacks=false},
-		Perforated ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Perforated.png", color="#FFFFFF",stacks=false},
-		Poison ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Poisoned.png", color="#83CD4D",stacks=false},
-		Power ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Power.png", color="#FFFFFF",stacks=false},
+		Parasite ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Parasite.png", color="#FFFFFF",stacks=false},
+		Perforated ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Perforated.png", color="#FFFFFF",stacks=false},
+		Poison ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Poisoned.png", color="#83CD4D",stacks=false},
+		Power ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Power.png", color="#FFFFFF",stacks=false},
 		Promoted ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Promoted.png", color="#FFFFFF",stacks=false},
 		Reload ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Reload.png", color="#FFFFFF",stacks=false},
-		Shame ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Shame.png", color="#FFFFFF",stacks=false},
-		Shielded ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Shielded.png", color="#6AC3FF",stacks=false},
+		Shame ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Shame.png", color="#FFFFFF",stacks=false},
+		Shielded ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Shielded.png", color="#6AC3FF",stacks=false},
 		Sin ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Sin.png", color="#FFFFFF",stacks=false},
-		Slow ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Slowed.png", color="#B8B8B8",stacks=false},
-		SpiritualChains ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/SpiritualChains.png", color="#FFFFFF",stacks=false},
-		Staggered ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Staggered.png", color="#138C01",stacks=false},
-		Stunned ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Stunned.png", color="#FFFFFF",stacks=false},
-		Summon ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Summon.png", color="#FFFFFF",stacks=false},
-		Suppresed ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Suppressed.png", color="#FFFFFF",stacks=false},
+		Slow ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Slowed.png", color="#B8B8B8",stacks=false},
+		SpiritualChains ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/SpiritualChains.png", color="#FFFFFF",stacks=false},
+		Staggered ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Staggered.png", color="#138C01",stacks=false},
+		Stunned ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Stunned.png", color="#FFFFFF",stacks=false},
+		Summon ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Summon.png", color="#FFFFFF",stacks=false},
+		Suppresed ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Suppressed.png", color="#FFFFFF",stacks=false},
 		Voyage ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Voyage.png", color="#FFFFFF",stacks=false},
 		Adaptable ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Adaptable.png", color="#FFFFFF",stacks=false},
 		Focused ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Focused.png", color="#9A37D3",stacks=false},
 		Shielded ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Shielded.png", color="#6AC3FF",stacks=false},
-
+		--REPLACE WITH CONTENTS OF model prototype 1 GOOGLE DOC
 
 
 
