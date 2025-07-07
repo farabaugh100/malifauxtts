@@ -1,7 +1,7 @@
 {
   "SaveName": "Markers V2 Filled",
-  "EpochTime": 1750788385,
-  "Date": "6/24/2025 2:06:25 PM",
+  "EpochTime": 1751143879,
+  "Date": "6/28/2025 4:51:19 PM",
   "VersionNumber": "v13.3",
   "GameMode": "Malifaux Breachside Gamma - dev branch",
   "GameType": "Game",
@@ -3760,9 +3760,9 @@
         "posX": -1.52714753,
         "posY": 0.6277724,
         "posZ": -98.6046753,
-        "rotX": -9.383588E-06,
+        "rotX": -1.04407482E-05,
         "rotY": 14.972434,
-        "rotZ": -3.01566871E-07,
+        "rotZ": 1.01430851E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -3809,9 +3809,9 @@
       "GUID": "e594e2",
       "Name": "3DText",
       "Transform": {
-        "posX": -17.6002026,
-        "posY": 0.959147632,
-        "posZ": -47.48271,
+        "posX": -17.6001911,
+        "posY": 0.9591496,
+        "posZ": -47.4827347,
         "rotX": 90.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -3863,12 +3863,12 @@
       "GUID": "17aadb",
       "Name": "Checker_red",
       "Transform": {
-        "posX": 6.116602,
+        "posX": 6.116571,
         "posY": 0.5877685,
-        "posZ": -98.7933,
-        "rotX": 0.0001556402,
+        "posZ": -98.79333,
+        "rotX": 0.000155022819,
         "rotY": 270.000916,
-        "rotZ": -0.000457348418,
+        "rotZ": -0.000457630085,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -3908,9 +3908,9 @@
       "GUID": "15caf9",
       "Name": "3DText",
       "Transform": {
-        "posX": -0.235267654,
-        "posY": 0.9607278,
-        "posZ": -41.7332726,
+        "posX": -0.235260025,
+        "posY": 0.9607261,
+        "posZ": -41.7333,
         "rotX": 90.0,
         "rotY": 179.540451,
         "rotZ": 0.0,
@@ -3962,9 +3962,9 @@
       "GUID": "7b5599",
       "Name": "3DText",
       "Transform": {
-        "posX": -27.053566,
-        "posY": 0.9602806,
-        "posZ": -47.5076141,
+        "posX": -27.0535622,
+        "posY": 0.9602826,
+        "posZ": -47.507637,
         "rotX": 90.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4016,12 +4016,12 @@
       "GUID": "15fc7f",
       "Name": "Checker_white",
       "Transform": {
-        "posX": 6.099709,
-        "posY": 0.8382237,
-        "posZ": -98.74653,
-        "rotX": -0.00247804122,
+        "posX": 6.09973431,
+        "posY": 0.838223755,
+        "posZ": -98.74655,
+        "rotX": -0.00247730385,
         "rotY": 89.98735,
-        "rotZ": 0.00239606271,
+        "rotZ": 0.0023961328,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -4079,11 +4079,11 @@
       "Name": "Custom_PDF",
       "Transform": {
         "posX": -36.2247849,
-        "posY": 0.587772667,
+        "posY": 0.587772548,
         "posZ": 44.60769,
-        "rotX": -2.09454787E-09,
+        "rotX": -5.71952938E-08,
         "rotY": 269.967468,
-        "rotZ": 2.51667842E-07,
+        "rotZ": 1.2426564E-07,
         "scaleX": 3.2506578,
         "scaleY": 1.0,
         "scaleZ": 3.2506578
@@ -4132,9 +4132,9 @@
         "posX": 29.7922745,
         "posY": 0.5877726,
         "posZ": 44.9559059,
-        "rotX": 8.56954951E-09,
+        "rotX": 2.58614854E-08,
         "rotY": 89.9994,
-        "rotZ": 5.108242E-09,
+        "rotZ": 1.4218597E-08,
         "scaleX": 3.2506578,
         "scaleY": 1.0,
         "scaleZ": 3.2506578
@@ -5132,9 +5132,9 @@
       "Transform": {
         "posX": -0.218025222,
         "posY": 0.960631549,
-        "posZ": 31.9145756,
+        "posZ": 31.91458,
         "rotX": 90.0,
-        "rotY": 0.301294655,
+        "rotY": 0.301289827,
         "rotZ": 0.0,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -5184,9 +5184,9 @@
       "GUID": "407221",
       "Name": "3DText",
       "Transform": {
-        "posX": -17.280571,
+        "posX": -17.2805843,
         "posY": 0.9601318,
-        "posZ": 26.1344547,
+        "posZ": 26.1344585,
         "rotX": 90.0,
         "rotY": 359.468323,
         "rotZ": 0.0,
@@ -5240,7 +5240,7 @@
       "Transform": {
         "posX": 16.7951336,
         "posY": 0.9608864,
-        "posZ": 26.2562351,
+        "posZ": 26.256237,
         "rotX": 90.0,
         "rotY": 359.468323,
         "rotZ": 0.0,
@@ -5647,9 +5647,9 @@
         "posX": 0.012718223,
         "posY": 1.08777225,
         "posZ": -98.24594,
-        "rotX": -5.214859E-08,
-        "rotY": 0.004275361,
-        "rotZ": 1.020009E-06,
+        "rotX": -3.078533E-08,
+        "rotY": 0.00427535269,
+        "rotZ": 8.10983863E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -5689,9 +5689,9 @@
       "GUID": "66b554",
       "Name": "3DText",
       "Transform": {
-        "posX": 10.7942762,
-        "posY": 0.9608876,
-        "posZ": -98.3157959,
+        "posX": 10.7942724,
+        "posY": 0.9608877,
+        "posZ": -98.315834,
         "rotX": 90.0,
         "rotY": 269.693481,
         "rotZ": 0.0,
@@ -5743,8 +5743,8 @@
       "GUID": "8a3c17",
       "Name": "3DText",
       "Transform": {
-        "posX": -9.557035,
-        "posY": 0.9601499,
+        "posX": -9.557054,
+        "posY": 0.96015,
         "posZ": -98.01801,
         "rotX": 90.0,
         "rotY": 89.0990143,
@@ -5974,11 +5974,11 @@
       "Name": "Custom_Model_Infinite_Bag",
       "Transform": {
         "posX": 12.6577768,
-        "posY": 0.6210051,
+        "posY": 0.6210052,
         "posZ": -95.95677,
-        "rotX": -3.0728458E-07,
+        "rotX": -1.23167737E-07,
         "rotY": 179.997,
-        "rotZ": 1.12929331E-06,
+        "rotZ": -3.40952124E-06,
         "scaleX": 0.713773131,
         "scaleY": 0.0664657652,
         "scaleZ": 0.706220865
@@ -6152,9 +6152,9 @@
         "posX": 14.9626064,
         "posY": 0.6210051,
         "posZ": -96.5976639,
-        "rotX": 7.77311868E-07,
+        "rotX": 1.50421215E-07,
         "rotY": 179.985977,
-        "rotZ": -2.13707963E-07,
+        "rotZ": -1.98546246E-07,
         "scaleX": 0.7137734,
         "scaleY": 0.0664657652,
         "scaleZ": 0.7062205
@@ -6326,11 +6326,11 @@
       "Name": "Custom_Model_Infinite_Bag",
       "Transform": {
         "posX": 13.4374294,
-        "posY": 0.6214455,
+        "posY": 0.6214454,
         "posZ": -96.9794846,
-        "rotX": 4.70560266E-08,
+        "rotX": -3.46793763E-06,
         "rotY": 269.808167,
-        "rotZ": -4.072884E-07,
+        "rotZ": -9.04230149E-08,
         "scaleX": 0.73517406,
         "scaleY": 0.06734645,
         "scaleZ": 0.744278133
@@ -6516,11 +6516,11 @@
       "Name": "Custom_Tile",
       "Transform": {
         "posX": -6.072866,
-        "posY": 0.587772369,
+        "posY": 0.5877723,
         "posZ": -99.8726044,
-        "rotX": 2.04116859E-07,
+        "rotX": 2.24923127E-07,
         "rotY": 270.0086,
-        "rotZ": -9.746308E-09,
+        "rotZ": 3.585424E-07,
         "scaleX": 2.5,
         "scaleY": 1.0,
         "scaleZ": 2.5
@@ -7180,11 +7180,11 @@
       "GUID": "4ddd87",
       "Name": "Checker_black",
       "Transform": {
-        "posX": 7.8477,
+        "posX": 7.847689,
         "posY": 0.838255763,
-        "posZ": -98.33326,
-        "rotX": -5.475352E-09,
-        "rotY": 179.953339,
+        "posZ": -98.33334,
+        "rotX": 1.44034584E-06,
+        "rotY": 179.954132,
         "rotZ": 180.0,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -7228,9 +7228,9 @@
         "posX": 13.49361,
         "posY": 0.570772231,
         "posZ": -91.04163,
-        "rotX": -3.3987385E-07,
+        "rotX": 4.34032676E-09,
         "rotY": 0.3438496,
-        "rotZ": 7.01332E-07,
+        "rotZ": 2.60402953E-08,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -7322,10 +7322,10 @@
       "GUID": "02c7e5",
       "Name": "Deck",
       "Transform": {
-        "posX": 0.626264751,
-        "posY": 0.868661,
+        "posX": 0.626264632,
+        "posY": 0.8686609,
         "posZ": -90.17453,
-        "rotX": -7.778733E-08,
+        "rotX": -2.51075846E-07,
         "rotY": 269.998352,
         "rotZ": 180.0,
         "scaleX": 1.5,
@@ -11438,9 +11438,9 @@
         "posX": 13.4839077,
         "posY": 0.621445358,
         "posZ": -95.38546,
-        "rotX": -2.17929834E-08,
+        "rotX": 7.082011E-08,
         "rotY": 90.0098,
-        "rotZ": 4.64942246E-07,
+        "rotZ": 6.888883E-08,
         "scaleX": 0.7351749,
         "scaleY": 0.06734628,
         "scaleZ": 0.7442768
@@ -11628,9 +11628,9 @@
         "posX": -36.2247849,
         "posY": 0.5877726,
         "posZ": 55.60769,
-        "rotX": -2.60084256E-08,
+        "rotX": -7.770777E-09,
         "rotY": 269.984344,
-        "rotZ": -1.90475067E-08,
+        "rotZ": 2.63018016E-08,
         "scaleX": 3.24971676,
         "scaleY": 1.0,
         "scaleZ": 3.24971676
@@ -11679,9 +11679,9 @@
         "posX": 29.7922764,
         "posY": 0.587772548,
         "posZ": 55.9559059,
-        "rotX": 1.69496186E-08,
+        "rotX": -1.779443E-08,
         "rotY": 90.01519,
-        "rotZ": -1.3920805E-08,
+        "rotZ": -1.47111212E-08,
         "scaleX": 3.24971676,
         "scaleY": 1.0,
         "scaleZ": 3.24971676
@@ -12551,9 +12551,9 @@
         "posX": 33.709877,
         "posY": 0.8336647,
         "posZ": 22.6351223,
-        "rotX": -3.843116E-06,
-        "rotY": -7.462194E-05,
-        "rotZ": 2.14163E-06,
+        "rotX": -3.78183768E-06,
+        "rotY": -7.462973E-05,
+        "rotZ": 2.00129557E-06,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -12667,11 +12667,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 34.762413,
-        "posY": 0.7664583,
+        "posY": 0.766458333,
         "posZ": 25.1255264,
-        "rotX": 3.2107846E-06,
+        "rotX": 6.25538723E-06,
         "rotY": 270.000031,
-        "rotZ": 7.705494E-06,
+        "rotZ": 2.10889038E-06,
         "scaleX": 0.3045071,
         "scaleY": 0.1,
         "scaleZ": 0.3045071
@@ -12730,11 +12730,11 @@
       "GUID": "d41eb9",
       "Name": "Checker_white",
       "Transform": {
-        "posX": 36.914505,
-        "posY": 1.01194167,
-        "posZ": 24.40909,
-        "rotX": 1.36330882E-05,
-        "rotY": 180.145157,
+        "posX": 36.9145775,
+        "posY": 1.01194179,
+        "posZ": 24.4091,
+        "rotX": 5.56193E-06,
+        "rotY": 180.148911,
         "rotZ": 180.0,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -14546,15 +14546,15 @@
       "XmlUI": "",
       "ContainedObjects": [
         {
-          "GUID": "fd063f",
+          "GUID": "e06090",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -13.9052448,
-            "posY": 0.833663166,
-            "posZ": 0.0137369614,
-            "rotX": -6.42315445E-06,
-            "rotY": -7.795329E-05,
-            "rotZ": 2.23643127E-07,
+            "posY": 0.8336633,
+            "posZ": 0.0137369707,
+            "rotX": -5.64427E-06,
+            "rotY": -7.827964E-05,
+            "rotZ": -5.160464E-07,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -14604,15 +14604,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "97ee4c",
+              "GUID": "766975",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -13.9052448,
-                "posY": 0.9761632,
-                "posZ": 0.0137369977,
-                "rotX": -0.000341763,
+                "posY": 0.976161957,
+                "posZ": 0.0137369949,
+                "rotX": -0.00036696106,
                 "rotY": 270.000122,
-                "rotZ": -0.000340319355,
+                "rotZ": -1.09935472E-05,
                 "scaleX": 0.365,
                 "scaleY": 1.0,
                 "scaleZ": 0.365
@@ -14670,15 +14670,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "97ee4c",
+              "GUID": "766975",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 1.06916218E-06,
+                "rotX": 4.25409826E-06,
                 "rotY": 270.000122,
-                "rotZ": 3.862375E-06,
+                "rotZ": -1.6729507E-06,
                 "scaleX": 0.245060965,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.237559
@@ -14736,15 +14736,15 @@
           ]
         },
         {
-          "GUID": "4a9cec",
+          "GUID": "093de4",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -13.9052448,
             "posY": 0.8336631,
             "posZ": -2.486263,
-            "rotX": 9.631347E-07,
-            "rotY": -7.547403E-05,
-            "rotZ": 4.34342375E-08,
+            "rotX": -3.19235664E-06,
+            "rotY": -7.28087762E-05,
+            "rotZ": 4.74871428E-07,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -14794,15 +14794,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "5dd139",
+              "GUID": "472f75",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -13.9052448,
-                "posY": 0.976156235,
+                "posY": 0.9761656,
                 "posZ": -2.486263,
-                "rotX": 0.003519129,
+                "rotX": 0.00204719556,
                 "rotY": 270.000122,
-                "rotZ": -0.000438694231,
+                "rotZ": -0.00114333606,
                 "scaleX": 0.608,
                 "scaleY": 1.0,
                 "scaleZ": 0.608
@@ -14860,15 +14860,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "5dd139",
+              "GUID": "472f75",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 1.06916218E-06,
+                "rotX": 4.25409826E-06,
                 "rotY": 270.000122,
-                "rotZ": 3.862375E-06,
+                "rotZ": -1.6729507E-06,
                 "scaleX": 0.4082111,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.39571467
@@ -14926,15 +14926,15 @@
           ]
         },
         {
-          "GUID": "f5aa70",
+          "GUID": "a7c258",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -13.9052448,
-            "posY": 0.833663,
+            "posY": 0.8336629,
             "posZ": -4.986263,
-            "rotX": -3.39878852E-06,
-            "rotY": -7.172141E-05,
-            "rotZ": -1.43746161E-06,
+            "rotX": -6.20163473E-06,
+            "rotY": -7.190125E-05,
+            "rotZ": -1.07944921E-07,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -14984,15 +14984,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "de22ac",
+              "GUID": "f4a000",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -13.9052448,
-                "posY": 0.9761595,
+                "posY": 0.9761613,
                 "posZ": -4.986263,
-                "rotX": 0.0005167857,
+                "rotX": 0.000318512582,
                 "rotY": 270.0001,
-                "rotZ": -0.000353236363,
+                "rotZ": -0.0004098612,
                 "scaleX": 0.365,
                 "scaleY": 1.0,
                 "scaleZ": 0.365
@@ -15050,15 +15050,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "de22ac",
+              "GUID": "f4a000",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 1.06916218E-06,
+                "rotX": 4.25409826E-06,
                 "rotY": 270.000122,
-                "rotZ": 3.862375E-06,
+                "rotZ": -1.6729507E-06,
                 "scaleX": 0.245060965,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.237559
@@ -15116,15 +15116,15 @@
           ]
         },
         {
-          "GUID": "436e3c",
+          "GUID": "db7908",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -13.9052448,
             "posY": 0.833663,
             "posZ": -7.486263,
-            "rotX": -7.327565E-06,
-            "rotY": -6.51365E-05,
-            "rotZ": -1.3173735E-08,
+            "rotX": -6.12809845E-06,
+            "rotY": -7.060773E-05,
+            "rotZ": 3.58902469E-07,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -15174,15 +15174,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "7f41e0",
+              "GUID": "c9de09",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -13.9052448,
-                "posY": 0.9761549,
+                "posY": 0.9761546,
                 "posZ": -7.486263,
-                "rotX": -0.00022660791,
+                "rotX": -0.000167559861,
                 "rotY": 270.0001,
-                "rotZ": 0.0001248614,
+                "rotZ": 0.000747049,
                 "scaleX": 0.365,
                 "scaleY": 1.0,
                 "scaleZ": 0.365
@@ -15240,15 +15240,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "7f41e0",
+              "GUID": "c9de09",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 1.06916218E-06,
+                "rotX": 4.25409826E-06,
                 "rotY": 270.000122,
-                "rotZ": 3.862375E-06,
+                "rotZ": -1.6729507E-06,
                 "scaleX": 0.245060965,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.237559
@@ -15306,15 +15306,15 @@
           ]
         },
         {
-          "GUID": "1c3203",
+          "GUID": "0f57c7",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -13.9052448,
-            "posY": 0.8336627,
+            "posY": 0.8336626,
             "posZ": -9.986263,
-            "rotX": -1.4401528E-06,
-            "rotY": -7.100931E-05,
-            "rotZ": -2.00487946E-07,
+            "rotX": 1.74105321E-06,
+            "rotY": -9.593029E-05,
+            "rotZ": -1.74256272E-07,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -15364,15 +15364,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "9b2dc0",
+              "GUID": "e57aa6",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -13.9052448,
-                "posY": 0.97615695,
+                "posY": 0.9761577,
                 "posZ": -9.986263,
-                "rotX": -0.0001790226,
+                "rotX": 0.0003881274,
                 "rotY": 270.0001,
-                "rotZ": 0.000594280136,
+                "rotZ": -0.000305618334,
                 "scaleX": 0.365,
                 "scaleY": 1.0,
                 "scaleZ": 0.365
@@ -15430,15 +15430,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "9b2dc0",
+              "GUID": "e57aa6",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 1.06916218E-06,
+                "rotX": 4.25409826E-06,
                 "rotY": 270.000122,
-                "rotZ": 3.862375E-06,
+                "rotZ": -1.6729507E-06,
                 "scaleX": 0.245060965,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.237559
@@ -15496,15 +15496,15 @@
           ]
         },
         {
-          "GUID": "1912ce",
+          "GUID": "f05caa",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -13.9052448,
-            "posY": 0.83366257,
+            "posY": 0.8336625,
             "posZ": -12.4862633,
-            "rotX": -2.30829232E-06,
-            "rotY": -7.54589346E-05,
-            "rotZ": 2.68918689E-06,
+            "rotX": -5.312908E-06,
+            "rotY": -7.498324E-05,
+            "rotZ": -3.14699719E-06,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -15554,15 +15554,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "65552c",
+              "GUID": "9dbfad",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -13.9052448,
-                "posY": 0.9761667,
+                "posY": 0.976167,
                 "posZ": -12.4862633,
-                "rotX": -4.959613E-05,
+                "rotX": 5.921141E-06,
                 "rotY": 270.000122,
-                "rotZ": 0.000116666175,
+                "rotZ": -1.25758806E-05,
                 "scaleX": 0.365,
                 "scaleY": 1.0,
                 "scaleZ": 0.365
@@ -15620,15 +15620,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "65552c",
+              "GUID": "9dbfad",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 1.06916218E-06,
+                "rotX": 4.25409826E-06,
                 "rotY": 270.000122,
-                "rotZ": 3.862375E-06,
+                "rotZ": -1.6729507E-06,
                 "scaleX": 0.245060965,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.237559
@@ -15686,15 +15686,15 @@
           ]
         },
         {
-          "GUID": "018705",
+          "GUID": "ec0ca4",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -10.9052448,
             "posY": 0.8336634,
             "posZ": 2.513737,
-            "rotX": -6.11275937E-06,
-            "rotY": -7.24427446E-05,
-            "rotZ": 6.298585E-06,
+            "rotX": -2.55073451E-06,
+            "rotY": -7.056932E-05,
+            "rotZ": 4.579701E-06,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -15744,15 +15744,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "b9de8f",
+              "GUID": "9a95fd",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -10.9052448,
-                "posY": 0.9761346,
+                "posY": 0.976136267,
                 "posZ": 2.513737,
-                "rotX": 0.00119706546,
+                "rotX": -0.00117160159,
                 "rotY": 270.0001,
-                "rotZ": -0.00145543227,
+                "rotZ": 0.00179318734,
                 "scaleX": 0.608,
                 "scaleY": 1.0,
                 "scaleZ": 0.608
@@ -15810,15 +15810,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "b9de8f",
+              "GUID": "9a95fd",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 1.06916218E-06,
+                "rotX": 4.25409826E-06,
                 "rotY": 270.000122,
-                "rotZ": 3.862375E-06,
+                "rotZ": -1.6729507E-06,
                 "scaleX": 0.4082111,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.39571467
@@ -15876,15 +15876,15 @@
           ]
         },
         {
-          "GUID": "7e6094",
+          "GUID": "f05439",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -10.9052448,
             "posY": 0.8336632,
-            "posZ": 0.0137369828,
-            "rotX": -7.795013E-06,
-            "rotY": -7.815933E-05,
-            "rotZ": 6.82401E-07,
+            "posZ": 0.0137369512,
+            "rotX": -7.567714E-06,
+            "rotY": -7.81942144E-05,
+            "rotZ": -5.275355E-07,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -15934,15 +15934,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "8042f7",
+              "GUID": "552505",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -10.9052448,
-                "posY": 0.9761649,
+                "posY": 0.976153135,
                 "posZ": 0.0137369977,
-                "rotX": -0.000449597283,
+                "rotX": -0.000286451716,
                 "rotY": 270.000122,
-                "rotZ": -0.000268980715,
+                "rotZ": 8.78687642E-05,
                 "scaleX": 0.365,
                 "scaleY": 1.0,
                 "scaleZ": 0.365
@@ -16000,15 +16000,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "8042f7",
+              "GUID": "552505",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 1.06916218E-06,
+                "rotX": 4.25409826E-06,
                 "rotY": 270.000122,
-                "rotZ": 3.862375E-06,
+                "rotZ": -1.6729507E-06,
                 "scaleX": 0.245060965,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.237559
@@ -16066,15 +16066,15 @@
           ]
         },
         {
-          "GUID": "c9e462",
+          "GUID": "19f76f",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -10.9052448,
             "posY": 0.8336631,
             "posZ": -2.486263,
-            "rotX": -6.914908E-06,
-            "rotY": -7.81906056E-05,
-            "rotZ": -1.13799319E-06,
+            "rotX": -3.95189045E-06,
+            "rotY": -7.72136E-05,
+            "rotZ": -6.104375E-07,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -16124,15 +16124,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "aed072",
+              "GUID": "89e9f1",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -10.9052448,
-                "posY": 0.9760991,
-                "posZ": -2.4863224,
-                "rotX": 0.04389634,
-                "rotY": 270.000244,
-                "rotZ": 0.0468210056,
+                "posY": 0.976096,
+                "posZ": -2.48649859,
+                "rotX": 0.0374365,
+                "rotY": 270.000061,
+                "rotZ": 0.03738565,
                 "scaleX": 0.48666,
                 "scaleY": 1.0,
                 "scaleZ": 0.48666
@@ -16190,15 +16190,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "aed072",
+              "GUID": "89e9f1",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 1.06916218E-06,
+                "rotX": 4.25409826E-06,
                 "rotY": 270.000122,
-                "rotZ": 3.862375E-06,
+                "rotZ": -1.6729507E-06,
                 "scaleX": 0.326743484,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.316741
@@ -16256,15 +16256,15 @@
           ]
         },
         {
-          "GUID": "51b515",
+          "GUID": "b5d8d6",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -10.9052448,
-            "posY": 0.8336631,
+            "posY": 0.833663,
             "posZ": -4.986263,
-            "rotX": -4.028048E-06,
-            "rotY": -6.928262E-05,
-            "rotZ": -3.62206038E-07,
+            "rotX": -3.79851826E-06,
+            "rotY": -7.63394637E-05,
+            "rotZ": 1.51460867E-07,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -16314,15 +16314,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "224928",
+              "GUID": "54e27a",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -10.9052448,
-                "posY": 0.976159632,
+                "posY": 0.9761899,
                 "posZ": -4.986263,
-                "rotX": 0.00306545547,
+                "rotX": 0.0007324745,
                 "rotY": 270.000122,
-                "rotZ": -0.00130681647,
+                "rotZ": -0.000885499,
                 "scaleX": 0.608,
                 "scaleY": 1.0,
                 "scaleZ": 0.608
@@ -16380,15 +16380,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "224928",
+              "GUID": "54e27a",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 1.06916218E-06,
+                "rotX": 4.25409826E-06,
                 "rotY": 270.000122,
-                "rotZ": 3.862375E-06,
+                "rotZ": -1.6729507E-06,
                 "scaleX": 0.4082111,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.39571467
@@ -16446,15 +16446,15 @@
           ]
         },
         {
-          "GUID": "a8963e",
+          "GUID": "e1a0b4",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -10.9052448,
-            "posY": 0.8336629,
+            "posY": 0.833663,
             "posZ": -7.486263,
-            "rotX": -5.196607E-07,
-            "rotY": -6.397505E-05,
-            "rotZ": 3.67461183E-07,
+            "rotX": -5.416111E-06,
+            "rotY": -6.282547E-05,
+            "rotZ": -5.49404078E-08,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -16504,15 +16504,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "eabca6",
+              "GUID": "5480e0",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -10.9052448,
-                "posY": 0.976152837,
+                "posY": 0.9761462,
                 "posZ": -7.486263,
-                "rotX": 0.000762021,
+                "rotX": 0.000159727584,
                 "rotY": 270.0001,
-                "rotZ": -8.276798E-05,
+                "rotZ": 0.0011952864,
                 "scaleX": 0.365,
                 "scaleY": 1.0,
                 "scaleZ": 0.365
@@ -16570,15 +16570,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "eabca6",
+              "GUID": "5480e0",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 1.06916218E-06,
+                "rotX": 4.25409826E-06,
                 "rotY": 270.000122,
-                "rotZ": 3.862375E-06,
+                "rotZ": -1.6729507E-06,
                 "scaleX": 0.245060965,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.237559
@@ -16636,15 +16636,15 @@
           ]
         },
         {
-          "GUID": "b1ffa2",
+          "GUID": "0fda45",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -10.9052448,
             "posY": 0.8336627,
             "posZ": -9.986263,
-            "rotX": -2.365609E-06,
-            "rotY": -7.445515E-05,
-            "rotZ": 3.15924513E-06,
+            "rotX": -7.21919832E-06,
+            "rotY": -7.415662E-05,
+            "rotZ": 2.611402E-06,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -16694,15 +16694,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "b9dd04",
+              "GUID": "757fee",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -10.9052448,
-                "posY": 0.9761684,
+                "posY": 0.976167738,
                 "posZ": -9.986263,
-                "rotX": 1.734275E-05,
+                "rotX": -3.69775335E-05,
                 "rotY": 270.000122,
-                "rotZ": 5.843623E-05,
+                "rotZ": 9.110477E-05,
                 "scaleX": 0.365,
                 "scaleY": 1.0,
                 "scaleZ": 0.365
@@ -16760,15 +16760,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "b9dd04",
+              "GUID": "757fee",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 1.06916218E-06,
+                "rotX": 4.25409826E-06,
                 "rotY": 270.000122,
-                "rotZ": 3.862375E-06,
+                "rotZ": -1.6729507E-06,
                 "scaleX": 0.245060965,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.237559
@@ -16826,15 +16826,15 @@
           ]
         },
         {
-          "GUID": "c5acec",
+          "GUID": "873d08",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -10.9052448,
             "posY": 0.8336625,
             "posZ": -12.4862633,
-            "rotX": -2.54800716E-06,
-            "rotY": -7.518609E-05,
-            "rotZ": 2.488909E-06,
+            "rotX": -1.31171134E-06,
+            "rotY": -7.47702143E-05,
+            "rotZ": -3.915805E-06,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -16884,15 +16884,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "de8d2d",
+              "GUID": "f5bb74",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -10.9052448,
-                "posY": 0.976167142,
+                "posY": 0.9761669,
                 "posZ": -12.4862633,
-                "rotX": -2.46265718E-05,
+                "rotX": 2.48338783E-05,
                 "rotY": 270.000122,
-                "rotZ": 9.705404E-05,
+                "rotZ": -5.17073568E-05,
                 "scaleX": 0.365,
                 "scaleY": 1.0,
                 "scaleZ": 0.365
@@ -16950,15 +16950,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "de8d2d",
+              "GUID": "f5bb74",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 1.06916218E-06,
+                "rotX": 4.25409826E-06,
                 "rotY": 270.000122,
-                "rotZ": 3.862375E-06,
+                "rotZ": -1.6729507E-06,
                 "scaleX": 0.245060965,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.237559
@@ -17016,15 +17016,15 @@
           ]
         },
         {
-          "GUID": "c7f637",
+          "GUID": "d247b1",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -7.905245,
             "posY": 0.833663464,
             "posZ": 2.513737,
-            "rotX": -2.14302236E-06,
-            "rotY": -6.93668044E-05,
-            "rotZ": -2.463466E-07,
+            "rotX": -1.752584E-06,
+            "rotY": -7.034203E-05,
+            "rotZ": -3.82853557E-07,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -17074,15 +17074,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "c3263f",
+              "GUID": "f5e2f3",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -7.905245,
-                "posY": 0.976162136,
+                "posY": 0.976156354,
                 "posZ": 2.513737,
-                "rotX": -0.0002676501,
+                "rotX": -0.000340991421,
                 "rotY": 270.000122,
-                "rotZ": -0.000391321373,
+                "rotZ": -0.00042209425,
                 "scaleX": 0.365,
                 "scaleY": 1.0,
                 "scaleZ": 0.365
@@ -17140,15 +17140,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "c3263f",
+              "GUID": "f5e2f3",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 1.06916218E-06,
+                "rotX": 4.25409826E-06,
                 "rotY": 270.000122,
-                "rotZ": 3.862375E-06,
+                "rotZ": -1.6729507E-06,
                 "scaleX": 0.245060965,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.237559
@@ -17206,15 +17206,15 @@
           ]
         },
         {
-          "GUID": "f0e4c7",
+          "GUID": "235ae3",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -7.905245,
             "posY": 0.833663166,
-            "posZ": 0.0137369791,
-            "rotX": -6.311469E-06,
-            "rotY": -7.777381E-05,
-            "rotZ": -8.37882567E-07,
+            "posZ": 0.0137369977,
+            "rotX": -6.76711943E-06,
+            "rotY": -7.80925548E-05,
+            "rotZ": 1.26665341E-07,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -17264,15 +17264,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "2e91d1",
+              "GUID": "3c5c5d",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -7.905245,
-                "posY": 0.976156235,
-                "posZ": 0.0137369987,
-                "rotX": -0.0004917184,
+                "posY": 0.9761234,
+                "posZ": 0.013737,
+                "rotX": 0.00113536906,
                 "rotY": 270.000122,
-                "rotZ": 7.37828429E-07,
+                "rotZ": -0.000568065443,
                 "scaleX": 0.365,
                 "scaleY": 1.0,
                 "scaleZ": 0.365
@@ -17330,15 +17330,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "2e91d1",
+              "GUID": "3c5c5d",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 1.06916218E-06,
+                "rotX": 4.25409826E-06,
                 "rotY": 270.000122,
-                "rotZ": 3.862375E-06,
+                "rotZ": -1.6729507E-06,
                 "scaleX": 0.245060965,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.237559
@@ -17396,15 +17396,15 @@
           ]
         },
         {
-          "GUID": "b096ba",
+          "GUID": "a13c49",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -7.905245,
             "posY": 0.833663166,
             "posZ": -2.486263,
-            "rotX": -6.53172947E-06,
-            "rotY": -7.82566349E-05,
-            "rotZ": -1.99837757E-07,
+            "rotX": -5.432275E-06,
+            "rotY": -7.836683E-05,
+            "rotZ": -7.664445E-07,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -17454,15 +17454,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "2b701b",
+              "GUID": "b36a32",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -7.905245,
-                "posY": 0.9761624,
+                "posY": 0.976157963,
                 "posZ": -2.486263,
-                "rotX": 0.000394159055,
+                "rotX": 0.000515564869,
                 "rotY": 270.000122,
-                "rotZ": 0.000289878517,
+                "rotZ": -0.000642920146,
                 "scaleX": 0.365,
                 "scaleY": 1.0,
                 "scaleZ": 0.365
@@ -17520,15 +17520,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "2b701b",
+              "GUID": "b36a32",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 1.06916218E-06,
+                "rotX": 4.25409826E-06,
                 "rotY": 270.000122,
-                "rotZ": 3.862375E-06,
+                "rotZ": -1.6729507E-06,
                 "scaleX": 0.245060965,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.237559
@@ -17586,15 +17586,15 @@
           ]
         },
         {
-          "GUID": "91ccbd",
+          "GUID": "984d35",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -7.905245,
-            "posY": 0.833663046,
+            "posY": 0.833663,
             "posZ": -4.986263,
-            "rotX": -1.4447487E-06,
-            "rotY": -7.766021E-05,
-            "rotZ": -7.44954946E-07,
+            "rotX": -6.97537234E-06,
+            "rotY": -7.986668E-05,
+            "rotZ": -1.92656742E-07,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -17644,15 +17644,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "821954",
+              "GUID": "06dd4e",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -7.905245,
-                "posY": 0.976154447,
+                "posY": 0.976158738,
                 "posZ": -4.986263,
-                "rotX": 0.00250125,
-                "rotY": 270.0001,
-                "rotZ": -0.00183390419,
+                "rotX": 0.00470239064,
+                "rotY": 270.000122,
+                "rotZ": -0.00207687821,
                 "scaleX": 0.608,
                 "scaleY": 1.0,
                 "scaleZ": 0.608
@@ -17710,15 +17710,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "821954",
+              "GUID": "06dd4e",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 1.06916218E-06,
+                "rotX": 4.25409826E-06,
                 "rotY": 270.000122,
-                "rotZ": 3.862375E-06,
+                "rotZ": -1.6729507E-06,
                 "scaleX": 0.4082111,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.39571467
@@ -17776,15 +17776,15 @@
           ]
         },
         {
-          "GUID": "9804d7",
+          "GUID": "a462cd",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -7.905245,
             "posY": 0.8336629,
             "posZ": -7.486263,
-            "rotX": -1.46507068E-06,
-            "rotY": -7.466761E-05,
-            "rotZ": 2.63562174E-06,
+            "rotX": -8.6621E-06,
+            "rotY": -7.469367E-05,
+            "rotZ": 1.39503391E-06,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -17834,15 +17834,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "8f1668",
+              "GUID": "e0e03c",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -7.905245,
-                "posY": 0.976168036,
+                "posY": 0.976167142,
                 "posZ": -7.486263,
-                "rotX": 2.554545E-05,
+                "rotX": 3.971759E-05,
                 "rotY": 270.000122,
-                "rotZ": 9.251705E-06,
+                "rotZ": -1.57321847E-05,
                 "scaleX": 0.365,
                 "scaleY": 1.0,
                 "scaleZ": 0.365
@@ -17900,15 +17900,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "8f1668",
+              "GUID": "e0e03c",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 1.06916218E-06,
+                "rotX": 4.25409826E-06,
                 "rotY": 270.000122,
-                "rotZ": 3.862375E-06,
+                "rotZ": -1.6729507E-06,
                 "scaleX": 0.245060965,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.237559
@@ -17966,15 +17966,15 @@
           ]
         },
         {
-          "GUID": "57af9d",
+          "GUID": "966f5f",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -7.905245,
             "posY": 0.8336627,
             "posZ": -9.986263,
-            "rotX": -5.70519023E-06,
-            "rotY": -7.43086639E-05,
-            "rotZ": -5.88209E-07,
+            "rotX": -5.21973425E-06,
+            "rotY": -7.44145145E-05,
+            "rotZ": -6.828457E-07,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -18024,15 +18024,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "9d76ef",
+              "GUID": "b6a6a7",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -7.905245,
-                "posY": 0.9761681,
+                "posY": 0.976164,
                 "posZ": -9.986263,
-                "rotX": 3.1120926E-05,
+                "rotX": 0.000314860081,
                 "rotY": 270.000122,
-                "rotZ": 0.00010126712,
+                "rotZ": 9.377498E-05,
                 "scaleX": 0.365,
                 "scaleY": 1.0,
                 "scaleZ": 0.365
@@ -18090,15 +18090,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "9d76ef",
+              "GUID": "b6a6a7",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 1.06916218E-06,
+                "rotX": 4.25409826E-06,
                 "rotY": 270.000122,
-                "rotZ": 3.862375E-06,
+                "rotZ": -1.6729507E-06,
                 "scaleX": 0.245060965,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.237559
@@ -18156,15 +18156,15 @@
           ]
         },
         {
-          "GUID": "fcfbf8",
+          "GUID": "1fc6c3",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -7.905245,
             "posY": 0.8336625,
             "posZ": -12.4862633,
-            "rotX": -3.276061E-06,
-            "rotY": -6.326418E-05,
-            "rotZ": 2.639893E-06,
+            "rotX": -6.700175E-06,
+            "rotY": -7.342144E-05,
+            "rotZ": -5.349089E-06,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -18214,15 +18214,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "ba6878",
+              "GUID": "df199b",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -7.905245,
-                "posY": 0.976138651,
+                "posY": 0.976155758,
                 "posZ": -12.4862633,
-                "rotX": -0.00100387714,
+                "rotX": 0.00031439928,
                 "rotY": 270.000122,
-                "rotZ": -0.0007232245,
+                "rotZ": -0.00148379232,
                 "scaleX": 0.608,
                 "scaleY": 1.0,
                 "scaleZ": 0.608
@@ -18280,15 +18280,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "ba6878",
+              "GUID": "df199b",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 1.06916218E-06,
+                "rotX": 4.25409826E-06,
                 "rotY": 270.000122,
-                "rotZ": 3.862375E-06,
+                "rotZ": -1.6729507E-06,
                 "scaleX": 0.4082111,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.39571467
@@ -18346,15 +18346,15 @@
           ]
         },
         {
-          "GUID": "e3c684",
+          "GUID": "1fc6ee",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -4.905245,
             "posY": 0.833663464,
             "posZ": 2.513737,
-            "rotX": -2.165765E-06,
-            "rotY": -7.137772E-05,
-            "rotZ": 3.80037733E-07,
+            "rotX": -3.00378747E-06,
+            "rotY": -7.33148045E-05,
+            "rotZ": -5.67008E-08,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -18404,15 +18404,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "21c4b9",
+              "GUID": "204bfd",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -4.905245,
-                "posY": 0.9761518,
+                "posY": 0.976156056,
                 "posZ": 2.513737,
-                "rotX": -0.00214657048,
+                "rotX": -0.00323307817,
                 "rotY": 270.000122,
-                "rotZ": -0.00298783183,
+                "rotZ": -0.00189923658,
                 "scaleX": 0.608,
                 "scaleY": 1.0,
                 "scaleZ": 0.608
@@ -18470,15 +18470,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "21c4b9",
+              "GUID": "204bfd",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 1.06916218E-06,
+                "rotX": 4.25409826E-06,
                 "rotY": 270.000122,
-                "rotZ": 3.862375E-06,
+                "rotZ": -1.6729507E-06,
                 "scaleX": 0.4082111,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.39571467
@@ -18536,15 +18536,15 @@
           ]
         },
         {
-          "GUID": "5fbf48",
+          "GUID": "522b75",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -4.905245,
-            "posY": 0.833663344,
-            "posZ": 0.0137370164,
-            "rotX": -5.09538768E-06,
-            "rotY": -7.77961E-05,
-            "rotZ": 3.10515065E-06,
+            "posY": 0.8336633,
+            "posZ": 0.0137369446,
+            "rotX": -7.54845451E-06,
+            "rotY": -7.827325E-05,
+            "rotZ": 4.268449E-06,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -18594,15 +18594,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "6c95f1",
+              "GUID": "37614b",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -4.905245,
-                "posY": 0.976096153,
-                "posZ": 0.013736994,
-                "rotX": -0.005446337,
+                "posY": 0.976110637,
+                "posZ": 0.0137369987,
+                "rotX": 0.001317217,
                 "rotY": 270.0001,
-                "rotZ": 359.993256,
+                "rotZ": -0.00209725043,
                 "scaleX": 0.608,
                 "scaleY": 1.0,
                 "scaleZ": 0.608
@@ -18660,15 +18660,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "6c95f1",
+              "GUID": "37614b",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 1.06916218E-06,
+                "rotX": 4.25409826E-06,
                 "rotY": 270.000122,
-                "rotZ": 3.862375E-06,
+                "rotZ": -1.6729507E-06,
                 "scaleX": 0.4082111,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.39571467
@@ -18734,9 +18734,9 @@
         "posX": 24.9148254,
         "posY": 1.08103025,
         "posZ": 6.50438643,
-        "rotX": -4.65194E-06,
-        "rotY": -2.86391914E-05,
-        "rotZ": -6.72661236E-06,
+        "rotX": -1.78655876E-06,
+        "rotY": -2.864728E-05,
+        "rotZ": -6.83843E-06,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -18924,9 +18924,9 @@
         "posX": 24.9148254,
         "posY": 1.08103013,
         "posZ": 4.004386,
-        "rotX": -4.7575686E-06,
-        "rotY": -7.372638E-05,
-        "rotZ": -8.82274253E-06,
+        "rotX": -4.585068E-06,
+        "rotY": -7.37228256E-05,
+        "rotZ": -8.685777E-06,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -19114,9 +19114,9 @@
         "posX": 24.9148254,
         "posY": 1.08102977,
         "posZ": 1.50438511,
-        "rotX": -2.16235458E-06,
-        "rotY": -5.54655344E-05,
-        "rotZ": -6.702174E-06,
+        "rotX": -2.07132E-06,
+        "rotY": -5.546513E-05,
+        "rotZ": -6.68279472E-06,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -19303,10 +19303,10 @@
       "Transform": {
         "posX": 24.9148254,
         "posY": 1.08102965,
-        "posZ": -0.9956147,
-        "rotX": -5.15341662E-06,
-        "rotY": -5.330445E-05,
-        "rotZ": -7.456199E-06,
+        "posZ": -0.995614767,
+        "rotX": -4.972235E-06,
+        "rotY": -5.33128623E-05,
+        "rotZ": -7.38802555E-06,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -19494,9 +19494,9 @@
         "posX": 24.9148464,
         "posY": 1.0810293,
         "posZ": -3.495619,
-        "rotX": -1.61629555E-06,
-        "rotY": -6.9228E-05,
-        "rotZ": -5.05563457E-06,
+        "rotX": -1.64440894E-06,
+        "rotY": -6.922704E-05,
+        "rotZ": -5.24401366E-06,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -19684,9 +19684,9 @@
         "posX": 24.9149055,
         "posY": 1.08102918,
         "posZ": -5.99560547,
-        "rotX": -1.60445E-06,
-        "rotY": -8.255538E-05,
-        "rotZ": -5.583919E-06,
+        "rotX": -1.73984017E-06,
+        "rotY": -8.256286E-05,
+        "rotZ": -5.74208434E-06,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -19874,9 +19874,9 @@
         "posX": 27.91487,
         "posY": 1.08103025,
         "posZ": 9.004338,
-        "rotX": 3.565035E-07,
-        "rotY": -0.000147119863,
-        "rotZ": -5.66876543E-06,
+        "rotX": -2.430198E-06,
+        "rotY": -0.0001472675,
+        "rotZ": -3.05821186E-06,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -20824,9 +20824,9 @@
         "posX": 27.9148636,
         "posY": 1.08102918,
         "posZ": -3.4956224,
-        "rotX": -6.195604E-06,
-        "rotY": -8.944641E-05,
-        "rotZ": -6.77438E-06,
+        "rotX": -6.13961629E-06,
+        "rotY": -8.94471E-05,
+        "rotZ": -6.766257E-06,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -21014,9 +21014,9 @@
         "posX": 27.9148846,
         "posY": 1.08102882,
         "posZ": -5.99561,
-        "rotX": -5.43246961E-06,
-        "rotY": -7.17445437E-05,
-        "rotZ": -9.472887E-06,
+        "rotX": -5.500898E-06,
+        "rotY": -7.17467847E-05,
+        "rotZ": -9.508325E-06,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -21204,9 +21204,9 @@
         "posX": 30.914772,
         "posY": 1.08102965,
         "posZ": 9.004397,
-        "rotX": -3.66556083E-06,
-        "rotY": -0.000109785178,
-        "rotZ": -6.27396957E-06,
+        "rotX": -3.673867E-06,
+        "rotY": -0.000109784341,
+        "rotZ": -6.26454E-06,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -21394,9 +21394,9 @@
         "posX": 30.9148254,
         "posY": 1.08102965,
         "posZ": 6.504386,
-        "rotX": -4.0199393E-06,
-        "rotY": -7.474701E-05,
-        "rotZ": -8.557196E-06,
+        "rotX": -4.08764936E-06,
+        "rotY": -7.47455051E-05,
+        "rotZ": -8.559976E-06,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -21584,9 +21584,9 @@
         "posX": 30.9147739,
         "posY": 1.08102953,
         "posZ": 4.004397,
-        "rotX": -3.524892E-06,
-        "rotY": -0.00010507855,
-        "rotZ": -3.16314117E-06,
+        "rotX": -3.35040272E-06,
+        "rotY": -0.0001050813,
+        "rotZ": -3.11423082E-06,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -21774,9 +21774,9 @@
         "posX": 30.9148464,
         "posY": 1.08102942,
         "posZ": 1.50438154,
-        "rotX": -3.266593E-06,
-        "rotY": -7.255331E-05,
-        "rotZ": -9.32318E-06,
+        "rotX": -3.22932988E-06,
+        "rotY": -7.255296E-05,
+        "rotZ": -9.301268E-06,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -21964,9 +21964,9 @@
         "posX": 30.9149055,
         "posY": 1.08102918,
         "posZ": -0.995604336,
-        "rotX": -1.57726754E-06,
-        "rotY": -6.89258159E-05,
-        "rotZ": -6.22981725E-06,
+        "rotX": -1.59694423E-06,
+        "rotY": -6.892751E-05,
+        "rotZ": -6.32992533E-06,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -22153,10 +22153,10 @@
       "Transform": {
         "posX": 30.9148216,
         "posY": 1.05882251,
-        "posZ": -3.49561477,
-        "rotX": -3.55607E-06,
-        "rotY": 270.000031,
-        "rotZ": 8.650806E-06,
+        "posZ": -3.495615,
+        "rotX": 5.93236564E-06,
+        "rotY": 269.999969,
+        "rotZ": 5.024774E-06,
         "scaleX": 0.365,
         "scaleY": 1.0,
         "scaleZ": 0.365
@@ -22216,11 +22216,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 30.9148216,
-        "posY": 1.05882227,
+        "posY": 1.05882239,
         "posZ": -5.995615,
-        "rotX": -1.77526581E-05,
-        "rotY": 270.000183,
-        "rotZ": 6.77556045E-06,
+        "rotX": -5.326592E-06,
+        "rotY": 270.000061,
+        "rotZ": 3.483269E-06,
         "scaleX": 0.365,
         "scaleY": 1.0,
         "scaleZ": 0.365
@@ -22280,11 +22280,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 33.91482,
-        "posY": 1.05882347,
-        "posZ": 9.004387,
-        "rotX": 1.022713E-05,
-        "rotY": 269.999939,
-        "rotZ": -5.56723626E-06,
+        "posY": 1.05882335,
+        "posZ": 9.004386,
+        "rotX": 3.95306E-05,
+        "rotY": 270.000122,
+        "rotZ": -1.20289833E-05,
         "scaleX": 0.365,
         "scaleY": 1.0,
         "scaleZ": 0.365
@@ -22344,11 +22344,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 33.91482,
-        "posY": 1.05882311,
+        "posY": 1.05882335,
         "posZ": 6.50438738,
-        "rotX": 1.52274333E-06,
-        "rotY": 270.000061,
-        "rotZ": -2.34333711E-05,
+        "rotX": -3.86348947E-05,
+        "rotY": 270.000031,
+        "rotZ": -1.66008958E-05,
         "scaleX": 0.365,
         "scaleY": 1.0,
         "scaleZ": 0.365
@@ -22408,11 +22408,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 33.91482,
-        "posY": 1.058823,
+        "posY": 1.05882323,
         "posZ": 4.004386,
-        "rotX": 2.06610184E-06,
+        "rotX": 3.316475E-06,
         "rotY": 270.000153,
-        "rotZ": -6.717408E-06,
+        "rotZ": -7.682034E-06,
         "scaleX": 0.365,
         "scaleY": 1.0,
         "scaleZ": 0.365
@@ -22473,10 +22473,10 @@
       "Transform": {
         "posX": 33.91482,
         "posY": 1.05882287,
-        "posZ": 1.50438583,
-        "rotX": 8.806745E-06,
-        "rotY": 270.000031,
-        "rotZ": 3.17669037E-05,
+        "posZ": 1.504386,
+        "rotX": 3.6870435E-05,
+        "rotY": 270.000061,
+        "rotZ": 2.41205362E-05,
         "scaleX": 0.365,
         "scaleY": 1.0,
         "scaleZ": 0.365
@@ -22538,9 +22538,9 @@
         "posX": 33.91482,
         "posY": 1.05882251,
         "posZ": -0.995614,
-        "rotX": -8.29609053E-06,
-        "rotY": 270.000031,
-        "rotZ": -1.44722833E-06,
+        "rotX": -2.97792712E-06,
+        "rotY": 270.0,
+        "rotZ": -1.30208673E-05,
         "scaleX": 0.365,
         "scaleY": 1.0,
         "scaleZ": 0.365
@@ -22602,9 +22602,9 @@
         "posX": 33.91482,
         "posY": 1.05882227,
         "posZ": -3.49561524,
-        "rotX": 7.068461E-07,
-        "rotY": 269.9995,
-        "rotZ": 1.39946505E-05,
+        "rotX": -1.13083015E-05,
+        "rotY": 269.999481,
+        "rotZ": -2.63923965E-07,
         "scaleX": 0.365,
         "scaleY": 1.0,
         "scaleZ": 0.365
@@ -22665,10 +22665,10 @@
       "Transform": {
         "posX": 33.9148254,
         "posY": 1.05882215,
-        "posZ": -5.995616,
-        "rotX": -1.7796965E-05,
-        "rotY": 270.000153,
-        "rotZ": 3.814815E-06,
+        "posZ": -5.99561548,
+        "rotX": -6.61852528E-06,
+        "rotY": 270.000122,
+        "rotZ": 7.935802E-06,
         "scaleX": 0.365,
         "scaleY": 1.0,
         "scaleZ": 0.365
@@ -22724,15 +22724,15 @@
       ]
     },
     {
-      "GUID": "6270f0",
+      "GUID": "a97866",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 34.762413,
-        "posY": 0.7664584,
+        "posY": 0.766459644,
         "posZ": 25.1255264,
-        "rotX": -2.49300251E-06,
+        "rotX": 6.255387E-06,
         "rotY": 270.000031,
-        "rotZ": 1.1850442E-06,
+        "rotZ": 2.10889061E-06,
         "scaleX": 0.0,
         "scaleY": 1.0,
         "scaleZ": 0.0
@@ -22792,15 +22792,15 @@
       }
     },
     {
-      "GUID": "155649",
+      "GUID": "baab3e",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 30.9148216,
         "posY": 1.05882251,
-        "posZ": -3.49561453,
-        "rotX": -4.44497573E-06,
-        "rotY": 270.0,
-        "rotZ": 7.31190175E-06,
+        "posZ": -3.49561477,
+        "rotX": 3.662218E-06,
+        "rotY": 269.999969,
+        "rotZ": -1.02868148E-06,
         "scaleX": 0.0,
         "scaleY": 1.0,
         "scaleZ": 0.0
@@ -22860,151 +22860,15 @@
       }
     },
     {
-      "GUID": "d37386",
+      "GUID": "984036",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 30.9148216,
-        "posY": 1.05882227,
-        "posZ": -5.995615,
-        "rotX": -1.77526581E-05,
-        "rotY": 270.000183,
-        "rotZ": 6.77556045E-06,
-        "scaleX": 0.0,
-        "scaleY": 1.0,
-        "scaleZ": 0.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "AltLookAngle": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "LayoutGroupSortIndex": 0,
-      "Value": 0,
-      "Locked": false,
-      "Grid": false,
-      "Snap": false,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": false,
-      "Sticky": false,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomMesh": {
-        "MeshURL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/components/arcs/round0.obj",
-        "DiffuseURL": "",
-        "NormalURL": "",
-        "ColliderURL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/utility/null_COL.obj",
-        "Convex": true,
-        "MaterialIndex": 3,
-        "TypeIndex": 0,
-        "CastShadows": false
-      },
-      "LuaScript": "            local lastParent = nil\n            function onLoad() \n            (self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false)\n            Wait.condition(\n            function() \n            (self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false) \n            end, \n            function() \n            return not(self.loading_custom) \n            end\n            ) \n            end \n            function onUpdate() \n            if (parent ~= nil) then \n            if (not parent.resting or lastParent ~= parent) then \n            lastParent = parent\n            self.setPosition(parent.getPosition())\n            self.setRotation(parent.getRotation()) \n            end \n            else \n            self.destruct() \n            end \n            end\n            ",
-      "LuaScriptState": "",
-      "XmlUI": "",
-      "PhysicsMaterial": {
-        "StaticFriction": 1.0,
-        "DynamicFriction": 0.7,
-        "Bounciness": 0.0,
-        "FrictionCombine": 0,
-        "BounceCombine": 0
-      },
-      "Rigidbody": {
-        "Mass": 0.0,
-        "Drag": 0.0,
-        "AngularDrag": 0.1,
-        "UseGravity": false
-      }
-    },
-    {
-      "GUID": "4ce2b2",
-      "Name": "Custom_Model",
-      "Transform": {
-        "posX": 33.91482,
-        "posY": 1.05882347,
-        "posZ": 9.004386,
-        "rotX": 5.12275255E-05,
-        "rotY": 269.999939,
-        "rotZ": 2.75595426E-06,
-        "scaleX": 0.0,
-        "scaleY": 1.0,
-        "scaleZ": 0.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "AltLookAngle": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "LayoutGroupSortIndex": 0,
-      "Value": 0,
-      "Locked": false,
-      "Grid": false,
-      "Snap": false,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": false,
-      "Sticky": false,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomMesh": {
-        "MeshURL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/components/arcs/round0.obj",
-        "DiffuseURL": "",
-        "NormalURL": "",
-        "ColliderURL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/utility/null_COL.obj",
-        "Convex": true,
-        "MaterialIndex": 3,
-        "TypeIndex": 0,
-        "CastShadows": false
-      },
-      "LuaScript": "            local lastParent = nil\n            function onLoad() \n            (self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false)\n            Wait.condition(\n            function() \n            (self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false) \n            end, \n            function() \n            return not(self.loading_custom) \n            end\n            ) \n            end \n            function onUpdate() \n            if (parent ~= nil) then \n            if (not parent.resting or lastParent ~= parent) then \n            lastParent = parent\n            self.setPosition(parent.getPosition())\n            self.setRotation(parent.getRotation()) \n            end \n            else \n            self.destruct() \n            end \n            end\n            ",
-      "LuaScriptState": "",
-      "XmlUI": "",
-      "PhysicsMaterial": {
-        "StaticFriction": 1.0,
-        "DynamicFriction": 0.7,
-        "Bounciness": 0.0,
-        "FrictionCombine": 0,
-        "BounceCombine": 0
-      },
-      "Rigidbody": {
-        "Mass": 0.0,
-        "Drag": 0.0,
-        "AngularDrag": 0.1,
-        "UseGravity": false
-      }
-    },
-    {
-      "GUID": "6687a6",
-      "Name": "Custom_Model",
-      "Transform": {
-        "posX": 33.91482,
-        "posY": 1.05882311,
-        "posZ": 6.50438738,
-        "rotX": 1.52274333E-06,
+        "posY": 1.05882192,
+        "posZ": -5.99561548,
+        "rotX": -5.3265926E-06,
         "rotY": 270.000061,
-        "rotZ": -2.34333711E-05,
+        "rotZ": 3.483269E-06,
         "scaleX": 0.0,
         "scaleY": 1.0,
         "scaleZ": 0.0
@@ -23064,15 +22928,151 @@
       }
     },
     {
-      "GUID": "db5b8e",
+      "GUID": "737981",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 33.91482,
+        "posY": 1.05882335,
+        "posZ": 9.004386,
+        "rotX": 1.23889295E-05,
+        "rotY": 270.000183,
+        "rotZ": 1.78754E-05,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": false,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/components/arcs/round0.obj",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/utility/null_COL.obj",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": false
+      },
+      "LuaScript": "            local lastParent = nil\n            function onLoad() \n            (self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false)\n            Wait.condition(\n            function() \n            (self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false) \n            end, \n            function() \n            return not(self.loading_custom) \n            end\n            ) \n            end \n            function onUpdate() \n            if (parent ~= nil) then \n            if (not parent.resting or lastParent ~= parent) then \n            lastParent = parent\n            self.setPosition(parent.getPosition())\n            self.setRotation(parent.getRotation()) \n            end \n            else \n            self.destruct() \n            end \n            end\n            ",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 1.0,
+        "DynamicFriction": 0.7,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 0.0,
+        "Drag": 0.0,
+        "AngularDrag": 0.1,
+        "UseGravity": false
+      }
+    },
+    {
+      "GUID": "38cd51",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 33.91482,
+        "posY": 1.05882323,
+        "posZ": 6.50438738,
+        "rotX": 6.969918E-06,
+        "rotY": 270.000061,
+        "rotZ": 1.13632416E-06,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": false,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/components/arcs/round0.obj",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/utility/null_COL.obj",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": false
+      },
+      "LuaScript": "            local lastParent = nil\n            function onLoad() \n            (self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false)\n            Wait.condition(\n            function() \n            (self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false) \n            end, \n            function() \n            return not(self.loading_custom) \n            end\n            ) \n            end \n            function onUpdate() \n            if (parent ~= nil) then \n            if (not parent.resting or lastParent ~= parent) then \n            lastParent = parent\n            self.setPosition(parent.getPosition())\n            self.setRotation(parent.getRotation()) \n            end \n            else \n            self.destruct() \n            end \n            end\n            ",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 1.0,
+        "DynamicFriction": 0.7,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 0.0,
+        "Drag": 0.0,
+        "AngularDrag": 0.1,
+        "UseGravity": false
+      }
+    },
+    {
+      "GUID": "4925bd",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 33.91482,
         "posY": 1.05882311,
-        "posZ": 4.004386,
-        "rotX": 9.74365E-06,
+        "posZ": 4.00438643,
+        "rotX": 3.316475E-06,
         "rotY": 270.000122,
-        "rotZ": -3.99739765E-05,
+        "rotZ": -7.682034E-06,
         "scaleX": 0.0,
         "scaleY": 1.0,
         "scaleZ": 0.0
@@ -23132,15 +23132,15 @@
       }
     },
     {
-      "GUID": "cd77a2",
+      "GUID": "a699d1",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 33.91482,
-        "posY": 1.05882287,
+        "posY": 1.05882275,
         "posZ": 1.50438583,
-        "rotX": 8.806745E-06,
-        "rotY": 270.000031,
-        "rotZ": 3.17669037E-05,
+        "rotX": 3.687044E-05,
+        "rotY": 270.000061,
+        "rotZ": 2.41205362E-05,
         "scaleX": 0.0,
         "scaleY": 1.0,
         "scaleZ": 0.0
@@ -23200,15 +23200,15 @@
       }
     },
     {
-      "GUID": "d3dd51",
+      "GUID": "ce0e36",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 33.91482,
         "posY": 1.05882251,
-        "posZ": -0.995614,
-        "rotX": -8.29609053E-06,
-        "rotY": 270.000031,
-        "rotZ": -1.44722787E-06,
+        "posZ": -0.9956139,
+        "rotX": 5.52364145E-06,
+        "rotY": 270.0,
+        "rotZ": 2.912496E-06,
         "scaleX": 0.0,
         "scaleY": 1.0,
         "scaleZ": 0.0
@@ -23268,15 +23268,15 @@
       }
     },
     {
-      "GUID": "abbd72",
+      "GUID": "d914fc",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 33.91482,
         "posY": 1.05882227,
         "posZ": -3.49561524,
-        "rotX": 7.068465E-07,
-        "rotY": 269.9995,
-        "rotZ": 1.399465E-05,
+        "rotX": -1.13083015E-05,
+        "rotY": 269.999481,
+        "rotZ": -2.63923539E-07,
         "scaleX": 0.0,
         "scaleY": 1.0,
         "scaleZ": 0.0
@@ -23336,15 +23336,15 @@
       }
     },
     {
-      "GUID": "eba10e",
+      "GUID": "2b1fd9",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 33.9148254,
-        "posY": 1.05882215,
+        "posY": 1.05882192,
         "posZ": -5.995616,
-        "rotX": -1.7796965E-05,
+        "rotX": -1.27714839E-05,
         "rotY": 270.000122,
-        "rotZ": 3.814816E-06,
+        "rotZ": -1.44973774E-06,
         "scaleX": 0.0,
         "scaleY": 1.0,
         "scaleZ": 0.0
