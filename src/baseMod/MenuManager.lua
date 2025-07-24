@@ -240,9 +240,9 @@ for index, value in ipairs(strats) do
     getObjectFromGUID(value).call("setDeployment",mode)
 end
 end
-function ChangeModeDeployment()
+function ChangeModeDeployment(stateId)
 FindDeploymentOverlay();
-UIState.deployment.mode = (UIState.deployment.mode +1)%5;
+UIState.deployment.mode = stateId;
 tellStratsDeployment(UIState.deployment.mode)
 if UIState.deployment.mode == 0 then
     --DeploymentOverlay.setScale(Vector(0.1,1,0.1))
