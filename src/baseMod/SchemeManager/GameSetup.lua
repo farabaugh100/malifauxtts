@@ -17,9 +17,9 @@ local defaultstate = {
     players = {"Blue","Red"},
     game_setup= true,
     button={
-            pos = {0,0.1,-1.0},
-            size = 1500,
-            label = "Start"
+                pos = {0,0.1,-1.0},
+                size = 1500,
+                label = "Start"
             },
     checkbox={
         {
