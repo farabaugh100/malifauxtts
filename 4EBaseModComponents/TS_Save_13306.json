@@ -1,7 +1,7 @@
 {
   "SaveName": "Markers V2 Filled",
-  "EpochTime": 1749237079,
-  "Date": "6/6/2025 3:11:19 PM",
+  "EpochTime": 1752340027,
+  "Date": "7/12/2025 1:07:07 PM",
   "VersionNumber": "v13.3",
   "GameMode": "Malifaux Breachside Gamma - dev branch",
   "GameType": "Game",
@@ -3760,9 +3760,9 @@
         "posX": -1.52714753,
         "posY": 0.6277724,
         "posZ": -98.6046753,
-        "rotX": -5.976382E-06,
+        "rotX": -1.12746338E-05,
         "rotY": 14.972434,
-        "rotZ": 1.28357115E-07,
+        "rotZ": 2.80836161E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -3864,11 +3864,11 @@
       "Name": "Checker_red",
       "Transform": {
         "posX": 6.116602,
-        "posY": 0.587768435,
+        "posY": 0.5877685,
         "posZ": -98.7933,
-        "rotX": 0.000156092836,
+        "rotX": 0.0001536679,
         "rotY": 270.000916,
-        "rotZ": -0.000457669375,
+        "rotZ": -0.000456455,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -4017,11 +4017,11 @@
       "Name": "Checker_white",
       "Transform": {
         "posX": 6.099709,
-        "posY": 0.838223636,
+        "posY": 0.838223755,
         "posZ": -98.74653,
-        "rotX": -0.002478888,
-        "rotY": 89.98736,
-        "rotZ": 0.002396069,
+        "rotX": -0.00247611781,
+        "rotY": 89.98735,
+        "rotZ": 0.00239502057,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -4081,9 +4081,9 @@
         "posX": -36.2247849,
         "posY": 0.587772667,
         "posZ": 44.60769,
-        "rotX": -2.09454787E-09,
+        "rotX": 2.0429189E-08,
         "rotY": 269.967468,
-        "rotZ": 2.51667842E-07,
+        "rotZ": -1.586954E-08,
         "scaleX": 3.2506578,
         "scaleY": 1.0,
         "scaleZ": 3.2506578
@@ -5644,12 +5644,12 @@
       "GUID": "1b16b0",
       "Name": "BlockSquare",
       "Transform": {
-        "posX": 0.0127182249,
+        "posX": 0.012718223,
         "posY": 1.08777225,
         "posZ": -98.24594,
-        "rotX": -9.707788E-07,
-        "rotY": 0.004275309,
-        "rotZ": 1.08276276E-06,
+        "rotX": -3.078533E-08,
+        "rotY": 0.00427535269,
+        "rotZ": 8.10983863E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -7322,10 +7322,10 @@
       "GUID": "02c7e5",
       "Name": "Deck",
       "Transform": {
-        "posX": 0.626264751,
-        "posY": 0.868661,
+        "posX": 0.626264632,
+        "posY": 0.8686609,
         "posZ": -90.17453,
-        "rotX": -1.206793E-07,
+        "rotX": -2.51075846E-07,
         "rotY": 269.998352,
         "rotZ": 180.0,
         "scaleX": 1.5,
@@ -11628,9 +11628,9 @@
         "posX": -36.2247849,
         "posY": 0.5877726,
         "posZ": 55.60769,
-        "rotX": -1.98890859E-08,
+        "rotX": -3.14371874E-07,
         "rotY": 269.984344,
-        "rotZ": -1.01103375E-08,
+        "rotZ": 2.58297135E-08,
         "scaleX": 3.24971676,
         "scaleY": 1.0,
         "scaleZ": 3.24971676
@@ -11679,9 +11679,9 @@
         "posX": 29.7922764,
         "posY": 0.587772548,
         "posZ": 55.9559059,
-        "rotX": -2.0879348E-08,
+        "rotX": 8.027191E-09,
         "rotY": 90.01519,
-        "rotZ": -1.15056134E-08,
+        "rotZ": -2.55335024E-08,
         "scaleX": 3.24971676,
         "scaleY": 1.0,
         "scaleZ": 3.24971676
@@ -12669,9 +12669,9 @@
         "posX": 34.762413,
         "posY": 0.766458333,
         "posZ": 25.1255264,
-        "rotX": 1.072967E-05,
+        "rotX": 3.26128247E-06,
         "rotY": 270.000031,
-        "rotZ": -4.487283E-06,
+        "rotZ": 4.402483E-06,
         "scaleX": 0.3045071,
         "scaleY": 0.1,
         "scaleZ": 0.3045071
@@ -12733,7 +12733,7 @@
         "posX": 36.914505,
         "posY": 1.01194167,
         "posZ": 24.40909,
-        "rotX": 1.35062182E-05,
+        "rotX": 1.35489136E-05,
         "rotY": 180.145157,
         "rotZ": 180.0,
         "scaleX": 1.0,
@@ -12767,7 +12767,7 @@
       "GridProjection": false,
       "HideWhenFaceDown": false,
       "Hands": false,
-      "LuaScript": "local generalLibeary={}\r\n\r\n\r\n\r\n\r\nlocal specialLibeary={\r\n    Assault={\r\n        name=\"Assault\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='Enemy models within 1\\\" of an Assault marker cannot gain cover or concealment in duels with friendly Cavalier models.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Assault.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Bog={\r\n        name=\"Bog\";\r\n        size=\"50\";\r\n        ht=\"0\";\r\n        rules='Severe. When an enemy model activates within 1\\\" of this marker, it gains a Stunned token.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Markers/Bog.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Decoy={\r\n        name=\"Decoy\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='When a friendly Showgirl within 3\\\" is dealt damage, it may be placed into base contact with this marker to reduce the damage by 1, then remove this marker.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Decoy.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Echo={\r\n        name=\"Echo\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='When a friendly Obliteration model is killed within 1\\\" of this marker, it may drain a soulstone. If it does, it does not infuse a soulstone for being killed and, after the model is removed, this crew may summon a model of the same name within 1\\\" of this marker with a Flicker token and 2 health. Then remove this marker.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Echo.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Gloom={\r\n        name=\"Gloom\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='Allies that start a move within 2\\\" of this marker may ignore models and terrain while moving. Allies may treat this marker as blocking terrain for actions and abilities.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Gloom.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    IcePillar={\r\n        name=\"Ice Pillar\";\r\n        size=\"30\";\r\n        ht=\"5\";\r\n        rules='Ht 5, blocking, impassable. Models within 2\\\" of this marker reduce their duel totals by 1 during their activation.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Markers/Ice%20Pillar.png\";\r\n        color=\"#ADD3FF\";\r\n    },\r\n    Inferno={\r\n        name=\"Inferno\";\r\n        size=\"50\";\r\n        ht=\"0\";\r\n        rules='Hazardous(Burning)';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Inferno.png\";\r\n        color=\"#FF0000\";\r\n    },\r\n    Lamp={\r\n        name=\"Lamp\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='Friendly Models with LIFE tokens within 6\\\" of this marker receive + to DF Duels';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Markers/Lamp.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Piano={\r\n        name=\"Piano\";\r\n        size=\"40\";\r\n        ht=\"3\";\r\n        rules='Ht 3, blocking, impassable. During the end phase, choose a Piano marker. An enemy model within 1\\\" of the chosen marker gains an Entranced token. Then remove the chosen marker.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Piano.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Pyre={\r\n        name=\"Pyre\";\r\n        size=\"50\";\r\n        ht=\"0\";\r\n        rules='Hazardous(Burning), Before Friendly Revenant models within 1\\\" of this marker perform a duel, it may remove this marker to receive a +';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Markers/Pyre.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Pyrotechnic={\r\n        name=\"Pyrotechnic\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='At the end of the turn apply the following to all friendly Pyrotechnic markers depending on the suit of the top card of your discard pile: BOOM!: All models 2\\\" of one or more Pyrotchnic marker must pass a TN 14Sp duel or be dealt 2 damage. Surprise!: All models within 2\\\" gain a Glowy token. Whoa...: All models within 2\\\" gain an Insight token. Toxic Smoke: All models within 2\\\" gain a Poison token.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Pyrotechnic.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Remains={\r\n        name=\"Remains\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Markers/Remains.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Rift={\r\n        name=\"Rift\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='A friendly Oni within 1\\\" of this marker may remove this marker after succeeding on an attack to make that attack deal +1 damage.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Rift.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Scrap={\r\n        name=\"Scrap\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='Hazardous (Perforated).';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Scrap.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Shadow={\r\n        name=\"Shadow\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='Concealing.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Shadow.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    ShadowDoor={\r\n        name=\"Shadow Door\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='Allies that start a move within 2\\\" of this marker may ignore models and terrain while moving';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Markers/Shadow%20Door.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    ShadowLair={\r\n        name=\"Shadow Lair\";\r\n        size=\"50\";\r\n        ht=\"0\";\r\n        rules='Enemy models that end their activation in base contact with this marker gain a Fright token.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Shadow%20Lair.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Tide={\r\n        name=\"Tide\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='When a friendly Angler marker within 1\\\" is targeted with an attack action, it may remove this token to gain +1 Df and Wp during the duel';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Tide.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    TyrantsCage={\r\n        name=\"Tyrant's Cage\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='Enemy models within 2\\\" of this marker that declare a non-Walk action must pass a TN 10 Df duel or the action fails.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Markers/Tyrants%20Cage.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    UnderTheBed={\r\n        name=\"Under The Bed\";\r\n        size=\"50\";\r\n        ht=\"0\";\r\n        rules='All friendly models in play may draw range and LoS for attack and Interact actions from this marker. After an action is taken in this way, enemy models within pulse 1\\\" gain a Fright token and then remove this marker.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Markers/UnderYourBed.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Underbrush={\r\n        name=\"Underbrush\";\r\n        size=\"50\";\r\n        ht=\"0\";\r\n        rules='concealing, dense, severe.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Underbrush.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Web={\r\n        name=\"Web\";\r\n        size=\"50\";\r\n        ht=\"0\";\r\n        rules='Severe. Models in base contact with a Web marker may not be placed by models friendly to them.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Web.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n}\r\n\r\n\r\n\r\n\r\nlocal scoringLibeary={\r\n    Strategy={\r\n        name=\"Strategy\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://raw.githubusercontent.com//farabaugh100/malifauxtts/main/assets/img/ScoringMarkers/Strategy.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Guild={\r\n        name=\"Guild\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://raw.githubusercontent.com//farabaugh100/malifauxtts/main/assets/img/ScoringMarkers/Guild.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Arcanists={\r\n        name=\"Arcanists\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://raw.githubusercontent.com//farabaugh100/malifauxtts/main/assets/img/ScoringMarkers/Arcanists.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Resurrectionist={\r\n        name=\"Resurrectionist\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://raw.githubusercontent.com//farabaugh100/malifauxtts/main/assets/img/ScoringMarkers/Resurrectionists.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Neverborn={\r\n        name=\"Neverborn\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://raw.githubusercontent.com//farabaugh100/malifauxtts/main/assets/img/ScoringMarkers/Neverborn.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Outcasts={\r\n        name=\"Outcasts\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://raw.githubusercontent.com//farabaugh100/malifauxtts/main/assets/img/ScoringMarkers/Outcasts.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    TenThunders={\r\n        name=\"TenThunders\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://raw.githubusercontent.com//farabaugh100/malifauxtts/main/assets/img/ScoringMarkers/TenThunders.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Bayou={\r\n        name=\"Bayou\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://raw.githubusercontent.com//farabaugh100/malifauxtts/main/assets/img/ScoringMarkers/Bayou.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    ExplorersSociety={\r\n        name=\"ExplorersSociety\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://raw.githubusercontent.com//farabaugh100/malifauxtts/main/assets/img/ScoringMarkers/ExplorersSociety.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nfunction getGenearyLibeary()\r\n    return generalMarkers\r\nend\r\n\r\nfunction getSpecialLibeary()\r\n    return specialLibeary\r\nend\r\n\r\nfunction getScoringLibeary()\r\n    return scoringLibeary\r\nend",
+      "LuaScript": "local generalLibeary={}\r\n\r\n\r\n\r\n\r\nlocal specialLibeary={\r\n    Assault={\r\n        name=\"Assault\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='Enemy models within 1\\\" of an Assault marker cannot gain cover or concealment in duels with friendly Cavalier models.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Assault.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Bog={\r\n        name=\"Bog\";\r\n        size=\"50\";\r\n        ht=\"0\";\r\n        rules='Severe. When an enemy model activates within 1\\\" of this marker, it gains a Stunned token.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Markers/Bog.png\";\r\n        color=\"#702C00\";\r\n    },\r\n    Decoy={\r\n        name=\"Decoy\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='When a friendly Showgirl within 3\\\" is dealt damage, it may be placed into base contact with this marker to reduce the damage by 1, then remove this marker.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Decoy.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Echo={\r\n        name=\"Echo\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='When a friendly Obliteration model is killed within 1\\\" of this marker, it may drain a soulstone. If it does, it does not infuse a soulstone for being killed and, after the model is removed, this crew may summon a model of the same name within 1\\\" of this marker with a Flicker token and 2 health. Then remove this marker.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Echo.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Gloom={\r\n        name=\"Gloom\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='Allies that start a move within 2\\\" of this marker may ignore models and terrain while moving. Allies may treat this marker as blocking terrain for actions and abilities.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Gloom.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    IcePillar={\r\n        name=\"Ice Pillar\";\r\n        size=\"30\";\r\n        ht=\"5\";\r\n        rules='Ht 5, blocking, impassable. Models within 2\\\" of this marker reduce their duel totals by 1 during their activation.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Markers/Ice%20Pillar.png\";\r\n        color=\"#ADD3FF\";\r\n    },\r\n    Inferno={\r\n        name=\"Inferno\";\r\n        size=\"50\";\r\n        ht=\"0\";\r\n        rules='Hazardous(Burning)';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Inferno.png\";\r\n        color=\"#FF0000\";\r\n    },\r\n    Lamp={\r\n        name=\"Lamp\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='Friendly Models with LIFE tokens within 6\\\" of this marker receive + to DF Duels';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Markers/Lamp.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Piano={\r\n        name=\"Piano\";\r\n        size=\"40\";\r\n        ht=\"3\";\r\n        rules='Ht 3, blocking, impassable. During the end phase, choose a Piano marker. An enemy model within 1\\\" of the chosen marker gains an Entranced token. Then remove the chosen marker.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Piano.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Pyre={\r\n        name=\"Pyre\";\r\n        size=\"50\";\r\n        ht=\"0\";\r\n        rules='Hazardous(Burning), Before Friendly Revenant models within 1\\\" of this marker perform a duel, it may remove this marker to receive a +';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Markers/Pyre.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Pyrotechnic={\r\n        name=\"Pyrotechnic\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='At the end of the turn apply the following to all friendly Pyrotechnic markers depending on the suit of the top card of your discard pile: BOOM!: All models 2\\\" of one or more Pyrotchnic marker must pass a TN 14Sp duel or be dealt 2 damage. Surprise!: All models within 2\\\" gain a Glowy token. Whoa...: All models within 2\\\" gain an Insight token. Toxic Smoke: All models within 2\\\" gain a Poison token.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Pyrotechnic.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Remains={\r\n        name=\"Remains\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Markers/Remains.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Rift={\r\n        name=\"Rift\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='A friendly Oni within 1\\\" of this marker may remove this marker after succeeding on an attack to make that attack deal +1 damage.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Rift.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Scrap={\r\n        name=\"Scrap\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='Hazardous (Perforated).';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Scrap.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Shadow={\r\n        name=\"Shadow\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='Concealing.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Shadow.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    ShadowDoor={\r\n        name=\"Shadow Door\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='Blocking, Allies that start a move within 2\\\" of this marker may ignore models and terrain while moving';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Markers/Shadow%20Door.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    ShadowLair={\r\n        name=\"Shadow Lair\";\r\n        size=\"50\";\r\n        ht=\"0\";\r\n        rules='Hazardous (Fright)';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Shadow%20Lair.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Tide={\r\n        name=\"Tide\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='When a friendly Angler marker within 1\\\" is targeted with an attack action, it may remove this token to gain +1 Df and Wp during the duel';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Tide.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    TyrantsCage={\r\n        name=\"Tyrant's Cage\";\r\n        size=\"30\";\r\n        ht=\"0\";\r\n        rules='Enemy models within 2\\\" of this marker that declare a non-Walk action must pass a TN 10 Df duel or the action fails.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Markers/Tyrants%20Cage.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    UnderTheBed={\r\n        name=\"Under The Bed\";\r\n        size=\"50\";\r\n        ht=\"0\";\r\n        rules='All friendly models in play may draw range and LoS for attack and Interact actions from this marker. After an action is taken in this way, enemy models within pulse 1\\\" gain a Fright token and then remove this marker.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Markers/UnderYourBed.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Underbrush={\r\n        name=\"Underbrush\";\r\n        size=\"50\";\r\n        ht=\"0\";\r\n        rules='concealing, dense, severe.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Underbrush.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Web={\r\n        name=\"Web\";\r\n        size=\"50\";\r\n        ht=\"0\";\r\n        rules='Severe. Models in base contact with a Web marker may not be placed by models friendly to them.';\r\n        image=\"https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Web.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n}\r\n\r\n\r\n\r\n\r\n\r\nlocal scoringLibeary={\r\n    Strategy={\r\n        name=\"Strategy\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://raw.githubusercontent.com//farabaugh100/malifauxtts/main/assets/img/ScoringMarkers/Strategy.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Guild={\r\n        name=\"Guild\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://raw.githubusercontent.com//farabaugh100/malifauxtts/main/assets/img/ScoringMarkers/Guild.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Arcanists={\r\n        name=\"Arcanists\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://raw.githubusercontent.com//farabaugh100/malifauxtts/main/assets/img/ScoringMarkers/Arcanists.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Resurrectionist={\r\n        name=\"Resurrectionist\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://raw.githubusercontent.com//farabaugh100/malifauxtts/main/assets/img/ScoringMarkers/Resurrectionists.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Neverborn={\r\n        name=\"Neverborn\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://raw.githubusercontent.com//farabaugh100/malifauxtts/main/assets/img/ScoringMarkers/Neverborn.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Outcasts={\r\n        name=\"Outcasts\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://raw.githubusercontent.com//farabaugh100/malifauxtts/main/assets/img/ScoringMarkers/Outcasts.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    TenThunders={\r\n        name=\"TenThunders\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://raw.githubusercontent.com//farabaugh100/malifauxtts/main/assets/img/ScoringMarkers/TenThunders.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    Bayou={\r\n        name=\"Bayou\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://raw.githubusercontent.com//farabaugh100/malifauxtts/main/assets/img/ScoringMarkers/Bayou.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n    ExplorersSociety={\r\n        name=\"ExplorersSociety\";\r\n        size=\"30\";\r\n        ht=\"0.1\";\r\n        rules='';\r\n        image=\"https://raw.githubusercontent.com//farabaugh100/malifauxtts/main/assets/img/ScoringMarkers/ExplorersSociety.png\";\r\n        color=\"#FFFFFF\";\r\n    },\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nfunction getGenearyLibeary()\r\n    return generalMarkers\r\nend\r\n\r\nfunction getSpecialLibeary()\r\n    return specialLibeary\r\nend\r\n\r\nfunction getScoringLibeary()\r\n    return scoringLibeary\r\nend",
       "LuaScriptState": "",
       "XmlUI": ""
     },
@@ -14546,15 +14546,15 @@
       "XmlUI": "",
       "ContainedObjects": [
         {
-          "GUID": "481cbd",
+          "GUID": "ef5bfe",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -13.9052448,
-            "posY": 0.8336633,
-            "posZ": 0.0137369642,
-            "rotX": -1.65977985E-06,
-            "rotY": -7.784791E-05,
-            "rotZ": -1.14131623E-07,
+            "posY": 0.833663166,
+            "posZ": 0.0137369456,
+            "rotX": -5.254943E-06,
+            "rotY": -7.76358E-05,
+            "rotZ": 7.35731263E-08,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -14604,15 +14604,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "54e834",
+              "GUID": "b70220",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -13.9052448,
-                "posY": 0.9761634,
+                "posY": 0.9761562,
                 "posZ": 0.0137369949,
-                "rotX": -0.000290442957,
+                "rotX": -0.000547622039,
                 "rotY": 270.000122,
-                "rotZ": -0.000314346456,
+                "rotZ": -0.000208777434,
                 "scaleX": 0.365,
                 "scaleY": 1.0,
                 "scaleZ": 0.365
@@ -14670,15 +14670,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "54e834",
+              "GUID": "b70220",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 8.71944849E-06,
+                "rotX": 1.25106021E-06,
                 "rotY": 270.000122,
-                "rotZ": -8.465417E-06,
+                "rotZ": 4.24347263E-07,
                 "scaleX": 0.245060965,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.237559
@@ -14736,15 +14736,15 @@
           ]
         },
         {
-          "GUID": "ab5c6a",
+          "GUID": "c5e6e4",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -13.9052448,
             "posY": 0.833663166,
             "posZ": -2.486263,
-            "rotX": -2.48395236E-06,
-            "rotY": -7.350437E-05,
-            "rotZ": -5.78181734E-08,
+            "rotX": -1.24891551E-06,
+            "rotY": -7.333551E-05,
+            "rotZ": -4.69370178E-07,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -14794,15 +14794,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "37cf9e",
+              "GUID": "aaaf92",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -13.9052448,
-                "posY": 0.976168454,
+                "posY": 0.976170063,
                 "posZ": -2.486263,
-                "rotX": 0.00322119612,
+                "rotX": 0.00167249236,
                 "rotY": 270.000122,
-                "rotZ": -0.00140650489,
+                "rotZ": -0.0009477535,
                 "scaleX": 0.608,
                 "scaleY": 1.0,
                 "scaleZ": 0.608
@@ -14816,9 +14816,9 @@
                 "z": 0.0
               },
               "ColorDiffuse": {
-                "r": 1.0,
-                "g": 1.0,
-                "b": 1.0
+                "r": 0.4392156,
+                "g": 0.17254892,
+                "b": 0.0
               },
               "LayoutGroupSortIndex": 0,
               "Value": 0,
@@ -14860,15 +14860,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "37cf9e",
+              "GUID": "aaaf92",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 8.71944849E-06,
+                "rotX": 1.25106021E-06,
                 "rotY": 270.000122,
-                "rotZ": -8.465417E-06,
+                "rotZ": 4.24347263E-07,
                 "scaleX": 0.4082111,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.39571467
@@ -14882,9 +14882,9 @@
                 "z": 0.0
               },
               "ColorDiffuse": {
-                "r": 1.0,
-                "g": 1.0,
-                "b": 1.0
+                "r": 0.43921563,
+                "g": 0.17254895,
+                "b": 0.0
               },
               "LayoutGroupSortIndex": 0,
               "Value": 0,
@@ -14926,15 +14926,15 @@
           ]
         },
         {
-          "GUID": "8e0e6b",
+          "GUID": "f0f626",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -13.9052448,
-            "posY": 0.8336631,
+            "posY": 0.833663046,
             "posZ": -4.986263,
-            "rotX": -1.35212917E-06,
-            "rotY": -7.382551E-05,
-            "rotZ": -1.14426564E-06,
+            "rotX": -7.8773877E-07,
+            "rotY": -7.410558E-05,
+            "rotZ": -8.71295E-07,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -14984,15 +14984,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "cd4f8f",
+              "GUID": "ac6a22",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -13.9052448,
-                "posY": 0.976149142,
+                "posY": 0.976151347,
                 "posZ": -4.986263,
-                "rotX": 0.0009837033,
+                "rotX": 0.0005637432,
                 "rotY": 270.0001,
-                "rotZ": -0.000451379776,
+                "rotZ": -0.000741737662,
                 "scaleX": 0.365,
                 "scaleY": 1.0,
                 "scaleZ": 0.365
@@ -15025,7 +15025,7 @@
               "HideWhenFaceDown": false,
               "Hands": true,
               "CustomImage": {
-                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Decoy.png",
+                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Decoy.png",
                 "ImageSecondaryURL": "",
                 "ImageScalar": 1.0,
                 "WidthScale": 0.0,
@@ -15050,15 +15050,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "cd4f8f",
+              "GUID": "ac6a22",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 8.71944849E-06,
+                "rotX": 1.25106021E-06,
                 "rotY": 270.000122,
-                "rotZ": -8.465417E-06,
+                "rotZ": 4.24347263E-07,
                 "scaleX": 0.245060965,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.237559
@@ -15091,7 +15091,7 @@
               "HideWhenFaceDown": false,
               "Hands": true,
               "CustomImage": {
-                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Decoy.png",
+                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Decoy.png",
                 "ImageSecondaryURL": "",
                 "ImageScalar": 1.0,
                 "WidthScale": 0.0,
@@ -15116,15 +15116,15 @@
           ]
         },
         {
-          "GUID": "e84765",
+          "GUID": "d8e154",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -13.9052448,
-            "posY": 0.833662868,
+            "posY": 0.833663,
             "posZ": -7.486263,
-            "rotX": 8.998927E-07,
-            "rotY": -7.065323E-05,
-            "rotZ": -1.62075182E-07,
+            "rotX": -6.425378E-07,
+            "rotY": -6.491589E-05,
+            "rotZ": 3.68959718E-07,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -15174,15 +15174,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "17acb4",
+              "GUID": "a56380",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -13.9052448,
-                "posY": 0.976154566,
+                "posY": 0.9761525,
                 "posZ": -7.486263,
-                "rotX": -0.00029013172,
+                "rotX": -0.0002472276,
                 "rotY": 270.0001,
-                "rotZ": 0.000425917,
+                "rotZ": 0.000480827555,
                 "scaleX": 0.365,
                 "scaleY": 1.0,
                 "scaleZ": 0.365
@@ -15240,15 +15240,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "17acb4",
+              "GUID": "a56380",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 8.71944849E-06,
+                "rotX": 1.25106021E-06,
                 "rotY": 270.000122,
-                "rotZ": -8.465417E-06,
+                "rotZ": 4.24347263E-07,
                 "scaleX": 0.245060965,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.237559
@@ -15306,15 +15306,15 @@
           ]
         },
         {
-          "GUID": "e97cc0",
+          "GUID": "53f1f0",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -13.9052448,
-            "posY": 0.8336627,
+            "posY": 0.8336626,
             "posZ": -9.986263,
-            "rotX": -5.2092314E-06,
-            "rotY": -7.01949248E-05,
-            "rotZ": 4.06618227E-07,
+            "rotX": 4.060875E-07,
+            "rotY": -7.200108E-05,
+            "rotZ": -2.063893E-08,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -15364,15 +15364,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "a51140",
+              "GUID": "d61996",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -13.9052448,
-                "posY": 0.9761533,
+                "posY": 0.976158738,
                 "posZ": -9.986263,
-                "rotX": -0.000336585916,
+                "rotX": -0.000286986877,
                 "rotY": 270.0001,
-                "rotZ": 0.0002742436,
+                "rotZ": 0.0005043466,
                 "scaleX": 0.365,
                 "scaleY": 1.0,
                 "scaleZ": 0.365
@@ -15405,7 +15405,7 @@
               "HideWhenFaceDown": false,
               "Hands": true,
               "CustomImage": {
-                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Gloom.png",
+                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Gloom.png",
                 "ImageSecondaryURL": "",
                 "ImageScalar": 1.0,
                 "WidthScale": 0.0,
@@ -15430,15 +15430,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "a51140",
+              "GUID": "d61996",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 8.71944849E-06,
+                "rotX": 1.25106021E-06,
                 "rotY": 270.000122,
-                "rotZ": -8.465417E-06,
+                "rotZ": 4.24347263E-07,
                 "scaleX": 0.245060965,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.237559
@@ -15471,7 +15471,7 @@
               "HideWhenFaceDown": false,
               "Hands": true,
               "CustomImage": {
-                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Gloom.png",
+                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Gloom.png",
                 "ImageSecondaryURL": "",
                 "ImageScalar": 1.0,
                 "WidthScale": 0.0,
@@ -15496,15 +15496,15 @@
           ]
         },
         {
-          "GUID": "234ec3",
+          "GUID": "0d629e",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -13.9052448,
             "posY": 0.8336625,
             "posZ": -12.4862633,
-            "rotX": -2.67731161E-06,
-            "rotY": -7.51567859E-05,
-            "rotZ": 2.6415305E-06,
+            "rotX": -6.26048E-06,
+            "rotY": -7.482448E-05,
+            "rotZ": -1.22342192E-06,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -15554,15 +15554,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "65101d",
+              "GUID": "3bdb5c",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -13.9052448,
-                "posY": 0.9761679,
+                "posY": 0.9761672,
                 "posZ": -12.4862633,
-                "rotX": 3.683909E-05,
+                "rotX": -6.594448E-06,
                 "rotY": 270.000122,
-                "rotZ": 5.94900048E-05,
+                "rotZ": -1.987624E-05,
                 "scaleX": 0.365,
                 "scaleY": 1.0,
                 "scaleZ": 0.365
@@ -15620,15 +15620,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "65101d",
+              "GUID": "3bdb5c",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 8.71944849E-06,
+                "rotX": 1.25106021E-06,
                 "rotY": 270.000122,
-                "rotZ": -8.465417E-06,
+                "rotZ": 4.24347263E-07,
                 "scaleX": 0.245060965,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.237559
@@ -15686,15 +15686,15 @@
           ]
         },
         {
-          "GUID": "8ed548",
+          "GUID": "646d6a",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -10.9052448,
-            "posY": 0.833663464,
+            "posY": 0.8336634,
             "posZ": 2.513737,
-            "rotX": -1.147757E-06,
-            "rotY": -7.178965E-05,
-            "rotZ": 3.805719E-06,
+            "rotX": -3.77609877E-06,
+            "rotY": -7.011133E-05,
+            "rotZ": 5.473705E-06,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -15744,15 +15744,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "3f5333",
+              "GUID": "478fd9",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -10.9052448,
-                "posY": 0.976130068,
+                "posY": 0.976119,
                 "posZ": 2.513737,
-                "rotX": 0.00116247183,
+                "rotX": -0.000662816,
                 "rotY": 270.0001,
-                "rotZ": -0.00162639888,
+                "rotZ": -0.005706311,
                 "scaleX": 0.608,
                 "scaleY": 1.0,
                 "scaleZ": 0.608
@@ -15785,7 +15785,7 @@
               "HideWhenFaceDown": false,
               "Hands": true,
               "CustomImage": {
-                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Inferno.png",
+                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Inferno.png",
                 "ImageSecondaryURL": "",
                 "ImageScalar": 1.0,
                 "WidthScale": 0.0,
@@ -15810,15 +15810,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "3f5333",
+              "GUID": "478fd9",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 8.71944849E-06,
+                "rotX": 1.25106021E-06,
                 "rotY": 270.000122,
-                "rotZ": -8.465417E-06,
+                "rotZ": 4.24347263E-07,
                 "scaleX": 0.4082111,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.39571467
@@ -15851,7 +15851,7 @@
               "HideWhenFaceDown": false,
               "Hands": true,
               "CustomImage": {
-                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Inferno.png",
+                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Inferno.png",
                 "ImageSecondaryURL": "",
                 "ImageScalar": 1.0,
                 "WidthScale": 0.0,
@@ -15876,15 +15876,15 @@
           ]
         },
         {
-          "GUID": "1e9853",
+          "GUID": "d6e78b",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -10.9052448,
-            "posY": 0.833663344,
-            "posZ": 0.0137369847,
-            "rotX": -2.21395862E-06,
-            "rotY": -7.773446E-05,
-            "rotZ": 1.04756577E-06,
+            "posY": 0.8336633,
+            "posZ": 0.0137369419,
+            "rotX": -4.011252E-06,
+            "rotY": -7.756664E-05,
+            "rotZ": -9.60864952E-08,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -15934,15 +15934,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "feb525",
+              "GUID": "bae75f",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -10.9052448,
-                "posY": 0.97616154,
+                "posY": 0.9761566,
                 "posZ": 0.0137369977,
-                "rotX": -0.0001387366,
+                "rotX": -0.000487893762,
                 "rotY": 270.000122,
-                "rotZ": -0.000202782408,
+                "rotZ": -0.000262379966,
                 "scaleX": 0.365,
                 "scaleY": 1.0,
                 "scaleZ": 0.365
@@ -16000,15 +16000,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "feb525",
+              "GUID": "bae75f",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 8.71944849E-06,
+                "rotX": 1.25106021E-06,
                 "rotY": 270.000122,
-                "rotZ": -8.465417E-06,
+                "rotZ": 4.24347263E-07,
                 "scaleX": 0.245060965,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.237559
@@ -16066,15 +16066,15 @@
           ]
         },
         {
-          "GUID": "b7c4e2",
+          "GUID": "83fe6a",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -10.9052448,
-            "posY": 0.8336631,
+            "posY": 0.8336633,
             "posZ": -2.486263,
-            "rotX": -6.176732E-06,
-            "rotY": -6.94788E-05,
-            "rotZ": -1.20433276E-06,
+            "rotX": 2.70491327E-08,
+            "rotY": -8.067599E-05,
+            "rotZ": -1.923164E-07,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -16124,15 +16124,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "91e17d",
+              "GUID": "7d728f",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -10.9052448,
-                "posY": 0.97621876,
-                "posZ": -2.48629236,
-                "rotX": 359.994141,
-                "rotY": 270.000275,
-                "rotZ": -0.003830802,
+                "posY": 0.976114333,
+                "posZ": -2.486913,
+                "rotX": -0.00406772364,
+                "rotY": 269.999725,
+                "rotZ": 359.982056,
                 "scaleX": 0.48666,
                 "scaleY": 1.0,
                 "scaleZ": 0.48666
@@ -16165,7 +16165,7 @@
               "HideWhenFaceDown": false,
               "Hands": true,
               "CustomImage": {
-                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Piano.png",
+                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Piano.png",
                 "ImageSecondaryURL": "",
                 "ImageScalar": 1.0,
                 "WidthScale": 0.0,
@@ -16190,15 +16190,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "91e17d",
+              "GUID": "7d728f",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 8.71944849E-06,
+                "rotX": 1.25106021E-06,
                 "rotY": 270.000122,
-                "rotZ": -8.465417E-06,
+                "rotZ": 4.24347263E-07,
                 "scaleX": 0.326743484,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.316741
@@ -16231,7 +16231,7 @@
               "HideWhenFaceDown": false,
               "Hands": true,
               "CustomImage": {
-                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Piano.png",
+                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Piano.png",
                 "ImageSecondaryURL": "",
                 "ImageScalar": 1.0,
                 "WidthScale": 0.0,
@@ -16256,15 +16256,15 @@
           ]
         },
         {
-          "GUID": "961de1",
+          "GUID": "989576",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -10.9052448,
             "posY": 0.833663046,
             "posZ": -4.986263,
-            "rotX": -1.36720712E-06,
-            "rotY": -7.5480064E-05,
-            "rotZ": -4.84155237E-07,
+            "rotX": -1.79416327E-06,
+            "rotY": -7.616394E-05,
+            "rotZ": -1.05342269E-06,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -16314,15 +16314,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "9998ac",
+              "GUID": "8496a4",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -10.9052448,
-                "posY": 0.9761865,
+                "posY": 0.976171851,
                 "posZ": -4.986263,
-                "rotX": 0.000782866031,
+                "rotX": 0.00141154,
                 "rotY": 270.000122,
-                "rotZ": -0.00095856603,
+                "rotZ": -0.00158705143,
                 "scaleX": 0.608,
                 "scaleY": 1.0,
                 "scaleZ": 0.608
@@ -16380,15 +16380,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "9998ac",
+              "GUID": "8496a4",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 8.71944849E-06,
+                "rotX": 1.25106021E-06,
                 "rotY": 270.000122,
-                "rotZ": -8.465417E-06,
+                "rotZ": 4.24347263E-07,
                 "scaleX": 0.4082111,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.39571467
@@ -16446,15 +16446,15 @@
           ]
         },
         {
-          "GUID": "dffacc",
+          "GUID": "c523c9",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -10.9052448,
-            "posY": 0.833662868,
+            "posY": 0.833663,
             "posZ": -7.486263,
-            "rotX": -1.17626008E-07,
-            "rotY": -6.41856459E-05,
-            "rotZ": 2.94419777E-07,
+            "rotX": -6.4781284E-06,
+            "rotY": -6.472614E-05,
+            "rotZ": -2.632908E-07,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -16504,15 +16504,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "f69836",
+              "GUID": "7fe3c9",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -10.9052448,
-                "posY": 0.976152062,
+                "posY": 0.976154447,
                 "posZ": -7.486263,
-                "rotX": -0.000374052383,
+                "rotX": 2.78979815E-06,
                 "rotY": 270.0001,
-                "rotZ": 0.000662373262,
+                "rotZ": 0.000599644147,
                 "scaleX": 0.365,
                 "scaleY": 1.0,
                 "scaleZ": 0.365
@@ -16545,7 +16545,7 @@
               "HideWhenFaceDown": false,
               "Hands": true,
               "CustomImage": {
-                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Pyrotechnic.png",
+                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Pyrotechnic.png",
                 "ImageSecondaryURL": "",
                 "ImageScalar": 1.0,
                 "WidthScale": 0.0,
@@ -16570,15 +16570,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "f69836",
+              "GUID": "7fe3c9",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 8.71944849E-06,
+                "rotX": 1.25106021E-06,
                 "rotY": 270.000122,
-                "rotZ": -8.465417E-06,
+                "rotZ": 4.24347263E-07,
                 "scaleX": 0.245060965,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.237559
@@ -16611,7 +16611,7 @@
               "HideWhenFaceDown": false,
               "Hands": true,
               "CustomImage": {
-                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Pyrotechnic.png",
+                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Pyrotechnic.png",
                 "ImageSecondaryURL": "",
                 "ImageScalar": 1.0,
                 "WidthScale": 0.0,
@@ -16636,15 +16636,15 @@
           ]
         },
         {
-          "GUID": "48f874",
+          "GUID": "25ae7d",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -10.9052448,
-            "posY": 0.8336627,
+            "posY": 0.8336628,
             "posZ": -9.986263,
-            "rotX": -4.28430349E-06,
-            "rotY": -7.404566E-05,
-            "rotZ": 2.30970954E-06,
+            "rotX": -4.425139E-06,
+            "rotY": -7.41229451E-05,
+            "rotZ": 7.569729E-07,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -16694,15 +16694,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "d5e8cb",
+              "GUID": "03f086",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -10.9052448,
-                "posY": 0.9761676,
+                "posY": 0.976166666,
                 "posZ": -9.986263,
-                "rotX": -5.02545954E-05,
+                "rotX": 9.168556E-05,
                 "rotY": 270.000122,
-                "rotZ": 5.40518E-05,
+                "rotZ": 3.14378558E-05,
                 "scaleX": 0.365,
                 "scaleY": 1.0,
                 "scaleZ": 0.365
@@ -16760,15 +16760,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "d5e8cb",
+              "GUID": "03f086",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 8.71944849E-06,
+                "rotX": 1.25106021E-06,
                 "rotY": 270.000122,
-                "rotZ": -8.465417E-06,
+                "rotZ": 4.24347263E-07,
                 "scaleX": 0.245060965,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.237559
@@ -16826,15 +16826,15 @@
           ]
         },
         {
-          "GUID": "517d8f",
+          "GUID": "b52300",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -10.9052448,
             "posY": 0.8336625,
             "posZ": -12.4862633,
-            "rotX": -4.4348817E-06,
-            "rotY": -7.465914E-05,
-            "rotZ": -4.6698633E-06,
+            "rotX": -5.47374975E-06,
+            "rotY": -7.471038E-05,
+            "rotZ": -1.86629723E-06,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -16884,15 +16884,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "90861a",
+              "GUID": "177728",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -10.9052448,
-                "posY": 0.9761681,
+                "posY": 0.976168,
                 "posZ": -12.4862633,
-                "rotX": -3.96086944E-06,
+                "rotX": 1.096811E-05,
                 "rotY": 270.000122,
-                "rotZ": -2.82505E-05,
+                "rotZ": -2.67725372E-05,
                 "scaleX": 0.365,
                 "scaleY": 1.0,
                 "scaleZ": 0.365
@@ -16925,7 +16925,7 @@
               "HideWhenFaceDown": false,
               "Hands": true,
               "CustomImage": {
-                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Rift.png",
+                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Rift.png",
                 "ImageSecondaryURL": "",
                 "ImageScalar": 1.0,
                 "WidthScale": 0.0,
@@ -16950,15 +16950,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "90861a",
+              "GUID": "177728",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 8.71944849E-06,
+                "rotX": 1.25106021E-06,
                 "rotY": 270.000122,
-                "rotZ": -8.465417E-06,
+                "rotZ": 4.24347263E-07,
                 "scaleX": 0.245060965,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.237559
@@ -16991,7 +16991,7 @@
               "HideWhenFaceDown": false,
               "Hands": true,
               "CustomImage": {
-                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Rift.png",
+                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Rift.png",
                 "ImageSecondaryURL": "",
                 "ImageScalar": 1.0,
                 "WidthScale": 0.0,
@@ -17016,15 +17016,15 @@
           ]
         },
         {
-          "GUID": "c1897f",
+          "GUID": "6f1ae9",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -7.905245,
             "posY": 0.8336634,
             "posZ": 2.513737,
-            "rotX": -6.91880041E-06,
-            "rotY": -7.37774244E-05,
-            "rotZ": 7.48804666E-07,
+            "rotX": -6.29630176E-06,
+            "rotY": -8.09017E-05,
+            "rotZ": 6.76443165E-07,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -17074,15 +17074,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "bb6a52",
+              "GUID": "9fdad8",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -7.905245,
-                "posY": 0.976131737,
+                "posY": 0.9761572,
                 "posZ": 2.513737,
-                "rotX": 0.0008710945,
+                "rotX": -0.0005879562,
                 "rotY": 270.000122,
-                "rotZ": 0.000771365536,
+                "rotZ": -0.0002562265,
                 "scaleX": 0.365,
                 "scaleY": 1.0,
                 "scaleZ": 0.365
@@ -17115,7 +17115,7 @@
               "HideWhenFaceDown": false,
               "Hands": true,
               "CustomImage": {
-                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Scrap.png",
+                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Scrap.png",
                 "ImageSecondaryURL": "",
                 "ImageScalar": 1.0,
                 "WidthScale": 0.0,
@@ -17140,15 +17140,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "bb6a52",
+              "GUID": "9fdad8",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 8.71944849E-06,
+                "rotX": 1.25106021E-06,
                 "rotY": 270.000122,
-                "rotZ": -8.465417E-06,
+                "rotZ": 4.24347263E-07,
                 "scaleX": 0.245060965,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.237559
@@ -17181,7 +17181,7 @@
               "HideWhenFaceDown": false,
               "Hands": true,
               "CustomImage": {
-                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Scrap.png",
+                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Scrap.png",
                 "ImageSecondaryURL": "",
                 "ImageScalar": 1.0,
                 "WidthScale": 0.0,
@@ -17206,15 +17206,15 @@
           ]
         },
         {
-          "GUID": "12ddf5",
+          "GUID": "f7a2fa",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -7.905245,
-            "posY": 0.8336632,
-            "posZ": 0.0137369744,
-            "rotX": -3.32162313E-06,
-            "rotY": -7.72756248E-05,
-            "rotZ": 5.88308865E-07,
+            "posY": 0.833663166,
+            "posZ": 0.0137369614,
+            "rotX": -4.0197624E-06,
+            "rotY": -7.761713E-05,
+            "rotZ": -3.45677478E-07,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -17264,15 +17264,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "4d9273",
+              "GUID": "7cbada",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -7.905245,
-                "posY": 0.9761647,
-                "posZ": 0.0137369987,
-                "rotX": -0.00048132005,
+                "posY": 0.9761595,
+                "posZ": 0.0137369949,
+                "rotX": -0.000413195085,
                 "rotY": 270.000122,
-                "rotZ": -0.000163585035,
+                "rotZ": -0.000356256176,
                 "scaleX": 0.365,
                 "scaleY": 1.0,
                 "scaleZ": 0.365
@@ -17305,7 +17305,7 @@
               "HideWhenFaceDown": false,
               "Hands": true,
               "CustomImage": {
-                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Shadow.png",
+                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Shadow.png",
                 "ImageSecondaryURL": "",
                 "ImageScalar": 1.0,
                 "WidthScale": 0.0,
@@ -17330,15 +17330,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "4d9273",
+              "GUID": "7cbada",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 8.71944849E-06,
+                "rotX": 1.25106021E-06,
                 "rotY": 270.000122,
-                "rotZ": -8.465417E-06,
+                "rotZ": 4.24347263E-07,
                 "scaleX": 0.245060965,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.237559
@@ -17371,7 +17371,7 @@
               "HideWhenFaceDown": false,
               "Hands": true,
               "CustomImage": {
-                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Shadow.png",
+                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Shadow.png",
                 "ImageSecondaryURL": "",
                 "ImageScalar": 1.0,
                 "WidthScale": 0.0,
@@ -17396,21 +17396,21 @@
           ]
         },
         {
-          "GUID": "0ca100",
+          "GUID": "df7918",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -7.905245,
             "posY": 0.8336631,
             "posZ": -2.486263,
-            "rotX": -4.70285272E-07,
-            "rotY": -7.161658E-05,
-            "rotZ": 6.870117E-07,
+            "rotX": -4.68502958E-06,
+            "rotY": -7.210656E-05,
+            "rotZ": -1.20932236E-06,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
           },
           "Nickname": "Shadow Door",
-          "Description": "Allies that start a move within 2\" of this marker may ignore models and terrain while moving",
+          "Description": "Blocking, Allies that start a move within 2\" of this marker may ignore models and terrain while moving",
           "GMNotes": "",
           "AltLookAngle": {
             "x": 0.0,
@@ -17454,21 +17454,21 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "d05f2d",
+              "GUID": "d36808",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -7.905245,
-                "posY": 0.976153553,
+                "posY": 0.9761514,
                 "posZ": -2.486263,
-                "rotX": 0.000462771015,
+                "rotX": 0.0006740117,
                 "rotY": 270.000122,
-                "rotZ": -0.000122686659,
+                "rotZ": -0.000437160837,
                 "scaleX": 0.365,
                 "scaleY": 1.0,
                 "scaleZ": 0.365
               },
               "Nickname": "Shadow Door",
-              "Description": "Allies that start a move within 2\" of this marker may ignore models and terrain while moving",
+              "Description": "Blocking, Allies that start a move within 2\" of this marker may ignore models and terrain while moving",
               "GMNotes": "",
               "AltLookAngle": {
                 "x": 0.0,
@@ -17520,21 +17520,21 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "d05f2d",
+              "GUID": "d36808",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 8.71944849E-06,
+                "rotX": 1.25106021E-06,
                 "rotY": 270.000122,
-                "rotZ": -8.465417E-06,
+                "rotZ": 4.24347263E-07,
                 "scaleX": 0.245060965,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.237559
               },
               "Nickname": "Shadow Door",
-              "Description": "Allies that start a move within 2\" of this marker may ignore models and terrain while moving",
+              "Description": "Blocking, Allies that start a move within 2\" of this marker may ignore models and terrain while moving",
               "GMNotes": "",
               "AltLookAngle": {
                 "x": 0.0,
@@ -17586,21 +17586,21 @@
           ]
         },
         {
-          "GUID": "fa9ade",
+          "GUID": "292ba7",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
-            "posX": -7.90524435,
-            "posY": 0.833663,
+            "posX": -7.905245,
+            "posY": 0.833663046,
             "posZ": -4.986263,
-            "rotX": 3.33008927E-07,
-            "rotY": -7.0443E-05,
-            "rotZ": -8.918944E-07,
+            "rotX": -7.46452861E-06,
+            "rotY": -7.93486761E-05,
+            "rotZ": -1.53545145E-07,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
           },
           "Nickname": "Shadow Lair",
-          "Description": "Enemy models that end their activation in base contact with this marker gain a Fright token.",
+          "Description": "Hazardous (Fright)",
           "GMNotes": "",
           "AltLookAngle": {
             "x": 0.0,
@@ -17644,21 +17644,21 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "8a253f",
+              "GUID": "fda892",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -7.905245,
-                "posY": 0.9761316,
+                "posY": 0.976122141,
                 "posZ": -4.986263,
-                "rotX": 0.00177281769,
+                "rotX": 0.004064001,
                 "rotY": 270.0001,
-                "rotZ": -0.00280785235,
+                "rotZ": -0.005074383,
                 "scaleX": 0.608,
                 "scaleY": 1.0,
                 "scaleZ": 0.608
               },
               "Nickname": "Shadow Lair",
-              "Description": "Enemy models that end their activation in base contact with this marker gain a Fright token.",
+              "Description": "Hazardous (Fright)",
               "GMNotes": "",
               "AltLookAngle": {
                 "x": 0.0,
@@ -17685,7 +17685,7 @@
               "HideWhenFaceDown": false,
               "Hands": true,
               "CustomImage": {
-                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Shadow%20Lair.png",
+                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Shadow%20Lair.png",
                 "ImageSecondaryURL": "",
                 "ImageScalar": 1.0,
                 "WidthScale": 0.0,
@@ -17710,21 +17710,21 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "8a253f",
+              "GUID": "fda892",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 8.71944849E-06,
+                "rotX": 1.25106021E-06,
                 "rotY": 270.000122,
-                "rotZ": -8.465417E-06,
+                "rotZ": 4.24347263E-07,
                 "scaleX": 0.4082111,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.39571467
               },
               "Nickname": "Shadow Lair",
-              "Description": "Enemy models that end their activation in base contact with this marker gain a Fright token.",
+              "Description": "Hazardous (Fright)",
               "GMNotes": "",
               "AltLookAngle": {
                 "x": 0.0,
@@ -17751,7 +17751,7 @@
               "HideWhenFaceDown": false,
               "Hands": true,
               "CustomImage": {
-                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Shadow%20Lair.png",
+                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Shadow%20Lair.png",
                 "ImageSecondaryURL": "",
                 "ImageScalar": 1.0,
                 "WidthScale": 0.0,
@@ -17776,15 +17776,15 @@
           ]
         },
         {
-          "GUID": "bb1903",
+          "GUID": "50e9ad",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -7.905245,
-            "posY": 0.833663046,
+            "posY": 0.8336629,
             "posZ": -7.486263,
-            "rotX": -4.613881E-06,
-            "rotY": -7.472393E-05,
-            "rotZ": -4.80396352E-07,
+            "rotX": -5.305808E-06,
+            "rotY": -7.457308E-05,
+            "rotZ": -5.16094644E-07,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -17834,15 +17834,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "1fe1db",
+              "GUID": "0f7cc2",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -7.905245,
-                "posY": 0.9761684,
+                "posY": 0.9761664,
                 "posZ": -7.486263,
-                "rotX": -2.94887832E-05,
-                "rotY": 270.0001,
-                "rotZ": 5.01188952E-05,
+                "rotX": -1.8113622E-05,
+                "rotY": 270.000122,
+                "rotZ": -3.771753E-05,
                 "scaleX": 0.365,
                 "scaleY": 1.0,
                 "scaleZ": 0.365
@@ -17875,7 +17875,7 @@
               "HideWhenFaceDown": false,
               "Hands": true,
               "CustomImage": {
-                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Tide.png",
+                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Tide.png",
                 "ImageSecondaryURL": "",
                 "ImageScalar": 1.0,
                 "WidthScale": 0.0,
@@ -17900,15 +17900,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "1fe1db",
+              "GUID": "0f7cc2",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 8.71944849E-06,
+                "rotX": 1.25106021E-06,
                 "rotY": 270.000122,
-                "rotZ": -8.465417E-06,
+                "rotZ": 4.24347263E-07,
                 "scaleX": 0.245060965,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.237559
@@ -17941,7 +17941,7 @@
               "HideWhenFaceDown": false,
               "Hands": true,
               "CustomImage": {
-                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Tide.png",
+                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Tide.png",
                 "ImageSecondaryURL": "",
                 "ImageScalar": 1.0,
                 "WidthScale": 0.0,
@@ -17966,15 +17966,15 @@
           ]
         },
         {
-          "GUID": "db9a1a",
+          "GUID": "529a37",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -7.905245,
-            "posY": 0.833662748,
+            "posY": 0.8336627,
             "posZ": -9.986263,
-            "rotX": -3.046393E-06,
-            "rotY": -7.430903E-05,
-            "rotZ": 3.223323E-06,
+            "rotX": -1.8415609E-06,
+            "rotY": -7.45613E-05,
+            "rotZ": 3.19091941E-06,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -18024,15 +18024,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "f3b152",
+              "GUID": "49e5bb",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -7.905245,
-                "posY": 0.976168752,
+                "posY": 0.976167858,
                 "posZ": -9.986263,
-                "rotX": -3.017394E-05,
+                "rotX": -5.742828E-05,
                 "rotY": 270.000122,
-                "rotZ": 5.492665E-06,
+                "rotZ": 8.095301E-05,
                 "scaleX": 0.365,
                 "scaleY": 1.0,
                 "scaleZ": 0.365
@@ -18090,15 +18090,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "f3b152",
+              "GUID": "49e5bb",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 8.71944849E-06,
+                "rotX": 1.25106021E-06,
                 "rotY": 270.000122,
-                "rotZ": -8.465417E-06,
+                "rotZ": 4.24347263E-07,
                 "scaleX": 0.245060965,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.237559
@@ -18156,15 +18156,15 @@
           ]
         },
         {
-          "GUID": "9b6456",
+          "GUID": "3de911",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -7.905245,
-            "posY": 0.8336625,
+            "posY": 0.83366245,
             "posZ": -12.4862633,
-            "rotX": -1.30052581E-06,
-            "rotY": -7.360064E-05,
-            "rotZ": -4.301761E-06,
+            "rotX": -4.32544675E-06,
+            "rotY": -7.390271E-05,
+            "rotZ": -5.969134E-06,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -18214,15 +18214,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "a59258",
+              "GUID": "b0300d",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -7.905245,
-                "posY": 0.9761578,
+                "posY": 0.9761633,
                 "posZ": -12.4862633,
-                "rotX": 0.000239941772,
-                "rotY": 270.000122,
-                "rotZ": -0.001227881,
+                "rotX": 0.0002393673,
+                "rotY": 270.0001,
+                "rotZ": -0.00066641497,
                 "scaleX": 0.608,
                 "scaleY": 1.0,
                 "scaleZ": 0.608
@@ -18280,15 +18280,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "a59258",
+              "GUID": "b0300d",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 8.71944849E-06,
+                "rotX": 1.25106021E-06,
                 "rotY": 270.000122,
-                "rotZ": -8.465417E-06,
+                "rotZ": 4.24347263E-07,
                 "scaleX": 0.4082111,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.39571467
@@ -18346,15 +18346,15 @@
           ]
         },
         {
-          "GUID": "c6491c",
+          "GUID": "91fb45",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -4.905245,
             "posY": 0.8336634,
             "posZ": 2.513737,
-            "rotX": -1.4406298E-07,
-            "rotY": -7.59694958E-05,
-            "rotZ": -1.59987894E-06,
+            "rotX": -1.18242349E-06,
+            "rotY": -7.33539346E-05,
+            "rotZ": -1.72553726E-07,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -18404,15 +18404,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "055865",
+              "GUID": "5bf4b1",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -4.905245,
-                "posY": 0.976160169,
+                "posY": 0.976147234,
                 "posZ": 2.513737,
-                "rotX": -0.003569393,
+                "rotX": -0.005329963,
                 "rotY": 270.000122,
-                "rotZ": -0.002522844,
+                "rotZ": -0.004016835,
                 "scaleX": 0.608,
                 "scaleY": 1.0,
                 "scaleZ": 0.608
@@ -18445,7 +18445,7 @@
               "HideWhenFaceDown": false,
               "Hands": true,
               "CustomImage": {
-                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Underbrush.png",
+                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Underbrush.png",
                 "ImageSecondaryURL": "",
                 "ImageScalar": 1.0,
                 "WidthScale": 0.0,
@@ -18470,15 +18470,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "055865",
+              "GUID": "5bf4b1",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 8.71944849E-06,
+                "rotX": 1.25106021E-06,
                 "rotY": 270.000122,
-                "rotZ": -8.465417E-06,
+                "rotZ": 4.24347263E-07,
                 "scaleX": 0.4082111,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.39571467
@@ -18511,7 +18511,7 @@
               "HideWhenFaceDown": false,
               "Hands": true,
               "CustomImage": {
-                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Underbrush.png",
+                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Underbrush.png",
                 "ImageSecondaryURL": "",
                 "ImageScalar": 1.0,
                 "WidthScale": 0.0,
@@ -18536,15 +18536,15 @@
           ]
         },
         {
-          "GUID": "7593c3",
+          "GUID": "362b23",
           "Name": "Custom_Model_Infinite_Bag",
           "Transform": {
             "posX": -4.905245,
-            "posY": 0.833663166,
-            "posZ": 0.0137369977,
-            "rotX": -1.34609752E-06,
-            "rotY": -7.778231E-05,
-            "rotZ": 3.53274072E-06,
+            "posY": 0.833663344,
+            "posZ": 0.0137369968,
+            "rotX": -4.64698951E-06,
+            "rotY": -7.78224057E-05,
+            "rotZ": 1.66778932E-06,
             "scaleX": 1.53646016,
             "scaleY": 0.144412935,
             "scaleZ": 1.48942518
@@ -18594,15 +18594,15 @@
           "XmlUI": "",
           "ContainedObjects": [
             {
-              "GUID": "af9a79",
+              "GUID": "f6e7bd",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": -4.905245,
-                "posY": 0.9761154,
-                "posZ": 0.0137369977,
-                "rotX": -0.002744445,
+                "posY": 0.976132035,
+                "posZ": 0.0137369987,
+                "rotX": 0.000217878289,
                 "rotY": 270.0001,
-                "rotZ": 0.000494910346,
+                "rotZ": 0.000619682833,
                 "scaleX": 0.608,
                 "scaleY": 1.0,
                 "scaleZ": 0.608
@@ -18635,7 +18635,7 @@
               "HideWhenFaceDown": false,
               "Hands": true,
               "CustomImage": {
-                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Web.png",
+                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Web.png",
                 "ImageSecondaryURL": "",
                 "ImageScalar": 1.0,
                 "WidthScale": 0.0,
@@ -18660,15 +18660,15 @@
           ],
           "ChildObjects": [
             {
-              "GUID": "af9a79",
+              "GUID": "f6e7bd",
               "Name": "Custom_Token",
               "Transform": {
                 "posX": 0.0,
                 "posY": 0.0,
                 "posZ": 0.0,
-                "rotX": 8.71944849E-06,
+                "rotX": 1.25106021E-06,
                 "rotY": 270.000122,
-                "rotZ": -8.465417E-06,
+                "rotZ": 4.24347263E-07,
                 "scaleX": 0.4082111,
                 "scaleY": 6.92458773,
                 "scaleZ": 0.39571467
@@ -18701,7 +18701,7 @@
               "HideWhenFaceDown": false,
               "Hands": true,
               "CustomImage": {
-                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Markers/Web.png",
+                "ImageURL": "https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Markers/Web.png",
                 "ImageSecondaryURL": "",
                 "ImageScalar": 1.0,
                 "WidthScale": 0.0,
@@ -18734,9 +18734,9 @@
         "posX": 24.9148254,
         "posY": 1.08103025,
         "posZ": 6.50438643,
-        "rotX": -4.44958869E-06,
-        "rotY": -2.86378363E-05,
-        "rotZ": -5.89647834E-06,
+        "rotX": -4.63211245E-06,
+        "rotY": -2.86382237E-05,
+        "rotZ": -6.21693243E-06,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -21014,9 +21014,9 @@
         "posX": 27.9148846,
         "posY": 1.08102882,
         "posZ": -5.99561,
-        "rotX": -5.34526544E-06,
-        "rotY": -7.174118E-05,
-        "rotZ": -9.570804E-06,
+        "rotX": -5.353224E-06,
+        "rotY": -7.174591E-05,
+        "rotZ": -9.32348848E-06,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -21204,9 +21204,9 @@
         "posX": 30.914772,
         "posY": 1.08102965,
         "posZ": 9.004397,
-        "rotX": -3.66556083E-06,
-        "rotY": -0.000109785178,
-        "rotZ": -6.27396957E-06,
+        "rotX": -3.673867E-06,
+        "rotY": -0.000109784341,
+        "rotZ": -6.26454E-06,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -21584,9 +21584,9 @@
         "posX": 30.9147739,
         "posY": 1.08102953,
         "posZ": 4.004397,
-        "rotX": -3.524892E-06,
-        "rotY": -0.00010507855,
-        "rotZ": -3.16314117E-06,
+        "rotX": -3.34005631E-06,
+        "rotY": -0.000105079533,
+        "rotZ": -3.10503924E-06,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -21774,9 +21774,9 @@
         "posX": 30.9148464,
         "posY": 1.08102942,
         "posZ": 1.50438154,
-        "rotX": -3.14589147E-06,
-        "rotY": -7.25569043E-05,
-        "rotZ": -9.316358E-06,
+        "rotX": -3.26459644E-06,
+        "rotY": -7.254889E-05,
+        "rotZ": -9.136668E-06,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -21964,9 +21964,9 @@
         "posX": 30.9149055,
         "posY": 1.08102918,
         "posZ": -0.995604336,
-        "rotX": -1.65664312E-06,
-        "rotY": -6.89257649E-05,
-        "rotZ": -6.358964E-06,
+        "rotX": -1.53800215E-06,
+        "rotY": -6.892677E-05,
+        "rotZ": -6.197846E-06,
         "scaleX": 1.53646016,
         "scaleY": 0.144412935,
         "scaleZ": 1.48942518
@@ -22153,10 +22153,10 @@
       "Transform": {
         "posX": 30.9148216,
         "posY": 1.05882251,
-        "posZ": -3.49561524,
-        "rotX": 1.96581914E-05,
-        "rotY": 269.999939,
-        "rotZ": -2.66069674E-06,
+        "posZ": -3.49561477,
+        "rotX": -2.90416256E-06,
+        "rotY": 270.000061,
+        "rotZ": 5.68636949E-07,
         "scaleX": 0.365,
         "scaleY": 1.0,
         "scaleZ": 0.365
@@ -22217,10 +22217,10 @@
       "Transform": {
         "posX": 30.9148216,
         "posY": 1.05882227,
-        "posZ": -5.99561548,
-        "rotX": -4.83847E-06,
-        "rotY": 270.000122,
-        "rotZ": 7.41410531E-06,
+        "posZ": -5.995615,
+        "rotX": -8.097158E-06,
+        "rotY": 270.000183,
+        "rotZ": 4.795573E-06,
         "scaleX": 0.365,
         "scaleY": 1.0,
         "scaleZ": 0.365
@@ -22280,11 +22280,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 33.91482,
-        "posY": 1.0588237,
+        "posY": 1.05882347,
         "posZ": 9.004387,
-        "rotX": 7.602727E-05,
-        "rotY": 269.999939,
-        "rotZ": 7.1120337E-07,
+        "rotX": -1.5322903E-05,
+        "rotY": 269.999969,
+        "rotZ": 6.0851944E-05,
         "scaleX": 0.365,
         "scaleY": 1.0,
         "scaleZ": 0.365
@@ -22344,11 +22344,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 33.91482,
-        "posY": 1.05882323,
-        "posZ": 6.504388,
-        "rotX": -5.443544E-06,
-        "rotY": 270.0,
-        "rotZ": -2.08271467E-05,
+        "posY": 1.058823,
+        "posZ": 6.50438738,
+        "rotX": -2.83475856E-05,
+        "rotY": 269.999939,
+        "rotZ": 1.25075348E-05,
         "scaleX": 0.365,
         "scaleY": 1.0,
         "scaleZ": 0.365
@@ -22408,11 +22408,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 33.91482,
-        "posY": 1.058823,
+        "posY": 1.05882311,
         "posZ": 4.00438643,
-        "rotX": -1.27667308E-05,
-        "rotY": 270.000061,
-        "rotZ": 5.035967E-07,
+        "rotX": -2.72691386E-06,
+        "rotY": 270.000122,
+        "rotZ": 1.10597182E-06,
         "scaleX": 0.365,
         "scaleY": 1.0,
         "scaleZ": 0.365
@@ -22472,11 +22472,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 33.91482,
-        "posY": 1.05882275,
-        "posZ": 1.50438583,
-        "rotX": -1.22902984E-05,
+        "posY": 1.05882287,
+        "posZ": 1.50438571,
+        "rotX": 1.49502739E-05,
         "rotY": 270.000031,
-        "rotZ": -1.81370815E-05,
+        "rotZ": 2.87794755E-05,
         "scaleX": 0.365,
         "scaleY": 1.0,
         "scaleZ": 0.365
@@ -22536,11 +22536,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 33.91482,
-        "posY": 1.05882239,
+        "posY": 1.05882251,
         "posZ": -0.995614,
-        "rotX": -6.47244133E-06,
-        "rotY": 270.000031,
-        "rotZ": -5.348759E-07,
+        "rotX": -8.267995E-07,
+        "rotY": 270.000061,
+        "rotZ": -4.611076E-06,
         "scaleX": 0.365,
         "scaleY": 1.0,
         "scaleZ": 0.365
@@ -22600,11 +22600,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 33.91482,
-        "posY": 1.05882227,
-        "posZ": -3.49561524,
-        "rotX": -8.226175E-06,
+        "posY": 1.05882215,
+        "posZ": -3.495615,
+        "rotX": -9.861815E-06,
         "rotY": 269.9995,
-        "rotZ": 1.14318836E-05,
+        "rotZ": 6.26114752E-06,
         "scaleX": 0.365,
         "scaleY": 1.0,
         "scaleZ": 0.365
@@ -22666,9 +22666,9 @@
         "posX": 33.9148254,
         "posY": 1.05882215,
         "posZ": -5.99561548,
-        "rotX": -5.451361E-06,
-        "rotY": 270.000183,
-        "rotZ": -7.073536E-06,
+        "rotX": 2.87155422E-06,
+        "rotY": 270.000122,
+        "rotZ": -4.811026E-06,
         "scaleX": 0.365,
         "scaleY": 1.0,
         "scaleZ": 0.365
@@ -22724,15 +22724,15 @@
       ]
     },
     {
-      "GUID": "866179",
+      "GUID": "00e9e3",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 34.762413,
-        "posY": 0.766458333,
+        "posY": 0.7664584,
         "posZ": 25.1255264,
-        "rotX": 1.07296692E-05,
+        "rotX": 1.76115736E-05,
         "rotY": 270.000031,
-        "rotZ": -4.48728224E-06,
+        "rotZ": 3.23655445E-06,
         "scaleX": 0.0,
         "scaleY": 1.0,
         "scaleZ": 0.0
@@ -22792,15 +22792,15 @@
       }
     },
     {
-      "GUID": "301348",
+      "GUID": "e81d17",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 30.9148216,
         "posY": 1.05882251,
-        "posZ": -3.49561524,
-        "rotX": 1.96581914E-05,
-        "rotY": 269.999939,
-        "rotZ": -2.660696E-06,
+        "posZ": -3.49561477,
+        "rotX": -2.90416256E-06,
+        "rotY": 270.000061,
+        "rotZ": 5.686369E-07,
         "scaleX": 0.0,
         "scaleY": 1.0,
         "scaleZ": 0.0
@@ -22860,15 +22860,15 @@
       }
     },
     {
-      "GUID": "07824c",
+      "GUID": "247bb0",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 30.9148216,
         "posY": 1.05882227,
-        "posZ": -5.99561548,
-        "rotX": -4.83847043E-06,
-        "rotY": 270.000122,
-        "rotZ": 7.414106E-06,
+        "posZ": -5.995615,
+        "rotX": -8.097157E-06,
+        "rotY": 270.000183,
+        "rotZ": 4.795573E-06,
         "scaleX": 0.0,
         "scaleY": 1.0,
         "scaleZ": 0.0
@@ -22928,15 +22928,15 @@
       }
     },
     {
-      "GUID": "2c9e6b",
+      "GUID": "fc6bd6",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 33.91482,
-        "posY": 1.0588237,
+        "posY": 1.05882347,
         "posZ": 9.004387,
-        "rotX": 7.60272742E-05,
-        "rotY": 269.999939,
-        "rotZ": 7.1120013E-07,
+        "rotX": -1.53229012E-05,
+        "rotY": 269.999969,
+        "rotZ": 6.0851944E-05,
         "scaleX": 0.0,
         "scaleY": 1.0,
         "scaleZ": 0.0
@@ -22996,83 +22996,83 @@
       }
     },
     {
-      "GUID": "acfddb",
-      "Name": "Custom_Model",
-      "Transform": {
-        "posX": 33.91482,
-        "posY": 1.05882323,
-        "posZ": 6.504388,
-        "rotX": -5.44354543E-06,
-        "rotY": 270.0,
-        "rotZ": -2.08271467E-05,
-        "scaleX": 0.0,
-        "scaleY": 1.0,
-        "scaleZ": 0.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "AltLookAngle": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "LayoutGroupSortIndex": 0,
-      "Value": 0,
-      "Locked": false,
-      "Grid": false,
-      "Snap": false,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": false,
-      "Sticky": false,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomMesh": {
-        "MeshURL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/components/arcs/round0.obj",
-        "DiffuseURL": "",
-        "NormalURL": "",
-        "ColliderURL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/utility/null_COL.obj",
-        "Convex": true,
-        "MaterialIndex": 3,
-        "TypeIndex": 0,
-        "CastShadows": false
-      },
-      "LuaScript": "            local lastParent = nil\n            function onLoad() \n            (self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false)\n            Wait.condition(\n            function() \n            (self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false) \n            end, \n            function() \n            return not(self.loading_custom) \n            end\n            ) \n            end \n            function onUpdate() \n            if (parent ~= nil) then \n            if (not parent.resting or lastParent ~= parent) then \n            lastParent = parent\n            self.setPosition(parent.getPosition())\n            self.setRotation(parent.getRotation()) \n            end \n            else \n            self.destruct() \n            end \n            end\n            ",
-      "LuaScriptState": "",
-      "XmlUI": "",
-      "PhysicsMaterial": {
-        "StaticFriction": 1.0,
-        "DynamicFriction": 0.7,
-        "Bounciness": 0.0,
-        "FrictionCombine": 0,
-        "BounceCombine": 0
-      },
-      "Rigidbody": {
-        "Mass": 0.0,
-        "Drag": 0.0,
-        "AngularDrag": 0.1,
-        "UseGravity": false
-      }
-    },
-    {
-      "GUID": "656689",
+      "GUID": "9154c4",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 33.91482,
         "posY": 1.058823,
+        "posZ": 6.50438738,
+        "rotX": -2.834759E-05,
+        "rotY": 269.999939,
+        "rotZ": 1.25075367E-05,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": false,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/components/arcs/round0.obj",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/utility/null_COL.obj",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": false
+      },
+      "LuaScript": "            local lastParent = nil\n            function onLoad() \n            (self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false)\n            Wait.condition(\n            function() \n            (self.getComponent('BoxCollider') or self.getComponent('MeshCollider')).set('enabled',false) \n            end, \n            function() \n            return not(self.loading_custom) \n            end\n            ) \n            end \n            function onUpdate() \n            if (parent ~= nil) then \n            if (not parent.resting or lastParent ~= parent) then \n            lastParent = parent\n            self.setPosition(parent.getPosition())\n            self.setRotation(parent.getRotation()) \n            end \n            else \n            self.destruct() \n            end \n            end\n            ",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 1.0,
+        "DynamicFriction": 0.7,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 0.0,
+        "Drag": 0.0,
+        "AngularDrag": 0.1,
+        "UseGravity": false
+      }
+    },
+    {
+      "GUID": "c9f087",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 33.91482,
+        "posY": 1.05882311,
         "posZ": 4.00438643,
-        "rotX": -1.27667317E-05,
-        "rotY": 270.000061,
-        "rotZ": 5.035967E-07,
+        "rotX": -2.726914E-06,
+        "rotY": 270.000122,
+        "rotZ": 1.10597193E-06,
         "scaleX": 0.0,
         "scaleY": 1.0,
         "scaleZ": 0.0
@@ -23132,15 +23132,15 @@
       }
     },
     {
-      "GUID": "e98fd4",
+      "GUID": "e770c6",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 33.91482,
-        "posY": 1.05882275,
-        "posZ": 1.50438583,
-        "rotX": -1.22902975E-05,
+        "posY": 1.05882287,
+        "posZ": 1.50438571,
+        "rotX": 1.49502721E-05,
         "rotY": 270.000031,
-        "rotZ": -1.81370815E-05,
+        "rotZ": 2.87794755E-05,
         "scaleX": 0.0,
         "scaleY": 1.0,
         "scaleZ": 0.0
@@ -23200,15 +23200,15 @@
       }
     },
     {
-      "GUID": "256359",
+      "GUID": "2a7837",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 33.91482,
-        "posY": 1.05882239,
+        "posY": 1.05882251,
         "posZ": -0.995614,
-        "rotX": -6.472441E-06,
-        "rotY": 270.000031,
-        "rotZ": -5.34875653E-07,
+        "rotX": -8.267997E-07,
+        "rotY": 270.000061,
+        "rotZ": -4.611076E-06,
         "scaleX": 0.0,
         "scaleY": 1.0,
         "scaleZ": 0.0
@@ -23268,15 +23268,15 @@
       }
     },
     {
-      "GUID": "905809",
+      "GUID": "746c30",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 33.91482,
-        "posY": 1.05882227,
-        "posZ": -3.49561524,
-        "rotX": -8.226175E-06,
+        "posY": 1.05882215,
+        "posZ": -3.495615,
+        "rotX": -9.861815E-06,
         "rotY": 269.9995,
-        "rotZ": 1.14318827E-05,
+        "rotZ": 6.26114752E-06,
         "scaleX": 0.0,
         "scaleY": 1.0,
         "scaleZ": 0.0
@@ -23336,15 +23336,15 @@
       }
     },
     {
-      "GUID": "9cbee2",
+      "GUID": "1db22d",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 33.9148254,
         "posY": 1.05882215,
         "posZ": -5.99561548,
-        "rotX": -5.45136072E-06,
-        "rotY": 270.000183,
-        "rotZ": -7.073535E-06,
+        "rotX": 2.87155467E-06,
+        "rotY": 270.000122,
+        "rotZ": -4.811026E-06,
         "scaleX": 0.0,
         "scaleY": 1.0,
         "scaleZ": 0.0
