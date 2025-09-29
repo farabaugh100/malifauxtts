@@ -1,3 +1,5 @@
+--require("components/RefenceCardPrototype")
+
 
 
 local mini = nil
@@ -52,6 +54,7 @@ function fetched(color)
                 slot=fetchTokens(config.tokens,color,slot)
             end
             if config.markers~="" then
+                slot=fetchMarkers("Remains",color,slot)
                 slot=fetchMarkers(config.markers,color,slot)
             end
         end
@@ -77,6 +80,7 @@ function fetchMarkers(markers,color,slot)
             markerSlot=markerSlot+1
         end
     end
+    return markerSlot
 end
 function loopThroughBag(haystack,needle,tokenSlot,color)
     local found=false

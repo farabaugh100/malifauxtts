@@ -1,3 +1,5 @@
+
+
 RSS_Class = 'Model';
 TRH_Class ="mini"
 ------ CLASS VARIABLES ----------------------
@@ -8,18 +10,19 @@ TRH_Class ="mini"
 	local Conditions = {}
 	local originalData = nil;
 	local state = {
-		conditions={Adaptable = 0,Adversary = 0,Analyzed = 0,AuraBinding = 0,AuraFire = 0,AuraFumes = 0,AuraNegligent = 0,AuraStaggered = 0,AuraConcealment = 0,AuraHazardous = 0,Backtrack = 0,Bolstered = 0,BogSpirit = 0,Brilliance = 0,Broodling = 0,Burning = 0,Challenged = 0,Craven = 0,CruelWhispers = 0,Distracted = 0,Engorged = 0,Entranced = 0,Fast = 0,Flicker = 0,Focused = 0,FragileEgo = 0,Fright = 0,Glowy = 0,Greedy = 0,Hastened = 0,Impact = 0,ImprovisedPart = 0,Injured = 0,Insight = 0,Paranoia = 0,Parasite = 0,Perforated = 0,Poison = 0,Power = 0,Reload = 0,Shame = 0,Shielded = 0,Slow = 0,SpiritualChains = 0,Staggered = 0,Stunned = 0,Summon = 0,Suppresed = 0,Hunger = 0,Adaptable = 0,Focused = 0,Shielded = 0,},
+		--replace with whats in the google doc
+		conditions={Abandoned = 0,Adaptable = 0,Adversary = 0,Analyzed = 0,AuraBinding = 0,AuraConcealment = 0,AuraFire = 0,AuraFumes = 0,AuraHazardous = 0,AuraNegligent = 0,AuraStaggered = 0,Backtrack = 0,Badge = 0,Balm = 0,BogSpirit = 0,Bolstered = 0,Bounty = 0,Blight = 0,Brilliance = 0,Broodling = 0,Burning = 0,Challenged = 0,Chi = 0,Convert = 0,CoveredInBlood = 0,Craven = 0,CruelWhispers = 0,Death = 0,Distracted = 0,Drift = 0,Engorged = 0,Entranced = 0,Life = 0,Familia = 0,Fast = 0,Fate = 0,Flicker = 0,Focused = 0,FragileEgo = 0,Fright = 0,FrozenSolid = 0,Glowy = 0,CheeseinyourPockets = 0,GnawedtoDeath = 0,Greedy = 0,Hastened = 0,Hunger = 0,Impact = 0,ImprovisedPart = 0,Injured = 0,Insight = 0,NewBlood = 0,Numb = 0,Paranoia = 0,Parasite = 0,Perforated = 0,Poison = 0,Power = 0,Promoted = 0,Reload = 0,Shame = 0,Shielded = 0,Sin = 0,Slow = 0,SpiritualChains = 0,Staggered = 0,Stunned = 0,Summon = 0,Suppresed = 0,Voyage = 0,Adaptable = 0,Focused = 0,Shielded = 0,},
 		extras={Aura = 0,Activated = 0,Mode = 0},
 		tokens={},
 		health={current=-1,max= 9},
 		base={size=30,color=Color(1,0.5,1)},
 		imageScale=1.5,
+		isLocked=false,  -- Add this line
 		
 		moveHistory={},
 		
-
 		referenceCard = { GUID = '', obj = nil},
-	
+
 	};
 
 	local UIStatus = {
@@ -28,7 +31,35 @@ TRH_Class ="mini"
 		Black = {rotation = -2},
 		Grey = {rotation = -2},
 	};
+	
+-- Lock/Unlock button configuration
+local LOCK_ICON_URL = "https://raw.githubusercontent.com/farabaugh100/malifauxtts/Temporals_Branch/assets/img/baseMod/Locked_Icon.png"
+local UNLOCK_ICON_URL = "https://raw.githubusercontent.com/farabaugh100/malifauxtts/Temporals_Branch/assets/img/baseMod/Unlocked_Icon.png"
+local LOCK_BUTTON_COLOR = "#FFFFFF"  -- Colour for locked
+local UNLOCK_BUTTON_COLOR = "#FFFFFF"  -- Colour for unlocked
+	
+-- function to sync the lock button appearance
 
+	function SyncLockButton()
+		if not self.UI then return end
+		
+		local iconUrl = state.isLocked and LOCK_ICON_URL or UNLOCK_ICON_URL
+		-- Use same transparency as your health bar background (50%)
+		local buttonColor = "#FFFFFF80"  -- 50% transparent white
+		
+		for k,color in pairs({'Red', 'Blue','Grey','Black'}) do
+			self.UI.setAttributes(color .. "_LockButton", {
+				image = iconUrl,
+				color = buttonColor
+			});
+		end
+	end
+	
+	function UI_ToggleLock(player, alt)
+		if alt ~= '-3' then
+			ToggleLock()
+		end
+	end
 	
 
 ------ LIFE CICLE EVENTS --------------------
@@ -47,7 +78,12 @@ TRH_Class ="mini"
 		self.UI.setXml(ui())
 		RefreshModelShape()
 		showAura()
-		Wait.frames(function()resetPlayerRotation()end,60)
+		
+		-- Delay the SyncLockButton call to let UI fully initialize
+		Wait.frames(function()
+			resetPlayerRotation()
+			SyncLockButton()  -- Move this here, after UI is ready
+		end, 60)
 		
 	end
 	
@@ -66,35 +102,50 @@ TRH_Class ="mini"
 				HUDLookAtPlayer(player);
 			end
 		end
+		
+		-- Check if lock state changed
+		local currentLockState = self.getLock()
+		if currentLockState ~= state.isLocked then
+			state.isLocked = currentLockState
+			SyncLockButton()
+		end
 	end
 
 	function recoverState(save)
-        if save.state ~= nil then
-            local defaults = state.conditions          -- your zero-defaults from the literal table
+		if save.state ~= nil then
+			local defaults = state.conditions          -- your zero-defaults from the literal table
 			local defaults2 = state.extras
-            state = save.state
+			state = save.state
 			if state.extras==nil then
-                state.extras={Aura = 0,Activated = 0,Mode = 0}
-            end
-            -- re-apply any missing condition keys back to zero
-            for name,_ in pairs(defaults) do
-              state.conditions[name] = state.conditions[name] or 0
-            end
+				state.extras={Aura = 0,Activated = 0,Mode = 0}
+			end
+			-- Add this line to ensure isLocked is preserved
+			if state.isLocked == nil then
+				state.isLocked = false
+			end
+			-- re-apply any missing condition keys back to zero
+			for name,_ in pairs(defaults) do
+			  state.conditions[name] = state.conditions[name] or 0
+			end
 
 			for name,_ in pairs(defaults2) do
 				state.extras[name] = state.extras[name] or 0
 			end
-            -- ensure Mode is still defined
-            state.extras.Mode = state.extras.Mode or 0
-        else 
-            
-            originalData = save.originalData;
-            state.health = originalData.health;
-            state.base = originalData.base;
-            state.imageScale = originalData.imageScale;
-            state.base.color = Color(state.base.color); 
-        end
-		
+			-- ensure Mode is still defined
+			state.extras.Mode = state.extras.Mode or 0
+		else 
+			
+			originalData = save.originalData;
+			state.health = originalData.health;
+			state.base = originalData.base;
+			state.imageScale = originalData.imageScale;
+			state.base.color = Color(state.base.color); 
+			-- Add this line for backward compatibility
+			if state.isLocked == nil then
+				state.isLocked = false
+			end
+		end
+		self.setLock(state.isLocked)
 
 		-- TODO Modify State With original Data
 	end
@@ -128,8 +179,7 @@ TRH_Class ="mini"
 
 	function ModifyCondition(params)
 		local extrasKeys = { Mode = true, Aura = true, Activated = true }
-
-		local previousValue = 0;
+		local previousValue = 0
 
 		if extrasKeys[params.name] then 
 			local previousValue = state.extras[params.name]
@@ -145,7 +195,6 @@ TRH_Class ="mini"
 		else 
 			local previousValue = state.conditions[params.name]
 			if params.amount == 0 then -- toggle
-                
 				state.conditions[params.name] = math.max(0, 1 - state.conditions[params.name])
 			else
 				if Conditions[params.name].loop ~= nil then
@@ -154,27 +203,89 @@ TRH_Class ="mini"
 					state.conditions[params.name] = math.max(0, state.conditions[params.name] + params.amount)
 				end
 			end
+			
+			-- Update description when condition changes (only for non-extras)
+			UpdateDescriptionWithConditions()
 		end
 		
-		local states  = self.getData();
-
+		local states = self.getData()
 		Sync()
-	
+
 		if extrasKeys[params.name] then
 			print(self.getData().Nickname .. [[: ']] .. params.name .. [[' ]] .. previousValue .. [[->]] .. state.extras[params.name])
 			SyncExtra(params.name)
 		else
-            
 			print(self.getData().Nickname .. [[: ']] .. params.name .. [[' ]] .. previousValue .. [[->]] .. state.conditions[params.name])
 			SyncCondition(params.name)
 		end
-
-
 	end
 
 	function ModifyMoveRange(params)
 		state.move.moveRange = math.max(0, state.move.moveRange + params.amount);
 	end
+	
+------ ADD STATUS TO DESCRIPTION ------------
+	function GetConditionsFromDescription()
+		local desc = self.getDescription()
+		local conditions = {}
+		
+		-- Split description by newlines and look for condition names
+		for line in desc:gmatch("[^\r\n]+") do
+			local trimmedLine = line:match("^%s*(.-)%s*$") -- trim whitespace
+			if Conditions[trimmedLine] then
+				conditions[trimmedLine] = true
+			end
+		end
+		
+		return conditions
+	end
+
+	function GetBaseDescription()
+		local desc = self.getDescription()
+		local lines = {}
+		
+		-- Split by newlines and keep only non-condition lines
+		for line in desc:gmatch("[^\r\n]+") do
+			local trimmedLine = line:match("^%s*(.-)%s*$") -- trim whitespace
+			if not Conditions[trimmedLine] then
+				table.insert(lines, line)
+			end
+		end
+		
+		return table.concat(lines, "\n")
+	end
+	
+	function UpdateDescriptionWithConditions()
+		local baseDesc = GetBaseDescription()
+		local activeConditions = {}
+		
+		-- Collect all active conditions
+		for conditionName, value in pairs(state.conditions) do
+			if value > 0 then
+				table.insert(activeConditions, conditionName)
+			end
+		end
+		
+		-- Sort conditions alphabetically for consistency
+		table.sort(activeConditions)
+		
+		-- Build new description
+		local newDesc = baseDesc
+		if #activeConditions > 0 then
+			if newDesc ~= "" then
+				newDesc = newDesc .. "\n"
+			end
+			newDesc = newDesc .. table.concat(activeConditions, "\n")
+		end
+		
+		self.setDescription(newDesc)
+	end
+	
+	function CleanDescription()
+		local baseDesc = GetBaseDescription()
+		self.setDescription(baseDesc)
+		UpdateDescriptionWithConditions()
+	end	
 
 ------ MODEL MANIPULATION -------------------
 	
@@ -212,6 +323,16 @@ TRH_Class ="mini"
 			self.setColorTint( Color(state.base.color):lerp(Color.white, 0.45) )
 		end
 	end
+	
+-- function to toggle lock state
+function ToggleLock()
+    state.isLocked = not state.isLocked
+    self.setLock(state.isLocked)
+    SyncLockButton()
+    print(self.getData().Nickname .. " is now " .. (state.isLocked and "locked" or "unlocked"))
+end	
+	
+	
 ------ UI GENERATION ------------------------
 	function calculatePlayerRotation()
 		for _, player in ipairs(Player.getPlayers()) do
@@ -221,6 +342,7 @@ TRH_Class ="mini"
 	function Sync()
         resetPlayerRotation()
 		self.UI.setXml(ui())
+		SyncLockButton()
 		--propagateToReferenceCard()
 	end
 	
@@ -329,19 +451,26 @@ TRH_Class ="mini"
 		return [[
 			<Panel id='PlayerHUD_Container' active='true' height="80" width="60" rectAlignment="MiddleCenter"  rotation='-35 0 0' position='0 0 0' childForceExpandWidth="false">]]..
 			Compact_HUDConditions(color) ..
-				[[<ProgressBar width="100%" height="20" id="]] .. color .. [[_HealthBar" color='#00000080' fillImageColor="#44AA22FF" percentage="]] ..(state.health.current / state.health.max * 100) .. [[" textColor="#00000000"/>  ]] ..
-				[[<Text id=']] .. color .. [[_HealthBar_Text' fontSize='18' height="20" onClick='UI_ModifyHealth' text=']] .. state.health.current.. [[/]] .. state.health.max.. [[' color='#ffffff' fontStyle='Bold' outline='#000000' outlineSize='1 1' />]] ..
-			[[</Panel>
+			[[<Panel width="100%" height="20" rectAlignment="MiddleCenter">]] ..
+				-- Lock position
+				[[<Image id="]] .. color .. [[_LockButton" width="20" height="20" rectAlignment="MiddleCenter" position="-45 0 0" onClick="UI_ToggleLock" image="]] .. (state.isLocked and LOCK_ICON_URL or UNLOCK_ICON_URL) .. [[" color="#FF0000"/>]] ..
+				[[<ProgressBar width="80%" height="20" id="]] .. color .. [[_HealthBar" color='#00000080' fillImageColor="#44AA22FF" percentage="]] ..(state.health.current / state.health.max * 100) .. [[" textColor="#00000000" rectAlignment="MiddleCenter"/>]] ..
+				[[<Text id=']] .. color .. [[_HealthBar_Text' fontSize='18' height="20" onClick='UI_ModifyHealth' text=']] .. state.health.current.. [[/]] .. state.health.max.. [[' color='#ffffff' fontStyle='Bold' outline='#000000' outlineSize='1 1' rectAlignment="MiddleCenter"/>]] ..
+			[[</Panel>]] ..
+		[[</Panel>
 		]]
 	end
-
 
 	function PlayerHUDContainer(color)
 		return [[
 			<Panel id='PlayerHUD_Container' active='true' height="80" width="128" rectAlignment="MiddleCenter"  rotation='-35 0 0' position='0 50 0' childForceExpandWidth="false">]]..
 				HUDConditions(color) ..
-				[[<ProgressBar width="100%" height="30" id="]] .. color .. [[_HealthBar" color='#00000080' fillImageColor="#44AA22FF" percentage="]] ..(state.health.current / state.health.max * 100) .. [[" textColor="#00000000"/>  ]] ..
-				[[<Text id=']] .. color .. [[_HealthBar_Text' fontSize='25' height="30" onClick='UI_ModifyHealth' text=']] .. state.health.current.. [[/]] .. state.health.max.. [[' color='#ffffff' fontStyle='Bold' outline='#000000' outlineSize='1 1' />]] ..
+				[[<Panel width="100%" height="30" rectAlignment="MiddleCenter">]] ..
+					-- Lock Position
+					[[<Image id="]] .. color .. [[_LockButton" width="25" height="25" rectAlignment="MiddleCenter" position="-80 0 0" onClick="UI_ToggleLock" image="]] .. (state.isLocked and LOCK_ICON_URL or UNLOCK_ICON_URL) .. [[" color="#FF0000"/>]] ..
+					[[<ProgressBar width="80%" height="30" id="]] .. color .. [[_HealthBar" color='#00000080' fillImageColor="#44AA22FF" percentage="]] ..(state.health.current / state.health.max * 100) .. [[" textColor="#00000000" rectAlignment="MiddleCenter"/>]] ..
+					[[<Text id=']] .. color .. [[_HealthBar_Text' fontSize='25' height="30" onClick='UI_ModifyHealth' text=']] .. state.health.current.. [[/]] .. state.health.max.. [[' color='#ffffff' fontStyle='Bold' outline='#000000' outlineSize='1 1' rectAlignment="MiddleCenter"/>]] ..
+				[[</Panel>]] ..
 			[[</Panel>
 		]]
 	end
@@ -405,61 +534,94 @@ TRH_Class ="mini"
 	function UI_ModifyActivated(p,alt) UI_ModifyCondition("0","Activated") end
 	function UI_ModifyMode(p,alt) UI_ModifyCondition("0","Mode") end
 	function UI_ModifyHealth(p,alt) if alt ~= '-3' then ModifyHealth({amount= (alt == '-1' and 1 or (alt == '-2' and -1) or 0 ) }) end end
-
+	function HUDSingleCondition(color,name,x,y,size)
+	--REPLACE WITH CONTENTS OF model prototype 2 GOOGLE DOC
+	function UI_ModifyAbandoned(p,alt) UI_ModifyCondition("0","Abandoned") end
 	function UI_ModifyAdaptable(p,alt) UI_ModifyCondition("0","Adaptable") end
 	function UI_ModifyAdversary(p,alt) UI_ModifyCondition("0","Adversary") end
 	function UI_ModifyAnalyzed(p,alt) UI_ModifyCondition("0","Analyzed") end
 	function UI_ModifyAuraBinding(p,alt) UI_ModifyCondition("0","AuraBinding") end
+	function UI_ModifyAuraConcealment(p,alt) UI_ModifyCondition("0","AuraConcealment") end
 	function UI_ModifyAuraFire(p,alt) UI_ModifyCondition("0","AuraFire") end
 	function UI_ModifyAuraFumes(p,alt) UI_ModifyCondition("0","AuraFumes") end
+	function UI_ModifyAuraHazardous(p,alt) UI_ModifyCondition("0","AuraHazardous") end
 	function UI_ModifyAuraNegligent(p,alt) UI_ModifyCondition("0","AuraNegligent") end
 	function UI_ModifyAuraStaggered(p,alt) UI_ModifyCondition("0","AuraStaggered") end
-	function UI_ModifyAuraConcealment(p,alt) UI_ModifyCondition("0","AuraConcealment") end
-	function UI_ModifyAuraHazardous(p,alt) UI_ModifyCondition("0","AuraHazardous") end
 	function UI_ModifyBacktrack(p,alt) UI_ModifyCondition("0","Backtrack") end
-	function UI_ModifyBolstered(p,alt) UI_ModifyCondition("0","Bolstered") end
+	function UI_ModifyBadge(p,alt) UI_ModifyCondition("0","Badge") end
+	function UI_ModifyBalm(p,alt) UI_ModifyCondition("0","Balm") end
 	function UI_ModifyBogSpirit(p,alt) UI_ModifyCondition("0","BogSpirit") end
+	function UI_ModifyBolstered(p,alt) UI_ModifyCondition("0","Bolstered") end
+	function UI_ModifyBounty(p,alt) UI_ModifyCondition("0","Bounty") end
+	function UI_ModifyBlight(p,alt) UI_ModifyCondition("0","Blight") end
 	function UI_ModifyBrilliance(p,alt) UI_ModifyCondition("0","Brilliance") end
 	function UI_ModifyBroodling(p,alt) UI_ModifyCondition("0","Broodling") end
 	function UI_ModifyBurning(p,alt) UI_ModifyCondition("0","Burning") end
 	function UI_ModifyChallenged(p,alt) UI_ModifyCondition("0","Challenged") end
+	function UI_ModifyChi(p,alt) UI_ModifyCondition("0","Chi") end
+	function UI_ModifyConvert(p,alt) UI_ModifyCondition("0","Convert") end
+	function UI_ModifyCoveredInBlood(p,alt) UI_ModifyCondition("0","CoveredInBlood") end
 	function UI_ModifyCraven(p,alt) UI_ModifyCondition("0","Craven") end
 	function UI_ModifyCruelWhispers(p,alt) UI_ModifyCondition("0","CruelWhispers") end
+	function UI_ModifyDeath(p,alt) UI_ModifyCondition("0","Death") end
 	function UI_ModifyDistracted(p,alt) UI_ModifyCondition("0","Distracted") end
+	function UI_ModifyDrift(p,alt) UI_ModifyCondition("0","Drift") end
 	function UI_ModifyEngorged(p,alt) UI_ModifyCondition("0","Engorged") end
 	function UI_ModifyEntranced(p,alt) UI_ModifyCondition("0","Entranced") end
+	function UI_ModifyLife(p,alt) UI_ModifyCondition("0","Life") end
+	function UI_ModifyFamilia(p,alt) UI_ModifyCondition("0","Familia") end
 	function UI_ModifyFast(p,alt) UI_ModifyCondition("0","Fast") end
+	function UI_ModifyFate(p,alt) UI_ModifyCondition("0","Fate") end
 	function UI_ModifyFlicker(p,alt) UI_ModifyCondition("0","Flicker") end
 	function UI_ModifyFocused(p,alt) UI_ModifyCondition("0","Focused") end
 	function UI_ModifyFragileEgo(p,alt) UI_ModifyCondition("0","FragileEgo") end
 	function UI_ModifyFright(p,alt) UI_ModifyCondition("0","Fright") end
+	function UI_ModifyFrozenSolid(p,alt) UI_ModifyCondition("0","FrozenSolid") end
 	function UI_ModifyGlowy(p,alt) UI_ModifyCondition("0","Glowy") end
+	function UI_ModifyCheeseinyourPockets(p,alt) UI_ModifyCondition("0","CheeseinyourPockets") end
+	function UI_ModifyGnawedtoDeath(p,alt) UI_ModifyCondition("0","GnawedtoDeath") end
 	function UI_ModifyGreedy(p,alt) UI_ModifyCondition("0","Greedy") end
 	function UI_ModifyHastened(p,alt) UI_ModifyCondition("0","Hastened") end
+	function UI_ModifyHunger(p,alt) UI_ModifyCondition("0","Hunger") end
 	function UI_ModifyImpact(p,alt) UI_ModifyCondition("0","Impact") end
 	function UI_ModifyImprovisedPart(p,alt) UI_ModifyCondition("0","ImprovisedPart") end
 	function UI_ModifyInjured(p,alt) UI_ModifyCondition("0","Injured") end
 	function UI_ModifyInsight(p,alt) UI_ModifyCondition("0","Insight") end
+	function UI_ModifyNewBlood(p,alt) UI_ModifyCondition("0","NewBlood") end
+	function UI_ModifyNumb(p,alt) UI_ModifyCondition("0","Numb") end
 	function UI_ModifyParanoia(p,alt) UI_ModifyCondition("0","Paranoia") end
 	function UI_ModifyParasite(p,alt) UI_ModifyCondition("0","Parasite") end
 	function UI_ModifyPerforated(p,alt) UI_ModifyCondition("0","Perforated") end
 	function UI_ModifyPoison(p,alt) UI_ModifyCondition("0","Poison") end
 	function UI_ModifyPower(p,alt) UI_ModifyCondition("0","Power") end
+	function UI_ModifyPromoted(p,alt) UI_ModifyCondition("0","Promoted") end
 	function UI_ModifyReload(p,alt) UI_ModifyCondition("0","Reload") end
 	function UI_ModifyShame(p,alt) UI_ModifyCondition("0","Shame") end
 	function UI_ModifyShielded(p,alt) UI_ModifyCondition("0","Shielded") end
+	function UI_ModifySin(p,alt) UI_ModifyCondition("0","Sin") end
 	function UI_ModifySlow(p,alt) UI_ModifyCondition("0","Slow") end
 	function UI_ModifySpiritualChains(p,alt) UI_ModifyCondition("0","SpiritualChains") end
 	function UI_ModifyStaggered(p,alt) UI_ModifyCondition("0","Staggered") end
 	function UI_ModifyStunned(p,alt) UI_ModifyCondition("0","Stunned") end
 	function UI_ModifySummon(p,alt) UI_ModifyCondition("0","Summon") end
 	function UI_ModifySuppresed(p,alt) UI_ModifyCondition("0","Suppresed") end
-	function UI_ModifyHunger(p,alt) UI_ModifyCondition("0","Hunger") end
+	function UI_ModifyVoyage(p,alt) UI_ModifyCondition("0","Voyage") end
 	function UI_ModifyAdaptable(p,alt) UI_ModifyCondition("0","Adaptable") end
 	function UI_ModifyFocused(p,alt) UI_ModifyCondition("0","Focused") end
 	function UI_ModifyShielded(p,alt) UI_ModifyCondition("0","Shielded") end
 
-	function HUDSingleCondition(color,name,x,y,size)
+
+
+
+
+
+
+
+	--REPLACE WITH CONTENTS OF model prototype 2 GOOGLE DOC
+
+
+
+
 	
 		local id = "ConditionFrame_" .. name ;
 
@@ -496,62 +658,97 @@ TRH_Class ="mini"
 		Aura = { url="https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/movenode.png", color="#99aa22", stacks=true },
 		Activated  = { url="https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/flag.png", color="#bbbb22", stacks=false },
 		Mode  = { url="https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/gear.png", color="#bbffbb", stacks=false, loop = 2 },
+		--REPLACE WITH CONTENTS OF model prototype 1 GOOGLE DOC
+		Abandoned ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Abandoned.png", color="#FFFFFF",stacks=false},
+	Adaptable ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Adaptable.png", color="#FFFFFF",stacks=false},
+	Adversary ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Adversary.png", color="#DF2020",stacks=false},
+	Analyzed ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Analyzed.png", color="#FFFFFF",stacks=false},
+	AuraBinding ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Aura%20(Binding).png", color="#FFFFFF",stacks=false},
+	AuraConcealment ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Aura%20(Concealment).png", color="#FFFFFF",stacks=false},
+	AuraFire ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Aura%20(Fire).png", color="#FFFFFF",stacks=false},
+	AuraFumes ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Aura%20(Fumes).png", color="#FFFFFF",stacks=false},
+	AuraHazardous ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Aura%20(Hazardous).png", color="#FFFFFF",stacks=false},
+	AuraNegligent ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Aura%20(Negligent).png", color="#FFFFFF",stacks=false},
+	AuraStaggered ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Aura%20(Staggered).png", color="#FFFFFF",stacks=false},
+	Backtrack ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Backtrack.png", color="#FFFFFF",stacks=false},
+	Badge ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Badge.png", color="#FFFFFF",stacks=false},
+	Balm ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Balm.png", color="#FFFFFF",stacks=false},
+	BogSpirit ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Bog%20Spirit.png", color="#FFFFFF",stacks=false},
+	Bolstered ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Bolstered.png", color="#F53423",stacks=false},
+	Bounty ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Bounty.png", color="#FFFFFF",stacks=false},
+	Blight ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Blight.png", color="#FFFFFF",stacks=false},
+	Brilliance ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Brilliance.png", color="#FFFFFF",stacks=false},
+	Broodling ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Broodling.png", color="#FFFFFF",stacks=false},
+	Burning ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Burning.png", color="#DB8E47",stacks=false},
+	Challenged ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Challenged.png", color="#FFFFFF",stacks=false},
+	Chi ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Chi.png", color="#FFFFFF",stacks=false},
+	Convert ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Convert.png", color="#FFFFFF",stacks=false},
+	CoveredInBlood ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Covered%20In%20Blood.png", color="#FFFFFF",stacks=false},
+	Craven ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Craven.png", color="#FF87DC",stacks=false},
+	CruelWhispers ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Cruel%20Whispers.png", color="#FFFFFF",stacks=false},
+	Death ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Death.png", color="#FFFFFF",stacks=false},
+	Distracted ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Distracted.png", color="#FF42CF",stacks=false},
+	Drift ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Drift.png", color="#FFFFFF",stacks=false},
+	Engorged ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Engorged.png", color="#FFFFFF",stacks=false},
+	Entranced ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Entranced.png", color="#A020F0",stacks=false},
+	Life ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Life.png", color="#FFFFFF",stacks=false},
+	Familia ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Familia.png", color="#FFFFFF",stacks=false},
+	Fast ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Fast.png", color="#E2D064",stacks=false},
+	Fate ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Fate.png", color="#FFFFFF",stacks=false},
+	Flicker ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Flicker.png", color="#FFFFFF",stacks=false},
+	Focused ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Focused.png", color="#9A37D3",stacks=false},
+	FragileEgo ={ url="https://github.com/farabaugh100/malifauxtts/blob/main/assets/Tokens/Fragile%20Ego.png?raw=true", color="#FFFFFF",stacks=false},
+	Fright ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Fright.png", color="#FFFFFF",stacks=false},
+	FrozenSolid ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Frozen%20Solid.png", color="#FFFFFF",stacks=false},
+	Glowy ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Glowy.png", color="#FFFFFF",stacks=false},
+	CheeseinyourPockets ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/CheeseInYourPockets.png", color="#FFFFFF",stacks=false},
+	GnawedtoDeath ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/GnawedToDeath.png", color="#FFFFFF",stacks=false},
+	Greedy ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Greedy.png", color="#FFFFFF",stacks=false},
+	Hastened ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Hastened.png", color="#FEE711",stacks=false},
+	Hunger ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Hunger.png", color="#FFFFFF",stacks=false},
+	Impact ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Impact.png", color="#E9B175",stacks=false},
+	ImprovisedPart ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Tokens/ImprovisedPart.png", color="#FFFFFF",stacks=false},
+	Injured ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Injured.png", color="#920606",stacks=false},
+	Insight ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Insight.png", color="#B7FFDF",stacks=false},
+	NewBlood ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/NewBlood.png", color="#FFFFFF",stacks=false},
+	Numb ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Numb.png", color="#FFFFFF",stacks=false},
+	Paranoia ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Paranoia.png", color="#FFFFFF",stacks=false},
+	Parasite ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Parasite.png", color="#FFFFFF",stacks=false},
+	Perforated ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Perforated.png", color="#FFFFFF",stacks=false},
+	Poison ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Poisoned.png", color="#83CD4D",stacks=false},
+	Power ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Power.png", color="#FFFFFF",stacks=false},
+	Promoted ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Promoted.png", color="#FFFFFF",stacks=false},
+	Reload ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Reload.png", color="#FFFFFF",stacks=false},
+	Shame ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Shame.png", color="#FFFFFF",stacks=false},
+	Shielded ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Shielded.png", color="#6AC3FF",stacks=false},
+	Sin ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Sin.png", color="#FFFFFF",stacks=false},
+	Slow ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Slowed.png", color="#B8B8B8",stacks=false},
+	SpiritualChains ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/SpiritualChains.png", color="#FFFFFF",stacks=false},
+	Staggered ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Staggered.png", color="#138C01",stacks=false},
+	Stunned ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Stunned.png", color="#FFFFFF",stacks=false},
+	Summon ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Summon.png", color="#FFFFFF",stacks=false},
+	Suppresed ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Suppressed.png", color="#FFFFFF",stacks=false},
+	Voyage ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Voyage.png", color="#FFFFFF",stacks=false},
+	Adaptable ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Adaptable.png", color="#FFFFFF",stacks=false},
+	Focused ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Focused.png", color="#9A37D3",stacks=false},
+	Shielded ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Shielded.png", color="#6AC3FF",stacks=false},
 
-		Adaptable ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Adaptable.png", color="#FFFFFF",stacks=false},
-		Adversary ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Adversary.png", color="#DF2020",stacks=false},
-		Analyzed ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Analyzed.png", color="#FFFFFF",stacks=false},
-		AuraBinding ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Aura%20(Binding).png", color="#FFFFFF",stacks=false},
-		AuraFire ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Aura%20(Fire).png", color="#FFFFFF",stacks=false},
-		AuraFumes ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Aura%20(Fumes).png", color="#FFFFFF",stacks=false},
-		AuraNegligent ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Aura%20(Negligent).png", color="#FFFFFF",stacks=false},
-		AuraStaggered ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Aura%20(Staggered).png", color="#FFFFFF",stacks=false},
-		AuraConcealment ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Aura%20(Concealment).png", color="#FFFFFF",stacks=false},
-		AuraHazardous ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Aura%20(Hazardous).png", color="#FFFFFF",stacks=false},
-		Backtrack ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Backtrack.png", color="#FFFFFF",stacks=false},
-		Bolstered ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Bolstered.png", color="#F53423",stacks=false},
-		BogSpirit ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Bog%20Spirit.png", color="#FFFFFF",stacks=false},
-		Brilliance ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Brilliance.png", color="#FFFFFF",stacks=false},
-		Broodling ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Broodling.png", color="#FFFFFF",stacks=false},
-		Burning ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Burning.png", color="#DB8E47",stacks=false},
-		Challenged ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Challenged.png", color="#FFFFFF",stacks=false},
-		Craven ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Craven.png", color="#FF87DC",stacks=false},
-		CruelWhispers ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Cruel%20Whispers.png", color="#FFFFFF",stacks=false},
-		Distracted ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Distracted.png", color="#FF42CF",stacks=false},
-		Engorged ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Engorged.png", color="#FFFFFF",stacks=false},
-		Entranced ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Entranced.png", color="#A020F0",stacks=false},
-		Fast ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Fast.png", color="#E2D064",stacks=false},
-		Flicker ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Flicker.png", color="#FFFFFF",stacks=false},
-		Focused ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Focused.png", color="#9A37D3",stacks=false},
-		FragileEgo ={ url="https://github.com/farabaugh100/malifauxtts/blob/main/assets/Tokens/Fragile%20Ego.png?raw=true", color="#FFFFFF",stacks=false},
-		Fright ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Fright.png", color="#FFFFFF",stacks=false},
-		Glowy ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Glowy.png", color="#FFFFFF",stacks=false},
-		Greedy ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Greedy.png", color="#FFFFFF",stacks=false},
-		Hastened ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Hastened.png", color="#FEE711",stacks=false},
-		Impact ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Impact.png", color="#E9B175",stacks=false},
-		ImprovisedPart ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/img/Tokens/ImprovisedPart.png", color="#FFFFFF",stacks=false},
-		Injured ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Injured.png", color="#920606",stacks=false},
-		Insight ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Insight.png", color="#B7FFDF",stacks=false},
-		Paranoia ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Paranoia.png", color="#FFFFFF",stacks=false},
-		Parasite ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Parasite.png", color="#FFFFFF",stacks=false},
-		Perforated ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Perforated.png", color="#FFFFFF",stacks=false},
-		Poison ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Poisoned.png", color="#83CD4D",stacks=false},
-		Power ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Power.png", color="#FFFFFF",stacks=false},
-		Reload ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Reload.png", color="#FFFFFF",stacks=false},
-		Shame ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Shame.png", color="#FFFFFF",stacks=false},
-		Shielded ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Shielded.png", color="#6AC3FF",stacks=false},
-		Slow ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Slowed.png", color="#B8B8B8",stacks=false},
-		SpiritualChains ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/SpiritualChains.png", color="#FFFFFF",stacks=false},
-		Staggered ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Staggered.png", color="#138C01",stacks=false},
-		Stunned ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Stunned.png", color="#FFFFFF",stacks=false},
-		Summon ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Summon.png", color="#FFFFFF",stacks=false},
-		Suppresed ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Suppressed.png", color="#FFFFFF",stacks=false},
-		Hunger ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/refs/heads/main/assets/Tokens/Hunger.png", color="#FFFFFF",stacks=false},
-		Adaptable ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Adaptable.png", color="#FFFFFF",stacks=false},
-		Focused ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Focused.png", color="#9A37D3",stacks=false},
-		Shielded ={ url="https://raw.githubusercontent.com/farabaugh100/malifauxtts/main/assets/img/Tokens/Shielded.png", color="#6AC3FF",stacks=false},
+
+
+
+
+
+
+
+		--REPLACE WITH CONTENTS OF model prototype 1 GOOGLE DOC
+
+
 
 		
 	}
+	
+	
+	
 
 ------ Object SPAWMERS ----------------------
 
@@ -626,7 +823,8 @@ TRH_Class ="mini"
 	end
 ------ Wip ----------------------------------
 	function addMarker(config)
-		
+		log("hi")
+		print(config)
         local name=config.name:gsub("%(",""):gsub("%)",""):gsub("%s+","")
 		if Conditions[name] then
 			if state.conditions[name]==0 then
