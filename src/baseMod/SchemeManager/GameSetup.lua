@@ -18,7 +18,8 @@ local defaultstate = {
     strategies = {"Boundary Dispute","Informants","Plant Explosives","Recover Evidence"},
     deployment = {"Corner","Wedge","Standard","Flank"},
     players = {"Blue","Red"},
-    game_setup= true,
+    game_setup = true,
+    deploy_state = false,
     strategy_selected = 1,
     schemes_selected = {1,2,3},
     deployment_selected = 1,
@@ -33,6 +34,12 @@ local defaultstate = {
                 height = 1400,
                 width = 1400*5,
                 label = "Rotate Deployment"
+            },
+    hide_deploy={
+                pos = {1.25,0.1,1.45},
+                height = 1400,
+                width = 1400*3,
+                label = "Hide/Reveal"
             },
     checkbox={
             {
@@ -95,18 +102,23 @@ local defaultstate = {
 
         spawnedButtonCount = 0
         --myDeck = getObjectFromGUID("697be6")f4ffc1
-        tablet = getObjectFromGUID("be63ce")
+        tablet = getObjectFromGUID("239ba9")
         myDeck = getObjectFromGUID("96bc1e")
         bmanager = getObjectFromGUID("b1938a")
         rmanager = getObjectFromGUID("47995f")
         menumanager = getObjectFromGUID("15fc7f")
-        tag = "setup"
+        boundaryDispute = getObjectFromGUID("f26c14")
+        informants = getObjectFromGUID("bdcaa6")
+        plantExplosives = getObjectFromGUID("c1d250")
+        recoverEvidence = getObjectFromGUID("8e625b")
+        tag = "strategy"
         createCheckbox()
         createDeployToggle()
         createStrategyToggle()
         createSchemeToggle()
         createStartButton()
         createDeployButton()
+        createHideDeployButton()
     end
 
     function createStartButton()
@@ -141,6 +153,21 @@ local defaultstate = {
         })
     end
     
+    function createHideDeployButton()
+        data = state.hide_deploy
+        --Sets up reference function
+        local funcName = "hide"
+        local func = function() hide_deploy() end
+        self.setVar(funcName, func)
+        
+        --Creates button and counts it
+        self.createButton({
+            label=data.label, click_function=funcName, function_owner=self,
+            position=data.pos, height=data.height, width=data.width,
+            font_size=data.height, scale=buttonScale,
+            color=buttonColor, font_color=buttonFontColor
+        })
+    end
 
     function createCheckbox()
         for i, data in pairs(state.checkbox) do 
@@ -265,6 +292,18 @@ local defaultstate = {
     
     end
 
+    function hide_deploy()
+        
+        if state.deploy_state == true then
+            menumanager.call("ChangeModeDeployment", 0)
+            state.deploy_state = false
+        else 
+            menumanager.call("ChangeModeDeployment", state.deployment_selected)
+            state.deploy_state = true
+        end
+
+    end
+
     function setup_game()
 
         math.randomseed(os.time())
@@ -274,6 +313,8 @@ local defaultstate = {
         local strategy = nil
         local attacker = state.players[math.random(2)]
         local copy = state.schemes
+
+        --Parse form settings
 
         if state.checkbox[1].state == true then strategy = state.strategies[math.random(4)] 
         else strategy = state.strategies[state.strategy_selected]
@@ -289,22 +330,48 @@ local defaultstate = {
             selected = {state.schemes[state.schemes_selected[1]], state.schemes[state.schemes_selected[2]], state.schemes[state.schemes_selected[3]]}
         end
 
-        if state.checkbox[3].state == true then deployment = state.deployment[math.random(4)]
-        else deployment = state.deployment[state.deployment_selected]
+        if state.checkbox[3].state == true then 
+            value = math.random(4)
+            deployment = state.deployment[value]
+            state.deployment_selected = value
+        else 
+            deployment = state.deployment[state.deployment_selected]
         end
+
+        --Setup Deployment 
 
         local deployIdx = getIndexOfItem(state.deployment, deployment)
         menumanager.call("ChangeModeDeployment", deployIdx)
+        state.deploy_state = true
 
-        broadcastToAll("Deployment is: "..deployment) 
-        broadcastToAll("Strategy is: "..strategy)
-        broadcastToAll("Attacker is: "..attacker)
+        --Setup Strategy
+
+        setupStrategy(strategy)
+        cloneCardFromDeck(strategy)
+
+        --Setup Schemes
 
         bmanager.call("set_startingschemes", {selected})
         rmanager.call("set_startingschemes", {selected})
 
-        cloneCardFromDeck(strategy)
+        --Broadcast Game Setup
+
+        broadcastToAll("Deployment is: "..deployment) 
+        broadcastToAll("Strategy is: "..strategy)
+        broadcastToAll("Attacker is: "..attacker)
     end
+
+    function setupStrategy(strat)
+
+        if strat == "Boundary Dispute" then boundaryDispute.call("setUpStrat")
+            elseif strat == "Informants" then informants.call("setUpStrat")
+            elseif strat == "Plant Explosives" then plantExplosives.call("setUpStrat")
+            elseif strat == "Recover Evidence" then recoverEvidence.call("setUpStrat")
+            else print("Strategy "..strat.." not found!")
+        end
+
+    end
+
 
     function deleteSelf()
         Wait.frames(function() destroyObject(self) end, 1)
@@ -330,7 +397,8 @@ local defaultstate = {
                 local params = {
                     index = card.index,
                     position = getWorldPositionFromSnap(tablet, current_snap.position),
-                    smooth = false
+                    smooth = false,
+                    flip = true
                 }
                 myDeck.takeObject(params)
                 return

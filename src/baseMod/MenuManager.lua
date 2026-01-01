@@ -267,8 +267,8 @@ end
 ------------- UI SETUP -----------------------
 local GeneralMenuOptions = {
    -- Rebuild = { action = function() rebuildAssets() end, x=0, y=-1, image= "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/reload.png" },
-    ChangeDeployment = { action = function() ChangeModeDeployment() end, x=0, y =0, image= "https://steamusercontent-a.akamaihd.net/ugc/1755816788596196197/1D640D73C228B945161222D9AAA500E6F59A9F16/" },
-    RotateDeployment = { action = function() RotateDeployment() end, x=1, y =0, image= "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/reload.png" }  
+    --ChangeDeployment = { action = function() ChangeModeDeployment() end, x=0, y =0, image= "https://steamusercontent-a.akamaihd.net/ugc/1755816788596196197/1D640D73C228B945161222D9AAA500E6F59A9F16/" },
+    --RotateDeployment = { action = function() RotateDeployment() end, x=1, y =0, image= "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/reload.png" }  
 }
 
 function CallMenuAction(player,name)
